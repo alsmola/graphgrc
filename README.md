@@ -8,4 +8,4 @@ go run main.go
 
 # Documentation
 
-See [scf](SCF) and [soc2][SOC 2].
+See [SCF](scf/index.md) and [SOC 2](soc2/index.md).
