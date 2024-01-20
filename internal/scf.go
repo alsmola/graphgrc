@@ -127,7 +127,7 @@ func GenerateSCFMarkdown(scfControl Control, scfControlID SCFControlID, controlM
 	for framework, frameworkControlIDs := range controlMapping {
 		fcids := []string{}
 		for _, fcid := range frameworkControlIDs {
-			fcids = append(fcids, string(fcid))
+			fcids = append(fcids, fmt.Sprintf("[%s](../soc2/%s.md)", string(fcid), safeFileName(string(fcid))))
 		}
 		slices.Sort(fcids)
 		doc.H3(string(framework)).
@@ -159,7 +159,7 @@ func GetComplianceControlMappings(controls SCFControls) SCFControlMappings {
 	return controlMappings
 }
 
-func GenerateSCFIndex(scfControls SCFControls) error {
+func GenerateSCFIndex(scfControlMappings SCFControlMappings, scfControls SCFControls) error {
 	f, err := os.Create("scf/index.md")
 	if err != nil {
 		return err
@@ -167,8 +167,8 @@ func GenerateSCFIndex(scfControls SCFControls) error {
 	doc := md.NewMarkdown(f).
 		H1("SCF Controls")
 	controlLinks := []string{}
-	for scfControlID, _ := range scfControls {
-		controlLinks = append(controlLinks, fmt.Sprintf("[%s](scr/%s.md)", scfControlID, safeFileName(string(scfControlID))))
+	for scfControlID, _ := range scfControlMappings {
+		controlLinks = append(controlLinks, fmt.Sprintf("[%s](%s.md)", scfControlID, safeFileName(string(scfControlID))))
 	}
 	slices.Sort(controlLinks)
 	doc.BulletList(controlLinks...)

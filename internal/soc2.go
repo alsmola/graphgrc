@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"net/http"
 	"os"
 	"slices"
@@ -50,7 +49,7 @@ func GetSOC2Controls(url string, getFile bool) (FrameworkSummary, error) {
 	}
 	soc2File, err := os.Open("soc2.json")
 	defer soc2File.Close()
-	soc2Bytes, err := ioutil.ReadAll(soc2File)
+	soc2Bytes, err := io.ReadAll(soc2File)
 	if err != nil {
 		return frameworkSummary, err
 	}
@@ -71,21 +70,32 @@ func getFirstWord(input string) string {
 
 func GenerateSOC2Markdown(requirement Requirement, scfControlMapping SCFControlMappings) error {
 	socControlID := getFirstWord(requirement.Name)
-	f, err := os.Create(fmt.Sprintf("soc2/%s.md", safeFileName(requirement.ID)))
+	id := strings.ReplaceAll(requirement.ID, "cc_a", "a")
+	id = strings.ReplaceAll(id, "cc_c", "c")
+	f, err := os.Create(fmt.Sprintf("soc2/%s.md", safeFileName(id)))
 	if err != nil {
 		return err
 	}
 	doc := md.NewMarkdown(f).
-		H1(requirement.Name).
-		PlainText(requirement.Description).
-		H2("Mapped SCF controls")
+		H1(requirement.Name)
 
+	descriptions := parseSOC2Description(requirement.Description)
+	for heading, content := range descriptions {
+		if heading == "" {
+			doc.PlainText(content)
+		} else {
+			doc.H2(heading).PlainText(content)
+		}
+
+	}
+
+	doc.H2("Mapped SCF controls")
 	fcids := []string{}
 	for scfID, controlMapping := range scfControlMapping {
 		soc2FrameworkControlIDs := controlMapping["SOC 2"]
 		for _, fcid := range soc2FrameworkControlIDs {
 			if string(fcid) == socControlID {
-				fcids = append(fcids, string(scfID))
+				fcids = append(fcids, fmt.Sprintf("[%s](../scf/%s.md)", string(scfID), safeFileName(string(scfID))))
 			}
 		}
 	}
@@ -93,5 +103,21 @@ func GenerateSOC2Markdown(requirement Requirement, scfControlMapping SCFControlM
 	doc.BulletList(fcids...)
 	doc.Build()
 	return nil
+}
 
+func parseSOC2Description(description string) map[string]string {
+	descriptions := map[string]string{}
+	sentences := strings.Split(description, ". ")
+	lastHeader := ""
+	for _, sentence := range sentences {
+		if strings.Contains(sentence, " - ") {
+			parts := strings.Split(sentence, " - ")
+			descriptions[parts[0]] = parts[1]
+			lastHeader = parts[0]
+
+		} else {
+			descriptions[lastHeader] = fmt.Sprintf("%s. %s.", descriptions[lastHeader], sentence)
+		}
+	}
+	return descriptions
 }

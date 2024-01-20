@@ -18,7 +18,7 @@ func main() {
 	for scfControlID, controlMapping := range scfControlMappings {
 		internal.GenerateSCFMarkdown(scfControls[scfControlID], scfControlID, controlMapping)
 	}
-	internal.GenerateSCFIndex(scfControls)
+	internal.GenerateSCFIndex(scfControlMappings, scfControls)
 	soc2Link := "https://raw.githubusercontent.com/prowler-cloud/prowler/c3ecd2b3e5858b54098e179a568bc83bdbe2b82c/prowler/compliance/aws/soc2_aws.json"
 	frameworkSummary, err := internal.GetSOC2Controls(soc2Link, getFile)
 	if err != nil {
@@ -30,5 +30,5 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	internal.GenerateSCFIndex(scfControls)
+
 }

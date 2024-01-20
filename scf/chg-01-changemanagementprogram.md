@@ -1,0 +1,6 @@
+# CHG-01 - Change Management Program
+Mechanisms exist to facilitate the implementation of a change management program.
+## Mapped framework controls
+### SOC 2
+- [CC3.4](../soc2/cc34.md)
+- [CC8.1](../soc2/cc81.md)

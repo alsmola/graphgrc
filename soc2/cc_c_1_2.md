@@ -1,6 +1,0 @@
-# C1.2 The entity disposes of confidential information to meet the entity’s objectives related to confidentiality
-Identifies Confidential Information for Destruction - Procedures are in place to identify confidential information requiring destruction when the end of the retention period is reached. Destroys Confidential Information - Procedures are in place to erase or otherwise destroy confidential information that has been identified for destruction.
-## Mapped SCF controls
-- DCH-21 - Information Disposal
-- MON-10 - Event Log Retention
-- PRI-05 - Personal Data Retention & Disposal

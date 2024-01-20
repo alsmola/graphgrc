@@ -1,0 +1,1271 @@
+{
+    "Asset Management - Cloud Inventory": {
+        "pageID": "2029126910",
+        "scf": [
+            "AST-01 - Asset Governance",
+            "AST-01.2 - Stakeholder Identification & Involvement",
+            "AST-02 - Asset Inventories",
+            "AST-02.1 - Updates During Installations / Removals",
+            "AST-02.2 - Automated Unauthorized Component Detection",
+            "AST-02.3 - Component Duplication Avoidance",
+            "AST-02.7 - Software Licensing Restrictions",
+            "AST-02.8 - Data Action Mapping",
+            "AST-03 - Asset Ownership Assignment",
+            "AST-03.1 - Accountability Information",
+            "AST-04.1 - Asset Scope Classification"
+        ]
+    },
+    "Asset Management - Endpoint Inventory": {
+        "pageID": "2029617653",
+        "scf": [
+            "AST-01 - Asset Governance",
+            "AST-01.2 - Stakeholder Identification & Involvement",
+            "AST-02 - Asset Inventories",
+            "AST-03 - Asset Ownership Assignment",
+            "AST-03.1 - Accountability Information",
+            "AST-03.2 - Provenance",
+            "AST-04.1 - Asset Scope Classification",
+            "AST-05 - Security of Assets & Media",
+            "AST-06 - Unattended End-User Equipment",
+            "AST-07 - Kiosks & Point of Interaction (PoI) Devices",
+            "AST-08 - Tamper Detection",
+            "AST-09 - Secure Disposal, Destruction or Re-Use of Equipment",
+            "AST-10 - Return of Assets",
+            "AST-11 - Removal of Assets",
+            "AST-12 - Use of Personal Devices",
+            "CRY-07 - Wireless Access Authentication & Encryption",
+            "DCH-08 - Physical Media Disposal",
+            "DCH-09 - Digital Media Sanitization",
+            "DCH-09.1 - Media Sanitization Documentation",
+            "DCH-09.2 - Equipment Testing",
+            "DCH-09.4 - Non-Destructive Techniques",
+            "END-14 - Collaborative Computing Devices",
+            "HRS-05.5 - Use of Mobile Devices",
+            "HRS-09.1 - Asset Collection",
+            "MDM-01 - Centralized Management Of Mobile Devices",
+            "MDM-02 - Access Control For Mobile Devices",
+            "MDM-03 - Full Device & Container-Based Encryption",
+            "MDM-04 - Mobile Device Tampering",
+            "MDM-05 - Remote Purging",
+            "MNT-01 - Maintenance Operations",
+            "MNT-02 - Controlled Maintenance",
+            "MNT-03 - Timely Maintenance",
+            "MNT-04 - Maintenance Tools",
+            "MNT-04.1 - Inspect Tools",
+            "MNT-04.2 - Inspect Media",
+            "MNT-04.3 - Prevent Unauthorized Removal",
+            "MNT-06 - Authorized Maintenance Personnel",
+            "MNT-06.1 - Maintenance Personnel Without Appropriate Access",
+            "MNT-07 - Maintain Configuration Control During Maintenance",
+            "TDA-11.1 - Anti-Counterfeit Training",
+            "TDA-11.2 - Component Disposal"
+        ]
+    },
+    "Asset Management - SaaS Inventory": {
+        "pageID": "2032337101",
+        "scf": [
+            "AST-01 - Asset Governance",
+            "AST-01.1 - Asset-Service Dependencies",
+            "AST-01.2 - Stakeholder Identification & Involvement",
+            "AST-02 - Asset Inventories",
+            "AST-02.3 - Component Duplication Avoidance",
+            "AST-03 - Asset Ownership Assignment",
+            "AST-04.1 - Asset Scope Classification"
+        ]
+    },
+    "Availability - Cloud Capacity Planning": {
+        "pageID": "2034303106",
+        "scf": [
+            "CAP-01 - Capacity & Performance Management",
+            "CAP-03 - Capacity Planning"
+        ]
+    },
+    "Availability - Cloud Denial of Service Response": {
+        "pageID": "2033648841",
+        "scf": [
+            "CAP-02 - Resource Priority",
+            "NET-02.1 - Denial of Service (DoS) Protection"
+        ]
+    },
+    "Availability - Cloud Disaster Recovery": {
+        "pageID": "2034008641",
+        "scf": [
+            "BCD-01 - Business Continuity Management System (BCMS)",
+            "BCD-01.1 - Coordinate with Related Plans",
+            "BCD-01.2 - Coordinate With External Service Providers",
+            "BCD-01.4 - Recovery Time / Point Objectives (RTO / RPO)",
+            "BCD-02.1 - Resume All Missions & Business Functions",
+            "BCD-02.2 - Continue Essential Mission & Business Functions",
+            "BCD-02.3 - Resume Essential Missions & Business Functions",
+            "BCD-03 - Contingency Training",
+            "BCD-03.1 - Simulated Events",
+            "BCD-04 - Contingency Plan Testing & Exercises",
+            "BCD-04.1 - Coordinated Testing with Related Plans",
+            "BCD-05 - Contingency Plan Root Cause Analysis (RCA) & Lessons Learned",
+            "BCD-06 - Contingency Planning & Updates",
+            "BCD-07 - Alternative Security Measures",
+            "BCD-08 - Alternate Storage Site",
+            "BCD-08.1 - Separation from Primary Site",
+            "BCD-08.2 - Accessibility",
+            "BCD-09 - Alternate Processing Site",
+            "BCD-09.1 - Separation from Primary Site",
+            "BCD-09.2 - Accessibility",
+            "BCD-09.3 - Alternate Site Priority of Service",
+            "BCD-10 - Telecommunications Services Availability",
+            "BCD-10.1 - Telecommunications Priority of Service Provisions",
+            "BCD-11 - Data Backups",
+            "BCD-11.1 - Testing for Reliability & Integrity",
+            "BCD-11.2 - Separate Storage for Critical Information",
+            "BCD-11.3 - Information System Imaging",
+            "BCD-11.4 - Cryptographic Protection",
+            "BCD-11.7 - Redundant Secondary System",
+            "BCD-12 - Information System Recovery & Reconstitution",
+            "BCD-12.1 - Transaction Recovery",
+            "BCD-12.2 - Failover Capability",
+            "BCD-13 - Backup & Restoration Hardware Protection"
+        ]
+    },
+    "Availability - SaaS Availability": {
+        "pageID": "2033748334",
+        "scf": [
+            "TPM-11 - Third-Party Incident Response & Recovery Capabilities"
+        ]
+    },
+    "Change Management - Cloud Change Management": {
+        "pageID": "2033517982",
+        "scf": [
+            "CHG-01 - Change Management Program",
+            "CHG-02 - Configuration Change Control",
+            "CHG-02.2 - Test, Validate & Document Changes",
+            "CHG-02.3 - Security & Privacy Representative for Asset Lifecycle Changes",
+            "CHG-03 - Security Impact Analysis for Changes",
+            "CHG-04 - Access Restriction For Change",
+            "CHG-04.1 - Automated Access Enforcement / Auditing",
+            "CHG-04.2 - Signed Components",
+            "CHG-04.4 - Limit Production / Operational Privileges (Incompatible Roles)",
+            "CHG-05 - Stakeholder Notification of Changes",
+            "CHG-06 - Security Functionality Verification",
+            "SEA-06 - Prevent Program Execution"
+        ]
+    },
+    "Change Management - Code Change Management": {
+        "pageID": "2034172230",
+        "scf": [
+            "CHG-01 - Change Management Program",
+            "CHG-02.1 - Prohibition Of Changes",
+            "CHG-02.2 - Test, Validate & Document Changes",
+            "CHG-04 - Access Restriction For Change",
+            "CHG-04.3 - Dual Authorization for Change",
+            "CHG-04.4 - Limit Production / Operational Privileges (Incompatible Roles)",
+            "CHG-05 - Stakeholder Notification of Changes",
+            "CHG-06 - Security Functionality Verification"
+        ]
+    },
+    "Change Management - SaaS Change Management": {
+        "pageID": "2033943036",
+        "scf": [
+            "CHG-01 - Change Management Program",
+            "CHG-02 - Configuration Change Control",
+            "CHG-02.2 - Test, Validate & Document Changes",
+            "CHG-02.3 - Security & Privacy Representative for Asset Lifecycle Changes",
+            "CHG-03 - Security Impact Analysis for Changes",
+            "CHG-04 - Access Restriction For Change",
+            "CHG-04.1 - Automated Access Enforcement / Auditing",
+            "CHG-04.4 - Limit Production / Operational Privileges (Incompatible Roles)",
+            "CHG-05 - Stakeholder Notification of Changes"
+        ]
+    },
+    "Compliance - Contract Management": {
+        "pageID": "2052292723",
+        "scf": [
+            "CPL-01 - Statutory, Regulatory & Contractual Compliance",
+            "IAO-03.2 - Adequate Security for Sensitive / Regulated Data In Support of Contracts",
+            "NET-05 - System Interconnections"
+        ]
+    },
+    "Compliance - Documentation Review": {
+        "pageID": "2034008716",
+        "scf": [
+            "CPL-01.2 - Compliance Scope",
+            "IAO-03 - System Security & Privacy Plan (SSPP)",
+            "IAO-03.1 - Plan / Coordinate with Other Organizational Entities",
+            "IAO-03.2 - Adequate Security for Sensitive / Regulated Data In Support of Contracts",
+            "IRO-04.2 - IRP Update",
+            "GOV-02 - Publishing Cybersecurity & Privacy Documentation",
+            "GOV-03 - Periodic Review & Update of Cybersecurity & Privacy Program",
+            "OPS-01 - Operations Security",
+            "OPS-01.1 - Standardized Operating Procedures (SOP)",
+            "OPS-02 - Security Concept Of Operations (CONOPS)",
+            "OPS-03 - Service Delivery (Business Process Support)",
+            "PRM-06 - Business Process Definition",
+            "PRM-07 - Secure Development Life Cycle (SDLC) Management",
+            "TDA-04 - Documentation Requirements"
+        ]
+    },
+    "Compliance - External Audits": {
+        "pageID": "2033255997",
+        "scf": [
+            "CPL-03 - Security Assessments",
+            "CPL-03.1 - Independent Assessors",
+            "CPL-04 - Audit Activities",
+            "IAO-02 - Assessments",
+            "IAO-02.1 - Assessor Independence",
+            "IAO-02.2 - Specialized Assessments",
+            "IAO-02.3 - Third-Party Assessments",
+            "IAO-06 - Technical Verification"
+        ]
+    },
+    "Compliance - GRC Function": {
+        "pageID": "2034303187",
+        "scf": [
+            "CPL-01 Statutory, Regulatory and Contractual Compliance",
+            "CPL-01.1 - Non-Compliance Oversight",
+            "CPL-01.2 - Compliance Scope",
+            "CPL-02 - Security & Privacy Controls Oversight",
+            "GOV-01 - Digital Security Governance Program",
+            "GOV-01.1 - Steering Committee & Program Oversight",
+            "GOV-01.2 - Status Reporting To Governing Body",
+            "GOV-04 - Assigned Cybersecurity & Privacy Responsibilities",
+            "GOV-09 - Define Control Objectives",
+            "PRI-01 - Privacy Program",
+            "PRI-01.1 - Chief Privacy Officer (CPO)",
+            "PRI-01.2 - Privacy Act Statements",
+            "PRI-01.3 - Dissemination of Privacy Program Information",
+            "PRI-01.4 - Data Protection Officer (DPO)",
+            "PRI-01.6 - Security of Personal Data",
+            "WEB-01 - Web Security"
+        ]
+    },
+    "Compliance - Internal Audits": {
+        "pageID": "2033518005",
+        "scf": [
+            "CPL-02 - Security & Privacy Controls Oversight",
+            "CPL-02.1 - Internal Audit Function",
+            "CPL-03 - Security Assessments",
+            "CPL-03.2 - Functional Review Of Security Controls",
+            "CPL-04 - Audit Activities",
+            "IAO-02 - Assessments",
+            "IAO-06 - Technical Verification"
+        ]
+    },
+    "Configuration Management - Cloud Hardening": {
+        "pageID": "2032239208",
+        "scf": [
+            "CFG-01 - Configuration Management Program",
+            "CFG-01.1 - Assignment of Responsibility",
+            "CFG-02 - System Hardening Through Baseline Configurations",
+            "CFG-02.1 - Reviews & Updates",
+            "CFG-02.2 - Automated Central Management & Verification",
+            "CFG-02.3 - Retention Of Previous Configurations",
+            "CFG-02.4 - Development & Test Environment Configurations",
+            "CFG-02.5 - Configure Systems, Components or Services for High-Risk Areas",
+            "CFG-02.7 - Approved Configuration Deviations",
+            "CFG-02.9 - Baseline Tailoring",
+            "CFG-03 - Least Functionality",
+            "CFG-03.1 - Periodic Review",
+            "CFG-03.2 - Prevent Unauthorized Software Execution",
+            "CFG-03.3 - Unauthorized or Authorized Software (Blacklisting or Whitelisting)",
+            "CFG-04 - Software Usage Restrictions",
+            "CFG-04.1 - Open Source Software",
+            "CFG-05 - User-Installed Software",
+            "CFG-05.1 - Unauthorized Installation Alerts",
+            "CLD-01 - Cloud Services",
+            "CLD-02 - Cloud Security Architecture",
+            "CLD-04 - Application & Program Interface (API) Security",
+            "CLD-06 - Multi-Tenant Environments",
+            "CLD-06.1 - Customer Responsibility Matrix (CRM)",
+            "END-16.1 - Host-Based Security Function Isolation",
+            "SEA-04 - Process Isolation",
+            "SEA-10 - Memory Protection",
+            "SEA-18 - System Use Notification (Logon Banner)",
+            "SEA-20 - Clock Synchronization",
+            "TDA-11 - Product Tampering and Counterfeiting (PTC)",
+            "TDA-14 - Developer Configuration Management",
+            "TDA-14.1 - Software / Firmware Integrity Verification",
+            "VPM-05 - Software & Firmware Patching",
+            "VPM-05.4 - Automated Software & Firmware Updates",
+            "VPM-05.5 - Removal of Previous Versions"
+        ]
+    },
+    "Configuration Management - Endpoint Hardening": {
+        "pageID": "2032468496",
+        "scf": [
+            "AST-15 - Tamper Protection",
+            "AST-15.1 - Inspection of Systems, Components & Devices",
+            "CFG-01 - Configuration Management Program",
+            "CFG-01.1 - Assignment of Responsibility",
+            "CFG-02 - System Hardening Through Baseline Configurations",
+            "CFG-02.1 - Reviews & Updates",
+            "CFG-02.2 - Automated Central Management & Verification",
+            "CFG-03.1 - Periodic Review",
+            "CFG-04.2 - Unsupported Internet Browsers & Email Clients",
+            "CFG-05 - User-Installed Software",
+            "CFG-05.1 - Unauthorized Installation Alerts",
+            "DCH-10 - Media Use",
+            "DCH-12 - Removable Media Security",
+            "DCH-13.2 - Portable Storage Devices",
+            "END-01 - Endpoint Security",
+            "END-02 - Endpoint Protection Measures",
+            "END-03 - Prohibit Installation Without Privileged Status",
+            "END-03.1 - Software Installation Alerts",
+            "END-03.2 - Governing Access Restriction for Change",
+            "END-04.1 - Automatic Antimalware Signature Updates",
+            "END-04.3 - Centralized Management",
+            "END-04.4 - Heuristic / Nonsignature-Based Detection",
+            "END-05 - Software Firewall",
+            "END-10 - Mobile Code",
+            "VPM-05 - Software & Firmware Patching",
+            "VPM-05.4 - Automated Software & Firmware Updates",
+            "VPM-05.5 - Removal of Previous Versions"
+        ]
+    },
+    "Configuration Management - SaaS Hardening": {
+        "pageID": "2032468541",
+        "scf": [
+            "CFG-01 - Configuration Management Program",
+            "CFG-01.1 - Assignment of Responsibility",
+            "CFG-02 - System Hardening Through Baseline Configurations",
+            "CFG-02.1 - Reviews & Updates",
+            "CFG-02.2 - Automated Central Management & Verification",
+            "CFG-03.1 - Periodic Review",
+            "END-08 - Phishing & Spam Protection",
+            "END-08.1 - Central Management",
+            "END-08.2 - Automatic Spam and Phishing Protection Updates",
+            "END-16 - Security Function Isolation",
+            "NET-13 - Electronic Messaging",
+            "TDA-20 - Access to Program Source Code",
+            "TPM-04.2 - External Connectivity Requirements - Identification of Ports, Protocols & Services"
+        ]
+    },
+    "Cryptography - Cloud Encryption at Rest": {
+        "pageID": "2034008741",
+        "scf": [
+            "CRY-01 - Use of Cryptographic Controls",
+            "CRY-01.1 - Alternate Physical Protection",
+            "CRY-01.2 - Export-Controlled Technology",
+            "CRY-02 - Cryptographic Module Authentication",
+            "CRY-05 - Encrypting Data At Rest",
+            "CRY-09 - Cryptographic Key Management",
+            "CRY-09.1 - Symmetric Keys",
+            "CRY-09.3 - Cryptographic Key Loss or Change",
+            "CRY-09.4 - Control & Distribution of Cryptographic Keys",
+            "DCH-07.2 - Encrypting Data In Storage Media",
+            "IAC-12 - Cryptographic Module Authentication"
+        ]
+    },
+    "Cryptography - Cloud Encryption in Transit": {
+        "pageID": "2034601554",
+        "scf": [
+            "CRY-01 - Use of Cryptographic Controls",
+            "CRY-02 - Cryptographic Module Authentication",
+            "CRY-03 - Transmission Confidentiality",
+            "CRY-04 - Transmission Integrity",
+            "CRY-08 - Public Key Infrastructure (PKI)",
+            "CRY-09 - Cryptographic Key Management",
+            "CRY-09.2 - Asymmetric Keys",
+            "CRY-09.3 - Cryptographic Key Loss or Change",
+            "CRY-09.4 - Control & Distribution of Cryptographic Keys",
+            "IAC-12 - Cryptographic Module Authentication",
+            "NET-14.2 - Protection of Confidentiality / Integrity Using Encryption"
+        ]
+    },
+    "Cryptography - Code Signing": {
+        "pageID": "2033648891",
+        "scf": [
+            "CHG-04.2 - Signed Components"
+        ]
+    },
+    "Cryptography - Endpoint Encryption at Rest": {
+        "pageID": "2034106754",
+        "scf": [
+            "CRY-01 - Use of Cryptographic Controls",
+            "CRY-02 - Cryptographic Module Authentication",
+            "CRY-05 - Encrypting Data At Rest",
+            "MDM-03 - Full Device & Container-Based Encryption"
+        ]
+    },
+    "Data Management - Cloud Data Inventory": {
+        "pageID": "2037188249",
+        "scf": [
+            "CLD-09 - Geolocation Requirements for Processing, Storage and Service Locations",
+            "DCH-06.2 - Sensitive Data Inventories",
+            "PRI-11 - Data Tagging"
+        ]
+    },
+    "Data Management - Data Classification": {
+        "pageID": "2034237690",
+        "scf": [
+            "BCD-02 - Identify Critical Assets",
+            "DCH-01 - Data Protection",
+            "DCH-01.1 - Data Stewardship",
+            "DCH-02 - Data & Asset Classification",
+            "DCH-03 - Media Access",
+            "DCH-03.2 - Masking Displayed Data",
+            "DCH-04 - Media Marking",
+            "DCH-04.1 - Automated Marking",
+            "DCH-06 - Media Storage",
+            "DCH-07 - Media Transportation",
+            "DCH-07.1 - Custodians",
+            "DCH-10.1 - Limitations on Use",
+            "DCH-10.2 - Prohibit Use Without Owner",
+            "DCH-13 - Use of External Information Systems",
+            "DCH-13.1 - Limits of Authorized Use",
+            "DCH-14 - Information Sharing",
+            "DCH-15 - Publicly Accessible Content",
+            "DCH-17 - Ad-Hoc Transfers",
+            "PRI-02.1 - Purpose Specification"
+        ]
+    },
+    "Data Management - Data Retention and Deletion": {
+        "pageID": "2034303334",
+        "scf": [
+            "DCH-09.3 - Sanitization of Personal Data (PD)",
+            "DCH-18 - Media & Data Retention",
+            "MON-10 - Event Log Retention",
+            "PRI-05 - Personal Data Retention & Disposal"
+        ]
+    },
+    "Data Management - SaaS Data Inventory": {
+        "pageID": "2033452511",
+        "scf": [
+            "DCH-06.2 - Sensitive Data Inventories",
+            "PRI-11 - Data Tagging"
+        ]
+    },
+    "Data Privacy - Employee Personal Data Privacy": {
+        "pageID": "2033975996",
+        "scf": [
+            "DCH-22.1 - Updating & Correcting Personal Data (PD)",
+            "DCH-23.1 - Collection",
+            "DCH-23.2 - Archiving",
+            "DCH-23.3 - Release",
+            "DCH-24 - Information Location",
+            "DCH-24.1 - Automated Tools to Support Information Location",
+            "PRI-02 - Privacy Notice",
+            "PRI-02.1 - Purpose Specification",
+            "PRI-02.2 - Automated Data Management Processes",
+            "PRI-03 - Choice & Consent",
+            "PRI-03.1 - Attribute Management",
+            "PRI-03.2 - Just-In-Time Notice & Updated Consent",
+            "PRI-04 - Restrict Collection To Identified Purpose",
+            "PRI-04.1 - Authority To Collect, Use, Maintain & Share Personal Data (PD)",
+            "PRI-05 - Personal Data Retention & Disposal",
+            "PRI-05.1 - Internal Use of Personal Data For Testing, Training and Research",
+            "PRI-05.2 - Data Integrity",
+            "PRI-05.3 - Data Masking",
+            "PRI-05.4 - Usage Restrictions of Sensitive Personal Data",
+            "PRI-06 - Data Subject Access",
+            "PRI-06.1 - Correcting Inaccurate Personal Data",
+            "PRI-06.2 - Notice of Correction or Processing Change",
+            "PRI-06.3 - Appeal Adverse Decision",
+            "PRI-06.4 - User Feedback Management",
+            "PRI-06.5 - Right to Erasure",
+            "PRI-06.7 - Personal Data Exportability",
+            "PRI-07 - Information Sharing With Third Parties",
+            "PRI-07.1 - Privacy Requirements for Contractors & Service Providers",
+            "PRI-07.2 - Joint Processing of Personal Data",
+            "PRI-07.3 - Obligation To Inform Third-Parties",
+            "PRI-07.4 - Reject Unauthorized Disclosure Requests",
+            "PRI-08 - Testing, Training & Monitoring",
+            "PRI-09 - Personal Data Lineage",
+            "PRI-11 - Data Tagging",
+            "PRI-10 - Data Quality Management",
+            "PRI-12 - Updating Personal Data (PD)",
+            "PRI-13 - Data Management Board",
+            "PRI-14 - Privacy Records & Reporting",
+            "PRI-14.1 - Accounting of Disclosures",
+            "PRI-14.2 - Notification of Disclosure Request To Data Subject",
+            "RSK-10 - Data Protection Impact Assessment (DPIA)"
+        ]
+    },
+    "Data Privacy - End-user Personal Data Privacy": {
+        "pageID": "2034041615",
+        "scf": [
+            "DCH-18.1 - Limit Personal Data (PD) Elements In Testing, Training & Research",
+            "DCH-18.2 - Minimize Personal Data (PD)",
+            "DCH-18.3 - Temporary Files Containing Personal Data (PD)",
+            "DCH-19 - Geographic Location of Data",
+            "DCH-21 - Information Disposal",
+            "DCH-22 - Data Quality Operations",
+            "DCH-22.1 - Updating & Correcting Personal Data (PD)",
+            "DCH-22.3 - Personal Data (PD) Collection",
+            "DCH-23 - De-Identification (Anonymization)",
+            "DCH-23.1 - Collection",
+            "DCH-23.2 - Archiving",
+            "DCH-23.3 - Release",
+            "DCH-23.4 - Removal, Masking, Encryption, Hashing or Replacement of Direct Identifiers",
+            "DCH-24 - Information Location",
+            "DCH-24.1 - Automated Tools to Support Information Location",
+            "PRI-02 - Privacy Notice",
+            "PRI-02.1 - Purpose Specification",
+            "PRI-02.2 - Automated Data Management Processes",
+            "PRI-03 - Choice & Consent",
+            "PRI-03.1 - Attribute Management",
+            "PRI-03.2 - Just-In-Time Notice & Updated Consent",
+            "PRI-04 - Restrict Collection To Identified Purpose",
+            "PRI-04.1 - Authority To Collect, Use, Maintain & Share Personal Data (PD)",
+            "PRI-05 - Personal Data Retention & Disposal",
+            "PRI-05.1 - Internal Use of Personal Data For Testing, Training and Research",
+            "PRI-05.2 - Data Integrity",
+            "PRI-05.3 - Data Masking",
+            "PRI-05.4 - Usage Restrictions of Sensitive Personal Data",
+            "PRI-06 - Data Subject Access",
+            "PRI-06.1 - Redress Inaccurate Information",
+            "PRI-06.2 - Notice of Correction or Processing Change",
+            "PRI-06.3 - Appeal Adverse Decision",
+            "PRI-06.4 - User Feedback Management",
+            "PRI-06.5 - Right to Erasure",
+            "PRI-06.7 - Personal Data Exportability",
+            "PRI-07 - Information Sharing With Third Parties",
+            "PRI-07.1 - Privacy Requirements for Contractors & Service Providers",
+            "PRI-07.2 - Joint Processing of Personal Data",
+            "PRI-07.3 - Obligation To Inform Third-Parties",
+            "PRI-07.4 - Reject Unauthorized Disclosure Requests",
+            "PRI-08 - Testing, Training & Monitoring",
+            "PRI-09 - Personal Data Lineage",
+            "PRI-10 - Data Quality Management",
+            "PRI-12 - Updating Personal Data (PD)",
+            "PRI-13 - Data Management Board",
+            "PRI-14 - Privacy Records & Reporting",
+            "PRI-14.1 - Accounting of Disclosures",
+            "PRI-14.2 - Notification of Disclosure Request To Data Subject",
+            "RSK-10 - Data Protection Impact Assessment (DPIA)"
+        ]
+    },
+    "Data Privacy - Member Personal Data Privacy": {
+        "pageID": "2033387294",
+        "scf": [
+            "DCH-22.1 - Updating & Correcting Personal Data (PD)",
+            "DCH-23.1 - Collection",
+            "DCH-23.2 - Archiving",
+            "DCH-23.3 - Release",
+            "DCH-24 - Information Location",
+            "DCH-24.1 - Automated Tools to Support Information Location",
+            "PRI-02 - Privacy Notice",
+            "PRI-02.1 - Purpose Specification",
+            "PRI-02.2 - Automated Data Management Processes",
+            "PRI-03 - Choice & Consent",
+            "PRI-03.1 - Attribute Management",
+            "PRI-03.2 - Just-In-Time Notice & Updated Consent",
+            "PRI-04 - Collection",
+            "PRI-04.1 - Authority To Collect, Use, Maintain & Share Personal Data (PD)",
+            "PRI-05 - Personal Data Retention & Disposal",
+            "PRI-05.1 - Internal Use of Personal Data For Testing, Training and Research",
+            "PRI-05.2 - Data Integrity",
+            "PRI-05.3 - Data Masking",
+            "PRI-05.4 - Usage Restrictions of Sensitive Personal Data",
+            "PRI-06 - Data Subject Access",
+            "PRI-06.1 - Redress Inaccurate Information",
+            "PRI-06.2 - Notice of Correction or Processing Change",
+            "PRI-06.3 - Appeal Adverse Decision",
+            "PRI-06.4 - User Feedback Management",
+            "PRI-06.5 - Right to Erasure",
+            "PRI-06.7 - Personal Data Exportability",
+            "PRI-07 - Information Sharing With Third Parties",
+            "PRI-07.1 - Privacy Requirements for Contractors & Service Providers",
+            "PRI-07.2 - Joint Processing of Personal Data",
+            "PRI-07.3 - Obligation To Inform Third-Parties",
+            "PRI-07.4 - Reject Unauthorized Disclosure Requests",
+            "PRI-08 - Testing, Training & Monitoring",
+            "PRI-09 - Personal Data Lineage",
+            "PRI-10 - Data Quality Management",
+            "PRI-12 - Updating Personal Data (PD)",
+            "PRI-13 - Data Management Board",
+            "PRI-14 - Privacy Records & Reporting",
+            "PRI-14.1 - Accounting of Disclosures",
+            "PRI-14.2 - Notification of Disclosure Request To Data Subject",
+            "RSK-10 - Data Protection Impact Assessment (DPIA)"
+        ]
+    },
+    "Data Privacy - Sales and Marketing Personal Data Privacy": {
+        "pageID": "2057568481",
+        "scf": [
+            "DCH-22.1 - Updating & Correcting Personal Data (PD)",
+            "DCH-23.1 - Collection",
+            "DCH-23.2 - Archiving",
+            "DCH-23.3 - Release",
+            "DCH-24 - Information Location",
+            "DCH-24.1 - Automated Tools to Support Information Location",
+            "PRI-02 - Privacy Notice",
+            "PRI-02.1 - Purpose Specification",
+            "PRI-02.2 - Automated Data Management Processes",
+            "PRI-03 - Choice & Consent",
+            "PRI-03.1 - Attribute Management",
+            "PRI-03.2 - Just-In-Time Notice & Updated Consent",
+            "PRI-04 - Collection",
+            "PRI-04.1 - Authority To Collect, Use, Maintain & Share Personal Data (PD)",
+            "PRI-05 - Personal Data Retention & Disposal",
+            "PRI-05.1 - Internal Use of Personal Data For Testing, Training and Research",
+            "PRI-05.2 - Data Integrity",
+            "PRI-05.3 - Data Masking",
+            "PRI-05.4 - Usage Restrictions of Sensitive Personal Data",
+            "PRI-06 - Data Subject Access",
+            "PRI-06.1 - Redress Inaccurate Information",
+            "PRI-06.2 - Notice of Correction or Processing Change",
+            "PRI-06.3 - Appeal Adverse Decision",
+            "PRI-06.4 - User Feedback Management",
+            "PRI-06.5 - Right to Erasure",
+            "PRI-06.7 - Personal Data Exportability",
+            "PRI-07 - Information Sharing With Third Parties",
+            "PRI-07.1 - Privacy Requirements for Contractors & Service Providers",
+            "PRI-07.2 - Joint Processing of Personal Data",
+            "PRI-07.3 - Obligation To Inform Third-Parties",
+            "PRI-07.4 - Reject Unauthorized Disclosure Requests",
+            "PRI-08 - Testing, Training & Monitoring",
+            "PRI-09 - Personal Data Lineage",
+            "PRI-10 - Data Quality Management",
+            "PRI-12 - Updating Personal Data (PD)",
+            "PRI-13 - Data Management Board",
+            "PRI-14 - Privacy Records & Reporting",
+            "PRI-14.1 - Accounting of Disclosures",
+            "PRI-14.2 - Notification of Disclosure Request To Data Subject",
+            "RSK-10 - Data Protection Impact Assessment (DPIA)"
+        ]
+    },
+    "IAM - Cloud IAM": {
+        "pageID": "2033975945",
+        "scf": [
+            "IAC-02.2 - Network Access to Privileged Accounts - Replay Resistant",
+            "IAC-10.2 - PKI-Based Authentication",
+            "IAC-10.8 - Vendor-Supplied Defaults",
+            "IAC-16 - Privileged Account Management (PAM)",
+            "IAC-16.1 - Privileged Account Inventories",
+            "IAC-20 - Access Enforcement",
+            "IAC-20.1 - Access To Sensitive Data",
+            "IAC-20.2 - Database Access",
+            "IAC-20.3 - Use of Privileged Utility Programs",
+            "IAC-21 - Least Privilege",
+            "IAC-21.1 - Authorize Access to Security Functions",
+            "IAC-21.3 - Privileged Accounts",
+            "IAC-21.4 - Auditing Use of Privileged Functions",
+            "IAC-21.5 - Prohibit Non-Privileged Users from Executing Privileged Functions"
+        ]
+    },
+    "IAM - Multi-factor Authentication": {
+        "pageID": "2034303381",
+        "scf": [
+            "IAC-06 - Multi-Factor Authentication (MFA)",
+            "IAC-06.1 - Network Access to Privileged Accounts",
+            "IAC-06.2 - Network Access to Non-Privileged Accounts",
+            "IAC-06.3 - Local Access to Privileged Accounts",
+            "IAC-06.4 - Out-of-Band Multi-Factor Authentication",
+            "IAC-06 - Multi-Factor Authentication (MFA)",
+            "IAC-10.7 - Hardware Token-Based Authentication"
+        ]
+    },
+    "IAM - Password Management": {
+        "pageID": "2034139710",
+        "scf": [
+            "IAC-10 - Authenticator Management",
+            "IAC-10.1 - Password-Based Authentication",
+            "IAC-10.4 - Automated Support For Password Strength",
+            "IAC-10.11 - Password Managers",
+            "IAC-19 - Credential Sharing"
+        ]
+    },
+    "IAM - SaaS IAM": {
+        "pageID": "2033943307",
+        "scf": [
+            "HRS-02 - Position Categorization",
+            "HRS-02.1 - Users With Elevated Privileges",
+            "HRS-03 - Roles & Responsibilities",
+            "HRS-03.1 - User Awareness",
+            "HRS-03.2 - Competency Requirements for Security-Related Positions",
+            "HRS-05.4 - Use of Critical Technologies",
+            "HRS-11 - Separation of Duties (SoD)",
+            "HRS-12 - Incompatible Roles",
+            "IAC-08 - Role-Based Access Control (RBAC)",
+            "IAC-17 - Periodic Review of Account Privileges",
+            "IAC-20 - Access Enforcement",
+            "IAC-21 - Least Privilege",
+            "IAC-21.1 - Authorize Access to Security Functions",
+            "IAC-21.2 - Non-Privileged Access for Non-Security Functions",
+            "IAC-21.3 - Privileged Accounts",
+            "IAC-21.5 - Prohibit Non-Privileged Users from Executing Privileged Functions",
+            "IAC-28.1 - Management Approval For New or Changed Accounts"
+        ]
+    },
+    "IAM - Secrets Management": {
+        "pageID": "2034041551",
+        "scf": [
+            "IAC-02.1 - Group Authentication",
+            "IAC-10.5 - Protection of Authenticators",
+            "IAC-10.6 - No Embedded Unencrypted Static Authenticators",
+            "IAC-15.5 - Restrictions on Shared Groups / Accounts",
+            "IAC-19 - Credential Sharing"
+        ]
+    },
+    "IAM - Single Sign-on": {
+        "pageID": "2033256194",
+        "scf": [
+            "IAC-01 - Identity & Access Management (IAM)",
+            "IAC-02 - Identification & Authentication for Organizational Users",
+            "IAC-02.3 - Acceptance of PIV Credentials",
+            "IAC-03 - Identification & Authentication for Non-Organizational Users",
+            "IAC-03.1 - Acceptance of PIV Credentials from Other Organizations",
+            "IAC-03.2 - Acceptance of Third-Party Credentials",
+            "IAC-03.3 - Use of FICAM-Issued Profiles",
+            "IAC-04 - Identification & Authentication for Devices",
+            "IAC-05 - Identification & Authentication for Third Party Systems & Services",
+            "IAC-06.1 - Network Access to Privileged Accounts",
+            "IAC-06.2 - Network Access to Non-Privileged Accounts",
+            "IAC-09 - Identifier Management (User Names)",
+            "IAC-09.1 - User Identity (ID) Management",
+            "IAC-09.2 - Identity User Status",
+            "IAC-09.3 - Dynamic Management",
+            "IAC-09.4 - Cross-Organization Management",
+            "IAC-10.3 - In-Person or Trusted Third-Party Registration",
+            "IAC-11 - Authenticator Feedback",
+            "IAC-14 - Re-Authentication",
+            "IAC-15 - Account Management",
+            "IAC-15.1 - Automated System Account Management",
+            "IAC-15.2 - Removal of Temporary / Emergency Accounts",
+            "IAC-15.3 - Disable Inactive Accounts",
+            "IAC-15.4 - Automated Audit Actions",
+            "IAC-15.5 - Restrictions on Shared Groups / Accounts",
+            "IAC-15.6 - Account Disabling for High Risk Individuals",
+            "IAC-18 - User Responsibilities for Account Management",
+            "IAC-20 - Access Enforcement",
+            "IAC-22 - Account Lockout",
+            "IAC-23 - Concurrent Session Control",
+            "IAC-24 - Session Lock",
+            "IAC-24.1 - Pattern-Hiding Displays",
+            "IAC-25 - Session Termination",
+            "IAC-26 - Permitted Actions Without Identification or Authorization",
+            "IAC-28 - Identity Proofing (Identity Verification)",
+            "IAC-28.1 - Management Approval For New or Changed Accounts",
+            "IAC-28.2 - Identity Evidence",
+            "IAC-28.3 - Identity Evidence Validation & Verification",
+            "IAC-28.4 - In-Person Validation & Verification",
+            "IAC-28.5 - Address Confirmation",
+            "SEA-17 - Secure Log-On Procedures"
+        ]
+    },
+    "Incident Response - Data Breach Response": {
+        "pageID": "2033256220",
+        "scf": [
+            "IRO-04.1 - Data Breach",
+            "IRO-10.2 - Cyber Incident Reporting for Sensitive Data",
+            "IRO-10.4 - Supply Chain Coordination",
+            "IRO-12 - Information Spillage Response",
+            "IRO-12.1 - Responsible Personnel",
+            "IRO-12.3 - Post-Spill Operations",
+            "IRO-12.4 - Exposure to Unauthorized Personnel",
+            "VPM-04.2 - Flaw Remediation with Personal Data (PD)"
+        ]
+    },
+    "Incident Response - Security Incident Response": {
+        "pageID": "2034139744",
+        "scf": [
+            "IRO-01 - Incident Response Operations",
+            "IRO-02 - Incident Handling",
+            "IRO-02.1 - Automated Incident Handling Processes",
+            "IRO-04 - Incident Response Plan (IRP)",
+            "IRO-07 - Integrated Security Incident Response Team (ISIRT)",
+            "IRO-08 - Chain of Custody & Forensics",
+            "IRO-09 - Situational Awareness For Incidents",
+            "IRO-10 - Incident Stakeholder Reporting",
+            "IRO-10.1 - Automated Reporting",
+            "IRO-10.3 - Vulnerabilities Related To Incidents",
+            "IRO-11 - Incident Reporting Assistance",
+            "IRO-11.1 - Automation Support of Availability of Information / Support",
+            "IRO-11.2 - Coordination With External Providers",
+            "IRO-13 - Root Cause Analysis (RCA) & Lessons Learned",
+            "IRO-14 - Regulatory & Law Enforcement Contacts",
+            "TPM-11 - Third-Party Incident Response & Recovery Capabilities"
+        ]
+    },
+    "Incident Response - Security Incident Response Exercises": {
+        "pageID": "2033649072",
+        "scf": [
+            "IRO-05 - Incident Response Training",
+            "IRO-06 - Incident Response Testing",
+            "IRO-06.1 - Coordination with Related Plans",
+            "VPM-10 - Red Team Exercises"
+        ]
+    },
+    "Monitoring - Cloud Observability": {
+        "pageID": "2033452604",
+        "scf": [
+            "MNT-05 - Remote Maintenance",
+            "MNT-05.1 - Auditing Remote Maintenance",
+            "MNT-05.2 - Remote Maintenance Notifications",
+            "MON-01.3 - Inbound & Outbound Communications Traffic",
+            "MON-01.6 - Host-Based Devices",
+            "MON-01.7 - File Integrity Monitoring (FIM)",
+            "MON-07.1 - Synchronization With Authoritative Time Source",
+            "MON-08 - Protection of Event Logs",
+            "MON-08.1 - Audit Backup on Separate Physical Systems / Components",
+            "MON-08.2 - Access by Subset of Privileged Users",
+            "VPM-06.5 - Review Historical Audit Logs",
+            "MON-03.3 - Privileged Functions Logging"
+        ]
+    },
+    "Monitoring - Endpoint Observability": {
+        "pageID": "2033975979",
+        "scf": [
+            "MON-01.6 - Host-Based Devices"
+        ]
+    },
+    "Monitoring - SaaS Observability": {
+        "pageID": "2033256253",
+        "scf": [
+            "VPM-06.5 - Review Historical Audit Logs",
+            "MON-03.3 - Privileged Functions Logging"
+        ]
+    },
+    "Monitoring - Security Information and Events Management (SIEM)": {
+        "pageID": "2033518258",
+        "scf": [
+            "MON-01 - Continuous Monitoring",
+            "MON-01.1 - Intrusion Detection & Prevention Systems (IDS & IPS)",
+            "MON-01.2 - Automated Tools for Real-Time Analysis",
+            "MON-01.4 - System Generated Alerts",
+            "MON-01.8 - Reviews & Updates",
+            "MON-02 - Centralized Collection of Security Event Logs",
+            "MON-02.1 - Correlate Monitoring Information",
+            "MON-02.2 - Central Review & Analysis",
+            "MON-02.6 - Audit Level Adjustments",
+            "MON-03 - Content of Event Logs",
+            "MON-03.1 - Sensitive Audit Information",
+            "MON-03.3 - Privileged Functions Logging",
+            "MON-04 - Event Log Storage Capacity",
+            "MON-05 - Response To Event Log Processing Failures",
+            "MON-06 - Monitoring Reporting",
+            "MON-07 - Time Stamps",
+            "MON-11.3 - Monitoring for Indicators of Compromise (IOC)"
+        ]
+    },
+    "Network Security - Cloud Network Security": {
+        "pageID": "2033943363",
+        "scf": [
+            "AST-04 - Network Diagrams & Data Flow Diagrams (DFDs)",
+            "NET-01 - Network Security Controls (NSC)",
+            "NET-02 - Layered Network Defenses",
+            "NET-03 - Boundary Protection",
+            "NET-03.1 - Limit Network Connections",
+            "NET-03.2 - External Telecommunications Services",
+            "NET-04 - Data Flow Enforcement – Access Control Lists (ACLs)",
+            "NET-04.1 - Deny Traffic by Default & Allow Traffic by Exception",
+            "NET-05.1 - External System Connections",
+            "NET-05.2 - Internal System Connections",
+            "NET-06 - Network Segmentation",
+            "NET-06.1 - Security Management Subnets",
+            "NET-08.1 - DMZ Networks",
+            "NET-10 - Domain Name Service (DNS) Resolution",
+            "NET-10.1 - Architecture & Provisioning for Name / Address Resolution Service",
+            "NET-10.2 - Secure Name / Address Resolution Service (Recursive or Caching Resolver)",
+            "SEA-03.2 - Application Partitioning",
+            "TDA-08 - Separation of Development, Testing and Operational Environments",
+            "WEB-02 - Use of Demilitarized Zones (DMZ)"
+        ]
+    },
+    "Network Security - Endpoint Network Security": {
+        "pageID": "2052260315",
+        "scf": [
+            "NET-03.1 - Limit Network Connections",
+            "NET-04 - Data Flow Enforcement – Access Control Lists (ACLs)",
+            "NET-04.1 - Deny Traffic by Default & Allow Traffic by Exception",
+            "NET-07 - Remote Session Termination",
+            "NET-09 - Session Integrity",
+            "NET-12 - Safeguarding Data Over Open Networks",
+            "NET-12.1 - Wireless Link Protection",
+            "NET-14 - Remote Access",
+            "NET-14.1 - Automated Monitoring & Control",
+            "NET-14.2 - Protection of Confidentiality / Integrity Using Encryption",
+            "NET-14.3 - Managed Access Control Points",
+            "NET-14.4 - Remote Privileged Commands & Sensitive Data Access",
+            "NET-14.5 - Work From Anywhere (WFA) - Telecommuting Security",
+            "NET-14.8 - Expeditious Disconnect / Disable Capability",
+            "NET-16 - Intranets",
+            "NET-18 - DNS & Content Filtering",
+            "NET-18.1 - Route Traffic to Proxy Servers",
+            "CFG-03.4 - Split Tunneling"
+        ]
+    },
+    "Personnel Security - Insider Threat Mitigation": {
+        "pageID": "2034270615",
+        "scf": [
+            "HRS-04 - Personnel Screening",
+            "HRS-04.1 - Roles With Special Protection Measures",
+            "THR-04 - Insider Threat Program",
+            "THR-05 - Insider Threat Awareness"
+        ]
+    },
+    "Personnel Security - Personnel Lifecycle Management": {
+        "pageID": "2052292757",
+        "scf": [
+            "HRS-01 - Human Resources Security Management",
+            "HRS-08 - Personnel Transfer",
+            "HRS-09 - Personnel Termination",
+            "HRS-09.2 - High-Risk Terminations",
+            "HRS-09.3 - Post-Employment Requirements",
+            "HRS-10 - Third-Party Personnel Security",
+            "IAC-07 - User Provisioning & De-Provisioning",
+            "IAC-07.1 - Change of Roles & Duties",
+            "IAC-07.2 - Termination of Employment"
+        ]
+    },
+    "Personnel Security - Rules of Behavior": {
+        "pageID": "2033975918",
+        "scf": [
+            "HRS-05 - Terms of Employment",
+            "HRS-05.1 - Rules of Behavior",
+            "HRS-05.2 - Social Media & Social Networking Restrictions",
+            "HRS-05.3 - Use of Communications Technology",
+            "HRS-06 - Access Agreements",
+            "HRS-06.1 - Confidentiality Agreements",
+            "HRS-07 - Personnel Sanctions",
+            "HRS-07.1 - Workplace Investigations",
+            "NET-12.2 - End-User Messaging Technologies"
+        ]
+    },
+    "Physical Protection - Data Center Security": {
+        "pageID": "2076541011",
+        "scf": [
+            "CRY-07 - Wireless Access Authentication & Encryption",
+            "MON-01.5 - Wireless Intrusion Detection System (WIDS)",
+            "NET-12 - Safeguarding Data Over Open Networks",
+            "NET-12.1 - Wireless Link Protection",
+            "NET-15 - Wireless Networking",
+            "NET-15.1 - Authentication & Encryption",
+            "PES-01 - Physical & Environmental Protections",
+            "PES-02 - Physical Access Authorizations",
+            "PES-02.1 - Role-Based Physical Access",
+            "PES-03 - Physical Access Control",
+            "PES-03.3 - Physical Access Logs",
+            "PES-04 - Physical Security of Offices, Rooms & Facilities",
+            "PES-04.1 - Working in Secure Areas",
+            "PES-05 - Monitoring Physical Access",
+            "PES-05.1 - Intrusion Alarms / Surveillance Equipment",
+            "PES-07 - Supporting Utilities",
+            "PES-07.1 - Automatic Voltage Controls",
+            "PES-07.2 - Emergency Shutoff",
+            "PES-07.3 - Emergency Power",
+            "PES-07.4 - Emergency Lighting",
+            "PES-07.5 - Water Damage Protection",
+            "PES-08 - Fire Protection",
+            "PES-08.1 - Fire Detection Devices",
+            "PES-08.2 - Fire Suppression Devices",
+            "PES-09 - Temperature & Humidity Controls",
+            "PES-09.1 - Monitoring with Alarms / Notifications",
+            "PES-10 - Delivery & Removal",
+            "PES-11 - Alternate Work Site",
+            "PES-12 - Equipment Siting & Protection",
+            "PES-12.1 - Transmission Medium Security",
+            "PES-12.2 - Access Control for Output Devices",
+            "PES-13 - Information Leakage Due To Electromagnetic Signals Emanations",
+            "PES-15 - Electromagnetic Pulse (EMP) Protection"
+        ]
+    },
+    "Physical Protection - Office Security": {
+        "pageID": "2033748568",
+        "scf": [
+            "CRY-07 - Wireless Access Authentication & Encryption",
+            "MON-01.5 - Wireless Intrusion Detection System (WIDS)",
+            "NET-12 - Safeguarding Data Over Open Networks",
+            "NET-12.1 - Wireless Link Protection",
+            "NET-15 - Wireless Networking",
+            "NET-15.1 - Authentication & Encryption",
+            "NET-15.2 - Disable Wireless Networking",
+            "PES-01 - Physical & Environmental Protections",
+            "PES-02 - Physical Access Authorizations",
+            "PES-02.1 - Role-Based Physical Access",
+            "PES-03 - Physical Access Control",
+            "PES-03.1 - Controlled Ingress & Egress Points",
+            "PES-03.3 - Physical Access Logs",
+            "PES-04 - Physical Security of Offices, Rooms & Facilities",
+            "PES-04.1 - Working in Secure Areas",
+            "PES-05 - Monitoring Physical Access",
+            "PES-05.1 - Intrusion Alarms / Surveillance Equipment",
+            "PES-05.2 - Monitoring Physical Access To Information Systems",
+            "PES-06 - Visitor Control",
+            "PES-07 - Supporting Utilities",
+            "PES-07.1 - Automatic Voltage Controls",
+            "PES-07.2 - Emergency Shutoff",
+            "PES-07.3 - Emergency Power",
+            "PES-07.4 - Emergency Lighting",
+            "PES-07.5 - Water Damage Protection",
+            "PES-08 - Fire Protection",
+            "PES-08.1 - Fire Detection Devices",
+            "PES-08.2 - Fire Suppression Devices",
+            "PES-09 - Temperature & Humidity Controls",
+            "PES-09.1 - Monitoring with Alarms / Notifications",
+            "PES-10 - Delivery & Removal",
+            "PES-11 - Alternate Work Site",
+            "PES-12 - Equipment Siting & Protection",
+            "PES-12.1 - Transmission Medium Security",
+            "PES-12.2 - Access Control for Output Devices",
+            "PES-13 - Information Leakage Due To Electromagnetic Signals Emanations",
+            "PES-15 - Electromagnetic Pulse (EMP) Protection"
+        ]
+    },
+    "Project Management - Annual Roadmaps": {
+        "pageID": "2034205128",
+        "scf": [
+            "PRM-01 - Security Portfolio Management",
+            "PRM-02 - Security & Privacy Resource Management",
+            "PRM-03 - Allocation of Resources",
+            "PRM-04 - Security & Privacy In Project Management"
+        ]
+    },
+    "Project Management - Quarterly OKRs": {
+        "pageID": "2033256289",
+        "scf": [
+            "GOV-05 - Measures of Performance",
+            "GOV-05.1 - Key Performance Indicators (KPIs)"
+        ]
+    },
+    "Project Management - Weekly Sprints": {
+        "pageID": "2033649132",
+        "scf": [
+            "PRM-04 - Security & Privacy In Project Management"
+        ]
+    },
+    "Risk Management - Organizational Risk Assessment": {
+        "pageID": "2034172564",
+        "scf": [
+            "GOV-05.2 - Key Risk Indicators (KRIs)",
+            "GOV-06 - Contacts With Authorities",
+            "RSK-01 - Risk Management Program",
+            "RSK-01.1 - Risk Framing",
+            "RSK-02 - Risk-Based Security Categorization",
+            "RSK-03 - Risk Identification",
+            "RSK-04 - Risk Assessment",
+            "RSK-04.1 - Risk Register",
+            "RSK-05 - Risk Ranking",
+            "RSK-06 - Risk Remediation",
+            "RSK-06.1 - Risk Response",
+            "RSK-07 - Risk Assessment Update",
+            "RSK-08 - Business Impact Analysis (BIA)",
+            "RSK-09 - Supply Chain Risk Management (SCRM) Plan",
+            "RSK-09.1 - Supply Chain Risk Assessment",
+            "RSK-11 - Risk Monitoring"
+        ]
+    },
+    "Risk Management - Vendor Risk Management": {
+        "pageID": "2033616902",
+        "scf": [
+            "RSK-08 - Business Impact Analysis (BIA)",
+            "RSK-09 - Supply Chain Risk Management (SCRM) Plan",
+            "RSK-09.1 - Supply Chain Risk Assessment",
+            "TDA-02.3 - Development Methods, Techniques & Processes",
+            "TPM-01 - Third-Party Management",
+            "TPM-01.1 - Third-Party Inventories",
+            "TPM-02 - Third-Party Criticality Assessments",
+            "TPM-03 - Supply Chain Protection",
+            "TPM-03.1 - Acquisition Strategies, Tools & Methods",
+            "TPM-03.2 - Limit Potential Harm",
+            "TPM-03.3 - Processes To Address Weaknesses or Deficiencies",
+            "TPM-04 - Third-Party Services",
+            "TPM-04.1 - Third-Party Risk Assessments & Approvals",
+            "TPM-04.3 - Conflict of Interests",
+            "TPM-04.4 - Third-Party Processing, Storage and Service Locations",
+            "TPM-05 - Third-Party Contract Requirements",
+            "TPM-05.1 - Security Compromise Notification Agreements",
+            "TPM-05.4 - Responsible, Accountable, Supportive, Consulted & Informed (RASCI) Matrix",
+            "TPM-06 - Third-Party Personnel Security",
+            "TPM-07 - Monitoring for Third-Party Information Disclosure",
+            "TPM-08 - Review of Third-Party Services",
+            "TPM-09 - Third-Party Deficiency Remediation",
+            "TPM-10 - Managing Changes To Third-Party Services",
+            "TPM-11 - Third-Party Incident Response & Recovery Capabilities"
+        ]
+    },
+    "Security Assurance - Bug Bounty Program": {
+        "pageID": "2033943320",
+        "scf": [
+            "IAO-01 - Information Assurance (IA) Operations",
+            "THR-06 - Vulnerability Disclosure Program (VDP)",
+            "VPM-7.1 - Independent Penetration Agent or Team"
+        ]
+    },
+    "Security Assurance - Penetration Tests": {
+        "pageID": "2033518228",
+        "scf": [
+            "CPL-02 - Security & Privacy Controls Oversight",
+            "IAO-01 - Information Assurance (IA) Operations",
+            "IAO-02 - Assessments",
+            "IAO-02.1 - Assessor Independence",
+            "IAO-02.2 - Specialized Assessments",
+            "IAO-02.3 - Third-Party Assessments",
+            "TDA-9.5 - Application Penetration Testing",
+            "VPM-07 - Penetration Testing",
+            "VPM-07.1 - Independent Penetration Agent or Team",
+            "VPM-10 - Red Team Exercises"
+        ]
+    },
+    "Security Assurance - Security Reviews": {
+        "pageID": "2034172475",
+        "scf": [
+            "IAO-01 - Information Assurance (IA) Operations",
+            "IAO-04 - Threat Analysis & Flaw Remediation During Development",
+            "IAO-07 - Security Authorization",
+            "PRM-05 - Security & Privacy Requirements Definition",
+            "OPS-03 - Service Delivery (Business Process Support)",
+            "SEA-05 - Information In Shared Resources",
+            "SEA-07.1 - Technology Lifecycle Management",
+            "TDA-01 - Technology Development & Acquisition",
+            "TDA-02 - Minimum Viable Product (MVP) Security Requirements",
+            "TDA-02.1 - Ports, Protocols & Services In Use",
+            "TDA-02.2 - Information Assurance Enabled Products",
+            "TDA-04 - Documentation Requirements",
+            "TDA-04.1 - Functional Properties",
+            "TDA-05 - Developer Architecture & Design",
+            "TDA-06.1 - Criticality Analysis",
+            "TDA-07 - Secure Development Environments",
+            "TDA-09 - Security & Privacy Testing Throughout Development",
+            "TDA-09.1 - Continuous Monitoring Plan",
+            "TDA-10 - Use of Live Data",
+            "TDA-15 - Developer Threat Analysis & Flaw Remediation",
+            "TDA-17 - Unsupported Systems",
+            "TDA-17.1 - Alternate Sources for Continued Support"
+        ]
+    },
+    "Security Engineering - Automated Code Analysis": {
+        "pageID": "2034237926",
+        "scf": [
+            "TDA-09.2 - Static Code Analysis",
+            "TDA-09.3 - Dynamic Code Analysis"
+        ]
+    },
+    "Security Engineering - Secure Code Review": {
+        "pageID": "2048721002",
+        "scf": [
+            "VPM-04 - Continuous Vulnerability Remediation Activities",
+            "TDA-06 - Secure Coding",
+            "SEA-10 - Memory Protection",
+            "TDA-18 - Input Data Validation",
+            "TDA-19 - Error Handling"
+        ]
+    },
+    "Security Engineering - Secure Coding Standards": {
+        "pageID": "2034270708",
+        "scf": [
+            "SEA-01 - Secure Engineering Principles",
+            "SEA-01.1 - Centralized Management of Cybersecurity & Privacy Controls",
+            "SEA-02 - Alignment With Enterprise Architecture",
+            "SEA-02.1 - Standardized Terminology",
+            "TDA-06 - Secure Coding"
+        ]
+    },
+    "Security Training - Customer Assurance Training": {
+        "pageID": "2033452690",
+        "scf": [
+            "SAT-03 - Role-Based Security & Privacy Training"
+        ]
+    },
+    "Security Training - Incident Response Training": {
+        "pageID": "2052260245",
+        "scf": [
+            "IRO-05 - Incident Response Training",
+            "IRO-07 - Integrated Security Incident Response Team (ISIRT)",
+            "IRO-12.2 - Training"
+        ]
+    },
+    "Security Training - Secure Coding Training": {
+        "pageID": "2033748605",
+        "scf": [
+            "SAT-03 - Role-Based Security & Privacy Training",
+            "TDA-06 - Secure Coding"
+        ]
+    },
+    "Security Training - Security Awareness Training": {
+        "pageID": "2034107003",
+        "scf": [
+            "HRS-04.2 - Formal Indoctrination",
+            "HRS-05.7 - Policy Familiarization & Acknowledgement",
+            "SAT-01 - Security & Privacy-Minded Workforce",
+            "SAT-02 - Security & Privacy Awareness",
+            "SAT-02.2 - Social Engineering & Mining",
+            "SAT-04 - Security & Privacy Training Records"
+        ]
+    },
+    "Security Training - Security Expert Training": {
+        "pageID": "2052260304",
+        "scf": [
+            "HRS-05.7 - Policy Familiarization & Acknowledgement",
+            "SAT-03 - Role-Based Security & Privacy Training",
+            "GOV-07 - Contacts With Groups & Associations"
+        ]
+    },
+    "Threat Detection - Cloud Threat Detection": {
+        "pageID": "2032043099",
+        "scf": [
+            "END-06 - Endpoint File Integrity Monitoring (FIM)",
+            "END-06.1 - Integrity Checks",
+            "END-06.2 - Integration of Detection & Response",
+            "END-07 - Host Intrusion Detection and Prevention Systems (HIDS / HIPS)",
+            "MON-16 - Anomalous Behavior",
+            "NET-08 - Network Intrusion Detection / Prevention Systems (NIDS / NIPS)",
+            "NET-17 - Data Loss Prevention (DLP)",
+            "THR-01 - Threat Intelligence Program",
+            "THR-02 - Indicators of Exposure (IOE)",
+            "THR-03 - Threat Intelligence Feeds",
+            "THR-04 - Insider Threat Program"
+        ]
+    },
+    "Threat Detection - Endpoint Threat Detection": {
+        "pageID": "2032304728",
+        "scf": [
+            "END-04 - Malicious Code Protection (Anti-Malware)",
+            "MON-16 - Anomalous Behavior",
+            "THR-01 - Threat Intelligence Program",
+            "THR-02 - Indicators of Exposure (IOE)",
+            "THR-03 - Threat Intelligence Feeds",
+            "THR-04 - Insider Threat Program"
+        ]
+    },
+    "Threat Detection - SaaS Threat Detection": {
+        "pageID": "2032076051",
+        "scf": [
+            "MON-16 - Anomalous Behavior",
+            "THR-01 - Threat Intelligence Program",
+            "THR-02 - Indicators of Exposure (IOE)",
+            "THR-03 - Threat Intelligence Feeds",
+            "THR-04 - Insider Threat Program"
+        ]
+    },
+    "Vulnerability Management - Cloud Vulnerability Detection": {
+        "pageID": "2034303479",
+        "scf": [
+            "VPM-06 - Vulnerability Scanning",
+            "VPM-06.1 - Update Tool Capability",
+            "VPM-06.2 - Breadth / Depth of Coverage",
+            "VPM-06.3 - Privileged Access",
+            "VPM-06.4 - Trend Analysis",
+            "VPM-06.7 - Internal Vulnerability Assessment Scans",
+            "VPM-06.6 - External Vulnerability Assessment Scans",
+            "VPM-06.8 - Acceptable Discoverable Information",
+            "VPM-09 - Reviewing Vulnerability Scanner Usage"
+        ]
+    },
+    "Vulnerability Management - Endpoint Vulnerability Detection": {
+        "pageID": "2034074414",
+        "scf": [
+            "VPM-06 - Vulnerability Scanning",
+            "VPM-06.1 - Update Tool Capability",
+            "VPM-06.2 - Breadth / Depth of Coverage",
+            "VPM-06.3 - Privileged Access",
+            "VPM-06.4 - Trend Analysis",
+            "VPM-06.7 - Internal Vulnerability Assessment Scans",
+            "VPM-06.8 - Acceptable Discoverable Information",
+            "VPM-09 - Reviewing Vulnerability Scanner Usage"
+        ]
+    },
+    "Vulnerability Management - Vulnerability Management Process": {
+        "pageID": "2034237946",
+        "scf": [
+            "IAO-05 - Plan of Action & Milestones (POA&M)",
+            "VPM-01 - Vulnerability & Patch Management Program (VPMP)",
+            "VPM-01.1 - Attack Surface Scope",
+            "VPM-02 - Vulnerability Remediation Process",
+            "VPM-03 - Vulnerability Ranking",
+            "VPM-04 - Continuous Vulnerability Remediation Activities",
+            "VPM-05.1 - Centralized Management",
+            "VPM-05.2 - Automated Remediation Status",
+            "VPM-05.3 - Time To Remediate / Benchmarks For Corrective Action",
+            "VPM-09 - Reviewing Vulnerability Scanner Usage"
+        ]
+    }
+}
