@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"slices"
 	"strings"
 
 	md "github.com/go-spectest/markdown"
@@ -128,6 +129,7 @@ func GenerateSCFMarkdown(scfControl Control, scfControlID SCFControlID, controlM
 		for _, fcid := range frameworkControlIDs {
 			fcids = append(fcids, string(fcid))
 		}
+		slices.Sort(fcids)
 		doc.H3(string(framework)).
 			BulletList(fcids...)
 	}
@@ -168,7 +170,7 @@ func GenerateSCFIndex(scfControls SCFControls) error {
 	for scfControlID, _ := range scfControls {
 		controlLinks = append(controlLinks, fmt.Sprintf("[%s](scr/%s.md)", scfControlID, safeFileName(string(scfControlID))))
 	}
-	// slices.Sort(controlLinks)
+	slices.Sort(controlLinks)
 	doc.BulletList(controlLinks...)
 	doc.Build()
 	return nil

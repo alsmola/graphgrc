@@ -7,6 +7,7 @@ import (
 	"io/ioutil"
 	"net/http"
 	"os"
+	"slices"
 	"strings"
 
 	md "github.com/go-spectest/markdown"
@@ -88,6 +89,7 @@ func GenerateSOC2Markdown(requirement Requirement, scfControlMapping SCFControlM
 			}
 		}
 	}
+	slices.Sort(fcids)
 	doc.BulletList(fcids...)
 	doc.Build()
 	return nil

@@ -5,8 +5,8 @@ Mechanisms exist to:
  - Use organization-defined techniques or methods to ensure secure deletion or destruction of PD (including originals, copies and archived records).
 ## Mapped framework controls
 ### SOC 2
-- CC6.5
 - C1.2
+- CC6.5
 - P4.0
 - P4.2
 - P4.3

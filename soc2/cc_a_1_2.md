@@ -1,39 +1,39 @@
 # A1.2 The entity authorizes, designs, develops or acquires, implements, operates, approves, maintains, and monitors environmental protections, software, data back-up processes, and recovery infrastructure to meet its objectives
 Measures Current Usage - The use of the system components is measured to establish a baseline for capacity management and to use when evaluating the risk of impaired availability due to capacity constraints. Forecasts Capacity - The expected average and peak use of system components is forecasted and compared to system capacity and associated tolerances. Forecasting considers capacity in the event of the failure of system components that constrain capacity. Makes Changes Based on Forecasts - The system change management process is initiated when forecasted usage exceeds capacity tolerances.
 ## Mapped SCF controls
-- BCD-11.4 - Cryptographic Protection
-- BCD-10.1 - Telecommunications Priority of Service Provisions
-- BCD-12.2 - Failover Capability
-- PES-07 - Supporting Utilities
-- PES-15 - Electromagnetic Pulse (EMP) Protection
-- PES-08.1 - Fire Detection Devices
+- BCD-08 - Alternate Storage Site
+- BCD-08.1 - Separation from Primary Site
+- BCD-08.2 - Accessibility
+- BCD-09 - Alternate Processing Site
 - BCD-09.1 - Separation from Primary Site
 - BCD-09.2 - Accessibility
-- BCD-12 - Information System Recovery & Reconstitution
-- BCD-10 - Telecommunications Services Availability
-- PES-08 - Fire Protection
-- PES-07.2 - Emergency Shutoff
-- PES-13 - Information Leakage Due To Electromagnetic Signals Emanations
-- BCD-08.1 - Separation from Primary Site
-- RSK-04 - Risk Assessment
-- PES-12 - Equipment Siting & Protection
-- BCD-11.2 - Separate Storage for Critical Information
-- PES-07.4 - Emergency Lighting
-- PES-09.1 - Monitoring with Alarms / Notifications
-- PES-09 - Temperature & Humidity Controls
-- PES-11 - Alternate Work Site
-- BCD-11.1 - Testing for Reliability & Integrity
-- BCD-11 - Data Backups
-- PES-07.5 - Water Damage Protection
-- PES-01 - Physical & Environmental Protections
-- BCD-12.1 - Transaction Recovery
-- BCD-08 - Alternate Storage Site
-- PES-10 - Delivery & Removal
-- PES-08.2 - Fire Suppression Devices
-- PES-07.3 - Emergency Power
-- BCD-09 - Alternate Processing Site
-- BCD-11.3 - Information System Imaging
-- PES-07.1 - Automatic Voltage Controls
-- RSK-03 - Risk Identification
-- BCD-08.2 - Accessibility
 - BCD-09.3 - Alternate Site Priority of Service
+- BCD-10 - Telecommunications Services Availability
+- BCD-10.1 - Telecommunications Priority of Service Provisions
+- BCD-11 - Data Backups
+- BCD-11.1 - Testing for Reliability & Integrity
+- BCD-11.2 - Separate Storage for Critical Information
+- BCD-11.3 - Information System Imaging
+- BCD-11.4 - Cryptographic Protection
+- BCD-12 - Information System Recovery & Reconstitution
+- BCD-12.1 - Transaction Recovery
+- BCD-12.2 - Failover Capability
+- PES-01 - Physical & Environmental Protections
+- PES-07 - Supporting Utilities
+- PES-07.1 - Automatic Voltage Controls
+- PES-07.2 - Emergency Shutoff
+- PES-07.3 - Emergency Power
+- PES-07.4 - Emergency Lighting
+- PES-07.5 - Water Damage Protection
+- PES-08 - Fire Protection
+- PES-08.1 - Fire Detection Devices
+- PES-08.2 - Fire Suppression Devices
+- PES-09 - Temperature & Humidity Controls
+- PES-09.1 - Monitoring with Alarms / Notifications
+- PES-10 - Delivery & Removal
+- PES-11 - Alternate Work Site
+- PES-12 - Equipment Siting & Protection
+- PES-13 - Information Leakage Due To Electromagnetic Signals Emanations
+- PES-15 - Electromagnetic Pulse (EMP) Protection
+- RSK-03 - Risk Identification
+- RSK-04 - Risk Assessment

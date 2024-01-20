@@ -2,5 +2,5 @@
 Mechanisms exist to conduct tests and/or exercises to evaluate the contingency plan's effectiveness and the organization’s readiness to execute the plan. 
 ## Mapped framework controls
 ### SOC 2
-- CC7.5
 - A1.3
+- CC7.5
