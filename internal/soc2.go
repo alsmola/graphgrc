@@ -32,9 +32,8 @@ type FrameworkSummary struct {
 	Requirements []Requirement `json:"Requirements"`
 }
 
-func GetSOC2Controls(url string) (FrameworkSummary, error) {
+func GetSOC2Controls(url string, getFile bool) (FrameworkSummary, error) {
 	frameworkSummary := FrameworkSummary{}
-	getFile := true
 	if getFile {
 		resp, err := http.Get(url)
 		if err != nil {

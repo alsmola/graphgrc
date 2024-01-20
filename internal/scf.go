@@ -157,6 +157,23 @@ func GetComplianceControlMappings(controls SCFControls) SCFControlMappings {
 	return controlMappings
 }
 
+func GenerateSCFIndex(scfControls SCFControls) error {
+	f, err := os.Create("scf/index.md")
+	if err != nil {
+		return err
+	}
+	doc := md.NewMarkdown(f).
+		H1("SCF Controls")
+	controlLinks := []string{}
+	for scfControlID, _ := range scfControls {
+		controlLinks = append(controlLinks, fmt.Sprintf("[%s](scr/%s.md)", scfControlID, safeFileName(string(scfControlID))))
+	}
+	// slices.Sort(controlLinks)
+	doc.BulletList(controlLinks...)
+	doc.Build()
+	return nil
+}
+
 var BadCharacters = []string{
 	"../",
 	"<!--",
