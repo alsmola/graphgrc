@@ -1,0 +1,39 @@
+# A1.2 The entity authorizes, designs, develops or acquires, implements, operates, approves, maintains, and monitors environmental protections, software, data back-up processes, and recovery infrastructure to meet its objectives
+Measures Current Usage - The use of the system components is measured to establish a baseline for capacity management and to use when evaluating the risk of impaired availability due to capacity constraints. Forecasts Capacity - The expected average and peak use of system components is forecasted and compared to system capacity and associated tolerances. Forecasting considers capacity in the event of the failure of system components that constrain capacity. Makes Changes Based on Forecasts - The system change management process is initiated when forecasted usage exceeds capacity tolerances.
+## Mapped SCF controls
+- BCD-09.2 - Accessibility
+- RSK-04 - Risk Assessment
+- PES-07 - Supporting Utilities
+- PES-15 - Electromagnetic Pulse (EMP) Protection
+- PES-01 - Physical & Environmental Protections
+- PES-07.2 - Emergency Shutoff
+- PES-08.2 - Fire Suppression Devices
+- BCD-11.4 - Cryptographic Protection
+- PES-08 - Fire Protection
+- PES-13 - Information Leakage Due To Electromagnetic Signals Emanations
+- PES-09.1 - Monitoring with Alarms / Notifications
+- BCD-08 - Alternate Storage Site
+- PES-07.5 - Water Damage Protection
+- BCD-12.1 - Transaction Recovery
+- BCD-09.1 - Separation from Primary Site
+- RSK-03 - Risk Identification
+- PES-08.1 - Fire Detection Devices
+- BCD-12 - Information System Recovery & Reconstitution
+- BCD-08.1 - Separation from Primary Site
+- BCD-12.2 - Failover Capability
+- BCD-09 - Alternate Processing Site
+- PES-07.4 - Emergency Lighting
+- BCD-11.3 - Information System Imaging
+- BCD-11.1 - Testing for Reliability & Integrity
+- PES-07.3 - Emergency Power
+- BCD-10 - Telecommunications Services Availability
+- PES-10 - Delivery & Removal
+- PES-09 - Temperature & Humidity Controls
+- PES-11 - Alternate Work Site
+- PES-07.1 - Automatic Voltage Controls
+- BCD-11.2 - Separate Storage for Critical Information
+- BCD-08.2 - Accessibility
+- BCD-10.1 - Telecommunications Priority of Service Provisions
+- PES-12 - Equipment Siting & Protection
+- BCD-11 - Data Backups
+- BCD-09.3 - Alternate Site Priority of Service
