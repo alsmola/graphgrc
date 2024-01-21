@@ -144,16 +144,20 @@ func GenerateSCFMarkdown(scfControl Control, scfControlID SCFControlID, controlM
 		Table(md.TableSet{
 			Header: []string{"Maturity level", "Description"},
 			Rows: [][]string{
-				{"Not performed", string(scfControl[SCFColumnMapping[NotPerformed]])},
-				{"Performed internally", string(scfControl[SCFColumnMapping[PerformedInternally]])},
-				{"Planned and tracked", string(scfControl[SCFColumnMapping[PlannedAndTracked]])},
-				{"Well defined", string(scfControl[SCFColumnMapping[WellDefined]])},
-				{"Quantitatively controllled", string(scfControl[SCFColumnMapping[QuantitativelyControlled]])},
-				{"Continuously improving", string(scfControl[SCFColumnMapping[ContinuouslyImproving]])},
+				{"Not performed", fixControlQuestions(string(scfControl[SCFColumnMapping[NotPerformed]]))},
+				{"Performed internally", fixControlQuestions(string(scfControl[SCFColumnMapping[PerformedInternally]]))},
+				{"Planned and tracked", fixControlQuestions(string(scfControl[SCFColumnMapping[PlannedAndTracked]]))},
+				{"Well defined", fixControlQuestions(string(scfControl[SCFColumnMapping[WellDefined]]))},
+				{"Quantitatively controllled", fixControlQuestions(string(scfControl[SCFColumnMapping[QuantitativelyControlled]]))},
+				{"Continuously improving", fixControlQuestions(string(scfControl[SCFColumnMapping[ContinuouslyImproving]]))},
 			},
 		})
 	doc.Build()
 	return nil
+}
+
+func fixControlQuestions(input string) string {
+	return strings.ReplaceAll(strings.ReplaceAll(input, "•	", "- "), "\n", "<br>")
 }
 
 func GetComplianceControlMappings(controls SCFControls) SCFControlMappings {
