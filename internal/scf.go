@@ -59,6 +59,7 @@ var SCFColumnMapping = map[string]ControlHeader{
 
 var SupportedFrameworks = map[Framework]ControlHeader{
 	"SOC 2": "AICPA TSC 2017 (Controls)",
+	// "GDPR":  "EMEA EU GDPR",
 	// "ISO 27001":   "ISO 27001 v2022",
 	// "ISO 27002":   "ISO 27002 v2022",
 	// "ISO 27701":   "ISO 27701 v2019",
@@ -122,6 +123,21 @@ func GenerateSCFMarkdown(scfControl Control, scfControlID SCFControlID, controlM
 	doc := md.NewMarkdown(f).
 		H1(string(scfControlID)).
 		PlainText(string(scfControl[SCFColumnMapping[Description]])).
+		H2("Control questions").
+		PlainText(string(scfControl[SCFColumnMapping[ControlQuestions]])).
+		H2("Control maturity").
+		H3("Not performed").
+		PlainText(string(scfControl[SCFColumnMapping[NotPerformed]])).
+		H3("Performed internally").
+		PlainText(string(scfControl[SCFColumnMapping[PerformedInternally]])).
+		H3("Planned and tracked").
+		PlainText(string(scfControl[SCFColumnMapping[PlannedAndTracked]])).
+		H3("Well defined").
+		PlainText(string(scfControl[SCFColumnMapping[WellDefined]])).
+		H3("Quantitatively controllled").
+		PlainText(string(scfControl[SCFColumnMapping[QuantitativelyControlled]])).
+		H3("Continuously improving").
+		PlainText(string(scfControl[SCFColumnMapping[ContinuouslyImproving]])).
 		H2("Mapped framework controls")
 
 	for framework, frameworkControlIDs := range controlMapping {
