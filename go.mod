@@ -22,3 +22,5 @@ require (
 	golang.org/x/net v0.14.0 // indirect
 	golang.org/x/text v0.12.0 // indirect
 )
+
+replace github.com/go-spectest/markdown v0.0.7 => github.com/alsmola/markdown v0.0.0-20240121225548-4236131f4e01
