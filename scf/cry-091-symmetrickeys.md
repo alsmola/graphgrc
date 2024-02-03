@@ -6,11 +6,188 @@ Mechanisms exist to facilitate the production and management of symmetric crypto
 ## Control questions
 Does the organization facilitate the production and management of symmetric cryptographic keys using Federal Information Processing Standards (FIPS)-compliant key management technology and processes? 
 ## Control maturity
-|       MATURITY LEVEL       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                DESCRIPTION                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Not performed              | There is no evidence of a capability to facilitate the production and management of symmetric cryptographic keys using Federal Information Processing Standards (FIPS)-compliant key management technology and processes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Performed internally       | SP-CMM1 is N/A, since a structured process is required to facilitate the production and management of symmetric cryptographic keys using Federal Information Processing Standards (FIPS)-compliant key management technology and processes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| Planned and tracked        | Cryptographic Protections (CRY) efforts are requirements-driven and formally governed at a local/regional level, but are not consistent across the organization. CMM Level 2 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- Cryptographic management is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure and compliant practices.<br>- IT/cybersecurity personnel identify cybersecurity & data privacy controls that are appropriate to address applicable statutory, regulatory and contractual requirements for cryptographic management.<br>- Data classification and handling criteria govern requirements to encrypt sensitive/regulated data during transmission and in storage.<br>- Decentralized technologies implement cryptographic mechanisms on endpoints to control how sensitive/regulated data is encrypted during transmission and in storage.<br>- Systems, applications and services that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.<br>- The IT department implements Public Key Infrastructure (PKI) key management controls to protect the confidentiality, integrity and availability of keys.<br>- The IT department implements and maintains an internal PKI infrastructure or obtains PKI services from a reputable PKI service provider. <br>- The PKI infrastructure enables the secure distribution of symmetric and asymmetric cryptographic keys using industry recognized key management technology and processes. <br>- The PKI infrastructure ensures the availability of information in the event of the loss of cryptographic keys by individual users. <br>- The PKI infrastructure enables the secure distribution of symmetric and asymmetric cryptographic keys using industry recognized key management technology and processes. <br>- The PKI management function enables the implementation of cryptographic key management controls to protect the confidentiality, integrity and availability of keys. |
-| Well defined               | Cryptographic Protections (CRY) efforts are standardized across the organization and centrally managed, where technically feasible, to ensure consistency. CMM Level 3 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- Data classification and handling criteria govern requirements to encrypt sensitive/regulated data during transmission and in storage.<br>- Centrally-managed technologies implement cryptographic mechanisms on endpoints to control how sensitive/regulated data is encrypted during transmission and in storage.<br>- Systems, applications and services that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.<br>- The Public Key Infrastructure (PKI) management function enables the implementation of cryptographic key management controls to protect the confidentiality, integrity and availability of keys.<br>- The PKI infrastructure enables the secure distribution of symmetric and asymmetric cryptographic keys using industry recognized key management technology and processes. <br>- The PKI infrastructure ensures the availability of information in the event of the loss of cryptographic keys by individual users. <br>- An IT infrastructure team, or similar function, enables:<br>o	The production and management of asymmetric cryptographic keys using approved key management technology and processes that protect the user’s private key. <br>o	The production and management of symmetric cryptographic keys using approved key management technology and processes that protect the user’s private key.                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Quantitatively controllled | See SP-CMM3. SP-CMM4 is N/A, since a quantitatively-controlled process is not necessary to facilitate the production and management of symmetric cryptographic keys using Federal Information Processing Standards (FIPS)-compliant key management technology and processes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Continuously improving     | See SP-CMM4. SP-CMM5 is N/A, since a continuously-improving process is not necessary to facilitate the production and management of symmetric cryptographic keys using Federal Information Processing Standards (FIPS)-compliant key management technology and processes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|       MATURITY LEVEL       |          DESCRIPTION           |
+|----------------------------|--------------------------------|
+| Not performed              | There is no evidence of a      |
+|                            | capability to facilitate the   |
+|                            | production and management of   |
+|                            | symmetric cryptographic keys   |
+|                            | using Federal Information      |
+|                            | Processing Standards           |
+|                            | (FIPS)-compliant key           |
+|                            | management technology and      |
+|                            | processes.                     |
+| Performed internally       | SP-CMM1 is N/A, since a        |
+|                            | structured process is required |
+|                            | to facilitate the production   |
+|                            | and management of symmetric    |
+|                            | cryptographic keys using       |
+|                            | Federal Information Processing |
+|                            | Standards (FIPS)-compliant     |
+|                            | key management technology and  |
+|                            | processes.                     |
+| Planned and tracked        | Cryptographic Protections      |
+|                            | (CRY) efforts are              |
+|                            | requirements-driven and        |
+|                            | formally governed at a         |
+|                            | local/regional level, but      |
+|                            | are not consistent across      |
+|                            | the organization. CMM Level    |
+|                            | 2 control maturity would       |
+|                            | reasonably expect all, or      |
+|                            | at least most, the following   |
+|                            | criteria to exist:<br>-        |
+|                            | Cryptographic management       |
+|                            | is decentralized (e.g.,        |
+|                            | a localized/regionalized       |
+|                            | function) and uses             |
+|                            | non-standardized methods       |
+|                            | to implement secure and        |
+|                            | compliant practices.<br>-      |
+|                            | IT/cybersecurity personnel     |
+|                            | identify cybersecurity &       |
+|                            | data privacy controls that     |
+|                            | are appropriate to address     |
+|                            | applicable statutory,          |
+|                            | regulatory and contractual     |
+|                            | requirements for cryptographic |
+|                            | management.<br>- Data          |
+|                            | classification and handling    |
+|                            | criteria govern requirements   |
+|                            | to encrypt sensitive/regulated |
+|                            | data during transmission and   |
+|                            | in storage.<br>- Decentralized |
+|                            | technologies implement         |
+|                            | cryptographic mechanisms       |
+|                            | on endpoints to control how    |
+|                            | sensitive/regulated data is    |
+|                            | encrypted during transmission  |
+|                            | and in storage.<br>- Systems,  |
+|                            | applications and services that |
+|                            | store, process or transmit     |
+|                            | sensitive/regulated data       |
+|                            | use cryptographic mechanisms   |
+|                            | to prevent unauthorized        |
+|                            | disclosure of information      |
+|                            | as an alternate to physical    |
+|                            | safeguards.<br>- The IT        |
+|                            | department implements Public   |
+|                            | Key Infrastructure (PKI) key   |
+|                            | management controls to protect |
+|                            | the confidentiality, integrity |
+|                            | and availability of keys.<br>- |
+|                            | The IT department implements   |
+|                            | and maintains an internal PKI  |
+|                            | infrastructure or obtains PKI  |
+|                            | services from a reputable PKI  |
+|                            | service provider. <br>- The    |
+|                            | PKI infrastructure enables     |
+|                            | the secure distribution of     |
+|                            | symmetric and asymmetric       |
+|                            | cryptographic keys using       |
+|                            | industry recognized key        |
+|                            | management technology and      |
+|                            | processes. <br>- The PKI       |
+|                            | infrastructure ensures the     |
+|                            | availability of information    |
+|                            | in the event of the loss       |
+|                            | of cryptographic keys by       |
+|                            | individual users. <br>- The    |
+|                            | PKI infrastructure enables     |
+|                            | the secure distribution of     |
+|                            | symmetric and asymmetric       |
+|                            | cryptographic keys using       |
+|                            | industry recognized key        |
+|                            | management technology and      |
+|                            | processes. <br>- The PKI       |
+|                            | management function enables    |
+|                            | the implementation of          |
+|                            | cryptographic key management   |
+|                            | controls to protect the        |
+|                            | confidentiality, integrity and |
+|                            | availability of keys.          |
+| Well defined               | Cryptographic Protections      |
+|                            | (CRY) efforts are standardized |
+|                            | across the organization and    |
+|                            | centrally managed, where       |
+|                            | technically feasible, to       |
+|                            | ensure consistency. CMM Level  |
+|                            | 3 control maturity would       |
+|                            | reasonably expect all, or      |
+|                            | at least most, the following   |
+|                            | criteria to exist:<br>- Data   |
+|                            | classification and handling    |
+|                            | criteria govern requirements   |
+|                            | to encrypt sensitive/regulated |
+|                            | data during transmission       |
+|                            | and in storage.<br>-           |
+|                            | Centrally-managed              |
+|                            | technologies implement         |
+|                            | cryptographic mechanisms       |
+|                            | on endpoints to control how    |
+|                            | sensitive/regulated data is    |
+|                            | encrypted during transmission  |
+|                            | and in storage.<br>- Systems,  |
+|                            | applications and services that |
+|                            | store, process or transmit     |
+|                            | sensitive/regulated data       |
+|                            | use cryptographic mechanisms   |
+|                            | to prevent unauthorized        |
+|                            | disclosure of information      |
+|                            | as an alternate to physical    |
+|                            | safeguards.<br>- The Public    |
+|                            | Key Infrastructure (PKI)       |
+|                            | management function enables    |
+|                            | the implementation of          |
+|                            | cryptographic key management   |
+|                            | controls to protect the        |
+|                            | confidentiality, integrity     |
+|                            | and availability of keys.<br>- |
+|                            | The PKI infrastructure enables |
+|                            | the secure distribution of     |
+|                            | symmetric and asymmetric       |
+|                            | cryptographic keys using       |
+|                            | industry recognized key        |
+|                            | management technology and      |
+|                            | processes. <br>- The PKI       |
+|                            | infrastructure ensures the     |
+|                            | availability of information    |
+|                            | in the event of the loss       |
+|                            | of cryptographic keys by       |
+|                            | individual users. <br>-        |
+|                            | An IT infrastructure           |
+|                            | team, or similar function,     |
+|                            | enables:<br>o	The production    |
+|                            | and management of asymmetric   |
+|                            | cryptographic keys using       |
+|                            | approved key management        |
+|                            | technology and processes that  |
+|                            | protect the user’s private     |
+|                            | key. <br>o	The production       |
+|                            | and management of symmetric    |
+|                            | cryptographic keys using       |
+|                            | approved key management        |
+|                            | technology and processes that  |
+|                            | protect the user’s private     |
+|                            | key.                           |
+| Quantitatively controllled | See SP-CMM3. SP-CMM4           |
+|                            | is N/A, since a                |
+|                            | quantitatively-controlled      |
+|                            | process is not necessary to    |
+|                            | facilitate the production      |
+|                            | and management of symmetric    |
+|                            | cryptographic keys using       |
+|                            | Federal Information Processing |
+|                            | Standards (FIPS)-compliant     |
+|                            | key management technology and  |
+|                            | processes.                     |
+| Continuously improving     | See SP-CMM4. SP-CMM5 is N/A,   |
+|                            | since a continuously-improving |
+|                            | process is not necessary to    |
+|                            | facilitate the production      |
+|                            | and management of symmetric    |
+|                            | cryptographic keys using       |
+|                            | Federal Information Processing |
+|                            | Standards (FIPS)-compliant     |
+|                            | key management technology and  |
+|                            | processes.                     |

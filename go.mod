@@ -1,13 +1,13 @@
 module github.com/alsmola/compliance-mapper
 
-replace github.com/go-spectest/markdown => /Users/alexsmolen/src/github.com/alsmola/markdown
+// replace github.com/go-spectest/markdown => /Users/alexsmolen/src/github.com/alsmola/markdown
 
 go 1.21.5
 
-require (
-	github.com/go-spectest/markdown v0.0.0-00010101000000-000000000000
-	github.com/xuri/excelize/v2 v2.8.0
-)
+//	github.com/go-spectest/markdown v0.0.0-00010101000000-000000000000
+require github.com/xuri/excelize/v2 v2.8.0
+
+require github.com/go-spectest/markdown v0.0.7
 
 require (
 	github.com/karrick/godirwalk v1.17.0 // indirect

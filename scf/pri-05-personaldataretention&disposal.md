@@ -23,11 +23,236 @@ Does the organization:
  - Dispose of, destroys, erases, and/or anonymizes the PD, regardless of the method of storage; and
  - Use organization-defined techniques or methods to ensure secure deletion or destruction of PD (including originals, copies and archived records)?
 ## Control maturity
-|       MATURITY LEVEL       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           DESCRIPTION                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Not performed              | There is no evidence of a capability to: <br> - Retain Personal Data (PD), including metadata, for an organization-defined time period to fulfill the purpose(s) identified in the notice or as required by law;<br> - Dispose of, destroys, erases, and/ or anonymizes the PD, regardless of the method of storage; and<br> - Use organization-defined techniques or methods to ensure secure deletion or destruction of PD (including originals, copies and archived records).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Performed internally       | Privacy (PRI) efforts are ad hoc and inconsistent. CMM Level 1 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- No formal data privacy team exists. Privacy roles are assigned to existing IT / cybersecurity.<br>- Formal roles and responsibilities for data privacy may exist.<br>- No formal data privacy principles are identified for the organization.<br>- An ad hoc approach to Data Protection Impact Assessment (DPIA) exists.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Planned and tracked        | Privacy (PRI) efforts are requirements-driven and formally governed at a local/regional level, but are not consistent across the organization. CMM Level 2 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- Privacy management is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure and compliant practices. <br>- The data privacy program is developed to work with IT and cybersecurity staff to ensure that applicable statutory, regulatory and contractual data privacy obligations for Personal Data (PD) are properly identified and implemented across the enterprise.<br>- IT/cybersecurity personnel identify cybersecurity & data privacy controls to address applicable statutory, regulatory and contractual requirements for data privacy management.<br>- A qualified individual is formally assigned as the Chief Privacy Officer (CPO), or similar role, to lead the organization’s data privacy program. This individual may be assigned to multiple duties, including that as a Data Protection Officer (DPO).<br>- The CPO, or similar role, identifies “data privacy principles” that systems, applications, services, processes and third-parties must adhere to, based on leading data privacy practices. <br>- Administrative processes and technologies retain PD, including metadata, for an organization-defined time period to fulfill the purpose(s) identified in the data privacy notice, or as required by law.<br>- Administrative processes and technologies dispose of, destroy, erase, and/ or anonymize the PD, regardless of the method of storage.                                                                                                                                                      |
-| Well defined               | Privacy (PRI) efforts are standardized across the organization and centrally managed, where technically feasible, to ensure consistency. CMM Level 3 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- A Privacy program, run by a Chief Privacy Officer (CPO), or similar role, ensures that applicable statutory, regulatory and contractual data privacy obligations are properly identified and implemented to limit and secure Personal Data (PD) that the organization stores, transmits and processes.<br>- A data privacy team oversees the centralized-management of physical security controls across the enterprise. <br>- Data Protection Officers (DPOs) are assigned to work closely with business units and project teams to ensure data privacy principles are being implemented.<br>- CPO and DPO determine and document the legal authority that permits the collection, use, maintenance and sharing of PD, either generally or in support of a specific program or system need.<br>- As part of the organization’s data privacy program, the CPO publishes a clear set of “data privacy principles”, based on leading data privacy practices, that systems, applications, services, processes and third-parties must adhere to. <br>- A Project Management Office (PMO), or project management function, ensures both cybersecurity & data privacy principles are identified and implemented within ongoing or planned projects.<br>- Administrative processes and technologies retain PD, including metadata, for an organization-defined time period to fulfill the purpose(s) identified in the data privacy notice, or as required by law.<br>- Administrative processes and technologies dispose of, destroy, erase, and/ or anonymize the PD, regardless of the method of storage. |
-| Quantitatively controllled | Privacy (PRI) efforts are metrics driven and provide sufficient management insight (based on a quantitative understanding of process capabilities) to predict optimal performance, ensure continued operations and identify areas for improvement. In addition to CMM Level 3 criteria, CMM Level 4 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- 	Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).<br>- 	Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).<br>- 	Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity & data privacy controls, including functions performed by third-parties.<br>- 	Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).<br>- 	Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.<br>- 	Both business and technical stakeholders are involved in reviewing and approving proposed changes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Continuously improving     | Privacy (PRI) efforts are “world-class” capabilities that leverage predictive analysis (e.g., machine learning, AI, etc.). In addition to CMM Level 4 criteria, CMM Level 5 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- 	Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions.<br>- 	Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|       MATURITY LEVEL       |          DESCRIPTION           |
+|----------------------------|--------------------------------|
+| Not performed              | There is no evidence of        |
+|                            | a capability to: <br> -        |
+|                            | Retain Personal Data (PD),     |
+|                            | including metadata, for        |
+|                            | an organization-defined        |
+|                            | time period to fulfill the     |
+|                            | purpose(s) identified in       |
+|                            | the notice or as required      |
+|                            | by law;<br> - Dispose of,      |
+|                            | destroys, erases, and/         |
+|                            | or anonymizes the PD,          |
+|                            | regardless of the method       |
+|                            | of storage; and<br> -          |
+|                            | Use organization-defined       |
+|                            | techniques or methods to       |
+|                            | ensure secure deletion or      |
+|                            | destruction of PD (including   |
+|                            | originals, copies and archived |
+|                            | records).                      |
+| Performed internally       | Privacy (PRI) efforts are      |
+|                            | ad hoc and inconsistent. CMM   |
+|                            | Level 1 control maturity would |
+|                            | reasonably expect all, or      |
+|                            | at least most, the following   |
+|                            | criteria to exist:<br>- No     |
+|                            | formal data privacy team       |
+|                            | exists. Privacy roles are      |
+|                            | assigned to existing IT /      |
+|                            | cybersecurity.<br>- Formal     |
+|                            | roles and responsibilities for |
+|                            | data privacy may exist.<br>-   |
+|                            | No formal data privacy         |
+|                            | principles are identified      |
+|                            | for the organization.<br>-     |
+|                            | An ad hoc approach to Data     |
+|                            | Protection Impact Assessment   |
+|                            | (DPIA) exists.                 |
+| Planned and tracked        | Privacy (PRI) efforts are      |
+|                            | requirements-driven and        |
+|                            | formally governed at a         |
+|                            | local/regional level, but      |
+|                            | are not consistent across      |
+|                            | the organization. CMM Level    |
+|                            | 2 control maturity would       |
+|                            | reasonably expect all, or      |
+|                            | at least most, the following   |
+|                            | criteria to exist:<br>-        |
+|                            | Privacy management is          |
+|                            | decentralized (e.g., a         |
+|                            | localized/regionalized         |
+|                            | function) and uses             |
+|                            | non-standardized methods       |
+|                            | to implement secure and        |
+|                            | compliant practices. <br>-     |
+|                            | The data privacy program       |
+|                            | is developed to work with      |
+|                            | IT and cybersecurity staff     |
+|                            | to ensure that applicable      |
+|                            | statutory, regulatory and      |
+|                            | contractual data privacy       |
+|                            | obligations for Personal       |
+|                            | Data (PD) are properly         |
+|                            | identified and implemented     |
+|                            | across the enterprise.<br>-    |
+|                            | IT/cybersecurity personnel     |
+|                            | identify cybersecurity &       |
+|                            | data privacy controls to       |
+|                            | address applicable statutory,  |
+|                            | regulatory and contractual     |
+|                            | requirements for data          |
+|                            | privacy management.<br>-       |
+|                            | A qualified individual is      |
+|                            | formally assigned as the       |
+|                            | Chief Privacy Officer (CPO),   |
+|                            | or similar role, to lead the   |
+|                            | organization’s data privacy    |
+|                            | program. This individual       |
+|                            | may be assigned to multiple    |
+|                            | duties, including that as      |
+|                            | a Data Protection Officer      |
+|                            | (DPO).<br>- The CPO, or        |
+|                            | similar role, identifies       |
+|                            | “data privacy principles”      |
+|                            | that systems, applications,    |
+|                            | services, processes and        |
+|                            | third-parties must adhere      |
+|                            | to, based on leading data      |
+|                            | privacy practices. <br>-       |
+|                            | Administrative processes       |
+|                            | and technologies retain        |
+|                            | PD, including metadata,        |
+|                            | for an organization-defined    |
+|                            | time period to fulfill the     |
+|                            | purpose(s) identified in       |
+|                            | the data privacy notice,       |
+|                            | or as required by law.<br>-    |
+|                            | Administrative processes       |
+|                            | and technologies dispose       |
+|                            | of, destroy, erase, and/ or    |
+|                            | anonymize the PD, regardless   |
+|                            | of the method of storage.      |
+| Well defined               | Privacy (PRI) efforts are      |
+|                            | standardized across the        |
+|                            | organization and centrally     |
+|                            | managed, where technically     |
+|                            | feasible, to ensure            |
+|                            | consistency. CMM Level         |
+|                            | 3 control maturity would       |
+|                            | reasonably expect all, or      |
+|                            | at least most, the following   |
+|                            | criteria to exist:<br>- A      |
+|                            | Privacy program, run by a      |
+|                            | Chief Privacy Officer (CPO),   |
+|                            | or similar role, ensures       |
+|                            | that applicable statutory,     |
+|                            | regulatory and contractual     |
+|                            | data privacy obligations       |
+|                            | are properly identified and    |
+|                            | implemented to limit and       |
+|                            | secure Personal Data (PD)      |
+|                            | that the organization stores,  |
+|                            | transmits and processes.<br>-  |
+|                            | A data privacy team oversees   |
+|                            | the centralized-management     |
+|                            | of physical security controls  |
+|                            | across the enterprise. <br>-   |
+|                            | Data Protection Officers       |
+|                            | (DPOs) are assigned to work    |
+|                            | closely with business units    |
+|                            | and project teams to ensure    |
+|                            | data privacy principles        |
+|                            | are being implemented.<br>-    |
+|                            | CPO and DPO determine and      |
+|                            | document the legal authority   |
+|                            | that permits the collection,   |
+|                            | use, maintenance and sharing   |
+|                            | of PD, either generally or     |
+|                            | in support of a specific       |
+|                            | program or system need.<br>-   |
+|                            | As part of the organization’s  |
+|                            | data privacy program, the      |
+|                            | CPO publishes a clear set of   |
+|                            | “data privacy principles”,     |
+|                            | based on leading data privacy  |
+|                            | practices, that systems,       |
+|                            | applications, services,        |
+|                            | processes and third-parties    |
+|                            | must adhere to. <br>- A        |
+|                            | Project Management Office      |
+|                            | (PMO), or project management   |
+|                            | function, ensures both         |
+|                            | cybersecurity & data privacy   |
+|                            | principles are identified and  |
+|                            | implemented within ongoing     |
+|                            | or planned projects.<br>-      |
+|                            | Administrative processes       |
+|                            | and technologies retain        |
+|                            | PD, including metadata,        |
+|                            | for an organization-defined    |
+|                            | time period to fulfill the     |
+|                            | purpose(s) identified in       |
+|                            | the data privacy notice,       |
+|                            | or as required by law.<br>-    |
+|                            | Administrative processes       |
+|                            | and technologies dispose       |
+|                            | of, destroy, erase, and/ or    |
+|                            | anonymize the PD, regardless   |
+|                            | of the method of storage.      |
+| Quantitatively controllled | Privacy (PRI) efforts are      |
+|                            | metrics driven and provide     |
+|                            | sufficient management insight  |
+|                            | (based on a quantitative       |
+|                            | understanding of process       |
+|                            | capabilities) to predict       |
+|                            | optimal performance,           |
+|                            | ensure continued operations    |
+|                            | and identify areas for         |
+|                            | improvement. In addition to    |
+|                            | CMM Level 3 criteria, CMM      |
+|                            | Level 4 control maturity       |
+|                            | would reasonably expect        |
+|                            | all, or at least most,         |
+|                            | the following criteria to      |
+|                            | exist:<br>- 	Metrics reporting  |
+|                            | includes quantitative          |
+|                            | analysis of Key Performance    |
+|                            | Indicators (KPIs).<br>-        |
+|                            | 	Metrics reporting includes     |
+|                            | quantitative analysis of Key   |
+|                            | Risk Indicators (KRIs).<br>-   |
+|                            | 	Scope of metrics, KPIs and     |
+|                            | KRIs covers organization-wide  |
+|                            | cybersecurity & data           |
+|                            | privacy controls, including    |
+|                            | functions performed            |
+|                            | by third-parties.<br>-         |
+|                            | 	Organizational leadership      |
+|                            | maintains a formal process to  |
+|                            | objectively review and respond |
+|                            | to metrics, KPIs and KRIs      |
+|                            | (e.g., monthly or quarterly    |
+|                            | review).<br>- 	Based on metrics |
+|                            | analysis, process improvement  |
+|                            | recommendations are submitted  |
+|                            | for review and are handled in  |
+|                            | accordance with change control |
+|                            | processes.<br>- 	Both business  |
+|                            | and technical stakeholders     |
+|                            | are involved in reviewing and  |
+|                            | approving proposed changes.    |
+| Continuously improving     | Privacy (PRI) efforts are      |
+|                            | “world-class” capabilities     |
+|                            | that leverage predictive       |
+|                            | analysis (e.g., machine        |
+|                            | learning, AI, etc.). In        |
+|                            | addition to CMM Level 4        |
+|                            | criteria, CMM Level 5 control  |
+|                            | maturity would reasonably      |
+|                            | expect all, or at least        |
+|                            | most, the following criteria   |
+|                            | to exist:<br>- 	Stakeholders    |
+|                            | make time-sensitive decisions  |
+|                            | to support operational         |
+|                            | efficiency, which may          |
+|                            | include automated remediation  |
+|                            | actions.<br>- 	Based on         |
+|                            | predictive analysis, process   |
+|                            | improvements are implemented   |
+|                            | according to “continuous       |
+|                            | improvement” practices that    |
+|                            | affect process changes.        |

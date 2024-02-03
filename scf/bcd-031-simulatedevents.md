@@ -6,11 +6,113 @@ Mechanisms exist to incorporate simulated events into contingency training to fa
 ## Control questions
 Does the organization incorporate simulated events into contingency training to facilitate effective response by personnel in crisis situations?
 ## Control maturity
-|       MATURITY LEVEL       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               DESCRIPTION                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Not performed              | There is no evidence of a capability to incorporate simulated events into contingency training to facilitate effective response by personnel in crisis situations.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Performed internally       | SP-CMM1 is N/A, since a structured process is required to incorporate simulated events into contingency training to facilitate effective response by personnel in crisis situations.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Planned and tracked        | SP-CMM2 is N/A, since a well-defined process is required to incorporate simulated events into contingency training to facilitate effective response by personnel in crisis situations.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Well defined               | Business Continuity & Disaster Recovery (BCD) efforts are standardized across the organization and centrally managed, where technically feasible, to ensure consistency. CMM Level 3 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- A formal Business Continuity & Disaster Recovery (BC/DR) program exists with defined roles and responsibilities to restore functionality in the event of a catastrophe, emergency, or significant disruptive incident that is handled in accordance with the Continuity of Operations Plan (COOP).<br>- BC/DR personnel work with business stakeholders to identify business-critical systems, services, internal teams and third-party service providers.<br>- Application/system/process owners conduct a Business Impact Analysis (BIA) at least annually, or after any major technology or process change, to identify assets critical to the business in need of protection, as well as single points of failure.<br>- Recovery Time Objectives (RTOs) are defined.<br>- Recovery Point Objectives (RPOs) are defined.<br>- Controls are assigned to sensitive/regulated assets to comply with specific BC/DR requirements to facilitate recovery operations in accordance with RTOs and RPOs.<br>- IT personnel work with business stakeholders to develop Disaster Recovery Plans (DRP) to recover business-critical systems and services within RPOs.<br>- Business stakeholders work with IT personnel to develop Business Continuity Plans (BCPs) to ensure business functions are sustainable both during and after an incident within RTOs.<br>- The data backup function is formally assigned with defined roles and responsibilities.<br>- BC/DR personnel conduct simulated incidents to validate the viability BC/DR plans, in conjunction with stakeholders. |
-| Quantitatively controllled | See SP-CMM3. SP-CMM4 is N/A, since a quantitatively-controlled process is not necessary to incorporate simulated events into contingency training to facilitate effective response by personnel in crisis situations.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| Continuously improving     | See SP-CMM4. SP-CMM5 is N/A, since a continuously-improving process is not necessary to incorporate simulated events into contingency training to facilitate effective response by personnel in crisis situations.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|       MATURITY LEVEL       |          DESCRIPTION           |
+|----------------------------|--------------------------------|
+| Not performed              | There is no evidence of a      |
+|                            | capability to incorporate      |
+|                            | simulated events into          |
+|                            | contingency training to        |
+|                            | facilitate effective response  |
+|                            | by personnel in crisis         |
+|                            | situations.                    |
+| Performed internally       | SP-CMM1 is N/A, since          |
+|                            | a structured process is        |
+|                            | required to incorporate        |
+|                            | simulated events into          |
+|                            | contingency training to        |
+|                            | facilitate effective response  |
+|                            | by personnel in crisis         |
+|                            | situations.                    |
+| Planned and tracked        | SP-CMM2 is N/A, since a        |
+|                            | well-defined process is        |
+|                            | required to incorporate        |
+|                            | simulated events into          |
+|                            | contingency training to        |
+|                            | facilitate effective response  |
+|                            | by personnel in crisis         |
+|                            | situations.                    |
+| Well defined               | Business Continuity &          |
+|                            | Disaster Recovery (BCD)        |
+|                            | efforts are standardized       |
+|                            | across the organization and    |
+|                            | centrally managed, where       |
+|                            | technically feasible, to       |
+|                            | ensure consistency. CMM Level  |
+|                            | 3 control maturity would       |
+|                            | reasonably expect all, or      |
+|                            | at least most, the following   |
+|                            | criteria to exist:<br>- A      |
+|                            | formal Business Continuity     |
+|                            | & Disaster Recovery (BC/DR)    |
+|                            | program exists with defined    |
+|                            | roles and responsibilities     |
+|                            | to restore functionality in    |
+|                            | the event of a catastrophe,    |
+|                            | emergency, or significant      |
+|                            | disruptive incident that       |
+|                            | is handled in accordance       |
+|                            | with the Continuity of         |
+|                            | Operations Plan (COOP).<br>-   |
+|                            | BC/DR personnel work with      |
+|                            | business stakeholders to       |
+|                            | identify business-critical     |
+|                            | systems, services, internal    |
+|                            | teams and third-party          |
+|                            | service providers.<br>-        |
+|                            | Application/system/process     |
+|                            | owners conduct a Business      |
+|                            | Impact Analysis (BIA) at       |
+|                            | least annually, or after any   |
+|                            | major technology or process    |
+|                            | change, to identify assets     |
+|                            | critical to the business in    |
+|                            | need of protection, as well as |
+|                            | single points of failure.<br>- |
+|                            | Recovery Time Objectives       |
+|                            | (RTOs) are defined.<br>-       |
+|                            | Recovery Point Objectives      |
+|                            | (RPOs) are defined.<br>-       |
+|                            | Controls are assigned to       |
+|                            | sensitive/regulated assets     |
+|                            | to comply with specific BC/DR  |
+|                            | requirements to facilitate     |
+|                            | recovery operations in         |
+|                            | accordance with RTOs and       |
+|                            | RPOs.<br>- IT personnel work   |
+|                            | with business stakeholders     |
+|                            | to develop Disaster Recovery   |
+|                            | Plans (DRP) to recover         |
+|                            | business-critical systems and  |
+|                            | services within RPOs.<br>-     |
+|                            | Business stakeholders work     |
+|                            | with IT personnel to develop   |
+|                            | Business Continuity Plans      |
+|                            | (BCPs) to ensure business      |
+|                            | functions are sustainable both |
+|                            | during and after an incident   |
+|                            | within RTOs.<br>- The data     |
+|                            | backup function is formally    |
+|                            | assigned with defined roles    |
+|                            | and responsibilities.<br>-     |
+|                            | BC/DR personnel conduct        |
+|                            | simulated incidents to         |
+|                            | validate the viability BC/DR   |
+|                            | plans, in conjunction with     |
+|                            | stakeholders.                  |
+| Quantitatively controllled | See SP-CMM3. SP-CMM4           |
+|                            | is N/A, since a                |
+|                            | quantitatively-controlled      |
+|                            | process is not necessary to    |
+|                            | incorporate simulated events   |
+|                            | into contingency training to   |
+|                            | facilitate effective response  |
+|                            | by personnel in crisis         |
+|                            | situations.                    |
+| Continuously improving     | See SP-CMM4. SP-CMM5 is N/A,   |
+|                            | since a continuously-improving |
+|                            | process is not necessary to    |
+|                            | incorporate simulated events   |
+|                            | into contingency training to   |
+|                            | facilitate effective response  |
+|                            | by personnel in crisis         |
+|                            | situations.                    |

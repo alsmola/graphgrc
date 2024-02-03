@@ -6,11 +6,155 @@ Mechanisms exist to utilize Host-based Intrusion Detection / Prevention Systems 
 ## Control questions
 Does the organization utilize Host-based Intrusion Detection / Prevention Systems (HIDS / HIPS) to actively alert on or block unwanted activities and send logs to a Security Incident Event Manager (SIEM), or similar automated tool, to maintain situational awareness?
 ## Control maturity
-|       MATURITY LEVEL       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  DESCRIPTION                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Not performed              | There is no evidence of a capability to utilize Host-based Intrusion Detection / Prevention Systems (HIDS / HIPS) to actively alert on or block unwanted activities and send logs to a Security Incident Event Manager (SIEM), or similar automated tool, to maintain situational awareness.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Performed internally       | Continuous Monitoring (MON) efforts are ad hoc and inconsistent. CMM Level 1 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- Generating event logs and the review of event logs is narrowly-focused to business-critical systems and/ or systems that store, processes and/ or transmit sensitive/regulated data.<br>- Secure baseline configurations generate logs that contain sufficient information to establish necessary details of activity and allow for forensics analysis.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| Planned and tracked        | Continuous Monitoring (MON) efforts are requirements-driven and formally governed at a local/regional level, but are not consistent across the organization. CMM Level 2 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- Situational awareness management is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure and compliant practices.<br>- Secure baseline configurations generate logs that contain sufficient information to establish necessary details of activity and allow for forensics analysis.<br>- IT/cybersecurity personnel:<br>o	Identify cybersecurity & data privacy controls that are appropriate to address applicable statutory, regulatory and contractual requirements for situational awareness management.<br>o	Configure alerts for critical or sensitive data that is stored, transmitted and processed on assets.<br>o	Use a structured process to review and analyze logs.<br>- A log aggregator, or similar automated tool, provides an event log report generation capability to aid in detecting and assessing anomalous activities on business-critical systems.                                                                                              |
-| Well defined               | Continuous Monitoring (MON) efforts are standardized across the organization and centrally managed, where technically feasible, to ensure consistency. CMM Level 3 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- An IT Asset Management (ITAM) function, or similar function:<br>o	Governs asset management that ensures compliance with requirements for asset management.<br>o	Leverages a Configuration Management Database (CMDB), or similar tool, as the authoritative source of IT assets.<br>- A Security Incident Event Manager (SIEM), or similar automated tool:<br>o	Centrally collects logs and is protected according to the manufacturer’s security guidelines to protect the integrity of the event logs with cryptographic mechanisms.<br>o	Monitors the organization for Indicators of Compromise (IoC) and provides 24x7x365 near real-time alerting capability.<br>o	Is configured to alert incident response personnel of detected suspicious events such that incident responders can look to terminate suspicious events.<br>- Both inbound and outbound network traffic is monitored for unauthorized activities to identify prohibited activities and assist incident handlers with identifying potentially compromised systems.  |
-| Quantitatively controllled | See SP-CMM3. SP-CMM4 is N/A, since a quantitatively-controlled process is not necessary to utilize Host-based Intrusion Detection / Prevention Systems (HIDS / HIPS) to actively alert on or block unwanted activities and send logs to a Security Incident Event Manager (SIEM), or similar automated tool, to maintain situational awareness.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| Continuously improving     | See SP-CMM4. SP-CMM5 is N/A, since a continuously-improving process is not necessary to utilize Host-based Intrusion Detection / Prevention Systems (HIDS / HIPS) to actively alert on or block unwanted activities and send logs to a Security Incident Event Manager (SIEM), or similar automated tool, to maintain situational awareness.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|       MATURITY LEVEL       |          DESCRIPTION           |
+|----------------------------|--------------------------------|
+| Not performed              | There is no evidence of        |
+|                            | a capability to utilize        |
+|                            | Host-based Intrusion Detection |
+|                            | / Prevention Systems (HIDS     |
+|                            | / HIPS) to actively alert on   |
+|                            | or block unwanted activities   |
+|                            | and send logs to a Security    |
+|                            | Incident Event Manager (SIEM), |
+|                            | or similar automated tool,     |
+|                            | to maintain situational        |
+|                            | awareness.                     |
+| Performed internally       | Continuous Monitoring (MON)    |
+|                            | efforts are ad hoc and         |
+|                            | inconsistent. CMM Level        |
+|                            | 1 control maturity would       |
+|                            | reasonably expect all, or      |
+|                            | at least most, the following   |
+|                            | criteria to exist:<br>-        |
+|                            | Generating event logs and      |
+|                            | the review of event logs       |
+|                            | is narrowly-focused to         |
+|                            | business-critical systems      |
+|                            | and/ or systems that store,    |
+|                            | processes and/ or transmit     |
+|                            | sensitive/regulated data.<br>- |
+|                            | Secure baseline configurations |
+|                            | generate logs that contain     |
+|                            | sufficient information to      |
+|                            | establish necessary details    |
+|                            | of activity and allow for      |
+|                            | forensics analysis.            |
+| Planned and tracked        | Continuous Monitoring          |
+|                            | (MON) efforts are              |
+|                            | requirements-driven and        |
+|                            | formally governed at a         |
+|                            | local/regional level, but      |
+|                            | are not consistent across      |
+|                            | the organization. CMM          |
+|                            | Level 2 control maturity       |
+|                            | would reasonably expect        |
+|                            | all, or at least most,         |
+|                            | the following criteria to      |
+|                            | exist:<br>- Situational        |
+|                            | awareness management is        |
+|                            | decentralized (e.g., a         |
+|                            | localized/regionalized         |
+|                            | function) and uses             |
+|                            | non-standardized methods       |
+|                            | to implement secure and        |
+|                            | compliant practices.<br>-      |
+|                            | Secure baseline configurations |
+|                            | generate logs that contain     |
+|                            | sufficient information to      |
+|                            | establish necessary details    |
+|                            | of activity and allow for      |
+|                            | forensics analysis.<br>-       |
+|                            | IT/cybersecurity               |
+|                            | personnel:<br>o	Identify        |
+|                            | cybersecurity & data privacy   |
+|                            | controls that are appropriate  |
+|                            | to address applicable          |
+|                            | statutory, regulatory and      |
+|                            | contractual requirements       |
+|                            | for situational awareness      |
+|                            | management.<br>o	Configure      |
+|                            | alerts for critical or         |
+|                            | sensitive data that is stored, |
+|                            | transmitted and processed on   |
+|                            | assets.<br>o	Use a structured   |
+|                            | process to review and analyze  |
+|                            | logs.<br>- A log aggregator,   |
+|                            | or similar automated tool,     |
+|                            | provides an event log report   |
+|                            | generation capability to aid   |
+|                            | in detecting and assessing     |
+|                            | anomalous activities on        |
+|                            | business-critical systems.     |
+| Well defined               | Continuous Monitoring (MON)    |
+|                            | efforts are standardized       |
+|                            | across the organization and    |
+|                            | centrally managed, where       |
+|                            | technically feasible, to       |
+|                            | ensure consistency. CMM Level  |
+|                            | 3 control maturity would       |
+|                            | reasonably expect all, or      |
+|                            | at least most, the following   |
+|                            | criteria to exist:<br>-        |
+|                            | An IT Asset Management         |
+|                            | (ITAM) function, or similar    |
+|                            | function:<br>o	Governs          |
+|                            | asset management that          |
+|                            | ensures compliance with        |
+|                            | requirements for asset         |
+|                            | management.<br>o	Leverages      |
+|                            | a Configuration Management     |
+|                            | Database (CMDB), or similar    |
+|                            | tool, as the authoritative     |
+|                            | source of IT assets.<br>-      |
+|                            | A Security Incident Event      |
+|                            | Manager (SIEM), or similar     |
+|                            | automated tool:<br>o	Centrally  |
+|                            | collects logs and is           |
+|                            | protected according to the     |
+|                            | manufacturer’s security        |
+|                            | guidelines to protect the      |
+|                            | integrity of the event         |
+|                            | logs with cryptographic        |
+|                            | mechanisms.<br>o	Monitors the   |
+|                            | organization for Indicators of |
+|                            | Compromise (IoC) and provides  |
+|                            | 24x7x365 near real-time        |
+|                            | alerting capability.<br>o	Is    |
+|                            | configured to alert incident   |
+|                            | response personnel of detected |
+|                            | suspicious events such that    |
+|                            | incident responders can        |
+|                            | look to terminate suspicious   |
+|                            | events.<br>- Both inbound and  |
+|                            | outbound network traffic is    |
+|                            | monitored for unauthorized     |
+|                            | activities to identify         |
+|                            | prohibited activities and      |
+|                            | assist incident handlers       |
+|                            | with identifying potentially   |
+|                            | compromised systems.           |
+| Quantitatively controllled | See SP-CMM3. SP-CMM4           |
+|                            | is N/A, since a                |
+|                            | quantitatively-controlled      |
+|                            | process is not necessary to    |
+|                            | utilize Host-based Intrusion   |
+|                            | Detection / Prevention Systems |
+|                            | (HIDS / HIPS) to actively      |
+|                            | alert on or block unwanted     |
+|                            | activities and send logs to    |
+|                            | a Security Incident Event      |
+|                            | Manager (SIEM), or similar     |
+|                            | automated tool, to maintain    |
+|                            | situational awareness.         |
+| Continuously improving     | See SP-CMM4. SP-CMM5 is N/A,   |
+|                            | since a continuously-improving |
+|                            | process is not necessary to    |
+|                            | utilize Host-based Intrusion   |
+|                            | Detection / Prevention Systems |
+|                            | (HIDS / HIPS) to actively      |
+|                            | alert on or block unwanted     |
+|                            | activities and send logs to    |
+|                            | a Security Incident Event      |
+|                            | Manager (SIEM), or similar     |
+|                            | automated tool, to maintain    |
+|                            | situational awareness.         |

@@ -12,11 +12,250 @@ Mechanisms exist to facilitate the implementation of personnel security controls
 ## Control questions
 Does the organization facilitate the implementation of personnel security controls?
 ## Control maturity
-|       MATURITY LEVEL       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          DESCRIPTION                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Not performed              | There is no evidence of a capability to facilitate the implementation of personnel security controls.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Performed internally       | Human Resources Security (HRS) efforts are ad hoc and inconsistent. CMM Level 1 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- Personnel management is decentralized, with the responsibility for training users and enforcing policies being assigned to the user’s immediate supervisor(s)/manager(s), including the definition and enforcement of the user’s specific role(s) and responsibilities.<br>- The Human Resources (HR) department provides guidance on HR practices for hiring, retaining and terminating employees, contractors and other personnel that work on behalf of the organization.<br>- Terms of employment, including acceptable and unacceptable rules of behavior for the use of technologies, including consequences for unacceptable behavior are at the discretion of users’ management.<br>- Administrative processes require all employees and contractors to apply cybersecurity & data privacy principles in their daily work.<br>- HR, in conjunction with IT personnel establishes redundancy for vital cybersecurity & data privacy staff.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Planned and tracked        | Human Resources Security (HRS) efforts are requirements-driven and formally governed at a local/regional level, but are not consistent across the organization. CMM Level 2 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- Personnel management is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure and compliant practices.<br>- IT/cybersecurity personnel identify cybersecurity & data privacy controls that are appropriate to address applicable statutory, regulatory and contractual requirements for personnel management. <br>- The Human Resources (HR) department:<br>o	Ensures industry-recognized HR practices are implemented for hiring, managing, training, investigating and terminating employees, contractors and other personnel that work on behalf of the organization.<br>o	Defines terms of employment, including acceptable and unacceptable rules of behavior for the use of technologies, including consequences for unacceptable behavior.<br>- The responsibility for training users and enforcing policies being assigned to user’s immediate supervisor(s)/manager(s), including the definition and enforcement of the user’s specific role(s) and responsibilities.<br>- Personnel managers ensure personnel are routinely made aware of the organization’s cybersecurity / data privacy policies and provide acknowledgement.<br>- Administrative processes require all employees and contractors to apply cybersecurity & data privacy principles in their daily work.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Well defined               | Human Resources Security (HRS) efforts are standardized across the organization and centrally managed, where technically feasible, to ensure consistency. CMM Level 3 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- The Chief Information Security Officer (CISO), or similar function, analyzes the organization’s business strategy to determine prioritized and authoritative guidance for Human Resources (HR) practices.<br>- The CISO, or similar function, develops a security-focused Concept of Operations (CONOPS) that documents management, operational and technical measures to apply defense-in-depth techniques across the enterprise for personnel management.<br>- A Governance, Risk & Compliance (GRC) function, or similar function, provides governance oversight for the implementation of applicable statutory, regulatory and contractual cybersecurity & data privacy controls to protect the confidentiality, integrity, availability and safety of the organization’s applications, systems, services and data with regards to personnel management.<br>- A steering committee is formally established to provide executive oversight of the cybersecurity & data privacy program, including HR practices. <br>- The Human Resources (HR) department:<br>o	Ensures industry-recognized HR practices are implemented for hiring, managing, training, investigating and terminating employees, contractors and other personnel that work on behalf of the organization.<br>o	Ensures that every user accessing a system that processes, stores, or transmits sensitive/regulated data is cleared and regularly trained in proper data handling practices. <br>o	Identifies and implements industry-recognized HR practices related to cybersecurity & data privacy training and awareness to help ensure secure practices are implemented in personnel operations to help manage risk to both technology assets and data.<br>o	Manages personnel security risk by assigning a risk designation to all positions and establishing screening criteria for individuals filling those positions.<br>- Administrative processes require Non-Disclosure Agreements (NDAs) or similar confidentiality agreements that reflect the needs to protect data and operational details, for both employees and third-parties. |
-| Quantitatively controllled | Human Resources Security (HRS) efforts are metrics driven and provide sufficient management insight (based on a quantitative understanding of process capabilities) to predict optimal performance, ensure continued operations and identify areas for improvement. In addition to CMM Level 3 criteria, CMM Level 4 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- 	Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).<br>- 	Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).<br>- 	Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity & data privacy controls, including functions performed by third-parties.<br>- 	Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).<br>- 	Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.<br>- 	Both business and technical stakeholders are involved in reviewing and approving proposed changes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Continuously improving     | See SP-CMM4. SP-CMM5 is N/A, since a continuously-improving process is not necessary to facilitate the implementation of personnel security controls.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|       MATURITY LEVEL       |          DESCRIPTION           |
+|----------------------------|--------------------------------|
+| Not performed              | There is no evidence of a      |
+|                            | capability to facilitate the   |
+|                            | implementation of personnel    |
+|                            | security controls.             |
+| Performed internally       | Human Resources Security       |
+|                            | (HRS) efforts are ad hoc       |
+|                            | and inconsistent. CMM          |
+|                            | Level 1 control maturity       |
+|                            | would reasonably expect        |
+|                            | all, or at least most,         |
+|                            | the following criteria         |
+|                            | to exist:<br>- Personnel       |
+|                            | management is decentralized,   |
+|                            | with the responsibility for    |
+|                            | training users and enforcing   |
+|                            | policies being assigned        |
+|                            | to the user’s immediate        |
+|                            | supervisor(s)/manager(s),      |
+|                            | including the definition       |
+|                            | and enforcement of the         |
+|                            | user’s specific role(s)        |
+|                            | and responsibilities.<br>-     |
+|                            | The Human Resources (HR)       |
+|                            | department provides guidance   |
+|                            | on HR practices for hiring,    |
+|                            | retaining and terminating      |
+|                            | employees, contractors         |
+|                            | and other personnel that       |
+|                            | work on behalf of the          |
+|                            | organization.<br>- Terms       |
+|                            | of employment, including       |
+|                            | acceptable and unacceptable    |
+|                            | rules of behavior for the use  |
+|                            | of technologies, including     |
+|                            | consequences for unacceptable  |
+|                            | behavior are at the discretion |
+|                            | of users’ management.<br>-     |
+|                            | Administrative processes       |
+|                            | require all employees          |
+|                            | and contractors to apply       |
+|                            | cybersecurity & data privacy   |
+|                            | principles in their daily      |
+|                            | work.<br>- HR, in conjunction  |
+|                            | with IT personnel establishes  |
+|                            | redundancy for vital           |
+|                            | cybersecurity & data privacy   |
+|                            | staff.                         |
+| Planned and tracked        | Human Resources Security       |
+|                            | (HRS) efforts are              |
+|                            | requirements-driven and        |
+|                            | formally governed at a         |
+|                            | local/regional level, but      |
+|                            | are not consistent across      |
+|                            | the organization. CMM Level    |
+|                            | 2 control maturity would       |
+|                            | reasonably expect all, or      |
+|                            | at least most, the following   |
+|                            | criteria to exist:<br>-        |
+|                            | Personnel management is        |
+|                            | decentralized (e.g., a         |
+|                            | localized/regionalized         |
+|                            | function) and uses             |
+|                            | non-standardized methods       |
+|                            | to implement secure and        |
+|                            | compliant practices.<br>-      |
+|                            | IT/cybersecurity personnel     |
+|                            | identify cybersecurity         |
+|                            | & data privacy controls        |
+|                            | that are appropriate           |
+|                            | to address applicable          |
+|                            | statutory, regulatory and      |
+|                            | contractual requirements       |
+|                            | for personnel management.      |
+|                            | <br>- The Human Resources      |
+|                            | (HR) department:<br>o	Ensures   |
+|                            | industry-recognized HR         |
+|                            | practices are implemented for  |
+|                            | hiring, managing, training,    |
+|                            | investigating and terminating  |
+|                            | employees, contractors         |
+|                            | and other personnel that       |
+|                            | work on behalf of the          |
+|                            | organization.<br>o	Defines      |
+|                            | terms of employment, including |
+|                            | acceptable and unacceptable    |
+|                            | rules of behavior for          |
+|                            | the use of technologies,       |
+|                            | including consequences for     |
+|                            | unacceptable behavior.<br>-    |
+|                            | The responsibility for         |
+|                            | training users and enforcing   |
+|                            | policies being assigned        |
+|                            | to user’s immediate            |
+|                            | supervisor(s)/manager(s),      |
+|                            | including the definition       |
+|                            | and enforcement of the         |
+|                            | user’s specific role(s)        |
+|                            | and responsibilities.<br>-     |
+|                            | Personnel managers ensure      |
+|                            | personnel are routinely made   |
+|                            | aware of the organization’s    |
+|                            | cybersecurity / data           |
+|                            | privacy policies and provide   |
+|                            | acknowledgement.<br>-          |
+|                            | Administrative processes       |
+|                            | require all employees          |
+|                            | and contractors to apply       |
+|                            | cybersecurity & data privacy   |
+|                            | principles in their daily      |
+|                            | work.                          |
+| Well defined               | Human Resources Security       |
+|                            | (HRS) efforts are standardized |
+|                            | across the organization and    |
+|                            | centrally managed, where       |
+|                            | technically feasible, to       |
+|                            | ensure consistency. CMM Level  |
+|                            | 3 control maturity would       |
+|                            | reasonably expect all, or      |
+|                            | at least most, the following   |
+|                            | criteria to exist:<br>- The    |
+|                            | Chief Information Security     |
+|                            | Officer (CISO), or similar     |
+|                            | function, analyzes the         |
+|                            | organization’s business        |
+|                            | strategy to determine          |
+|                            | prioritized and authoritative  |
+|                            | guidance for Human Resources   |
+|                            | (HR) practices.<br>- The       |
+|                            | CISO, or similar function,     |
+|                            | develops a security-focused    |
+|                            | Concept of Operations          |
+|                            | (CONOPS) that documents        |
+|                            | management, operational and    |
+|                            | technical measures to apply    |
+|                            | defense-in-depth techniques    |
+|                            | across the enterprise for      |
+|                            | personnel management.<br>-     |
+|                            | A Governance, Risk &           |
+|                            | Compliance (GRC) function,     |
+|                            | or similar function, provides  |
+|                            | governance oversight for the   |
+|                            | implementation of applicable   |
+|                            | statutory, regulatory and      |
+|                            | contractual cybersecurity      |
+|                            | & data privacy controls to     |
+|                            | protect the confidentiality,   |
+|                            | integrity, availability and    |
+|                            | safety of the organization’s   |
+|                            | applications, systems,         |
+|                            | services and data with regards |
+|                            | to personnel management.<br>-  |
+|                            | A steering committee is        |
+|                            | formally established to        |
+|                            | provide executive oversight    |
+|                            | of the cybersecurity &         |
+|                            | data privacy program,          |
+|                            | including HR practices.        |
+|                            | <br>- The Human Resources      |
+|                            | (HR) department:<br>o	Ensures   |
+|                            | industry-recognized HR         |
+|                            | practices are implemented for  |
+|                            | hiring, managing, training,    |
+|                            | investigating and terminating  |
+|                            | employees, contractors         |
+|                            | and other personnel that       |
+|                            | work on behalf of the          |
+|                            | organization.<br>o	Ensures      |
+|                            | that every user accessing      |
+|                            | a system that processes,       |
+|                            | stores, or transmits           |
+|                            | sensitive/regulated data is    |
+|                            | cleared and regularly trained  |
+|                            | in proper data handling        |
+|                            | practices. <br>o	Identifies and |
+|                            | implements industry-recognized |
+|                            | HR practices related to        |
+|                            | cybersecurity & data privacy   |
+|                            | training and awareness to      |
+|                            | help ensure secure practices   |
+|                            | are implemented in personnel   |
+|                            | operations to help manage      |
+|                            | risk to both technology        |
+|                            | assets and data.<br>o	Manages   |
+|                            | personnel security risk by     |
+|                            | assigning a risk designation   |
+|                            | to all positions and           |
+|                            | establishing screening         |
+|                            | criteria for individuals       |
+|                            | filling those positions.<br>-  |
+|                            | Administrative processes       |
+|                            | require Non-Disclosure         |
+|                            | Agreements (NDAs) or similar   |
+|                            | confidentiality agreements     |
+|                            | that reflect the needs to      |
+|                            | protect data and operational   |
+|                            | details, for both employees    |
+|                            | and third-parties.             |
+| Quantitatively controllled | Human Resources Security       |
+|                            | (HRS) efforts are metrics      |
+|                            | driven and provide sufficient  |
+|                            | management insight (based on   |
+|                            | a quantitative understanding   |
+|                            | of process capabilities) to    |
+|                            | predict optimal performance,   |
+|                            | ensure continued operations    |
+|                            | and identify areas for         |
+|                            | improvement. In addition to    |
+|                            | CMM Level 3 criteria, CMM      |
+|                            | Level 4 control maturity       |
+|                            | would reasonably expect        |
+|                            | all, or at least most,         |
+|                            | the following criteria to      |
+|                            | exist:<br>- 	Metrics reporting  |
+|                            | includes quantitative          |
+|                            | analysis of Key Performance    |
+|                            | Indicators (KPIs).<br>-        |
+|                            | 	Metrics reporting includes     |
+|                            | quantitative analysis of Key   |
+|                            | Risk Indicators (KRIs).<br>-   |
+|                            | 	Scope of metrics, KPIs and     |
+|                            | KRIs covers organization-wide  |
+|                            | cybersecurity & data           |
+|                            | privacy controls, including    |
+|                            | functions performed            |
+|                            | by third-parties.<br>-         |
+|                            | 	Organizational leadership      |
+|                            | maintains a formal process to  |
+|                            | objectively review and respond |
+|                            | to metrics, KPIs and KRIs      |
+|                            | (e.g., monthly or quarterly    |
+|                            | review).<br>- 	Based on metrics |
+|                            | analysis, process improvement  |
+|                            | recommendations are submitted  |
+|                            | for review and are handled in  |
+|                            | accordance with change control |
+|                            | processes.<br>- 	Both business  |
+|                            | and technical stakeholders     |
+|                            | are involved in reviewing and  |
+|                            | approving proposed changes.    |
+| Continuously improving     | See SP-CMM4. SP-CMM5 is N/A,   |
+|                            | since a continuously-improving |
+|                            | process is not necessary to    |
+|                            | facilitate the implementation  |
+|                            | of personnel security          |
+|                            | controls.                      |

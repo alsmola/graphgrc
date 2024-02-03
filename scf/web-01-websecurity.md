@@ -7,11 +7,174 @@ Mechanisms exist to facilitate the implementation of an enterprise-wide web mana
 ## Control questions
 Does the organization facilitate the implementation of an enterprise-wide web management policy, as well as associated standards, controls and procedures?
 ## Control maturity
-|       MATURITY LEVEL       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     DESCRIPTION                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Not performed              | There is no evidence of a capability to facilitate the implementation of an enterprise-wide web management policy, as well as associated standards, controls and procedures.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Performed internally       | Web Security (WEB) efforts are ad hoc and inconsistent. CMM Level 1 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- The management of Internet-facing technologies are decentralized.<br>- Internet-facing technologies are governed no differently from internal network assets.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Planned and tracked        | Web Security (WEB) efforts are requirements-driven and formally governed at a local/regional level, but are not consistent across the organization. CMM Level 2 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- Internet-facing technologies management is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure and compliant practices.<br>- IT/cybersecurity personnel identify cybersecurity & data privacy controls to address applicable statutory, regulatory and contractual requirements for Internet-facing technologies management.<br>- Administrative processes and technologies focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed (e.g., Demilitarized Zones (DMZs)).<br>- Internet-facing technologies are configured to protect data with the strength and integrity commensurate with the classification or sensitivity of the information and mostly conform to industry-recognized standards for hardening (e.g., DISA STIGs, CIS Benchmarks or OEM security guides), including cryptographic protections for sensitive/regulated data.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Well defined               | Web Security (WEB) efforts are standardized across the organization and centrally managed, where technically feasible, to ensure consistency. CMM Level 3 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- A Validated Architecture Design Review (VADR) evaluates Internet-facing design criteria for secure practices and conformance with requirements for applicable statutory, regulatory and contractual controls to determine if the system/application/service is designed, built and operated in a secure and resilient manner.<br>- A change notification capability exists to scan web pages for changes, which are reviewed by appropriate personnel to determine if changes are authorized or unuathorized.<br>- Ongoing content reviews are performed to ensure web pages do not contain non-public information.<br>- Security engineering, or a similar function, ensures that Internet-facing devices conform to industry-recognized standards for configuration hardening (e.g., DISA STIGs, CIS Benchmarks or OEM security guides) for test, development, staging and production environments. This includes creating special hardening requirements for High-Value Assets (HVAs).<br>- An Identity & Access Management (IAM) function, or similar function, enables the implementation of identification and access management controls for Internet-facing technologies. <br>- Technologies are configured to implement Strong Customer Authentication (SCA) for consumers to prove their identity.<br>- Administrative processes exist and technologies are configured to provide Internet-facing individuals (e.g., customers, users, clients, etc.) with clear and precise information about cookies, in accordance with regulatory requirements for cookie management.<br>- An IT Asset Management (ITAM) function, or similar function, categorizes network devices according to the data the asset stores, transmits and/ or processes and applies the appropriate technology controls to protect the asset and data.<br>- Boundary protections:<br>o	Utilize Web Application Firewalls (WAFs) to provide defense-in-depth protection for application-specific threats. <br>o	Restrict inbound traffic to authorized devices on certain services, protocols and ports. |
-| Quantitatively controllled | See SP-CMM3. SP-CMM4 is N/A, since a quantitatively-controlled process is not necessary to facilitate the implementation of an enterprise-wide web management policy, as well as associated standards, controls and procedures.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Continuously improving     | See SP-CMM4. SP-CMM5 is N/A, since a continuously-improving process is not necessary to facilitate the implementation of an enterprise-wide web management policy, as well as associated standards, controls and procedures.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|       MATURITY LEVEL       |          DESCRIPTION           |
+|----------------------------|--------------------------------|
+| Not performed              | There is no evidence of a      |
+|                            | capability to facilitate       |
+|                            | the implementation of an       |
+|                            | enterprise-wide web management |
+|                            | policy, as well as associated  |
+|                            | standards, controls and        |
+|                            | procedures.                    |
+| Performed internally       | Web Security (WEB) efforts     |
+|                            | are ad hoc and inconsistent.   |
+|                            | CMM Level 1 control maturity   |
+|                            | would reasonably expect        |
+|                            | all, or at least most,         |
+|                            | the following criteria to      |
+|                            | exist:<br>- The management of  |
+|                            | Internet-facing technologies   |
+|                            | are decentralized.<br>-        |
+|                            | Internet-facing technologies   |
+|                            | are governed no differently    |
+|                            | from internal network assets.  |
+| Planned and tracked        | Web Security (WEB) efforts     |
+|                            | are requirements-driven        |
+|                            | and formally governed at a     |
+|                            | local/regional level, but      |
+|                            | are not consistent across      |
+|                            | the organization. CMM          |
+|                            | Level 2 control maturity       |
+|                            | would reasonably expect        |
+|                            | all, or at least most,         |
+|                            | the following criteria to      |
+|                            | exist:<br>- Internet-facing    |
+|                            | technologies management        |
+|                            | is decentralized (e.g.,        |
+|                            | a localized/regionalized       |
+|                            | function) and uses             |
+|                            | non-standardized methods       |
+|                            | to implement secure and        |
+|                            | compliant practices.<br>-      |
+|                            | IT/cybersecurity personnel     |
+|                            | identify cybersecurity         |
+|                            | & data privacy controls        |
+|                            | to address applicable          |
+|                            | statutory, regulatory and      |
+|                            | contractual requirements       |
+|                            | for Internet-facing            |
+|                            | technologies management.<br>-  |
+|                            | Administrative processes       |
+|                            | and technologies focus on      |
+|                            | protecting High Value Assets   |
+|                            | (HVAs), including environments |
+|                            | where sensitive/regulated data |
+|                            | is stored, transmitted and     |
+|                            | processed (e.g., Demilitarized |
+|                            | Zones (DMZs)).<br>-            |
+|                            | Internet-facing technologies   |
+|                            | are configured to protect      |
+|                            | data with the strength         |
+|                            | and integrity commensurate     |
+|                            | with the classification or     |
+|                            | sensitivity of the information |
+|                            | and mostly conform to          |
+|                            | industry-recognized standards  |
+|                            | for hardening (e.g., DISA      |
+|                            | STIGs, CIS Benchmarks or OEM   |
+|                            | security guides), including    |
+|                            | cryptographic protections for  |
+|                            | sensitive/regulated data.      |
+| Well defined               | Web Security (WEB) efforts     |
+|                            | are standardized across        |
+|                            | the organization and           |
+|                            | centrally managed, where       |
+|                            | technically feasible, to       |
+|                            | ensure consistency. CMM Level  |
+|                            | 3 control maturity would       |
+|                            | reasonably expect all, or      |
+|                            | at least most, the following   |
+|                            | criteria to exist:<br>-        |
+|                            | A Validated Architecture       |
+|                            | Design Review (VADR)           |
+|                            | evaluates Internet-facing      |
+|                            | design criteria for secure     |
+|                            | practices and conformance      |
+|                            | with requirements for          |
+|                            | applicable statutory,          |
+|                            | regulatory and contractual     |
+|                            | controls to determine if the   |
+|                            | system/application/service     |
+|                            | is designed, built and         |
+|                            | operated in a secure and       |
+|                            | resilient manner.<br>-         |
+|                            | A change notification          |
+|                            | capability exists to scan      |
+|                            | web pages for changes, which   |
+|                            | are reviewed by appropriate    |
+|                            | personnel to determine if      |
+|                            | changes are authorized or      |
+|                            | unuathorized.<br>- Ongoing     |
+|                            | content reviews are performed  |
+|                            | to ensure web pages do         |
+|                            | not contain non-public         |
+|                            | information.<br>- Security     |
+|                            | engineering, or a similar      |
+|                            | function, ensures that         |
+|                            | Internet-facing devices        |
+|                            | conform to industry-recognized |
+|                            | standards for configuration    |
+|                            | hardening (e.g., DISA          |
+|                            | STIGs, CIS Benchmarks or OEM   |
+|                            | security guides) for test,     |
+|                            | development, staging and       |
+|                            | production environments. This  |
+|                            | includes creating special      |
+|                            | hardening requirements         |
+|                            | for High-Value Assets          |
+|                            | (HVAs).<br>- An Identity       |
+|                            | & Access Management (IAM)      |
+|                            | function, or similar function, |
+|                            | enables the implementation     |
+|                            | of identification and access   |
+|                            | management controls for        |
+|                            | Internet-facing technologies.  |
+|                            | <br>- Technologies are         |
+|                            | configured to implement Strong |
+|                            | Customer Authentication (SCA)  |
+|                            | for consumers to prove their   |
+|                            | identity.<br>- Administrative  |
+|                            | processes exist and            |
+|                            | technologies are configured    |
+|                            | to provide Internet-facing     |
+|                            | individuals (e.g., customers,  |
+|                            | users, clients, etc.) with     |
+|                            | clear and precise information  |
+|                            | about cookies, in accordance   |
+|                            | with regulatory requirements   |
+|                            | for cookie management.<br>-    |
+|                            | An IT Asset Management (ITAM)  |
+|                            | function, or similar function, |
+|                            | categorizes network devices    |
+|                            | according to the data the      |
+|                            | asset stores, transmits and/   |
+|                            | or processes and applies       |
+|                            | the appropriate technology     |
+|                            | controls to protect the        |
+|                            | asset and data.<br>- Boundary  |
+|                            | protections:<br>o	Utilize       |
+|                            | Web Application Firewalls      |
+|                            | (WAFs) to provide              |
+|                            | defense-in-depth protection    |
+|                            | for application-specific       |
+|                            | threats. <br>o	Restrict inbound |
+|                            | traffic to authorized devices  |
+|                            | on certain services, protocols |
+|                            | and ports.                     |
+| Quantitatively controllled | See SP-CMM3. SP-CMM4           |
+|                            | is N/A, since a                |
+|                            | quantitatively-controlled      |
+|                            | process is not necessary to    |
+|                            | facilitate the implementation  |
+|                            | of an enterprise-wide web      |
+|                            | management policy, as well as  |
+|                            | associated standards, controls |
+|                            | and procedures.                |
+| Continuously improving     | See SP-CMM4. SP-CMM5 is N/A,   |
+|                            | since a continuously-improving |
+|                            | process is not necessary to    |
+|                            | facilitate the implementation  |
+|                            | of an enterprise-wide web      |
+|                            | management policy, as well as  |
+|                            | associated standards, controls |
+|                            | and procedures.                |

@@ -6,11 +6,219 @@ Mechanisms exist to ensure that the interests of external service providers are 
 ## Control questions
 Does the organization ensure that the interests of external service providers are consistent with and reflect organizational interests?
 ## Control maturity
-|       MATURITY LEVEL       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    DESCRIPTION                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Not performed              | There is no evidence of a capability to ensure that the interests of third-party service providers are consistent with and reflect organizational interests.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Performed internally       | Third-Party Management (TPM) efforts are ad hoc and inconsistent. CMM Level 1 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- Third-party management is decentralized.<br>- IT personnel use an informal process to govern third-party service providers.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Planned and tracked        | Third-Party Management (TPM) efforts are requirements-driven and formally governed at a local/regional level, but are not consistent across the organization. CMM Level 2 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- Third-party management is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure and compliant practices.<br>- IT/cybersecurity personnel identify cybersecurity & data privacy controls to address applicable statutory, regulatory and contractual requirements for third-party management.<br>- A procurement function maintains a list of all active Third-Party Service Providers (TSP), including pertinent contract information that will assist in a risk assessment.<br>- A Shared Responsibility Matrix (SRM) is documented for every TSP that directly or indirectly affects sensitive/regulated data.<br>- Procurement contracts:<br>o	Require TSP to follow secure engineering practices as part of a broader Cybersecurity Supply Chain Risk Management (C-SCRM) initiative.<br>o	Contain "break clauses" in all TSP contracts to enable penalty-free, early termination of a contract for cause, based on the TSP's cybersecurity and/ or data privacy practices deficiency(ies).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Well defined               | Third-Party Management (TPM) efforts are standardized across the organization and centrally managed, where technically feasible, to ensure consistency. CMM Level 3 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- Procurement contracts and layered defenses provide safeguards to limit harm from potential adversaries who identify and target the organization's supply chain.<br>- A Governance, Risk & Compliance (GRC) function, or similar function;<br>o	provides governance oversight for the implementation of applicable statutory, regulatory and contractual cybersecurity & data privacy controls to protect the confidentiality, integrity, availability and safety of the organization’s applications, systems, services and data with regards to third-party management.<br>o	Operates the Cybersecurity Supply Chain Risk Management (C-SCRM) program to identify and mitigate supply chain-related risks and threats.<br>o	Evaluates risks associated with weaknesses or deficiencies in supply chain elements identified during first and/ or third-party reviews. <br>o	Enables the implementation of third-party management controls.<br>o	Ensures the Information Assurance Program (IAP) evaluates applicable cybersecurity & data privacy controls as part of “business as usual” pre-production testing. <br>- A procurement team, or similar function:<br>o	Maintains a list of all active Third-Party Service Providers (TSP), including pertinent contract information that will assist in a risk assessment.<br>o	Requires TSP to follow secure engineering practices as part of a broader Cybersecurity Supply Chain Risk Management (C-SCRM) initiative.<br>o	Includes "break clauses" in all TSP contracts to enable penalty-free, early termination of a contract for cause, based on the TSP's cybersecurity and/ or data privacy practices deficiency(ies).<br>o	Controls changes to services by suppliers, taking into account the criticality of business information, systems and processes that are in scope by the third-party.<br>o	Requires a risk assessment prior to the acquisition or outsourcing of technology-related services.<br>o	Monitors, regularly reviews and audits supplier service delivery for compliance with established contract agreements. <br>o	Uses tailored acquisition strategies, contract tools and procurement methods for the purchase of unique systems, system components or services.<br>- A Shared Responsibility Matrix (SRM) is documented for every TSP that directly or indirectly affects sensitive/regulated data. |
-| Quantitatively controllled | Third-Party Management (TPM) efforts are metrics driven and provide sufficient management insight (based on a quantitative understanding of process capabilities) to predict optimal performance, ensure continued operations and identify areas for improvement. In addition to CMM Level 3 criteria, CMM Level 4 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- 	Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).<br>- 	Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).<br>- 	Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity & data privacy controls, including functions performed by third-parties.<br>- 	Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).<br>- 	Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.<br>- 	Both business and technical stakeholders are involved in reviewing and approving proposed changes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Continuously improving     | See SP-CMM4. SP-CMM5 is N/A, since a continuously-improving process is not necessary to ensure that the interests of third-party service providers are consistent with and reflect organizational interests.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|       MATURITY LEVEL       |          DESCRIPTION           |
+|----------------------------|--------------------------------|
+| Not performed              | There is no evidence of a      |
+|                            | capability to ensure that      |
+|                            | the interests of third-party   |
+|                            | service providers are          |
+|                            | consistent with and reflect    |
+|                            | organizational interests.      |
+| Performed internally       | Third-Party Management         |
+|                            | (TPM) efforts are ad hoc       |
+|                            | and inconsistent. CMM Level    |
+|                            | 1 control maturity would       |
+|                            | reasonably expect all, or      |
+|                            | at least most, the following   |
+|                            | criteria to exist:<br>-        |
+|                            | Third-party management         |
+|                            | is decentralized.<br>- IT      |
+|                            | personnel use an informal      |
+|                            | process to govern third-party  |
+|                            | service providers.             |
+| Planned and tracked        | Third-Party Management         |
+|                            | (TPM) efforts are              |
+|                            | requirements-driven and        |
+|                            | formally governed at a         |
+|                            | local/regional level, but      |
+|                            | are not consistent across      |
+|                            | the organization. CMM Level    |
+|                            | 2 control maturity would       |
+|                            | reasonably expect all, or      |
+|                            | at least most, the following   |
+|                            | criteria to exist:<br>-        |
+|                            | Third-party management         |
+|                            | is decentralized (e.g.,        |
+|                            | a localized/regionalized       |
+|                            | function) and uses             |
+|                            | non-standardized methods       |
+|                            | to implement secure and        |
+|                            | compliant practices.<br>-      |
+|                            | IT/cybersecurity personnel     |
+|                            | identify cybersecurity &       |
+|                            | data privacy controls to       |
+|                            | address applicable statutory,  |
+|                            | regulatory and contractual     |
+|                            | requirements for third-party   |
+|                            | management.<br>- A procurement |
+|                            | function maintains a list of   |
+|                            | all active Third-Party Service |
+|                            | Providers (TSP), including     |
+|                            | pertinent contract information |
+|                            | that will assist in a risk     |
+|                            | assessment.<br>- A Shared      |
+|                            | Responsibility Matrix (SRM)    |
+|                            | is documented for every TSP    |
+|                            | that directly or indirectly    |
+|                            | affects sensitive/regulated    |
+|                            | data.<br>- Procurement         |
+|                            | contracts:<br>o	Require TSP     |
+|                            | to follow secure engineering   |
+|                            | practices as part of a broader |
+|                            | Cybersecurity Supply Chain     |
+|                            | Risk Management (C-SCRM)       |
+|                            | initiative.<br>o	Contain "break |
+|                            | clauses" in all TSP contracts  |
+|                            | to enable penalty-free, early  |
+|                            | termination of a contract      |
+|                            | for cause, based on the        |
+|                            | TSP's cybersecurity and/       |
+|                            | or data privacy practices      |
+|                            | deficiency(ies).               |
+| Well defined               | Third-Party Management (TPM)   |
+|                            | efforts are standardized       |
+|                            | across the organization and    |
+|                            | centrally managed, where       |
+|                            | technically feasible, to       |
+|                            | ensure consistency. CMM Level  |
+|                            | 3 control maturity would       |
+|                            | reasonably expect all, or      |
+|                            | at least most, the following   |
+|                            | criteria to exist:<br>-        |
+|                            | Procurement contracts and      |
+|                            | layered defenses provide       |
+|                            | safeguards to limit harm       |
+|                            | from potential adversaries     |
+|                            | who identify and target        |
+|                            | the organization's supply      |
+|                            | chain.<br>- A Governance,      |
+|                            | Risk & Compliance (GRC)        |
+|                            | function, or similar           |
+|                            | function;<br>o	provides         |
+|                            | governance oversight for the   |
+|                            | implementation of applicable   |
+|                            | statutory, regulatory and      |
+|                            | contractual cybersecurity      |
+|                            | & data privacy controls to     |
+|                            | protect the confidentiality,   |
+|                            | integrity, availability and    |
+|                            | safety of the organization’s   |
+|                            | applications, systems,         |
+|                            | services and data with         |
+|                            | regards to third-party         |
+|                            | management.<br>o	Operates       |
+|                            | the Cybersecurity Supply       |
+|                            | Chain Risk Management          |
+|                            | (C-SCRM) program to            |
+|                            | identify and mitigate supply   |
+|                            | chain-related risks and        |
+|                            | threats.<br>o	Evaluates risks   |
+|                            | associated with weaknesses or  |
+|                            | deficiencies in supply chain   |
+|                            | elements identified during     |
+|                            | first and/ or third-party      |
+|                            | reviews. <br>o	Enables          |
+|                            | the implementation of          |
+|                            | third-party management         |
+|                            | controls.<br>o	Ensures          |
+|                            | the Information Assurance      |
+|                            | Program (IAP) evaluates        |
+|                            | applicable cybersecurity       |
+|                            | & data privacy controls as     |
+|                            | part of “business as usual”    |
+|                            | pre-production testing. <br>-  |
+|                            | A procurement team, or similar |
+|                            | function:<br>o	Maintains        |
+|                            | a list of all active           |
+|                            | Third-Party Service Providers  |
+|                            | (TSP), including pertinent     |
+|                            | contract information that      |
+|                            | will assist in a risk          |
+|                            | assessment.<br>o	Requires TSP   |
+|                            | to follow secure engineering   |
+|                            | practices as part of a broader |
+|                            | Cybersecurity Supply Chain     |
+|                            | Risk Management (C-SCRM)       |
+|                            | initiative.<br>o	Includes       |
+|                            | "break clauses" in all         |
+|                            | TSP contracts to enable        |
+|                            | penalty-free, early            |
+|                            | termination of a contract      |
+|                            | for cause, based on the        |
+|                            | TSP's cybersecurity and/       |
+|                            | or data privacy practices      |
+|                            | deficiency(ies).<br>o	Controls  |
+|                            | changes to services by         |
+|                            | suppliers, taking into account |
+|                            | the criticality of business    |
+|                            | information, systems and       |
+|                            | processes that are in scope by |
+|                            | the third-party.<br>o	Requires  |
+|                            | a risk assessment prior to     |
+|                            | the acquisition or outsourcing |
+|                            | of technology-related          |
+|                            | services.<br>o	Monitors,        |
+|                            | regularly reviews and audits   |
+|                            | supplier service delivery for  |
+|                            | compliance with established    |
+|                            | contract agreements.           |
+|                            | <br>o	Uses tailored acquisition |
+|                            | strategies, contract tools     |
+|                            | and procurement methods        |
+|                            | for the purchase of unique     |
+|                            | systems, system components     |
+|                            | or services.<br>- A Shared     |
+|                            | Responsibility Matrix (SRM) is |
+|                            | documented for every TSP that  |
+|                            | directly or indirectly affects |
+|                            | sensitive/regulated data.      |
+| Quantitatively controllled | Third-Party Management (TPM)   |
+|                            | efforts are metrics driven     |
+|                            | and provide sufficient         |
+|                            | management insight (based on   |
+|                            | a quantitative understanding   |
+|                            | of process capabilities) to    |
+|                            | predict optimal performance,   |
+|                            | ensure continued operations    |
+|                            | and identify areas for         |
+|                            | improvement. In addition to    |
+|                            | CMM Level 3 criteria, CMM      |
+|                            | Level 4 control maturity       |
+|                            | would reasonably expect        |
+|                            | all, or at least most,         |
+|                            | the following criteria to      |
+|                            | exist:<br>- 	Metrics reporting  |
+|                            | includes quantitative          |
+|                            | analysis of Key Performance    |
+|                            | Indicators (KPIs).<br>-        |
+|                            | 	Metrics reporting includes     |
+|                            | quantitative analysis of Key   |
+|                            | Risk Indicators (KRIs).<br>-   |
+|                            | 	Scope of metrics, KPIs and     |
+|                            | KRIs covers organization-wide  |
+|                            | cybersecurity & data           |
+|                            | privacy controls, including    |
+|                            | functions performed            |
+|                            | by third-parties.<br>-         |
+|                            | 	Organizational leadership      |
+|                            | maintains a formal process to  |
+|                            | objectively review and respond |
+|                            | to metrics, KPIs and KRIs      |
+|                            | (e.g., monthly or quarterly    |
+|                            | review).<br>- 	Based on metrics |
+|                            | analysis, process improvement  |
+|                            | recommendations are submitted  |
+|                            | for review and are handled in  |
+|                            | accordance with change control |
+|                            | processes.<br>- 	Both business  |
+|                            | and technical stakeholders     |
+|                            | are involved in reviewing and  |
+|                            | approving proposed changes.    |
+| Continuously improving     | See SP-CMM4. SP-CMM5 is N/A,   |
+|                            | since a continuously-improving |
+|                            | process is not necessary to    |
+|                            | ensure that the interests      |
+|                            | of third-party service         |
+|                            | providers are consistent with  |
+|                            | and reflect organizational     |
+|                            | interests.                     |

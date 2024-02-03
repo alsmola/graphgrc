@@ -6,11 +6,217 @@ Mechanisms exist to securely dispose of, destroy or repurpose system components 
 ## Control questions
 Does the organization securely dispose of, destroy or repurpose system components using organization-defined techniques and methods to prevent information being recovered from these components?
 ## Control maturity
-|       MATURITY LEVEL       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 DESCRIPTION                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Not performed              | There is no evidence of a capability to securely dispose of, destroy or repurpose system components using organization-defined techniques and methods to prevent information being recovered from these components.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Performed internally       | Asset Management (AST) efforts are ad hoc and inconsistent. CMM Level 1 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- Asset management is informally assigned as an additional duty to existing IT/cybersecurity personnel.<br>- Asset inventories are performed in an ad hoc manner.<br>- Software licensing is tracked as part of IT asset inventories.<br>- Data process owners maintain limited network diagrams to document the flow of sensitive/regulated data that is specific to their initiative.<br>- IT personnel work with data/process owners to help ensure secure practices are implemented throughout the System Development Lifecycle (SDLC) for all high-value projects.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Planned and tracked        | Asset Management (AST) efforts are requirements-driven and formally governed at a local/regional level, but are not consistent across the organization. CMM Level 2 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- Asset management is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure and compliant practices.<br>- IT/cybersecurity personnel identify cybersecurity & data privacy controls that are appropriate to address applicable statutory, regulatory and contractual requirements for asset management.<br>- Administrative processes and technologies focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed.<br>- Asset management is formally assigned as an additional duty to existing IT/cybersecurity personnel.<br>- Technology assets are categorized according to data classification and business criticality.<br>- Inventories cover technology assets in scope for statutory, regulatory and/ or contractual compliance, which includes both physical and virtual assets.<br>- Software licensing is tracked as part of IT asset inventories.<br>- Users are educated on their responsibilities to protect technology assets assigned to them or under their supervision. <br>- IT/cybersecurity personnel maintain network diagrams to document the flow of sensitive/regulated data across the network.<br>- IT personnel collect technology assets and media for destruction when it is no longer needed for business or legal reasons.<br>- IT personnel perform the destruction of technology assets and media in a secure manner or outsource the destruction to a third-party that specializes in technology assets and media destruction, as well as provides evidence of destruction (e.g., certificate of destruction).<br>- Devices are escrowed in storage for a period of time before being wiped and reissued, in case data on the devices are needed for investigations or business purposes. |
-| Well defined               | Asset Management (AST) efforts are standardized across the organization and centrally managed, where technically feasible, to ensure consistency. CMM Level 3 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- An IT Asset Management (ITAM) function, or similar function, governs asset management to help ensure compliance with requirements for asset management.<br>- An ITAM function, or similar function, maintains an inventory of IT assets, covering both physical and virtual assets, as well as centrally managed asset ownership assignments.<br>- Technology assets and data are categorized according to data classification and business criticality criteria.<br>- A Cybersecurity Supply Chain Risk Management (C-SCRM) function oversees supply chain risks including the removal and prevention of certain technology services and/ or equipment designated as supply chain threats by a statutory or regulatory body.<br>- Data/process owners document where sensitive/regulated data is stored, transmitted and processed, generating Data Flow Diagrams (DFDs) and network diagrams to document the flow of data.<br>- IT personnel perform the destruction of technology assets and media in a secure manner or outsource the destruction to a third-party that specializes in technology assets and media destruction, as well as provides evidence of destruction (e.g., certificate of destruction).<br>- Organizational standards exist for users to dispose of, destroy or repurpose system components when it is no longer needed for business or legal reasons.<br>- Third-party providers ensure world-wide coverage to securely dispose of, destroy or repurpose system components using organization-defined techniques and methods to prevent such components from entering the gray market.<br>- Devices are escrowed in storage for a period of time before being wiped and reissued, in case data on the devices are needed for investigations or business purposes.                                                                          |
-| Quantitatively controllled | See SP-CMM3. SP-CMM4 is N/A, since a quantitatively-controlled process is not necessary to securely dispose of, destroy or repurpose system components using organization-defined techniques and methods to prevent information being recovered from these components.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Continuously improving     | See SP-CMM4. SP-CMM5 is N/A, since a continuously-improving process is not necessary to securely dispose of, destroy or repurpose system components using organization-defined techniques and methods to prevent information being recovered from these components.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|       MATURITY LEVEL       |          DESCRIPTION           |
+|----------------------------|--------------------------------|
+| Not performed              | There is no evidence of        |
+|                            | a capability to securely       |
+|                            | dispose of, destroy or         |
+|                            | repurpose system components    |
+|                            | using organization-defined     |
+|                            | techniques and methods         |
+|                            | to prevent information         |
+|                            | being recovered from these     |
+|                            | components.                    |
+| Performed internally       | Asset Management (AST) efforts |
+|                            | are ad hoc and inconsistent.   |
+|                            | CMM Level 1 control maturity   |
+|                            | would reasonably expect        |
+|                            | all, or at least most,         |
+|                            | the following criteria to      |
+|                            | exist:<br>- Asset management   |
+|                            | is informally assigned         |
+|                            | as an additional duty to       |
+|                            | existing IT/cybersecurity      |
+|                            | personnel.<br>- Asset          |
+|                            | inventories are performed      |
+|                            | in an ad hoc manner.<br>-      |
+|                            | Software licensing is          |
+|                            | tracked as part of IT asset    |
+|                            | inventories.<br>- Data         |
+|                            | process owners maintain        |
+|                            | limited network diagrams       |
+|                            | to document the flow of        |
+|                            | sensitive/regulated data       |
+|                            | that is specific to their      |
+|                            | initiative.<br>- IT personnel  |
+|                            | work with data/process         |
+|                            | owners to help ensure secure   |
+|                            | practices are implemented      |
+|                            | throughout the System          |
+|                            | Development Lifecycle (SDLC)   |
+|                            | for all high-value projects.   |
+| Planned and tracked        | Asset Management (AST) efforts |
+|                            | are requirements-driven        |
+|                            | and formally governed at a     |
+|                            | local/regional level, but      |
+|                            | are not consistent across      |
+|                            | the organization. CMM          |
+|                            | Level 2 control maturity       |
+|                            | would reasonably expect        |
+|                            | all, or at least most,         |
+|                            | the following criteria to      |
+|                            | exist:<br>- Asset management   |
+|                            | is decentralized (e.g.,        |
+|                            | a localized/regionalized       |
+|                            | function) and uses             |
+|                            | non-standardized methods       |
+|                            | to implement secure and        |
+|                            | compliant practices.<br>-      |
+|                            | IT/cybersecurity personnel     |
+|                            | identify cybersecurity         |
+|                            | & data privacy controls        |
+|                            | that are appropriate           |
+|                            | to address applicable          |
+|                            | statutory, regulatory and      |
+|                            | contractual requirements       |
+|                            | for asset management.<br>-     |
+|                            | Administrative processes       |
+|                            | and technologies focus on      |
+|                            | protecting High Value Assets   |
+|                            | (HVAs), including environments |
+|                            | where sensitive/regulated      |
+|                            | data is stored, transmitted    |
+|                            | and processed.<br>- Asset      |
+|                            | management is formally         |
+|                            | assigned as an additional duty |
+|                            | to existing IT/cybersecurity   |
+|                            | personnel.<br>- Technology     |
+|                            | assets are categorized         |
+|                            | according to data              |
+|                            | classification and business    |
+|                            | criticality.<br>- Inventories  |
+|                            | cover technology assets        |
+|                            | in scope for statutory,        |
+|                            | regulatory and/ or contractual |
+|                            | compliance, which includes     |
+|                            | both physical and virtual      |
+|                            | assets.<br>- Software          |
+|                            | licensing is tracked as part   |
+|                            | of IT asset inventories.<br>-  |
+|                            | Users are educated on          |
+|                            | their responsibilities to      |
+|                            | protect technology assets      |
+|                            | assigned to them or under      |
+|                            | their supervision. <br>-       |
+|                            | IT/cybersecurity personnel     |
+|                            | maintain network diagrams      |
+|                            | to document the flow of        |
+|                            | sensitive/regulated data       |
+|                            | across the network.<br>- IT    |
+|                            | personnel collect technology   |
+|                            | assets and media for           |
+|                            | destruction when it is no      |
+|                            | longer needed for business     |
+|                            | or legal reasons.<br>-         |
+|                            | IT personnel perform the       |
+|                            | destruction of technology      |
+|                            | assets and media in a          |
+|                            | secure manner or outsource     |
+|                            | the destruction to a           |
+|                            | third-party that specializes   |
+|                            | in technology assets and       |
+|                            | media destruction, as well     |
+|                            | as provides evidence of        |
+|                            | destruction (e.g., certificate |
+|                            | of destruction).<br>- Devices  |
+|                            | are escrowed in storage for    |
+|                            | a period of time before being  |
+|                            | wiped and reissued, in case    |
+|                            | data on the devices are needed |
+|                            | for investigations or business |
+|                            | purposes.                      |
+| Well defined               | Asset Management (AST)         |
+|                            | efforts are standardized       |
+|                            | across the organization and    |
+|                            | centrally managed, where       |
+|                            | technically feasible, to       |
+|                            | ensure consistency. CMM Level  |
+|                            | 3 control maturity would       |
+|                            | reasonably expect all, or      |
+|                            | at least most, the following   |
+|                            | criteria to exist:<br>- An     |
+|                            | IT Asset Management (ITAM)     |
+|                            | function, or similar function, |
+|                            | governs asset management       |
+|                            | to help ensure compliance      |
+|                            | with requirements for asset    |
+|                            | management.<br>- An ITAM       |
+|                            | function, or similar function, |
+|                            | maintains an inventory of IT   |
+|                            | assets, covering both physical |
+|                            | and virtual assets, as well    |
+|                            | as centrally managed asset     |
+|                            | ownership assignments.<br>-    |
+|                            | Technology assets and data are |
+|                            | categorized according to data  |
+|                            | classification and business    |
+|                            | criticality criteria.<br>-     |
+|                            | A Cybersecurity Supply Chain   |
+|                            | Risk Management (C-SCRM)       |
+|                            | function oversees supply chain |
+|                            | risks including the removal    |
+|                            | and prevention of certain      |
+|                            | technology services and/ or    |
+|                            | equipment designated as supply |
+|                            | chain threats by a statutory   |
+|                            | or regulatory body.<br>-       |
+|                            | Data/process owners document   |
+|                            | where sensitive/regulated      |
+|                            | data is stored, transmitted    |
+|                            | and processed, generating      |
+|                            | Data Flow Diagrams (DFDs)      |
+|                            | and network diagrams           |
+|                            | to document the flow of        |
+|                            | data.<br>- IT personnel        |
+|                            | perform the destruction        |
+|                            | of technology assets and       |
+|                            | media in a secure manner or    |
+|                            | outsource the destruction to   |
+|                            | a third-party that specializes |
+|                            | in technology assets and       |
+|                            | media destruction, as well     |
+|                            | as provides evidence of        |
+|                            | destruction (e.g., certificate |
+|                            | of destruction).<br>-          |
+|                            | Organizational standards       |
+|                            | exist for users to dispose     |
+|                            | of, destroy or repurpose       |
+|                            | system components when it is   |
+|                            | no longer needed for business  |
+|                            | or legal reasons.<br>-         |
+|                            | Third-party providers ensure   |
+|                            | world-wide coverage to         |
+|                            | securely dispose of, destroy   |
+|                            | or repurpose system components |
+|                            | using organization-defined     |
+|                            | techniques and methods to      |
+|                            | prevent such components from   |
+|                            | entering the gray market.<br>- |
+|                            | Devices are escrowed in        |
+|                            | storage for a period of        |
+|                            | time before being wiped and    |
+|                            | reissued, in case data on      |
+|                            | the devices are needed for     |
+|                            | investigations or business     |
+|                            | purposes.                      |
+| Quantitatively controllled | See SP-CMM3. SP-CMM4           |
+|                            | is N/A, since a                |
+|                            | quantitatively-controlled      |
+|                            | process is not necessary to    |
+|                            | securely dispose of, destroy   |
+|                            | or repurpose system components |
+|                            | using organization-defined     |
+|                            | techniques and methods         |
+|                            | to prevent information         |
+|                            | being recovered from these     |
+|                            | components.                    |
+| Continuously improving     | See SP-CMM4. SP-CMM5 is N/A,   |
+|                            | since a continuously-improving |
+|                            | process is not necessary to    |
+|                            | securely dispose of, destroy   |
+|                            | or repurpose system components |
+|                            | using organization-defined     |
+|                            | techniques and methods         |
+|                            | to prevent information         |
+|                            | being recovered from these     |
+|                            | components.                    |

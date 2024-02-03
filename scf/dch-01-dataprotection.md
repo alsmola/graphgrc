@@ -13,11 +13,364 @@ Mechanisms exist to facilitate the implementation of data protection controls.
 ## Control questions
 Does the organization facilitate the implementation of data protection controls? 
 ## Control maturity
-|       MATURITY LEVEL       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        DESCRIPTION                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Not performed              | There is no evidence of a capability to facilitate the implementation of data protection controls.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Performed internally       | Data Classification & Handling (DCH) efforts are ad hoc and inconsistent. CMM Level 1 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- Data protection controls are primarily administrative in nature (e.g., policies & standards) to classify, protect and dispose of systems and data, including storage media.<br>- A data classification process exists to identify categories of data and specific protection requirements.<br>- A manual data retention process exists.<br>- Data/process owners are expected to take the initiative to work with Data Protection Officers (DPOs) to ensure applicable statutory, regulatory and contractual obligations are properly addressed, including the storage, transmission and processing of sensitive/regulated data.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Planned and tracked        | Data Classification & Handling (DCH) efforts are requirements-driven and formally governed at a local/regional level, but are not consistent across the organization. CMM Level 2 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- Data management is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure and compliant practices.<br>- IT/cybersecurity personnel identify cybersecurity & data privacy controls that are appropriate to address applicable statutory, regulatory and contractual requirements for data management.<br>- Data protection controls are primarily administrative and preventative in nature (e.g., policies & standards) to classify, protect and dispose of systems and data, including storage media.<br>- A data classification process exists to identify categories of data and specific protection requirements.<br>- A data retention process exists and is a manual process to govern.<br>- Data/process owners:<br>o	Document where sensitive/regulated data is stored, transmitted and processed to identify data repositories and data flows.<br>o	Create and maintain Data Flow Diagrams (DFDs) and network diagrams.<br>o	Are expected to take the initiative to work with Data Protection Officers (DPOs) to ensure applicable statutory, regulatory and contractual obligations are properly addressed, including the storage, transmission and processing of sensitive/regulated data<br>- A manual data retention process exists.<br>- Content filtering blocks users from performing ad hoc file transfers through unapproved file transfer services (e.g., Box, Dropbox, Google Drive, etc.).<br>- Mobile Device Management (MDM) software is used to restrict and protect the data that resides on mobile devices.<br>- Physical controls, administrative processes and technologies focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed.<br>- Administrative means (e.g., policies and standards) dictate:<br>o	Geolocation requirements for sensitive/regulated data types, including the transfer of data to third-countries or international organizations.<br>o	Requirements for minimizing data collection to what is necessary for business purposes.<br>o	Requirements for limiting the use of sensitive/regulated data in testing, training and research.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Well defined               | Data Classification & Handling (DCH) efforts are standardized across the organization and centrally managed, where technically feasible, to ensure consistency. CMM Level 3 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- The Chief Information Security Officer (CISO), or similar function, analyzes the organization’s business strategy to determine prioritized and authoritative guidance for data classification and handling practices.<br>- The CISO, or similar function, develops a security-focused Concept of Operations (CONOPS) that documents management, operational and technical measures to apply defense-in-depth techniques across the organization with regards to data classification and handling.<br>- A steering committee is formally established to provide executive oversight of the cybersecurity & data privacy program, including data classification and handling. <br>- A Governance, Risk & Compliance (GRC) function, or similar function, provides governance oversight for the implementation of applicable statutory, regulatory and contractual cybersecurity & data privacy controls to protect the confidentiality, integrity, availability and safety of the organization’s applications, systems, services and data regarding data classification and handling.<br>- A GRC function, or similar function, assists users in making information sharing decisions to ensure data is appropriately protected, regardless of where or how it is stored, processed and/ or transmitted.<br>- An IT Asset Management (ITAM) function, or similar function, categorizes assets according to the data the asset stores, transmits and/ or processes and applies the appropriate technology controls to protect the data according to the organization’s data classification and handling requirements.<br>- A data classification process exists to identify categories of data and specific protection requirements.<br>- A data retention process exists to protect archived data in accordance with applicable statutory, regulatory and contractual obligations. <br>- Data/process owners:<br>o	Are expected to take the initiative to work with Data Protection Officers (DPOs) to ensure applicable statutory, regulatory and contractual obligations are properly addressed, including the storage, transmission and processing of sensitive/regulated data.<br>o	Maintain decentralized inventory logs of all sensitive/regulated media and update sensitive/regulated media inventories at least annually. <br>o	Create and maintain Data Flow Diagrams (DFDs) and network diagrams.<br>o	Document where sensitive/regulated data is stored, transmitted and processed in order to document data repositories and data flows.<br>- A Data Protection Impact Assessment (DPIA) is used to help ensure the protection of sensitive/regulated data processed, stored or transmitted on internal or external systems, in order to implement cybersecurity & data privacy controls in accordance with applicable statutory, regulatory and contractual obligations.<br>- Human Resources (HR), documents formal “rules of behavior” as an employment requirement that stipulates acceptable and unacceptable practices pertaining to sensitive/regulated data handling.<br>- Data Loss Prevention (DLP), or similar content filtering capabilities, blocks users from performing ad hoc file transfers through unapproved file transfer services (e.g., Box, Dropbox, Google Drive, etc.).<br>- Mobile Device Management (MDM) software is used to restrict and protect the data that resides on mobile devices.<br>- Administrative processes and technologies: <br>o	Identify data classification types to ensure adequate cybersecurity & data privacy controls are in place to protect organizational information and individual data privacy.<br>o	Identify and document the location of information on which the information resides.<br>o	Restrict and govern the transfer of data to third-countries or international organizations.<br>o	Limit the disclosure of data to authorized parties. <br>o	Mark media in accordance with data protection requirements so that personnel are alerted to distribution limitations, handling caveats and applicable security requirements. <br>o	Prohibit “rogue instances” where unapproved third parties are engaged to store, process or transmit data, including budget reviews and firewall connection authorizations.<br>o	Protect and control digital and non-digital media during transport outside of controlled areas using appropriate security measures.<br>o	Govern the use of personal devices (e.g., Bring Your Own Device (BYOD)) as part of acceptable and unacceptable behaviors.<br>o	Dictate requirements for minimizing data collection to what is necessary for business purposes.<br>o	Dictate requirements for limiting the use of sensitive/regulated data in testing, training and research. |
-| Quantitatively controllled | Data Classification & Handling (DCH) efforts are metrics driven and provide sufficient management insight (based on a quantitative understanding of process capabilities) to predict optimal performance, ensure continued operations and identify areas for improvement. In addition to CMM Level 3 criteria, CMM Level 4 control maturity would reasonably expect all, or at least most, the following criteria to exist:<br>- 	Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).<br>- 	Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).<br>- 	Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity & data privacy controls, including functions performed by third-parties.<br>- 	Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).<br>- 	Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.<br>- 	Both business and technical stakeholders are involved in reviewing and approving proposed changes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Continuously improving     | See SP-CMM4. SP-CMM5 is N/A, since a continuously-improving process is not necessary to facilitate the implementation of data protection controls.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|       MATURITY LEVEL       |           DESCRIPTION           |
+|----------------------------|---------------------------------|
+| Not performed              | There is no evidence of a       |
+|                            | capability to facilitate        |
+|                            | the implementation of data      |
+|                            | protection controls.            |
+| Performed internally       | Data Classification & Handling  |
+|                            | (DCH) efforts are ad hoc        |
+|                            | and inconsistent. CMM Level     |
+|                            | 1 control maturity would        |
+|                            | reasonably expect all, or       |
+|                            | at least most, the following    |
+|                            | criteria to exist:<br>-         |
+|                            | Data protection controls        |
+|                            | are primarily administrative    |
+|                            | in nature (e.g., policies       |
+|                            | & standards) to classify,       |
+|                            | protect and dispose of          |
+|                            | systems and data, including     |
+|                            | storage media.<br>- A data      |
+|                            | classification process exists   |
+|                            | to identify categories of       |
+|                            | data and specific protection    |
+|                            | requirements.<br>- A manual     |
+|                            | data retention process          |
+|                            | exists.<br>- Data/process       |
+|                            | owners are expected to take     |
+|                            | the initiative to work with     |
+|                            | Data Protection Officers        |
+|                            | (DPOs) to ensure applicable     |
+|                            | statutory, regulatory and       |
+|                            | contractual obligations         |
+|                            | are properly addressed,         |
+|                            | including the storage,          |
+|                            | transmission and processing of  |
+|                            | sensitive/regulated data.       |
+| Planned and tracked        | Data Classification &           |
+|                            | Handling (DCH) efforts          |
+|                            | are requirements-driven         |
+|                            | and formally governed at a      |
+|                            | local/regional level, but       |
+|                            | are not consistent across       |
+|                            | the organization. CMM Level     |
+|                            | 2 control maturity would        |
+|                            | reasonably expect all, or       |
+|                            | at least most, the following    |
+|                            | criteria to exist:<br>- Data    |
+|                            | management is decentralized     |
+|                            | (e.g., a localized/regionalized |
+|                            | function) and uses              |
+|                            | non-standardized methods        |
+|                            | to implement secure and         |
+|                            | compliant practices.<br>-       |
+|                            | IT/cybersecurity personnel      |
+|                            | identify cybersecurity &        |
+|                            | data privacy controls that      |
+|                            | are appropriate to address      |
+|                            | applicable statutory,           |
+|                            | regulatory and contractual      |
+|                            | requirements for data           |
+|                            | management.<br>- Data           |
+|                            | protection controls are         |
+|                            | primarily administrative and    |
+|                            | preventative in nature (e.g.,   |
+|                            | policies & standards) to        |
+|                            | classify, protect and dispose   |
+|                            | of systems and data, including  |
+|                            | storage media.<br>- A data      |
+|                            | classification process exists   |
+|                            | to identify categories of       |
+|                            | data and specific protection    |
+|                            | requirements.<br>- A data       |
+|                            | retention process exists        |
+|                            | and is a manual process to      |
+|                            | govern.<br>- Data/process       |
+|                            | owners:<br>o	Document where      |
+|                            | sensitive/regulated data        |
+|                            | is stored, transmitted          |
+|                            | and processed to identify       |
+|                            | data repositories and data      |
+|                            | flows.<br>o	Create and maintain  |
+|                            | Data Flow Diagrams (DFDs)       |
+|                            | and network diagrams.<br>o	Are   |
+|                            | expected to take the            |
+|                            | initiative to work with         |
+|                            | Data Protection Officers        |
+|                            | (DPOs) to ensure applicable     |
+|                            | statutory, regulatory and       |
+|                            | contractual obligations         |
+|                            | are properly addressed,         |
+|                            | including the storage,          |
+|                            | transmission and processing of  |
+|                            | sensitive/regulated data<br>-   |
+|                            | A manual data retention process |
+|                            | exists.<br>- Content filtering  |
+|                            | blocks users from performing    |
+|                            | ad hoc file transfers through   |
+|                            | unapproved file transfer        |
+|                            | services (e.g., Box, Dropbox,   |
+|                            | Google Drive, etc.).<br>-       |
+|                            | Mobile Device Management (MDM)  |
+|                            | software is used to restrict    |
+|                            | and protect the data that       |
+|                            | resides on mobile devices.<br>- |
+|                            | Physical controls,              |
+|                            | administrative processes        |
+|                            | and technologies focus on       |
+|                            | protecting High Value Assets    |
+|                            | (HVAs), including environments  |
+|                            | where sensitive/regulated       |
+|                            | data is stored, transmitted     |
+|                            | and processed.<br>-             |
+|                            | Administrative means (e.g.,     |
+|                            | policies and standards)         |
+|                            | dictate:<br>o	Geolocation        |
+|                            | requirements for                |
+|                            | sensitive/regulated data        |
+|                            | types, including the transfer   |
+|                            | of data to third-countries      |
+|                            | or international                |
+|                            | organizations.<br>o	Requirements |
+|                            | for minimizing data             |
+|                            | collection to what is           |
+|                            | necessary for business          |
+|                            | purposes.<br>o	Requirements      |
+|                            | for limiting the use of         |
+|                            | sensitive/regulated data in     |
+|                            | testing, training and research. |
+| Well defined               | Data Classification & Handling  |
+|                            | (DCH) efforts are standardized  |
+|                            | across the organization and     |
+|                            | centrally managed, where        |
+|                            | technically feasible, to        |
+|                            | ensure consistency. CMM         |
+|                            | Level 3 control maturity        |
+|                            | would reasonably expect         |
+|                            | all, or at least most,          |
+|                            | the following criteria          |
+|                            | to exist:<br>- The Chief        |
+|                            | Information Security Officer    |
+|                            | (CISO), or similar function,    |
+|                            | analyzes the organization’s     |
+|                            | business strategy to            |
+|                            | determine prioritized and       |
+|                            | authoritative guidance for      |
+|                            | data classification and         |
+|                            | handling practices.<br>- The    |
+|                            | CISO, or similar function,      |
+|                            | develops a security-focused     |
+|                            | Concept of Operations           |
+|                            | (CONOPS) that documents         |
+|                            | management, operational and     |
+|                            | technical measures to apply     |
+|                            | defense-in-depth techniques     |
+|                            | across the organization with    |
+|                            | regards to data classification  |
+|                            | and handling.<br>- A steering   |
+|                            | committee is formally           |
+|                            | established to provide          |
+|                            | executive oversight of the      |
+|                            | cybersecurity & data privacy    |
+|                            | program, including data         |
+|                            | classification and handling.    |
+|                            | <br>- A Governance, Risk &      |
+|                            | Compliance (GRC) function,      |
+|                            | or similar function, provides   |
+|                            | governance oversight for the    |
+|                            | implementation of applicable    |
+|                            | statutory, regulatory and       |
+|                            | contractual cybersecurity       |
+|                            | & data privacy controls to      |
+|                            | protect the confidentiality,    |
+|                            | integrity, availability and     |
+|                            | safety of the organization’s    |
+|                            | applications, systems,          |
+|                            | services and data regarding     |
+|                            | data classification and         |
+|                            | handling.<br>- A GRC function,  |
+|                            | or similar function, assists    |
+|                            | users in making information     |
+|                            | sharing decisions to ensure     |
+|                            | data is appropriately           |
+|                            | protected, regardless of where  |
+|                            | or how it is stored, processed  |
+|                            | and/ or transmitted.<br>- An    |
+|                            | IT Asset Management (ITAM)      |
+|                            | function, or similar function,  |
+|                            | categorizes assets according    |
+|                            | to the data the asset stores,   |
+|                            | transmits and/ or processes     |
+|                            | and applies the appropriate     |
+|                            | technology controls to          |
+|                            | protect the data according      |
+|                            | to the organization’s data      |
+|                            | classification and handling     |
+|                            | requirements.<br>- A data       |
+|                            | classification process exists   |
+|                            | to identify categories of       |
+|                            | data and specific protection    |
+|                            | requirements.<br>- A data       |
+|                            | retention process exists        |
+|                            | to protect archived data in     |
+|                            | accordance with applicable      |
+|                            | statutory, regulatory and       |
+|                            | contractual obligations. <br>-  |
+|                            | Data/process owners:<br>o	Are    |
+|                            | expected to take the            |
+|                            | initiative to work with         |
+|                            | Data Protection Officers        |
+|                            | (DPOs) to ensure applicable     |
+|                            | statutory, regulatory and       |
+|                            | contractual obligations         |
+|                            | are properly addressed,         |
+|                            | including the storage,          |
+|                            | transmission and processing     |
+|                            | of sensitive/regulated          |
+|                            | data.<br>o	Maintain              |
+|                            | decentralized inventory logs    |
+|                            | of all sensitive/regulated      |
+|                            | media and update                |
+|                            | sensitive/regulated media       |
+|                            | inventories at least annually.  |
+|                            | <br>o	Create and maintain        |
+|                            | Data Flow Diagrams (DFDs) and   |
+|                            | network diagrams.<br>o	Document  |
+|                            | where sensitive/regulated       |
+|                            | data is stored, transmitted     |
+|                            | and processed in order to       |
+|                            | document data repositories      |
+|                            | and data flows.<br>- A          |
+|                            | Data Protection Impact          |
+|                            | Assessment (DPIA) is used to    |
+|                            | help ensure the protection      |
+|                            | of sensitive/regulated          |
+|                            | data processed, stored or       |
+|                            | transmitted on internal or      |
+|                            | external systems, in order      |
+|                            | to implement cybersecurity      |
+|                            | & data privacy controls in      |
+|                            | accordance with applicable      |
+|                            | statutory, regulatory and       |
+|                            | contractual obligations.<br>-   |
+|                            | Human Resources (HR),           |
+|                            | documents formal “rules of      |
+|                            | behavior” as an employment      |
+|                            | requirement that stipulates     |
+|                            | acceptable and unacceptable     |
+|                            | practices pertaining to         |
+|                            | sensitive/regulated data        |
+|                            | handling.<br>- Data Loss        |
+|                            | Prevention (DLP), or            |
+|                            | similar content filtering       |
+|                            | capabilities, blocks users      |
+|                            | from performing ad hoc file     |
+|                            | transfers through unapproved    |
+|                            | file transfer services (e.g.,   |
+|                            | Box, Dropbox, Google Drive,     |
+|                            | etc.).<br>- Mobile Device       |
+|                            | Management (MDM) software       |
+|                            | is used to restrict and         |
+|                            | protect the data that resides   |
+|                            | on mobile devices.<br>-         |
+|                            | Administrative processes and    |
+|                            | technologies: <br>o	Identify     |
+|                            | data classification             |
+|                            | types to ensure adequate        |
+|                            | cybersecurity & data privacy    |
+|                            | controls are in place to        |
+|                            | protect organizational          |
+|                            | information and individual      |
+|                            | data privacy.<br>o	Identify      |
+|                            | and document the location       |
+|                            | of information on               |
+|                            | which the information           |
+|                            | resides.<br>o	Restrict and       |
+|                            | govern the transfer of          |
+|                            | data to third-countries         |
+|                            | or international                |
+|                            | organizations.<br>o	Limit        |
+|                            | the disclosure of data to       |
+|                            | authorized parties. <br>o	Mark   |
+|                            | media in accordance with        |
+|                            | data protection requirements    |
+|                            | so that personnel are           |
+|                            | alerted to distribution         |
+|                            | limitations, handling caveats   |
+|                            | and applicable security         |
+|                            | requirements. <br>o	Prohibit     |
+|                            | “rogue instances” where         |
+|                            | unapproved third parties        |
+|                            | are engaged to store,           |
+|                            | process or transmit data,       |
+|                            | including budget reviews        |
+|                            | and firewall connection         |
+|                            | authorizations.<br>o	Protect     |
+|                            | and control digital and         |
+|                            | non-digital media during        |
+|                            | transport outside of            |
+|                            | controlled areas using          |
+|                            | appropriate security            |
+|                            | measures.<br>o	Govern the        |
+|                            | use of personal devices         |
+|                            | (e.g., Bring Your Own           |
+|                            | Device (BYOD)) as part of       |
+|                            | acceptable and unacceptable     |
+|                            | behaviors.<br>o	Dictate          |
+|                            | requirements for minimizing     |
+|                            | data collection to what         |
+|                            | is necessary for business       |
+|                            | purposes.<br>o	Dictate           |
+|                            | requirements for limiting the   |
+|                            | use of sensitive/regulated      |
+|                            | data in testing, training and   |
+|                            | research.                       |
+| Quantitatively controllled | Data Classification & Handling  |
+|                            | (DCH) efforts are metrics       |
+|                            | driven and provide sufficient   |
+|                            | management insight (based on    |
+|                            | a quantitative understanding    |
+|                            | of process capabilities) to     |
+|                            | predict optimal performance,    |
+|                            | ensure continued operations     |
+|                            | and identify areas for          |
+|                            | improvement. In addition to     |
+|                            | CMM Level 3 criteria, CMM       |
+|                            | Level 4 control maturity        |
+|                            | would reasonably expect         |
+|                            | all, or at least most,          |
+|                            | the following criteria to       |
+|                            | exist:<br>- 	Metrics reporting   |
+|                            | includes quantitative           |
+|                            | analysis of Key Performance     |
+|                            | Indicators (KPIs).<br>-         |
+|                            | 	Metrics reporting includes      |
+|                            | quantitative analysis of Key    |
+|                            | Risk Indicators (KRIs).<br>-    |
+|                            | 	Scope of metrics, KPIs and      |
+|                            | KRIs covers organization-wide   |
+|                            | cybersecurity & data            |
+|                            | privacy controls, including     |
+|                            | functions performed             |
+|                            | by third-parties.<br>-          |
+|                            | 	Organizational leadership       |
+|                            | maintains a formal process to   |
+|                            | objectively review and respond  |
+|                            | to metrics, KPIs and KRIs       |
+|                            | (e.g., monthly or quarterly     |
+|                            | review).<br>- 	Based on metrics  |
+|                            | analysis, process improvement   |
+|                            | recommendations are submitted   |
+|                            | for review and are handled in   |
+|                            | accordance with change control  |
+|                            | processes.<br>- 	Both business   |
+|                            | and technical stakeholders      |
+|                            | are involved in reviewing and   |
+|                            | approving proposed changes.     |
+| Continuously improving     | See SP-CMM4. SP-CMM5 is N/A,    |
+|                            | since a continuously-improving  |
+|                            | process is not necessary to     |
+|                            | facilitate the implementation   |
+|                            | of data protection controls.    |
