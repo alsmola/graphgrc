@@ -6,8 +6,8 @@ Mechanisms exist to conduct cybersecurity & data privacy testing, training and m
 - [P6.5](../soc2/p65.md)
 - [P8.0](../soc2/p80.md)
 ### GDPR
-- [Art 32.1](../gdpr/art321.md)
-- [Art 32.2](../gdpr/art322.md)
+- [Art 32.1](../gdpr/art32.md#Article.+32.1)
+- [Art 32.2](../gdpr/art32.md#Article.+32.2)
 ## Control questions
 Does the organization conduct cybersecurity & data privacy testing, training and monitoring activities
 

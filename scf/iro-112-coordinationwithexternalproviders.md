@@ -4,10 +4,10 @@ Mechanisms exist to establish a direct, cooperative relationship between the org
 ### SOC 2
 - [CC7.4](../soc2/cc74.md)
 ### GDPR
-- [Art 34.1](../gdpr/art341.md)
-- [Art 34.2](../gdpr/art342.md)
-- [Art 34.3](../gdpr/art343.md)
-- [Art 34.4](../gdpr/art344.md)
+- [Art 34.1](../gdpr/art34.md#Article.+34.1)
+- [Art 34.2](../gdpr/art34.md#Article.+34.2)
+- [Art 34.3](../gdpr/art34.md#Article.+34.3)
+- [Art 34.4](../gdpr/art34.md#Article.+34.4)
 ## Control questions
 Does the organization establish a direct, cooperative relationship between the organization's incident response capability and external service providers?
 ## Control maturity

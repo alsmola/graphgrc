@@ -1,0 +1,159 @@
+package internal
+
+import (
+	"bufio"
+	"encoding/json"
+	"fmt"
+	"io"
+	"log"
+	"net/http"
+	"os"
+	"regexp"
+	"slices"
+	"strings"
+
+	md "github.com/go-spectest/markdown"
+)
+
+type GDPRArticleID string
+type GDPRSubarticleID string
+type GDPRFramework map[GDPRArticleID]GDPRArticle
+type GDPRArticle struct {
+	Title       string                      `json:"title"`
+	Subarticles map[GDPRSubarticleID]string `json:"subarticles"`
+}
+
+// type GDPRControlLink struct {
+// 	name string
+// 	link string
+// }
+
+func GetGDPRControls(url string, getFile bool) (GDPRFramework, error) {
+	gdprFramework := GDPRFramework{}
+	// file, err := os.Open("gdpr-articles.txt")
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+	// defer file.Close()
+	// scanner := bufio.NewScanner(file)
+	// for scanner.Scan() {
+	// 	link := scanner.Text()
+	// 	linkName := strings.ReplaceAll(strings.ReplaceAll(strings.ReplaceAll(link, "https://gdpr.eu/", ""), "/", ""), "-", " ")
+	// 	regexPattern := `article\s[0-9]+`
+	// 	regex := regexp.MustCompile(regexPattern)
+	// 	articleMatches := regex.FindStringSubmatch(linkName)
+	// 	caser := cases.Title(language.English)
+	// 	article := caser.String(articleMatches[0])
+	// 	name := caser.String(strings.ReplaceAll(linkName, articleMatches[0]+" ", ""))
+	// 	gdprControls[MakeSCFControlID(article)] = GDPRControlLink{
+	// 		name: name,
+	// 		link: link,
+	// 	}
+	// }
+	// if err := scanner.Err(); err != nil {
+	// 	log.Fatal(err)
+	// }
+	// gdpfFramework := GDPRFramework{}
+	if getFile {
+		resp, err := http.Get(url)
+		if err != nil {
+			return gdprFramework, err
+		}
+		scanner := bufio.NewScanner(resp.Body)
+		articleID := GDPRArticleID("")
+		subArticleID := GDPRSubarticleID("")
+		for scanner.Scan() {
+			line := scanner.Text()
+			if line == "" {
+				continue
+			}
+			regexPattern := `^Article\s[0-9]+`
+			regex := regexp.MustCompile(regexPattern)
+			articleMatches := regex.FindStringSubmatch(line)
+			if len(articleMatches) > 0 {
+				fmt.Println("New article", line)
+				articleID = GDPRArticleID(articleMatches[0])
+				gdprFramework[articleID] = GDPRArticle{
+					Subarticles: map[GDPRSubarticleID]string{},
+				}
+				subArticleID = GDPRSubarticleID("")
+			} else if articleID != GDPRArticleID("") {
+				article := gdprFramework[articleID]
+				if article.Title == "" {
+					fmt.Println("Article title", line)
+					article.Title = line
+				} else {
+					regexPattern := `^[0-9]+\.`
+					regex := regexp.MustCompile(regexPattern)
+					subArticleMatches := regex.FindStringSubmatch(line)
+					if len(subArticleMatches) > 0 {
+						fmt.Println("Article subtitle", line)
+						subArticleNumber := strings.ReplaceAll(subArticleMatches[0], ".", "")
+						subArticleID = GDPRSubarticleID(fmt.Sprintf("%s.%s", articleID, subArticleNumber))
+						article.Subarticles[subArticleID] = strings.ReplaceAll(line, subArticleNumber, "")
+					} else {
+						if subArticleID != GDPRSubarticleID("") {
+							fmt.Println("Article subtitle body", line)
+							article.Subarticles[subArticleID] = article.Subarticles[subArticleID] + line
+						}
+					}
+				}
+				gdprFramework[articleID] = article
+			} else {
+				fmt.Println("Skipping line", line)
+			}
+		}
+		defer resp.Body.Close()
+		file, err := json.MarshalIndent(gdprFramework, "", " ")
+		if err != nil {
+			return gdprFramework, err
+		}
+		err = os.WriteFile("gdpr.json", file, 0644)
+		if err != nil {
+			return gdprFramework, err
+		}
+	}
+	gdprFile, err := os.Open("gdpr.json")
+	if err != nil {
+		return gdprFramework, err
+	}
+	defer gdprFile.Close()
+	gdprBytes, err := io.ReadAll(gdprFile)
+	if err != nil {
+		return gdprFramework, err
+	}
+	if err := json.Unmarshal(gdprBytes, &gdprFramework); err != nil {
+		return gdprFramework, err
+	}
+	return gdprFramework, nil
+}
+
+//	func MakeSCFControlID(s string) GDPRControlID {
+//		return GDPRControlID(s)
+//	}
+
+func GenerateGDPRMarkdown(gdprSubarticle string, gdprSubarticleID GDPRSubarticleID, scfControlMapping SCFControlMappings) error {
+	log.Println(gdprSubarticleID)
+	scfReference := strings.ReplaceAll(strings.ReplaceAll(string(gdprSubarticleID), "Article", "Art"), ".", "-")
+	f, err := os.Create(fmt.Sprintf("gdpr/%s.md", safeFileName(scfReference)))
+	if err != nil {
+		return err
+	}
+	doc := md.NewMarkdown(f).
+		H1(string(gdprSubarticleID)).
+		PlainText(gdprSubarticle).
+		H2("Mapped SCF controls")
+	fcids := []string{}
+	for scfID, controlMapping := range scfControlMapping {
+		soc2FrameworkControlIDs := controlMapping["GDPR"]
+		for _, fcid := range soc2FrameworkControlIDs {
+			if string(fcid) == scfReference {
+				fcids = append(fcids, fmt.Sprintf("[%s](../scf/%s.md)", string(scfID), safeFileName(string(scfID))))
+			}
+		}
+	}
+	slices.Sort(fcids)
+	doc.BulletList(fcids...)
+	doc.Build()
+	return nil
+}

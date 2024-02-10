@@ -4,9 +4,9 @@ Mechanisms exist to facilitate the implementation of cybersecurity & data privac
 ### SOC 2
 - [CC4.1](../soc2/cc41.md)
 ### GDPR
-- [Art 32.1](../gdpr/art321.md)
-- [Art 32.2](../gdpr/art322.md)
-- [Art 32.3](../gdpr/art323.md)
+- [Art 32.1](../gdpr/art32.md#Article.+32.1)
+- [Art 32.2](../gdpr/art32.md#Article.+32.2)
+- [Art 32.3](../gdpr/art32.md#Article.+32.3)
 ## Control questions
 Does the organization facilitate the implementation of cybersecurity & data privacy assessment and authorization controls? 
 ## Control maturity

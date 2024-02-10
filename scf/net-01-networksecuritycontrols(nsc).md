@@ -5,8 +5,8 @@ Mechanisms exist to develop, govern & update procedures to facilitate the implem
 - [CC6.1](../soc2/cc61.md)
 - [CC6.6](../soc2/cc66.md)
 ### GDPR
-- [Art 32.1](../gdpr/art321.md)
-- [Art 32.2](../gdpr/art322.md)
+- [Art 32.1](../gdpr/art32.md#Article.+32.1)
+- [Art 32.2](../gdpr/art32.md#Article.+32.2)
 ## Control questions
 Does the organization develop, govern & update procedures to facilitate the implementation of Network Security Controls (NSC)?
 ## Control maturity

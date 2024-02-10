@@ -1,11 +1,11 @@
 # TDA-01 - Technology Development & Acquisition
 Mechanisms exist to facilitate the implementation of tailored development and acquisition strategies, contract tools and procurement methods to meet unique business needs.
 ## Mapped framework controls
-### GDPR
-- [Art 32.1](../gdpr/art321.md)
-- [Art 32.2](../gdpr/art322.md)
 ### SOC 2
 - [CC5.2](../soc2/cc52.md)
+### GDPR
+- [Art 32.1](../gdpr/art32.md#Article.+32.1)
+- [Art 32.2](../gdpr/art32.md#Article.+32.2)
 ## Control questions
 Does the organization facilitate the implementation of tailored development and acquisition strategies, contract tools and procurement methods to meet unique business needs?
 ## Control maturity

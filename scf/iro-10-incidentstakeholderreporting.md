@@ -10,15 +10,15 @@ Mechanisms exist to timely-report incidents to applicable:
 - [P6.3](../soc2/p63.md)
 - [P6.7](../soc2/p67.md)
 ### GDPR
-- [Art 33.1](../gdpr/art331.md)
-- [Art 33.2](../gdpr/art332.md)
-- [Art 33.3](../gdpr/art333.md)
-- [Art 33.4](../gdpr/art334.md)
-- [Art 33.5](../gdpr/art335.md)
-- [Art 34.1](../gdpr/art341.md)
-- [Art 34.2](../gdpr/art342.md)
-- [Art 34.3](../gdpr/art343.md)
-- [Art 34.4](../gdpr/art344.md)
+- [Art 33.1](../gdpr/art33.md#Article.+33.1)
+- [Art 33.2](../gdpr/art33.md#Article.+33.2)
+- [Art 33.3](../gdpr/art33.md#Article.+33.3)
+- [Art 33.4](../gdpr/art33.md#Article.+33.4)
+- [Art 33.5](../gdpr/art33.md#Article.+33.5)
+- [Art 34.1](../gdpr/art34.md#Article.+34.1)
+- [Art 34.2](../gdpr/art34.md#Article.+34.2)
+- [Art 34.3](../gdpr/art34.md#Article.+34.3)
+- [Art 34.4](../gdpr/art34.md#Article.+34.4)
 ## Control questions
 Does the organization timely-report incidents to applicable:
  - Internal stakeholders; 

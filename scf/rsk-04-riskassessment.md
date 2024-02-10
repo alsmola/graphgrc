@@ -1,18 +1,18 @@
 # RSK-04 - Risk Assessment
 Mechanisms exist to conduct recurring assessments of risk that includes the likelihood and magnitude of harm, from unauthorized access, use, disclosure, disruption, modification or destruction of the organization's systems and data.
 ## Mapped framework controls
+### GDPR
+- [Art 35.11](../gdpr/art35.md#Article.+35.11)
+- [Art 35.1](../gdpr/art35.md#Article.+35.1)
+- [Art 35.2](../gdpr/art35.md#Article.+35.2)
+- [Art 35.3](../gdpr/art35.md#Article.+35.3)
+- [Art 35.7](../gdpr/art35.md#Article.+35.7)
+- [Art 35.8](../gdpr/art35.md#Article.+35.8)
+- [Art 35.9](../gdpr/art35.md#Article.+35.9)
 ### SOC 2
 - [A1.2](../soc2/a12.md)
 - [CC3.2](../soc2/cc32.md)
 - [CC7.3](../soc2/cc73.md)
-### GDPR
-- [Art 35.11](../gdpr/art3511.md)
-- [Art 35.1](../gdpr/art351.md)
-- [Art 35.2](../gdpr/art352.md)
-- [Art 35.3](../gdpr/art353.md)
-- [Art 35.7](../gdpr/art357.md)
-- [Art 35.8](../gdpr/art358.md)
-- [Art 35.9](../gdpr/art359.md)
 ## Control questions
 Does the organization conduct recurring assessments of risk that includes the likelihood and magnitude of harm, from unauthorized access, use, disclosure, disruption, modification or destruction of the organization's systems and data?
 ## Control maturity

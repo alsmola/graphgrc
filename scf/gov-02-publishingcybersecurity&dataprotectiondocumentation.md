@@ -2,10 +2,10 @@
 Mechanisms exist to establish, maintain and disseminate cybersecurity & data protection policies, standards and procedures.
 ## Mapped framework controls
 ### GDPR
-- [Art 32.1](../gdpr/art321.md)
-- [Art 32.2](../gdpr/art322.md)
-- [Art 32.3](../gdpr/art323.md)
-- [Art 32.4](../gdpr/art324.md)
+- [Art 32.1](../gdpr/art32.md#Article.+32.1)
+- [Art 32.2](../gdpr/art32.md#Article.+32.2)
+- [Art 32.3](../gdpr/art32.md#Article.+32.3)
+- [Art 32.4](../gdpr/art32.md#Article.+32.4)
 ### SOC 2
 - [CC5.3](../soc2/cc53.md)
 ## Control questions

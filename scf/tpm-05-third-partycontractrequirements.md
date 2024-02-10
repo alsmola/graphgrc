@@ -1,18 +1,18 @@
 # TPM-05 - Third-Party Contract Requirements
 Mechanisms exist to identify, regularly review and document third-party confidentiality, Non-Disclosure Agreements (NDAs) and other contracts that reflect the organization’s needs to protect systems and data.
 ## Mapped framework controls
-### GDPR
-- [Art 28.10](../gdpr/art2810.md)
-- [Art 28.1](../gdpr/art281.md)
-- [Art 28.2](../gdpr/art282.md)
-- [Art 28.3](../gdpr/art283.md)
-- [Art 28.4](../gdpr/art284.md)
-- [Art 28.5](../gdpr/art285.md)
-- [Art 28.6](../gdpr/art286.md)
-- [Art 28.9](../gdpr/art289.md)
-- [Art 29](../gdpr/art29.md)
 ### SOC 2
 - [CC9.1](../soc2/cc91.md)
+### GDPR
+- [Art 28.10](../gdpr/art28.md#Article.+28.10)
+- [Art 28.1](../gdpr/art28.md#Article.+28.1)
+- [Art 28.2](../gdpr/art28.md#Article.+28.2)
+- [Art 28.3](../gdpr/art28.md#Article.+28.3)
+- [Art 28.4](../gdpr/art28.md#Article.+28.4)
+- [Art 28.5](../gdpr/art28.md#Article.+28.5)
+- [Art 28.6](../gdpr/art28.md#Article.+28.6)
+- [Art 28.9](../gdpr/art28.md#Article.+28.9)
+- [Art 29](../gdpr/art29.md)
 ## Control questions
 Does the organization identify, regularly review and document third-party confidentiality, Non-Disclosure Agreements (NDAs) and other contracts that reflect the organization’s needs to protect systems and data?
 ## Control maturity

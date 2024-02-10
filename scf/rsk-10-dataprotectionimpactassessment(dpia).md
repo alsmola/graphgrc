@@ -6,16 +6,16 @@ Mechanisms exist to conduct a Data Protection Impact Assessment (DPIA) on system
 - [CC5.2](../soc2/cc52.md)
 - [PI1.1](../soc2/pi11.md)
 ### GDPR
-- [Art 35.11](../gdpr/art3511.md)
-- [Art 35.1](../gdpr/art351.md)
-- [Art 35.2](../gdpr/art352.md)
-- [Art 35.3](../gdpr/art353.md)
-- [Art 35.6](../gdpr/art356.md)
-- [Art 35.8](../gdpr/art358.md)
-- [Art 35.9](../gdpr/art359.md)
-- [Art 36.1 ](../gdpr/art361.md)
-- [Art 36.2](../gdpr/art362.md)
-- [Art 36.3](../gdpr/art363.md)
+- [Art 35.11](../gdpr/art35.md#Article.+35.11)
+- [Art 35.1](../gdpr/art35.md#Article.+35.1)
+- [Art 35.2](../gdpr/art35.md#Article.+35.2)
+- [Art 35.3](../gdpr/art35.md#Article.+35.3)
+- [Art 35.6](../gdpr/art35.md#Article.+35.6)
+- [Art 35.8](../gdpr/art35.md#Article.+35.8)
+- [Art 35.9](../gdpr/art35.md#Article.+35.9)
+- [Art 36.1 ](../gdpr/art36.md#Article.+36.1+)
+- [Art 36.2](../gdpr/art36.md#Article.+36.2)
+- [Art 36.3](../gdpr/art36.md#Article.+36.3)
 ## Control questions
 Does the organization conduct a Data Protection Impact Assessment (DPIA) on systems, applications and services that store, process and/or transmit Personal Data (PD) to identify and remediate reasonably-expected risks?
 ## Control maturity

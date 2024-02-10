@@ -2,13 +2,13 @@
 Mechanisms exist to limit Personal Data (PD) being processed in the information lifecycle to elements identified in the Data Protection Impact Assessment (DPIA).
 ## Mapped framework controls
 ### GDPR
-- [Art 35.11](../gdpr/art3511.md)
-- [Art 35.1](../gdpr/art351.md)
-- [Art 35.2](../gdpr/art352.md)
-- [Art 35.3](../gdpr/art353.md)
-- [Art 35.6](../gdpr/art356.md)
-- [Art 35.8](../gdpr/art358.md)
-- [Art 35.9](../gdpr/art359.md)
+- [Art 35.11](../gdpr/art35.md#Article.+35.11)
+- [Art 35.1](../gdpr/art35.md#Article.+35.1)
+- [Art 35.2](../gdpr/art35.md#Article.+35.2)
+- [Art 35.3](../gdpr/art35.md#Article.+35.3)
+- [Art 35.6](../gdpr/art35.md#Article.+35.6)
+- [Art 35.8](../gdpr/art35.md#Article.+35.8)
+- [Art 35.9](../gdpr/art35.md#Article.+35.9)
 ## Control questions
 Does the organization limit Personal Data (PD) being processed in the information lifecycle to elements identified in the Data Protection Impact Assessment (DPIA)?
 ## Control maturity

@@ -6,12 +6,12 @@ Mechanisms exist to restrict the use of Personal Data (PD) to only the authorize
 - [P4.1](../soc2/p41.md)
 ### GDPR
 - [Art 10](../gdpr/art10.md)
-- [Art 11.1](../gdpr/art111.md)
-- [Art 18.1](../gdpr/art181.md)
-- [Art 18.2](../gdpr/art182.md)
-- [Art 5.1](../gdpr/art51.md)
-- [Art 9.1](../gdpr/art91.md)
-- [Art 9.2](../gdpr/art92.md)
+- [Art 11.1](../gdpr/art11.md#Article.+11.1)
+- [Art 18.1](../gdpr/art18.md#Article.+18.1)
+- [Art 18.2](../gdpr/art18.md#Article.+18.2)
+- [Art 5.1](../gdpr/art5.md#Article.+5.1)
+- [Art 9.1](../gdpr/art9.md#Article.+9.1)
+- [Art 9.2](../gdpr/art9.md#Article.+9.2)
 ## Control questions
 Does the organization restrict the use of Personal Data (PD) to only the authorized purpose(s) consistent with applicable laws, regulations and in data privacy notices? 
 ## Control maturity

@@ -9,15 +9,15 @@ Mechanisms exist to authorize the processing of their Personal Data (PD) prior t
 - [P2.1](../soc2/p21.md)
 - [P3.2](../soc2/p32.md)
 ### GDPR
-- [Art 12.6](../gdpr/art126.md)
-- [Art 14.3](../gdpr/art143.md)
-- [Art 6.1](../gdpr/art61.md)
-- [Art 7.1](../gdpr/art71.md)
-- [Art 7.2](../gdpr/art72.md)
-- [Art 7.3](../gdpr/art73.md)
-- [Art 7.4](../gdpr/art74.md)
-- [Art 8.1](../gdpr/art81.md)
-- [Art 8.2](../gdpr/art82.md)
+- [Art 12.6](../gdpr/art12.md#Article.+12.6)
+- [Art 14.3](../gdpr/art14.md#Article.+14.3)
+- [Art 6.1](../gdpr/art6.md#Article.+6.1)
+- [Art 7.1](../gdpr/art7.md#Article.+7.1)
+- [Art 7.2](../gdpr/art7.md#Article.+7.2)
+- [Art 7.3](../gdpr/art7.md#Article.+7.3)
+- [Art 7.4](../gdpr/art7.md#Article.+7.4)
+- [Art 8.1](../gdpr/art8.md#Article.+8.1)
+- [Art 8.2](../gdpr/art8.md#Article.+8.2)
 ## Control questions
 Does the organization authorize the processing of their Personal Data (PD) prior to its collection that:
 - Uses plain language and provide examples to illustrate the potential data privacy risks of the authorization; and

@@ -5,11 +5,11 @@ Mechanisms exist to develop and maintain an accounting of disclosures of Persona
 - [P6.2](../soc2/p62.md)
 - [P6.3](../soc2/p63.md)
 ### GDPR
-- [Art 30.1](../gdpr/art301.md)
-- [Art 30.2](../gdpr/art302.md)
-- [Art 30.3](../gdpr/art303.md)
-- [Art 30.4](../gdpr/art304.md)
-- [Art 30.5](../gdpr/art305.md)
+- [Art 30.1](../gdpr/art30.md#Article.+30.1)
+- [Art 30.2](../gdpr/art30.md#Article.+30.2)
+- [Art 30.3](../gdpr/art30.md#Article.+30.3)
+- [Art 30.4](../gdpr/art30.md#Article.+30.4)
+- [Art 30.5](../gdpr/art30.md#Article.+30.5)
 ## Control questions
 Does the organization develop and maintain an accounting of disclosures of Personal Data (PD) held by the organization and make the accounting of disclosures available to the person named in the record, upon request?
 ## Control maturity

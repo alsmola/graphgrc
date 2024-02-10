@@ -2,7 +2,7 @@
 Mechanisms exist to confirm the accuracy and relevance of Personal Data (PD) throughout the information lifecycle.
 ## Mapped framework controls
 ### GDPR
-- [Art 5.1](../gdpr/art51.md)
+- [Art 5.1](../gdpr/art5.md#Article.+5.1)
 ## Control questions
 Does the organization confirm the accuracy and relevance of Personal Data (PD) throughout the information lifecycle?
 ## Control maturity

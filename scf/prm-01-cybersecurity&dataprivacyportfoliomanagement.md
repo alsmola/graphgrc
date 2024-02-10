@@ -8,8 +8,8 @@ Mechanisms exist to facilitate the implementation of cybersecurity & data privac
 - [CC5.2](../soc2/cc52.md)
 - [P5.0](../soc2/p50.md)
 ### GDPR
-- [Art 32.1](../gdpr/art321.md)
-- [Art 32.2](../gdpr/art322.md)
+- [Art 32.1](../gdpr/art32.md#Article.+32.1)
+- [Art 32.2](../gdpr/art32.md#Article.+32.2)
 ## Control questions
 Does the organization facilitate the implementation of cybersecurity & data privacy-related resource planning controls that define a viable plan for achieving cybersecurity & data privacy objectives?
 ## Control maturity

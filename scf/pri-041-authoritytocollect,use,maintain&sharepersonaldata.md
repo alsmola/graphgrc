@@ -4,7 +4,7 @@ Mechanisms exist to determine and document the legal authority that permits the 
 ### SOC 2
 - [P3.1](../soc2/p31.md)
 ### GDPR
-- [Art 5.1](../gdpr/art51.md)
+- [Art 5.1](../gdpr/art5.md#Article.+5.1)
 ## Control questions
 Does the organization determine and document the legal authority that permits the collection, use, maintenance and sharing of Personal Data (PD), either generally or in support of a specific program or system need?
 ## Control maturity

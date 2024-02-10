@@ -1,22 +1,22 @@
 # SEA-01 - Secure Engineering Principles
 Mechanisms exist to facilitate the implementation of industry-recognized cybersecurity & data privacy practices in the specification, design, development, implementation and modification of systems and services.
 ## Mapped framework controls
-### GDPR
-- [Art 24.1](../gdpr/art241.md)
-- [Art 24.2](../gdpr/art242.md)
-- [Art 24.3](../gdpr/art243.md)
-- [Art 25.1](../gdpr/art251.md)
-- [Art 25.2](../gdpr/art252.md)
-- [Art 25.3](../gdpr/art253.md)
-- [Art 32.1](../gdpr/art321.md)
-- [Art 32.2](../gdpr/art322.md)
-- [Art 40.2](../gdpr/art402.md)
-- [Art 5.2](../gdpr/art52.md)
 ### SOC 2
 - [CC2.2](../soc2/cc22.md)
 - [CC3.2](../soc2/cc32.md)
 - [CC5.1](../soc2/cc51.md)
 - [CC5.2](../soc2/cc52.md)
+### GDPR
+- [Art 24.1](../gdpr/art24.md#Article.+24.1)
+- [Art 24.2](../gdpr/art24.md#Article.+24.2)
+- [Art 24.3](../gdpr/art24.md#Article.+24.3)
+- [Art 25.1](../gdpr/art25.md#Article.+25.1)
+- [Art 25.2](../gdpr/art25.md#Article.+25.2)
+- [Art 25.3](../gdpr/art25.md#Article.+25.3)
+- [Art 32.1](../gdpr/art32.md#Article.+32.1)
+- [Art 32.2](../gdpr/art32.md#Article.+32.2)
+- [Art 40.2](../gdpr/art40.md#Article.+40.2)
+- [Art 5.2](../gdpr/art5.md#Article.+5.2)
 ## Control questions
 Does the organization facilitate the implementation of industry-recognized cybersecurity & data privacy practices in the specification, design, development, implementation and modification of systems and services?
 ## Control maturity

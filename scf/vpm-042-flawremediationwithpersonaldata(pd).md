@@ -2,7 +2,7 @@
 Mechanisms exist to identify and correct flaws related to the collection, usage, processing or dissemination of Personal Data (PD).
 ## Mapped framework controls
 ### GDPR
-- [Art 5.1](../gdpr/art51.md)
+- [Art 5.1](../gdpr/art5.md#Article.+5.1)
 ## Control questions
 Does the organization identify and correct flaws related to the collection, usage, processing or dissemination of Personal Data (PD)?
 ## Control maturity

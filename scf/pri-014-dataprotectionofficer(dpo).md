@@ -4,22 +4,22 @@ Mechanisms exist to appoint a Data Protection Officer (DPO):
  - To be involved in all issues related to the protection of personal data.
 ## Mapped framework controls
 ### GDPR
-- [Art 35.2](../gdpr/art352.md)
-- [Art 37.1](../gdpr/art371.md)
-- [Art 37.2](../gdpr/art372.md)
-- [Art 37.3](../gdpr/art373.md)
-- [Art 37.4](../gdpr/art374.md)
-- [Art 37.5](../gdpr/art375.md)
-- [Art 37.6](../gdpr/art376.md)
-- [Art 37.7](../gdpr/art377.md)
-- [Art 38.1](../gdpr/art381.md)
-- [Art 38.2](../gdpr/art382.md)
-- [Art 38.3](../gdpr/art383.md)
-- [Art 38.4](../gdpr/art384.md)
-- [Art 38.5](../gdpr/art385.md)
-- [Art 38.6](../gdpr/art386.md)
-- [Art 39.1](../gdpr/art391.md)
-- [Art 39.2](../gdpr/art392.md)
+- [Art 35.2](../gdpr/art35.md#Article.+35.2)
+- [Art 37.1](../gdpr/art37.md#Article.+37.1)
+- [Art 37.2](../gdpr/art37.md#Article.+37.2)
+- [Art 37.3](../gdpr/art37.md#Article.+37.3)
+- [Art 37.4](../gdpr/art37.md#Article.+37.4)
+- [Art 37.5](../gdpr/art37.md#Article.+37.5)
+- [Art 37.6](../gdpr/art37.md#Article.+37.6)
+- [Art 37.7](../gdpr/art37.md#Article.+37.7)
+- [Art 38.1](../gdpr/art38.md#Article.+38.1)
+- [Art 38.2](../gdpr/art38.md#Article.+38.2)
+- [Art 38.3](../gdpr/art38.md#Article.+38.3)
+- [Art 38.4](../gdpr/art38.md#Article.+38.4)
+- [Art 38.5](../gdpr/art38.md#Article.+38.5)
+- [Art 38.6](../gdpr/art38.md#Article.+38.6)
+- [Art 39.1](../gdpr/art39.md#Article.+39.1)
+- [Art 39.2](../gdpr/art39.md#Article.+39.2)
 ## Control questions
 Does the organization appoint a Data Protection Officer (DPO):
  - Based on the basis of professional qualities; and

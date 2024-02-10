@@ -2,14 +2,14 @@
 Mechanisms exist to utilize independent assessors to evaluate cybersecurity & data protection controls at planned intervals or when the system, service or project undergoes significant changes.
 ## Mapped framework controls
 ### GDPR
-- [Art 40.2](../gdpr/art402.md)
-- [Art 42.1](../gdpr/art421.md)
-- [Art 42.2](../gdpr/art422.md)
-- [Art 42.3](../gdpr/art423.md)
-- [Art 42.4](../gdpr/art424.md)
-- [Art 42.6](../gdpr/art426.md)
-- [Art 42.7](../gdpr/art427.md)
-- [Art 43.2](../gdpr/art432.md)
+- [Art 40.2](../gdpr/art40.md#Article.+40.2)
+- [Art 42.1](../gdpr/art42.md#Article.+42.1)
+- [Art 42.2](../gdpr/art42.md#Article.+42.2)
+- [Art 42.3](../gdpr/art42.md#Article.+42.3)
+- [Art 42.4](../gdpr/art42.md#Article.+42.4)
+- [Art 42.6](../gdpr/art42.md#Article.+42.6)
+- [Art 42.7](../gdpr/art42.md#Article.+42.7)
+- [Art 43.2](../gdpr/art43.md#Article.+43.2)
 ## Control questions
 Does the organization utilize independent assessors to evaluate cybersecurity & data protection controls at planned intervals or when the system, service or project undergoes significant changes?
 ## Control maturity

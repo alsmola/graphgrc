@@ -5,13 +5,13 @@ Mechanisms exist to identify and document appropriate contacts with relevant law
 - [CC2.3](../soc2/cc23.md)
 ### GDPR
 - [Art 31](../gdpr/art31.md)
-- [Art 36.1](../gdpr/art361.md)
-- [Art 36.2](../gdpr/art362.md)
-- [Art 36.3](../gdpr/art363.md)
-- [Art 37.7](../gdpr/art377.md)
-- [Art 40.1](../gdpr/art401.md)
-- [Art 41.1](../gdpr/art411.md)
-- [Art 42.2](../gdpr/art422.md)
+- [Art 36.1](../gdpr/art36.md#Article.+36.1)
+- [Art 36.2](../gdpr/art36.md#Article.+36.2)
+- [Art 36.3](../gdpr/art36.md#Article.+36.3)
+- [Art 37.7](../gdpr/art37.md#Article.+37.7)
+- [Art 40.1](../gdpr/art40.md#Article.+40.1)
+- [Art 41.1](../gdpr/art41.md#Article.+41.1)
+- [Art 42.2](../gdpr/art42.md#Article.+42.2)
 - [Art 50](../gdpr/art50.md)
 ## Control questions
 Does the organization identify and document appropriate contacts with relevant law enforcement and regulatory bodies?

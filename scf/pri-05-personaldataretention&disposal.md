@@ -4,19 +4,19 @@ Mechanisms exist to:
  - Dispose of, destroys, erases, and/or anonymizes the PD, regardless of the method of storage; and
  - Use organization-defined techniques or methods to ensure secure deletion or destruction of PD (including originals, copies and archived records).
 ## Mapped framework controls
+### GDPR
+- [Art 18.1](../gdpr/art18.md#Article.+18.1)
+- [Art 18.2](../gdpr/art18.md#Article.+18.2)
+- [Art 21.1](../gdpr/art21.md#Article.+21.1)
+- [Art 21.2](../gdpr/art21.md#Article.+21.2)
+- [Art 21.3](../gdpr/art21.md#Article.+21.3)
+- [Art 5.1](../gdpr/art5.md#Article.+5.1)
 ### SOC 2
 - [C1.2](../soc2/c12.md)
 - [CC6.5](../soc2/cc65.md)
 - [P4.0](../soc2/p40.md)
 - [P4.2](../soc2/p42.md)
 - [P4.3](../soc2/p43.md)
-### GDPR
-- [Art 18.1](../gdpr/art181.md)
-- [Art 18.2](../gdpr/art182.md)
-- [Art 21.1](../gdpr/art211.md)
-- [Art 21.2](../gdpr/art212.md)
-- [Art 21.3](../gdpr/art213.md)
-- [Art 5.1](../gdpr/art51.md)
 ## Control questions
 Does the organization: 
  - Retain Personal Data (PD), including metadata, for an organization-defined time period to fulfill the purpose(s) identified in the notice or as required by law;

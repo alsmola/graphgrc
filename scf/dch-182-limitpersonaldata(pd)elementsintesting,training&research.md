@@ -2,14 +2,14 @@
 Mechanisms exist to minimize the use of Personal Data (PD) for research, testing, or training, in accordance with the Data Protection Impact Assessment (DPIA).
 ## Mapped framework controls
 ### GDPR
-- [Art 35.11](../gdpr/art3511.md)
-- [Art 35.1](../gdpr/art351.md)
-- [Art 35.2](../gdpr/art352.md)
-- [Art 35.3](../gdpr/art353.md)
-- [Art 35.6](../gdpr/art356.md)
-- [Art 35.8](../gdpr/art358.md)
-- [Art 35.9](../gdpr/art359.md)
-- [Art 5.1](../gdpr/art51.md)
+- [Art 35.11](../gdpr/art35.md#Article.+35.11)
+- [Art 35.1](../gdpr/art35.md#Article.+35.1)
+- [Art 35.2](../gdpr/art35.md#Article.+35.2)
+- [Art 35.3](../gdpr/art35.md#Article.+35.3)
+- [Art 35.6](../gdpr/art35.md#Article.+35.6)
+- [Art 35.8](../gdpr/art35.md#Article.+35.8)
+- [Art 35.9](../gdpr/art35.md#Article.+35.9)
+- [Art 5.1](../gdpr/art5.md#Article.+5.1)
 ## Control questions
 Does the organization minimize the use of Personal Data (PD) for research, testing, or training, in accordance with the Data Protection Impact Assessment (DPIA)?
 ## Control maturity

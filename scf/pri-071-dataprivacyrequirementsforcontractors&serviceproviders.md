@@ -4,20 +4,20 @@ Mechanisms exist to include data privacy requirements in contracts and other acq
 ### SOC 2
 - [P6.4](../soc2/p64.md)
 ### GDPR
-- [Art 26.1](../gdpr/art261.md)
-- [Art 26.2](../gdpr/art262.md)
-- [Art 26.3](../gdpr/art263.md)
-- [Art 28.10](../gdpr/art2810.md)
-- [Art 28.1](../gdpr/art281.md)
-- [Art 28.2](../gdpr/art282.md)
-- [Art 28.3](../gdpr/art283.md)
-- [Art 28.4](../gdpr/art284.md)
-- [Art 28.5](../gdpr/art285.md)
-- [Art 28.6](../gdpr/art286.md)
-- [Art 28.9](../gdpr/art289.md)
+- [Art 26.1](../gdpr/art26.md#Article.+26.1)
+- [Art 26.2](../gdpr/art26.md#Article.+26.2)
+- [Art 26.3](../gdpr/art26.md#Article.+26.3)
+- [Art 28.10](../gdpr/art28.md#Article.+28.10)
+- [Art 28.1](../gdpr/art28.md#Article.+28.1)
+- [Art 28.2](../gdpr/art28.md#Article.+28.2)
+- [Art 28.3](../gdpr/art28.md#Article.+28.3)
+- [Art 28.4](../gdpr/art28.md#Article.+28.4)
+- [Art 28.5](../gdpr/art28.md#Article.+28.5)
+- [Art 28.6](../gdpr/art28.md#Article.+28.6)
+- [Art 28.9](../gdpr/art28.md#Article.+28.9)
 - [Art 29](../gdpr/art29.md)
-- [Art 6.1](../gdpr/art61.md)
-- [Art 6.4](../gdpr/art64.md)
+- [Art 6.1](../gdpr/art6.md#Article.+6.1)
+- [Art 6.4](../gdpr/art6.md#Article.+6.4)
 ## Control questions
 Does the organization include data privacy requirements in contracts and other acquisition-related documents that establish data privacy roles and responsibilities for contractors and service providers? 
 ## Control maturity

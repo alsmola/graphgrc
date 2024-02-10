@@ -5,6 +5,7 @@ import (
 	"io"
 	"log"
 	"net/http"
+	"net/url"
 	"os"
 	"slices"
 	"strings"
@@ -129,7 +130,15 @@ func GenerateSCFMarkdown(scfControl Control, scfControlID SCFControlID, controlM
 	for framework, frameworkControlIDs := range controlMapping {
 		fcids := []string{}
 		for _, fcid := range frameworkControlIDs {
-			fcids = append(fcids, fmt.Sprintf("[%s](../%s/%s.md)", string(fcid), safeFileName(string(framework)), safeFileName(string(fcid))))
+			link := fmt.Sprintf("[%s](../%s/%s.md)", string(fcid), safeFileName(string(framework)), safeFileName(string(fcid)))
+			if framework == "GDPR" {
+				articleParts := strings.Split(string(fcid), ".")
+				if len(articleParts) == 2 {
+					subArticle := strings.ReplaceAll(string(fcid), "Art", "Article.")
+					link = fmt.Sprintf("[%s](../%s/%s.md#%s)", string(fcid), safeFileName(string(framework)), safeFileName(articleParts[0]), url.QueryEscape(subArticle))
+				}
+			}
+			fcids = append(fcids, link)
 		}
 		if len(fcids) > 0 {
 			slices.Sort(fcids)

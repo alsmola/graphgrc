@@ -2,7 +2,7 @@
 Cryptographic mechanisms exist to protect the integrity of data being transmitted. 
 ## Mapped framework controls
 ### GDPR
-- [Art 5.1](../gdpr/art51.md)
+- [Art 5.1](../gdpr/art5.md#Article.+5.1)
 ## Control questions
 Are cryptographic mechanisms utilized to protect the integrity of data being transmitted? 
 ## Control maturity

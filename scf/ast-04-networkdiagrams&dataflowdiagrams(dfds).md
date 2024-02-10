@@ -4,14 +4,14 @@ Mechanisms exist to maintain network architecture diagrams that:
  - Reflect the current architecture of the network environment; and
  - Document all sensitive/regulated data flows.
 ## Mapped framework controls
-### GDPR
-- [Art 30.1](../gdpr/art301.md)
-- [Art 30.2](../gdpr/art302.md)
-- [Art 30.3](../gdpr/art303.md)
-- [Art 30.4](../gdpr/art304.md)
-- [Art 30.5](../gdpr/art305.md)
 ### SOC 2
 - [CC2.1](../soc2/cc21.md)
+### GDPR
+- [Art 30.1](../gdpr/art30.md#Article.+30.1)
+- [Art 30.2](../gdpr/art30.md#Article.+30.2)
+- [Art 30.3](../gdpr/art30.md#Article.+30.3)
+- [Art 30.4](../gdpr/art30.md#Article.+30.4)
+- [Art 30.5](../gdpr/art30.md#Article.+30.5)
 ## Control questions
 Does the organization maintain network architecture diagrams that: 
  - Contain sufficient detail to assess the security of the network's architecture;

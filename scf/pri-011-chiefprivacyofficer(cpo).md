@@ -2,10 +2,10 @@
 Mechanisms exist to appoints a Chief Privacy Officer (CPO) or similar role, with the authority, mission, accountability and resources to coordinate, develop and implement, applicable data privacy requirements and manage data privacy risks through the organization-wide data privacy program.
 ## Mapped framework controls
 ### GDPR
-- [Art 37.1](../gdpr/art371.md)
-- [Art 38.1](../gdpr/art381.md)
-- [Art 39.1](../gdpr/art391.md)
-- [Art 39.2](../gdpr/art392.md)
+- [Art 37.1](../gdpr/art37.md#Article.+37.1)
+- [Art 38.1](../gdpr/art38.md#Article.+38.1)
+- [Art 39.1](../gdpr/art39.md#Article.+39.1)
+- [Art 39.2](../gdpr/art39.md#Article.+39.2)
 ## Control questions
 Does the organization appoints a Chief Privacy Officer (CPO) or similar role, with the authority, mission, accountability and resources to coordinate, develop and implement, applicable data privacy requirements and manage data privacy risks through the organization-wide data privacy program?
 ## Control maturity

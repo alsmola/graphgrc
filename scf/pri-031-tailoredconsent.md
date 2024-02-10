@@ -2,17 +2,17 @@
 Mechanisms exist to allow data subjects to modify the use permissions to selected attributes of their Personal Data (PD).
 ## Mapped framework controls
 ### GDPR
-- [Art 12.2](../gdpr/art122.md)
-- [Art 12.3](../gdpr/art123.md)
-- [Art 12.4](../gdpr/art124.md)
-- [Art 22.1](../gdpr/art221.md)
-- [Art 22.2](../gdpr/art222.md)
-- [Art 22.3](../gdpr/art223.md)
-- [Art 22.4](../gdpr/art224.md)
-- [Art 7.1](../gdpr/art71.md)
-- [Art 7.2](../gdpr/art72.md)
-- [Art 7.3](../gdpr/art73.md)
-- [Art 7.4](../gdpr/art74.md)
+- [Art 12.2](../gdpr/art12.md#Article.+12.2)
+- [Art 12.3](../gdpr/art12.md#Article.+12.3)
+- [Art 12.4](../gdpr/art12.md#Article.+12.4)
+- [Art 22.1](../gdpr/art22.md#Article.+22.1)
+- [Art 22.2](../gdpr/art22.md#Article.+22.2)
+- [Art 22.3](../gdpr/art22.md#Article.+22.3)
+- [Art 22.4](../gdpr/art22.md#Article.+22.4)
+- [Art 7.1](../gdpr/art7.md#Article.+7.1)
+- [Art 7.2](../gdpr/art7.md#Article.+7.2)
+- [Art 7.3](../gdpr/art7.md#Article.+7.3)
+- [Art 7.4](../gdpr/art7.md#Article.+7.4)
 ## Control questions
 Does the organization allow data subjects to modify the use permissions to selected attributes of their Personal Data (PD)?
 ## Control maturity

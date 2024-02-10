@@ -1,20 +1,20 @@
 # TPM-01 - Third-Party Management
 Mechanisms exist to facilitate the implementation of third-party management controls.
 ## Mapped framework controls
-### GDPR
-- [Art 28.10](../gdpr/art2810.md)
-- [Art 28.1](../gdpr/art281.md)
-- [Art 28.2](../gdpr/art282.md)
-- [Art 28.3](../gdpr/art283.md)
-- [Art 28.4](../gdpr/art284.md)
-- [Art 28.5](../gdpr/art285.md)
-- [Art 28.6](../gdpr/art286.md)
-- [Art 28.9](../gdpr/art289.md)
-- [Art 32.1](../gdpr/art321.md)
-- [Art 32.2](../gdpr/art322.md)
 ### SOC 2
 - [CC3.3](../soc2/cc33.md)
 - [CC9.1](../soc2/cc91.md)
+### GDPR
+- [Art 28.10](../gdpr/art28.md#Article.+28.10)
+- [Art 28.1](../gdpr/art28.md#Article.+28.1)
+- [Art 28.2](../gdpr/art28.md#Article.+28.2)
+- [Art 28.3](../gdpr/art28.md#Article.+28.3)
+- [Art 28.4](../gdpr/art28.md#Article.+28.4)
+- [Art 28.5](../gdpr/art28.md#Article.+28.5)
+- [Art 28.6](../gdpr/art28.md#Article.+28.6)
+- [Art 28.9](../gdpr/art28.md#Article.+28.9)
+- [Art 32.1](../gdpr/art32.md#Article.+32.1)
+- [Art 32.2](../gdpr/art32.md#Article.+32.2)
 ## Control questions
 Does the organization facilitate the implementation of third-party management controls?
 ## Control maturity

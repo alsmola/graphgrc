@@ -2,12 +2,12 @@
 Mechanisms exist to establish a written charter for a Data Management Board (DMB) and assigned organization-defined roles to the DMB.
 ## Mapped framework controls
 ### GDPR
-- [Art 30.1](../gdpr/art301.md)
-- [Art 30.2](../gdpr/art302.md)
-- [Art 30.3](../gdpr/art303.md)
-- [Art 30.4](../gdpr/art304.md)
-- [Art 30.5](../gdpr/art305.md)
-- [Art 5.1](../gdpr/art51.md)
+- [Art 30.1](../gdpr/art30.md#Article.+30.1)
+- [Art 30.2](../gdpr/art30.md#Article.+30.2)
+- [Art 30.3](../gdpr/art30.md#Article.+30.3)
+- [Art 30.4](../gdpr/art30.md#Article.+30.4)
+- [Art 30.5](../gdpr/art30.md#Article.+30.5)
+- [Art 5.1](../gdpr/art5.md#Article.+5.1)
 ## Control questions
 Does the organization establish a written charter for a Data Management Board (DMB) and assigned organization-defined roles to the DMB?
 ## Control maturity

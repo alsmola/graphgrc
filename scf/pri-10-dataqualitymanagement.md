@@ -5,7 +5,7 @@ Mechanisms exist to issue guidelines ensuring and maximizing the quality, utilit
 - [P7.0](../soc2/p70.md)
 - [P7.1](../soc2/p71.md)
 ### GDPR
-- [Art 5.1](../gdpr/art51.md)
+- [Art 5.1](../gdpr/art5.md#Article.+5.1)
 ## Control questions
 Does the organization issue guidelines ensuring and maximizing the quality, utility, objectivity, integrity, impact determination and de-identification of Personal Data (PD) across the information lifecycle?
 ## Control maturity

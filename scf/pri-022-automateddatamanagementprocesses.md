@@ -2,11 +2,11 @@
 Automated mechanisms exist to adjust data that is able to be collected, created, used, disseminated, maintained, retained and/or disclosed, based on updated data subject authorization(s).
 ## Mapped framework controls
 ### GDPR
-- [Art 14.2](../gdpr/art142.md)
-- [Art 22.1](../gdpr/art221.md)
-- [Art 22.2](../gdpr/art222.md)
-- [Art 22.3](../gdpr/art223.md)
-- [Art 22.4](../gdpr/art224.md)
+- [Art 14.2](../gdpr/art14.md#Article.+14.2)
+- [Art 22.1](../gdpr/art22.md#Article.+22.1)
+- [Art 22.2](../gdpr/art22.md#Article.+22.2)
+- [Art 22.3](../gdpr/art22.md#Article.+22.3)
+- [Art 22.4](../gdpr/art22.md#Article.+22.4)
 ## Control questions
 Does the organization use automated mechanisms to adjust data that is able to be collected, created, used, disseminated, maintained, retained and/or disclosed, based on updated data subject authorization(s)?
 ## Control maturity
