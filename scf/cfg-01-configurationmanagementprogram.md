@@ -2,8 +2,8 @@
 Mechanisms exist to facilitate the implementation of configuration management controls.
 ## Mapped framework controls
 ### GDPR
-- [Art 32.1](../gdpr/art32.md#Article.+32.1)
-- [Art 32.2](../gdpr/art32.md#Article.+32.2)
+- [Art 32.1](../gdpr/art32.md#Article-321)
+- [Art 32.2](../gdpr/art32.md#Article-322)
 ### SOC 2
 - [CC7.1](../soc2/cc71.md)
 ## Control questions

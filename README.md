@@ -8,4 +8,6 @@ go run main.go
 
 # Documentation
 
-See [SCF](scf/index.md) and [SOC 2](soc2/index.md).
+- [SCF](scf/index.md)
+- [GDPR](gdpr/index.md)
+- [SOC 2](soc2/index.md)

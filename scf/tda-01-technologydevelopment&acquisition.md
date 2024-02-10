@@ -4,8 +4,8 @@ Mechanisms exist to facilitate the implementation of tailored development and ac
 ### SOC 2
 - [CC5.2](../soc2/cc52.md)
 ### GDPR
-- [Art 32.1](../gdpr/art32.md#Article.+32.1)
-- [Art 32.2](../gdpr/art32.md#Article.+32.2)
+- [Art 32.1](../gdpr/art32.md#Article-321)
+- [Art 32.2](../gdpr/art32.md#Article-322)
 ## Control questions
 Does the organization facilitate the implementation of tailored development and acquisition strategies, contract tools and procurement methods to meet unique business needs?
 ## Control maturity

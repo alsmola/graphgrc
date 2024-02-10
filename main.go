@@ -30,17 +30,19 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
+	internal.GenerateSOC2Index(soc2Framework)
 	gdprLink := "https://raw.githubusercontent.com/enterpriseready/enterpriseready/master/content/gdpr/gdpr-abridged.md"
 	gdprFramework, err := internal.GetGDPRControls(gdprLink, true)
 	if err != nil {
 		log.Fatal(err)
 	}
-	for articleID, article := range gdprFramework {
-		err = internal.GenerateGDPRMarkdown(article, articleID, scfControlMappings)
+	for _, article := range gdprFramework {
+		if article.Title != "" {
+			err = internal.GenerateGDPRMarkdown(article, scfControlMappings)
+		}
 	}
 	if err != nil {
 		log.Fatal(err)
 	}
-
+	internal.GenerateGDPRIndex(gdprFramework)
 }

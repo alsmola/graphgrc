@@ -4,7 +4,7 @@ Mechanisms exist to facilitate the sanitization of Personal Data (PD).
 ### SOC 2
 - [P4.3](../soc2/p43.md)
 ### GDPR
-- [Art 5.1](../gdpr/art5.md#Article.+5.1)
+- [Art 5.1](../gdpr/art5.md#Article-51)
 ## Control questions
 Does the organization facilitate the sanitization of Personal Data (PD)?
 ## Control maturity

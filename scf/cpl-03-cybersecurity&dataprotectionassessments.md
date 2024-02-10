@@ -4,8 +4,8 @@ Mechanisms exist to ensure managers regularly review the processes and documente
 ### SOC 2
 - [CC4.1](../soc2/cc41.md)
 ### GDPR
-- [Art 32.3](../gdpr/art32.md#Article.+32.3)
-- [Art 5.2](../gdpr/art5.md#Article.+5.2)
+- [Art 32.3](../gdpr/art32.md#Article-323)
+- [Art 5.2](../gdpr/art5.md#Article-52)
 ## Control questions
 Does the organization ensure managers regularly review the processes and documented procedures within their area of responsibility to adhere to appropriate cybersecurity & data protection policies, standards and other applicable requirements?
 ## Control maturity

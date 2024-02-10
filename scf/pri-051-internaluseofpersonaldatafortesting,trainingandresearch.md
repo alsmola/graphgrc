@@ -6,10 +6,10 @@ Mechanisms exist to address the use of Personal Data (PD) for internal testing, 
 ### SOC 2
 - [P4.1](../soc2/p41.md)
 ### GDPR
-- [Art 11.1](../gdpr/art11.md#Article.+11.1)
-- [Art 18.1](../gdpr/art18.md#Article.+18.1)
-- [Art 18.2](../gdpr/art18.md#Article.+18.2)
-- [Art 5.1](../gdpr/art5.md#Article.+5.1)
+- [Art 11.1](../gdpr/art11.md#Article-111)
+- [Art 18.1](../gdpr/art18.md#Article-181)
+- [Art 18.2](../gdpr/art18.md#Article-182)
+- [Art 5.1](../gdpr/art5.md#Article-51)
 ## Control questions
 Does the organization address the use of Personal Data (PD) for internal testing, training and research that:
  - Takes measures to limit or minimize the amount of PD used for internal testing, training and research purposes; and

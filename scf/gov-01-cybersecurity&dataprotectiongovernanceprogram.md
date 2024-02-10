@@ -1,13 +1,13 @@
 # GOV-01 - Cybersecurity & Data Protection Governance Program
 Mechanisms exist to facilitate the implementation of cybersecurity & data protection governance controls.
 ## Mapped framework controls
-### GDPR
-- [Art 32.1](../gdpr/art32.md#Article.+32.1)
-- [Art 32.2](../gdpr/art32.md#Article.+32.2)
-- [Art 32.3](../gdpr/art32.md#Article.+32.3)
-- [Art 32.4](../gdpr/art32.md#Article.+32.4)
 ### SOC 2
 - [CC1.2](../soc2/cc12.md)
+### GDPR
+- [Art 32.1](../gdpr/art32.md#Article-321)
+- [Art 32.2](../gdpr/art32.md#Article-322)
+- [Art 32.3](../gdpr/art32.md#Article-323)
+- [Art 32.4](../gdpr/art32.md#Article-324)
 ## Control questions
 Does the organization facilitate the implementation of cybersecurity & data protection governance controls?
 ## Control maturity

@@ -134,7 +134,9 @@ func GenerateSCFMarkdown(scfControl Control, scfControlID SCFControlID, controlM
 			if framework == "GDPR" {
 				articleParts := strings.Split(string(fcid), ".")
 				if len(articleParts) == 2 {
-					subArticle := strings.ReplaceAll(string(fcid), "Art", "Article.")
+					subArticle := strings.ReplaceAll(string(fcid), "Art", "Article")
+					subArticle = strings.ReplaceAll(subArticle, ".", "")
+					subArticle = strings.ReplaceAll(subArticle, " ", "-")
 					link = fmt.Sprintf("[%s](../%s/%s.md#%s)", string(fcid), safeFileName(string(framework)), safeFileName(articleParts[0]), url.QueryEscape(subArticle))
 				}
 			}

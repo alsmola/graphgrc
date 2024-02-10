@@ -7,16 +7,16 @@ Mechanisms exist to:
 ### SOC 2
 - [P1.1](../soc2/p11.md)
 ### GDPR
-- [Art 11.2](../gdpr/art11.md#Article.+11.2)
-- [Art 12.1](../gdpr/art12.md#Article.+12.1)
-- [Art 13.1](../gdpr/art13.md#Article.+13.1)
-- [Art 13.2](../gdpr/art13.md#Article.+13.2)
-- [Art 13.3](../gdpr/art13.md#Article.+13.3)
-- [Art 14.1](../gdpr/art14.md#Article.+14.1)
-- [Art 14.2](../gdpr/art14.md#Article.+14.2)
-- [Art 14.3](../gdpr/art14.md#Article.+14.3)
-- [Art 26.1](../gdpr/art26.md#Article.+26.1)
-- [Art 26.2](../gdpr/art26.md#Article.+26.2)
+- [Art 11.2](../gdpr/art11.md#Article-112)
+- [Art 12.1](../gdpr/art12.md#Article-121)
+- [Art 13.1](../gdpr/art13.md#Article-131)
+- [Art 13.2](../gdpr/art13.md#Article-132)
+- [Art 13.3](../gdpr/art13.md#Article-133)
+- [Art 14.1](../gdpr/art14.md#Article-141)
+- [Art 14.2](../gdpr/art14.md#Article-142)
+- [Art 14.3](../gdpr/art14.md#Article-143)
+- [Art 26.1](../gdpr/art26.md#Article-261)
+- [Art 26.2](../gdpr/art26.md#Article-262)
 ## Control questions
 Does the organization:
 - Make data privacy notice(s) available to individuals upon first interacting with an organization and subsequently as necessary; 

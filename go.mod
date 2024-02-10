@@ -2,7 +2,7 @@ module github.com/alsmola/compliance-mapper
 
 // replace github.com/go-spectest/markdown => /Users/alexsmolen/src/github.com/alsmola/markdown
 
-go 1.21.5
+go 1.19
 
 //	github.com/go-spectest/markdown v0.0.0-00010101000000-000000000000
 require github.com/xuri/excelize/v2 v2.8.0

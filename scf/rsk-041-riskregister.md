@@ -4,7 +4,7 @@ Mechanisms exist to maintain a risk register that facilitates monitoring and rep
 ### SOC 2
 - [CC3.2](../soc2/cc32.md)
 ### GDPR
-- [Art 35.1](../gdpr/art35.md#Article.+35.1)
+- [Art 35.1](../gdpr/art35.md#Article-351)
 ## Control questions
 Does the organization maintain a risk register that facilitates monitoring and reporting of risks?
 ## Control maturity

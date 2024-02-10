@@ -5,7 +5,7 @@ Mechanisms exist to collect Personal Data (PD) only for the purposes identified 
 - [P3.0](../soc2/p30.md)
 - [P3.1](../soc2/p31.md)
 ### GDPR
-- [Art 5.1](../gdpr/art5.md#Article.+5.1)
+- [Art 5.1](../gdpr/art5.md#Article-51)
 ## Control questions
 Does the organization collect Personal Data (PD) only for the purposes identified in the data privacy notice and includes protections against collecting PD from minors without appropriate parental, or legal guardian, consent?
 ## Control maturity

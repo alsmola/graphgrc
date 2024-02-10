@@ -6,7 +6,7 @@ Mechanisms exist to provide a cybersecurity & data protection controls oversight
 - [CC2.2](../soc2/cc22.md)
 - [CC2.3](../soc2/cc23.md)
 ### GDPR
-- [Art 5.2](../gdpr/art5.md#Article.+5.2)
+- [Art 5.2](../gdpr/art5.md#Article-52)
 ## Control questions
 Does the organization provide a cybersecurity & data protection controls oversight function that reports to the organization's executive leadership?
 ## Control maturity

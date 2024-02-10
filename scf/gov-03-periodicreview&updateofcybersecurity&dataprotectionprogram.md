@@ -5,10 +5,10 @@ Mechanisms exist to review the cybersecurity & data privacy program, including p
 - [CC5.3](../soc2/cc53.md)
 - [](../soc2/.md)
 ### GDPR
-- [Art 32.1](../gdpr/art32.md#Article.+32.1)
-- [Art 32.2](../gdpr/art32.md#Article.+32.2)
-- [Art 32.3](../gdpr/art32.md#Article.+32.3)
-- [Art 32.4](../gdpr/art32.md#Article.+32.4)
+- [Art 32.1](../gdpr/art32.md#Article-321)
+- [Art 32.2](../gdpr/art32.md#Article-322)
+- [Art 32.3](../gdpr/art32.md#Article-323)
+- [Art 32.4](../gdpr/art32.md#Article-324)
 ## Control questions
 Does the organization review the cybersecurity & data privacy program, including policies, standards and procedures, at planned intervals or if significant changes occur to ensure their continuing suitability, adequacy and effectiveness? 
 ## Control maturity

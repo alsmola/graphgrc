@@ -1,13 +1,13 @@
 # GOV-02 - Publishing Cybersecurity & Data Protection Documentation
 Mechanisms exist to establish, maintain and disseminate cybersecurity & data protection policies, standards and procedures.
 ## Mapped framework controls
-### GDPR
-- [Art 32.1](../gdpr/art32.md#Article.+32.1)
-- [Art 32.2](../gdpr/art32.md#Article.+32.2)
-- [Art 32.3](../gdpr/art32.md#Article.+32.3)
-- [Art 32.4](../gdpr/art32.md#Article.+32.4)
 ### SOC 2
 - [CC5.3](../soc2/cc53.md)
+### GDPR
+- [Art 32.1](../gdpr/art32.md#Article-321)
+- [Art 32.2](../gdpr/art32.md#Article-322)
+- [Art 32.3](../gdpr/art32.md#Article-323)
+- [Art 32.4](../gdpr/art32.md#Article-324)
 ## Control questions
 Does the organization establish, maintain and disseminate cybersecurity & data protection policies, standards and procedures?
 ## Control maturity

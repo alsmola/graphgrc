@@ -5,8 +5,8 @@ Mechanisms exist to facilitate the operation of physical and environmental prote
 - [A1.2](../soc2/a12.md)
 - [CC6.4](../soc2/cc64.md)
 ### GDPR
-- [Art 32.1](../gdpr/art32.md#Article.+32.1)
-- [Art 32.2](../gdpr/art32.md#Article.+32.2)
+- [Art 32.1](../gdpr/art32.md#Article-321)
+- [Art 32.2](../gdpr/art32.md#Article-322)
 ## Control questions
 Does the organization facilitate the operation of physical and environmental protection controls? 
 ## Control maturity

@@ -4,7 +4,7 @@ Mechanisms exist to retain media and data in accordance with applicable statutor
 ### SOC 2
 - [PI1.5](../soc2/pi15.md)
 ### GDPR
-- [Art 5.1](../gdpr/art5.md#Article.+5.1)
+- [Art 5.1](../gdpr/art5.md#Article-51)
 ## Control questions
 Does the organization retain media and data in accordance with applicable statutory, regulatory and contractual obligations? 
 ## Control maturity

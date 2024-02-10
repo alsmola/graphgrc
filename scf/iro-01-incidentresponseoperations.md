@@ -5,8 +5,8 @@ Mechanisms exist to implement and govern processes and documentation to facilita
 - [CC7.3](../soc2/cc73.md)
 - [CC7.4](../soc2/cc74.md)
 ### GDPR
-- [Art 32.1](../gdpr/art32.md#Article.+32.1)
-- [Art 32.2](../gdpr/art32.md#Article.+32.2)
+- [Art 32.1](../gdpr/art32.md#Article-321)
+- [Art 32.2](../gdpr/art32.md#Article-322)
 ## Control questions
 Does the organization implement and govern processes and documentation to facilitate an organization-wide response capability for cybersecurity & data privacy-related incidents?
 ## Control maturity

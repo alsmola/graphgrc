@@ -121,3 +121,20 @@ func parseSOC2Description(description string) map[string]string {
 	}
 	return descriptions
 }
+
+func GenerateSOC2Index(soc2Framework FrameworkSummary) error {
+	f, err := os.Create("soc2/index.md")
+	if err != nil {
+		return err
+	}
+	doc := md.NewMarkdown(f).
+		H1("SOC2 Controls")
+	controlLinks := []string{}
+	for _, requirements := range soc2Framework.Requirements {
+		controlLinks = append(controlLinks, fmt.Sprintf("[%s](%s.md)", requirements.ID, safeFileName(string(requirements.ID))))
+	}
+	slices.Sort(controlLinks)
+	doc.BulletList(controlLinks...)
+	doc.Build()
+	return nil
+}

@@ -5,14 +5,14 @@ Mechanisms exist to periodically assess supply chain risks associated with syste
 - [CC3.2](../soc2/cc32.md)
 - [CC9.2](../soc2/cc92.md)
 ### GDPR
-- [Art 35.11](../gdpr/art35.md#Article.+35.11)
-- [Art 35.1](../gdpr/art35.md#Article.+35.1)
-- [Art 35.2](../gdpr/art35.md#Article.+35.2)
-- [Art 35.3](../gdpr/art35.md#Article.+35.3)
-- [Art 35.6](../gdpr/art35.md#Article.+35.6)
-- [Art 35.8](../gdpr/art35.md#Article.+35.8)
-- [Art 35.9](../gdpr/art35.md#Article.+35.9)
-- [Art 36.3](../gdpr/art36.md#Article.+36.3)
+- [Art 35.11](../gdpr/art35.md#Article-3511)
+- [Art 35.1](../gdpr/art35.md#Article-351)
+- [Art 35.2](../gdpr/art35.md#Article-352)
+- [Art 35.3](../gdpr/art35.md#Article-353)
+- [Art 35.6](../gdpr/art35.md#Article-356)
+- [Art 35.8](../gdpr/art35.md#Article-358)
+- [Art 35.9](../gdpr/art35.md#Article-359)
+- [Art 36.3](../gdpr/art36.md#Article-363)
 ## Control questions
 Does the organization periodically assess supply chain risks associated with systems, system components and services?
 ## Control maturity
