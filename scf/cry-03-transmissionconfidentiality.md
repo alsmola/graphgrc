@@ -1,11 +1,11 @@
 # CRY-03 - Transmission Confidentiality
 Cryptographic mechanisms exist to protect the confidentiality of data being transmitted. 
 ## Mapped framework controls
-### GDPR
-- [Art 5.1](../gdpr/art5.md#Article-51)
 ### SOC 2
 - [CC6.1](../soc2/cc61.md)
 - [CC6.7](../soc2/cc67.md)
+### GDPR
+- [Art 5.1](../gdpr/art5.md#Article-51)
 ## Control questions
 Are cryptographic mechanisms utilized to protect the confidentiality of data being transmitted? 
 ## Control maturity

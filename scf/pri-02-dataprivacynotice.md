@@ -4,8 +4,6 @@ Mechanisms exist to:
 - Ensure that data privacy notices are clear and easy-to-understand, expressing information about Personal Data (PD) processing in plain language that meet all legal obligations; and
 - Define the scope of PD processing activities, including the geographic locations and third-party recipients that process the PD within the scope of the data privacy notice.
 ## Mapped framework controls
-### SOC 2
-- [P1.1](../soc2/p11.md)
 ### GDPR
 - [Art 11.2](../gdpr/art11.md#Article-112)
 - [Art 12.1](../gdpr/art12.md#Article-121)
@@ -17,6 +15,8 @@ Mechanisms exist to:
 - [Art 14.3](../gdpr/art14.md#Article-143)
 - [Art 26.1](../gdpr/art26.md#Article-261)
 - [Art 26.2](../gdpr/art26.md#Article-262)
+### SOC 2
+- [P1.1](../soc2/p11.md)
 ## Control questions
 Does the organization:
 - Make data privacy notice(s) available to individuals upon first interacting with an organization and subsequently as necessary; 

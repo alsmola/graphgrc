@@ -1,6 +1,8 @@
 # TPM-04.4 - Third-Party Processing, Storage and Service Locations
 Mechanisms exist to restrict the location of information processing/storage based on business requirements. 
 ## Mapped framework controls
+### SOC 2
+- [CC9.1](../soc2/cc91.md)
 ### GDPR
 - [Art 26.1](../gdpr/art26.md#Article-261)
 - [Art 26.2](../gdpr/art26.md#Article-262)
@@ -28,8 +30,6 @@ Mechanisms exist to restrict the location of information processing/storage base
 - [Art 49.6](../gdpr/art49.md#Article-496)
 - [Art 6.1](../gdpr/art6.md#Article-61)
 - [Art 6.4](../gdpr/art6.md#Article-64)
-### SOC 2
-- [CC9.1](../soc2/cc91.md)
 ## Control questions
 Does the organization restrict the location of information processing/storage based on business requirements? 
 ## Control maturity

@@ -1,8 +1,6 @@
 # TPM-03 - Supply Chain Protection
 Mechanisms exist to evaluate security risks associated with the services and product supply chain. 
 ## Mapped framework controls
-### SOC 2
-- [CC9.1](../soc2/cc91.md)
 ### GDPR
 - [Art 28.10](../gdpr/art28.md#Article-2810)
 - [Art 28.1](../gdpr/art28.md#Article-281)
@@ -12,6 +10,8 @@ Mechanisms exist to evaluate security risks associated with the services and pro
 - [Art 28.5](../gdpr/art28.md#Article-285)
 - [Art 28.6](../gdpr/art28.md#Article-286)
 - [Art 28.9](../gdpr/art28.md#Article-289)
+### SOC 2
+- [CC9.1](../soc2/cc91.md)
 ## Control questions
 Does the organization evaluate security risks associated with the services and product supply chain? 
 ## Control maturity

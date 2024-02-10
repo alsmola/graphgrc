@@ -2,7 +2,7 @@
 ## Restrictions
 
 ## Article 23.1
- Union or Member State law to which the data controller or processor is subject may restrict by way of a legislative measure the scope of the obligations and rights provided for in Articles 12 to 22 and Article 34, as well as Article 5 in so far as its provisions correspond to the rights and obligations provided for in Articles 12 to 22, when such a restriction respects the essence of the fundamental rights and freedoms and is a necessary and proportionate measure in a democratic society to safeguard:
+Union or Member State law to which the data controller or processor is subject may restrict by way of a legislative measure the scope of the obligations and rights provided for in Articles 12 to 22 and Article 34, as well as Article 5 in so far as its provisions correspond to the rights and obligations provided for in Articles 12 to 22, when such a restriction respects the essence of the fundamental rights and freedoms and is a necessary and proportionate measure in a democratic society to safeguard:
 (a) national security;
 (b) defence;
 (c) public security;
@@ -16,7 +16,7 @@
 ### Mapped SCF controls
 - [CPL-01 - Statutory, Regulatory & Contractual Compliance](../scf/cpl-01-statutory,regulatory&contractualcompliance.md)
 ## Article 23.2
- In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to:
+In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to:
 (a) the purposes of the processing or categories of processing;
 (b) the categories of personal data;
 (c) the scope of the restrictions introduced;

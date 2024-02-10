@@ -1,13 +1,13 @@
 # PRI-01 - Data Privacy Program
 Mechanisms exist to facilitate the implementation and operation of data privacy controls. 
 ## Mapped framework controls
-### SOC 2
-- [P1.0](../soc2/p10.md)
 ### GDPR
 - [Art 32.1](../gdpr/art32.md#Article-321)
 - [Art 32.2](../gdpr/art32.md#Article-322)
 - [Art 32.3](../gdpr/art32.md#Article-323)
 - [Art 32.4](../gdpr/art32.md#Article-324)
+### SOC 2
+- [P1.0](../soc2/p10.md)
 ## Control questions
 Does the organization facilitate the implementation and operation of data privacy controls? 
 ## Control maturity

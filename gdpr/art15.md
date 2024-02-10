@@ -2,7 +2,7 @@
 ## Right of access by the data subject
 
 ## Article 15.1
- The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information:
+The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information:
 (a) the purposes of the processing;
 (b) the categories of personal data concerned;
 (c) the recipients or categories of recipient to whom the personal data have been or will be disclosed, in particular recipients in third countries or international organisations;
@@ -14,16 +14,16 @@
 ### Mapped SCF controls
 - [PRI-06 - Data Subject Access](../scf/pri-06-datasubjectaccess.md)
 ## Article 15.2
- Where personal data are transferred to a third country or to an international organisation, the data subject shall have the right to be informed of the appropriate safeguards pursuant to Article 46 relating to the transfer.
+Where personal data are transferred to a third country or to an international organisation, the data subject shall have the right to be informed of the appropriate safeguards pursuant to Article 46 relating to the transfer.
 ### Mapped SCF controls
 - [PRI-06 - Data Subject Access](../scf/pri-06-datasubjectaccess.md)
 - [PRI-07 - Information Sharing With Third Parties](../scf/pri-07-informationsharingwiththirdparties.md)
 ## Article 15.3
- The controller shall provide a copy of the personal data undergoing processing. For any further copies requested by the data subject, the controller may charge a reasonable fee based on administrative costs. Where the data subject makes the request by electronic means, and unless otherwise requested by the data subject, the information shall be provided in a commonly used electronic form.
+The controller shall provide a copy of the personal data undergoing processing. For any further copies requested by the data subject, the controller may charge a reasonable fee based on administrative costs. Where the data subject makes the request by electronic means, and unless otherwise requested by the data subject, the information shall be provided in a commonly used electronic form.
 ### Mapped SCF controls
 - [PRI-06 - Data Subject Access](../scf/pri-06-datasubjectaccess.md)
 ## Article 15.4
- The right to obtain a copy referred to in paragraph 3 shall not adversely affect the rights and freedoms of others.
+The right to obtain a copy referred to in paragraph 3 shall not adversely affect the rights and freedoms of others.
 <span class="expanded">Section 3
 <span class="bold"><span class="expanded">Rectification and erasure
 ### Mapped SCF controls

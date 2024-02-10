@@ -1,9 +1,6 @@
 # CPL-01 - Statutory, Regulatory & Contractual Compliance
 Mechanisms exist to facilitate the identification and implementation of relevant statutory, regulatory and contractual controls.
 ## Mapped framework controls
-### SOC 2
-- [CC2.2](../soc2/cc22.md)
-- [CC2.3](../soc2/cc23.md)
 ### GDPR
 - [Art 1.2](../gdpr/art1.md#Article-12)
 - [Art 17.3](../gdpr/art17.md#Article-173)
@@ -36,6 +33,9 @@ Mechanisms exist to facilitate the identification and implementation of relevant
 - [Art 43](../gdpr/art43.md)
 - [Art 50](../gdpr/art50.md)
 - [Art 6.1](../gdpr/art6.md#Article-61)
+### SOC 2
+- [CC2.2](../soc2/cc22.md)
+- [CC2.3](../soc2/cc23.md)
 ## Control questions
 Does the organization facilitate the identification and implementation of relevant statutory, regulatory and contractual controls?
 ## Control maturity

@@ -2,12 +2,12 @@
 Mechanisms exist to conduct cybersecurity & data privacy testing, training and monitoring activities
 
 ## Mapped framework controls
-### SOC 2
-- [P6.5](../soc2/p65.md)
-- [P8.0](../soc2/p80.md)
 ### GDPR
 - [Art 32.1](../gdpr/art32.md#Article-321)
 - [Art 32.2](../gdpr/art32.md#Article-322)
+### SOC 2
+- [P6.5](../soc2/p65.md)
+- [P8.0](../soc2/p80.md)
 ## Control questions
 Does the organization conduct cybersecurity & data privacy testing, training and monitoring activities
 

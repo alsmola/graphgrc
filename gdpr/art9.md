@@ -2,11 +2,11 @@
 ## Processing of special categories of personal data
 
 ## Article 9.1
- Processing of personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation shall be prohibited.
+Processing of personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation shall be prohibited.
 ### Mapped SCF controls
 - [PRI-05.4 - Usage Restrictions of Sensitive Personal Data](../scf/pri-054-usagerestrictionsofsensitivepersonaldata.md)
 ## Article 9.2
- Paragraph 1 shall not apply if one of the following applies:
+Paragraph 1 shall not apply if one of the following applies:
 (a) the data subject has given explicit consent to the processing of those personal data for one or more specified purposes, except where Union or Member State law provide that the prohibition referred to in paragraph 1 may not be lifted by the data subject;
 (b) processing is necessary for the purposes of carrying out the obligations and exercising specific rights of the controller or of the data subject in the field of employment and social security and social protection law in so far as it is authorised by Union or Member State law or a collective agreement pursuant to Member State law providing for appropriate safeguards for the fundamental rights and the interests of the data subject;
 (c) processing is necessary to protect the vital interests of the data subject or of another natural person where the data subject is physically or legally incapable of giving consent;
@@ -20,6 +20,6 @@
 ### Mapped SCF controls
 - [PRI-05.4 - Usage Restrictions of Sensitive Personal Data](../scf/pri-054-usagerestrictionsofsensitivepersonaldata.md)
 ## Article 9.3
- Personal data referred to in paragraph 1 may be processed for the purposes referred to in point (h)  of paragraph 2 when those data are processed by or under the responsibility of a professional subject to the obligation of professional secrecy under Union or Member State law or rules established by national competent bodies or by another person also subject to an obligation of secrecy under Union or Member State law or rules established by national competent bodies.
+Personal data referred to in paragraph 1 may be processed for the purposes referred to in point (h)  of paragraph 2 when those data are processed by or under the responsibility of a professional subject to the obligation of professional secrecy under Union or Member State law or rules established by national competent bodies or by another person also subject to an obligation of secrecy under Union or Member State law or rules established by national competent bodies.
 ## Article 9.4
- Member States may maintain or introduce further conditions, including limitations, with regard to the processing of genetic data, biometric data or data concerning health.
+Member States may maintain or introduce further conditions, including limitations, with regard to the processing of genetic data, biometric data or data concerning health.

@@ -1,6 +1,8 @@
 # PRI-07 - Information Sharing With Third Parties
 Mechanisms exist to disclose Personal Data (PD) to third-parties only for the purposes identified in the data privacy notice and with the implicit or explicit consent of the data subject. 
 ## Mapped framework controls
+### SOC 2
+- [P6.1](../soc2/p61.md)
 ### GDPR
 - [Art 15.2](../gdpr/art15.md#Article-152)
 - [Art 20.2](../gdpr/art20.md#Article-202)
@@ -21,8 +23,6 @@ Mechanisms exist to disclose Personal Data (PD) to third-parties only for the pu
 - [Art 49.6](../gdpr/art49.md#Article-496)
 - [Art 6.1](../gdpr/art6.md#Article-61)
 - [Art 6.4](../gdpr/art6.md#Article-64)
-### SOC 2
-- [P6.1](../soc2/p61.md)
 ## Control questions
 Does the organization disclose Personal Data (PD) to third-parties only for the purposes identified in the data privacy notice and with the implicit or explicit consent of the data subject? 
 ## Control maturity

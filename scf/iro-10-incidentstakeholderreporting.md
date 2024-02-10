@@ -4,11 +4,6 @@ Mechanisms exist to timely-report incidents to applicable:
  - Affected clients & third-parties; and
  - Regulatory authorities.
 ## Mapped framework controls
-### SOC 2
-- [CC2.3](../soc2/cc23.md)
-- [CC7.4](../soc2/cc74.md)
-- [P6.3](../soc2/p63.md)
-- [P6.7](../soc2/p67.md)
 ### GDPR
 - [Art 33.1](../gdpr/art33.md#Article-331)
 - [Art 33.2](../gdpr/art33.md#Article-332)
@@ -19,6 +14,11 @@ Mechanisms exist to timely-report incidents to applicable:
 - [Art 34.2](../gdpr/art34.md#Article-342)
 - [Art 34.3](../gdpr/art34.md#Article-343)
 - [Art 34.4](../gdpr/art34.md#Article-344)
+### SOC 2
+- [CC2.3](../soc2/cc23.md)
+- [CC7.4](../soc2/cc74.md)
+- [P6.3](../soc2/p63.md)
+- [P6.7](../soc2/p67.md)
 ## Control questions
 Does the organization timely-report incidents to applicable:
  - Internal stakeholders; 

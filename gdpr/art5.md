@@ -2,7 +2,7 @@
 ## Principles relating to processing of personal data
 
 ## Article 5.1
- Personal data shall be:
+Personal data shall be:
 (a) processed lawfully, fairly and in a transparent manner in relation to the data subject (‘lawfulness, fairness and transparency’);
 (b) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes shall, in accordance with Article 89(1), not be considered to be incompatible with the initial purposes (‘purpose limitation’);
 (c) adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (‘data minimisation’);
@@ -33,7 +33,7 @@
 - [PRI-13 - Data Management Board](../scf/pri-13-datamanagementboard.md)
 - [VPM-04.2 - Flaw Remediation with Personal Data (PD)](../scf/vpm-042-flawremediationwithpersonaldata(pd).md)
 ## Article 5.2
- The controller shall be responsible for, and be able to demonstrate compliance with, paragraph 1 (‘accountability’).
+The controller shall be responsible for, and be able to demonstrate compliance with, paragraph 1 (‘accountability’).
 ### Mapped SCF controls
 - [CPL-02 - Cybersecurity & Data Protection Controls Oversight](../scf/cpl-02-cybersecurity&dataprotectioncontrolsoversight.md)
 - [CPL-03 - Cybersecurity & Data Protection Assessments](../scf/cpl-03-cybersecurity&dataprotectionassessments.md)

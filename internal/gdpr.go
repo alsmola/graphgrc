@@ -76,22 +76,23 @@ func GetGDPRControls(url string, getFile bool) (GDPRFramework, error) {
 			regex := regexp.MustCompile(regexPattern)
 			articleMatches := regex.FindStringSubmatch(line)
 			if len(articleMatches) > 0 {
-				articleID, err := strconv.Atoi(articleMatches[1])
+				articleIDMatch, err := strconv.Atoi(articleMatches[1])
 				if err != nil {
 					log.Fatal("Bad GDPR article ID", articleMatches[1])
 				}
-				for len(gdprFramework) < articleID-1 {
+				articleID = articleIDMatch - 1
+				for len(gdprFramework) < articleID {
 					gdprFramework = append(gdprFramework, GDPRArticle{
-						ID:          fmt.Sprintf("Article. %s", len(gdprFramework)),
+						ID:          fmt.Sprintf("Article %d", len(gdprFramework)),
 						Subarticles: []GDPRSubarticle{},
 					})
 				}
 				article := GDPRArticle{
-					ID:          fmt.Sprintf("Article. %s", articleMatches[0]),
+					ID:          fmt.Sprintf("Article %d", articleID+1),
 					Subarticles: []GDPRSubarticle{},
 				}
 				gdprFramework = append(gdprFramework, article)
-				subArticleID = 0
+				subArticleID = -1
 			} else if articleID != -1 {
 				article := gdprFramework[articleID]
 				if article.Title == "" {
@@ -101,21 +102,21 @@ func GetGDPRControls(url string, getFile bool) (GDPRFramework, error) {
 					regex := regexp.MustCompile(regexPattern)
 					subArticleMatches := regex.FindStringSubmatch(line)
 					if len(subArticleMatches) > 0 {
-						subArticleID, err := strconv.Atoi(subArticleMatches[0])
+						subArticleIDMatch, err := strconv.Atoi(subArticleMatches[1])
 						if err != nil {
-							log.Fatal("Bad subarticle ID", subArticleMatches[0])
+							log.Fatal("Bad subarticle ID", subArticleMatches[1])
 						}
-						if len(article.Subarticles) != subArticleID-1 {
-							log.Fatal("Invalid subarticle ID", len(article.Subarticles), subArticleID)
+						subArticleID = subArticleIDMatch - 1
+						if len(article.Subarticles) != subArticleID {
+							// log.Println("Invalid subarticle ID", len(article.Subarticles), subArticleID)
+							subArticleID = len(article.Subarticles)
 						}
-						// subArticleID = GDPRSubarticleID(fmt.Sprintf("%s.%s", articleID, strings.ReplaceAll(subArticleNumber, ".", "")))
-						body := strings.ReplaceAll(line, fmt.Sprintf("%s. ", strconv.Itoa(subArticleID)), "")
+						body := strings.ReplaceAll(line, fmt.Sprintf("%s. ", strconv.Itoa(subArticleID+1)), "")
 						subarticle := GDPRSubarticle{
-							ID:   fmt.Sprintf("%s.%s", article.ID, subArticleMatches[0]),
+							ID:   fmt.Sprintf("%s.%s", article.ID, subArticleMatches[1]),
 							Body: body,
 						}
 						article.Subarticles = append(article.Subarticles, subarticle)
-
 					} else {
 						if subArticleID == -1 {
 							if article.Body == "" {
@@ -167,14 +168,10 @@ func GenerateGDPRMarkdown(gdprArticle GDPRArticle, scfControlMapping SCFControlM
 		H2(gdprArticle.Title).
 		PlainText(gdprArticle.Body)
 
-	gdprSubarticleIDs := []string{}
-	for gdprSubArticleID := range gdprArticle.Subarticles {
-		gdprSubarticleIDs = append(gdprSubarticleIDs, string(gdprSubArticleID))
-	}
-	for gdprSubArticleID, gdprSubArticle := range gdprSubarticleIDs {
-		scfSubArticle := strings.ReplaceAll(string(gdprSubArticleID), "Article", "Art")
-		doc.H2(string(gdprSubArticleID)).
-			PlainText(gdprSubArticle)
+	for _, gdprSubArticle := range gdprArticle.Subarticles {
+		scfSubArticle := strings.ReplaceAll(string(gdprSubArticle.ID), "Article", "Art")
+		doc.H2(gdprSubArticle.ID).
+			PlainText(gdprSubArticle.Body)
 		fcids := []string{}
 		for scfID, controlMapping := range scfControlMapping {
 			soc2FrameworkControlIDs := controlMapping["GDPR"]
@@ -203,34 +200,13 @@ func GenerateGDPRIndex(gdprFramework GDPRFramework) error {
 	doc := md.NewMarkdown(f).
 		H1("GDPR")
 	controlLinks := []string{}
-	// sortedIDs := []string{}
-	// for gdprArticleID, _ := range gdprFramework {
-	// 	sortedIDs = append(sortedIDs, gdprArticleID)
-	// }
-	// sortNumbers(sortedIDs)
 	for _, article := range gdprFramework {
-
-		controlLinks = append(controlLinks, fmt.Sprintf("[%s](%s.md)", article.ID, safeFileName(article.ID)))
+		if article.Title != "" {
+			link := strings.ReplaceAll(article.ID, "Article", "Art")
+			controlLinks = append(controlLinks, fmt.Sprintf("[%s - %s](%s.md)", article.ID, article.Title, safeFileName(link)))
+		}
 	}
 	doc.BulletList(controlLinks...)
 	doc.Build()
 	return nil
 }
-
-// func sortNumbers(data []string) ([]string, error) {
-// 	var lastErr error
-// 	sort.Slice(data, func(i, j int) bool {
-// 		a, err := strconv.ParseInt(data[i], 10, 64)
-// 		if err != nil {
-// 			lastErr = err
-// 			return false
-// 		}
-// 		b, err := strconv.ParseInt(data[j], 10, 64)
-// 		if err != nil {
-// 			lastErr = err
-// 			return false
-// 		}
-// 		return a < b
-// 	})
-// 	return data, lastErr
-// }
