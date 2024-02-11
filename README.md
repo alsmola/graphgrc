@@ -13,7 +13,7 @@ Applicable SCF controls:
 
 # To customize
 
-In [scf.go](scf.go), specify the applicable frameworks in the `SupportedFrameworks` map, e.g.:
+In [scf.go](internal/scf.go), specify the applicable frameworks in the `SupportedFrameworks` map, e.g.:
 
 ```
 var SupportedFrameworks = map[Framework]ControlHeader{
