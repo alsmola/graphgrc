@@ -1,6 +1,11 @@
 # HRS-03.1 - User Awareness
 Mechanisms exist to communicate with users about their roles and responsibilities to maintain a safe and secure working environment.
 ## Mapped framework controls
+### ISO 27001
+- [7.3(a)](../iso27001/73(a).md)
+- [7.3(b)](../iso27001/73(b).md)
+- [7.3(c)](../iso27001/73(c).md)
+- [7.3](../iso27001/73.md)
 ### SOC 2
 - [CC1.4](../soc2/cc14.md)
 ## Control questions

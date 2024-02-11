@@ -58,7 +58,6 @@ func GetGDPRControls(url string, getFile bool) (GDPRFramework, error) {
 	// if err := scanner.Err(); err != nil {
 	// 	log.Fatal(err)
 	// }
-	// gdpfFramework := GDPRFramework{}
 	if getFile {
 		resp, err := http.Get(url)
 		if err != nil {
@@ -108,7 +107,6 @@ func GetGDPRControls(url string, getFile bool) (GDPRFramework, error) {
 						}
 						subArticleID = subArticleIDMatch - 1
 						if len(article.Subarticles) != subArticleID {
-							// log.Println("Invalid subarticle ID", len(article.Subarticles), subArticleID)
 							subArticleID = len(article.Subarticles)
 						}
 						body := strings.ReplaceAll(line, fmt.Sprintf("%s. ", strconv.Itoa(subArticleID+1)), "")

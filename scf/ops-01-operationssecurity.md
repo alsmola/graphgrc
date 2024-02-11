@@ -4,6 +4,8 @@ Mechanisms exist to facilitate the implementation of operational security contro
 ### GDPR
 - [Art 32.1](../gdpr/art32.md#Article-321)
 - [Art 32.2](../gdpr/art32.md#Article-322)
+### ISO 27001
+- [8.1](../iso27001/81.md)
 ### SOC 2
 - [CC2.2](../soc2/cc22.md)
 ## Control questions

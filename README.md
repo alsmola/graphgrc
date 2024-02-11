@@ -1,13 +1,16 @@
 # Compliance Mapper
 
-This project intends to be a demonstration of how to use Secure Controls Framework controls to map various compliance frameworks to a security program.
-
-# To run
-
-go run main.go
+Use [Secure Controls Framework (SCF)](https://securecontrolsframework.com/) to connect and understand all of the applicable framework controls for your security program.
 
 # Documentation
 
 - [SCF](scf/index.md)
 - [GDPR](gdpr/index.md)
 - [SOC 2](soc2/index.md)
+
+
+# To customize
+
+In [main.go], specify the applicable frameworks from the SCF.
+
+go run main.go

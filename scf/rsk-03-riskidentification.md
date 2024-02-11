@@ -1,6 +1,10 @@
 # RSK-03 - Risk Identification
 Mechanisms exist to identify and document risks, both internal and external. 
 ## Mapped framework controls
+### ISO 27001
+- [6.1.2(c)(1)](../iso27001/612(c)(1).md)
+- [6.1.2(c)(2)](../iso27001/612(c)(2).md)
+- [6.1.2(c)](../iso27001/612(c).md)
 ### SOC 2
 - [A1.2](../soc2/a12.md)
 - [CC3.2](../soc2/cc32.md)

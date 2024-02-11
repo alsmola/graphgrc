@@ -3,6 +3,9 @@ Mechanisms exist to provide a cybersecurity & data protection controls oversight
 ## Mapped framework controls
 ### GDPR
 - [Art 5.2](../gdpr/art5.md#Article-52)
+### ISO 27001
+- [10.1](../iso27001/101.md)
+- [8.1](../iso27001/81.md)
 ### SOC 2
 - [CC1.1](../soc2/cc11.md)
 - [CC2.2](../soc2/cc22.md)

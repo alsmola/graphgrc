@@ -33,6 +33,12 @@ Mechanisms exist to facilitate the identification and implementation of relevant
 - [Art 43](../gdpr/art43.md)
 - [Art 50](../gdpr/art50.md)
 - [Art 6.1](../gdpr/art6.md#Article-61)
+### ISO 27001
+- [4.1](../iso27001/41.md)
+- [9.1](../iso27001/91.md)
+- [9.2.1](../iso27001/921.md)
+- [9.2.2](../iso27001/922.md)
+- [9.2](../iso27001/92.md)
 ### SOC 2
 - [CC2.2](../soc2/cc22.md)
 - [CC2.3](../soc2/cc23.md)

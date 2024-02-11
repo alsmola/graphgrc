@@ -1,6 +1,11 @@
 # HRS-04.2 - Formal Indoctrination
 Mechanisms exist to verify that individuals accessing a system processing, storing, or transmitting sensitive information are formally indoctrinated for all the relevant types of information to which they have access on the system.
 ## Mapped framework controls
+### ISO 27001
+- [7.3(a)](../iso27001/73(a).md)
+- [7.3(b)](../iso27001/73(b).md)
+- [7.3(c)](../iso27001/73(c).md)
+- [7.3](../iso27001/73.md)
 ### SOC 2
 - [CC1.4](../soc2/cc14.md)
 ## Control questions

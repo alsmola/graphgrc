@@ -5,6 +5,12 @@ Mechanisms exist to facilitate the implementation of security workforce developm
 - [Art 32.1](../gdpr/art32.md#Article-321)
 - [Art 32.2](../gdpr/art32.md#Article-322)
 - [Art 32.4](../gdpr/art32.md#Article-324)
+### ISO 27001
+- [7.4(a)](../iso27001/74(a).md)
+- [7.4(b)](../iso27001/74(b).md)
+- [7.4(c)](../iso27001/74(c).md)
+- [7.4(d)](../iso27001/74(d).md)
+- [7.4](../iso27001/74.md)
 ### SOC 2
 - [CC1.4](../soc2/cc14.md)
 ## Control questions

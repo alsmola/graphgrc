@@ -1,6 +1,12 @@
 # HRS-03.2 - Competency Requirements for Security-Related Positions
 Mechanisms exist to ensure that all security-related positions are staffed by qualified individuals who have the necessary skill set. 
 ## Mapped framework controls
+### ISO 27001
+- [7.2(a)](../iso27001/72(a).md)
+- [7.2(b)](../iso27001/72(b).md)
+- [7.2(c)](../iso27001/72(c).md)
+- [7.2(d)](../iso27001/72(d).md)
+- [7.2](../iso27001/72.md)
 ### SOC 2
 - [CC1.2](../soc2/cc12.md)
 - [CC1.3](../soc2/cc13.md)

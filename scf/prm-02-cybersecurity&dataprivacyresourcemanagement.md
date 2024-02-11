@@ -1,6 +1,9 @@
 # PRM-02 - Cybersecurity & Data Privacy Resource Management
 Mechanisms exist to address all capital planning and investment requests, including the resources needed to implement the cybersecurity & data privacy programs and document all exceptions to this requirement. 
 ## Mapped framework controls
+### ISO 27001
+- [5.1(c)](../iso27001/51(c).md)
+- [7.1](../iso27001/71.md)
 ### SOC 2
 - [CC1.4](../soc2/cc14.md)
 ## Control questions

@@ -59,9 +59,9 @@ var SCFColumnMapping = map[string]ControlHeader{
 }
 
 var SupportedFrameworks = map[Framework]ControlHeader{
-	"SOC 2": "AICPA TSC 2017 (Controls)",
-	"GDPR":  "EMEA EU GDPR",
-	// "ISO 27001":   "ISO 27001 v2022",
+	"SOC 2":     "AICPA TSC 2017 (Controls)",
+	"GDPR":      "EMEA EU GDPR",
+	"ISO 27001": "ISO 27001 v2022",
 	// "ISO 27002":   "ISO 27002 v2022",
 	// "ISO 27701":   "ISO 27701 v2019",
 	// "NIST 800-53": "NIST 800-53 rev5 (moderate)",
