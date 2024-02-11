@@ -127,7 +127,13 @@ func GenerateSCFMarkdown(scfControl Control, scfControlID SCFControlID, controlM
 		PlainText(string(scfControl[SCFColumnMapping[Description]])).
 		H2("Mapped framework controls")
 
-	for framework, frameworkControlIDs := range controlMapping {
+	orderedFrameworks := []string{}
+	for framework, _ := range controlMapping {
+		orderedFrameworks = append(orderedFrameworks, string(framework))
+	}
+	slices.Sort(orderedFrameworks)
+	for _, framework := range orderedFrameworks {
+		frameworkControlIDs := controlMapping[Framework(framework)]
 		fcids := []string{}
 		for _, fcid := range frameworkControlIDs {
 			link := fmt.Sprintf("[%s](../%s/%s.md)", string(fcid), safeFileName(string(framework)), safeFileName(string(fcid)))

@@ -3,9 +3,6 @@ Mechanisms exist to present authorizations to process Personal Data (PD) in conj
 - The original circumstances under which an individual gave consent have changed; or
 - A significant amount of time has passed since an individual gave consent.
 ## Mapped framework controls
-### SOC 2
-- [P2.1](../soc2/p21.md)
-- [P3.2](../soc2/p32.md)
 ### GDPR
 - [Art 12.2](../gdpr/art12.md#Article-122)
 - [Art 12.3](../gdpr/art12.md#Article-123)
@@ -19,6 +16,9 @@ Mechanisms exist to present authorizations to process Personal Data (PD) in conj
 - [Art 7.4](../gdpr/art7.md#Article-74)
 - [Art 8.1](../gdpr/art8.md#Article-81)
 - [Art 8.2](../gdpr/art8.md#Article-82)
+### SOC 2
+- [P2.1](../soc2/p21.md)
+- [P3.2](../soc2/p32.md)
 ## Control questions
 Does the organization present authorizations to process Personal Data (PD) in conjunction with the data action, when:
 - The original circumstances under which an individual gave consent have changed; or

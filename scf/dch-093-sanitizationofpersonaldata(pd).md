@@ -1,10 +1,10 @@
 # DCH-09.3 - Sanitization of Personal Data (PD)
 Mechanisms exist to facilitate the sanitization of Personal Data (PD).
 ## Mapped framework controls
-### SOC 2
-- [P4.3](../soc2/p43.md)
 ### GDPR
 - [Art 5.1](../gdpr/art5.md#Article-51)
+### SOC 2
+- [P4.3](../soc2/p43.md)
 ## Control questions
 Does the organization facilitate the sanitization of Personal Data (PD)?
 ## Control maturity

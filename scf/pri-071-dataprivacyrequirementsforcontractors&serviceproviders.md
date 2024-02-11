@@ -1,8 +1,6 @@
 # PRI-07.1 - Data Privacy Requirements for Contractors & Service Providers
 Mechanisms exist to include data privacy requirements in contracts and other acquisition-related documents that establish data privacy roles and responsibilities for contractors and service providers. 
 ## Mapped framework controls
-### SOC 2
-- [P6.4](../soc2/p64.md)
 ### GDPR
 - [Art 26.1](../gdpr/art26.md#Article-261)
 - [Art 26.2](../gdpr/art26.md#Article-262)
@@ -18,6 +16,8 @@ Mechanisms exist to include data privacy requirements in contracts and other acq
 - [Art 29](../gdpr/art29.md)
 - [Art 6.1](../gdpr/art6.md#Article-61)
 - [Art 6.4](../gdpr/art6.md#Article-64)
+### SOC 2
+- [P6.4](../soc2/p64.md)
 ## Control questions
 Does the organization include data privacy requirements in contracts and other acquisition-related documents that establish data privacy roles and responsibilities for contractors and service providers? 
 ## Control maturity

@@ -1,12 +1,12 @@
 # HRS-04 - Personnel Screening
 Mechanisms exist to manage personnel security risk by screening individuals prior to authorizing access.
 ## Mapped framework controls
-### SOC 2
-- [CC1.4](../soc2/cc14.md)
 ### GDPR
 - [Art 32.1](../gdpr/art32.md#Article-321)
 - [Art 32.2](../gdpr/art32.md#Article-322)
 - [Art 32.4](../gdpr/art32.md#Article-324)
+### SOC 2
+- [CC1.4](../soc2/cc14.md)
 ## Control questions
 Does the organization manage personnel security risk by screening individuals prior to authorizing access?
 ## Control maturity

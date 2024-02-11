@@ -1,12 +1,12 @@
 # SAT-01 - Cybersecurity & Data Privacy-Minded Workforce
 Mechanisms exist to facilitate the implementation of security workforce development and awareness controls. 
 ## Mapped framework controls
-### SOC 2
-- [CC1.4](../soc2/cc14.md)
 ### GDPR
 - [Art 32.1](../gdpr/art32.md#Article-321)
 - [Art 32.2](../gdpr/art32.md#Article-322)
 - [Art 32.4](../gdpr/art32.md#Article-324)
+### SOC 2
+- [CC1.4](../soc2/cc14.md)
 ## Control questions
 Does the organization facilitate the implementation of security workforce development and awareness controls? 
 ## Control maturity

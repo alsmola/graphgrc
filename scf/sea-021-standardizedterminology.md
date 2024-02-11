@@ -1,8 +1,6 @@
 # SEA-02.1 - Standardized Terminology
 Mechanisms exist to standardize technology and process terminology to reduce confusion amongst groups and departments. 
 ## Mapped framework controls
-### SOC 2
-- [CC2.2](../soc2/cc22.md)
 ### GDPR
 - [Art 4.10](../gdpr/art4.md#Article-410)
 - [Art 4.11](../gdpr/art4.md#Article-411)
@@ -30,6 +28,8 @@ Mechanisms exist to standardize technology and process terminology to reduce con
 - [Art 4.7](../gdpr/art4.md#Article-47)
 - [Art 4.8](../gdpr/art4.md#Article-48)
 - [Art 4.9](../gdpr/art4.md#Article-49)
+### SOC 2
+- [CC2.2](../soc2/cc22.md)
 ## Control questions
 Does the organization standardize technology and process terminology to reduce confusion amongst groups and departments? 
 ## Control maturity

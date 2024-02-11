@@ -1,11 +1,6 @@
 # SEA-01 - Secure Engineering Principles
 Mechanisms exist to facilitate the implementation of industry-recognized cybersecurity & data privacy practices in the specification, design, development, implementation and modification of systems and services.
 ## Mapped framework controls
-### SOC 2
-- [CC2.2](../soc2/cc22.md)
-- [CC3.2](../soc2/cc32.md)
-- [CC5.1](../soc2/cc51.md)
-- [CC5.2](../soc2/cc52.md)
 ### GDPR
 - [Art 24.1](../gdpr/art24.md#Article-241)
 - [Art 24.2](../gdpr/art24.md#Article-242)
@@ -17,6 +12,11 @@ Mechanisms exist to facilitate the implementation of industry-recognized cyberse
 - [Art 32.2](../gdpr/art32.md#Article-322)
 - [Art 40.2](../gdpr/art40.md#Article-402)
 - [Art 5.2](../gdpr/art5.md#Article-52)
+### SOC 2
+- [CC2.2](../soc2/cc22.md)
+- [CC3.2](../soc2/cc32.md)
+- [CC5.1](../soc2/cc51.md)
+- [CC5.2](../soc2/cc52.md)
 ## Control questions
 Does the organization facilitate the implementation of industry-recognized cybersecurity & data privacy practices in the specification, design, development, implementation and modification of systems and services?
 ## Control maturity

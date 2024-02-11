@@ -1,11 +1,11 @@
 # OPS-01 - Operations Security
 Mechanisms exist to facilitate the implementation of operational security controls.
 ## Mapped framework controls
-### SOC 2
-- [CC2.2](../soc2/cc22.md)
 ### GDPR
 - [Art 32.1](../gdpr/art32.md#Article-321)
 - [Art 32.2](../gdpr/art32.md#Article-322)
+### SOC 2
+- [CC2.2](../soc2/cc22.md)
 ## Control questions
 Does the organization facilitate the implementation of operational security controls?
 ## Control maturity

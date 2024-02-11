@@ -1,11 +1,11 @@
 # CPL-03 - Cybersecurity & Data Protection Assessments
 Mechanisms exist to ensure managers regularly review the processes and documented procedures within their area of responsibility to adhere to appropriate cybersecurity & data protection policies, standards and other applicable requirements.
 ## Mapped framework controls
-### SOC 2
-- [CC4.1](../soc2/cc41.md)
 ### GDPR
 - [Art 32.3](../gdpr/art32.md#Article-323)
 - [Art 5.2](../gdpr/art5.md#Article-52)
+### SOC 2
+- [CC4.1](../soc2/cc41.md)
 ## Control questions
 Does the organization ensure managers regularly review the processes and documented procedures within their area of responsibility to adhere to appropriate cybersecurity & data protection policies, standards and other applicable requirements?
 ## Control maturity

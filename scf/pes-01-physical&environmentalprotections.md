@@ -1,12 +1,12 @@
 # PES-01 - Physical & Environmental Protections
 Mechanisms exist to facilitate the operation of physical and environmental protection controls. 
 ## Mapped framework controls
-### SOC 2
-- [A1.2](../soc2/a12.md)
-- [CC6.4](../soc2/cc64.md)
 ### GDPR
 - [Art 32.1](../gdpr/art32.md#Article-321)
 - [Art 32.2](../gdpr/art32.md#Article-322)
+### SOC 2
+- [A1.2](../soc2/a12.md)
+- [CC6.4](../soc2/cc64.md)
 ## Control questions
 Does the organization facilitate the operation of physical and environmental protection controls? 
 ## Control maturity

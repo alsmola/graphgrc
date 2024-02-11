@@ -1,12 +1,12 @@
 # NET-01 - Network Security Controls (NSC)
 Mechanisms exist to develop, govern & update procedures to facilitate the implementation of Network Security Controls (NSC).
 ## Mapped framework controls
-### SOC 2
-- [CC6.1](../soc2/cc61.md)
-- [CC6.6](../soc2/cc66.md)
 ### GDPR
 - [Art 32.1](../gdpr/art32.md#Article-321)
 - [Art 32.2](../gdpr/art32.md#Article-322)
+### SOC 2
+- [CC6.1](../soc2/cc61.md)
+- [CC6.6](../soc2/cc66.md)
 ## Control questions
 Does the organization develop, govern & update procedures to facilitate the implementation of Network Security Controls (NSC)?
 ## Control maturity
