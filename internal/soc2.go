@@ -12,6 +12,10 @@ import (
 	md "github.com/go-spectest/markdown"
 )
 
+type ParsedDescription struct {
+	Header string
+	Body   string
+}
 type Requirement struct {
 	ID          string `json:"Id"`
 	Name        string `json:"Name"`
@@ -80,11 +84,11 @@ func GenerateSOC2Markdown(requirement Requirement, scfControlMapping SCFControlM
 		H1(requirement.Name)
 
 	descriptions := parseSOC2Description(requirement.Description)
-	for heading, content := range descriptions {
-		if heading == "" {
-			doc.PlainText(content)
+	for _, d := range descriptions {
+		if d.Header == "" {
+			doc.PlainText(d.Body)
 		} else {
-			doc.H2(heading).PlainText(content)
+			doc.H2(d.Header).PlainText(d.Body)
 		}
 
 	}
@@ -105,18 +109,29 @@ func GenerateSOC2Markdown(requirement Requirement, scfControlMapping SCFControlM
 	return nil
 }
 
-func parseSOC2Description(description string) map[string]string {
-	descriptions := map[string]string{}
+func parseSOC2Description(description string) []ParsedDescription {
+	descriptions := []ParsedDescription{}
 	sentences := strings.Split(description, ". ")
-	lastHeader := ""
+	lastDescription := -1
 	for _, sentence := range sentences {
 		if strings.Contains(sentence, " - ") {
 			parts := strings.Split(sentence, " - ")
-			descriptions[parts[0]] = parts[1]
-			lastHeader = parts[0]
-
+			descriptions = append(descriptions, ParsedDescription{
+				Header: parts[0],
+				Body:   parts[1],
+			})
+			lastDescription = lastDescription + 1
 		} else {
-			descriptions[lastHeader] = fmt.Sprintf("%s. %s.", descriptions[lastHeader], sentence)
+			if lastDescription == -1 {
+				descriptions = append(descriptions, ParsedDescription{
+					Header: "",
+					Body:   sentence,
+				})
+				lastDescription = lastDescription + 1
+			} else {
+				descriptions[lastDescription].Body = fmt.Sprintf("%s. %s.", descriptions[lastDescription].Body, sentence)
+			}
+
 		}
 	}
 	return descriptions
