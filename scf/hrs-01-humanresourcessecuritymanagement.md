@@ -6,11 +6,8 @@ Mechanisms exist to facilitate the implementation of personnel security controls
 - [Art 32.2](../gdpr/art32.md#Article-322)
 - [Art 32.4](../gdpr/art32.md#Article-324)
 ### ISO 27001
-- [7.2(d)](../iso27001/72(d).md)
-- [7.3(a)](../iso27001/73(a).md)
-- [7.3(b)](../iso27001/73(b).md)
-- [7.3(c)](../iso27001/73(c).md)
-- [7.3](../iso27001/73.md)
+- [A.7.2](../iso27001/a-7.md#a72)
+- [A.7.3](../iso27001/a-7.md#a73)
 ### SOC 2
 - [CC1.1](../soc2/cc11.md)
 - [CC1.4](../soc2/cc14.md)

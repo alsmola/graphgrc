@@ -2,10 +2,7 @@
 Mechanisms exist to document and validate the scope of cybersecurity & data privacy controls that are determined to meet statutory, regulatory and/or contractual compliance obligations.
 ## Mapped framework controls
 ### ISO 27001
-- [4.3(a)](../iso27001/43(a).md)
-- [4.3(b)](../iso27001/43(b).md)
-- [4.3(c)](../iso27001/43(c).md)
-- [4.3](../iso27001/43.md)
+- [A.4.3](../iso27001/a-4.md#a43)
 ## Control questions
 Does the organization document and validate the scope of cybersecurity & data privacy controls that are determined to meet statutory, regulatory and/or contractual compliance obligations?
 ## Control maturity

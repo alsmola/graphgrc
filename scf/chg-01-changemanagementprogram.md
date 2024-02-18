@@ -5,7 +5,7 @@ Mechanisms exist to facilitate the implementation of a change management program
 - [Art 32.1](../gdpr/art32.md#Article-321)
 - [Art 32.2](../gdpr/art32.md#Article-322)
 ### ISO 27001
-- [6.3](../iso27001/63.md)
+- [A.6.3](../iso27001/a-6.md#a63)
 ### SOC 2
 - [CC3.4](../soc2/cc34.md)
 - [CC8.1](../soc2/cc81.md)

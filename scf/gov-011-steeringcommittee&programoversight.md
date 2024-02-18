@@ -2,25 +2,13 @@
 Mechanisms exist to coordinate cybersecurity, data protection and business alignment through a steering committee or advisory board, comprised of key cybersecurity, data privacy and business executives, which meets formally and on a regular basis.
 ## Mapped framework controls
 ### ISO 27001
-- [10.1](../iso27001/101.md)
-- [4.4](../iso27001/44.md)
-- [5.3(a)](../iso27001/53(a).md)
-- [5.3(b)](../iso27001/53(b).md)
-- [5.3](../iso27001/53.md)
-- [9.3.1](../iso27001/931.md)
-- [9.3.2(a)](../iso27001/932(a).md)
-- [9.3.2(b)](../iso27001/932(b).md)
-- [9.3.2(c)](../iso27001/932(c).md)
-- [9.3.2(d)(1)](../iso27001/932(d)(1).md)
-- [9.3.2(d)(2)](../iso27001/932(d)(2).md)
-- [9.3.2(d)(3)](../iso27001/932(d)(3).md)
-- [9.3.2(d)(4)](../iso27001/932(d)(4).md)
-- [9.3.2(d)](../iso27001/932(d).md)
-- [9.3.2(e)](../iso27001/932(e).md)
-- [9.3.2(f)](../iso27001/932(f).md)
-- [9.3.2(g)](../iso27001/932(g).md)
-- [9.3.3](../iso27001/933.md)
-- [9.3](../iso27001/93.md)
+- [A.10.1](../iso27001/a-10.md#a101)
+- [A.4.4](../iso27001/a-4.md#a44)
+- [A.5.3](../iso27001/a-5.md#a53)
+- [A.9.3](../iso27001/a-9.md#a93)
+- [A9.3.1](../iso27001/a-3.md#a31)
+- [A9.3.2](../iso27001/a-3.md#a32)
+- [A9.3.3](../iso27001/a-3.md#a33)
 ## Control questions
 Does the organization coordinate cybersecurity, data protection and business alignment through a steering committee or advisory board, comprised of key cybersecurity, data privacy and business executives, which meets formally and on a regular basis?
 ## Control maturity

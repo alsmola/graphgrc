@@ -19,7 +19,7 @@ func main() {
 		internal.GenerateSCFMarkdown(scfControls[scfControlID], scfControlID, controlMapping)
 	}
 	internal.GenerateSCFIndex(scfControlMappings, scfControls)
-	soc2Link := "https://raw.githubusercontent.com/prowler-cloud/prowler/c3ecd2b3e5858b54098e179a568bc83bdbe2b82c/prowler/compliance/aws/soc2_aws.json"
+	soc2Link := "https://raw.githubusercontent.com/prowler-cloud/prowler/main/prowler/compliance/aws/soc2_aws.json"
 	soc2Framework, err := internal.GetSOC2Controls(soc2Link, getFile)
 	if err != nil {
 		log.Fatal(err)
@@ -46,12 +46,13 @@ func main() {
 	}
 	internal.GenerateGDPRIndex(gdprFramework)
 
-	isoFramework, err := internal.GetISOControls(true)
+	isoLink := "https://raw.githubusercontent.com/JupiterOne/security-policy-templates/main/templates/standards/iso-27002-2022.json"
+	isoFramework, err := internal.GetISOControls(isoLink, true)
 	if err != nil {
 		log.Fatal(err)
 	}
-	for _, annex := range isoFramework {
-		err = internal.GenerateISOMarkdown(annex, scfControlMappings)
+	for _, domain := range isoFramework.Domains {
+		err = internal.GenerateISOMarkdown(domain, scfControlMappings)
 	}
 	if err != nil {
 		log.Fatal(err)

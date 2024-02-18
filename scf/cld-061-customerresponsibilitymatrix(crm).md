@@ -2,7 +2,7 @@
 Mechanisms exist to formally document a Customer Responsibility Matrix (CRM), delineating assigned responsibilities for controls between the Cloud Service Provider (CSP) and its customers.
 ## Mapped framework controls
 ### ISO 27001
-- [4.3(c)](../iso27001/43(c).md)
+- [A.4.3](../iso27001/a-4.md#a43)
 ## Control questions
 Does the organization formally document a Customer Responsibility Matrix (CRM), delineating assigned responsibilities for controls between the Cloud Service Provider (CSP) and its customers?
 ## Control maturity

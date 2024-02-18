@@ -2,15 +2,9 @@
 Mechanisms exist to implement an internal audit function that is capable of providing senior organization management with insights into the appropriateness of the organization's technology and information governance processes.
 ## Mapped framework controls
 ### ISO 27001
-- [9.2.1(a)(1)](../iso27001/921(a)(1).md)
-- [9.2.1(a)(2)](../iso27001/921(a)(2).md)
-- [9.2.1(b)](../iso27001/921(b).md)
-- [9.2.1](../iso27001/921.md)
-- [9.2.2(a)](../iso27001/922(a).md)
-- [9.2.2(b)](../iso27001/922(b).md)
-- [9.2.2(c)](../iso27001/922(c).md)
-- [9.2.2](../iso27001/922.md)
-- [9.2](../iso27001/92.md)
+- [A.9.2](../iso27001/a-9.md#a92)
+- [A9.2.1](../iso27001/a-2.md#a21)
+- [A9.2.2](../iso27001/a-2.md#a22)
 ## Control questions
 Does the organization implement an internal audit function that is capable of providing senior organization management with insights into the appropriateness of the organization's technology and information governance processes?
 ## Control maturity

@@ -4,7 +4,7 @@ Mechanisms exist to categorize systems and data in accordance with applicable lo
  - Ensure the security categorization decision is reviewed and approved by the asset owner.
 ## Mapped framework controls
 ### ISO 27001
-- [6.1.2(d)(3)](../iso27001/612(d)(3).md)
+- [A6.1.2](../iso27001/a-1.md#a12)
 ### SOC 2
 - [CC3.2](../soc2/cc32.md)
 ## Control questions

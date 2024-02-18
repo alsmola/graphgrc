@@ -2,10 +2,7 @@
 Mechanisms exist to manage business risks associated with permitting mobile device access to organizational resources.
 ## Mapped framework controls
 ### ISO 27001
-- [7.3(a)](../iso27001/73(a).md)
-- [7.3(b)](../iso27001/73(b).md)
-- [7.3(c)](../iso27001/73(c).md)
-- [7.3](../iso27001/73.md)
+- [A.7.3](../iso27001/a-7.md#a73)
 ## Control questions
 Does the organization manage business risks associated with permitting mobile device access to organizational resources?
 ## Control maturity

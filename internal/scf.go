@@ -96,7 +96,6 @@ func ReturnSCFControls(url string, getFile bool) (SCFControls, error) {
 	}()
 	rows, err := f.GetRows("SCF 2023.4")
 	if err != nil {
-		fmt.Println(err)
 		return nil, err
 	}
 	headers := []ControlHeader{}
@@ -155,7 +154,28 @@ func GenerateSCFMarkdown(scfControl Control, scfControlID SCFControlID, controlM
 					link = fmt.Sprintf("[%s](../%s/%s.md#%s)", string(fcid), safeFileName(string(framework)), safeFileName(articleParts[0]), url.QueryEscape(subArticle))
 				}
 			}
-			fcids = append(fcids, link)
+			if framework == "ISO 27001" {
+				annex := FCIDToAnnex(string(fcid))
+				annexParts := strings.Split(annex, ".")
+				if len(annexParts) >= 2 {
+					annexLink := fmt.Sprintf("a-%s", annexParts[1])
+					annexTarget := safeFileName(fmt.Sprintf("A.%s.%s", annexParts[1], annexParts[2]))
+					link = fmt.Sprintf("[%s](../iso27001/%s.md#%s)", annex, annexLink, annexTarget)
+				} else {
+					log.Fatal("Bad annex", annex)
+				}
+
+			}
+			found := false
+			for _, fcid := range fcids {
+				if fcid == link {
+					found = true
+				}
+			}
+			if !found {
+				fcids = append(fcids, link)
+			}
+
 		}
 		if len(fcids) > 0 {
 			slices.Sort(fcids)

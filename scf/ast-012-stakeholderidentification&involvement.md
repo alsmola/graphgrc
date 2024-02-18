@@ -2,8 +2,7 @@
 Mechanisms exist to identify and involve pertinent stakeholders of critical systems, applications and services to support the ongoing secure management of those assets.
 ## Mapped framework controls
 ### ISO 27001
-- [4.2(a)](../iso27001/42(a).md)
-- [4.2](../iso27001/42.md)
+- [A.4.2](../iso27001/a-4.md#a42)
 ## Control questions
 Does the organization identify and involve pertinent stakeholders of critical systems, applications and services to support the ongoing secure management of those assets?
 ## Control maturity

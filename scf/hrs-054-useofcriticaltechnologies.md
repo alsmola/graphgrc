@@ -2,10 +2,7 @@
 Mechanisms exist to govern usage policies for critical technologies. 
 ## Mapped framework controls
 ### ISO 27001
-- [7.3(a)](../iso27001/73(a).md)
-- [7.3(b)](../iso27001/73(b).md)
-- [7.3(c)](../iso27001/73(c).md)
-- [7.3](../iso27001/73.md)
+- [A.7.3](../iso27001/a-7.md#a73)
 ## Control questions
 Does the organization govern usage policies for critical technologies? 
 ## Control maturity

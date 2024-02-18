@@ -5,14 +5,8 @@ Mechanisms exist to ensure managers regularly review the processes and documente
 - [Art 32.3](../gdpr/art32.md#Article-323)
 - [Art 5.2](../gdpr/art5.md#Article-52)
 ### ISO 27001
-- [8.1](../iso27001/81.md)
-- [9.1(a)](../iso27001/91(a).md)
-- [9.1(b)](../iso27001/91(b).md)
-- [9.1(c)](../iso27001/91(c).md)
-- [9.1(d)](../iso27001/91(d).md)
-- [9.1(e)](../iso27001/91(e).md)
-- [9.1(f)](../iso27001/91(f).md)
-- [9.1](../iso27001/91.md)
+- [A.8.1](../iso27001/a-8.md#a81)
+- [A.9.1](../iso27001/a-9.md#a91)
 ### SOC 2
 - [CC4.1](../soc2/cc41.md)
 ## Control questions

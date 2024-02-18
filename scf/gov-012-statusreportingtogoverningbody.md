@@ -2,32 +2,12 @@
 Mechanisms exist to provide governance oversight reporting and recommendations to those entrusted to make executive decisions about matters considered material to the organization’s cybersecurity & data protection program.
 ## Mapped framework controls
 ### ISO 27001
-- [7.4(a)](../iso27001/74(a).md)
-- [7.4(b)](../iso27001/74(b).md)
-- [7.4(c)](../iso27001/74(c).md)
-- [7.4(d)](../iso27001/74(d).md)
-- [7.4](../iso27001/74.md)
-- [9.1(a)](../iso27001/91(a).md)
-- [9.1(b)](../iso27001/91(b).md)
-- [9.1(c)](../iso27001/91(c).md)
-- [9.1(d)](../iso27001/91(d).md)
-- [9.1(e)](../iso27001/91(e).md)
-- [9.1(f)](../iso27001/91(f).md)
-- [9.1](../iso27001/91.md)
-- [9.3.1](../iso27001/931.md)
-- [9.3.2(a)](../iso27001/932(a).md)
-- [9.3.2(b)](../iso27001/932(b).md)
-- [9.3.2(c)](../iso27001/932(c).md)
-- [9.3.2(d)(1)](../iso27001/932(d)(1).md)
-- [9.3.2(d)(2)](../iso27001/932(d)(2).md)
-- [9.3.2(d)(3)](../iso27001/932(d)(3).md)
-- [9.3.2(d)(4)](../iso27001/932(d)(4).md)
-- [9.3.2(d)](../iso27001/932(d).md)
-- [9.3.2(e)](../iso27001/932(e).md)
-- [9.3.2(f)](../iso27001/932(f).md)
-- [9.3.2(g)](../iso27001/932(g).md)
-- [9.3.3](../iso27001/933.md)
-- [9.3](../iso27001/93.md)
+- [A.7.4](../iso27001/a-7.md#a74)
+- [A.9.1](../iso27001/a-9.md#a91)
+- [A.9.3](../iso27001/a-9.md#a93)
+- [A9.3.1](../iso27001/a-3.md#a31)
+- [A9.3.2](../iso27001/a-3.md#a32)
+- [A9.3.3](../iso27001/a-3.md#a33)
 ## Control questions
 Does the organization provide governance oversight reporting and recommendations to those entrusted to make executive decisions about matters considered material to the organization’s cybersecurity & data protection program?
 ## Control maturity

@@ -80,8 +80,10 @@ func GenerateSOC2Markdown(requirement Requirement, scfControlMapping SCFControlM
 	if err != nil {
 		return err
 	}
+	words := strings.Split(requirement.Name, " ")
+	soc2id := words[0]
 	doc := md.NewMarkdown(f).
-		H1(requirement.Name)
+		H1(soc2id).PlainText(md.Bold(strings.ReplaceAll(requirement.Name, soc2id+" ", "")))
 
 	descriptions := parseSOC2Description(requirement.Description)
 	for _, d := range descriptions {

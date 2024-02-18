@@ -6,6 +6,7 @@ See the default selected frameworks:
 
 - [GDPR](gdpr/index.md)
 - [SOC 2](soc2/index.md)
+- [ISO 27001](iso27001/index.md)
 
 Applicable SCF controls:
 

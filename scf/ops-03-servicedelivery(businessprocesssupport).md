@@ -2,7 +2,7 @@
 Mechanisms exist to define supporting business processes and implement appropriate governance and service management to ensure appropriate planning, delivery and support of the organization's technology capabilities supporting business functions, workforce, and/or customers based on industry-recognized standards to achieve the specific goals of the process area.
 ## Mapped framework controls
 ### ISO 27001
-- [8.1](../iso27001/81.md)
+- [A.8.1](../iso27001/a-8.md#a81)
 ### SOC 2
 - [CC2.1](../soc2/cc21.md)
 - [PI1.1](../soc2/pi11.md)

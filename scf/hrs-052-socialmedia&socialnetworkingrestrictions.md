@@ -2,10 +2,7 @@
 Mechanisms exist to define rules of behavior that contain explicit restrictions on the use of social media and networking sites, posting information on commercial websites and sharing account information. 
 ## Mapped framework controls
 ### ISO 27001
-- [7.3(a)](../iso27001/73(a).md)
-- [7.3(b)](../iso27001/73(b).md)
-- [7.3(c)](../iso27001/73(c).md)
-- [7.3](../iso27001/73.md)
+- [A.7.3](../iso27001/a-7.md#a73)
 ## Control questions
 Does the organization define rules of behavior that contain explicit restrictions on the use of social media and networking sites, posting information on commercial websites and sharing account information? 
 ## Control maturity

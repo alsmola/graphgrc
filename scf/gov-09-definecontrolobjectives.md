@@ -2,24 +2,10 @@
 Mechanisms exist to establish control objectives as the basis for the selection, implementation and management of the organization’s internal control system.
 ## Mapped framework controls
 ### ISO 27001
-- [4.1](../iso27001/41.md)
-- [4.2(b)](../iso27001/42(b).md)
-- [4.2(c)](../iso27001/42(c).md)
-- [4.2](../iso27001/42.md)
-- [5.2(b)](../iso27001/52(b).md)
-- [6.2(a)](../iso27001/62(a).md)
-- [6.2(b)](../iso27001/62(b).md)
-- [6.2(c)](../iso27001/62(c).md)
-- [6.2(d)](../iso27001/62(d).md)
-- [6.2(e)](../iso27001/62(e).md)
-- [6.2(f)](../iso27001/62(f).md)
-- [6.2(g)](../iso27001/62(g).md)
-- [6.2(h)](../iso27001/62(h).md)
-- [6.2(i)](../iso27001/62(i).md)
-- [6.2(j)](../iso27001/62(j).md)
-- [6.2(k)](../iso27001/62(k).md)
-- [6.2(l)](../iso27001/62(l).md)
-- [6.2](../iso27001/62.md)
+- [A.4.1](../iso27001/a-4.md#a41)
+- [A.4.2](../iso27001/a-4.md#a42)
+- [A.5.2](../iso27001/a-5.md#a52)
+- [A.6.2](../iso27001/a-6.md#a62)
 ## Control questions
 Does the organization establish control objectives as the basis for the selection, implementation and management of the organization’s internal control system?
 ## Control maturity

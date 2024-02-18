@@ -2,14 +2,8 @@
 Mechanisms exist to remediate risks to an acceptable level. 
 ## Mapped framework controls
 ### ISO 27001
-- [6.1.3(a)](../iso27001/613(a).md)
-- [6.1.3(b)](../iso27001/613(b).md)
-- [6.1.3(c)](../iso27001/613(c).md)
-- [6.1.3(d)](../iso27001/613(d).md)
-- [6.1.3(e)](../iso27001/613(e).md)
-- [6.1.3(f)](../iso27001/613(f).md)
-- [6.1.3](../iso27001/613.md)
-- [8.3](../iso27001/83.md)
+- [A.8.3](../iso27001/a-8.md#a83)
+- [A6.1.3](../iso27001/a-1.md#a13)
 ### SOC 2
 - [CC3.2](../soc2/cc32.md)
 - [CC4.2](../soc2/cc42.md)

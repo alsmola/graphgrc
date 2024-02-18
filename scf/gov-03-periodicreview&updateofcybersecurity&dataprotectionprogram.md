@@ -7,10 +7,7 @@ Mechanisms exist to review the cybersecurity & data privacy program, including p
 - [Art 32.3](../gdpr/art32.md#Article-323)
 - [Art 32.4](../gdpr/art32.md#Article-324)
 ### ISO 27001
-- [7.5.2(a)](../iso27001/752(a).md)
-- [7.5.2(b)](../iso27001/752(b).md)
-- [7.5.2(c)](../iso27001/752(c).md)
-- [7.5.2](../iso27001/752.md)
+- [A7.5.2](../iso27001/a-5.md#a52)
 ### SOC 2
 - [CC5.3](../soc2/cc53.md)
 - [](../soc2/.md)

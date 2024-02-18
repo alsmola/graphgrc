@@ -5,7 +5,7 @@ Mechanisms exist to facilitate the implementation of cybersecurity & data privac
 - [Art 32.1](../gdpr/art32.md#Article-321)
 - [Art 32.2](../gdpr/art32.md#Article-322)
 ### ISO 27001
-- [5.1(e)](../iso27001/51(e).md)
+- [A.5.1](../iso27001/a-5.md#a51)
 ### SOC 2
 - [CC2.2](../soc2/cc22.md)
 - [CC3.1](../soc2/cc31.md)

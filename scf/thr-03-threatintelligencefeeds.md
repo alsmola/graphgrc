@@ -2,11 +2,7 @@
 Mechanisms exist to maintain situational awareness of evolving threats by leveraging the knowledge of attacker tactics, techniques and procedures to facilitate the implementation of preventative and compensating controls.
 ## Mapped framework controls
 ### ISO 27001
-- [7.4(a)](../iso27001/74(a).md)
-- [7.4(b)](../iso27001/74(b).md)
-- [7.4(c)](../iso27001/74(c).md)
-- [7.4(d)](../iso27001/74(d).md)
-- [7.4](../iso27001/74.md)
+- [A.7.4](../iso27001/a-7.md#a74)
 ## Control questions
 Does the organization maintain situational awareness of evolving threats by leveraging the knowledge of attacker tactics, techniques and procedures to facilitate the implementation of preventative and compensating controls?
 ## Control maturity

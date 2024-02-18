@@ -2,26 +2,8 @@
 Mechanisms exist to document and review instances of non-compliance with statutory, regulatory and/or contractual obligations to develop appropriate risk mitigation actions.
 ## Mapped framework controls
 ### ISO 27001
-- [10.2(a)(1)](../iso27001/102(a)(1).md)
-- [10.2(a)(2)](../iso27001/102(a)(2).md)
-- [10.2(a)](../iso27001/102(a).md)
-- [10.2(b)(1)](../iso27001/102(b)(1).md)
-- [10.2(b)(2)](../iso27001/102(b)(2).md)
-- [10.2(b)(3)](../iso27001/102(b)(3).md)
-- [10.2(b)](../iso27001/102(b).md)
-- [10.2(c)](../iso27001/102(c).md)
-- [10.2(d)](../iso27001/102(d).md)
-- [10.2(e)](../iso27001/102(e).md)
-- [10.2(f)](../iso27001/102(f).md)
-- [10.2(g)](../iso27001/102(g).md)
-- [10.2](../iso27001/102.md)
-- [9.1(a)](../iso27001/91(a).md)
-- [9.1(b)](../iso27001/91(b).md)
-- [9.1(c)](../iso27001/91(c).md)
-- [9.1(d)](../iso27001/91(d).md)
-- [9.1(e)](../iso27001/91(e).md)
-- [9.1(f)](../iso27001/91(f).md)
-- [9.1](../iso27001/91.md)
+- [A.10.2](../iso27001/a-10.md#a102)
+- [A.9.1](../iso27001/a-9.md#a91)
 ## Control questions
 Does the organization document and review instances of non-compliance with statutory, regulatory and/or contractual obligations to develop appropriate risk mitigation actions?
 ## Control maturity

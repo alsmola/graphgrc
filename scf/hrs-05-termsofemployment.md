@@ -2,10 +2,7 @@
 Mechanisms exist to require all employees and contractors to apply cybersecurity & data privacy principles in their daily work.
 ## Mapped framework controls
 ### ISO 27001
-- [7.3(a)](../iso27001/73(a).md)
-- [7.3(b)](../iso27001/73(b).md)
-- [7.3(c)](../iso27001/73(c).md)
-- [7.3](../iso27001/73.md)
+- [A.7.3](../iso27001/a-7.md#a73)
 ### SOC 2
 - [CC1.1](../soc2/cc11.md)
 ## Control questions

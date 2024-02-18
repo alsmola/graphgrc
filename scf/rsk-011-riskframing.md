@@ -6,21 +6,7 @@ Mechanisms exist to identify:
  - Priorities and trade-offs considered by the organization for managing risk.
 ## Mapped framework controls
 ### ISO 27001
-- [6.1.2(a)(1)](../iso27001/612(a)(1).md)
-- [6.1.2(a)(2)](../iso27001/612(a)(2).md)
-- [6.1.2(a)](../iso27001/612(a).md)
-- [6.1.2(b)](../iso27001/612(b).md)
-- [6.1.2(c)(1)](../iso27001/612(c)(1).md)
-- [6.1.2(c)(2)](../iso27001/612(c)(2).md)
-- [6.1.2(c)](../iso27001/612(c).md)
-- [6.1.2(d)(1)](../iso27001/612(d)(1).md)
-- [6.1.2(d)(2)](../iso27001/612(d)(2).md)
-- [6.1.2(d)(3)](../iso27001/612(d)(3).md)
-- [6.1.2(d)](../iso27001/612(d).md)
-- [6.1.2(e)(1)](../iso27001/612(e)(1).md)
-- [6.1.2(e)(2)](../iso27001/612(e)(2).md)
-- [6.1.2(e)](../iso27001/612(e).md)
-- [6.1.2](../iso27001/612.md)
+- [A6.1.2](../iso27001/a-1.md#a12)
 ### SOC 2
 - [CC3.2](../soc2/cc32.md)
 ## Control questions
