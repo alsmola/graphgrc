@@ -1,6 +1,7 @@
 package internal
 
 import (
+	"encoding/json"
 	"fmt"
 	"io"
 	"log"
@@ -112,6 +113,14 @@ func ReturnSCFControls(url string, getFile bool) (SCFControls, error) {
 			}
 			controls[SCFControlID(scfControlID)] = control
 		}
+	}
+	file, err := json.MarshalIndent(controls, "", " ")
+	if err != nil {
+		return controls, err
+	}
+	err = os.WriteFile("scf.json", file, 0644)
+	if err != nil {
+		return controls, err
 	}
 	return controls, nil
 }
