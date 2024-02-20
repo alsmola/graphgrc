@@ -12,6 +12,10 @@ Mechanisms exist to facilitate the implementation of industry-recognized cyberse
 - [Art 32.2](../gdpr/art32.md#Article-322)
 - [Art 40.2](../gdpr/art40.md#Article-402)
 - [Art 5.2](../gdpr/art5.md#Article-52)
+### ISO 27002
+- [A.8.12](../iso27002/a-8.md#a812)
+- [A.8.26](../iso27002/a-8.md#a826)
+- [A.8.27](../iso27002/a-8.md#a827)
 ### SOC 2
 - [CC2.2](../soc2/cc22.md)
 - [CC3.2](../soc2/cc32.md)

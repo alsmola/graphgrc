@@ -15,6 +15,8 @@ Mechanisms exist to:
 - [Art 14.3](../gdpr/art14.md#Article-143)
 - [Art 26.1](../gdpr/art26.md#Article-261)
 - [Art 26.2](../gdpr/art26.md#Article-262)
+### ISO 27002
+- [A.5.34](../iso27002/a-5.md#a534)
 ### SOC 2
 - [P1.1](../soc2/p11.md)
 ## Control questions

@@ -2,7 +2,7 @@
 Mechanisms exist to manage personnel security risk by assigning a risk designation to all positions and establishing screening criteria for individuals filling those positions.
 ## Mapped framework controls
 ### ISO 27001
-- [A.7.2](../iso27001/a-7.md#a72)
+- [7.2.a](../iso27001/7.md#72a)
 ### SOC 2
 - [CC1.2](../soc2/cc12.md)
 ## Control questions

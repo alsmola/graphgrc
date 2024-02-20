@@ -14,6 +14,8 @@ Mechanisms exist to authorize the processing of their Personal Data (PD) prior t
 - [Art 7.4](../gdpr/art7.md#Article-74)
 - [Art 8.1](../gdpr/art8.md#Article-81)
 - [Art 8.2](../gdpr/art8.md#Article-82)
+### ISO 27002
+- [A.5.33](../iso27002/a-5.md#a533)
 ### SOC 2
 - [P2.0](../soc2/p20.md)
 - [P2.1](../soc2/p21.md)

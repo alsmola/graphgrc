@@ -2,7 +2,10 @@
 Mechanisms exist to define cybersecurity responsibilities for all personnel. 
 ## Mapped framework controls
 ### ISO 27001
-- [A.7.3](../iso27001/a-7.md#a73)
+- [7.3.b](../iso27001/7.md#73b)
+- [7.3](../iso27001/7.md#73)
+### ISO 27002
+- [A.5.2](../iso27002/a-5.md#a52)
 ### SOC 2
 - [CC1.2](../soc2/cc12.md)
 - [CC1.3](../soc2/cc13.md)

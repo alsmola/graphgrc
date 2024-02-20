@@ -2,7 +2,13 @@
 Mechanisms exist to provide all employees and contractors appropriate awareness education and training that is relevant for their job function. 
 ## Mapped framework controls
 ### ISO 27001
-- [A.7.4](../iso27001/a-7.md#a74)
+- [7.4.a](../iso27001/7.md#74a)
+- [7.4.b](../iso27001/7.md#74b)
+- [7.4.c](../iso27001/7.md#74c)
+- [7.4.d](../iso27001/7.md#74d)
+- [7.4](../iso27001/7.md#74)
+### ISO 27002
+- [A.6.3](../iso27002/a-6.md#a63)
 ## Control questions
 Does the organization provide all employees and contractors appropriate awareness education and training that is relevant for their job function? 
 ## Control maturity

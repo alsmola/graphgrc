@@ -5,6 +5,9 @@ Mechanisms exist to facilitate the implementation of cryptographic protections c
 - [Art 32.1](../gdpr/art32.md#Article-321)
 - [Art 32.2](../gdpr/art32.md#Article-322)
 - [Art 5.1](../gdpr/art5.md#Article-51)
+### ISO 27002
+- [A.8.24](../iso27002/a-8.md#a824)
+- [A.8.26](../iso27002/a-8.md#a826)
 ### SOC 2
 - [CC6.1](../soc2/cc61.md)
 ## Control questions

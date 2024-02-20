@@ -10,6 +10,8 @@ Mechanisms exist to utilize independent assessors to evaluate cybersecurity & da
 - [Art 42.6](../gdpr/art42.md#Article-426)
 - [Art 42.7](../gdpr/art42.md#Article-427)
 - [Art 43.2](../gdpr/art43.md#Article-432)
+### ISO 27002
+- [A.5.35](../iso27002/a-5.md#a535)
 ## Control questions
 Does the organization utilize independent assessors to evaluate cybersecurity & data protection controls at planned intervals or when the system, service or project undergoes significant changes?
 ## Control maturity

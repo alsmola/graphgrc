@@ -7,6 +7,7 @@ See the default selected frameworks:
 - [GDPR](gdpr/index.md)
 - [SOC 2](soc2/index.md)
 - [ISO 27001](iso27001/index.md)
+- [ISO 27002](iso27002/index.md)
 
 Applicable SCF controls:
 
@@ -21,7 +22,7 @@ var SupportedFrameworks = map[Framework]ControlHeader{
 	"SOC 2":     "AICPA TSC 2017 (Controls)",
 	"GDPR":      "EMEA EU GDPR",
 	"ISO 27001": "ISO 27001 v2022",
-	// "ISO 27002":   "ISO 27002 v2022",
+	"ISO 27002":   "ISO 27002 v2022",
 	// "ISO 27701":   "ISO 27701 v2019",
 	// "NIST 800-53": "NIST 800-53 rev5 (moderate)",
 	// "HIPAA":       "US HIPAA",

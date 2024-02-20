@@ -11,6 +11,9 @@ Mechanisms exist to:
 - [Art 21.2](../gdpr/art21.md#Article-212)
 - [Art 21.3](../gdpr/art21.md#Article-213)
 - [Art 5.1](../gdpr/art5.md#Article-51)
+### ISO 27002
+- [A.5.33](../iso27002/a-5.md#a533)
+- [A.8.10](../iso27002/a-8.md#a810)
 ### SOC 2
 - [C1.2](../soc2/c12.md)
 - [CC6.5](../soc2/cc65.md)

@@ -28,6 +28,8 @@ Mechanisms exist to restrict the location of information processing/storage base
 - [Art 49.6](../gdpr/art49.md#Article-496)
 - [Art 6.1](../gdpr/art6.md#Article-61)
 - [Art 6.4](../gdpr/art6.md#Article-64)
+### ISO 27002
+- [A.5.21](../iso27002/a-5.md#a521)
 ### SOC 2
 - [CC9.1](../soc2/cc91.md)
 ## Control questions

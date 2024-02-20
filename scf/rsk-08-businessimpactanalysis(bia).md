@@ -10,6 +10,8 @@ Mechanisms exist to conduct a Business Impact Analysis (BIA) to identify and ass
 - [Art 35.8](../gdpr/art35.md#Article-358)
 - [Art 35.9](../gdpr/art35.md#Article-359)
 - [Art 36.3](../gdpr/art36.md#Article-363)
+### ISO 27002
+- [A.5.30](../iso27002/a-5.md#a530)
 ### SOC 2
 - [CC3.2](../soc2/cc32.md)
 - [CC5.2](../soc2/cc52.md)

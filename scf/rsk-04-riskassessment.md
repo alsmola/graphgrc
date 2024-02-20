@@ -10,8 +10,17 @@ Mechanisms exist to conduct recurring assessments of risk that includes the like
 - [Art 35.8](../gdpr/art35.md#Article-358)
 - [Art 35.9](../gdpr/art35.md#Article-359)
 ### ISO 27001
-- [A.8.2](../iso27001/a-8.md#a82)
-- [A6.1.2](../iso27001/a-1.md#a12)
+- [6.1.2.d.1](../iso27001/6.md#612d1)
+- [6.1.2.d.2](../iso27001/6.md#612d2)
+- [6.1.2.d.3](../iso27001/6.md#612d3)
+- [6.1.2.d](../iso27001/6.md#612d)
+- [6.1.2.e.1](../iso27001/6.md#612e1)
+- [6.1.2.e.2](../iso27001/6.md#612e2)
+- [6.1.2.e](../iso27001/6.md#612e)
+- [8.2](../iso27001/8.md#82)
+### ISO 27002
+- [A.5.8](../iso27002/a-5.md#a58)
+- [A.7.5](../iso27002/a-7.md#a75)
 ### SOC 2
 - [A1.2](../soc2/a12.md)
 - [CC3.2](../soc2/cc32.md)

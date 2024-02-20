@@ -12,6 +12,8 @@ Mechanisms exist to centrally-manage the organization-wide management and implem
 - [Art 32.2](../gdpr/art32.md#Article-322)
 - [Art 40.2](../gdpr/art40.md#Article-402)
 - [Art 5.2](../gdpr/art5.md#Article-52)
+### ISO 27002
+- [A.8.12](../iso27002/a-8.md#a812)
 ### SOC 2
 - [CC5.1](../soc2/cc51.md)
 ## Control questions

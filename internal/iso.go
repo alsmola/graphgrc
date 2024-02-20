@@ -28,22 +28,23 @@ type ISOFramework struct {
 	Domains []ISODomain `json:"domains"`
 }
 
-func GetISOControls(isoLink string, getFile bool) (ISOFramework, error) {
+func GetISOControls(standard Framework, isoLink string, getFile bool) (ISOFramework, error) {
 	isoFramework := ISOFramework{}
+	filename := fmt.Sprintf("%s.json", safeFileName(string(standard)))
 	if getFile {
 		resp, err := http.Get(isoLink)
 		if err != nil {
 			return isoFramework, err
 		}
 		defer resp.Body.Close()
-		out, err := os.Create("iso27001.json")
+		out, err := os.Create(filename)
 		if err != nil {
 			return isoFramework, err
 		}
 		defer out.Close()
 		io.Copy(out, resp.Body)
 	}
-	isoFile, err := os.Open("iso27001.json")
+	isoFile, err := os.Open(filename)
 	if err != nil {
 		return isoFramework, err
 	}
@@ -58,9 +59,11 @@ func GetISOControls(isoLink string, getFile bool) (ISOFramework, error) {
 	return isoFramework, nil
 }
 
-func GenerateISOMarkdown(isoDomain ISODomain, scfControlMapping SCFControlMappings) error {
-	// scfAnnex := strings.ReplaceAll(isoAnnex.ID, "Annex", "Art")
-	f, err := os.Create(fmt.Sprintf("iso27001/%s.md", safeFileName(shortenDomain(isoDomain.Title))))
+func GenerateISOMarkdown(standard Framework, isoDomain ISODomain, scfControlMapping SCFControlMappings) error {
+	if standard == Framework("ISO 27001") && strings.HasPrefix(isoDomain.Title, "A") {
+		return nil
+	}
+	f, err := os.Create(fmt.Sprintf("%s/%s.md", safeFileName(string(standard)), safeFileName(shortenDomain(standard, isoDomain.Title))))
 	if err != nil {
 		return err
 	}
@@ -68,25 +71,23 @@ func GenerateISOMarkdown(isoDomain ISODomain, scfControlMapping SCFControlMappin
 		H1(string(isoDomain.Title))
 
 	for _, isoControl := range isoDomain.Controls {
-		scfSubAnnex := isoControl.Ref
 		doc.H2(isoControl.Ref).
 			PlainText(md.Bold(isoControl.Title) + "\n").
 			PlainText(isoControl.Summary)
 		fcids := []string{}
-		alreadyAdded := []string{}
 		for scfID, controlMapping := range scfControlMapping {
-			soc2FrameworkControlIDs := controlMapping["ISO 27001"]
+			soc2FrameworkControlIDs := controlMapping[standard]
 			for _, fcid := range soc2FrameworkControlIDs {
-				if FCIDToAnnex(string(fcid)) == scfSubAnnex {
+				if FCIDToAnnex(standard, string(fcid)) == isoControl.Ref {
+					link := fmt.Sprintf("[%s](../scf/%s.md)", string(scfID), safeFileName(string(scfID)))
 					found := false
-					for _, a := range alreadyAdded {
-						if a == scfSubAnnex {
+					for _, f := range fcids {
+						if f == link {
 							found = true
 						}
 					}
 					if !found {
-						alreadyAdded = append(alreadyAdded, scfSubAnnex)
-						fcids = append(fcids, fmt.Sprintf("[%s](../scf/%s.md)", string(scfID), safeFileName(string(scfID))))
+						fcids = append(fcids, link)
 					}
 				}
 			}
@@ -101,39 +102,54 @@ func GenerateISOMarkdown(isoDomain ISODomain, scfControlMapping SCFControlMappin
 	return nil
 }
 
-func FCIDToAnnex(fcid string) string {
-	subSubRegexPattern := `^A?([0-9]+)\.([0-9]+)\.([0-9]+).*`
+func FCIDToAnnex(framework Framework, fcid string) string {
+	if framework == Framework("ISO 27002") {
+		fcid = "A" + fcid
+	}
+	subSubRegexPattern := `^A([0-9]+)\.([0-9]+)\.([0-9]+).*`
 	subSubRegex := regexp.MustCompile(subSubRegexPattern)
 	subsubAnnexMatches := subSubRegex.FindStringSubmatch(fcid)
 	if len(subsubAnnexMatches) > 0 {
-		return fmt.Sprintf("A%s.%s.%s", subsubAnnexMatches[1], subsubAnnexMatches[2], subsubAnnexMatches[3])
+		return fmt.Sprintf("A.%s.%s.%s", subsubAnnexMatches[1], subsubAnnexMatches[2], subsubAnnexMatches[3])
 	}
-	subRegexPattern := `^([0-9]+)\.([0-9]+).*`
+	subRegexPattern := `^A([0-9]+)\.([0-9]+).*`
 	subRegex := regexp.MustCompile(subRegexPattern)
 	subAnnexMatches := subRegex.FindStringSubmatch(fcid)
 	if len(subAnnexMatches) > 0 {
 		return fmt.Sprintf("A.%s.%s", subAnnexMatches[1], subAnnexMatches[2])
 	}
-	log.Fatal("Could not parse FCID", fcid)
-	return fcid
+	if framework == Framework("ISO 27002") {
+		log.Fatal("ISO 27002 not annex")
+	}
+	return strings.ReplaceAll(strings.ReplaceAll(fcid, ")", ""), "(", ".")
 }
 
-func GenerateISOIndex(isoFramework ISOFramework) error {
-	f, err := os.Create("iso27001/index.md")
+func FCIDToRequirement(fcid string) string {
+	return strings.ReplaceAll(strings.ReplaceAll(fcid, ")", ""), "(", ".")
+}
+
+func GenerateISOIndex(standard Framework, isoFramework ISOFramework) error {
+	f, err := os.Create(fmt.Sprintf("%s/index.md", safeFileName(string(standard))))
 	if err != nil {
 		return err
 	}
 	doc := md.NewMarkdown(f).
-		H1("ISO 27001")
+		H1(string(standard))
 	controlLinks := []string{}
 	for _, domain := range isoFramework.Domains {
-		controlLinks = append(controlLinks, fmt.Sprintf("[%s](%s.md)", domain.Title, safeFileName(shortenDomain(domain.Title))))
+		controlLinks = append(controlLinks, fmt.Sprintf("[%s](%s.md)", domain.Title, safeFileName(shortenDomain(standard, domain.Title))))
 	}
 	doc.BulletList(controlLinks...)
 	doc.Build()
 	return nil
 }
 
-func shortenDomain(domain string) string {
-	return strings.ReplaceAll(domain[0:3], ".", "-")
+func shortenDomain(standard Framework, domain string) string {
+	if standard == Framework("ISO 27001") {
+		parts := strings.Split(domain, " -")
+		return strings.ReplaceAll(parts[0], ".", "-")
+	} else {
+		return strings.ReplaceAll(domain[0:3], ".", "-")
+	}
+
 }

@@ -46,16 +46,31 @@ func main() {
 	}
 	internal.GenerateGDPRIndex(gdprFramework)
 
-	isoLink := "https://raw.githubusercontent.com/JupiterOne/security-policy-templates/main/templates/standards/iso-27002-2022.json"
-	isoFramework, err := internal.GetISOControls(isoLink, true)
+	iso27001 := internal.Framework("ISO 27001")
+	iso27002 := internal.Framework("ISO 27002")
+	iso27001Link := "https://raw.githubusercontent.com/JupiterOne/security-policy-templates/main/templates/standards/iso-iec-27001-2022.json"
+	iso27001Framework, err := internal.GetISOControls(iso27001, iso27001Link, true)
 	if err != nil {
 		log.Fatal(err)
 	}
-	for _, domain := range isoFramework.Domains {
-		err = internal.GenerateISOMarkdown(domain, scfControlMappings)
+	for _, domain := range iso27001Framework.Domains {
+		err = internal.GenerateISOMarkdown(iso27001, domain, scfControlMappings)
 	}
 	if err != nil {
 		log.Fatal(err)
 	}
-	internal.GenerateISOIndex(isoFramework)
+	internal.GenerateISOIndex(iso27001, iso27001Framework)
+
+	iso27002Link := "https://raw.githubusercontent.com/JupiterOne/security-policy-templates/main/templates/standards/iso-27002-2022.json"
+	iso27002Framework, err := internal.GetISOControls(iso27002, iso27002Link, true)
+	if err != nil {
+		log.Fatal(err)
+	}
+	for _, domain := range iso27002Framework.Domains {
+		err = internal.GenerateISOMarkdown(iso27002, domain, scfControlMappings)
+	}
+	if err != nil {
+		log.Fatal(err)
+	}
+	internal.GenerateISOIndex(iso27002, iso27002Framework)
 }

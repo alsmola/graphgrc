@@ -10,6 +10,9 @@ Mechanisms exist to maintain network architecture diagrams that:
 - [Art 30.3](../gdpr/art30.md#Article-303)
 - [Art 30.4](../gdpr/art30.md#Article-304)
 - [Art 30.5](../gdpr/art30.md#Article-305)
+### ISO 27002
+- [A.5.9](../iso27002/a-5.md#a59)
+- [A.8.20](../iso27002/a-8.md#a820)
 ### SOC 2
 - [CC2.1](../soc2/cc21.md)
 ## Control questions

@@ -4,6 +4,8 @@ Mechanisms exist to:
  - Ensure that organizational data privacy practices are publicly available through organizational websites or otherwise; and
  - Utilize publicly facing email addresses and/or phone lines to enable the public to provide feedback and/or direct questions to data privacy office(s) regarding data privacy practices.
 ## Mapped framework controls
+### ISO 27002
+- [A.5.1](../iso27002/a-5.md#a51)
 ### SOC 2
 - [P1.1](../soc2/p11.md)
 ## Control questions

@@ -4,6 +4,8 @@ Mechanisms exist to review and update baseline configurations:
  - When required due to so; or
  - As part of system component installations and upgrades.
 ## Mapped framework controls
+### ISO 27002
+- [A.8.9](../iso27002/a-8.md#a89)
 ### SOC 2
 - [CC8.1](../soc2/cc81.md)
 ## Control questions

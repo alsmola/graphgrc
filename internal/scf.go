@@ -63,7 +63,7 @@ var SupportedFrameworks = map[Framework]ControlHeader{
 	"SOC 2":     "AICPA TSC 2017 (Controls)",
 	"GDPR":      "EMEA EU GDPR",
 	"ISO 27001": "ISO 27001 v2022",
-	// "ISO 27002":   "ISO 27002 v2022",
+	"ISO 27002": "ISO 27002 v2022",
 	// "ISO 27701":   "ISO 27701 v2019",
 	// "NIST 800-53": "NIST 800-53 rev5 (moderate)",
 	// "HIPAA":       "US HIPAA",
@@ -153,18 +153,19 @@ func GenerateSCFMarkdown(scfControl Control, scfControlID SCFControlID, controlM
 					subArticle = strings.ReplaceAll(subArticle, " ", "-")
 					link = fmt.Sprintf("[%s](../%s/%s.md#%s)", string(fcid), safeFileName(string(framework)), safeFileName(articleParts[0]), url.QueryEscape(subArticle))
 				}
-			}
-			if framework == "ISO 27001" {
-				annex := FCIDToAnnex(string(fcid))
-				annexParts := strings.Split(annex, ".")
-				if len(annexParts) >= 2 {
+			} else if framework == "ISO 27001" || framework == "ISO 27002" {
+				annex := FCIDToAnnex(Framework(framework), string(fcid))
+				if strings.HasPrefix(annex, "A") {
+					annexParts := strings.Split(annex, ".")
 					annexLink := fmt.Sprintf("a-%s", annexParts[1])
-					annexTarget := safeFileName(fmt.Sprintf("A.%s.%s", annexParts[1], annexParts[2]))
-					link = fmt.Sprintf("[%s](../iso27001/%s.md#%s)", annex, annexLink, annexTarget)
+					annexTarget := safeFileName(annex)
+					link = fmt.Sprintf("[%s](../%s/%s.md#%s)", annex, safeFileName(framework), annexLink, annexTarget)
 				} else {
-					log.Fatal("Bad annex", annex)
+					requirementParts := strings.Split(annex, ".")
+					requirementLink := fmt.Sprintf("%s", requirementParts[0])
+					requirementTarget := safeFileName(annex)
+					link = fmt.Sprintf("[%s](../%s/%s.md#%s)", annex, safeFileName(framework), requirementLink, requirementTarget)
 				}
-
 			}
 			found := false
 			for _, fcid := range fcids {

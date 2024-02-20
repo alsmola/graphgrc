@@ -4,6 +4,9 @@ Mechanisms exist to facilitate the implementation of identification and access m
 ### GDPR
 - [Art 32.1](../gdpr/art32.md#Article-321)
 - [Art 32.2](../gdpr/art32.md#Article-322)
+### ISO 27002
+- [A.5.15](../iso27002/a-5.md#a515)
+- [A.5.18](../iso27002/a-5.md#a518)
 ### SOC 2
 - [CC6.1](../soc2/cc61.md)
 ## Control questions

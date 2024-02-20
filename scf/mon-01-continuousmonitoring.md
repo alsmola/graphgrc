@@ -4,6 +4,9 @@ Mechanisms exist to facilitate the implementation of enterprise-wide monitoring 
 ### GDPR
 - [Art 32.1](../gdpr/art32.md#Article-321)
 - [Art 32.2](../gdpr/art32.md#Article-322)
+### ISO 27002
+- [A.8.15](../iso27002/a-8.md#a815)
+- [A.8.16](../iso27002/a-8.md#a816)
 ### SOC 2
 - [CC7.2](../soc2/cc72.md)
 ## Control questions

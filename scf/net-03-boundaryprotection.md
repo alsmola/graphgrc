@@ -1,6 +1,9 @@
 # NET-03 - Boundary Protection
 Mechanisms exist to monitor and control communications at the external network boundary and at key internal boundaries within the network.
 ## Mapped framework controls
+### ISO 27002
+- [A.8.20](../iso27002/a-8.md#a820)
+- [A.8.21](../iso27002/a-8.md#a821)
 ### SOC 2
 - [CC6.1](../soc2/cc61.md)
 - [CC6.6](../soc2/cc66.md)

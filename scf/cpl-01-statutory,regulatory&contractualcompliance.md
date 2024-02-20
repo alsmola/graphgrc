@@ -34,11 +34,14 @@ Mechanisms exist to facilitate the identification and implementation of relevant
 - [Art 50](../gdpr/art50.md)
 - [Art 6.1](../gdpr/art6.md#Article-61)
 ### ISO 27001
-- [A.4.1](../iso27001/a-4.md#a41)
-- [A.9.1](../iso27001/a-9.md#a91)
-- [A.9.2](../iso27001/a-9.md#a92)
-- [A9.2.1](../iso27001/a-2.md#a21)
-- [A9.2.2](../iso27001/a-2.md#a22)
+- [4.1](../iso27001/4.md#41)
+- [9.1](../iso27001/9.md#91)
+- [9.2.1](../iso27001/9.md#921)
+- [9.2.2](../iso27001/9.md#922)
+- [9.2](../iso27001/9.md#92)
+### ISO 27002
+- [A.5.31](../iso27002/a-5.md#a531)
+- [A.8.34](../iso27002/a-8.md#a834)
 ### SOC 2
 - [CC2.2](../soc2/cc22.md)
 - [CC2.3](../soc2/cc23.md)

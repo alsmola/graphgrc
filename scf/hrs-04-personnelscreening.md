@@ -6,7 +6,10 @@ Mechanisms exist to manage personnel security risk by screening individuals prio
 - [Art 32.2](../gdpr/art32.md#Article-322)
 - [Art 32.4](../gdpr/art32.md#Article-324)
 ### ISO 27001
-- [A.7.2](../iso27001/a-7.md#a72)
+- [7.2.b](../iso27001/7.md#72b)
+- [7.2.c](../iso27001/7.md#72c)
+### ISO 27002
+- [A.6.1](../iso27002/a-6.md#a61)
 ### SOC 2
 - [CC1.4](../soc2/cc14.md)
 ## Control questions

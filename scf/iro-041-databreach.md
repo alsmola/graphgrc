@@ -7,6 +7,8 @@ Mechanisms exist to address data breaches, or other incidents involving the unau
 - [Art 33.3](../gdpr/art33.md#Article-333)
 - [Art 33.4](../gdpr/art33.md#Article-334)
 - [Art 33.5](../gdpr/art33.md#Article-335)
+### ISO 27002
+- [A.5.25](../iso27002/a-5.md#a525)
 ### SOC 2
 - [CC7.3](../soc2/cc73.md)
 - [P6.3](../soc2/p63.md)

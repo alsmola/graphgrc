@@ -2,7 +2,11 @@
 Mechanisms exist to ensure that all security-related positions are staffed by qualified individuals who have the necessary skill set. 
 ## Mapped framework controls
 ### ISO 27001
-- [A.7.2](../iso27001/a-7.md#a72)
+- [7.2.a](../iso27001/7.md#72a)
+- [7.2.b](../iso27001/7.md#72b)
+- [7.2.c](../iso27001/7.md#72c)
+- [7.2.d](../iso27001/7.md#72d)
+- [7.2](../iso27001/7.md#72)
 ### SOC 2
 - [CC1.2](../soc2/cc12.md)
 - [CC1.3](../soc2/cc13.md)

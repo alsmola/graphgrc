@@ -2,7 +2,7 @@
 Mechanisms exist to determine cybersecurity & data privacy control applicability by identifying, assigning and documenting the appropriate asset scope categorization for all systems, applications, services and personnel (internal and third-parties).
 ## Mapped framework controls
 ### ISO 27001
-- [A.4.3](../iso27001/a-4.md#a43)
+- [4.3](../iso27001/4.md#43)
 ## Control questions
 Does the organization determine cybersecurity & data privacy control applicability by identifying, assigning and documenting the appropriate asset scope categorization for all systems, applications, services and personnel (internal and third-parties)?
 ## Control maturity

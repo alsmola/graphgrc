@@ -1,6 +1,9 @@
 # HRS-06 - Access Agreements
 Mechanisms exist to require internal and third-party users to sign appropriate access agreements prior to being granted access. 
 ## Mapped framework controls
+### ISO 27002
+- [A.5.10](../iso27002/a-5.md#a510)
+- [A.5.14](../iso27002/a-5.md#a514)
 ### SOC 2
 - [CC1.5](../soc2/cc15.md)
 ## Control questions

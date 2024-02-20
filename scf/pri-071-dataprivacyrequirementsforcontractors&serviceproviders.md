@@ -16,6 +16,9 @@ Mechanisms exist to include data privacy requirements in contracts and other acq
 - [Art 29](../gdpr/art29.md)
 - [Art 6.1](../gdpr/art6.md#Article-61)
 - [Art 6.4](../gdpr/art6.md#Article-64)
+### ISO 27002
+- [A.5.31](../iso27002/a-5.md#a531)
+- [A.5.33](../iso27002/a-5.md#a533)
 ### SOC 2
 - [P6.4](../soc2/p64.md)
 ## Control questions

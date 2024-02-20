@@ -12,6 +12,8 @@ Mechanisms exist to conduct a Data Protection Impact Assessment (DPIA) on system
 - [Art 36.1 ](../gdpr/art36.md#Article-361-)
 - [Art 36.2](../gdpr/art36.md#Article-362)
 - [Art 36.3](../gdpr/art36.md#Article-363)
+### ISO 27002
+- [A.5.33](../iso27002/a-5.md#a533)
 ### SOC 2
 - [CC3.2](../soc2/cc32.md)
 - [CC5.2](../soc2/cc52.md)

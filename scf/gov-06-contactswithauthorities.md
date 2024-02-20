@@ -11,6 +11,8 @@ Mechanisms exist to identify and document appropriate contacts with relevant law
 - [Art 41.1](../gdpr/art41.md#Article-411)
 - [Art 42.2](../gdpr/art42.md#Article-422)
 - [Art 50](../gdpr/art50.md)
+### ISO 27002
+- [A.5.5](../iso27002/a-5.md#a55)
 ### SOC 2
 - [CC2.3](../soc2/cc23.md)
 ## Control questions

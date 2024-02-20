@@ -1,6 +1,9 @@
 # IAC-10 - Authenticator Management
 Mechanisms exist to securely manage authenticators for users and devices.
 ## Mapped framework controls
+### ISO 27002
+- [A.5.17](../iso27002/a-5.md#a517)
+- [A.5.18](../iso27002/a-5.md#a518)
 ### SOC 2
 - [CC6.1](../soc2/cc61.md)
 ## Control questions

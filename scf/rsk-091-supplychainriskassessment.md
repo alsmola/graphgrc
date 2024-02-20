@@ -10,6 +10,8 @@ Mechanisms exist to periodically assess supply chain risks associated with syste
 - [Art 35.8](../gdpr/art35.md#Article-358)
 - [Art 35.9](../gdpr/art35.md#Article-359)
 - [Art 36.3](../gdpr/art36.md#Article-363)
+### ISO 27002
+- [A.8.30](../iso27002/a-8.md#a830)
 ### SOC 2
 - [CC3.2](../soc2/cc32.md)
 - [CC9.2](../soc2/cc92.md)
