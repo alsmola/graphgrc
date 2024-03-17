@@ -23,6 +23,8 @@ Mechanisms exist to disclose Personal Data (PD) to third-parties only for the pu
 - [Art 6.4](../gdpr/art6.md#Article-64)
 ### ISO 27002
 - [A.5.33](../iso27002/a-5.md#a533)
+### NIST 800-53
+- [AC-21](../nist80053/ac-21.md)
 ### SOC 2
 - [P6.1](../soc2/p61.md)
 ## Control questions

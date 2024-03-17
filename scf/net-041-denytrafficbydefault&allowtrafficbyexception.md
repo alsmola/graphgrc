@@ -4,6 +4,8 @@ Mechanisms exist to configure firewall and router configurations to deny network
 ### ISO 27002
 - [A.5.14](../iso27002/a-5.md#a514)
 - [A.8.20](../iso27002/a-8.md#a820)
+### NIST 800-53
+- [SC-7(5)](../nist80053/sc-7-5.md)
 ### SOC 2
 - [CC6.6](../soc2/cc66.md)
 ## Control questions

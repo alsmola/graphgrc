@@ -7,6 +7,8 @@ Mechanisms exist to facilitate the implementation of cybersecurity & data privac
 - [Art 32.3](../gdpr/art32.md#Article-323)
 ### ISO 27002
 - [A.5.21](../iso27002/a-5.md#a521)
+### NIST 800-53
+- [CA-1](../nist80053/ca-1.md)
 ### SOC 2
 - [CC4.1](../soc2/cc41.md)
 ## Control questions

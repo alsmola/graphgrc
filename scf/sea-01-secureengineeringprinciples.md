@@ -16,6 +16,10 @@ Mechanisms exist to facilitate the implementation of industry-recognized cyberse
 - [A.8.12](../iso27002/a-8.md#a812)
 - [A.8.26](../iso27002/a-8.md#a826)
 - [A.8.27](../iso27002/a-8.md#a827)
+### NIST 800-53
+- [SA-8](../nist80053/sa-8.md)
+- [SC-1](../nist80053/sc-1.md)
+- [SI-1](../nist80053/si-1.md)
 ### SOC 2
 - [CC2.2](../soc2/cc22.md)
 - [CC3.2](../soc2/cc32.md)

@@ -31,6 +31,8 @@ Mechanisms exist to facilitate the implementation of risk management controls.
 - [8.2](../iso27001/8.md#82)
 ### ISO 27002
 - [A.7.5](../iso27002/a-7.md#a75)
+### NIST 800-53
+- [RA-1](../nist80053/ra-1.md)
 ### SOC 2
 - [CC1.3](../soc2/cc13.md)
 - [CC3.1](../soc2/cc31.md)

@@ -10,6 +10,8 @@ Mechanisms exist to establish usage restrictions and implementation guidance for
 - [A.5.10](../iso27002/a-5.md#a510)
 - [A.5.4](../iso27002/a-5.md#a54)
 - [A.6.2](../iso27002/a-6.md#a62)
+### NIST 800-53
+- [PL-4](../nist80053/pl-4.md)
 ## Control questions
 Does the organization establish usage restrictions and implementation guidance for communications technologies based on the potential to cause damage to systems, if used maliciously? 
 ## Control maturity

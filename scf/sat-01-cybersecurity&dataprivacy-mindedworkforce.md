@@ -13,6 +13,8 @@ Mechanisms exist to facilitate the implementation of security workforce developm
 - [7.4](../iso27001/7.md#74)
 ### ISO 27002
 - [A.6.3](../iso27002/a-6.md#a63)
+### NIST 800-53
+- [AT-1](../nist80053/at-1.md)
 ### SOC 2
 - [CC1.4](../soc2/cc14.md)
 ## Control questions

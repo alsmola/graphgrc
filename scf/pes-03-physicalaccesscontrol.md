@@ -6,6 +6,8 @@ Physical access control mechanisms exist to enforce physical access authorizatio
 - [A.5.18](../iso27002/a-5.md#a518)
 - [A.7.1](../iso27002/a-7.md#a71)
 - [A.7.4](../iso27002/a-7.md#a74)
+### NIST 800-53
+- [PE-3](../nist80053/pe-3.md)
 ### SOC 2
 - [CC6.4](../soc2/cc64.md)
 ## Control questions

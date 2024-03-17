@@ -3,6 +3,8 @@ Mechanisms exist to uniquely identify and centrally Authenticate, Authorize and 
 ## Mapped framework controls
 ### ISO 27002
 - [A.5.15](../iso27002/a-5.md#a515)
+### NIST 800-53
+- [IA-2](../nist80053/ia-2.md)
 ### SOC 2
 - [CC6.1](../soc2/cc61.md)
 ## Control questions

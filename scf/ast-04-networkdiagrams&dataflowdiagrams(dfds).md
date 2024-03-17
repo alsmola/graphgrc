@@ -13,6 +13,10 @@ Mechanisms exist to maintain network architecture diagrams that:
 ### ISO 27002
 - [A.5.9](../iso27002/a-5.md#a59)
 - [A.8.20](../iso27002/a-8.md#a820)
+### NIST 800-53
+- [PL-2](../nist80053/pl-2.md)
+- [SA-4(1)](../nist80053/sa-4-1.md)
+- [SA-4(2)](../nist80053/sa-4-2.md)
 ### SOC 2
 - [CC2.1](../soc2/cc21.md)
 ## Control questions

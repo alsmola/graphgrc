@@ -4,6 +4,8 @@ Mechanisms exist to develop an enterprise architecture, aligned with industry-re
 ### ISO 27002
 - [A.5.8](../iso27002/a-5.md#a58)
 - [A.8.26](../iso27002/a-8.md#a826)
+### NIST 800-53
+- [PL-8](../nist80053/pl-8.md)
 ### SOC 2
 - [CC3.1](../soc2/cc31.md)
 - [CC4.1](../soc2/cc41.md)

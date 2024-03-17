@@ -4,6 +4,8 @@ Mechanisms exist to address identified weaknesses or deficiencies in the securit
 ### ISO 27002
 - [A.5.19](../iso27002/a-5.md#a519)
 - [A.5.22](../iso27002/a-5.md#a522)
+### NIST 800-53
+- [SR-3](../nist80053/sr-3.md)
 ### SOC 2
 - [CC9.1](../soc2/cc91.md)
 ## Control questions

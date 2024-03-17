@@ -3,6 +3,8 @@ Physical security mechanisms exist to isolate information processing facilities 
 ## Mapped framework controls
 ### ISO 27002
 - [A.7.2](../iso27002/a-7.md#a72)
+### NIST 800-53
+- [PE-16](../nist80053/pe-16.md)
 ### SOC 2
 - [A1.2](../soc2/a12.md)
 ## Control questions

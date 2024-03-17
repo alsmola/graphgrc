@@ -27,6 +27,8 @@ Mechanisms exist to identify and document the location of information and the sp
 - [Art 49.2](../gdpr/art49.md#Article-492)
 - [Art 49.6](../gdpr/art49.md#Article-496)
 - [Art 6.1](../gdpr/art6.md#Article-61)
+### NIST 800-53
+- [CM-12](../nist80053/cm-12.md)
 ## Control questions
 Does the organization identify and document the location of information and the specific system components on which the information resides?
 ## Control maturity

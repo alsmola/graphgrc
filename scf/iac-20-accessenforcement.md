@@ -3,6 +3,8 @@ Mechanisms exist to enforce Logical Access Control (LAC) permissions that confor
 ## Mapped framework controls
 ### ISO 27002
 - [A.5.18](../iso27002/a-5.md#a518)
+### NIST 800-53
+- [AC-3](../nist80053/ac-3.md)
 ### SOC 2
 - [CC6.1](../soc2/cc61.md)
 ## Control questions

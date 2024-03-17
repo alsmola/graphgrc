@@ -3,6 +3,8 @@ Automated mechanisms exist to correlate both technical and non-technical informa
 ## Mapped framework controls
 ### ISO 27002
 - [A.8.15](../iso27002/a-8.md#a815)
+### NIST 800-53
+- [AU-6(3)](../nist80053/au-6-3.md)
 ### SOC 2
 - [CC7.2](../soc2/cc72.md)
 - [CC7.3](../soc2/cc73.md)

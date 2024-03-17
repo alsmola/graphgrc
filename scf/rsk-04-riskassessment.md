@@ -21,6 +21,8 @@ Mechanisms exist to conduct recurring assessments of risk that includes the like
 ### ISO 27002
 - [A.5.8](../iso27002/a-5.md#a58)
 - [A.7.5](../iso27002/a-7.md#a75)
+### NIST 800-53
+- [RA-3](../nist80053/ra-3.md)
 ### SOC 2
 - [A1.2](../soc2/a12.md)
 - [CC3.2](../soc2/cc32.md)

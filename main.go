@@ -26,11 +26,13 @@ func main() {
 	}
 	for _, requirement := range soc2Framework.Requirements {
 		err = internal.GenerateSOC2Markdown(requirement, scfControlMappings)
+		if err != nil {
+			log.Fatal(err)
+		}
 	}
-	if err != nil {
-		log.Fatal(err)
-	}
+
 	internal.GenerateSOC2Index(soc2Framework)
+
 	gdprLink := "https://raw.githubusercontent.com/enterpriseready/enterpriseready/master/content/gdpr/gdpr-abridged.md"
 	gdprFramework, err := internal.GetGDPRControls(gdprLink, getFile)
 	if err != nil {
@@ -39,38 +41,63 @@ func main() {
 	for _, article := range gdprFramework {
 		if article.Title != "" {
 			err = internal.GenerateGDPRMarkdown(article, scfControlMappings)
+			if err != nil {
+				log.Fatal(err)
+			}
 		}
-	}
-	if err != nil {
-		log.Fatal(err)
+
 	}
 	internal.GenerateGDPRIndex(gdprFramework)
 
 	iso27001 := internal.Framework("ISO 27001")
 	iso27002 := internal.Framework("ISO 27002")
 	iso27001Link := "https://raw.githubusercontent.com/JupiterOne/security-policy-templates/main/templates/standards/iso-iec-27001-2022.json"
-	iso27001Framework, err := internal.GetISOControls(iso27001, iso27001Link, true)
+	iso27001Framework, err := internal.GetISOControls(iso27001, iso27001Link, getFile)
 	if err != nil {
 		log.Fatal(err)
 	}
 	for _, domain := range iso27001Framework.Domains {
 		err = internal.GenerateISOMarkdown(iso27001, domain, scfControlMappings)
+		if err != nil {
+			log.Fatal(err)
+		}
 	}
-	if err != nil {
-		log.Fatal(err)
-	}
+
 	internal.GenerateISOIndex(iso27001, iso27001Framework)
 
 	iso27002Link := "https://raw.githubusercontent.com/JupiterOne/security-policy-templates/main/templates/standards/iso-27002-2022.json"
-	iso27002Framework, err := internal.GetISOControls(iso27002, iso27002Link, true)
+	iso27002Framework, err := internal.GetISOControls(iso27002, iso27002Link, getFile)
 	if err != nil {
 		log.Fatal(err)
 	}
 	for _, domain := range iso27002Framework.Domains {
 		err = internal.GenerateISOMarkdown(iso27002, domain, scfControlMappings)
+		if err != nil {
+			log.Fatal(err)
+		}
 	}
+
+	internal.GenerateISOIndex(iso27002, iso27002Framework)
+
+	nist80053Link := "https://raw.githubusercontent.com/GSA/fedramp-automation/master/dist/content/rev5/baselines/json/FedRAMP_rev5_MODERATE-baseline-resolved-profile_catalog.json"
+	nist80053Framework, err := internal.GetNIST80053Controls(nist80053Link, true)
 	if err != nil {
 		log.Fatal(err)
 	}
-	internal.GenerateISOIndex(iso27002, iso27002Framework)
+	for _, family := range nist80053Framework.Families {
+		for _, control := range family.Controls {
+			err = internal.GenerateNIST80053Markdown(control, scfControlMappings)
+			if err != nil {
+				log.Fatal(err)
+			}
+			for _, subcontrol := range control.Controls {
+				err = internal.GenerateNIST80053Markdown(subcontrol, scfControlMappings)
+				if err != nil {
+					log.Fatal(err)
+				}
+			}
+
+		}
+	}
+	internal.GenerateNIST80053Index(nist80053Framework)
 }

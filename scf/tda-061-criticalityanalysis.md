@@ -3,6 +3,8 @@ Mechanisms exist to require the developer of the system, system component or ser
 ## Mapped framework controls
 ### ISO 27002
 - [A.8.29](../iso27002/a-8.md#a829)
+### NIST 800-53
+- [SA-15(3)](../nist80053/sa-15-3.md)
 ### SOC 2
 - [PI1.1](../soc2/pi11.md)
 ## Control questions

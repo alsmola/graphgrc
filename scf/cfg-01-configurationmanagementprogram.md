@@ -8,6 +8,9 @@ Mechanisms exist to facilitate the implementation of configuration management co
 - [A.8.12](../iso27002/a-8.md#a812)
 - [A.8.3](../iso27002/a-8.md#a83)
 - [A.8.9](../iso27002/a-8.md#a89)
+### NIST 800-53
+- [CM-1](../nist80053/cm-1.md)
+- [CM-9](../nist80053/cm-9.md)
 ### SOC 2
 - [CC7.1](../soc2/cc71.md)
 ## Control questions

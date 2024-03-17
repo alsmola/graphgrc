@@ -9,6 +9,8 @@ Mechanisms exist to provide all employees and contractors appropriate awareness 
 - [7.4](../iso27001/7.md#74)
 ### ISO 27002
 - [A.6.3](../iso27002/a-6.md#a63)
+### NIST 800-53
+- [AT-2](../nist80053/at-2.md)
 ## Control questions
 Does the organization provide all employees and contractors appropriate awareness education and training that is relevant for their job function? 
 ## Control maturity

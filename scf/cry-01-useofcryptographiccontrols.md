@@ -8,6 +8,9 @@ Mechanisms exist to facilitate the implementation of cryptographic protections c
 ### ISO 27002
 - [A.8.24](../iso27002/a-8.md#a824)
 - [A.8.26](../iso27002/a-8.md#a826)
+### NIST 800-53
+- [SC-13](../nist80053/sc-13.md)
+- [SC-8(1)](../nist80053/sc-8-1.md)
 ### SOC 2
 - [CC6.1](../soc2/cc61.md)
 ## Control questions

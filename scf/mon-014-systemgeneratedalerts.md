@@ -3,6 +3,8 @@ Mechanisms exist to monitor, correlate and respond to alerts from physical, cybe
 ## Mapped framework controls
 ### ISO 27002
 - [A.8.15](../iso27002/a-8.md#a815)
+### NIST 800-53
+- [SI-4(5)](../nist80053/si-4-5.md)
 ### SOC 2
 - [CC7.2](../soc2/cc72.md)
 ## Control questions

@@ -12,6 +12,8 @@ Mechanisms exist to facilitate the implementation of data protection controls.
 - [A.5.9](../iso27002/a-5.md#a59)
 - [A.7.10](../iso27002/a-7.md#a710)
 - [A.8.12](../iso27002/a-8.md#a812)
+### NIST 800-53
+- [MP-1](../nist80053/mp-1.md)
 ### SOC 2
 - [C1.1](../soc2/c11.md)
 - [CC2.1](../soc2/cc21.md)

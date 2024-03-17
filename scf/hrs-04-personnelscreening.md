@@ -10,6 +10,8 @@ Mechanisms exist to manage personnel security risk by screening individuals prio
 - [7.2.c](../iso27001/7.md#72c)
 ### ISO 27002
 - [A.6.1](../iso27002/a-6.md#a61)
+### NIST 800-53
+- [PS-3](../nist80053/ps-3.md)
 ### SOC 2
 - [CC1.4](../soc2/cc14.md)
 ## Control questions

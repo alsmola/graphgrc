@@ -3,6 +3,8 @@ Mechanisms exist to manage personnel security risk by assigning a risk designati
 ## Mapped framework controls
 ### ISO 27001
 - [7.2.a](../iso27001/7.md#72a)
+### NIST 800-53
+- [PS-2](../nist80053/ps-2.md)
 ### SOC 2
 - [CC1.2](../soc2/cc12.md)
 ## Control questions

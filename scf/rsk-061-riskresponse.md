@@ -12,6 +12,8 @@ Mechanisms exist to respond to findings from cybersecurity & data privacy assess
 - [8.3](../iso27001/8.md#83)
 ### ISO 27002
 - [A.5.8](../iso27002/a-5.md#a58)
+### NIST 800-53
+- [RA-7](../nist80053/ra-7.md)
 ### SOC 2
 - [CC3.2](../soc2/cc32.md)
 - [CC3.3](../soc2/cc33.md)

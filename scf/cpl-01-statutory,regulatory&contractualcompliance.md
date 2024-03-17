@@ -42,6 +42,8 @@ Mechanisms exist to facilitate the identification and implementation of relevant
 ### ISO 27002
 - [A.5.31](../iso27002/a-5.md#a531)
 - [A.8.34](../iso27002/a-8.md#a834)
+### NIST 800-53
+- [PL-1](../nist80053/pl-1.md)
 ### SOC 2
 - [CC2.2](../soc2/cc22.md)
 - [CC2.3](../soc2/cc23.md)

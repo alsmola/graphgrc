@@ -7,6 +7,10 @@ Mechanisms exist to facilitate the implementation of contingency planning contro
 ### ISO 27002
 - [A.5.29](../iso27002/a-5.md#a529)
 - [A.5.30](../iso27002/a-5.md#a530)
+### NIST 800-53
+- [CP-10](../nist80053/cp-10.md)
+- [CP-1](../nist80053/cp-1.md)
+- [CP-2](../nist80053/cp-2.md)
 ### SOC 2
 - [CC7.5](../soc2/cc75.md)
 - [CC9.1](../soc2/cc91.md)

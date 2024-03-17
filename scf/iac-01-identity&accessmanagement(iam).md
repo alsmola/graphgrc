@@ -7,6 +7,9 @@ Mechanisms exist to facilitate the implementation of identification and access m
 ### ISO 27002
 - [A.5.15](../iso27002/a-5.md#a515)
 - [A.5.18](../iso27002/a-5.md#a518)
+### NIST 800-53
+- [AC-1](../nist80053/ac-1.md)
+- [IA-1](../nist80053/ia-1.md)
 ### SOC 2
 - [CC6.1](../soc2/cc61.md)
 ## Control questions

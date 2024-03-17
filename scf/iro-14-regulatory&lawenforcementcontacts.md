@@ -3,6 +3,8 @@ Mechanisms exist to maintain incident response contacts with applicable regulato
 ## Mapped framework controls
 ### GDPR
 - [Art 31](../gdpr/art31.md)
+### NIST 800-53
+- [IR-6](../nist80053/ir-6.md)
 ### SOC 2
 - [CC2.3](../soc2/cc23.md)
 - [CC7.4](../soc2/cc74.md)

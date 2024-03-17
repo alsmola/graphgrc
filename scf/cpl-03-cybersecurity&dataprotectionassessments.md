@@ -17,6 +17,8 @@ Mechanisms exist to ensure managers regularly review the processes and documente
 - [A.5.35](../iso27002/a-5.md#a535)
 - [A.5.36](../iso27002/a-5.md#a536)
 - [A.8.34](../iso27002/a-8.md#a834)
+### NIST 800-53
+- [CA-2](../nist80053/ca-2.md)
 ### SOC 2
 - [CC4.1](../soc2/cc41.md)
 ## Control questions

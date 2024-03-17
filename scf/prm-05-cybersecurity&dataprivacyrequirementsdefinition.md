@@ -5,6 +5,8 @@ Mechanisms exist to identify critical system components and functions by perform
 - [A.5.8](../iso27002/a-5.md#a58)
 - [A.5.9](../iso27002/a-5.md#a59)
 - [A.8.26](../iso27002/a-8.md#a826)
+### NIST 800-53
+- [RA-9](../nist80053/ra-9.md)
 ### SOC 2
 - [CC2.2](../soc2/cc22.md)
 - [CC4.1](../soc2/cc41.md)

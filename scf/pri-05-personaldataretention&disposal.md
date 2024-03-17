@@ -14,6 +14,8 @@ Mechanisms exist to:
 ### ISO 27002
 - [A.5.33](../iso27002/a-5.md#a533)
 - [A.8.10](../iso27002/a-8.md#a810)
+### NIST 800-53
+- [SI-12](../nist80053/si-12.md)
 ### SOC 2
 - [C1.2](../soc2/c12.md)
 - [CC6.5](../soc2/cc65.md)

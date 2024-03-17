@@ -16,6 +16,8 @@ Mechanisms exist to timely-report incidents to applicable:
 - [Art 34.4](../gdpr/art34.md#Article-344)
 ### ISO 27002
 - [A.6.8](../iso27002/a-6.md#a68)
+### NIST 800-53
+- [IR-6](../nist80053/ir-6.md)
 ### SOC 2
 - [CC2.3](../soc2/cc23.md)
 - [CC7.4](../soc2/cc74.md)

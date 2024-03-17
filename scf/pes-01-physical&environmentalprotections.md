@@ -10,6 +10,8 @@ Mechanisms exist to facilitate the operation of physical and environmental prote
 - [A.5.18](../iso27002/a-5.md#a518)
 - [A.7.1](../iso27002/a-7.md#a71)
 - [A.7.5](../iso27002/a-7.md#a75)
+### NIST 800-53
+- [PE-1](../nist80053/pe-1.md)
 ### SOC 2
 - [A1.2](../soc2/a12.md)
 - [CC6.4](../soc2/cc64.md)

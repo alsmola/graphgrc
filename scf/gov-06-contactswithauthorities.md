@@ -13,6 +13,8 @@ Mechanisms exist to identify and document appropriate contacts with relevant law
 - [Art 50](../gdpr/art50.md)
 ### ISO 27002
 - [A.5.5](../iso27002/a-5.md#a55)
+### NIST 800-53
+- [IR-6](../nist80053/ir-6.md)
 ### SOC 2
 - [CC2.3](../soc2/cc23.md)
 ## Control questions

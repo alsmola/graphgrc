@@ -12,6 +12,9 @@ Mechanisms exist to provide a cybersecurity & data protection controls oversight
 - [A.6.8](../iso27002/a-6.md#a68)
 - [A.8.34](../iso27002/a-8.md#a834)
 - [A.8.8](../iso27002/a-8.md#a88)
+### NIST 800-53
+- [CA-7(1)](../nist80053/ca-7-1.md)
+- [CA-7](../nist80053/ca-7.md)
 ### SOC 2
 - [CC1.1](../soc2/cc11.md)
 - [CC2.2](../soc2/cc22.md)

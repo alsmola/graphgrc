@@ -13,6 +13,8 @@ Mechanisms exist to facilitate the implementation of personnel security controls
 - [7.3](../iso27001/7.md#73)
 ### ISO 27002
 - [A.5.4](../iso27002/a-5.md#a54)
+### NIST 800-53
+- [PS-1](../nist80053/ps-1.md)
 ### SOC 2
 - [CC1.1](../soc2/cc11.md)
 - [CC1.4](../soc2/cc14.md)

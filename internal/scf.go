@@ -65,7 +65,7 @@ var SupportedFrameworks = map[Framework]ControlHeader{
 	"ISO 27001": "ISO 27001 v2022",
 	"ISO 27002": "ISO 27002 v2022",
 	// "ISO 27701":   "ISO 27701 v2019",
-	// "NIST 800-53": "NIST 800-53 rev5 (moderate)",
+	"NIST 800-53": "NIST 800-53B rev5 (moderate)",
 	// "HIPAA":       "US HIPAA",
 }
 
@@ -166,6 +166,9 @@ func GenerateSCFMarkdown(scfControl Control, scfControlID SCFControlID, controlM
 					requirementTarget := safeFileName(annex)
 					link = fmt.Sprintf("[%s](../%s/%s.md#%s)", annex, safeFileName(framework), requirementLink, requirementTarget)
 				}
+			} else if framework == "NIST 800-53" {
+				toLink := strings.ReplaceAll(strings.ReplaceAll(string(fcid), ")", ""), "(", "-")
+				link = fmt.Sprintf("[%s](../nist80053/%s.md)", string(fcid), safeFileName(toLink))
 			}
 			found := false
 			for _, fcid := range fcids {

@@ -5,6 +5,8 @@ Mechanisms exist to categorize systems and data in accordance with applicable lo
 ## Mapped framework controls
 ### ISO 27001
 - [6.1.2.d.3](../iso27001/6.md#612d3)
+### NIST 800-53
+- [RA-2](../nist80053/ra-2.md)
 ### SOC 2
 - [CC3.2](../soc2/cc32.md)
 ## Control questions
