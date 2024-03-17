@@ -143,6 +143,27 @@ func GenerateNIST80053Markdown(control NIST80053OSCALControl, scfControlMapping 
 }
 
 func GenerateNIST80053Index(nist80053Framework NIST80053Framework) error {
+	f, err := os.Create("nist80053/index.md")
+	if err != nil {
+		return err
+	}
+	doc := md.NewMarkdown(f).
+		H1("NIST 800-53 v5 Controls")
+
+	for _, controls := range nist80053Framework.Families {
+		doc.H2(fmt.Sprintf("%s - %s", strings.ToUpper(controls.ID), controls.Title))
+		controlLinks := []string{}
+		for _, control := range controls.Controls {
+			controlLinks = append(controlLinks, fmt.Sprintf("[%s - %s](%s.md)", strings.ToUpper(control.ID), control.Title, safeFileName(string(control.ID))))
+			for _, subControl := range control.Controls {
+				controlLinks = append(controlLinks, fmt.Sprintf("[%s - %s](%s.md)", strings.ToUpper(subControl.ID), subControl.Title, safeFileName(string(subControl.ID))))
+			}
+		}
+		doc.BulletList(controlLinks...)
+	}
+	//slices.Sort(controlLinks)
+
+	doc.Build()
 	return nil
 }
 
