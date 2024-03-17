@@ -19,6 +19,7 @@ func main() {
 		internal.GenerateSCFMarkdown(scfControls[scfControlID], scfControlID, controlMapping)
 	}
 	internal.GenerateSCFIndex(scfControlMappings, scfControls)
+
 	soc2Link := "https://raw.githubusercontent.com/prowler-cloud/prowler/main/prowler/compliance/aws/soc2_aws.json"
 	soc2Framework, err := internal.GetSOC2Controls(soc2Link, getFile)
 	if err != nil {
@@ -30,7 +31,6 @@ func main() {
 			log.Fatal(err)
 		}
 	}
-
 	internal.GenerateSOC2Index(soc2Framework)
 
 	gdprLink := "https://raw.githubusercontent.com/enterpriseready/enterpriseready/master/content/gdpr/gdpr-abridged.md"
@@ -51,6 +51,7 @@ func main() {
 
 	iso27001 := internal.Framework("ISO 27001")
 	iso27002 := internal.Framework("ISO 27002")
+
 	iso27001Link := "https://raw.githubusercontent.com/JupiterOne/security-policy-templates/main/templates/standards/iso-iec-27001-2022.json"
 	iso27001Framework, err := internal.GetISOControls(iso27001, iso27001Link, getFile)
 	if err != nil {
@@ -62,7 +63,6 @@ func main() {
 			log.Fatal(err)
 		}
 	}
-
 	internal.GenerateISOIndex(iso27001, iso27001Framework)
 
 	iso27002Link := "https://raw.githubusercontent.com/JupiterOne/security-policy-templates/main/templates/standards/iso-27002-2022.json"
@@ -76,11 +76,10 @@ func main() {
 			log.Fatal(err)
 		}
 	}
-
 	internal.GenerateISOIndex(iso27002, iso27002Framework)
 
 	nist80053Link := "https://raw.githubusercontent.com/GSA/fedramp-automation/master/dist/content/rev5/baselines/json/FedRAMP_rev5_MODERATE-baseline-resolved-profile_catalog.json"
-	nist80053Framework, err := internal.GetNIST80053Controls(nist80053Link, true)
+	nist80053Framework, err := internal.GetNIST80053Controls(nist80053Link, getFile)
 	if err != nil {
 		log.Fatal(err)
 	}

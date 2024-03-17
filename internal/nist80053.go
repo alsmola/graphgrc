@@ -14,12 +14,6 @@ import (
 	md "github.com/go-spectest/markdown"
 )
 
-// type NIST80053Control struct {
-// 	ID    string `json:"id"`
-// 	Title string `json:"title"`
-// 	Body  string `json:"body"`
-// }
-
 type NIST80053ControlFamily struct {
 	ID       string `json:"id"`
 	Title    string `json:"title"`

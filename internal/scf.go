@@ -69,6 +69,40 @@ var SupportedFrameworks = map[Framework]ControlHeader{
 	// "HIPAA":       "US HIPAA",
 }
 
+var SCFControlFamilyMapping = map[string]string{
+	"AAT": "Artificial and Autonomous Technology",
+	"AST": "Asset Management",
+	"BCD": "Business Continuity & Disaster Recovery",
+	"CAP": "Capacity & Performance Planning",
+	"CHG": "Change Management",
+	"CLD": "Cloud Security",
+	"CFG": "Configuration Management",
+	"CRY": "Cryptographic Protections",
+	"DCH": "Data Classification & Handling",
+	"EMB": "Embedded Technology",
+	"END": "Endpoint Security",
+	"GOV": "Cybersecurity & Data Privacy Governance",
+	"HRS": "Human Resources Security",
+	"IAO": "Information Assurance",
+	"IAC": "Identification & Authentication",
+	"IRO": "Incident Response",
+	"MON": "Continuous Monitoring",
+	"MNT": "Maintenance",
+	"MDM": "Mobile Device Management",
+	"NET": "Network Security",
+	"OPS": "Security Operations",
+	"PRI": "Data Privacy",
+	"PRM": "Project & Resource Management",
+	"RSK": "Risk Management",
+	"SAT": "Security Awareness & Training",
+	"SEA": "Secure Engineering & Architecture",
+	"TDA": "Technology Development & Acquisition",
+	"THR": "Threat Management",
+	"TPM": "Third-Party Management",
+	"VPM": "Vulnerability & Patch Management",
+	"WEB": "Web Security",
+}
+
 func ReturnSCFControls(url string, getFile bool) (SCFControls, error) {
 	controls := map[SCFControlID]Control{}
 	if getFile {
@@ -239,12 +273,31 @@ func GenerateSCFIndex(scfControlMappings SCFControlMappings, scfControls SCFCont
 	}
 	doc := md.NewMarkdown(f).
 		H1("SCF Controls")
-	controlLinks := []string{}
+
+	controlIDs := []string{}
 	for scfControlID, _ := range scfControlMappings {
-		controlLinks = append(controlLinks, fmt.Sprintf("[%s](%s.md)", scfControlID, safeFileName(string(scfControlID))))
+		controlIDs = append(controlIDs, string(scfControlID))
 	}
-	slices.Sort(controlLinks)
-	doc.BulletList(controlLinks...)
+	slices.Sort(controlIDs)
+	controlLinks := []string{}
+	lastControlFamily := ""
+	for _, controlID := range controlIDs {
+		family := ""
+		for fam, _ := range SCFControlFamilyMapping {
+			if strings.HasPrefix(controlID, fam) {
+				family = fam
+			}
+		}
+		if family != lastControlFamily {
+			if lastControlFamily != "" {
+				doc.BulletList(controlLinks...)
+			}
+			lastControlFamily = family
+			doc.H2(fmt.Sprintf("%s - %s", family, SCFControlFamilyMapping[family]))
+			controlLinks = []string{fmt.Sprintf("[%s](%s.md)", controlID, safeFileName(string(controlID)))}
+		}
+		controlLinks = append(controlLinks, fmt.Sprintf("[%s](%s.md)", controlID, safeFileName(string(controlID))))
+	}
 	doc.Build()
 	return nil
 }
