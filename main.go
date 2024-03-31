@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/alsmola/compliance-mapper/internal"
+	"github.com/alsmola/graphgrc/internal"
 )
 
 func main() {
