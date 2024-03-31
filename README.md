@@ -1,6 +1,11 @@
-# Compliance Mapper
+# GraphGRC
 
-Use [Secure Controls Framework (SCF)](https://securecontrolsframework.com/) to connect and understand all of the applicable framework controls for your security program.
+GraphGRC is data-driven documentation for a GRC program.
+
+- Semantic: GRC program requirements (SOC 2, ISO 27001, GDPR, etc.) parsed, structured, and redered with Markdown
+- Linkable: Combine different controls with the [Secure Controls Framework (SCF)](https://securecontrolsframework.com/) 
+
+Use to connect and understand all of the applicable framework controls for your security program.
 
 See the default selected frameworks:
 
@@ -10,7 +15,7 @@ See the default selected frameworks:
 - [ISO 27002](iso27002/index.md)
 - [NIST 800-53](nist80053/index.md)
 
-Applicable SCF controls:
+See the one single SCF control set that maps all frameworks:
 
 - [SCF](scf/index.md)
 
