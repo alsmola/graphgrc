@@ -129,12 +129,14 @@ func GenerateGDPRMarkdown(gdprArticle GDPRArticle, scfControlMapping SCFControlM
 	doc := md.NewMarkdown(f).
 		H1(fmt.Sprintf("GDPR - %s", string(gdprArticle.ID))).
 		H2(gdprArticle.Title).
-		PlainText(gdprArticle.Body)
+		PlainText(gdprArticle.Body).
+		LF()
 
 	for _, gdprSubArticle := range gdprArticle.Subarticles {
 		scfSubArticle := strings.ReplaceAll(string(gdprSubArticle.ID), "Article", "Art")
 		doc.H2(gdprSubArticle.ID).
-			PlainText(gdprSubArticle.Body + "\n")
+			PlainText(gdprSubArticle.Body).
+			LF()
 		fcids := []string{}
 		for scfID, controlMapping := range scfControlMapping {
 			soc2FrameworkControlIDs := controlMapping["GDPR"]
@@ -147,7 +149,8 @@ func GenerateGDPRMarkdown(gdprArticle GDPRArticle, scfControlMapping SCFControlM
 		if len(fcids) > 0 {
 			slices.Sort(fcids)
 			doc.H3("Mapped SCF controls").
-				BulletList(fcids...)
+				BulletList(fcids...).
+				LF()
 		}
 
 	}

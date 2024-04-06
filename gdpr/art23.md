@@ -1,6 +1,7 @@
 # GDPR - Article 23
 ## Restrictions
 
+  
 ## Article 23.1
 Union or Member State law to which the data controller or processor is subject may restrict by way of a legislative measure the scope of the obligations and rights provided for in Articles 12 to 22 and Article 34, as well as Article 5 in so far as its provisions correspond to the rights and obligations provided for in Articles 12 to 22, when such a restriction respects the essence of the fundamental rights and freedoms and is a necessary and proportionate measure in a democratic society to safeguard:
 (a) national security;
@@ -13,9 +14,10 @@ Union or Member State law to which the data controller or processor is subject 
 (h) a monitoring, inspection or regulatory function connected, even occasionally, to the exercise of official authority in the cases referred to in points (a)  to (e)  and (g) ;
 (i) the protection of the data subject or the rights and freedoms of others;
 (j) the enforcement of civil law claims.
-
+  
 ### Mapped SCF controls
 - [CPL-01 - Statutory, Regulatory & Contractual Compliance](../scf/cpl-01-statutory,regulatory&contractualcompliance.md)
+  
 ## Article 23.2
 In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to:
 (a) the purposes of the processing or categories of processing;
@@ -30,6 +32,7 @@ In particular, any legislative measure referred to in paragraph 1 shall contain 
 ###Controller and processor
 <span class="expanded">Section 1
 <span class="bold"><span class="expanded">General obligations
-
+  
 ### Mapped SCF controls
 - [CPL-01 - Statutory, Regulatory & Contractual Compliance](../scf/cpl-01-statutory,regulatory&contractualcompliance.md)
+  

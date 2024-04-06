@@ -1,6 +1,7 @@
 # GDPR - Article 5
 ## Principles relating to processing of personal data
 
+  
 ## Article 5.1
 Personal data shall be:
 (a) processed lawfully, fairly and in a transparent manner in relation to the data subject (‘lawfulness, fairness and transparency’);
@@ -9,7 +10,7 @@ Personal data shall be:
 (d) accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed, are erased or rectified without delay (‘accuracy’);
 (e) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) subject to implementation of the appropriate technical and organisational measures required by this Regulation in order to safeguard the rights and freedoms of the data subject (‘storage limitation’);
 (f) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (‘integrity and confidentiality’).
-
+  
 ### Mapped SCF controls
 - [CRY-01 - Use of Cryptographic Controls](../scf/cry-01-useofcryptographiccontrols.md)
 - [CRY-03 - Transmission Confidentiality](../scf/cry-03-transmissionconfidentiality.md)
@@ -33,12 +34,14 @@ Personal data shall be:
 - [PRI-12 - Updating Personal Data (PD)](../scf/pri-12-updatingpersonaldata(pd).md)
 - [PRI-13 - Data Management Board](../scf/pri-13-datamanagementboard.md)
 - [VPM-04.2 - Flaw Remediation with Personal Data (PD)](../scf/vpm-042-flawremediationwithpersonaldata(pd).md)
+  
 ## Article 5.2
 The controller shall be responsible for, and be able to demonstrate compliance with, paragraph 1 (‘accountability’).
-
+  
 ### Mapped SCF controls
 - [CPL-02 - Cybersecurity & Data Protection Controls Oversight](../scf/cpl-02-cybersecurity&dataprotectioncontrolsoversight.md)
 - [CPL-03 - Cybersecurity & Data Protection Assessments](../scf/cpl-03-cybersecurity&dataprotectionassessments.md)
 - [END-13.1 - Authorized Use](../scf/end-131-authorizeduse.md)
 - [SEA-01 - Secure Engineering Principles](../scf/sea-01-secureengineeringprinciples.md)
 - [SEA-01.1 - Centralized Management of Cybersecurity & Data Privacy Controls](../scf/sea-011-centralizedmanagementofcybersecurity&dataprivacycontrols.md)
+  
