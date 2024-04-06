@@ -10,6 +10,7 @@ Each controller and, where applicable, the controller's representative, shall ma
 (e) where applicable, transfers of personal data to a third country or an international organisation, including the identification of that third country or international organisation and, in the case of transfers referred to in the second subparagraph of Article 49(1), the documentation of suitable safeguards;
 (f) where possible, the envisaged time limits for erasure of the different categories of data;
 (g) where possible, a general description of the technical and organisational security measures referred to in Article 32(1).
+
 ### Mapped SCF controls
 - [AST-04 - Network Diagrams & Data Flow Diagrams (DFDs)](../scf/ast-04-networkdiagrams&dataflowdiagrams(dfds).md)
 - [PRI-09 - Personal Data Lineage](../scf/pri-09-personaldatalineage.md)
@@ -21,6 +22,7 @@ Each processor and, where applicable, the processor's representative shall maint
 (b) the categories of processing carried out on behalf of each controller;
 (c) where applicable, transfers of personal data to a third country or an international organisation, including the identification of that third country or international organisation and, in the case of transfers referred to in the second subparagraph of Article 49(1), the documentation of suitable safeguards;
 (d) where possible, a general description of the technical and organisational security measures referred to in Article 32(1).
+
 ### Mapped SCF controls
 - [AST-04 - Network Diagrams & Data Flow Diagrams (DFDs)](../scf/ast-04-networkdiagrams&dataflowdiagrams(dfds).md)
 - [PRI-09 - Personal Data Lineage](../scf/pri-09-personaldatalineage.md)
@@ -28,6 +30,7 @@ Each processor and, where applicable, the processor's representative shall maint
 - [PRI-14.1 - Accounting of Disclosures](../scf/pri-141-accountingofdisclosures.md)
 ## Article 30.3
 The records referred to in paragraphs 1 and 2 shall be in writing, including in electronic form.
+
 ### Mapped SCF controls
 - [AST-04 - Network Diagrams & Data Flow Diagrams (DFDs)](../scf/ast-04-networkdiagrams&dataflowdiagrams(dfds).md)
 - [PRI-09 - Personal Data Lineage](../scf/pri-09-personaldatalineage.md)
@@ -35,6 +38,7 @@ The records referred to in paragraphs 1 and 2 shall be in writing, including in 
 - [PRI-14.1 - Accounting of Disclosures](../scf/pri-141-accountingofdisclosures.md)
 ## Article 30.4
 The controller or the processor and, where applicable, the controller's or the processor's representative, shall make the record available to the supervisory authority on request.
+
 ### Mapped SCF controls
 - [AST-04 - Network Diagrams & Data Flow Diagrams (DFDs)](../scf/ast-04-networkdiagrams&dataflowdiagrams(dfds).md)
 - [PRI-09 - Personal Data Lineage](../scf/pri-09-personaldatalineage.md)
@@ -43,6 +47,7 @@ The controller or the processor and, where applicable, the controller's or the p
 - [PRI-15 - Register As A Data Controller and/or Data Processor](../scf/pri-15-registerasadatacontrollerand/ordataprocessor.md)
 ## Article 30.5
 The obligations referred to in paragraphs 1 and 2 shall not apply to an enterprise or an organisation employing fewer than 250 persons unless the processing it carries out is likely to result in a risk to the rights and freedoms of data subjects, the processing is not occasional, or the processing includes special categories of data as referred to in Article 9(1) or personal data relating to criminal convictions and offences referred to in Article 10.
+
 ### Mapped SCF controls
 - [AST-04 - Network Diagrams & Data Flow Diagrams (DFDs)](../scf/ast-04-networkdiagrams&dataflowdiagrams(dfds).md)
 - [PRI-09 - Personal Data Lineage](../scf/pri-09-personaldatalineage.md)

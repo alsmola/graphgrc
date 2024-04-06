@@ -6,6 +6,7 @@ The competent supervisory authority shall approve binding corporate rules in acc
 (a) are legally binding and apply to and are enforced by every member concerned of the group of undertakings, or group of enterprises engaged in a joint economic activity, including their employees;
 (b) expressly confer enforceable rights on data subjects with regard to the processing of their personal data; and
 (c) fulfil the requirements laid down in paragraph 2.
+
 ### Mapped SCF controls
 - [DCH-24 - Information Location](../scf/dch-24-informationlocation.md)
 - [DCH-25 - Transfer of Sensitive and/or Regulated Data](../scf/dch-25-transferofsensitiveand/orregulateddata.md)
@@ -28,6 +29,7 @@ The binding corporate rules referred to in paragraph 1 shall specify at least:
 (l) the cooperation mechanism with the supervisory authority to ensure compliance by any member of the group of undertakings, or group of enterprises engaged in a joint economic activity, in particular by making available to the supervisory authority the results of verifications of the measures referred to in point (j) ;
 (m) the mechanisms for reporting to the competent supervisory authority any legal requirements to which a member of the group of undertakings, or group of enterprises engaged in a joint economic activity is subject in a third country which are likely to have a substantial adverse effect on the guarantees provided by the binding corporate rules; and
 (n) the appropriate data protection training to personnel having permanent or regular access to personal data.
+
 ### Mapped SCF controls
 - [DCH-24 - Information Location](../scf/dch-24-informationlocation.md)
 - [DCH-25 - Transfer of Sensitive and/or Regulated Data](../scf/dch-25-transferofsensitiveand/orregulateddata.md)

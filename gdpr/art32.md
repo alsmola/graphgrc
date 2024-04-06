@@ -7,6 +7,7 @@ Taking into account the state of the art, the costs of implementation and the na
 (b) the ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services;
 (c) the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident;
 (d) a process for regularly testing, assessing and evaluating the effectiveness of technical and organisational measures for ensuring the security of the processing.
+
 ### Mapped SCF controls
 - [AST-01 - Asset Governance](../scf/ast-01-assetgovernance.md)
 - [BCD-01 - Business Continuity Management System (BCMS)](../scf/bcd-01-businesscontinuitymanagementsystem(bcms).md)
@@ -47,6 +48,7 @@ Taking into account the state of the art, the costs of implementation and the na
 - [WEB-02 - Use of Demilitarized Zones (DMZ)](../scf/web-02-useofdemilitarizedzones(dmz).md)
 ## Article 32.2
 In assessing the appropriate level of security account shall be taken in particular of the risks that are presented by processing, in particular from accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to personal data transmitted, stored or otherwise processed.
+
 ### Mapped SCF controls
 - [AST-01 - Asset Governance](../scf/ast-01-assetgovernance.md)
 - [BCD-01 - Business Continuity Management System (BCMS)](../scf/bcd-01-businesscontinuitymanagementsystem(bcms).md)
@@ -87,6 +89,7 @@ In assessing the appropriate level of security account shall be taken in particu
 - [WEB-02 - Use of Demilitarized Zones (DMZ)](../scf/web-02-useofdemilitarizedzones(dmz).md)
 ## Article 32.3
 Adherence to an approved code of conduct as referred to in Article 40 or an approved certification mechanism as referred to in Article 42 may be used as an element by which to demonstrate compliance with the requirements set out in paragraph 1 of this Article.
+
 ### Mapped SCF controls
 - [CPL-01 - Statutory, Regulatory & Contractual Compliance](../scf/cpl-01-statutory,regulatory&contractualcompliance.md)
 - [CPL-03 - Cybersecurity & Data Protection Assessments](../scf/cpl-03-cybersecurity&dataprotectionassessments.md)
@@ -97,6 +100,7 @@ Adherence to an approved code of conduct as referred to in Article 40 or an appr
 - [PRI-01 - Data Privacy Program](../scf/pri-01-dataprivacyprogram.md)
 ## Article 32.4
 The controller and processor shall take steps to ensure that any natural person acting under the authority of the controller or the processor who has access to personal data does not process them except on instructions from the controller, unless he or she is required to do so by Union or Member State law.
+
 ### Mapped SCF controls
 - [CPL-01 - Statutory, Regulatory & Contractual Compliance](../scf/cpl-01-statutory,regulatory&contractualcompliance.md)
 - [GOV-01 - Cybersecurity & Data Protection Governance Program](../scf/gov-01-cybersecurity&dataprotectiongovernanceprogram.md)

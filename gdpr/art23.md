@@ -13,6 +13,7 @@ Union or Member State law to which the data controller or processor is subject 
 (h) a monitoring, inspection or regulatory function connected, even occasionally, to the exercise of official authority in the cases referred to in points (a)  to (e)  and (g) ;
 (i) the protection of the data subject or the rights and freedoms of others;
 (j) the enforcement of civil law claims.
+
 ### Mapped SCF controls
 - [CPL-01 - Statutory, Regulatory & Contractual Compliance](../scf/cpl-01-statutory,regulatory&contractualcompliance.md)
 ## Article 23.2
@@ -29,5 +30,6 @@ In particular, any legislative measure referred to in paragraph 1 shall contain 
 ###Controller and processor
 <span class="expanded">Section 1
 <span class="bold"><span class="expanded">General obligations
+
 ### Mapped SCF controls
 - [CPL-01 - Statutory, Regulatory & Contractual Compliance](../scf/cpl-01-statutory,regulatory&contractualcompliance.md)

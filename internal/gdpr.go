@@ -73,14 +73,7 @@ func GetGDPRControls(url string, getFile bool) (GDPRFramework, error) {
 					regex := regexp.MustCompile(regexPattern)
 					subArticleMatches := regex.FindStringSubmatch(line)
 					if len(subArticleMatches) > 0 {
-						// subArticleIDMatch, err := strconv.Atoi(subArticleMatches[1])
-						// if err != nil {
-						// 	log.Fatal("Bad subarticle ID", subArticleMatches[1])
-						// }
-						// subArticleID = subArticleIDMatch - 1
-						//if len(article.Subarticles) != subArticleID {
 						subArticleID = len(article.Subarticles)
-						// }
 						body := strings.ReplaceAll(line, fmt.Sprintf("%s. ", strconv.Itoa(subArticleID+1)), "")
 						subarticle := GDPRSubarticle{
 							ID:   fmt.Sprintf("%s.%d", article.ID, subArticleID+1),
@@ -141,7 +134,7 @@ func GenerateGDPRMarkdown(gdprArticle GDPRArticle, scfControlMapping SCFControlM
 	for _, gdprSubArticle := range gdprArticle.Subarticles {
 		scfSubArticle := strings.ReplaceAll(string(gdprSubArticle.ID), "Article", "Art")
 		doc.H2(gdprSubArticle.ID).
-			PlainText(gdprSubArticle.Body)
+			PlainText(gdprSubArticle.Body + "\n")
 		fcids := []string{}
 		for scfID, controlMapping := range scfControlMapping {
 			soc2FrameworkControlIDs := controlMapping["GDPR"]

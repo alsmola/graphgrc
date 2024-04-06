@@ -3,6 +3,7 @@
 
 ## Article 11.1
 If the purposes for which a controller processes personal data do not or do no longer require the identification of a data subject by the controller, the controller shall not be obliged to maintain, acquire or process additional information in order to identify the data subject for the sole purpose of complying with this Regulation.
+
 ### Mapped SCF controls
 - [IAC-09.6 - Pairwise Pseudonymous Identifiers (PPID)](../scf/iac-096-pairwisepseudonymousidentifiers(ppid).md)
 - [PRI-05.1 - Internal Use of Personal Data For Testing, Training and Research](../scf/pri-051-internaluseofpersonaldatafortesting,trainingandresearch.md)
@@ -13,5 +14,6 @@ Where, in cases referred to in paragraph 1 of this Article, the controller is ab
 ###Rights of the data subject
 <span class="expanded">Section 1
 <span class="bold"><span class="expanded">Transparency and modalities
+
 ### Mapped SCF controls
 - [PRI-02 - Data Privacy Notice](../scf/pri-02-dataprivacynotice.md)
