@@ -147,8 +147,10 @@ func GenerateSOC2Index(soc2Framework FrameworkSummary) error {
 	doc := md.NewMarkdown(f).
 		H1("SOC2 Controls")
 	controlLinks := []string{}
-	for _, requirements := range soc2Framework.Requirements {
-		controlLinks = append(controlLinks, fmt.Sprintf("[%s](%s.md)", requirements.Name, safeFileName(string(requirements.ID))))
+	for _, requirement := range soc2Framework.Requirements {
+		id := strings.ReplaceAll(requirement.ID, "cc_a", "a")
+		id = strings.ReplaceAll(id, "cc_c", "c")
+		controlLinks = append(controlLinks, fmt.Sprintf("[%s](%s.md)", requirement.Name, safeFileName(id)))
 	}
 	slices.Sort(controlLinks)
 	doc.BulletList(controlLinks...)

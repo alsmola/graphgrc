@@ -1,4 +1,4 @@
-# SCF - %!S(string=IAO-06 - Technical Verification)
+# SCF - IAO-06 - Technical Verification
 Mechanisms exist to perform Information Assurance Program (IAP) activities to evaluate the design, implementation and effectiveness of technical cybersecurity & data privacy controls.
 ## Mapped framework controls
 ### NIST 800-53

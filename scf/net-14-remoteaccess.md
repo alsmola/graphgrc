@@ -1,4 +1,4 @@
-# SCF - %!S(string=NET-14 - Remote Access)
+# SCF - NET-14 - Remote Access
 Mechanisms exist to define, control and review organization-approved, secure remote access methods.
 ## Mapped framework controls
 ### ISO 27002

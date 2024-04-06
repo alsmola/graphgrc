@@ -1,4 +1,4 @@
-# SCF - %!S(string=SEA-10 - Memory Protection)
+# SCF - SEA-10 - Memory Protection
 Mechanisms exist to implement security safeguards to protect system memory from unauthorized code execution. 
 ## Mapped framework controls
 ### NIST 800-53

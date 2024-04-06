@@ -1,4 +1,4 @@
-# SCF - %!S(string=CLD-04 - Application & Program Interface (API) Security)
+# SCF - CLD-04 - Application & Program Interface (API) Security
 Mechanisms exist to ensure support for secure interoperability between components with Application & Program Interfaces (APIs).
 ## Mapped framework controls
 ### ISO 27002

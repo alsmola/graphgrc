@@ -1,4 +1,4 @@
-# SCF - %!S(string=CFG-01 - Configuration Management Program)
+# SCF - CFG-01 - Configuration Management Program
 Mechanisms exist to facilitate the implementation of configuration management controls.
 ## Mapped framework controls
 ### GDPR

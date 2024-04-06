@@ -1,4 +1,4 @@
-# SCF - %!S(string=NET-14.3 - Managed Access Control Points)
+# SCF - NET-14.3 - Managed Access Control Points
 Mechanisms exist to route all remote accesses through managed network access control points (e.g., VPN concentrator).
 ## Mapped framework controls
 ### NIST 800-53

@@ -1,4 +1,4 @@
-# SCF - %!S(string=TDA-07 - Secure Development Environments)
+# SCF - TDA-07 - Secure Development Environments
 Mechanisms exist to maintain a segmented development network to ensure a secure development environment. 
 ## Mapped framework controls
 ### ISO 27002

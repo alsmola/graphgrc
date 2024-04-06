@@ -1,4 +1,4 @@
-# SCF - %!S(string=EMB-01 - Embedded Technology Security Program)
+# SCF - EMB-01 - Embedded Technology Security Program
 Mechanisms exist to facilitate the implementation of embedded technology controls. 
 ## Mapped framework controls
 ### GDPR

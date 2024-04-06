@@ -1,4 +1,4 @@
-# SCF - %!S(string=PES-03.3 - Physical Access Logs)
+# SCF - PES-03.3 - Physical Access Logs
 Physical access control mechanisms exist to generate a log entry for each access through controlled ingress and egress points.
 ## Mapped framework controls
 ### ISO 27002

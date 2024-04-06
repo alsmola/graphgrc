@@ -1,4 +1,4 @@
-# SCF - %!S(string=IAC-03.3 - Use of FICAM-Issued Profiles)
+# SCF - IAC-03.3 - Use of FICAM-Issued Profiles
 Mechanisms exist to conform systems to Federal Identity, Credential and Access Management (FICAM)-issued profiles. 
 ## Mapped framework controls
 ### NIST 800-53

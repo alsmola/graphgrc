@@ -1,4 +1,4 @@
-# SCF - %!S(string=CFG-03.2 - Prevent Unauthorized Software Execution)
+# SCF - CFG-03.2 - Prevent Unauthorized Software Execution
 Mechanisms exist to configure systems to prevent the execution of unauthorized software programs. 
 ## Mapped framework controls
 ### NIST 800-53

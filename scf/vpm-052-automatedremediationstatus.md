@@ -1,4 +1,4 @@
-# SCF - %!S(string=VPM-05.2 - Automated Remediation Status)
+# SCF - VPM-05.2 - Automated Remediation Status
 Automated mechanisms exist to determine the state of system components with regard to flaw remediation. 
 ## Mapped framework controls
 ### NIST 800-53

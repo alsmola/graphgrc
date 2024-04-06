@@ -1,4 +1,4 @@
-# SCF - %!S(string=MON-01.4 - System Generated Alerts)
+# SCF - MON-01.4 - System Generated Alerts
 Mechanisms exist to monitor, correlate and respond to alerts from physical, cybersecurity, data privacy and supply chain activities to achieve integrated situational awareness. 
 ## Mapped framework controls
 ### ISO 27002

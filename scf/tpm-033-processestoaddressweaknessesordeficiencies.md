@@ -1,4 +1,4 @@
-# SCF - %!S(string=TPM-03.3 - Processes To Address Weaknesses or Deficiencies)
+# SCF - TPM-03.3 - Processes To Address Weaknesses or Deficiencies
 Mechanisms exist to address identified weaknesses or deficiencies in the security of the supply chain 
 ## Mapped framework controls
 ### ISO 27002

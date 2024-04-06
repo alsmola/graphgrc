@@ -1,4 +1,4 @@
-# SCF - %!S(string=TDA-11.1 - Anti-Counterfeit Training)
+# SCF - TDA-11.1 - Anti-Counterfeit Training
 Mechanisms exist to train personnel to detect counterfeit system components, including hardware, software and firmware. 
 ## Mapped framework controls
 ### NIST 800-53

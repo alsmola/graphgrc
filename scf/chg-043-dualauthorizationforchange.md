@@ -1,4 +1,4 @@
-# SCF - %!S(string=CHG-04.3 - Dual Authorization for Change)
+# SCF - CHG-04.3 - Dual Authorization for Change
 Mechanisms exist to enforce a two-person rule for implementing changes to critical assets.
 ## Mapped framework controls
 ### NIST 800-53

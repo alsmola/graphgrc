@@ -1,4 +1,4 @@
-# SCF - %!S(string=HRS-05.3 - Use of Communications Technology)
+# SCF - HRS-05.3 - Use of Communications Technology
 Mechanisms exist to establish usage restrictions and implementation guidance for communications technologies based on the potential to cause damage to systems, if used maliciously. 
 ## Mapped framework controls
 ### ISO 27001

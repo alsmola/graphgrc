@@ -1,4 +1,4 @@
-# SCF - %!S(string=DCH-17 - Ad-Hoc Transfers)
+# SCF - DCH-17 - Ad-Hoc Transfers
 Mechanisms exist to secure ad-hoc exchanges of large digital files with internal or external parties.
 ## Mapped framework controls
 ### ISO 27002

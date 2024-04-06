@@ -1,4 +1,4 @@
-# SCF - %!S(string=IAC-28 - Identity Proofing (Identity Verification))
+# SCF - IAC-28 - Identity Proofing (Identity Verification)
 Mechanisms exist to verify the identity of a user before modifying any permissions or authentication factor.
 ## Mapped framework controls
 ### NIST 800-53

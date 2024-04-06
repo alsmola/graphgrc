@@ -1,4 +1,4 @@
-# SCF - %!S(string=SEA-06 - Prevent Program Execution)
+# SCF - SEA-06 - Prevent Program Execution
 Automated mechanisms exist to prevent the execution of unauthorized software programs. 
 ## Mapped framework controls
 ### NIST 800-53

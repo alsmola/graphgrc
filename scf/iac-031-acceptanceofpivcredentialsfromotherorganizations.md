@@ -1,4 +1,4 @@
-# SCF - %!S(string=IAC-03.1 - Acceptance of PIV Credentials from Other Organizations)
+# SCF - IAC-03.1 - Acceptance of PIV Credentials from Other Organizations
 Mechanisms exist to accept and electronically verify Personal Identity Verification (PIV) credentials from third-parties.
 ## Mapped framework controls
 ### NIST 800-53

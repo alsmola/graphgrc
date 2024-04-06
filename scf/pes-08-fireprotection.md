@@ -1,4 +1,4 @@
-# SCF - %!S(string=PES-08 - Fire Protection)
+# SCF - PES-08 - Fire Protection
 Facility security mechanisms exist to utilize and maintain fire suppression and detection devices/systems for the system that are supported by an independent energy source. 
 ## Mapped framework controls
 ### NIST 800-53

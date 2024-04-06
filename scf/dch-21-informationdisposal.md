@@ -1,4 +1,4 @@
-# SCF - %!S(string=DCH-21 - Information Disposal)
+# SCF - DCH-21 - Information Disposal
 Mechanisms exist to securely dispose of, destroy or erase information.
 ## Mapped framework controls
 ### ISO 27002

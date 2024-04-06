@@ -1,4 +1,4 @@
-# SCF - %!S(string=TDA-05 - Developer Architecture & Design)
+# SCF - TDA-05 - Developer Architecture & Design
 Mechanisms exist to require the developers of systems, system components or services to produce a design specification and security architecture that: 
  - Is consistent with and supportive of the organization’s security architecture which is established within and is an integrated part of the organization’s enterprise architecture;
  - Accurately and completely describes the required security functionality and the allocation of security controls among physical and logical components; and

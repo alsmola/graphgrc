@@ -1,4 +1,4 @@
-# SCF - %!S(string=MON-08 - Protection of Event Logs)
+# SCF - MON-08 - Protection of Event Logs
 Mechanisms exist to protect event logs and audit tools from unauthorized access, modification and deletion.
 ## Mapped framework controls
 ### ISO 27002

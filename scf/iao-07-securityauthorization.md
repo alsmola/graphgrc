@@ -1,4 +1,4 @@
-# SCF - %!S(string=IAO-07 - Security Authorization)
+# SCF - IAO-07 - Security Authorization
 Mechanisms exist to ensure systems, projects and services are officially authorized prior to "go live" in a production environment.
 ## Mapped framework controls
 ### NIST 800-53

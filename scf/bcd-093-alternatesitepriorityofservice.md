@@ -1,4 +1,4 @@
-# SCF - %!S(string=BCD-09.3 - Alternate Site Priority of Service)
+# SCF - BCD-09.3 - Alternate Site Priority of Service
 Mechanisms exist to address priority-of-service provisions in alternate processing and storage sites that support availability requirements, including Recovery Time Objectives (RTOs). 
 ## Mapped framework controls
 ### NIST 800-53

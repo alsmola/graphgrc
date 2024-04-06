@@ -1,4 +1,4 @@
-# SCF - %!S(string=PRI-01.2 - Privacy Act Statements)
+# SCF - PRI-01.2 - Privacy Act Statements
 Mechanisms exist to provide additional formal notice to individuals from whom the information is being collected that includes:
  - Notice of the authority of organizations to collect Personal Data (PD); 
  - Whether providing Personal Data (PD) is mandatory or optional; 

@@ -1,4 +1,4 @@
-# SCF - %!S(string=IAC-06.3 - Local Access to Privileged Accounts)
+# SCF - IAC-06.3 - Local Access to Privileged Accounts
 Mechanisms exist to utilize Multi-Factor Authentication (MFA) to authenticate local access for privileged accounts. 
 ## Mapped framework controls
 ### NIST 800-53

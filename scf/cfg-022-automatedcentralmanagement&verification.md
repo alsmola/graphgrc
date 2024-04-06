@@ -1,4 +1,4 @@
-# SCF - %!S(string=CFG-02.2 - Automated Central Management & Verification)
+# SCF - CFG-02.2 - Automated Central Management & Verification
 Automated mechanisms exist to govern and report on baseline configurations of the systems. 
 ## Mapped framework controls
 ### NIST 800-53

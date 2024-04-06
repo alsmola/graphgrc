@@ -1,4 +1,4 @@
-# SCF - %!S(string=NET-09 - Session Integrity)
+# SCF - NET-09 - Session Integrity
 Mechanisms exist to protect the authenticity and integrity of communications sessions. 
 ## Mapped framework controls
 ### NIST 800-53

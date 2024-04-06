@@ -1,4 +1,4 @@
-# SCF - %!S(string=IAC-12 - Cryptographic Module Authentication)
+# SCF - IAC-12 - Cryptographic Module Authentication
 Mechanisms exist to ensure cryptographic modules adhere to applicable statutory, regulatory and contractual requirements for security strength.
 ## Mapped framework controls
 ### NIST 800-53

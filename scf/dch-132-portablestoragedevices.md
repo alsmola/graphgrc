@@ -1,4 +1,4 @@
-# SCF - %!S(string=DCH-13.2 - Portable Storage Devices)
+# SCF - DCH-13.2 - Portable Storage Devices
 Mechanisms exist to restrict or prohibit the use of portable storage devices by users on external systems. 
 ## Mapped framework controls
 ### NIST 800-53

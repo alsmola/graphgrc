@@ -1,4 +1,4 @@
-# SCF - %!S(string=IAC-21.5 - Prohibit Non-Privileged Users from Executing Privileged Functions)
+# SCF - IAC-21.5 - Prohibit Non-Privileged Users from Executing Privileged Functions
 Mechanisms exist to prevent non-privileged users from executing privileged functions to include disabling, circumventing or altering implemented security safeguards / countermeasures. 
 ## Mapped framework controls
 ### NIST 800-53

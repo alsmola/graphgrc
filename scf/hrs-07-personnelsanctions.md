@@ -1,4 +1,4 @@
-# SCF - %!S(string=HRS-07 - Personnel Sanctions)
+# SCF - HRS-07 - Personnel Sanctions
 Mechanisms exist to sanction personnel failing to comply with established security policies, standards and procedures. 
 ## Mapped framework controls
 ### ISO 27002

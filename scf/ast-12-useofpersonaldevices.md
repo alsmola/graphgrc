@@ -1,4 +1,4 @@
-# SCF - %!S(string=AST-12 - Use of Personal Devices)
+# SCF - AST-12 - Use of Personal Devices
 Mechanisms exist to restrict the possession and usage of personally-owned technology devices within organization-controlled facilities.
 ## Mapped framework controls
 ### ISO 27002

@@ -1,4 +1,4 @@
-# SCF - %!S(string=AST-02 - Asset Inventories)
+# SCF - AST-02 - Asset Inventories
 Mechanisms exist to perform inventories of technology assets that:
  - Accurately reflects the current systems, applications and services in use; 
  - Identifies authorized software products, including business justification details;

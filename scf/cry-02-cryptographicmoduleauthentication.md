@@ -1,4 +1,4 @@
-# SCF - %!S(string=CRY-02 - Cryptographic Module Authentication)
+# SCF - CRY-02 - Cryptographic Module Authentication
 Automated mechanisms exist to enable systems to authenticate to a cryptographic module.
 ## Mapped framework controls
 ### NIST 800-53

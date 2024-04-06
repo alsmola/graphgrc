@@ -1,4 +1,4 @@
-# SCF - %!S(string=CHG-05 - Stakeholder Notification of Changes)
+# SCF - CHG-05 - Stakeholder Notification of Changes
 Mechanisms exist to ensure stakeholders are made aware of and understand the impact of proposed changes. 
 ## Mapped framework controls
 ### NIST 800-53

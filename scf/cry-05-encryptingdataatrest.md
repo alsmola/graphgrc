@@ -1,4 +1,4 @@
-# SCF - %!S(string=CRY-05 - Encrypting Data At Rest)
+# SCF - CRY-05 - Encrypting Data At Rest
 Cryptographic mechanisms exist to prevent unauthorized disclosure of data at rest. 
 ## Mapped framework controls
 ### GDPR

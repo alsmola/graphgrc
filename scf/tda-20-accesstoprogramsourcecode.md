@@ -1,4 +1,4 @@
-# SCF - %!S(string=TDA-20 - Access to Program Source Code)
+# SCF - TDA-20 - Access to Program Source Code
 Mechanisms exist to limit privileges to change software resident within software libraries. 
 ## Mapped framework controls
 ### ISO 27002

@@ -1,4 +1,4 @@
-# SCF - %!S(string=IAC-10 - Authenticator Management)
+# SCF - IAC-10 - Authenticator Management
 Mechanisms exist to securely manage authenticators for users and devices.
 ## Mapped framework controls
 ### ISO 27002

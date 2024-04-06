@@ -1,4 +1,4 @@
-# SCF - %!S(string=DCH-12 - Removable Media Security)
+# SCF - DCH-12 - Removable Media Security
 Mechanisms exist to restrict removable media in accordance with data handling and acceptable usage parameters.
 ## Mapped framework controls
 ### ISO 27002

@@ -1,4 +1,4 @@
-# SCF - %!S(string=IRO-13 - Root Cause Analysis (RCA) & Lessons Learned)
+# SCF - IRO-13 - Root Cause Analysis (RCA) & Lessons Learned
 Mechanisms exist to incorporate lessons learned from analyzing and resolving cybersecurity & data privacy incidents to reduce the likelihood or impact of future incidents. 
 ## Mapped framework controls
 ### ISO 27002

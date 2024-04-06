@@ -1,4 +1,4 @@
-# SCF - %!S(string=VPM-06.3 - Privileged Access)
+# SCF - VPM-06.3 - Privileged Access
 Mechanisms exist to implement privileged access authorization for selected vulnerability scanning activities. 
 ## Mapped framework controls
 ### NIST 800-53

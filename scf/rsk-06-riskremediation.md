@@ -1,4 +1,4 @@
-# SCF - %!S(string=RSK-06 - Risk Remediation)
+# SCF - RSK-06 - Risk Remediation
 Mechanisms exist to remediate risks to an acceptable level. 
 ## Mapped framework controls
 ### ISO 27001

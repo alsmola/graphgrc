@@ -1,4 +1,4 @@
-# SCF - %!S(string=AST-06 - Unattended End-User Equipment)
+# SCF - AST-06 - Unattended End-User Equipment
 Mechanisms exist to implement enhanced protection measures for unattended systems to protect against tampering and unauthorized access.
 ## Mapped framework controls
 ### ISO 27002

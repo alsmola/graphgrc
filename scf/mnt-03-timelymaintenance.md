@@ -1,4 +1,4 @@
-# SCF - %!S(string=MNT-03 - Timely Maintenance)
+# SCF - MNT-03 - Timely Maintenance
 Mechanisms exist to obtain maintenance support and/or spare parts for systems within a defined Recovery Time Objective (RTO).
 ## Mapped framework controls
 ### ISO 27002

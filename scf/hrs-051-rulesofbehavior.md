@@ -1,4 +1,4 @@
-# SCF - %!S(string=HRS-05.1 - Rules of Behavior)
+# SCF - HRS-05.1 - Rules of Behavior
 Mechanisms exist to define acceptable and unacceptable rules of behavior for the use of technologies, including consequences for unacceptable behavior.
 ## Mapped framework controls
 ### ISO 27001

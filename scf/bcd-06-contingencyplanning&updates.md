@@ -1,4 +1,4 @@
-# SCF - %!S(string=BCD-06 - Contingency Planning & Updates)
+# SCF - BCD-06 - Contingency Planning & Updates
 Mechanisms exist to keep contingency plans current with business needs, technology changes and feedback from contingency plan testing activities.
 ## Mapped framework controls
 ### NIST 800-53

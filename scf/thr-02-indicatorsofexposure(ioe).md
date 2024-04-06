@@ -1,4 +1,4 @@
-# SCF - %!S(string=THR-02 - Indicators of Exposure (IOE))
+# SCF - THR-02 - Indicators of Exposure (IOE)
 Mechanisms exist to develop Indicators of Exposure (IOE) to understand the potential attack vectors that attackers could use to attack the organization. 
 ## Mapped framework controls
 ### ISO 27002

@@ -1,4 +1,4 @@
-# SCF - %!S(string=IAC-02.2 - Replay-Resistant Authentication)
+# SCF - IAC-02.2 - Replay-Resistant Authentication
 Automated mechanisms exist to employ replay-resistant authentication.
 ## Mapped framework controls
 ### NIST 800-53

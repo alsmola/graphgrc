@@ -1,4 +1,4 @@
-# SCF - %!S(string=END-01 - Endpoint Security)
+# SCF - END-01 - Endpoint Security
 Mechanisms exist to facilitate the implementation of endpoint security controls.
 ## Mapped framework controls
 ### GDPR

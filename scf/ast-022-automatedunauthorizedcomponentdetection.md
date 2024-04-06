@@ -1,4 +1,4 @@
-# SCF - %!S(string=AST-02.2 - Automated Unauthorized Component Detection)
+# SCF - AST-02.2 - Automated Unauthorized Component Detection
 Automated mechanisms exist to detect and alert upon the detection of unauthorized hardware, software and firmware components.
 ## Mapped framework controls
 ### NIST 800-53

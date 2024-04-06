@@ -1,4 +1,4 @@
-# SCF - %!S(string=SEA-03.2 - Application Partitioning)
+# SCF - SEA-03.2 - Application Partitioning
 Mechanisms exist to separate user functionality from system management functionality. 
 ## Mapped framework controls
 ### NIST 800-53

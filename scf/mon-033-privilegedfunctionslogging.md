@@ -1,4 +1,4 @@
-# SCF - %!S(string=MON-03.3 - Privileged Functions Logging)
+# SCF - MON-03.3 - Privileged Functions Logging
 Mechanisms exist to log and review the actions of users and/or services with elevated privileges.
 ## Mapped framework controls
 ### ISO 27002

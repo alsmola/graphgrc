@@ -1,4 +1,4 @@
-# SCF - %!S(string=DCH-15 - Publicly Accessible Content)
+# SCF - DCH-15 - Publicly Accessible Content
 Mechanisms exist to control publicly-accessible content.
 ## Mapped framework controls
 ### NIST 800-53

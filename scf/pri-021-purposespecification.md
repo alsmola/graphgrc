@@ -1,4 +1,4 @@
-# SCF - %!S(string=PRI-02.1 - Purpose Specification)
+# SCF - PRI-02.1 - Purpose Specification
 Mechanisms exist to identify and document the purpose(s) for which Personal Data (PD) is collected, used, maintained and shared in its data privacy notices.
 ## Mapped framework controls
 ### GDPR

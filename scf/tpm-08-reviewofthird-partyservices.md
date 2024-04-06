@@ -1,4 +1,4 @@
-# SCF - %!S(string=TPM-08 - Review of Third-Party Services)
+# SCF - TPM-08 - Review of Third-Party Services
 Mechanisms exist to monitor, regularly review and audit External Service Providers (ESPs) for compliance with established contractual requirements for cybersecurity & data privacy controls. 
 ## Mapped framework controls
 ### ISO 27002

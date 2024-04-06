@@ -1,4 +1,4 @@
-# SCF - %!S(string=END-08 - Phishing & Spam Protection)
+# SCF - END-08 - Phishing & Spam Protection
 Mechanisms exist to utilize anti-phishing and spam protection technologies to detect and take action on unsolicited messages transported by electronic mail.
 ## Mapped framework controls
 ### NIST 800-53

@@ -1,4 +1,4 @@
-# SCF - %!S(string=SEA-04 - Process Isolation)
+# SCF - SEA-04 - Process Isolation
 Mechanisms exist to implement a separate execution domain for each executing process. 
 ## Mapped framework controls
 ### NIST 800-53

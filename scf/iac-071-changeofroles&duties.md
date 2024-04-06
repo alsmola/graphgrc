@@ -1,4 +1,4 @@
-# SCF - %!S(string=IAC-07.1 - Change of Roles & Duties)
+# SCF - IAC-07.1 - Change of Roles & Duties
 Mechanisms exist to revoke user access rights following changes in personnel roles and duties, if no longer necessary or permitted. 
 ## Mapped framework controls
 ### ISO 27002

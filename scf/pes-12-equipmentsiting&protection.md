@@ -1,4 +1,4 @@
-# SCF - %!S(string=PES-12 - Equipment Siting & Protection)
+# SCF - PES-12 - Equipment Siting & Protection
 Physical security mechanisms exist to locate system components within the facility to minimize potential damage from physical and environmental hazards and to minimize the opportunity for unauthorized access. 
 ## Mapped framework controls
 ### ISO 27002

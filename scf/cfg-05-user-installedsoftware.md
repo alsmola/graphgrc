@@ -1,4 +1,4 @@
-# SCF - %!S(string=CFG-05 - User-Installed Software)
+# SCF - CFG-05 - User-Installed Software
 Mechanisms exist to restrict the ability of non-privileged users to install unauthorized software.
 ## Mapped framework controls
 ### NIST 800-53

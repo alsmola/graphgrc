@@ -1,4 +1,4 @@
-# SCF - %!S(string=TDA-06 - Secure Coding)
+# SCF - TDA-06 - Secure Coding
 Mechanisms exist to develop applications based on secure coding principles. 
 ## Mapped framework controls
 ### ISO 27002

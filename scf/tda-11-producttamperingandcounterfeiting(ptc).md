@@ -1,4 +1,4 @@
-# SCF - %!S(string=TDA-11 - Product Tampering and Counterfeiting (PTC))
+# SCF - TDA-11 - Product Tampering and Counterfeiting (PTC)
 Mechanisms exist to maintain awareness of component authenticity by developing and implementing Product Tampering and Counterfeiting (PTC) practices that include the means to detect and prevent counterfeit components.
 ## Mapped framework controls
 ### NIST 800-53

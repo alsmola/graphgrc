@@ -1,4 +1,4 @@
-# SCF - %!S(string=TPM-03 - Supply Chain Protection)
+# SCF - TPM-03 - Supply Chain Protection
 Mechanisms exist to evaluate security risks associated with the services and product supply chain. 
 ## Mapped framework controls
 ### GDPR

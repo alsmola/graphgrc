@@ -1,4 +1,4 @@
-# SCF - %!S(string=END-03 - Prohibit Installation Without Privileged Status)
+# SCF - END-03 - Prohibit Installation Without Privileged Status
 Automated mechanisms exist to prohibit software installations without explicitly assigned privileged status. 
 ## Mapped framework controls
 ### ISO 27002
