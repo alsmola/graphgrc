@@ -73,7 +73,8 @@ func GenerateISOMarkdown(standard Framework, isoDomain ISODomain, scfControlMapp
 	for _, isoControl := range isoDomain.Controls {
 		doc.H2(isoControl.Ref).
 			PlainText(md.Bold(isoControl.Title) + "\n").
-			PlainText(isoControl.Summary)
+			PlainText(isoControl.Summary).
+			LF()
 		fcids := []string{}
 		for scfID, controlMapping := range scfControlMapping {
 			soc2FrameworkControlIDs := controlMapping[standard]
@@ -95,7 +96,8 @@ func GenerateISOMarkdown(standard Framework, isoDomain ISODomain, scfControlMapp
 		if len(fcids) > 0 {
 			slices.Sort(fcids)
 			doc.H3("Mapped SCF controls").
-				BulletList(fcids...)
+				BulletList(fcids...).
+				LF()
 		}
 	}
 	doc.Build()
