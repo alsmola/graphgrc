@@ -28,36 +28,8 @@ type GDPRSubarticle struct {
 	Body string `json:"body"`
 }
 
-// type GDPRControlLink struct {
-// 	name string
-// 	link string
-// }
-
 func GetGDPRControls(url string, getFile bool) (GDPRFramework, error) {
 	gdprFramework := GDPRFramework{}
-	// file, err := os.Open("gdpr-articles.txt")
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
-	// defer file.Close()
-	// scanner := bufio.NewScanner(file)
-	// for scanner.Scan() {
-	// 	link := scanner.Text()
-	// 	linkName := strings.ReplaceAll(strings.ReplaceAll(strings.ReplaceAll(link, "https://gdpr.eu/", ""), "/", ""), "-", " ")
-	// 	regexPattern := `article\s[0-9]+`
-	// 	regex := regexp.MustCompile(regexPattern)
-	// 	articleMatches := regex.FindStringSubmatch(linkName)
-	// 	caser := cases.Title(language.English)
-	// 	article := caser.String(articleMatches[0])
-	// 	name := caser.String(strings.ReplaceAll(linkName, articleMatches[0]+" ", ""))
-	// 	gdprControls[MakeSCFControlID(article)] = GDPRControlLink{
-	// 		name: name,
-	// 		link: link,
-	// 	}
-	// }
-	// if err := scanner.Err(); err != nil {
-	// 	log.Fatal(err)
-	// }
 	if getFile {
 		resp, err := http.Get(url)
 		if err != nil {
@@ -101,17 +73,17 @@ func GetGDPRControls(url string, getFile bool) (GDPRFramework, error) {
 					regex := regexp.MustCompile(regexPattern)
 					subArticleMatches := regex.FindStringSubmatch(line)
 					if len(subArticleMatches) > 0 {
-						subArticleIDMatch, err := strconv.Atoi(subArticleMatches[1])
-						if err != nil {
-							log.Fatal("Bad subarticle ID", subArticleMatches[1])
-						}
-						subArticleID = subArticleIDMatch - 1
-						if len(article.Subarticles) != subArticleID {
-							subArticleID = len(article.Subarticles)
-						}
+						// subArticleIDMatch, err := strconv.Atoi(subArticleMatches[1])
+						// if err != nil {
+						// 	log.Fatal("Bad subarticle ID", subArticleMatches[1])
+						// }
+						// subArticleID = subArticleIDMatch - 1
+						//if len(article.Subarticles) != subArticleID {
+						subArticleID = len(article.Subarticles)
+						// }
 						body := strings.ReplaceAll(line, fmt.Sprintf("%s. ", strconv.Itoa(subArticleID+1)), "")
 						subarticle := GDPRSubarticle{
-							ID:   fmt.Sprintf("%s.%s", article.ID, subArticleMatches[1]),
+							ID:   fmt.Sprintf("%s.%d", article.ID, subArticleID+1),
 							Body: body,
 						}
 						article.Subarticles = append(article.Subarticles, subarticle)
