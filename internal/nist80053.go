@@ -150,7 +150,8 @@ func GenerateNIST80053Index(nist80053Framework NIST80053Framework) error {
 		for _, control := range controls.Controls {
 			controlLinks = append(controlLinks, fmt.Sprintf("[%s - %s](%s.md)", strings.ToUpper(control.ID), control.Title, safeFileName(string(control.ID))))
 			for _, subControl := range control.Controls {
-				controlLinks = append(controlLinks, fmt.Sprintf("[%s - %s](%s.md)", strings.ToUpper(subControl.ID), subControl.Title, safeFileName(string(subControl.ID))))
+				subControlID := strings.ReplaceAll(subControl.ID, ".", "-")
+				controlLinks = append(controlLinks, fmt.Sprintf("[%s - %s](%s.md)", strings.ToUpper(subControl.ID), subControl.Title, safeFileName(subControlID)))
 			}
 		}
 		doc.BulletList(controlLinks...)
