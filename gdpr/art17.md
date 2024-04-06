@@ -1,4 +1,4 @@
-# Article 17
+# GDPR - Article 17
 ## Right to erasure (‘right to be forgotten’)
 
 ## Article 17.1

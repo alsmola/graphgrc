@@ -1,4 +1,4 @@
-# CM-6 - Configuration Settings
+# NIST 800-53v5 - CM-6 - Configuration Settings
 - Establish and document configuration settings for components employed within the system that reflect the most restrictive mode consistent with operational requirements using \[ Assignment: common secure configurations \];
 - Implement the configuration settings;
 - Identify, document, and approve any deviations from established configuration settings for \[ Assignment: system components \] based on {{ insert: param, cm-06_odp.03 }} ; and

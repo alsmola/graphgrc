@@ -1,4 +1,4 @@
-# NET-08.1 - DMZ Networks
+# SCF - %!S(string=NET-08.1 - DMZ Networks)
 Mechanisms exist to monitor De-Militarized Zone (DMZ) network segments to separate untrusted networks from trusted networks.
 ## Mapped framework controls
 ### ISO 27002

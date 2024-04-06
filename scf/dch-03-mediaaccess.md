@@ -1,4 +1,4 @@
-# DCH-03 - Media Access
+# SCF - %!S(string=DCH-03 - Media Access)
 Mechanisms exist to control and restrict access to digital and non-digital media to authorized individuals. 
 ## Mapped framework controls
 ### ISO 27002

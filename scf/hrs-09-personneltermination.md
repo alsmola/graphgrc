@@ -1,4 +1,4 @@
-# HRS-09 - Personnel Termination
+# SCF - %!S(string=HRS-09 - Personnel Termination)
 Mechanisms exist to govern the termination of individual employment.
 ## Mapped framework controls
 ### ISO 27002

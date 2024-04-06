@@ -1,4 +1,4 @@
-# IRO-06.1 - Coordination with Related Plans
+# SCF - %!S(string=IRO-06.1 - Coordination with Related Plans)
 Mechanisms exist to coordinate incident response testing with organizational elements responsible for related plans. 
 ## Mapped framework controls
 ### ISO 27002

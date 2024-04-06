@@ -1,4 +1,4 @@
-# Article 9
+# GDPR - Article 9
 ## Processing of special categories of personal data
 
 ## Article 9.1

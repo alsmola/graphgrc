@@ -1,4 +1,4 @@
-# Article 40
+# GDPR - Article 40
 ## Codes of conduct
 
 ## Article 40.1

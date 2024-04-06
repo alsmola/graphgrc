@@ -1,4 +1,4 @@
-# HRS-03.1 - User Awareness
+# SCF - %!S(string=HRS-03.1 - User Awareness)
 Mechanisms exist to communicate with users about their roles and responsibilities to maintain a safe and secure working environment.
 ## Mapped framework controls
 ### ISO 27001

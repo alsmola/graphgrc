@@ -1,4 +1,4 @@
-# PES-11 - Alternate Work Site
+# SCF - %!S(string=PES-11 - Alternate Work Site)
 Physical security mechanisms exist to utilize appropriate management, operational and technical controls at alternate work sites.
 ## Mapped framework controls
 ### NIST 800-53

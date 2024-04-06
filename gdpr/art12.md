@@ -1,4 +1,4 @@
-# Article 12
+# GDPR - Article 12
 ## Transparent information, communication and modalities for the exercise of the rights of the data subject
 
 ## Article 12.1

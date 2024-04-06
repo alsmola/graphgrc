@@ -1,4 +1,4 @@
-# PS-8 - Personnel Sanctions
+# NIST 800-53v5 - PS-8 - Personnel Sanctions
 - Employ a formal sanctions process for individuals failing to comply with established information security and privacy policies and procedures; and
 - Notify \[ Assignment: personnel or roles \] within {{ insert: param, ps-08_odp.02 }} when a formal employee sanctions process is initiated, identifying the individual sanctioned and the reason for the sanction.
 ## Guidance

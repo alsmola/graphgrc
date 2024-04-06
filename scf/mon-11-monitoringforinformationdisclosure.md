@@ -1,4 +1,4 @@
-# MON-11 - Monitoring For Information Disclosure
+# SCF - %!S(string=MON-11 - Monitoring For Information Disclosure)
 Mechanisms exist to monitor for evidence of unauthorized exfiltration or disclosure of non-public information. 
 ## Mapped framework controls
 ### ISO 27002

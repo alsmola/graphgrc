@@ -1,4 +1,4 @@
-# CM-7 - Least Functionality
+# NIST 800-53v5 - CM-7 - Least Functionality
 - Configure the system to provide only \[ Assignment: mission-essential capabilities \] ; and
 - Prohibit or restrict the use of the following functions, ports, protocols, software, and/or services: \[ Assignment: organization-defined prohibited or restricted functions, system ports, protocols, software, and/or services \].
 - 

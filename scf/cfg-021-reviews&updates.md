@@ -1,4 +1,4 @@
-# CFG-02.1 - Reviews & Updates
+# SCF - %!S(string=CFG-02.1 - Reviews & Updates)
 Mechanisms exist to review and update baseline configurations:
  - At least annually;
  - When required due to so; or

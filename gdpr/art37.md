@@ -1,4 +1,4 @@
-# Article 37
+# GDPR - Article 37
 ## Designation of the data protection officer
 
 ## Article 37.1

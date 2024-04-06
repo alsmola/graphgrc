@@ -1,4 +1,4 @@
-# SC-7 - Boundary Protection
+# NIST 800-53v5 - SC-7 - Boundary Protection
 - Monitor and control communications at the external managed interfaces to the system and at key internal managed interfaces within the system;
 - Implement subnetworks for publicly accessible system components that are \[ Assignment:  \] separated from internal organizational networks; and
 - Connect to external networks or systems only through managed interfaces consisting of boundary protection devices arranged in accordance with an organizational security and privacy architecture.

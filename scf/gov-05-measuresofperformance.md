@@ -1,4 +1,4 @@
-# GOV-05 - Measures of Performance
+# SCF - %!S(string=GOV-05 - Measures of Performance)
 Mechanisms exist to develop, report and monitor cybersecurity & data privacy program measures of performance.
 ## Mapped framework controls
 ### ISO 27001

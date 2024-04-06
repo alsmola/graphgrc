@@ -1,4 +1,4 @@
-# DCH-08 - Physical Media Disposal
+# SCF - %!S(string=DCH-08 - Physical Media Disposal)
 Mechanisms exist to securely dispose of media when it is no longer required, using formal procedures. 
 ## Mapped framework controls
 ### ISO 27002

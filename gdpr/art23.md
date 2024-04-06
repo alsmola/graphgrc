@@ -1,4 +1,4 @@
-# Article 23
+# GDPR - Article 23
 ## Restrictions
 
 ## Article 23.1

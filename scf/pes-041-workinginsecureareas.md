@@ -1,4 +1,4 @@
-# PES-04.1 - Working in Secure Areas
+# SCF - %!S(string=PES-04.1 - Working in Secure Areas)
 Physical security mechanisms exist to allow only authorized personnel access to secure areas. 
 ## Mapped framework controls
 ### ISO 27002

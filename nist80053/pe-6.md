@@ -1,4 +1,4 @@
-# PE-6 - Monitoring Physical Access
+# NIST 800-53v5 - PE-6 - Monitoring Physical Access
 - Monitor physical access to the facility where the system resides to detect and respond to physical security incidents;
 - Review physical access logs \[ Assignment: frequency \] and upon occurrence of {{ insert: param, pe-06_odp.02 }} ; and
 - Coordinate results of reviews and investigations with the organizational incident response capability.

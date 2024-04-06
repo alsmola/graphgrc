@@ -1,4 +1,4 @@
-# CRY-07 - Wireless Access Authentication & Encryption
+# SCF - %!S(string=CRY-07 - Wireless Access Authentication & Encryption)
 Mechanisms exist to protect wireless access via secure authentication and encryption.
 ## Mapped framework controls
 ### NIST 800-53

@@ -1,4 +1,4 @@
-# Article 28
+# GDPR - Article 28
 ## Processor
 
 ## Article 28.1

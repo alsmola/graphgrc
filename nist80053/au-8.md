@@ -1,4 +1,4 @@
-# AU-8 - Time Stamps
+# NIST 800-53v5 - AU-8 - Time Stamps
 - Use internal system clocks to generate time stamps for audit records; and
 - Record time stamps for audit records that meet \[ Assignment: granularity of time measurement \] and that use Coordinated Universal Time, have a fixed local time offset from Coordinated Universal Time, or that include the local time offset as part of the time stamp.
 ## Guidance

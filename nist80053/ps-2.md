@@ -1,4 +1,4 @@
-# PS-2 - Position Risk Designation
+# NIST 800-53v5 - PS-2 - Position Risk Designation
 - Assign a risk designation to all organizational positions;
 - Establish screening criteria for individuals filling those positions; and
 - Review and update position risk designations \[ Assignment: frequency \].

@@ -1,4 +1,4 @@
-# AST-02.8 - Data Action Mapping
+# SCF - %!S(string=AST-02.8 - Data Action Mapping)
 Mechanisms exist to create and maintain a map of technology assets where sensitive/regulated data is stored, transmitted or processed.
 ## Mapped framework controls
 ### ISO 27002

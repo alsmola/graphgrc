@@ -1,4 +1,4 @@
-# CP-7 - Alternate Processing Site
+# NIST 800-53v5 - CP-7 - Alternate Processing Site
 - Establish an alternate processing site, including necessary agreements to permit the transfer and resumption of \[ Assignment: system operations \] for essential mission and business functions within {{ insert: param, cp-07_odp.02 }} when the primary processing capabilities are unavailable;
 - Make available at the alternate processing site, the equipment and supplies required to transfer and resume operations or put contracts in place to support delivery to the site within the organization-defined time period for transfer and resumption; and
 - Provide controls at the alternate processing site that are equivalent to those at the primary site.

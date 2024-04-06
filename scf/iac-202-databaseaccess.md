@@ -1,4 +1,4 @@
-# IAC-20.2 - Database Access
+# SCF - %!S(string=IAC-20.2 - Database Access)
 Mechanisms exist to restrict access to databases containing sensitive/regulated data to only necessary services or those individuals whose job requires such access. 
 ## Mapped framework controls
 ### ISO 27002

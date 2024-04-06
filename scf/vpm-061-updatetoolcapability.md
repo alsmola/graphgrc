@@ -1,4 +1,4 @@
-# VPM-06.1 - Update Tool Capability
+# SCF - %!S(string=VPM-06.1 - Update Tool Capability)
 Mechanisms exist to update vulnerability scanning tools.
 ## Mapped framework controls
 ### NIST 800-53

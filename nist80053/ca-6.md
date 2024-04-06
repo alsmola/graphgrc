@@ -1,4 +1,4 @@
-# CA-6 - Authorization
+# NIST 800-53v5 - CA-6 - Authorization
 - Assign a senior official as the authorizing official for the system;
 - Assign a senior official as the authorizing official for common controls available for inheritance by organizational systems;
 - Ensure that the authorizing official for the system, before commencing operations:

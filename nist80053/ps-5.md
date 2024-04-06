@@ -1,4 +1,4 @@
-# PS-5 - Personnel Transfer
+# NIST 800-53v5 - PS-5 - Personnel Transfer
 - Review and confirm ongoing operational need for current logical and physical access authorizations to systems and facilities when individuals are reassigned or transferred to other positions within the organization;
 - Initiate \[ Assignment: transfer or reassignment actions \] within {{ insert: param, ps-05_odp.02 }};
 - Modify access authorization as needed to correspond with any changes in operational need due to reassignment or transfer; and

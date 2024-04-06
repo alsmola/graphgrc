@@ -1,4 +1,4 @@
-# HRS-01 - Human Resources Security Management
+# SCF - %!S(string=HRS-01 - Human Resources Security Management)
 Mechanisms exist to facilitate the implementation of personnel security controls.
 ## Mapped framework controls
 ### GDPR

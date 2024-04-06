@@ -1,4 +1,4 @@
-# MNT-06 - Authorized Maintenance Personnel
+# SCF - %!S(string=MNT-06 - Authorized Maintenance Personnel)
 Mechanisms exist to maintain a current list of authorized maintenance organizations or personnel.
 ## Mapped framework controls
 ### NIST 800-53

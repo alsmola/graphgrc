@@ -1,4 +1,4 @@
-# PE-3 - Physical Access Control
+# NIST 800-53v5 - PE-3 - Physical Access Control
 - Enforce physical access authorizations at \[ Assignment: entry and exit points \] by:
 - Maintain physical access audit logs for \[ Assignment: entry or exit points \];
 - Control access to areas within the facility designated as publicly accessible by implementing the following controls: \[ Assignment: physical access controls \];

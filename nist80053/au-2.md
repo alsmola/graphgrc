@@ -1,4 +1,4 @@
-# AU-2 - Event Logging
+# NIST 800-53v5 - AU-2 - Event Logging
 - Identify the types of events that the system is capable of logging in support of the audit function: \[ Assignment: event types \];
 - Coordinate the event logging function with other organizational entities requiring audit-related information to guide and inform the selection criteria for events to be logged;
 - Specify the following event types for logging within the system: \[ Assignment: organization-defined event types (subset of the event types defined in [AU-2a.](#au-2_smt.a)) along with the frequency of (or situation requiring) logging for each identified event type \];

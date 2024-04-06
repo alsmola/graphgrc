@@ -1,4 +1,4 @@
-# CM-8 - System Component Inventory
+# NIST 800-53v5 - CM-8 - System Component Inventory
 - Develop and document an inventory of system components that:
 - Review and update the system component inventory \[ Assignment: frequency \].
 - 

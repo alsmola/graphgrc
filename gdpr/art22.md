@@ -1,4 +1,4 @@
-# Article 22
+# GDPR - Article 22
 ## Automated individual decision-making, including profiling
 
 ## Article 22.1

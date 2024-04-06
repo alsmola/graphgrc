@@ -165,7 +165,7 @@ func GenerateSCFMarkdown(scfControl Control, scfControlID SCFControlID, controlM
 	}
 
 	doc := md.NewMarkdown(f).
-		H1(string(scfControlID)).
+		H1(fmt.Sprintf("SCF - %S", string(scfControlID))).
 		PlainText(string(scfControl[SCFColumnMapping[Description]])).
 		H2("Mapped framework controls")
 

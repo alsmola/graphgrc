@@ -1,4 +1,4 @@
-# GOV-09 - Define Control Objectives
+# SCF - %!S(string=GOV-09 - Define Control Objectives)
 Mechanisms exist to establish control objectives as the basis for the selection, implementation and management of the organization’s internal control system.
 ## Mapped framework controls
 ### ISO 27001

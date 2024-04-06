@@ -1,4 +1,4 @@
-# SEA-07.1 - Technology Lifecycle Management
+# SCF - %!S(string=SEA-07.1 - Technology Lifecycle Management)
 Mechanisms exist to manage the usable lifecycles of technology assets. 
 ## Mapped framework controls
 ### NIST 800-53

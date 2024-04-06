@@ -1,4 +1,4 @@
-# SC-5 - Denial-of-service Protection
+# NIST 800-53v5 - SC-5 - Denial-of-service Protection
 -  \[ Assignment:  \] the effects of the following types of denial-of-service events: {{ insert: param, sc-05_odp.01 }} ; and
 - Employ the following controls to achieve the denial-of-service objective: \[ Assignment: controls by type of denial-of-service event \].
 ## Guidance

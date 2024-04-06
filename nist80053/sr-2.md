@@ -1,4 +1,4 @@
-# SR-2 - Supply Chain Risk Management Plan
+# NIST 800-53v5 - SR-2 - Supply Chain Risk Management Plan
 - Develop a plan for managing supply chain risks associated with the research and development, design, manufacturing, acquisition, delivery, integration, operations and maintenance, and disposal of the following systems, system components or system services: \[ Assignment: systems, system components, or system services \];
 - Review and update the supply chain risk management plan \[ Assignment: frequency \] or as required, to address threat, organizational or environmental changes; and
 - Protect the supply chain risk management plan from unauthorized disclosure and modification.

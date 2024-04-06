@@ -1,4 +1,4 @@
-# BCD-03 - Contingency Training
+# SCF - %!S(string=BCD-03 - Contingency Training)
 Mechanisms exist to adequately train contingency personnel and applicable stakeholders in their contingency roles and responsibilities. 
 ## Mapped framework controls
 ### NIST 800-53

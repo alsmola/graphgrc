@@ -1,4 +1,4 @@
-# IAC-15.6 - Account Disabling for High Risk Individuals
+# SCF - %!S(string=IAC-15.6 - Account Disabling for High Risk Individuals)
 Mechanisms exist to disable accounts immediately upon notification for users posing a significant risk to the organization.
 ## Mapped framework controls
 ### NIST 800-53

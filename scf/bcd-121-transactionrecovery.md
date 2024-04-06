@@ -1,4 +1,4 @@
-# BCD-12.1 - Transaction Recovery
+# SCF - %!S(string=BCD-12.1 - Transaction Recovery)
 Mechanisms exist to utilize specialized backup mechanisms that will allow transaction recovery for transaction-based applications and services in accordance with Recovery Point Objectives (RPOs).
 ## Mapped framework controls
 ### NIST 800-53

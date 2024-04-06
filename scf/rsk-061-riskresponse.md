@@ -1,4 +1,4 @@
-# RSK-06.1 - Risk Response
+# SCF - %!S(string=RSK-06.1 - Risk Response)
 Mechanisms exist to respond to findings from cybersecurity & data privacy assessments, incidents and audits to ensure proper remediation has been performed.
 ## Mapped framework controls
 ### ISO 27001

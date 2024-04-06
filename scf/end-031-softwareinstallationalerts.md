@@ -1,4 +1,4 @@
-# END-03.1 - Software Installation Alerts
+# SCF - %!S(string=END-03.1 - Software Installation Alerts)
 Mechanisms exist to generate an alert when new software is detected. 
 ## Mapped framework controls
 ### NIST 800-53

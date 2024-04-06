@@ -1,4 +1,4 @@
-# AST-08 - Tamper Detection
+# SCF - %!S(string=AST-08 - Tamper Detection)
 Mechanisms exist to periodically inspect systems and system components for Indicators of Compromise (IoC).
 ## Mapped framework controls
 ### ISO 27002

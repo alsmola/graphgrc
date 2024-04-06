@@ -1,4 +1,4 @@
-# Article 39
+# GDPR - Article 39
 ## Tasks of the data protection officer
 
 ## Article 39.1

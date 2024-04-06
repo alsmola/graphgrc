@@ -1,4 +1,4 @@
-# Article 26
+# GDPR - Article 26
 ## Joint controllers
 
 ## Article 26.1

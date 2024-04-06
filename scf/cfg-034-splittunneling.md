@@ -1,4 +1,4 @@
-# CFG-03.4 - Split Tunneling
+# SCF - %!S(string=CFG-03.4 - Split Tunneling)
 Mechanisms exist to prevent split tunneling for remote devices unless the split tunnel is securely provisioned using organization-defined safeguards.
 ## Mapped framework controls
 ### NIST 800-53

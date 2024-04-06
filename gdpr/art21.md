@@ -1,4 +1,4 @@
-# Article 21
+# GDPR - Article 21
 ## Right to object
 
 ## Article 21.1

@@ -1,4 +1,4 @@
-# Article 27
+# GDPR - Article 27
 ## Representatives of controllers or processors not established in the Union
 
 ## Article 27.1

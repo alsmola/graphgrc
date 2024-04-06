@@ -1,4 +1,4 @@
-# IRO-10.1 - Automated Reporting
+# SCF - %!S(string=IRO-10.1 - Automated Reporting)
 Automated mechanisms exist to assist in the reporting of cybersecurity & data privacy incidents.
 ## Mapped framework controls
 ### NIST 800-53

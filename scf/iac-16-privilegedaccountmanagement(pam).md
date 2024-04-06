@@ -1,4 +1,4 @@
-# IAC-16 - Privileged Account Management (PAM)
+# SCF - %!S(string=IAC-16 - Privileged Account Management (PAM))
 Mechanisms exist to restrict and control privileged access rights for users and services.
 ## Mapped framework controls
 ### ISO 27002

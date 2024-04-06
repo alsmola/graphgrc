@@ -1,4 +1,4 @@
-# MON-03 - Content of Event Logs
+# SCF - %!S(string=MON-03 - Content of Event Logs)
 Mechanisms exist to configure systems to produce event logs that contain sufficient information to, at a minimum:
  - Establish what type of event occurred;
  - When (date and time) the event occurred;

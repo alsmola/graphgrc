@@ -1,4 +1,4 @@
-# SR-3 - Supply Chain Controls and Processes
+# NIST 800-53v5 - SR-3 - Supply Chain Controls and Processes
 - Establish a process or processes to identify and address weaknesses or deficiencies in the supply chain elements and processes of \[ Assignment: system or system component \] in coordination with {{ insert: param, sr-03_odp.02 }};
 - Employ the following controls to protect against supply chain risks to the system, system component, or system service and to limit the harm or consequences from supply chain-related events: \[ Assignment: supply chain controls \] ; and
 - Document the selected and implemented supply chain processes and controls in \[ Assignment:  \].

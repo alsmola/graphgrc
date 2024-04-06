@@ -1,4 +1,4 @@
-# PS-4 - Personnel Termination
+# NIST 800-53v5 - PS-4 - Personnel Termination
 - Disable system access within \[ Assignment: time period \];
 - Terminate or revoke any authenticators and credentials associated with the individual;
 - Conduct exit interviews that include a discussion of \[ Assignment: information security topics \];

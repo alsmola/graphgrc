@@ -1,4 +1,4 @@
-# Article 36
+# GDPR - Article 36
 ## Prior consultation
 
 ## Article 36.1

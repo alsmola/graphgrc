@@ -1,4 +1,4 @@
-# CP-4 - Contingency Plan Testing
+# NIST 800-53v5 - CP-4 - Contingency Plan Testing
 - Test the contingency plan for the system \[ Assignment: frequency \] using the following tests to determine the effectiveness of the plan and the readiness to execute the plan: {{ insert: param, cp-4_prm_2 }}.
 - Review the contingency plan test results; and
 - Initiate corrective actions, if needed.

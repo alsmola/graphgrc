@@ -1,4 +1,4 @@
-# Article 24
+# GDPR - Article 24
 ## Responsibility of the controller
 
 ## Article 24.1

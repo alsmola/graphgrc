@@ -1,4 +1,4 @@
-# Article 15
+# GDPR - Article 15
 ## Right of access by the data subject
 
 ## Article 15.1

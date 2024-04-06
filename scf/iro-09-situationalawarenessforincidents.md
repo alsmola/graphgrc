@@ -1,4 +1,4 @@
-# IRO-09 - Situational Awareness For Incidents
+# SCF - %!S(string=IRO-09 - Situational Awareness For Incidents)
 Mechanisms exist to document, monitor and report the status of cybersecurity & data privacy incidents to internal stakeholders all the way through the resolution of the incident.
 ## Mapped framework controls
 ### ISO 27002

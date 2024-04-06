@@ -1,4 +1,4 @@
-# Article 20
+# GDPR - Article 20
 ## Right to data portability
 
 ## Article 20.1

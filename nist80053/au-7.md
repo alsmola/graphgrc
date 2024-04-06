@@ -1,4 +1,4 @@
-# AU-7 - Audit Record Reduction and Report Generation
+# NIST 800-53v5 - AU-7 - Audit Record Reduction and Report Generation
 - Supports on-demand audit record review, analysis, and reporting requirements and after-the-fact investigations of incidents; and
 - Does not alter the original content or time ordering of audit records.
 ## Guidance

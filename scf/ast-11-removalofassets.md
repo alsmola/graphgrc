@@ -1,4 +1,4 @@
-# AST-11 - Removal of Assets
+# SCF - %!S(string=AST-11 - Removal of Assets)
 Mechanisms exist to authorize, control and track technology assets entering and exiting organizational facilities. 
 ## Mapped framework controls
 ### ISO 27002

@@ -1,4 +1,4 @@
-# PE-2 - Physical Access Authorizations
+# NIST 800-53v5 - PE-2 - Physical Access Authorizations
 - Develop, approve, and maintain a list of individuals with authorized access to the facility where the system resides;
 - Issue authorization credentials for facility access;
 - Review the access list detailing authorized facility access by individuals \[ Assignment: frequency \] ; and

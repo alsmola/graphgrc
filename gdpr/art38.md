@@ -1,4 +1,4 @@
-# Article 38
+# GDPR - Article 38
 ## Position of the data protection officer
 
 ## Article 38.1

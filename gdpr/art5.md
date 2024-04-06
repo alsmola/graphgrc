@@ -1,4 +1,4 @@
-# Article 5
+# GDPR - Article 5
 ## Principles relating to processing of personal data
 
 ## Article 5.1

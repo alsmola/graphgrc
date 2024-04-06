@@ -1,4 +1,4 @@
-# IAC-07.2 - Termination of Employment
+# SCF - %!S(string=IAC-07.2 - Termination of Employment)
 Mechanisms exist to revoke user access rights in a timely manner, upon termination of employment or contract.
 ## Mapped framework controls
 ### ISO 27002

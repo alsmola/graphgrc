@@ -1,4 +1,4 @@
-# IAO-02.1 - Assessor Independence
+# SCF - %!S(string=IAO-02.1 - Assessor Independence)
 Mechanisms exist to ensure assessors or assessment teams have the appropriate independence to conduct cybersecurity & data privacy control assessments. 
 ## Mapped framework controls
 ### NIST 800-53

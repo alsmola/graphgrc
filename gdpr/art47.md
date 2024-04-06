@@ -1,4 +1,4 @@
-# Article 47
+# GDPR - Article 47
 ## Binding corporate rules
 
 ## Article 47.1

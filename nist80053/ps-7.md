@@ -1,4 +1,4 @@
-# PS-7 - External Personnel Security
+# NIST 800-53v5 - PS-7 - External Personnel Security
 - Establish personnel security requirements, including security roles and responsibilities for external providers;
 - Require external providers to comply with personnel security policies and procedures established by the organization;
 - Document personnel security requirements;

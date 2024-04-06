@@ -1,4 +1,4 @@
-# HRS-12 - Incompatible Roles
+# SCF - %!S(string=HRS-12 - Incompatible Roles)
 Mechanisms exist to avoid incompatible development-specific roles through limiting and reviewing developer privileges to change hardware, software and firmware components within a production/operational environment.
 ## Mapped framework controls
 ### ISO 27002

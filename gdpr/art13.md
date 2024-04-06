@@ -1,4 +1,4 @@
-# Article 13
+# GDPR - Article 13
 ## Information to be provided where personal data are collected from the data subject
 
 ## Article 13.1

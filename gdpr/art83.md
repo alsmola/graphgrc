@@ -1,4 +1,4 @@
-# Article 83
+# GDPR - Article 83
 ## General conditions for imposing administrative fines
 
 ## Article 83.1

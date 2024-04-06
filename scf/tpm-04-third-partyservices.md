@@ -1,4 +1,4 @@
-# TPM-04 - Third-Party Services
+# SCF - %!S(string=TPM-04 - Third-Party Services)
 Mechanisms exist to mitigate the risks associated with third-party access to the organization’s systems and data.
 ## Mapped framework controls
 ### ISO 27002

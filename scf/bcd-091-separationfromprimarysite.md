@@ -1,4 +1,4 @@
-# BCD-09.1 - Separation from Primary Site
+# SCF - %!S(string=BCD-09.1 - Separation from Primary Site)
 Mechanisms exist to separate the alternate processing site from the primary processing site to reduce susceptibility to similar threats.
 ## Mapped framework controls
 ### NIST 800-53

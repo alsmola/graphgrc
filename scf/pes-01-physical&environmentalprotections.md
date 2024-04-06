@@ -1,4 +1,4 @@
-# PES-01 - Physical & Environmental Protections
+# SCF - %!S(string=PES-01 - Physical & Environmental Protections)
 Mechanisms exist to facilitate the operation of physical and environmental protection controls. 
 ## Mapped framework controls
 ### GDPR

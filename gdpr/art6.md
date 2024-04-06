@@ -1,4 +1,4 @@
-# Article 6
+# GDPR - Article 6
 ## Lawfulness of processing
 
 ## Article 6.1

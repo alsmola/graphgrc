@@ -1,4 +1,4 @@
-# END-02 - Endpoint Protection Measures
+# SCF - %!S(string=END-02 - Endpoint Protection Measures)
 Mechanisms exist to protect the confidentiality, integrity, availability and safety of endpoint devices.
 ## Mapped framework controls
 ### ISO 27002

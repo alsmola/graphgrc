@@ -1,4 +1,4 @@
-# MON-02.2 - Central Review & Analysis
+# SCF - %!S(string=MON-02.2 - Central Review & Analysis)
 Automated mechanisms exist to centrally collect, review and analyze audit records from multiple sources.
 ## Mapped framework controls
 ### ISO 27002

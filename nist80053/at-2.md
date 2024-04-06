@@ -1,4 +1,4 @@
-# AT-2 - Literacy Training and Awareness
+# NIST 800-53v5 - AT-2 - Literacy Training and Awareness
 - Provide security and privacy literacy training to system users (including managers, senior executives, and contractors):
 - Employ the following techniques to increase the security and privacy awareness of system users \[ Assignment: awareness techniques \];
 - Update literacy training and awareness content \[ Assignment: frequency \] and following {{ insert: param, at-02_odp.07 }} ; and

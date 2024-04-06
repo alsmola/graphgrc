@@ -1,4 +1,4 @@
-# TDA-02 - Minimum Viable Product (MVP) Security Requirements
+# SCF - %!S(string=TDA-02 - Minimum Viable Product (MVP) Security Requirements)
 Mechanisms exist to ensure risk-based technical and functional specifications are established to define a Minimum Viable Product (MVP).
 ## Mapped framework controls
 ### ISO 27002

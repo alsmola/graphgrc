@@ -1,4 +1,4 @@
-# RSK-01 - Risk Management Program
+# SCF - %!S(string=RSK-01 - Risk Management Program)
 Mechanisms exist to facilitate the implementation of risk management controls.
 ## Mapped framework controls
 ### GDPR

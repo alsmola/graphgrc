@@ -1,4 +1,4 @@
-# PL-8 - Security and Privacy Architectures
+# NIST 800-53v5 - PL-8 - Security and Privacy Architectures
 - Develop security and privacy architectures for the system that:
 - Review and update the architectures \[ Assignment: frequency \] to reflect changes in the enterprise architecture; and
 - Reflect planned architecture changes in security and privacy plans, Concept of Operations (CONOPS), criticality analysis, organizational procedures, and procurements and acquisitions.

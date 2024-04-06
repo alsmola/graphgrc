@@ -1,4 +1,4 @@
-# CFG-03 - Least Functionality
+# SCF - %!S(string=CFG-03 - Least Functionality)
 Mechanisms exist to configure systems to provide only essential capabilities by specifically prohibiting or restricting the use of ports, protocols, and/or services. 
 ## Mapped framework controls
 ### ISO 27002

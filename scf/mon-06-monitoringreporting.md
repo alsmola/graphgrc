@@ -1,4 +1,4 @@
-# MON-06 - Monitoring Reporting
+# SCF - %!S(string=MON-06 - Monitoring Reporting)
 Mechanisms exist to provide an event log report generation capability to aid in detecting and assessing anomalous activities. 
 ## Mapped framework controls
 ### ISO 27002

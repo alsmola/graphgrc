@@ -1,4 +1,4 @@
-# IR-6 - Incident Reporting
+# NIST 800-53v5 - IR-6 - Incident Reporting
 - Require personnel to report suspected incidents to the organizational incident response capability within \[ Assignment: time period \] ; and
 - Report incident information to \[ Assignment: authorities \].
 - 

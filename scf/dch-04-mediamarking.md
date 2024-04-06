@@ -1,4 +1,4 @@
-# DCH-04 - Media Marking
+# SCF - %!S(string=DCH-04 - Media Marking)
 Mechanisms exist to mark media in accordance with data protection requirements so that personnel are alerted to distribution limitations, handling caveats and applicable security requirements. 
 ## Mapped framework controls
 ### ISO 27002

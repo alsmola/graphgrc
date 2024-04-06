@@ -1,4 +1,4 @@
-# PES-09 - Temperature & Humidity Controls
+# SCF - %!S(string=PES-09 - Temperature & Humidity Controls)
 Facility security mechanisms exist to maintain and monitor temperature and humidity levels within the facility.
 ## Mapped framework controls
 ### NIST 800-53

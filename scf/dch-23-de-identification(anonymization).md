@@ -1,4 +1,4 @@
-# DCH-23 - De-Identification (Anonymization)
+# SCF - %!S(string=DCH-23 - De-Identification (Anonymization))
 Mechanisms exist to anonymize data by removing Personal Data (PD) from datasets.
 ## Mapped framework controls
 ### ISO 27002

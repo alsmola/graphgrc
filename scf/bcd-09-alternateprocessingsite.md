@@ -1,4 +1,4 @@
-# BCD-09 - Alternate Processing Site
+# SCF - %!S(string=BCD-09 - Alternate Processing Site)
 Mechanisms exist to establish an alternate processing site that provides security measures equivalent to that of the primary site.
 ## Mapped framework controls
 ### ISO 27002

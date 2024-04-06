@@ -1,4 +1,4 @@
-# Article 42
+# GDPR - Article 42
 ## Certification
 
 ## Article 42.1

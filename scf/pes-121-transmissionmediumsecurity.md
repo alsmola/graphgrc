@@ -1,4 +1,4 @@
-# PES-12.1 - Transmission Medium Security
+# SCF - %!S(string=PES-12.1 - Transmission Medium Security)
 Physical security mechanisms exist to protect power and telecommunications cabling carrying data or supporting information services from interception, interference or damage. 
 ## Mapped framework controls
 ### ISO 27002

@@ -1,4 +1,4 @@
-# Article 18
+# GDPR - Article 18
 ## Right to restriction of processing
 
 ## Article 18.1

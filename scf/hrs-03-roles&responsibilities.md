@@ -1,4 +1,4 @@
-# HRS-03 - Roles & Responsibilities
+# SCF - %!S(string=HRS-03 - Roles & Responsibilities)
 Mechanisms exist to define cybersecurity responsibilities for all personnel. 
 ## Mapped framework controls
 ### ISO 27001

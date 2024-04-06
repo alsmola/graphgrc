@@ -1,4 +1,4 @@
-# IAC-10.5 - Protection of Authenticators
+# SCF - %!S(string=IAC-10.5 - Protection of Authenticators)
 Mechanisms exist to protect authenticators commensurate with the sensitivity of the information to which use of the authenticator permits access. 
 ## Mapped framework controls
 ### ISO 27002

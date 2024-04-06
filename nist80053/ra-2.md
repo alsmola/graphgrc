@@ -1,4 +1,4 @@
-# RA-2 - Security Categorization
+# NIST 800-53v5 - RA-2 - Security Categorization
 - Categorize the system and information it processes, stores, and transmits;
 - Document the security categorization results, including supporting rationale, in the security plan for the system; and
 - Verify that the authorizing official or authorizing official designated representative reviews and approves the security categorization decision.

@@ -1,4 +1,4 @@
-# AU-6 - Audit Record Review, Analysis, and Reporting
+# NIST 800-53v5 - AU-6 - Audit Record Review, Analysis, and Reporting
 - Review and analyze system audit records \[ Assignment: frequency \] for indications of {{ insert: param, au-06_odp.02 }} and the potential impact of the inappropriate or unusual activity;
 - Report findings to \[ Assignment: personnel or roles \] ; and
 - Adjust the level of audit record review, analysis, and reporting within the system when there is a change in risk based on law enforcement information, intelligence information, or other credible sources of information.

@@ -1,4 +1,4 @@
-# BCD-10 - Telecommunications Services Availability
+# SCF - %!S(string=BCD-10 - Telecommunications Services Availability)
 Mechanisms exist to reduce the likelihood of a single point of failure with primary telecommunications services.
 ## Mapped framework controls
 ### NIST 800-53

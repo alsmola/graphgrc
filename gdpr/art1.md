@@ -1,4 +1,4 @@
-# Article 1
+# GDPR - Article 1
 ## **Subject-matter and objectives**
 
 ## Article 1.1

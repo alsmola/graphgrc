@@ -1,4 +1,4 @@
-# CP-2 - Contingency Plan
+# NIST 800-53v5 - CP-2 - Contingency Plan
 - Develop a contingency plan for the system that:
 - Distribute copies of the contingency plan to \[ Assignment: organization-defined key contingency personnel (identified by name and/or by role) and organizational elements \];
 - Coordinate contingency planning activities with incident handling activities;

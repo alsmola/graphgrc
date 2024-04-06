@@ -1,4 +1,4 @@
-# Article 25
+# GDPR - Article 25
 ## Data protection by design and by default
 
 ## Article 25.1

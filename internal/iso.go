@@ -68,7 +68,7 @@ func GenerateISOMarkdown(standard Framework, isoDomain ISODomain, scfControlMapp
 		return err
 	}
 	doc := md.NewMarkdown(f).
-		H1(string(isoDomain.Title))
+		H1(fmt.Sprintf("%s - %s", standard, string(isoDomain.Title)))
 
 	for _, isoControl := range isoDomain.Controls {
 		doc.H2(isoControl.Ref).

@@ -1,4 +1,4 @@
-# PES-07.1 - Automatic Voltage Controls
+# SCF - %!S(string=PES-07.1 - Automatic Voltage Controls)
 Facility security mechanisms exist to utilize automatic voltage controls for critical system components. 
 ## Mapped framework controls
 ### ISO 27002

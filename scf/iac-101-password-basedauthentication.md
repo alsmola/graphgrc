@@ -1,4 +1,4 @@
-# IAC-10.1 - Password-Based Authentication
+# SCF - %!S(string=IAC-10.1 - Password-Based Authentication)
 Mechanisms exist to enforce complexity, length and lifespan considerations to ensure strong criteria for password-based authentication.
 ## Mapped framework controls
 ### ISO 27002

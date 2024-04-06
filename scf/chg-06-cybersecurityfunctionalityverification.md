@@ -1,4 +1,4 @@
-# CHG-06 - Cybersecurity Functionality Verification
+# SCF - %!S(string=CHG-06 - Cybersecurity Functionality Verification)
 Mechanisms exist to verify the functionality of cybersecurity controls when anomalies are discovered.
 ## Mapped framework controls
 ### NIST 800-53

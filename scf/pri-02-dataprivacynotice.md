@@ -1,4 +1,4 @@
-# PRI-02 - Data Privacy Notice
+# SCF - %!S(string=PRI-02 - Data Privacy Notice)
 Mechanisms exist to:
 - Make data privacy notice(s) available to individuals upon first interacting with an organization and subsequently as necessary; 
 - Ensure that data privacy notices are clear and easy-to-understand, expressing information about Personal Data (PD) processing in plain language that meet all legal obligations; and

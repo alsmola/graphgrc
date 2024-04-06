@@ -1,4 +1,4 @@
-# HRS-04 - Personnel Screening
+# SCF - %!S(string=HRS-04 - Personnel Screening)
 Mechanisms exist to manage personnel security risk by screening individuals prior to authorizing access.
 ## Mapped framework controls
 ### GDPR

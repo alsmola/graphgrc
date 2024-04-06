@@ -1,4 +1,4 @@
-# END-06.2 - Integration of Detection & Response
+# SCF - %!S(string=END-06.2 - Integration of Detection & Response)
 Mechanisms exist to detect and respond to unauthorized configuration changes as cybersecurity incidents.
 ## Mapped framework controls
 ### NIST 800-53

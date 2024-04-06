@@ -1,4 +1,4 @@
-# PS-6 - Access Agreements
+# NIST 800-53v5 - PS-6 - Access Agreements
 - Develop and document access agreements for organizational systems;
 - Review and update the access agreements \[ Assignment: frequency \] ; and
 - Verify that individuals requiring access to organizational information and systems:

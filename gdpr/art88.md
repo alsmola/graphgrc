@@ -1,4 +1,4 @@
-# Article 88
+# GDPR - Article 88
 ## Processing in the context of employment
 
 ## Article 88.1

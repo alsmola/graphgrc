@@ -1,4 +1,4 @@
-# CM-9 - Configuration Management Plan
+# NIST 800-53v5 - CM-9 - Configuration Management Plan
 - Addresses roles, responsibilities, and configuration management processes and procedures;
 - Establishes a process for identifying configuration items throughout the system development life cycle and for managing the configuration of the configuration items;
 - Defines the configuration items for the system and places the configuration items under configuration management;

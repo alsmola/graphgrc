@@ -1,4 +1,4 @@
-# Article 82
+# GDPR - Article 82
 ## Right to compensation and liability
 
 ## Article 82.1

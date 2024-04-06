@@ -1,4 +1,4 @@
-# MA-2 - Controlled Maintenance
+# NIST 800-53v5 - MA-2 - Controlled Maintenance
 - Schedule, document, and review records of maintenance, repair, and replacement on system components in accordance with manufacturer or vendor specifications and/or organizational requirements;
 - Approve and monitor all maintenance activities, whether performed on site or remotely and whether the system or system components are serviced on site or removed to another location;
 - Require that \[ Assignment: personnel or roles \] explicitly approve the removal of the system or system components from organizational facilities for off-site maintenance, repair, or replacement;

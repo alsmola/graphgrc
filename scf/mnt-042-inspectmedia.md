@@ -1,4 +1,4 @@
-# MNT-04.2 - Inspect Media
+# SCF - %!S(string=MNT-04.2 - Inspect Media)
 Mechanisms exist to check media containing diagnostic and test programs for malicious code before the media are used. 
 ## Mapped framework controls
 ### NIST 800-53

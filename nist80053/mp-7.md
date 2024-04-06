@@ -1,4 +1,4 @@
-# MP-7 - Media Use
+# NIST 800-53v5 - MP-7 - Media Use
 -  \[ Assignment:  \] the use of {{ insert: param, mp-07_odp.01 }} on {{ insert: param, mp-07_odp.03 }} using {{ insert: param, mp-07_odp.04 }} ; and
 - Prohibit the use of portable storage devices in organizational systems when such devices have no identifiable owner.
 ## Guidance

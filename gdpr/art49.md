@@ -1,4 +1,4 @@
-# Article 49
+# GDPR - Article 49
 ## Derogations for specific situations
 
 ## Article 49.1

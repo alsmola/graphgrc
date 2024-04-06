@@ -1,4 +1,4 @@
-# Article 2
+# GDPR - Article 2
 ## Material scope
 
 ## Article 2.1

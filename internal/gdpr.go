@@ -127,7 +127,7 @@ func GenerateGDPRMarkdown(gdprArticle GDPRArticle, scfControlMapping SCFControlM
 		return err
 	}
 	doc := md.NewMarkdown(f).
-		H1(string(gdprArticle.ID)).
+		H1(fmt.Sprintf("GDPR - %s", string(gdprArticle.ID))).
 		H2(gdprArticle.Title).
 		PlainText(gdprArticle.Body)
 

@@ -1,4 +1,4 @@
-# DCH-01 - Data Protection
+# SCF - %!S(string=DCH-01 - Data Protection)
 Mechanisms exist to facilitate the implementation of data protection controls. 
 ## Mapped framework controls
 ### GDPR

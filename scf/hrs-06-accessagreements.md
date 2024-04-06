@@ -1,4 +1,4 @@
-# HRS-06 - Access Agreements
+# SCF - %!S(string=HRS-06 - Access Agreements)
 Mechanisms exist to require internal and third-party users to sign appropriate access agreements prior to being granted access. 
 ## Mapped framework controls
 ### ISO 27002

@@ -1,4 +1,4 @@
-# TPM-01 - Third-Party Management
+# SCF - %!S(string=TPM-01 - Third-Party Management)
 Mechanisms exist to facilitate the implementation of third-party management controls.
 ## Mapped framework controls
 ### GDPR

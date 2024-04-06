@@ -1,4 +1,4 @@
-# Article 7
+# GDPR - Article 7
 ## Conditions for consent
 
 ## Article 7.1

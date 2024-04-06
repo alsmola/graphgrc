@@ -1,4 +1,4 @@
-# Article 4
+# GDPR - Article 4
 ## Definitions
 
 ###Principles

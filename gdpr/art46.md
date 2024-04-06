@@ -1,4 +1,4 @@
-# Article 46
+# GDPR - Article 46
 ## Transfers subject to appropriate safeguards
 
 ## Article 46.1

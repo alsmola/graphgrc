@@ -1,4 +1,4 @@
-# NET-02.1 - Denial of Service (DoS) Protection
+# SCF - %!S(string=NET-02.1 - Denial of Service (DoS) Protection)
 Automated mechanisms exist to protect against or limit the effects of denial of service attacks. 
 ## Mapped framework controls
 ### NIST 800-53

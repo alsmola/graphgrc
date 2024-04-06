@@ -1,4 +1,4 @@
-# Article 32
+# GDPR - Article 32
 ## Security of processing
 
 ## Article 32.1

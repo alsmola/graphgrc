@@ -1,4 +1,4 @@
-# TPM-10 - Managing Changes To Third-Party Services
+# SCF - %!S(string=TPM-10 - Managing Changes To Third-Party Services)
 Mechanisms exist to control changes to services by suppliers, taking into account the criticality of business information, systems and processes that are in scope by the third-party.
 ## Mapped framework controls
 ### ISO 27002

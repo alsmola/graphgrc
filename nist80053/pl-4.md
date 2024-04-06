@@ -1,4 +1,4 @@
-# PL-4 - Rules of Behavior
+# NIST 800-53v5 - PL-4 - Rules of Behavior
 - Establish and provide to individuals requiring access to the system, the rules that describe their responsibilities and expected behavior for information and system usage, security, and privacy;
 - Receive a documented acknowledgment from such individuals, indicating that they have read, understand, and agree to abide by the rules of behavior, before authorizing access to information and the system;
 - Review and update the rules of behavior \[ Assignment: frequency \] ; and

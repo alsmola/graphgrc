@@ -1,4 +1,4 @@
-# CHG-01 - Change Management Program
+# SCF - %!S(string=CHG-01 - Change Management Program)
 Mechanisms exist to facilitate the implementation of a change management program.
 ## Mapped framework controls
 ### GDPR

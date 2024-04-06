@@ -1,4 +1,4 @@
-# SA-2 - Allocation of Resources
+# NIST 800-53v5 - SA-2 - Allocation of Resources
 - Determine the high-level information security and privacy requirements for the system or system service in mission and business process planning;
 - Determine, document, and allocate the resources required to protect the system or system service as part of the organizational capital planning and investment control process; and
 - Establish a discrete line item for information security and privacy in organizational programming and budgeting documentation.

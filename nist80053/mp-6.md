@@ -1,4 +1,4 @@
-# MP-6 - Media Sanitization
+# NIST 800-53v5 - MP-6 - Media Sanitization
 - Sanitize \[ Assignment: organization-defined system media \] prior to disposal, release out of organizational control, or release for reuse using {{ insert: param, mp-6_prm_2 }} ; and
 - Employ sanitization mechanisms with the strength and integrity commensurate with the security category or classification of the information.
 ## Guidance

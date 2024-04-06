@@ -1,4 +1,4 @@
-# HRS-05.5 - Use of Mobile Devices
+# SCF - %!S(string=HRS-05.5 - Use of Mobile Devices)
 Mechanisms exist to manage business risks associated with permitting mobile device access to organizational resources.
 ## Mapped framework controls
 ### ISO 27001

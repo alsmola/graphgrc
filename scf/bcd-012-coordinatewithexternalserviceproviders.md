@@ -1,4 +1,4 @@
-# BCD-01.2 - Coordinate With External Service Providers
+# SCF - %!S(string=BCD-01.2 - Coordinate With External Service Providers)
 Mechanisms exist to coordinate internal contingency plans with the contingency plans of external service providers to ensure that contingency requirements can be satisfied.
 ## Mapped framework controls
 ### ISO 27002

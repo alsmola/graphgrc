@@ -1,4 +1,4 @@
-# PRI-06.3 - Appeal Adverse Decision
+# SCF - %!S(string=PRI-06.3 - Appeal Adverse Decision)
 Mechanisms exist to provide an organization-defined process for data subjects to appeal an adverse decision and have incorrect information amended.
 ## Mapped framework controls
 ### GDPR

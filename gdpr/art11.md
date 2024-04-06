@@ -1,4 +1,4 @@
-# Article 11
+# GDPR - Article 11
 ## Processing which does not require identification
 
 ## Article 11.1

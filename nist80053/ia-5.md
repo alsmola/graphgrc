@@ -1,4 +1,4 @@
-# IA-5 - Authenticator Management
+# NIST 800-53v5 - IA-5 - Authenticator Management
 - Verifying, as part of the initial authenticator distribution, the identity of the individual, group, role, service, or device receiving the authenticator;
 - Establishing initial authenticator content for any authenticators issued by the organization;
 - Ensuring that authenticators have sufficient strength of mechanism for their intended use;

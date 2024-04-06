@@ -1,4 +1,4 @@
-# IAC-15.3 - Disable Inactive Accounts
+# SCF - %!S(string=IAC-15.3 - Disable Inactive Accounts)
 Automated mechanisms exist to disable inactive accounts after an organization-defined time period. 
 ## Mapped framework controls
 ### ISO 27002

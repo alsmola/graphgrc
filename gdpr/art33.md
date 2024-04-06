@@ -1,4 +1,4 @@
-# Article 33
+# GDPR - Article 33
 ## Notification of a personal data breach to the supervisory authority
 
 ## Article 33.1

@@ -1,4 +1,4 @@
-# Article 34
+# GDPR - Article 34
 ## Communication of a personal data breach to the data subject
 
 ## Article 34.1

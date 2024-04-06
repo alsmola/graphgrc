@@ -1,4 +1,4 @@
-# Article 45
+# GDPR - Article 45
 ## Transfers on the basis of an adequacy decision
 
 ## Article 45.1

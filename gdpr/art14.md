@@ -1,4 +1,4 @@
-# Article 14
+# GDPR - Article 14
 ## Information to be provided where personal data have not been obtained from the data subject
 
 ## Article 14.1

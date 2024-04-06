@@ -1,4 +1,4 @@
-# SI-6 - Security and Privacy Function Verification
+# NIST 800-53v5 - SI-6 - Security and Privacy Function Verification
 - Verify the correct operation of \[ Assignment: organization-defined security and privacy functions \];
 - Perform the verification of the functions specified in SI-6a \[ Assignment:  \];
 - Alert \[ Assignment: personnel or roles \] to failed security and privacy verification tests; and

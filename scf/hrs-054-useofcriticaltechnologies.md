@@ -1,4 +1,4 @@
-# HRS-05.4 - Use of Critical Technologies
+# SCF - %!S(string=HRS-05.4 - Use of Critical Technologies)
 Mechanisms exist to govern usage policies for critical technologies. 
 ## Mapped framework controls
 ### ISO 27001

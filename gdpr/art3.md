@@ -1,4 +1,4 @@
-# Article 3
+# GDPR - Article 3
 ## Territorial scope
 
 ## Article 3.1

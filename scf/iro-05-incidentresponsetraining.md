@@ -1,4 +1,4 @@
-# IRO-05 - Incident Response Training
+# SCF - %!S(string=IRO-05 - Incident Response Training)
 Mechanisms exist to train personnel in their incident response roles and responsibilities.
 ## Mapped framework controls
 ### ISO 27002

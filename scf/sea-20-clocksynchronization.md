@@ -1,4 +1,4 @@
-# SEA-20 - Clock Synchronization
+# SCF - %!S(string=SEA-20 - Clock Synchronization)
 Mechanisms exist to utilize time-synchronization technology to synchronize all critical system clocks. 
 ## Mapped framework controls
 ### ISO 27002

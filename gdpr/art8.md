@@ -1,4 +1,4 @@
-# Article 8
+# GDPR - Article 8
 ## Conditions applicable to child's consent in relation to information society services
 
 ## Article 8.1
