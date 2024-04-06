@@ -218,24 +218,26 @@ func GenerateSCFMarkdown(scfControl Control, scfControlID SCFControlID, controlM
 		if len(fcids) > 0 {
 			slices.Sort(fcids)
 			doc.H3(string(framework)).
-				BulletList(fcids...)
+				BulletList(fcids...).
+				LF()
 		}
 	}
 
 	doc.H2("Control questions").
 		PlainText(string(scfControl[SCFColumnMapping[ControlQuestions]])).
-		H2("Control maturity").
-		Table(md.TableSet{
-			Header: []string{"Maturity level", "Description"},
-			Rows: [][]string{
-				{"Not performed", fixControlQuestions(string(scfControl[SCFColumnMapping[NotPerformed]]))},
-				{"Performed internally", fixControlQuestions(string(scfControl[SCFColumnMapping[PerformedInternally]]))},
-				{"Planned and tracked", fixControlQuestions(string(scfControl[SCFColumnMapping[PlannedAndTracked]]))},
-				{"Well defined", fixControlQuestions(string(scfControl[SCFColumnMapping[WellDefined]]))},
-				{"Quantitatively controllled", fixControlQuestions(string(scfControl[SCFColumnMapping[QuantitativelyControlled]]))},
-				{"Continuously improving", fixControlQuestions(string(scfControl[SCFColumnMapping[ContinuouslyImproving]]))},
-			},
-		})
+		LF()
+		// H2("Control maturity").
+		// Table(md.TableSet{
+		// 	Header: []string{"Maturity level", "Description"},
+		// 	Rows: [][]string{
+		// 		{"Not performed", fixControlQuestions(string(scfControl[SCFColumnMapping[NotPerformed]]))},
+		// 		{"Performed internally", fixControlQuestions(string(scfControl[SCFColumnMapping[PerformedInternally]]))},
+		// 		{"Planned and tracked", fixControlQuestions(string(scfControl[SCFColumnMapping[PlannedAndTracked]]))},
+		// 		{"Well defined", fixControlQuestions(string(scfControl[SCFColumnMapping[WellDefined]]))},
+		// 		{"Quantitatively controllled", fixControlQuestions(string(scfControl[SCFColumnMapping[QuantitativelyControlled]]))},
+		// 		{"Continuously improving", fixControlQuestions(string(scfControl[SCFColumnMapping[ContinuouslyImproving]]))},
+		// 	},
+		// })
 	doc.Build()
 	return nil
 }
