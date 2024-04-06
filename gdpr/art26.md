@@ -28,7 +28,7 @@ The arrangement referred to in paragraph 1 shall duly reflect the respective rol
 Irrespective of the terms of the arrangement referred to in paragraph 1, the data subject may exercise his or her rights under this Regulation in respect of and against each of the controllers.
   
 ### Mapped SCF controls
-- [DCH-22.1 - Updating & Correcting Personal Data (PD)](../scf/dch-221-updating&correctingpersonaldata(pd).md)
+- [DCH-22.1 - Updating & Correcting Personal Data (PD)](../scf/dch-221-updating&correctingpersonaldatapd.md)
 - [PRI-06 - Data Subject Access](../scf/pri-06-datasubjectaccess.md)
 - [PRI-06.1 - Correcting Inaccurate Personal Data](../scf/pri-061-correctinginaccuratepersonaldata.md)
 - [PRI-06.2 - Notice of Correction or Processing Change](../scf/pri-062-noticeofcorrectionorprocessingchange.md)

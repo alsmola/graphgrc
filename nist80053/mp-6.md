@@ -6,4 +6,4 @@ Media sanitization applies to all digital and non-digital system media subject t
 ## Mapped SCF controls
 - [DCH-08 - Physical Media Disposal](../scf/dch-08-physicalmediadisposal.md)
 - [DCH-09 - System Media Sanitization](../scf/dch-09-systemmediasanitization.md)
-- [DCH-09.3 - Sanitization of Personal Data (PD)](../scf/dch-093-sanitizationofpersonaldata(pd).md)
+- [DCH-09.3 - Sanitization of Personal Data (PD)](../scf/dch-093-sanitizationofpersonaldatapd.md)

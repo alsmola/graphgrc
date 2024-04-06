@@ -21,7 +21,7 @@ The controller shall facilitate the exercise of data subject rights under Articl
 The controller shall provide information on action taken on a request under Articles 15 to 22 to the data subject without undue delay and in any event within one month of receipt of the request. That period may be extended by two further months where necessary, taking into account the complexity and number of the requests. The controller shall inform the data subject of any such extension within one month of receipt of the request, together with the reasons for the delay. Where the data subject makes the request by electronic form means, the information shall be provided by electronic means where possible, unless otherwise requested by the data subject.
   
 ### Mapped SCF controls
-- [DCH-22.1 - Updating & Correcting Personal Data (PD)](../scf/dch-221-updating&correctingpersonaldata(pd).md)
+- [DCH-22.1 - Updating & Correcting Personal Data (PD)](../scf/dch-221-updating&correctingpersonaldatapd.md)
 - [PRI-03.1 - Tailored Consent](../scf/pri-031-tailoredconsent.md)
 - [PRI-03.2 - Just-In-Time Notice & Updated Consent](../scf/pri-032-just-in-timenotice&updatedconsent.md)
 - [PRI-06.1 - Correcting Inaccurate Personal Data](../scf/pri-061-correctinginaccuratepersonaldata.md)

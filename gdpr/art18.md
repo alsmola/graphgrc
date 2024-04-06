@@ -10,7 +10,7 @@ The data subject shall have the right to obtain from the controller restriction 
 (d) the data subject has objected to processing pursuant to Article 21(1) pending the verification whether the legitimate grounds of the controller override those of the data subject.
   
 ### Mapped SCF controls
-- [DCH-22.1 - Updating & Correcting Personal Data (PD)](../scf/dch-221-updating&correctingpersonaldata(pd).md)
+- [DCH-22.1 - Updating & Correcting Personal Data (PD)](../scf/dch-221-updating&correctingpersonaldatapd.md)
 - [PRI-05 - Personal Data Retention & Disposal](../scf/pri-05-personaldataretention&disposal.md)
 - [PRI-05.1 - Internal Use of Personal Data For Testing, Training and Research](../scf/pri-051-internaluseofpersonaldatafortesting,trainingandresearch.md)
 - [PRI-05.4 - Usage Restrictions of Sensitive Personal Data](../scf/pri-054-usagerestrictionsofsensitivepersonaldata.md)

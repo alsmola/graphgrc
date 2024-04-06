@@ -7,4 +7,4 @@ Incident response policy and procedures address the controls in the IR family th
 ## Mapped SCF controls
 - [IRO-01 - Incident Response Operations](../scf/iro-01-incidentresponseoperations.md)
 - [IRO-04.2 - IRP Update](../scf/iro-042-irpupdate.md)
-- [IRO-13 - Root Cause Analysis (RCA) & Lessons Learned](../scf/iro-13-rootcauseanalysis(rca)&lessonslearned.md)
+- [IRO-13 - Root Cause Analysis (RCA) & Lessons Learned](../scf/iro-13-rootcauseanalysisrca&lessonslearned.md)

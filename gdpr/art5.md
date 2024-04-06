@@ -17,9 +17,9 @@ Personal data shall be:
 - [CRY-04 - Transmission Integrity](../scf/cry-04-transmissionintegrity.md)
 - [CRY-05 - Encrypting Data At Rest](../scf/cry-05-encryptingdataatrest.md)
 - [DCH-01 - Data Protection](../scf/dch-01-dataprotection.md)
-- [DCH-09.3 - Sanitization of Personal Data (PD)](../scf/dch-093-sanitizationofpersonaldata(pd).md)
+- [DCH-09.3 - Sanitization of Personal Data (PD)](../scf/dch-093-sanitizationofpersonaldatapd.md)
 - [DCH-18 - Media & Data Retention](../scf/dch-18-media&dataretention.md)
-- [DCH-18.2 - Limit Personal Data (PD) Elements In Testing, Training & Research](../scf/dch-182-limitpersonaldata(pd)elementsintesting,training&research.md)
+- [DCH-18.2 - Limit Personal Data (PD) Elements In Testing, Training & Research](../scf/dch-182-limitpersonaldatapdelementsintesting,training&research.md)
 - [END-13.2 - Notice of Collection](../scf/end-132-noticeofcollection.md)
 - [END-13.3 - Collection Minimization](../scf/end-133-collectionminimization.md)
 - [PRI-04 - Restrict Collection To Identified Purpose](../scf/pri-04-restrictcollectiontoidentifiedpurpose.md)
@@ -31,9 +31,9 @@ Personal data shall be:
 - [PRI-05.4 - Usage Restrictions of Sensitive Personal Data](../scf/pri-054-usagerestrictionsofsensitivepersonaldata.md)
 - [PRI-10 - Data Quality Management](../scf/pri-10-dataqualitymanagement.md)
 - [PRI-10.1 - Automation](../scf/pri-101-automation.md)
-- [PRI-12 - Updating Personal Data (PD)](../scf/pri-12-updatingpersonaldata(pd).md)
+- [PRI-12 - Updating Personal Data (PD)](../scf/pri-12-updatingpersonaldatapd.md)
 - [PRI-13 - Data Management Board](../scf/pri-13-datamanagementboard.md)
-- [VPM-04.2 - Flaw Remediation with Personal Data (PD)](../scf/vpm-042-flawremediationwithpersonaldata(pd).md)
+- [VPM-04.2 - Flaw Remediation with Personal Data (PD)](../scf/vpm-042-flawremediationwithpersonaldatapd.md)
   
 ## Article 5.2
 The controller shall be responsible for, and be able to demonstrate compliance with, paragraph 1 (‘accountability’).

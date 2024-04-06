@@ -6,7 +6,7 @@
 When the personal data breach is likely to result in a high risk to the rights and freedoms of natural persons, the controller shall communicate the personal data breach to the data subject without undue delay.
   
 ### Mapped SCF controls
-- [IRO-07 - Integrated Security Incident Response Team (ISIRT)](../scf/iro-07-integratedsecurityincidentresponseteam(isirt).md)
+- [IRO-07 - Integrated Security Incident Response Team (ISIRT)](../scf/iro-07-integratedsecurityincidentresponseteamisirt.md)
 - [IRO-10 - Incident Stakeholder Reporting](../scf/iro-10-incidentstakeholderreporting.md)
 - [IRO-11.2 - Coordination With External Providers](../scf/iro-112-coordinationwithexternalproviders.md)
   
@@ -14,7 +14,7 @@ When the personal data breach is likely to result in a high risk to the rights a
 The communication to the data subject referred to in paragraph 1 of this Article shall describe in clear and plain language the nature of the personal data breach and contain at least the information and measures referred to in points (b) , (c)  and (d)  of Article 33(3).
   
 ### Mapped SCF controls
-- [IRO-07 - Integrated Security Incident Response Team (ISIRT)](../scf/iro-07-integratedsecurityincidentresponseteam(isirt).md)
+- [IRO-07 - Integrated Security Incident Response Team (ISIRT)](../scf/iro-07-integratedsecurityincidentresponseteamisirt.md)
 - [IRO-10 - Incident Stakeholder Reporting](../scf/iro-10-incidentstakeholderreporting.md)
 - [IRO-11.2 - Coordination With External Providers](../scf/iro-112-coordinationwithexternalproviders.md)
   
@@ -25,7 +25,7 @@ The communication to the data subject referred to in paragraph 1 shall not be r
 (c) it would involve disproportionate effort. In such a case, there shall instead be a public communication or similar measure whereby the data subjects are informed in an equally effective manner.
   
 ### Mapped SCF controls
-- [IRO-07 - Integrated Security Incident Response Team (ISIRT)](../scf/iro-07-integratedsecurityincidentresponseteam(isirt).md)
+- [IRO-07 - Integrated Security Incident Response Team (ISIRT)](../scf/iro-07-integratedsecurityincidentresponseteamisirt.md)
 - [IRO-10 - Incident Stakeholder Reporting](../scf/iro-10-incidentstakeholderreporting.md)
 - [IRO-11.2 - Coordination With External Providers](../scf/iro-112-coordinationwithexternalproviders.md)
   
@@ -35,7 +35,7 @@ If the controller has not already communicated the personal data breach to the d
 <span class="bold"><span class="expanded">Data protection impact assessment and prior consultation
   
 ### Mapped SCF controls
-- [IRO-07 - Integrated Security Incident Response Team (ISIRT)](../scf/iro-07-integratedsecurityincidentresponseteam(isirt).md)
+- [IRO-07 - Integrated Security Incident Response Team (ISIRT)](../scf/iro-07-integratedsecurityincidentresponseteamisirt.md)
 - [IRO-10 - Incident Stakeholder Reporting](../scf/iro-10-incidentstakeholderreporting.md)
 - [IRO-11.2 - Coordination With External Providers](../scf/iro-112-coordinationwithexternalproviders.md)
   

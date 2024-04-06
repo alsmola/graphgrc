@@ -13,7 +13,7 @@ Where the supervisory authority is of the opinion that the intended processing r
   
 ### Mapped SCF controls
 - [GOV-06 - Contacts With Authorities](../scf/gov-06-contactswithauthorities.md)
-- [RSK-10 - Data Protection Impact Assessment (DPIA)](../scf/rsk-10-dataprotectionimpactassessment(dpia).md)
+- [RSK-10 - Data Protection Impact Assessment (DPIA)](../scf/rsk-10-dataprotectionimpactassessmentdpia.md)
   
 ## Article 36.3
 When consulting the supervisory authority pursuant to paragraph 1, the controller shall provide the supervisory authority with:
@@ -26,9 +26,9 @@ When consulting the supervisory authority pursuant to paragraph 1, the controll
   
 ### Mapped SCF controls
 - [GOV-06 - Contacts With Authorities](../scf/gov-06-contactswithauthorities.md)
-- [RSK-08 - Business Impact Analysis (BIA)](../scf/rsk-08-businessimpactanalysis(bia).md)
+- [RSK-08 - Business Impact Analysis (BIA)](../scf/rsk-08-businessimpactanalysisbia.md)
 - [RSK-09.1 - Supply Chain Risk Assessment](../scf/rsk-091-supplychainriskassessment.md)
-- [RSK-10 - Data Protection Impact Assessment (DPIA)](../scf/rsk-10-dataprotectionimpactassessment(dpia).md)
+- [RSK-10 - Data Protection Impact Assessment (DPIA)](../scf/rsk-10-dataprotectionimpactassessmentdpia.md)
   
 ## Article 36.4
 Member States shall consult the supervisory authority during the preparation of a proposal for a legislative measure to be adopted by a national parliament, or of a regulatory measure based on such a legislative measure, which relates to processing.

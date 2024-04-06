@@ -7,4 +7,4 @@ Denial-of-service events may occur due to a variety of internal and external cau
 - [CAP-01 - Capacity & Performance Management](../scf/cap-01-capacity&performancemanagement.md)
 - [CAP-02 - Resource Priority](../scf/cap-02-resourcepriority.md)
 - [CAP-03 - Capacity Planning](../scf/cap-03-capacityplanning.md)
-- [NET-02.1 - Denial of Service (DoS) Protection](../scf/net-021-denialofservice(dos)protection.md)
+- [NET-02.1 - Denial of Service (DoS) Protection](../scf/net-021-denialofservicedosprotection.md)

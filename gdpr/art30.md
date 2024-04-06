@@ -13,7 +13,7 @@ Each controller and, where applicable, the controller's representative, shall ma
 (g) where possible, a general description of the technical and organisational security measures referred to in Article 32(1).
   
 ### Mapped SCF controls
-- [AST-04 - Network Diagrams & Data Flow Diagrams (DFDs)](../scf/ast-04-networkdiagrams&dataflowdiagrams(dfds).md)
+- [AST-04 - Network Diagrams & Data Flow Diagrams (DFDs)](../scf/ast-04-networkdiagrams&dataflowdiagramsdfds.md)
 - [PRI-09 - Personal Data Lineage](../scf/pri-09-personaldatalineage.md)
 - [PRI-13 - Data Management Board](../scf/pri-13-datamanagementboard.md)
 - [PRI-14.1 - Accounting of Disclosures](../scf/pri-141-accountingofdisclosures.md)
@@ -26,7 +26,7 @@ Each processor and, where applicable, the processor's representative shall maint
 (d) where possible, a general description of the technical and organisational security measures referred to in Article 32(1).
   
 ### Mapped SCF controls
-- [AST-04 - Network Diagrams & Data Flow Diagrams (DFDs)](../scf/ast-04-networkdiagrams&dataflowdiagrams(dfds).md)
+- [AST-04 - Network Diagrams & Data Flow Diagrams (DFDs)](../scf/ast-04-networkdiagrams&dataflowdiagramsdfds.md)
 - [PRI-09 - Personal Data Lineage](../scf/pri-09-personaldatalineage.md)
 - [PRI-13 - Data Management Board](../scf/pri-13-datamanagementboard.md)
 - [PRI-14.1 - Accounting of Disclosures](../scf/pri-141-accountingofdisclosures.md)
@@ -35,7 +35,7 @@ Each processor and, where applicable, the processor's representative shall maint
 The records referred to in paragraphs 1 and 2 shall be in writing, including in electronic form.
   
 ### Mapped SCF controls
-- [AST-04 - Network Diagrams & Data Flow Diagrams (DFDs)](../scf/ast-04-networkdiagrams&dataflowdiagrams(dfds).md)
+- [AST-04 - Network Diagrams & Data Flow Diagrams (DFDs)](../scf/ast-04-networkdiagrams&dataflowdiagramsdfds.md)
 - [PRI-09 - Personal Data Lineage](../scf/pri-09-personaldatalineage.md)
 - [PRI-13 - Data Management Board](../scf/pri-13-datamanagementboard.md)
 - [PRI-14.1 - Accounting of Disclosures](../scf/pri-141-accountingofdisclosures.md)
@@ -44,7 +44,7 @@ The records referred to in paragraphs 1 and 2 shall be in writing, including in 
 The controller or the processor and, where applicable, the controller's or the processor's representative, shall make the record available to the supervisory authority on request.
   
 ### Mapped SCF controls
-- [AST-04 - Network Diagrams & Data Flow Diagrams (DFDs)](../scf/ast-04-networkdiagrams&dataflowdiagrams(dfds).md)
+- [AST-04 - Network Diagrams & Data Flow Diagrams (DFDs)](../scf/ast-04-networkdiagrams&dataflowdiagramsdfds.md)
 - [PRI-09 - Personal Data Lineage](../scf/pri-09-personaldatalineage.md)
 - [PRI-13 - Data Management Board](../scf/pri-13-datamanagementboard.md)
 - [PRI-14.1 - Accounting of Disclosures](../scf/pri-141-accountingofdisclosures.md)
@@ -54,7 +54,7 @@ The controller or the processor and, where applicable, the controller's or the p
 The obligations referred to in paragraphs 1 and 2 shall not apply to an enterprise or an organisation employing fewer than 250 persons unless the processing it carries out is likely to result in a risk to the rights and freedoms of data subjects, the processing is not occasional, or the processing includes special categories of data as referred to in Article 9(1) or personal data relating to criminal convictions and offences referred to in Article 10.
   
 ### Mapped SCF controls
-- [AST-04 - Network Diagrams & Data Flow Diagrams (DFDs)](../scf/ast-04-networkdiagrams&dataflowdiagrams(dfds).md)
+- [AST-04 - Network Diagrams & Data Flow Diagrams (DFDs)](../scf/ast-04-networkdiagrams&dataflowdiagramsdfds.md)
 - [PRI-09 - Personal Data Lineage](../scf/pri-09-personaldatalineage.md)
 - [PRI-13 - Data Management Board](../scf/pri-13-datamanagementboard.md)
 - [PRI-14.1 - Accounting of Disclosures](../scf/pri-141-accountingofdisclosures.md)

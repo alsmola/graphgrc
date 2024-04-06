@@ -26,7 +26,7 @@ In addition to the information referred to in paragraph 1, the controller shall 
 (g) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.
   
 ### Mapped SCF controls
-- [DCH-22.1 - Updating & Correcting Personal Data (PD)](../scf/dch-221-updating&correctingpersonaldata(pd).md)
+- [DCH-22.1 - Updating & Correcting Personal Data (PD)](../scf/dch-221-updating&correctingpersonaldatapd.md)
 - [PRI-02 - Data Privacy Notice](../scf/pri-02-dataprivacynotice.md)
 - [PRI-02.1 - Purpose Specification](../scf/pri-021-purposespecification.md)
 - [PRI-02.2 - Automated Data Management Processes](../scf/pri-022-automateddatamanagementprocesses.md)

@@ -5,4 +5,4 @@
 ## Guidance
 Plans of action and milestones are useful for any type of organization to track planned remedial actions. Plans of action and milestones are required in authorization packages and subject to federal reporting requirements established by OMB.
 ## Mapped SCF controls
-- [IAO-05 - Plan of Action & Milestones (POA&M)](../scf/iao-05-planofaction&milestones(poa&m).md)
+- [IAO-05 - Plan of Action & Milestones (POA&M)](../scf/iao-05-planofaction&milestonespoa&m.md)
