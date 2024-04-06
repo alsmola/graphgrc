@@ -2,8 +2,10 @@
 
 GraphGRC is data-driven documentation for a GRC program.
 
+See https://alsmola.github.io/graphgrc/ for a published documetation example.
+
 - Semantic: GRC program requirements (SOC 2, ISO 27001, GDPR, etc.) parsed, structured, and redered with Markdown
-- Linkable: Combine different controls with the [Secure Controls Framework (SCF)](https://securecontrolsframework.com/) 
+- Linkable: Map similar controls from different Framework with the [Secure Controls Framework (SCF)](https://securecontrolsframework.com/)
 
 Use to connect and understand all of the applicable framework controls for your security program.
 
