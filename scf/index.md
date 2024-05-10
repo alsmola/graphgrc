@@ -107,7 +107,17 @@
 - [CLD-06 - Multi-Tenant Environments](cld-06-multi-tenantenvironments.md)
 - [CLD-06.1 - Customer Responsibility Matrix (CRM)](cld-061-customerresponsibilitymatrixcrm.md)
 - [CLD-09 - Geolocation Requirements for Processing, Storage and Service Locations](cld-09-geolocationrequirementsforprocessing,storageandservicelocations.md)
-##  - 
+## CPL - Compliance
+- [CPL-01 - Statutory, Regulatory & Contractual Compliance](cpl-01-statutory,regulatory&contractualcompliance.md)
+- [CPL-01 - Statutory, Regulatory & Contractual Compliance](cpl-01-statutory,regulatory&contractualcompliance.md)
+- [CPL-01.1 - Non-Compliance Oversight](cpl-011-non-complianceoversight.md)
+- [CPL-01.2 - Compliance Scope](cpl-012-compliancescope.md)
+- [CPL-02 - Cybersecurity & Data Protection Controls Oversight](cpl-02-cybersecurity&dataprotectioncontrolsoversight.md)
+- [CPL-02.1 - Internal Audit Function](cpl-021-internalauditfunction.md)
+- [CPL-03 - Cybersecurity & Data Protection Assessments](cpl-03-cybersecurity&dataprotectionassessments.md)
+- [CPL-03.1 - Independent Assessors](cpl-031-independentassessors.md)
+- [CPL-03.2 - Functional Review Of Cybersecurity & Data Protection Controls](cpl-032-functionalreviewofcybersecurity&dataprotectioncontrols.md)
+- [CPL-04 - Audit Activities](cpl-04-auditactivities.md)
 ## CRY - Cryptographic Protections
 - [CRY-01 - Use of Cryptographic Controls](cry-01-useofcryptographiccontrols.md)
 - [CRY-01 - Use of Cryptographic Controls](cry-01-useofcryptographiccontrols.md)

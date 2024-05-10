@@ -77,6 +77,7 @@ var SCFControlFamilyMapping = map[string]string{
 	"CHG": "Change Management",
 	"CLD": "Cloud Security",
 	"CFG": "Configuration Management",
+	"CPL": "Compliance",
 	"CRY": "Cryptographic Protections",
 	"DCH": "Data Classification & Handling",
 	"EMB": "Embedded Technology",
