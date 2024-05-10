@@ -64,7 +64,7 @@ var SupportedFrameworks = map[Framework]ControlHeader{
 	"GDPR":      "EMEA EU GDPR",
 	"ISO 27001": "ISO 27001 v2022",
 	"ISO 27002": "ISO 27002 v2022",
-	// "ISO 27701":   "ISO 27701 v2019",
+	// "ISO 27701":   "ISO 27701  v2019",
 	"NIST 800-53": "NIST 800-53B rev5 (moderate)",
 	// "HIPAA":       "US HIPAA",
 }
@@ -92,6 +92,7 @@ var SCFControlFamilyMapping = map[string]string{
 	"MDM": "Mobile Device Management",
 	"NET": "Network Security",
 	"OPS": "Security Operations",
+	"PES": "Physical & Environmental Security",
 	"PRI": "Data Privacy",
 	"PRM": "Project & Resource Management",
 	"RSK": "Risk Management",
@@ -298,8 +299,9 @@ func GenerateSCFIndex(scfControlMappings SCFControlMappings, scfControls SCFCont
 			lastControlFamily = family
 			doc.H2(fmt.Sprintf("%s - %s", family, SCFControlFamilyMapping[family]))
 			controlLinks = []string{fmt.Sprintf("[%s](%s.md)", controlID, safeFileName(string(controlID)))}
+		} else {
+			controlLinks = append(controlLinks, fmt.Sprintf("[%s](%s.md)", controlID, safeFileName(string(controlID))))
 		}
-		controlLinks = append(controlLinks, fmt.Sprintf("[%s](%s.md)", controlID, safeFileName(string(controlID))))
 	}
 	doc.Build()
 	return nil

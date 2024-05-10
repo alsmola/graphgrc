@@ -1,7 +1,6 @@
 # SCF Controls
 ## AST - Asset Management
 - [AST-01 - Asset Governance](ast-01-assetgovernance.md)
-- [AST-01 - Asset Governance](ast-01-assetgovernance.md)
 - [AST-01.1 - Asset-Service Dependencies](ast-011-asset-servicedependencies.md)
 - [AST-01.2 - Stakeholder Identification & Involvement](ast-012-stakeholderidentification&involvement.md)
 - [AST-02 - Asset Inventories](ast-02-assetinventories.md)
@@ -26,7 +25,6 @@
 - [AST-15 - Tamper Protection](ast-15-tamperprotection.md)
 - [AST-15.1 - Inspection of Systems, Components & Devices](ast-151-inspectionofsystems,components&devices.md)
 ## BCD - Business Continuity & Disaster Recovery
-- [BCD-01 - Business Continuity Management System (BCMS)](bcd-01-businesscontinuitymanagementsystembcms.md)
 - [BCD-01 - Business Continuity Management System (BCMS)](bcd-01-businesscontinuitymanagementsystembcms.md)
 - [BCD-01.1 - Coordinate with Related Plans](bcd-011-coordinatewithrelatedplans.md)
 - [BCD-01.2 - Coordinate With External Service Providers](bcd-012-coordinatewithexternalserviceproviders.md)
@@ -63,11 +61,9 @@
 - [BCD-13 - Backup & Restoration Hardware Protection](bcd-13-backup&restorationhardwareprotection.md)
 ## CAP - Capacity & Performance Planning
 - [CAP-01 - Capacity & Performance Management](cap-01-capacity&performancemanagement.md)
-- [CAP-01 - Capacity & Performance Management](cap-01-capacity&performancemanagement.md)
 - [CAP-02 - Resource Priority](cap-02-resourcepriority.md)
 - [CAP-03 - Capacity Planning](cap-03-capacityplanning.md)
 ## CFG - Configuration Management
-- [CFG-01 - Configuration Management Program](cfg-01-configurationmanagementprogram.md)
 - [CFG-01 - Configuration Management Program](cfg-01-configurationmanagementprogram.md)
 - [CFG-01.1 - Assignment of Responsibility](cfg-011-assignmentofresponsibility.md)
 - [CFG-02 - System Hardening Through Baseline Configurations](cfg-02-systemhardeningthroughbaselineconfigurations.md)
@@ -89,7 +85,6 @@
 - [CFG-05.1 - Unauthorized Installation Alerts](cfg-051-unauthorizedinstallationalerts.md)
 ## CHG - Change Management
 - [CHG-01 - Change Management Program](chg-01-changemanagementprogram.md)
-- [CHG-01 - Change Management Program](chg-01-changemanagementprogram.md)
 - [CHG-02 - Configuration Change Control](chg-02-configurationchangecontrol.md)
 - [CHG-02.1 - Prohibition Of Changes](chg-021-prohibitionofchanges.md)
 - [CHG-02.2 - Test, Validate & Document Changes](chg-022-test,validate&documentchanges.md)
@@ -101,14 +96,12 @@
 - [CHG-06 - Cybersecurity Functionality Verification](chg-06-cybersecurityfunctionalityverification.md)
 ## CLD - Cloud Security
 - [CLD-01 - Cloud Services](cld-01-cloudservices.md)
-- [CLD-01 - Cloud Services](cld-01-cloudservices.md)
 - [CLD-02 - Cloud Security Architecture](cld-02-cloudsecurityarchitecture.md)
 - [CLD-04 - Application & Program Interface (API) Security](cld-04-application&programinterfaceapisecurity.md)
 - [CLD-06 - Multi-Tenant Environments](cld-06-multi-tenantenvironments.md)
 - [CLD-06.1 - Customer Responsibility Matrix (CRM)](cld-061-customerresponsibilitymatrixcrm.md)
 - [CLD-09 - Geolocation Requirements for Processing, Storage and Service Locations](cld-09-geolocationrequirementsforprocessing,storageandservicelocations.md)
 ## CPL - Compliance
-- [CPL-01 - Statutory, Regulatory & Contractual Compliance](cpl-01-statutory,regulatory&contractualcompliance.md)
 - [CPL-01 - Statutory, Regulatory & Contractual Compliance](cpl-01-statutory,regulatory&contractualcompliance.md)
 - [CPL-01.1 - Non-Compliance Oversight](cpl-011-non-complianceoversight.md)
 - [CPL-01.2 - Compliance Scope](cpl-012-compliancescope.md)
@@ -119,7 +112,6 @@
 - [CPL-03.2 - Functional Review Of Cybersecurity & Data Protection Controls](cpl-032-functionalreviewofcybersecurity&dataprotectioncontrols.md)
 - [CPL-04 - Audit Activities](cpl-04-auditactivities.md)
 ## CRY - Cryptographic Protections
-- [CRY-01 - Use of Cryptographic Controls](cry-01-useofcryptographiccontrols.md)
 - [CRY-01 - Use of Cryptographic Controls](cry-01-useofcryptographiccontrols.md)
 - [CRY-01.1 - Alternate Physical Protection](cry-011-alternatephysicalprotection.md)
 - [CRY-01.2 - Export-Controlled Technology](cry-012-export-controlledtechnology.md)
@@ -135,7 +127,6 @@
 - [CRY-09.3 - Cryptographic Key Loss or Change](cry-093-cryptographickeylossorchange.md)
 - [CRY-09.4 - Control & Distribution of Cryptographic Keys](cry-094-control&distributionofcryptographickeys.md)
 ## DCH - Data Classification & Handling
-- [DCH-01 - Data Protection](dch-01-dataprotection.md)
 - [DCH-01 - Data Protection](dch-01-dataprotection.md)
 - [DCH-01.1 - Data Stewardship](dch-011-datastewardship.md)
 - [DCH-02 - Data & Asset Classification](dch-02-data&assetclassification.md)
@@ -175,9 +166,7 @@
 - [DCH-25 - Transfer of Sensitive and/or Regulated Data](dch-25-transferofsensitiveand/orregulateddata.md)
 ## EMB - Embedded Technology
 - [EMB-01 - Embedded Technology Security Program](emb-01-embeddedtechnologysecurityprogram.md)
-- [EMB-01 - Embedded Technology Security Program](emb-01-embeddedtechnologysecurityprogram.md)
 ## END - Endpoint Security
-- [END-01 - Endpoint Security](end-01-endpointsecurity.md)
 - [END-01 - Endpoint Security](end-01-endpointsecurity.md)
 - [END-02 - Endpoint Protection Measures](end-02-endpointprotectionmeasures.md)
 - [END-03 - Prohibit Installation Without Privileged Status](end-03-prohibitinstallationwithoutprivilegedstatus.md)
@@ -199,7 +188,6 @@
 - [END-14 - Collaborative Computing Devices](end-14-collaborativecomputingdevices.md)
 ## GOV - Cybersecurity & Data Privacy Governance
 - [GOV-01 - Cybersecurity & Data Protection Governance Program](gov-01-cybersecurity&dataprotectiongovernanceprogram.md)
-- [GOV-01 - Cybersecurity & Data Protection Governance Program](gov-01-cybersecurity&dataprotectiongovernanceprogram.md)
 - [GOV-01.1 - Steering Committee & Program Oversight](gov-011-steeringcommittee&programoversight.md)
 - [GOV-01.2 - Status Reporting To Governing Body](gov-012-statusreportingtogoverningbody.md)
 - [GOV-02 - Publishing Cybersecurity & Data Protection Documentation](gov-02-publishingcybersecurity&dataprotectiondocumentation.md)
@@ -215,7 +203,6 @@
 - [GOV-15.1 - Select Controls](gov-151-selectcontrols.md)
 - [GOV-15.2 - Implement Controls](gov-152-implementcontrols.md)
 ## HRS - Human Resources Security
-- [HRS-01 - Human Resources Security Management](hrs-01-humanresourcessecuritymanagement.md)
 - [HRS-01 - Human Resources Security Management](hrs-01-humanresourcessecuritymanagement.md)
 - [HRS-02 - Position Categorization](hrs-02-positioncategorization.md)
 - [HRS-02.1 - Users With Elevated Privileges](hrs-021-userswithelevatedprivileges.md)
@@ -245,7 +232,6 @@
 - [HRS-11 - Separation of Duties (SoD)](hrs-11-separationofdutiessod.md)
 - [HRS-12 - Incompatible Roles](hrs-12-incompatibleroles.md)
 ## IAC - Identification & Authentication
-- [IAC-01 - Identity & Access Management (IAM)](iac-01-identity&accessmanagementiam.md)
 - [IAC-01 - Identity & Access Management (IAM)](iac-01-identity&accessmanagementiam.md)
 - [IAC-01.2 - Authenticate, Authorize and Audit (AAA)](iac-012-authenticate,authorizeandauditaaa.md)
 - [IAC-02 - Identification & Authentication for Organizational Users](iac-02-identification&authenticationfororganizationalusers.md)
@@ -316,7 +302,6 @@
 - [IAC-28.5 - Address Confirmation](iac-285-addressconfirmation.md)
 ## IAO - Information Assurance
 - [IAO-01 - Information Assurance (IA) Operations](iao-01-informationassuranceiaoperations.md)
-- [IAO-01 - Information Assurance (IA) Operations](iao-01-informationassuranceiaoperations.md)
 - [IAO-02 - Assessments](iao-02-assessments.md)
 - [IAO-02.1 - Assessor Independence](iao-021-assessorindependence.md)
 - [IAO-02.2 - Specialized Assessments](iao-022-specializedassessments.md)
@@ -327,7 +312,6 @@
 - [IAO-06 - Technical Verification](iao-06-technicalverification.md)
 - [IAO-07 - Security Authorization](iao-07-securityauthorization.md)
 ## IRO - Incident Response
-- [IRO-01 - Incident Response Operations](iro-01-incidentresponseoperations.md)
 - [IRO-01 - Incident Response Operations](iro-01-incidentresponseoperations.md)
 - [IRO-02 - Incident Handling](iro-02-incidenthandling.md)
 - [IRO-02.1 - Automated Incident Handling Processes](iro-021-automatedincidenthandlingprocesses.md)
@@ -353,12 +337,10 @@
 - [IRO-14 - Regulatory & Law Enforcement Contacts](iro-14-regulatory&lawenforcementcontacts.md)
 ## MDM - Mobile Device Management
 - [MDM-01 - Centralized Management Of Mobile Devices](mdm-01-centralizedmanagementofmobiledevices.md)
-- [MDM-01 - Centralized Management Of Mobile Devices](mdm-01-centralizedmanagementofmobiledevices.md)
 - [MDM-02 - Access Control For Mobile Devices](mdm-02-accesscontrolformobiledevices.md)
 - [MDM-03 - Full Device & Container-Based Encryption](mdm-03-fulldevice&container-basedencryption.md)
 - [MDM-05 - Remote Purging](mdm-05-remotepurging.md)
 ## MNT - Maintenance
-- [MNT-01 - Maintenance Operations](mnt-01-maintenanceoperations.md)
 - [MNT-01 - Maintenance Operations](mnt-01-maintenanceoperations.md)
 - [MNT-02 - Controlled Maintenance](mnt-02-controlledmaintenance.md)
 - [MNT-03 - Timely Maintenance](mnt-03-timelymaintenance.md)
@@ -372,7 +354,6 @@
 - [MNT-06 - Authorized Maintenance Personnel](mnt-06-authorizedmaintenancepersonnel.md)
 - [MNT-07 - Maintain Configuration Control During Maintenance](mnt-07-maintainconfigurationcontrolduringmaintenance.md)
 ## MON - Continuous Monitoring
-- [MON-01 - Continuous Monitoring](mon-01-continuousmonitoring.md)
 - [MON-01 - Continuous Monitoring](mon-01-continuousmonitoring.md)
 - [MON-01.1 - Intrusion Detection & Prevention Systems (IDS & IPS)](mon-011-intrusiondetection&preventionsystemsids&ips.md)
 - [MON-01.2 - Automated Tools for Real-Time Analysis](mon-012-automatedtoolsforreal-timeanalysis.md)
@@ -400,7 +381,6 @@
 - [MON-11.3 - Monitoring for Indicators of Compromise (IOC)](mon-113-monitoringforindicatorsofcompromiseioc.md)
 - [MON-16 - Anomalous Behavior](mon-16-anomalousbehavior.md)
 ## NET - Network Security
-- [NET-01 - Network Security Controls (NSC)](net-01-networksecuritycontrolsnsc.md)
 - [NET-01 - Network Security Controls (NSC)](net-01-networksecuritycontrolsnsc.md)
 - [NET-02 - Layered Network Defenses](net-02-layerednetworkdefenses.md)
 - [NET-02.1 - Denial of Service (DoS) Protection](net-021-denialofservicedosprotection.md)
@@ -438,13 +418,41 @@
 - [NET-18.1 - Route Traffic to Proxy Servers](net-181-routetraffictoproxyservers.md)
 ## OPS - Security Operations
 - [OPS-01 - Operations Security](ops-01-operationssecurity.md)
-- [OPS-01 - Operations Security](ops-01-operationssecurity.md)
 - [OPS-01.1 - Standardized Operating Procedures (SOP)](ops-011-standardizedoperatingproceduressop.md)
 - [OPS-02 - Security Concept Of Operations (CONOPS)](ops-02-securityconceptofoperationsconops.md)
 - [OPS-03 - Service Delivery (Business Process Support)](ops-03-servicedeliverybusinessprocesssupport.md)
-##  - 
+## PES - Physical & Environmental Security
+- [PES-01 - Physical & Environmental Protections](pes-01-physical&environmentalprotections.md)
+- [PES-02 - Physical Access Authorizations](pes-02-physicalaccessauthorizations.md)
+- [PES-02.1 - Role-Based Physical Access](pes-021-role-basedphysicalaccess.md)
+- [PES-03 - Physical Access Control](pes-03-physicalaccesscontrol.md)
+- [PES-03.1 - Controlled Ingress & Egress Points](pes-031-controlledingress&egresspoints.md)
+- [PES-03.3 - Physical Access Logs](pes-033-physicalaccesslogs.md)
+- [PES-04 - Physical Security of Offices, Rooms & Facilities](pes-04-physicalsecurityofoffices,rooms&facilities.md)
+- [PES-04.1 - Working in Secure Areas](pes-041-workinginsecureareas.md)
+- [PES-05 - Monitoring Physical Access](pes-05-monitoringphysicalaccess.md)
+- [PES-05.1 - Intrusion Alarms / Surveillance Equipment](pes-051-intrusionalarms/surveillanceequipment.md)
+- [PES-05.2 - Monitoring Physical Access To Information Systems](pes-052-monitoringphysicalaccesstoinformationsystems.md)
+- [PES-06 - Visitor Control](pes-06-visitorcontrol.md)
+- [PES-07 - Supporting Utilities](pes-07-supportingutilities.md)
+- [PES-07.1 - Automatic Voltage Controls](pes-071-automaticvoltagecontrols.md)
+- [PES-07.2 - Emergency Shutoff](pes-072-emergencyshutoff.md)
+- [PES-07.3 - Emergency Power](pes-073-emergencypower.md)
+- [PES-07.4 - Emergency Lighting](pes-074-emergencylighting.md)
+- [PES-07.5 - Water Damage Protection](pes-075-waterdamageprotection.md)
+- [PES-08 - Fire Protection](pes-08-fireprotection.md)
+- [PES-08.1 - Fire Detection Devices](pes-081-firedetectiondevices.md)
+- [PES-08.2 - Fire Suppression Devices](pes-082-firesuppressiondevices.md)
+- [PES-09 - Temperature & Humidity Controls](pes-09-temperature&humiditycontrols.md)
+- [PES-09.1 - Monitoring with Alarms / Notifications](pes-091-monitoringwithalarms/notifications.md)
+- [PES-10 - Delivery & Removal](pes-10-delivery&removal.md)
+- [PES-11 - Alternate Work Site](pes-11-alternateworksite.md)
+- [PES-12 - Equipment Siting & Protection](pes-12-equipmentsiting&protection.md)
+- [PES-12.1 - Transmission Medium Security](pes-121-transmissionmediumsecurity.md)
+- [PES-12.2 - Access Control for Output Devices](pes-122-accesscontrolforoutputdevices.md)
+- [PES-13 - Information Leakage Due To Electromagnetic Signals Emanations](pes-13-informationleakageduetoelectromagneticsignalsemanations.md)
+- [PES-15 - Electromagnetic Pulse (EMP) Protection](pes-15-electromagneticpulseempprotection.md)
 ## PRI - Data Privacy
-- [PRI-01 - Data Privacy Program](pri-01-dataprivacyprogram.md)
 - [PRI-01 - Data Privacy Program](pri-01-dataprivacyprogram.md)
 - [PRI-01.1 - Chief Privacy Officer (CPO)](pri-011-chiefprivacyofficercpo.md)
 - [PRI-01.2 - Privacy Act Statements](pri-012-privacyactstatements.md)
@@ -484,7 +492,6 @@
 - [PRI-15 - Register As A Data Controller and/or Data Processor](pri-15-registerasadatacontrollerand/ordataprocessor.md)
 ## PRM - Project & Resource Management
 - [PRM-01 - Cybersecurity & Data Privacy Portfolio Management](prm-01-cybersecurity&dataprivacyportfoliomanagement.md)
-- [PRM-01 - Cybersecurity & Data Privacy Portfolio Management](prm-01-cybersecurity&dataprivacyportfoliomanagement.md)
 - [PRM-02 - Cybersecurity & Data Privacy Resource Management](prm-02-cybersecurity&dataprivacyresourcemanagement.md)
 - [PRM-03 - Allocation of Resources](prm-03-allocationofresources.md)
 - [PRM-04 - Cybersecurity & Data Privacy In Project Management](prm-04-cybersecurity&dataprivacyinprojectmanagement.md)
@@ -492,7 +499,6 @@
 - [PRM-06 - Business Process Definition](prm-06-businessprocessdefinition.md)
 - [PRM-07 - Secure Development Life Cycle (SDLC) Management](prm-07-securedevelopmentlifecyclesdlcmanagement.md)
 ## RSK - Risk Management
-- [RSK-01 - Risk Management Program](rsk-01-riskmanagementprogram.md)
 - [RSK-01 - Risk Management Program](rsk-01-riskmanagementprogram.md)
 - [RSK-01.1 - Risk Framing](rsk-011-riskframing.md)
 - [RSK-02 - Risk-Based Security Categorization](rsk-02-risk-basedsecuritycategorization.md)
@@ -510,13 +516,11 @@
 - [RSK-11 - Risk Monitoring](rsk-11-riskmonitoring.md)
 ## SAT - Security Awareness & Training
 - [SAT-01 - Cybersecurity & Data Privacy-Minded Workforce](sat-01-cybersecurity&dataprivacy-mindedworkforce.md)
-- [SAT-01 - Cybersecurity & Data Privacy-Minded Workforce](sat-01-cybersecurity&dataprivacy-mindedworkforce.md)
 - [SAT-02 - Cybersecurity & Data Privacy Awareness Training](sat-02-cybersecurity&dataprivacyawarenesstraining.md)
 - [SAT-02.2 - Social Engineering & Mining](sat-022-socialengineering&mining.md)
 - [SAT-03 - Role-Based Cybersecurity & Data Privacy Training](sat-03-role-basedcybersecurity&dataprivacytraining.md)
 - [SAT-04 - Cybersecurity & Data Privacy Training Records](sat-04-cybersecurity&dataprivacytrainingrecords.md)
 ## SEA - Secure Engineering & Architecture
-- [SEA-01 - Secure Engineering Principles](sea-01-secureengineeringprinciples.md)
 - [SEA-01 - Secure Engineering Principles](sea-01-secureengineeringprinciples.md)
 - [SEA-01.1 - Centralized Management of Cybersecurity & Data Privacy Controls](sea-011-centralizedmanagementofcybersecurity&dataprivacycontrols.md)
 - [SEA-02 - Alignment With Enterprise Architecture](sea-02-alignmentwithenterprisearchitecture.md)
@@ -532,7 +536,6 @@
 - [SEA-18 - System Use Notification (Logon Banner)](sea-18-systemusenotificationlogonbanner.md)
 - [SEA-20 - Clock Synchronization](sea-20-clocksynchronization.md)
 ## TDA - Technology Development & Acquisition
-- [TDA-01 - Technology Development & Acquisition](tda-01-technologydevelopment&acquisition.md)
 - [TDA-01 - Technology Development & Acquisition](tda-01-technologydevelopment&acquisition.md)
 - [TDA-02 - Minimum Viable Product (MVP) Security Requirements](tda-02-minimumviableproductmvpsecurityrequirements.md)
 - [TDA-02.1 - Ports, Protocols & Services In Use](tda-021-ports,protocols&servicesinuse.md)
@@ -559,14 +562,12 @@
 - [TDA-20 - Access to Program Source Code](tda-20-accesstoprogramsourcecode.md)
 ## THR - Threat Management
 - [THR-01 - Threat Intelligence Program](thr-01-threatintelligenceprogram.md)
-- [THR-01 - Threat Intelligence Program](thr-01-threatintelligenceprogram.md)
 - [THR-02 - Indicators of Exposure (IOE)](thr-02-indicatorsofexposureioe.md)
 - [THR-03 - Threat Intelligence Feeds](thr-03-threatintelligencefeeds.md)
 - [THR-04 - Insider Threat Program](thr-04-insiderthreatprogram.md)
 - [THR-05 - Insider Threat Awareness](thr-05-insiderthreatawareness.md)
 - [THR-06 - Vulnerability Disclosure Program (VDP)](thr-06-vulnerabilitydisclosureprogramvdp.md)
 ## TPM - Third-Party Management
-- [TPM-01 - Third-Party Management](tpm-01-third-partymanagement.md)
 - [TPM-01 - Third-Party Management](tpm-01-third-partymanagement.md)
 - [TPM-01.1 - Third-Party Inventories](tpm-011-third-partyinventories.md)
 - [TPM-02 - Third-Party Criticality Assessments](tpm-02-third-partycriticalityassessments.md)
@@ -589,7 +590,6 @@
 - [TPM-10 - Managing Changes To Third-Party Services](tpm-10-managingchangestothird-partyservices.md)
 - [TPM-11 - Third-Party Incident Response & Recovery Capabilities](tpm-11-third-partyincidentresponse&recoverycapabilities.md)
 ## VPM - Vulnerability & Patch Management
-- [VPM-01 - Vulnerability & Patch Management Program (VPMP)](vpm-01-vulnerability&patchmanagementprogramvpmp.md)
 - [VPM-01 - Vulnerability & Patch Management Program (VPMP)](vpm-01-vulnerability&patchmanagementprogramvpmp.md)
 - [VPM-01.1 - Attack Surface Scope](vpm-011-attacksurfacescope.md)
 - [VPM-02 - Vulnerability Remediation Process](vpm-02-vulnerabilityremediationprocess.md)
