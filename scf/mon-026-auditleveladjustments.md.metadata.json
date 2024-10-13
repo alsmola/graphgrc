@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "MON-02.6 - Audit Level Adjustments",
-        "title": "MON-02.6 - Audit Level Adjustments",
-        "summary": "Mechanisms exist to adjust the level of audit review, analysis and reporting based on evolving threat information from law enforcement, industry associations or other credible sources of threat intelligence. "
+        "title": "Mechanisms exist to adjust the level of audit review, analysis and reporting based on evolving threat information from law enforcement, industry associations or other credible sources of threat intelligence. "
     }
 }

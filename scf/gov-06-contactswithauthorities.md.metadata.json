@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "GOV-06 - Contacts With Authorities",
-        "title": "GOV-06 - Contacts With Authorities",
-        "summary": "Mechanisms exist to identify and document appropriate contacts with relevant law enforcement and regulatory bodies."
+        "title": "Mechanisms exist to identify and document appropriate contacts with relevant law enforcement and regulatory bodies."
     }
 }

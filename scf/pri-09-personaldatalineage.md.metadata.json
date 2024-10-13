@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "PRI-09 - Personal Data Lineage",
-        "title": "PRI-09 - Personal Data Lineage",
-        "summary": "Mechanisms exist to utilize a record of processing activities to maintain a record of Personal Data (PD) that is stored, transmitted and/or processed under the organization's responsibility."
+        "title": "Mechanisms exist to utilize a record of processing activities to maintain a record of Personal Data (PD) that is stored, transmitted and/or processed under the organization's responsibility."
     }
 }

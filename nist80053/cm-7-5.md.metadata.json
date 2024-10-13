@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "cm-7.5",
-        "title": "Authorized Software — Allow-by-exception",
-        "summary": ""
+        "title": "Authorized Software — Allow-by-exception"
     }
 }

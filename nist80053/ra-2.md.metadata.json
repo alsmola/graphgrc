@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ra-2",
-        "title": "Security Categorization",
-        "summary": ""
+        "title": "Security Categorization"
     }
 }

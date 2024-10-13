@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IAC-21.1 - Authorize Access to Security Functions",
-        "title": "IAC-21.1 - Authorize Access to Security Functions",
-        "summary": "Mechanisms exist to limit access to security functions to explicitly-authorized privileged users."
+        "title": "Mechanisms exist to limit access to security functions to explicitly-authorized privileged users."
     }
 }

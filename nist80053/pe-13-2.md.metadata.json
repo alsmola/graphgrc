@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "pe-13.2",
-        "title": "Suppression Systems — Automatic Activation and Notification",
-        "summary": ""
+        "title": "Suppression Systems — Automatic Activation and Notification"
     }
 }

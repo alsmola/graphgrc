@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IRO-10.3 - Vulnerabilities Related To Incidents",
-        "title": "IRO-10.3 - Vulnerabilities Related To Incidents",
-        "summary": "Mechanisms exist to report system vulnerabilities associated with reported cybersecurity \u0026 data privacy incidents to organization-defined personnel or roles."
+        "title": "Mechanisms exist to report system vulnerabilities associated with reported cybersecurity \u0026 data privacy incidents to organization-defined personnel or roles."
     }
 }

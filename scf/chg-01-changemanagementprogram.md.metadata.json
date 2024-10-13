@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CHG-01 - Change Management Program",
-        "title": "CHG-01 - Change Management Program",
-        "summary": "Mechanisms exist to facilitate the implementation of a change management program."
+        "title": "Mechanisms exist to facilitate the implementation of a change management program."
     }
 }

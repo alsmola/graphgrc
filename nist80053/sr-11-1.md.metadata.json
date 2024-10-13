@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "sr-11.1",
-        "title": "Anti-counterfeit Training",
-        "summary": ""
+        "title": "Anti-counterfeit Training"
     }
 }

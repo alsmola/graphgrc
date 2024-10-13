@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "pe-14",
-        "title": "Environmental Controls",
-        "summary": ""
+        "title": "Environmental Controls"
     }
 }

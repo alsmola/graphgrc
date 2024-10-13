@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IAC-21.4 - Auditing Use of Privileged Functions",
-        "title": "IAC-21.4 - Auditing Use of Privileged Functions",
-        "summary": "Mechanisms exist to audit the execution of privileged functions. "
+        "title": "Mechanisms exist to audit the execution of privileged functions. "
     }
 }

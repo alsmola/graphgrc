@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "TPM-09 - Third-Party Deficiency Remediation",
-        "title": "TPM-09 - Third-Party Deficiency Remediation",
-        "summary": "Mechanisms exist to address weaknesses or deficiencies in supply chain elements identified during independent or organizational assessments of such elements. "
+        "title": "Mechanisms exist to address weaknesses or deficiencies in supply chain elements identified during independent or organizational assessments of such elements. "
     }
 }

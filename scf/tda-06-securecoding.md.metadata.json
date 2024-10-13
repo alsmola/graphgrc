@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "TDA-06 - Secure Coding",
-        "title": "TDA-06 - Secure Coding",
-        "summary": "Mechanisms exist to develop applications based on secure coding principles. "
+        "title": "Mechanisms exist to develop applications based on secure coding principles. "
     }
 }

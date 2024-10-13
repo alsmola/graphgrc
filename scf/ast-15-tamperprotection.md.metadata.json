@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "AST-15 - Tamper Protection",
-        "title": "AST-15 - Tamper Protection",
-        "summary": "Mechanisms exist to verify logical configuration settings and the physical integrity of critical technology assets throughout their lifecycle."
+        "title": "Mechanisms exist to verify logical configuration settings and the physical integrity of critical technology assets throughout their lifecycle."
     }
 }

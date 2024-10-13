@@ -102,7 +102,7 @@ func GenerateISOMarkdown(standard Framework, isoDomain ISODomain, scfControlMapp
 		}
 	}
 	doc.Build()
-	err = generateMetadata(filename, string(standard), isoDomain.Title, isoDomain.Title, "")
+	err = generateMetadata(filename, string(standard), isoDomain.Title, isoDomain.Title)
 	if err != nil {
 		return err
 	}

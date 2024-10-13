@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CHG-02.2 - Test, Validate \u0026 Document Changes",
-        "title": "CHG-02.2 - Test, Validate \u0026 Document Changes",
-        "summary": "Mechanisms exist to appropriately test and document proposed changes in a non-production environment before changes are implemented in a production environment."
+        "title": "Mechanisms exist to appropriately test and document proposed changes in a non-production environment before changes are implemented in a production environment."
     }
 }

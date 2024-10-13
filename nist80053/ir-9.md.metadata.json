@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ir-9",
-        "title": "Information Spillage Response",
-        "summary": ""
+        "title": "Information Spillage Response"
     }
 }

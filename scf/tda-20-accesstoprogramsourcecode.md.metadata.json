@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "TDA-20 - Access to Program Source Code",
-        "title": "TDA-20 - Access to Program Source Code",
-        "summary": "Mechanisms exist to limit privileges to change software resident within software libraries. "
+        "title": "Mechanisms exist to limit privileges to change software resident within software libraries. "
     }
 }

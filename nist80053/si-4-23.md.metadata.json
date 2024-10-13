@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "si-4.23",
-        "title": "Host-based Devices",
-        "summary": ""
+        "title": "Host-based Devices"
     }
 }

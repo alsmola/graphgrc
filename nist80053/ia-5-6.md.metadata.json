@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ia-5.6",
-        "title": "Protection of Authenticators",
-        "summary": ""
+        "title": "Protection of Authenticators"
     }
 }

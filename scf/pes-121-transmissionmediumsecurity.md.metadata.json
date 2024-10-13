@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "PES-12.1 - Transmission Medium Security",
-        "title": "PES-12.1 - Transmission Medium Security",
-        "summary": "Physical security mechanisms exist to protect power and telecommunications cabling carrying data or supporting information services from interception, interference or damage. "
+        "title": "Physical security mechanisms exist to protect power and telecommunications cabling carrying data or supporting information services from interception, interference or damage. "
     }
 }

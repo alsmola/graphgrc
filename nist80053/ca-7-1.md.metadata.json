@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ca-7.1",
-        "title": "Independent Assessment",
-        "summary": ""
+        "title": "Independent Assessment"
     }
 }

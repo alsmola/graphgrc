@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IAC-15 - Account Management",
-        "title": "IAC-15 - Account Management",
-        "summary": "Mechanisms exist to proactively govern account management of individual, group, system, service, application, guest and temporary accounts."
+        "title": "Mechanisms exist to proactively govern account management of individual, group, system, service, application, guest and temporary accounts."
     }
 }

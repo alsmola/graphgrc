@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "DCH-07.1 - Custodians",
-        "title": "DCH-07.1 - Custodians",
-        "summary": "Mechanisms exist to identify custodians throughout the transport of digital or non-digital media. "
+        "title": "Mechanisms exist to identify custodians throughout the transport of digital or non-digital media. "
     }
 }

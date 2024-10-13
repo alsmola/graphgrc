@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "END-13.1 - Authorized Use",
-        "title": "END-13.1 - Authorized Use",
-        "summary": "Mechanisms exist to utilize organization-defined measures so that data or information collected by sensors is only used for authorized purposes."
+        "title": "Mechanisms exist to utilize organization-defined measures so that data or information collected by sensors is only used for authorized purposes."
     }
 }

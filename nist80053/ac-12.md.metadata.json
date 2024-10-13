@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ac-12",
-        "title": "Session Termination",
-        "summary": ""
+        "title": "Session Termination"
     }
 }

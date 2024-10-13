@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "si-5",
-        "title": "Security Alerts, Advisories, and Directives",
-        "summary": ""
+        "title": "Security Alerts, Advisories, and Directives"
     }
 }

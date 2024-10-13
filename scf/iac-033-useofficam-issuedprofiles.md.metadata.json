@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IAC-03.3 - Use of FICAM-Issued Profiles",
-        "title": "IAC-03.3 - Use of FICAM-Issued Profiles",
-        "summary": "Mechanisms exist to conform systems to Federal Identity, Credential and Access Management (FICAM)-issued profiles. "
+        "title": "Mechanisms exist to conform systems to Federal Identity, Credential and Access Management (FICAM)-issued profiles. "
     }
 }

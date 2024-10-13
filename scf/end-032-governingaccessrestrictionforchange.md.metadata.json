@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "END-03.2 - Governing Access Restriction for Change",
-        "title": "END-03.2 - Governing Access Restriction for Change",
-        "summary": "Mechanisms exist to define, document, approve and enforce access restrictions associated with changes to systems."
+        "title": "Mechanisms exist to define, document, approve and enforce access restrictions associated with changes to systems."
     }
 }

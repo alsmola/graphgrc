@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IAC-06.3 - Local Access to Privileged Accounts",
-        "title": "IAC-06.3 - Local Access to Privileged Accounts",
-        "summary": "Mechanisms exist to utilize Multi-Factor Authentication (MFA) to authenticate local access for privileged accounts. "
+        "title": "Mechanisms exist to utilize Multi-Factor Authentication (MFA) to authenticate local access for privileged accounts. "
     }
 }

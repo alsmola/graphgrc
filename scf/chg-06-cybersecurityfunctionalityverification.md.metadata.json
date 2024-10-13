@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CHG-06 - Cybersecurity Functionality Verification",
-        "title": "CHG-06 - Cybersecurity Functionality Verification",
-        "summary": "Mechanisms exist to verify the functionality of cybersecurity controls when anomalies are discovered."
+        "title": "Mechanisms exist to verify the functionality of cybersecurity controls when anomalies are discovered."
     }
 }

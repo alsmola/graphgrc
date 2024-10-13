@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "TDA-02.3 - Development Methods, Techniques \u0026 Processes",
-        "title": "TDA-02.3 - Development Methods, Techniques \u0026 Processes",
-        "summary": "Mechanisms exist to require software vendors / manufacturers to demonstrate that their software development processes employ industry-recognized secure practices for secure programming, engineering methods, quality control processes and validation techniques to minimize flawed or malformed software."
+        "title": "Mechanisms exist to require software vendors / manufacturers to demonstrate that their software development processes employ industry-recognized secure practices for secure programming, engineering methods, quality control processes and validation techniques to minimize flawed or malformed software."
     }
 }

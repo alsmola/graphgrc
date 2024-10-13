@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "TPM-10 - Managing Changes To Third-Party Services",
-        "title": "TPM-10 - Managing Changes To Third-Party Services",
-        "summary": "Mechanisms exist to control changes to services by suppliers, taking into account the criticality of business information, systems and processes that are in scope by the third-party."
+        "title": "Mechanisms exist to control changes to services by suppliers, taking into account the criticality of business information, systems and processes that are in scope by the third-party."
     }
 }

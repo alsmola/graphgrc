@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "PRI-13 - Data Management Board",
-        "title": "PRI-13 - Data Management Board",
-        "summary": "Mechanisms exist to establish a written charter for a Data Management Board (DMB) and assigned organization-defined roles to the DMB."
+        "title": "Mechanisms exist to establish a written charter for a Data Management Board (DMB) and assigned organization-defined roles to the DMB."
     }
 }

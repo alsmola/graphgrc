@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "sc-7.7",
-        "title": "Split Tunneling for Remote Devices",
-        "summary": ""
+        "title": "Split Tunneling for Remote Devices"
     }
 }

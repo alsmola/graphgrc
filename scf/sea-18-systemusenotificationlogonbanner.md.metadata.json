@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "SEA-18 - System Use Notification (Logon Banner)",
-        "title": "SEA-18 - System Use Notification (Logon Banner)",
-        "summary": "Mechanisms exist to utilize system use notification / logon banners that display an approved system use notification message or banner before granting access to the system that provides cybersecurity \u0026 data privacy notices."
+        "title": "Mechanisms exist to utilize system use notification / logon banners that display an approved system use notification message or banner before granting access to the system that provides cybersecurity \u0026 data privacy notices."
     }
 }

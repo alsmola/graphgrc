@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ia-8",
-        "title": "Identification and Authentication (Non-organizational Users)",
-        "summary": ""
+        "title": "Identification and Authentication (Non-organizational Users)"
     }
 }

@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "BCD-11.4 - Cryptographic Protection",
-        "title": "BCD-11.4 - Cryptographic Protection",
-        "summary": "Cryptographic mechanisms exist to prevent the unauthorized disclosure and/or modification of backup information."
+        "title": "Cryptographic mechanisms exist to prevent the unauthorized disclosure and/or modification of backup information."
     }
 }

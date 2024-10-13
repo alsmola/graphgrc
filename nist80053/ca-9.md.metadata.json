@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ca-9",
-        "title": "Internal System Connections",
-        "summary": ""
+        "title": "Internal System Connections"
     }
 }

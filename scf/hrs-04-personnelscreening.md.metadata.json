@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "HRS-04 - Personnel Screening",
-        "title": "HRS-04 - Personnel Screening",
-        "summary": "Mechanisms exist to manage personnel security risk by screening individuals prior to authorizing access."
+        "title": "Mechanisms exist to manage personnel security risk by screening individuals prior to authorizing access."
     }
 }

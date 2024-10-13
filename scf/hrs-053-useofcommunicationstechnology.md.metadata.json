@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "HRS-05.3 - Use of Communications Technology",
-        "title": "HRS-05.3 - Use of Communications Technology",
-        "summary": "Mechanisms exist to establish usage restrictions and implementation guidance for communications technologies based on the potential to cause damage to systems, if used maliciously. "
+        "title": "Mechanisms exist to establish usage restrictions and implementation guidance for communications technologies based on the potential to cause damage to systems, if used maliciously. "
     }
 }

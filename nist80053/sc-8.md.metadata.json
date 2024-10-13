@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "sc-8",
-        "title": "Transmission Confidentiality and Integrity",
-        "summary": ""
+        "title": "Transmission Confidentiality and Integrity"
     }
 }

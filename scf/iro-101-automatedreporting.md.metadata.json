@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IRO-10.1 - Automated Reporting",
-        "title": "IRO-10.1 - Automated Reporting",
-        "summary": "Automated mechanisms exist to assist in the reporting of cybersecurity \u0026 data privacy incidents."
+        "title": "Automated mechanisms exist to assist in the reporting of cybersecurity \u0026 data privacy incidents."
     }
 }

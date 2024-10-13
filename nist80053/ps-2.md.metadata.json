@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ps-2",
-        "title": "Position Risk Designation",
-        "summary": ""
+        "title": "Position Risk Designation"
     }
 }

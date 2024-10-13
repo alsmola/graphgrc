@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "DCH-17 - Ad-Hoc Transfers",
-        "title": "DCH-17 - Ad-Hoc Transfers",
-        "summary": "Mechanisms exist to secure ad-hoc exchanges of large digital files with internal or external parties."
+        "title": "Mechanisms exist to secure ad-hoc exchanges of large digital files with internal or external parties."
     }
 }

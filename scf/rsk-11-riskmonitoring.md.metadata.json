@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "RSK-11 - Risk Monitoring",
-        "title": "RSK-11 - Risk Monitoring",
-        "summary": "Mechanisms exist to ensure risk monitoring as an integral part of the continuous monitoring strategy that includes monitoring the effectiveness of cybersecurity \u0026 data privacy controls, compliance and change management."
+        "title": "Mechanisms exist to ensure risk monitoring as an integral part of the continuous monitoring strategy that includes monitoring the effectiveness of cybersecurity \u0026 data privacy controls, compliance and change management."
     }
 }

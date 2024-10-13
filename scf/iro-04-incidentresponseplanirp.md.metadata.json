@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IRO-04 - Incident Response Plan (IRP)",
-        "title": "IRO-04 - Incident Response Plan (IRP)",
-        "summary": "Mechanisms exist to maintain and make available a current and viable Incident Response Plan (IRP) to all stakeholders."
+        "title": "Mechanisms exist to maintain and make available a current and viable Incident Response Plan (IRP) to all stakeholders."
     }
 }

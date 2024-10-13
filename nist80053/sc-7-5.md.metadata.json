@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "sc-7.5",
-        "title": "Deny by Default — Allow by Exception",
-        "summary": ""
+        "title": "Deny by Default — Allow by Exception"
     }
 }

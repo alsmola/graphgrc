@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ac-6.2",
-        "title": "Non-privileged Access for Nonsecurity Functions",
-        "summary": ""
+        "title": "Non-privileged Access for Nonsecurity Functions"
     }
 }

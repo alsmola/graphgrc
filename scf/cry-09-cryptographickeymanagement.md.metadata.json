@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CRY-09 - Cryptographic Key Management",
-        "title": "CRY-09 - Cryptographic Key Management",
-        "summary": "Mechanisms exist to facilitate cryptographic key management controls to protect the confidentiality, integrity and availability of keys."
+        "title": "Mechanisms exist to facilitate cryptographic key management controls to protect the confidentiality, integrity and availability of keys."
     }
 }

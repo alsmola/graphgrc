@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "MON-03.3 - Privileged Functions Logging",
-        "title": "MON-03.3 - Privileged Functions Logging",
-        "summary": "Mechanisms exist to log and review the actions of users and/or services with elevated privileges."
+        "title": "Mechanisms exist to log and review the actions of users and/or services with elevated privileges."
     }
 }

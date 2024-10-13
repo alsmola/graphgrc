@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ia-3",
-        "title": "Device Identification and Authentication",
-        "summary": ""
+        "title": "Device Identification and Authentication"
     }
 }

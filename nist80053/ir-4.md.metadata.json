@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ir-4",
-        "title": "Incident Handling",
-        "summary": ""
+        "title": "Incident Handling"
     }
 }

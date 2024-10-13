@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "PRI-05 - Personal Data Retention \u0026 Disposal",
-        "title": "PRI-05 - Personal Data Retention \u0026 Disposal",
-        "summary": "Mechanisms exist to: \n - Retain Personal Data (PD), including metadata, for an organization-defined time period to fulfill the purpose(s) identified in the notice or as required by law;\n - Dispose of, destroys, erases, and/or anonymizes the PD, regardless of the method of storage; and\n - Use organization-defined techniques or methods to ensure secure deletion or destruction of PD (including originals, copies and archived records)."
+        "title": "Mechanisms exist to: \n - Retain Personal Data (PD), including metadata, for an organization-defined time period to fulfill the purpose(s) identified in the notice or as required by law;\n - Dispose of, destroys, erases, and/or anonymizes the PD, regardless of the method of storage; and\n - Use organization-defined techniques or methods to ensure secure deletion or destruction of PD (including originals, copies and archived records)."
     }
 }

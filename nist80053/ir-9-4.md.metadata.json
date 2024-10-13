@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ir-9.4",
-        "title": "Exposure to Unauthorized Personnel",
-        "summary": ""
+        "title": "Exposure to Unauthorized Personnel"
     }
 }

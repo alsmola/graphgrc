@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "VPM-05.2 - Automated Remediation Status",
-        "title": "VPM-05.2 - Automated Remediation Status",
-        "summary": "Automated mechanisms exist to determine the state of system components with regard to flaw remediation. "
+        "title": "Automated mechanisms exist to determine the state of system components with regard to flaw remediation. "
     }
 }

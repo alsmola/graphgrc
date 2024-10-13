@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "PRI-04.1 - Authority To Collect, Use, Maintain \u0026 Share Personal Data",
-        "title": "PRI-04.1 - Authority To Collect, Use, Maintain \u0026 Share Personal Data",
-        "summary": "Mechanisms exist to determine and document the legal authority that permits the collection, use, maintenance and sharing of Personal Data (PD), either generally or in support of a specific program or system need."
+        "title": "Mechanisms exist to determine and document the legal authority that permits the collection, use, maintenance and sharing of Personal Data (PD), either generally or in support of a specific program or system need."
     }
 }

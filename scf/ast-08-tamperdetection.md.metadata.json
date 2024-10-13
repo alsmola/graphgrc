@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "AST-08 - Tamper Detection",
-        "title": "AST-08 - Tamper Detection",
-        "summary": "Mechanisms exist to periodically inspect systems and system components for Indicators of Compromise (IoC)."
+        "title": "Mechanisms exist to periodically inspect systems and system components for Indicators of Compromise (IoC)."
     }
 }

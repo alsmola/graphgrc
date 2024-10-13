@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "au-7.1",
-        "title": "Automatic Processing",
-        "summary": ""
+        "title": "Automatic Processing"
     }
 }

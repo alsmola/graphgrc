@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ps-9",
-        "title": "Position Descriptions",
-        "summary": ""
+        "title": "Position Descriptions"
     }
 }

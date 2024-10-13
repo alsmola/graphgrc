@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "PES-07.1 - Automatic Voltage Controls",
-        "title": "PES-07.1 - Automatic Voltage Controls",
-        "summary": "Facility security mechanisms exist to utilize automatic voltage controls for critical system components. "
+        "title": "Facility security mechanisms exist to utilize automatic voltage controls for critical system components. "
     }
 }

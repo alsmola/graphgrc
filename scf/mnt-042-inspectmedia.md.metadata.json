@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "MNT-04.2 - Inspect Media",
-        "title": "MNT-04.2 - Inspect Media",
-        "summary": "Mechanisms exist to check media containing diagnostic and test programs for malicious code before the media are used. "
+        "title": "Mechanisms exist to check media containing diagnostic and test programs for malicious code before the media are used. "
     }
 }

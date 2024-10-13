@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ir-7",
-        "title": "Incident Response Assistance",
-        "summary": ""
+        "title": "Incident Response Assistance"
     }
 }

@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CRY-04 - Transmission Integrity",
-        "title": "CRY-04 - Transmission Integrity",
-        "summary": "Cryptographic mechanisms exist to protect the integrity of data being transmitted. "
+        "title": "Cryptographic mechanisms exist to protect the integrity of data being transmitted. "
     }
 }

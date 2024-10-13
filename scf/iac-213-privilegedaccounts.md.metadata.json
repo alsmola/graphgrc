@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IAC-21.3 - Privileged Accounts",
-        "title": "IAC-21.3 - Privileged Accounts",
-        "summary": "Mechanisms exist to restrict the assignment of privileged accounts to organization-defined personnel or roles without management approval."
+        "title": "Mechanisms exist to restrict the assignment of privileged accounts to organization-defined personnel or roles without management approval."
     }
 }

@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IAO-05 - Plan of Action \u0026 Milestones (POA\u0026M)",
-        "title": "IAO-05 - Plan of Action \u0026 Milestones (POA\u0026M)",
-        "summary": "Mechanisms exist to generate a Plan of Action and Milestones (POA\u0026M), or similar risk register, to document planned remedial actions to correct weaknesses or deficiencies noted during the assessment of the security controls and to reduce or eliminate known vulnerabilities."
+        "title": "Mechanisms exist to generate a Plan of Action and Milestones (POA\u0026M), or similar risk register, to document planned remedial actions to correct weaknesses or deficiencies noted during the assessment of the security controls and to reduce or eliminate known vulnerabilities."
     }
 }

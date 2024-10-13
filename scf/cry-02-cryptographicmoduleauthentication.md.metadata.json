@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CRY-02 - Cryptographic Module Authentication",
-        "title": "CRY-02 - Cryptographic Module Authentication",
-        "summary": "Automated mechanisms exist to enable systems to authenticate to a cryptographic module."
+        "title": "Automated mechanisms exist to enable systems to authenticate to a cryptographic module."
     }
 }

@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CLD-04 - Application \u0026 Program Interface (API) Security",
-        "title": "CLD-04 - Application \u0026 Program Interface (API) Security",
-        "summary": "Mechanisms exist to ensure support for secure interoperability between components with Application \u0026 Program Interfaces (APIs)."
+        "title": "Mechanisms exist to ensure support for secure interoperability between components with Application \u0026 Program Interfaces (APIs)."
     }
 }

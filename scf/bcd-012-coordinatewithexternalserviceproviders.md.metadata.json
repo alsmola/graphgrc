@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "BCD-01.2 - Coordinate With External Service Providers",
-        "title": "BCD-01.2 - Coordinate With External Service Providers",
-        "summary": "Mechanisms exist to coordinate internal contingency plans with the contingency plans of external service providers to ensure that contingency requirements can be satisfied."
+        "title": "Mechanisms exist to coordinate internal contingency plans with the contingency plans of external service providers to ensure that contingency requirements can be satisfied."
     }
 }

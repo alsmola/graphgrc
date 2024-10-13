@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "NET-15 - Wireless Networking",
-        "title": "NET-15 - Wireless Networking",
-        "summary": "Mechanisms exist to control authorized wireless usage and monitor for unauthorized wireless access."
+        "title": "Mechanisms exist to control authorized wireless usage and monitor for unauthorized wireless access."
     }
 }

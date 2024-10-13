@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "TPM-11 - Third-Party Incident Response \u0026 Recovery Capabilities",
-        "title": "TPM-11 - Third-Party Incident Response \u0026 Recovery Capabilities",
-        "summary": "Mechanisms exist to ensure response/recovery planning and testing are conducted with critical suppliers/providers. "
+        "title": "Mechanisms exist to ensure response/recovery planning and testing are conducted with critical suppliers/providers. "
     }
 }

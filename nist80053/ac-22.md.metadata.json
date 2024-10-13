@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ac-22",
-        "title": "Publicly Accessible Content",
-        "summary": ""
+        "title": "Publicly Accessible Content"
     }
 }

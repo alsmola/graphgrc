@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CRY-01 - Use of Cryptographic Controls",
-        "title": "CRY-01 - Use of Cryptographic Controls",
-        "summary": "Mechanisms exist to facilitate the implementation of cryptographic protections controls using known public standards and trusted cryptographic technologies."
+        "title": "Mechanisms exist to facilitate the implementation of cryptographic protections controls using known public standards and trusted cryptographic technologies."
     }
 }

@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ac-8",
-        "title": "System Use Notification",
-        "summary": ""
+        "title": "System Use Notification"
     }
 }

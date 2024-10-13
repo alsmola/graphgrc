@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ia-2.12",
-        "title": "Acceptance of PIV Credentials",
-        "summary": ""
+        "title": "Acceptance of PIV Credentials"
     }
 }

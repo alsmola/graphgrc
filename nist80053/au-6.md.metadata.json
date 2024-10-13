@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "au-6",
-        "title": "Audit Record Review, Analysis, and Reporting",
-        "summary": ""
+        "title": "Audit Record Review, Analysis, and Reporting"
     }
 }

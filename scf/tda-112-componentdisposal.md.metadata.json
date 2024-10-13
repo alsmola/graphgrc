@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "TDA-11.2 - Component Disposal",
-        "title": "TDA-11.2 - Component Disposal",
-        "summary": "[deprecated - incorporated into AST-09]\nMechanisms exist to dispose of system components using organization-defined techniques and methods to prevent such components from entering the gray market. "
+        "title": "[deprecated - incorporated into AST-09]\nMechanisms exist to dispose of system components using organization-defined techniques and methods to prevent such components from entering the gray market. "
     }
 }

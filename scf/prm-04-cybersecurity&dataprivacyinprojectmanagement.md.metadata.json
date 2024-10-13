@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "PRM-04 - Cybersecurity \u0026 Data Privacy In Project Management",
-        "title": "PRM-04 - Cybersecurity \u0026 Data Privacy In Project Management",
-        "summary": "Mechanisms exist to assess cybersecurity \u0026 data privacy controls in system project development to determine the extent to which the controls are implemented correctly, operating as intended and producing the desired outcome with respect to meeting the requirements."
+        "title": "Mechanisms exist to assess cybersecurity \u0026 data privacy controls in system project development to determine the extent to which the controls are implemented correctly, operating as intended and producing the desired outcome with respect to meeting the requirements."
     }
 }

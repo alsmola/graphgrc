@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CFG-02.1 - Reviews \u0026 Updates",
-        "title": "CFG-02.1 - Reviews \u0026 Updates",
-        "summary": "Mechanisms exist to review and update baseline configurations:\n - At least annually;\n - When required due to so; or\n - As part of system component installations and upgrades."
+        "title": "Mechanisms exist to review and update baseline configurations:\n - At least annually;\n - When required due to so; or\n - As part of system component installations and upgrades."
     }
 }

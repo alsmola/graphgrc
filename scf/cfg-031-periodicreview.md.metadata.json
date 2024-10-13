@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CFG-03.1 - Periodic Review",
-        "title": "CFG-03.1 - Periodic Review",
-        "summary": "Mechanisms exist to periodically review system configurations to identify and disable unnecessary and/or non-secure functions, ports, protocols and services."
+        "title": "Mechanisms exist to periodically review system configurations to identify and disable unnecessary and/or non-secure functions, ports, protocols and services."
     }
 }

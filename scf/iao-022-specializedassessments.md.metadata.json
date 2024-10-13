@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IAO-02.2 - Specialized Assessments",
-        "title": "IAO-02.2 - Specialized Assessments",
-        "summary": "Mechanisms exist to conduct specialized assessments for: \n - Statutory, regulatory and contractual compliance obligations;\n - Monitoring capabilities; \n - Mobile devices;\n - Databases;\n - Application security;\n - Embedded technologies (e.g., IoT, OT, etc.);\n - Vulnerability management; \n - Malicious code; \n - Insider threats and\n - Performance/load testing. "
+        "title": "Mechanisms exist to conduct specialized assessments for: \n - Statutory, regulatory and contractual compliance obligations;\n - Monitoring capabilities; \n - Mobile devices;\n - Databases;\n - Application security;\n - Embedded technologies (e.g., IoT, OT, etc.);\n - Vulnerability management; \n - Malicious code; \n - Insider threats and\n - Performance/load testing. "
     }
 }

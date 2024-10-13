@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "MNT-04.3 - Prevent Unauthorized Removal",
-        "title": "MNT-04.3 - Prevent Unauthorized Removal",
-        "summary": "Mechanisms exist to prevent or control the removal of equipment undergoing maintenance that containing organizational information."
+        "title": "Mechanisms exist to prevent or control the removal of equipment undergoing maintenance that containing organizational information."
     }
 }

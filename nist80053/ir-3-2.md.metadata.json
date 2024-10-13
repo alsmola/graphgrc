@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ir-3.2",
-        "title": "Coordination with Related Plans",
-        "summary": ""
+        "title": "Coordination with Related Plans"
     }
 }

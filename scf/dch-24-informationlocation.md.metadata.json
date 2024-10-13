@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "DCH-24 - Information Location",
-        "title": "DCH-24 - Information Location",
-        "summary": "Mechanisms exist to identify and document the location of information and the specific system components on which the information resides."
+        "title": "Mechanisms exist to identify and document the location of information and the specific system components on which the information resides."
     }
 }

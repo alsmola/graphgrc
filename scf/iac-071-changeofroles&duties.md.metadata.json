@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IAC-07.1 - Change of Roles \u0026 Duties",
-        "title": "IAC-07.1 - Change of Roles \u0026 Duties",
-        "summary": "Mechanisms exist to revoke user access rights following changes in personnel roles and duties, if no longer necessary or permitted. "
+        "title": "Mechanisms exist to revoke user access rights following changes in personnel roles and duties, if no longer necessary or permitted. "
     }
 }

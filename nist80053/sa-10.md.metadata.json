@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "sa-10",
-        "title": "Developer Configuration Management",
-        "summary": ""
+        "title": "Developer Configuration Management"
     }
 }

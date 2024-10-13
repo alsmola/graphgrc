@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "AST-12 - Use of Personal Devices",
-        "title": "AST-12 - Use of Personal Devices",
-        "summary": "Mechanisms exist to restrict the possession and usage of personally-owned technology devices within organization-controlled facilities."
+        "title": "Mechanisms exist to restrict the possession and usage of personally-owned technology devices within organization-controlled facilities."
     }
 }

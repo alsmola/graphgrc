@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ac-18.1",
-        "title": "Authentication and Encryption",
-        "summary": ""
+        "title": "Authentication and Encryption"
     }
 }

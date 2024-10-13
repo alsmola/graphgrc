@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "EMB-01 - Embedded Technology Security Program",
-        "title": "EMB-01 - Embedded Technology Security Program",
-        "summary": "Mechanisms exist to facilitate the implementation of embedded technology controls. "
+        "title": "Mechanisms exist to facilitate the implementation of embedded technology controls. "
     }
 }

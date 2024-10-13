@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "sr-2.1",
-        "title": "Establish SCRM Team",
-        "summary": ""
+        "title": "Establish SCRM Team"
     }
 }

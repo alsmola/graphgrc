@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "TDA-10 - Use of Live Data",
-        "title": "TDA-10 - Use of Live Data",
-        "summary": "Mechanisms exist to approve, document and control the use of live data in development and test environments."
+        "title": "Mechanisms exist to approve, document and control the use of live data in development and test environments."
     }
 }

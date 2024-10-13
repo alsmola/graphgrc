@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "sa-2",
-        "title": "Allocation of Resources",
-        "summary": ""
+        "title": "Allocation of Resources"
     }
 }

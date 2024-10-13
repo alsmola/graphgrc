@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "PES-12.2 - Access Control for Output Devices",
-        "title": "PES-12.2 - Access Control for Output Devices",
-        "summary": "Physical security mechanisms exist to restrict access to printers and other system output devices to prevent unauthorized individuals from obtaining the output. "
+        "title": "Physical security mechanisms exist to restrict access to printers and other system output devices to prevent unauthorized individuals from obtaining the output. "
     }
 }

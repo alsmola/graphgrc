@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IAC-07 - User Provisioning \u0026 De-Provisioning",
-        "title": "IAC-07 - User Provisioning \u0026 De-Provisioning",
-        "summary": "Mechanisms exist to utilize a formal user registration and de-registration process that governs the assignment of access rights. "
+        "title": "Mechanisms exist to utilize a formal user registration and de-registration process that governs the assignment of access rights. "
     }
 }

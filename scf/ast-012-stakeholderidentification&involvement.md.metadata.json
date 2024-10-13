@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "AST-01.2 - Stakeholder Identification \u0026 Involvement",
-        "title": "AST-01.2 - Stakeholder Identification \u0026 Involvement",
-        "summary": "Mechanisms exist to identify and involve pertinent stakeholders of critical systems, applications and services to support the ongoing secure management of those assets."
+        "title": "Mechanisms exist to identify and involve pertinent stakeholders of critical systems, applications and services to support the ongoing secure management of those assets."
     }
 }

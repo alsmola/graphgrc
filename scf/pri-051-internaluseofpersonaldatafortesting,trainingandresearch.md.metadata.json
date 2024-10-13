@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "PRI-05.1 - Internal Use of Personal Data For Testing, Training and Research",
-        "title": "PRI-05.1 - Internal Use of Personal Data For Testing, Training and Research",
-        "summary": "Mechanisms exist to address the use of Personal Data (PD) for internal testing, training and research that:\n - Takes measures to limit or minimize the amount of PD used for internal testing, training and research purposes; and\n - Authorizes the use of PD when such information is required for internal testing, training and research."
+        "title": "Mechanisms exist to address the use of Personal Data (PD) for internal testing, training and research that:\n - Takes measures to limit or minimize the amount of PD used for internal testing, training and research purposes; and\n - Authorizes the use of PD when such information is required for internal testing, training and research."
     }
 }

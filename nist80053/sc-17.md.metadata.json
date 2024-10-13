@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "sc-17",
-        "title": "Public Key Infrastructure Certificates",
-        "summary": ""
+        "title": "Public Key Infrastructure Certificates"
     }
 }

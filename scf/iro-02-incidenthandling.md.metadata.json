@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IRO-02 - Incident Handling",
-        "title": "IRO-02 - Incident Handling",
-        "summary": "Mechanisms exist to cover the preparation, automated detection or intake of incident reporting, analysis, containment, eradication and recovery."
+        "title": "Mechanisms exist to cover the preparation, automated detection or intake of incident reporting, analysis, containment, eradication and recovery."
     }
 }

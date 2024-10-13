@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CFG-02.9 - Baseline Tailoring",
-        "title": "CFG-02.9 - Baseline Tailoring",
-        "summary": "Mechanisms exist to allow baseline controls to be specialized or customized by applying a defined set of tailoring actions that are specific to:\n - Mission / business functions;\n - Operational environment;\n - Specific threats or vulnerabilities; or\n - Other conditions or situations that could affect mission / business success."
+        "title": "Mechanisms exist to allow baseline controls to be specialized or customized by applying a defined set of tailoring actions that are specific to:\n - Mission / business functions;\n - Operational environment;\n - Specific threats or vulnerabilities; or\n - Other conditions or situations that could affect mission / business success."
     }
 }

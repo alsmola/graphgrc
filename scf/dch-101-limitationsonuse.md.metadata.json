@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "DCH-10.1 - Limitations on Use",
-        "title": "DCH-10.1 - Limitations on Use",
-        "summary": "Mechanisms exist to restrict the use and distribution of sensitive / regulated data. "
+        "title": "Mechanisms exist to restrict the use and distribution of sensitive / regulated data. "
     }
 }

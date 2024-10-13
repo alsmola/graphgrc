@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CFG-02.4 - Development \u0026 Test Environment Configurations",
-        "title": "CFG-02.4 - Development \u0026 Test Environment Configurations",
-        "summary": "Mechanisms exist to manage baseline configurations for development and test environments separately from operational baseline configurations to minimize the risk of unintentional changes."
+        "title": "Mechanisms exist to manage baseline configurations for development and test environments separately from operational baseline configurations to minimize the risk of unintentional changes."
     }
 }

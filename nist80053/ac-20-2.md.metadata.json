@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ac-20.2",
-        "title": "Portable Storage Devices — Restricted Use",
-        "summary": ""
+        "title": "Portable Storage Devices — Restricted Use"
     }
 }

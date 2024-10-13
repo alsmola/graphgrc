@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "NET-08.1 - DMZ Networks",
-        "title": "NET-08.1 - DMZ Networks",
-        "summary": "Mechanisms exist to monitor De-Militarized Zone (DMZ) network segments to separate untrusted networks from trusted networks."
+        "title": "Mechanisms exist to monitor De-Militarized Zone (DMZ) network segments to separate untrusted networks from trusted networks."
     }
 }

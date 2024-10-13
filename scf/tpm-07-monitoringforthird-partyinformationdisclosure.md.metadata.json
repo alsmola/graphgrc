@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "TPM-07 - Monitoring for Third-Party Information Disclosure",
-        "title": "TPM-07 - Monitoring for Third-Party Information Disclosure",
-        "summary": "Mechanisms exist to monitor for evidence of unauthorized exfiltration or disclosure of organizational information. "
+        "title": "Mechanisms exist to monitor for evidence of unauthorized exfiltration or disclosure of organizational information. "
     }
 }

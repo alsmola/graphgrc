@@ -109,7 +109,7 @@ func GenerateSOC2Markdown(requirement Requirement, scfControlMapping SCFControlM
 	slices.Sort(fcids)
 	doc.BulletList(fcids...)
 	doc.Build()
-	err = generateMetadata(filename, "SOC 2", id, requirement.Name, requirement.Description)
+	err = generateMetadata(filename, "SOC 2", id, requirement.Name)
 	if err != nil {
 		return err
 	}

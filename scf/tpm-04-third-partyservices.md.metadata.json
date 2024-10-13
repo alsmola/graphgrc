@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "TPM-04 - Third-Party Services",
-        "title": "TPM-04 - Third-Party Services",
-        "summary": "Mechanisms exist to mitigate the risks associated with third-party access to the organization’s systems and data."
+        "title": "Mechanisms exist to mitigate the risks associated with third-party access to the organization’s systems and data."
     }
 }

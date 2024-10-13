@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IRO-12 - Information Spillage Response",
-        "title": "IRO-12 - Information Spillage Response",
-        "summary": "Mechanisms exist to respond to sensitive information spills."
+        "title": "Mechanisms exist to respond to sensitive information spills."
     }
 }

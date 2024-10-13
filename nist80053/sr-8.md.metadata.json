@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "sr-8",
-        "title": "Notification Agreements",
-        "summary": ""
+        "title": "Notification Agreements"
     }
 }

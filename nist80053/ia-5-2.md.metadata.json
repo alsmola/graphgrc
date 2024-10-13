@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ia-5.2",
-        "title": "Public Key-based Authentication",
-        "summary": ""
+        "title": "Public Key-based Authentication"
     }
 }

@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ca-2.1",
-        "title": "Independent Assessors",
-        "summary": ""
+        "title": "Independent Assessors"
     }
 }

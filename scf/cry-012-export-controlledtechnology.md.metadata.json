@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CRY-01.2 - Export-Controlled Technology",
-        "title": "CRY-01.2 - Export-Controlled Technology",
-        "summary": "Mechanisms exist to address the exporting of cryptographic technologies in compliance with relevant statutory and regulatory requirements."
+        "title": "Mechanisms exist to address the exporting of cryptographic technologies in compliance with relevant statutory and regulatory requirements."
     }
 }

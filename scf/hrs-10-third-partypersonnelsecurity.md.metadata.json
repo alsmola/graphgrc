@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "HRS-10 - Third-Party Personnel Security",
-        "title": "HRS-10 - Third-Party Personnel Security",
-        "summary": "Mechanisms exist to govern third-party personnel by reviewing and monitoring third-party cybersecurity \u0026 data privacy roles and responsibilities."
+        "title": "Mechanisms exist to govern third-party personnel by reviewing and monitoring third-party cybersecurity \u0026 data privacy roles and responsibilities."
     }
 }

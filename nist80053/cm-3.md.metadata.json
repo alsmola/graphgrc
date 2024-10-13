@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "cm-3",
-        "title": "Configuration Change Control",
-        "summary": ""
+        "title": "Configuration Change Control"
     }
 }

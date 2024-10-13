@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "BCD-02.1 - Resume All Missions \u0026 Business Functions",
-        "title": "BCD-02.1 - Resume All Missions \u0026 Business Functions",
-        "summary": "Mechanisms exist to resume all missions and business functions within Recovery Time Objectives (RTOs) of the contingency plan's activation."
+        "title": "Mechanisms exist to resume all missions and business functions within Recovery Time Objectives (RTOs) of the contingency plan's activation."
     }
 }

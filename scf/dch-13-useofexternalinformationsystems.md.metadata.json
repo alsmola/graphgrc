@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "DCH-13 - Use of External Information Systems",
-        "title": "DCH-13 - Use of External Information Systems",
-        "summary": "Mechanisms exist to govern how external parties, systems and services are used to securely store, process and transmit data. "
+        "title": "Mechanisms exist to govern how external parties, systems and services are used to securely store, process and transmit data. "
     }
 }

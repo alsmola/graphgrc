@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "AST-04.1 - Asset Scope Classification",
-        "title": "AST-04.1 - Asset Scope Classification",
-        "summary": "Mechanisms exist to determine cybersecurity \u0026 data privacy control applicability by identifying, assigning and documenting the appropriate asset scope categorization for all systems, applications, services and personnel (internal and third-parties)."
+        "title": "Mechanisms exist to determine cybersecurity \u0026 data privacy control applicability by identifying, assigning and documenting the appropriate asset scope categorization for all systems, applications, services and personnel (internal and third-parties)."
     }
 }

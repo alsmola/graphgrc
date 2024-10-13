@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "HRS-09.1 - Asset Collection",
-        "title": "HRS-09.1 - Asset Collection",
-        "summary": "Mechanisms exist to retrieve organization-owned assets upon termination of an individual's employment."
+        "title": "Mechanisms exist to retrieve organization-owned assets upon termination of an individual's employment."
     }
 }

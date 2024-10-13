@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "sa-5",
-        "title": "System Documentation",
-        "summary": ""
+        "title": "System Documentation"
     }
 }

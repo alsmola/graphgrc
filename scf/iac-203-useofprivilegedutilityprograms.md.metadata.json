@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IAC-20.3 - Use of Privileged Utility Programs",
-        "title": "IAC-20.3 - Use of Privileged Utility Programs",
-        "summary": "Mechanisms exist to restrict and tightly control utility programs that are capable of overriding system and application controls."
+        "title": "Mechanisms exist to restrict and tightly control utility programs that are capable of overriding system and application controls."
     }
 }

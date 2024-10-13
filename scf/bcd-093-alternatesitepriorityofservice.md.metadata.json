@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "BCD-09.3 - Alternate Site Priority of Service",
-        "title": "BCD-09.3 - Alternate Site Priority of Service",
-        "summary": "Mechanisms exist to address priority-of-service provisions in alternate processing and storage sites that support availability requirements, including Recovery Time Objectives (RTOs). "
+        "title": "Mechanisms exist to address priority-of-service provisions in alternate processing and storage sites that support availability requirements, including Recovery Time Objectives (RTOs). "
     }
 }

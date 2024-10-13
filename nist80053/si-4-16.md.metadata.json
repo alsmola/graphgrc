@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "si-4.16",
-        "title": "Correlate Monitoring Information",
-        "summary": ""
+        "title": "Correlate Monitoring Information"
     }
 }

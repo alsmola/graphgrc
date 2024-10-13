@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "AST-04 - Network Diagrams \u0026 Data Flow Diagrams (DFDs)",
-        "title": "AST-04 - Network Diagrams \u0026 Data Flow Diagrams (DFDs)",
-        "summary": "Mechanisms exist to maintain network architecture diagrams that: \n - Contain sufficient detail to assess the security of the network's architecture;\n - Reflect the current architecture of the network environment; and\n - Document all sensitive/regulated data flows."
+        "title": "Mechanisms exist to maintain network architecture diagrams that: \n - Contain sufficient detail to assess the security of the network's architecture;\n - Reflect the current architecture of the network environment; and\n - Document all sensitive/regulated data flows."
     }
 }

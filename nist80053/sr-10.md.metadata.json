@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "sr-10",
-        "title": "Inspection of Systems or Components",
-        "summary": ""
+        "title": "Inspection of Systems or Components"
     }
 }

@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ac-2.7",
-        "title": "Privileged User Accounts",
-        "summary": ""
+        "title": "Privileged User Accounts"
     }
 }

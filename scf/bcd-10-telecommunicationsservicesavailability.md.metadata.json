@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "BCD-10 - Telecommunications Services Availability",
-        "title": "BCD-10 - Telecommunications Services Availability",
-        "summary": "Mechanisms exist to reduce the likelihood of a single point of failure with primary telecommunications services."
+        "title": "Mechanisms exist to reduce the likelihood of a single point of failure with primary telecommunications services."
     }
 }

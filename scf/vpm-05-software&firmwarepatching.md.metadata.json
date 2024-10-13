@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "VPM-05 - Software \u0026 Firmware Patching",
-        "title": "VPM-05 - Software \u0026 Firmware Patching",
-        "summary": "Mechanisms exist to conduct software patching for all deployed operating systems, applications and firmware."
+        "title": "Mechanisms exist to conduct software patching for all deployed operating systems, applications and firmware."
     }
 }

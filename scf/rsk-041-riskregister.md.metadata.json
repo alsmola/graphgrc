@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "RSK-04.1 - Risk Register",
-        "title": "RSK-04.1 - Risk Register",
-        "summary": "Mechanisms exist to maintain a risk register that facilitates monitoring and reporting of risks."
+        "title": "Mechanisms exist to maintain a risk register that facilitates monitoring and reporting of risks."
     }
 }

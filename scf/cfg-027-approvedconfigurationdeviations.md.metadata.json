@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CFG-02.7 - Approved Configuration Deviations",
-        "title": "CFG-02.7 - Approved Configuration Deviations",
-        "summary": "Mechanisms exist to document, assess risk and approve or deny deviations to standardized configurations."
+        "title": "Mechanisms exist to document, assess risk and approve or deny deviations to standardized configurations."
     }
 }

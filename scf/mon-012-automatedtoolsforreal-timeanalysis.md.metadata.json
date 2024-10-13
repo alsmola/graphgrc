@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "MON-01.2 - Automated Tools for Real-Time Analysis",
-        "title": "MON-01.2 - Automated Tools for Real-Time Analysis",
-        "summary": "Mechanisms exist to utilize a Security Incident Event Manager (SIEM), or similar automated tool, to support near real-time analysis and incident escalation. "
+        "title": "Mechanisms exist to utilize a Security Incident Event Manager (SIEM), or similar automated tool, to support near real-time analysis and incident escalation. "
     }
 }

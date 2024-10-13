@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "TDA-07 - Secure Development Environments",
-        "title": "TDA-07 - Secure Development Environments",
-        "summary": "Mechanisms exist to maintain a segmented development network to ensure a secure development environment. "
+        "title": "Mechanisms exist to maintain a segmented development network to ensure a secure development environment. "
     }
 }

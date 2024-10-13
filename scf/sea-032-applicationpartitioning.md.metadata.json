@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "SEA-03.2 - Application Partitioning",
-        "title": "SEA-03.2 - Application Partitioning",
-        "summary": "Mechanisms exist to separate user functionality from system management functionality. "
+        "title": "Mechanisms exist to separate user functionality from system management functionality. "
     }
 }

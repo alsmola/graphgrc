@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "GOV-02 - Publishing Cybersecurity \u0026 Data Protection Documentation",
-        "title": "GOV-02 - Publishing Cybersecurity \u0026 Data Protection Documentation",
-        "summary": "Mechanisms exist to establish, maintain and disseminate cybersecurity \u0026 data protection policies, standards and procedures."
+        "title": "Mechanisms exist to establish, maintain and disseminate cybersecurity \u0026 data protection policies, standards and procedures."
     }
 }

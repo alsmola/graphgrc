@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "MNT-04.1 - Inspect Tools",
-        "title": "MNT-04.1 - Inspect Tools",
-        "summary": "Mechanisms exist to inspect maintenance tools carried into a facility by maintenance personnel for improper or unauthorized modifications. "
+        "title": "Mechanisms exist to inspect maintenance tools carried into a facility by maintenance personnel for improper or unauthorized modifications. "
     }
 }

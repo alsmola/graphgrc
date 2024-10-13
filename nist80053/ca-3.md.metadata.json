@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ca-3",
-        "title": "Information Exchange",
-        "summary": ""
+        "title": "Information Exchange"
     }
 }

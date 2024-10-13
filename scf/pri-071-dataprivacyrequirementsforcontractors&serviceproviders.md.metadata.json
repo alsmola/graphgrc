@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "PRI-07.1 - Data Privacy Requirements for Contractors \u0026 Service Providers",
-        "title": "PRI-07.1 - Data Privacy Requirements for Contractors \u0026 Service Providers",
-        "summary": "Mechanisms exist to include data privacy requirements in contracts and other acquisition-related documents that establish data privacy roles and responsibilities for contractors and service providers. "
+        "title": "Mechanisms exist to include data privacy requirements in contracts and other acquisition-related documents that establish data privacy roles and responsibilities for contractors and service providers. "
     }
 }

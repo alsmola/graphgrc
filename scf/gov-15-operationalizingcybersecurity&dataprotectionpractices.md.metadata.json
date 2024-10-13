@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "GOV-15 - Operationalizing Cybersecurity \u0026 Data Protection Practices",
-        "title": "GOV-15 - Operationalizing Cybersecurity \u0026 Data Protection Practices",
-        "summary": "Mechanisms exist to compel data and/or process owners to operationalize cybersecurity \u0026 data privacy practices for each system, application and/or service under their control."
+        "title": "Mechanisms exist to compel data and/or process owners to operationalize cybersecurity \u0026 data privacy practices for each system, application and/or service under their control."
     }
 }

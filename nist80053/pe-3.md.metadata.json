@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "pe-3",
-        "title": "Physical Access Control",
-        "summary": ""
+        "title": "Physical Access Control"
     }
 }

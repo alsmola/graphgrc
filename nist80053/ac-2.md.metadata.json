@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ac-2",
-        "title": "Account Management",
-        "summary": ""
+        "title": "Account Management"
     }
 }

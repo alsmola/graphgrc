@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "sa-11.2",
-        "title": "Threat Modeling and Vulnerability Analyses",
-        "summary": ""
+        "title": "Threat Modeling and Vulnerability Analyses"
     }
 }

@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "PES-09 - Temperature \u0026 Humidity Controls",
-        "title": "PES-09 - Temperature \u0026 Humidity Controls",
-        "summary": "Facility security mechanisms exist to maintain and monitor temperature and humidity levels within the facility."
+        "title": "Facility security mechanisms exist to maintain and monitor temperature and humidity levels within the facility."
     }
 }

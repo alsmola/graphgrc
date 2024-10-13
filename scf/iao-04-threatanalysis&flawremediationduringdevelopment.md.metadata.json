@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IAO-04 - Threat Analysis \u0026 Flaw Remediation During Development",
-        "title": "IAO-04 - Threat Analysis \u0026 Flaw Remediation During Development",
-        "summary": "Mechanisms exist to require system developers and integrators to create and execute a Security Test and Evaluation (ST\u0026E) plan to identify and remediate flaws during development."
+        "title": "Mechanisms exist to require system developers and integrators to create and execute a Security Test and Evaluation (ST\u0026E) plan to identify and remediate flaws during development."
     }
 }

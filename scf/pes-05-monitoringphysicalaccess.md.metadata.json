@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "PES-05 - Monitoring Physical Access",
-        "title": "PES-05 - Monitoring Physical Access",
-        "summary": "Physical access control mechanisms exist to monitor for, detect and respond to physical security incidents."
+        "title": "Physical access control mechanisms exist to monitor for, detect and respond to physical security incidents."
     }
 }

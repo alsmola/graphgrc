@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "pe-8",
-        "title": "Visitor Access Records",
-        "summary": ""
+        "title": "Visitor Access Records"
     }
 }

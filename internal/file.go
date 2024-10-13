@@ -16,12 +16,11 @@ func safeFileName(input string) string {
 	return strings.ToLower(output)
 }
 
-func generateMetadata(filename, framework, controlID, controlTitle, controlSummary string) error {
+func generateMetadata(filename, framework, controlID, controlTitle string) error {
 	type MetadataAttributes struct {
 		Framework string `json:"framework"`
 		ID        string `json:"id"`
 		Title     string `json:"title"`
-		Summary   string `json:"summary"`
 	}
 	type ControlMetadata struct {
 		Attributes MetadataAttributes `json:"metadataAttributes"`
@@ -30,7 +29,6 @@ func generateMetadata(filename, framework, controlID, controlTitle, controlSumma
 		Framework: framework,
 		ID:        controlID,
 		Title:     controlTitle,
-		Summary:   controlSummary,
 	}
 	jsonData, err := json.MarshalIndent(ControlMetadata{attributes}, "", "    ")
 	if err != nil {

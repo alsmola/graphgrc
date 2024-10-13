@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "MNT-05 - Remote Maintenance",
-        "title": "MNT-05 - Remote Maintenance",
-        "summary": "Mechanisms exist to authorize, monitor and control remote, non-local maintenance and diagnostic activities."
+        "title": "Mechanisms exist to authorize, monitor and control remote, non-local maintenance and diagnostic activities."
     }
 }

@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IRO-02.1 - Automated Incident Handling Processes",
-        "title": "IRO-02.1 - Automated Incident Handling Processes",
-        "summary": "Automated mechanisms exist to support the incident handling process. "
+        "title": "Automated mechanisms exist to support the incident handling process. "
     }
 }

@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "MON-11.3 - Monitoring for Indicators of Compromise (IOC)",
-        "title": "MON-11.3 - Monitoring for Indicators of Compromise (IOC)",
-        "summary": "Automated mechanisms exist to identify and alert on Indicators of Compromise (IoC). "
+        "title": "Automated mechanisms exist to identify and alert on Indicators of Compromise (IoC). "
     }
 }

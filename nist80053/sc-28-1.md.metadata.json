@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "sc-28.1",
-        "title": "Cryptographic Protection",
-        "summary": ""
+        "title": "Cryptographic Protection"
     }
 }

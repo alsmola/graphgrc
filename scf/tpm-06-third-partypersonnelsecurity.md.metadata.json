@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "TPM-06 - Third-Party Personnel Security",
-        "title": "TPM-06 - Third-Party Personnel Security",
-        "summary": "Mechanisms exist to control personnel security requirements including security roles and responsibilities for third-party providers."
+        "title": "Mechanisms exist to control personnel security requirements including security roles and responsibilities for third-party providers."
     }
 }

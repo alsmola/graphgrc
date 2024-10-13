@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ia-8.4",
-        "title": "Use of Defined Profiles",
-        "summary": ""
+        "title": "Use of Defined Profiles"
     }
 }

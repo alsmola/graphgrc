@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "PES-10 - Delivery \u0026 Removal",
-        "title": "PES-10 - Delivery \u0026 Removal",
-        "summary": "Physical security mechanisms exist to isolate information processing facilities from points such as delivery and loading areas and other points to avoid unauthorized access. "
+        "title": "Physical security mechanisms exist to isolate information processing facilities from points such as delivery and loading areas and other points to avoid unauthorized access. "
     }
 }

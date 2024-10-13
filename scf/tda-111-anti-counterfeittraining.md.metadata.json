@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "TDA-11.1 - Anti-Counterfeit Training",
-        "title": "TDA-11.1 - Anti-Counterfeit Training",
-        "summary": "Mechanisms exist to train personnel to detect counterfeit system components, including hardware, software and firmware. "
+        "title": "Mechanisms exist to train personnel to detect counterfeit system components, including hardware, software and firmware. "
     }
 }

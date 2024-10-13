@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IRO-05 - Incident Response Training",
-        "title": "IRO-05 - Incident Response Training",
-        "summary": "Mechanisms exist to train personnel in their incident response roles and responsibilities."
+        "title": "Mechanisms exist to train personnel in their incident response roles and responsibilities."
     }
 }

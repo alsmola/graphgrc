@@ -156,7 +156,7 @@ func GenerateGDPRMarkdown(gdprArticle GDPRArticle, scfControlMapping SCFControlM
 
 	}
 	doc.Build()
-	err = generateMetadata(filename, "GDPR", gdprArticle.ID, gdprArticle.Title, gdprArticle.Body)
+	err = generateMetadata(filename, "GDPR", gdprArticle.ID, gdprArticle.Title)
 	if err != nil {
 		return err
 	}

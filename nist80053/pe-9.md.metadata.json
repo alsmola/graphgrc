@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "pe-9",
-        "title": "Power Equipment and Cabling",
-        "summary": ""
+        "title": "Power Equipment and Cabling"
     }
 }

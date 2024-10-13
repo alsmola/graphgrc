@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "DCH-13.1 - Limits of Authorized Use",
-        "title": "DCH-13.1 - Limits of Authorized Use",
-        "summary": "Mechanisms exist to prohibit external parties, systems and services from storing, processing and transmitting data unless authorized individuals first: \n - Verifying the implementation of required security controls; or\n - Retaining a processing agreement with the entity hosting the external systems or service."
+        "title": "Mechanisms exist to prohibit external parties, systems and services from storing, processing and transmitting data unless authorized individuals first: \n - Verifying the implementation of required security controls; or\n - Retaining a processing agreement with the entity hosting the external systems or service."
     }
 }

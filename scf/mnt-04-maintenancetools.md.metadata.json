@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "MNT-04 - Maintenance Tools",
-        "title": "MNT-04 - Maintenance Tools",
-        "summary": "Mechanisms exist to control and monitor the use of system maintenance tools. "
+        "title": "Mechanisms exist to control and monitor the use of system maintenance tools. "
     }
 }

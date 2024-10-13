@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "PRI-02 - Data Privacy Notice",
-        "title": "PRI-02 - Data Privacy Notice",
-        "summary": "Mechanisms exist to:\n- Make data privacy notice(s) available to individuals upon first interacting with an organization and subsequently as necessary; \n- Ensure that data privacy notices are clear and easy-to-understand, expressing information about Personal Data (PD) processing in plain language that meet all legal obligations; and\n- Define the scope of PD processing activities, including the geographic locations and third-party recipients that process the PD within the scope of the data privacy notice."
+        "title": "Mechanisms exist to:\n- Make data privacy notice(s) available to individuals upon first interacting with an organization and subsequently as necessary; \n- Ensure that data privacy notices are clear and easy-to-understand, expressing information about Personal Data (PD) processing in plain language that meet all legal obligations; and\n- Define the scope of PD processing activities, including the geographic locations and third-party recipients that process the PD within the scope of the data privacy notice."
     }
 }

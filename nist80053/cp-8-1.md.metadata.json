@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "cp-8.1",
-        "title": "Priority of Service Provisions",
-        "summary": ""
+        "title": "Priority of Service Provisions"
     }
 }

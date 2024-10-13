@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CHG-02 - Configuration Change Control",
-        "title": "CHG-02 - Configuration Change Control",
-        "summary": "Mechanisms exist to govern the technical configuration change control processes."
+        "title": "Mechanisms exist to govern the technical configuration change control processes."
     }
 }

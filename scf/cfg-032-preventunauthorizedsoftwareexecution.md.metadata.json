@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CFG-03.2 - Prevent Unauthorized Software Execution",
-        "title": "CFG-03.2 - Prevent Unauthorized Software Execution",
-        "summary": "Mechanisms exist to configure systems to prevent the execution of unauthorized software programs. "
+        "title": "Mechanisms exist to configure systems to prevent the execution of unauthorized software programs. "
     }
 }

@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "sc-28",
-        "title": "Protection of Information at Rest",
-        "summary": ""
+        "title": "Protection of Information at Rest"
     }
 }

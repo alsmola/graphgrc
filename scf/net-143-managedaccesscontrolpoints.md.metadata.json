@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "NET-14.3 - Managed Access Control Points",
-        "title": "NET-14.3 - Managed Access Control Points",
-        "summary": "Mechanisms exist to route all remote accesses through managed network access control points (e.g., VPN concentrator)."
+        "title": "Mechanisms exist to route all remote accesses through managed network access control points (e.g., VPN concentrator)."
     }
 }

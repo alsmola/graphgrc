@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "RSK-01.1 - Risk Framing",
-        "title": "RSK-01.1 - Risk Framing",
-        "summary": "Mechanisms exist to identify:\n - Assumptions affecting risk assessments, risk response and risk monitoring;\n - Constraints affecting risk assessments, risk response and risk monitoring;\n - The organizational risk tolerance; and\n - Priorities and trade-offs considered by the organization for managing risk."
+        "title": "Mechanisms exist to identify:\n - Assumptions affecting risk assessments, risk response and risk monitoring;\n - Constraints affecting risk assessments, risk response and risk monitoring;\n - The organizational risk tolerance; and\n - Priorities and trade-offs considered by the organization for managing risk."
     }
 }

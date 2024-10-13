@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CHG-02.3 - Cybersecurity \u0026 Data Privacy Representative for Asset Lifecycle Changes",
-        "title": "CHG-02.3 - Cybersecurity \u0026 Data Privacy Representative for Asset Lifecycle Changes",
-        "summary": "Mechanisms exist to include a cybersecurity and/or data privacy representative in the configuration change control review process."
+        "title": "Mechanisms exist to include a cybersecurity and/or data privacy representative in the configuration change control review process."
     }
 }

@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "VPM-01.1 - Attack Surface Scope",
-        "title": "VPM-01.1 - Attack Surface Scope",
-        "summary": "Mechanisms exist to define and manage the scope for its attack surface management activities."
+        "title": "Mechanisms exist to define and manage the scope for its attack surface management activities."
     }
 }

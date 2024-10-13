@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "MON-01.3 - Inbound \u0026 Outbound Communications Traffic",
-        "title": "MON-01.3 - Inbound \u0026 Outbound Communications Traffic",
-        "summary": "Mechanisms exist to continuously monitor inbound and outbound communications traffic for unusual or unauthorized activities or conditions."
+        "title": "Mechanisms exist to continuously monitor inbound and outbound communications traffic for unusual or unauthorized activities or conditions."
     }
 }

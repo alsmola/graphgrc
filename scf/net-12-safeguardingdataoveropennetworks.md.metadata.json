@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "NET-12 - Safeguarding Data Over Open Networks",
-        "title": "NET-12 - Safeguarding Data Over Open Networks",
-        "summary": "Cryptographic mechanisms exist to implement strong cryptography and security protocols to safeguard sensitive/regulated data during transmission over open, public networks. "
+        "title": "Cryptographic mechanisms exist to implement strong cryptography and security protocols to safeguard sensitive/regulated data during transmission over open, public networks. "
     }
 }

@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "MNT-03 - Timely Maintenance",
-        "title": "MNT-03 - Timely Maintenance",
-        "summary": "Mechanisms exist to obtain maintenance support and/or spare parts for systems within a defined Recovery Time Objective (RTO)."
+        "title": "Mechanisms exist to obtain maintenance support and/or spare parts for systems within a defined Recovery Time Objective (RTO)."
     }
 }

@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "TDA-19 - Error Handling",
-        "title": "TDA-19 - Error Handling",
-        "summary": "Mechanisms exist to handle error conditions by: \n - Identifying potentially security-relevant error conditions;\n - Generating error messages that provide information necessary for corrective actions without revealing sensitive or potentially harmful information in error logs and administrative messages that could be exploited; and\n - Revealing error messages only to authorized personnel."
+        "title": "Mechanisms exist to handle error conditions by: \n - Identifying potentially security-relevant error conditions;\n - Generating error messages that provide information necessary for corrective actions without revealing sensitive or potentially harmful information in error logs and administrative messages that could be exploited; and\n - Revealing error messages only to authorized personnel."
     }
 }

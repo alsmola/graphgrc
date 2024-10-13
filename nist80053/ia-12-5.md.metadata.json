@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "ia-12.5",
-        "title": "Address Confirmation",
-        "summary": ""
+        "title": "Address Confirmation"
     }
 }

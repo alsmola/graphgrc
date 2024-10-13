@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CPL-03.2 - Functional Review Of Cybersecurity \u0026 Data Protection Controls",
-        "title": "CPL-03.2 - Functional Review Of Cybersecurity \u0026 Data Protection Controls",
-        "summary": "Mechanisms exist to regularly review technology assets for adherence to the organization’s cybersecurity \u0026 data protection policies and standards. "
+        "title": "Mechanisms exist to regularly review technology assets for adherence to the organization’s cybersecurity \u0026 data protection policies and standards. "
     }
 }

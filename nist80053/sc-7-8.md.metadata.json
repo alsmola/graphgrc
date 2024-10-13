@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "sc-7.8",
-        "title": "Route Traffic to Authenticated Proxy Servers",
-        "summary": ""
+        "title": "Route Traffic to Authenticated Proxy Servers"
     }
 }

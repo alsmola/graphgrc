@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "MNT-05.2 - Remote Maintenance Notifications",
-        "title": "MNT-05.2 - Remote Maintenance Notifications",
-        "summary": "Mechanisms exist to require maintenance personnel to notify affected stakeholders when remote, non-local maintenance is planned (e.g., date/time)."
+        "title": "Mechanisms exist to require maintenance personnel to notify affected stakeholders when remote, non-local maintenance is planned (e.g., date/time)."
     }
 }

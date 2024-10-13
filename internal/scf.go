@@ -241,7 +241,7 @@ func GenerateSCFMarkdown(scfControl Control, scfControlID SCFControlID, controlM
 		// 	},
 		// })
 	doc.Build()
-	err = generateMetadata(filename, "SCF", string(scfControlID), string(scfControlID), description)
+	err = generateMetadata(filename, "SCF", string(scfControlID), description)
 	if err != nil {
 		return err
 	}

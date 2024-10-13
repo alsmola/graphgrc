@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "cp-7.1",
-        "title": "Separation from Primary Site",
-        "summary": ""
+        "title": "Separation from Primary Site"
     }
 }

@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CHG-03 - Security Impact Analysis for Changes",
-        "title": "CHG-03 - Security Impact Analysis for Changes",
-        "summary": "Mechanisms exist to analyze proposed changes for potential security impacts, prior to the implementation of the change."
+        "title": "Mechanisms exist to analyze proposed changes for potential security impacts, prior to the implementation of the change."
     }
 }

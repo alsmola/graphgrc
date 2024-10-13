@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "cp-3",
-        "title": "Contingency Training",
-        "summary": ""
+        "title": "Contingency Training"
     }
 }

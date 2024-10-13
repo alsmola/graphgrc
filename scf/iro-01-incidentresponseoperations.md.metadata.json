@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IRO-01 - Incident Response Operations",
-        "title": "IRO-01 - Incident Response Operations",
-        "summary": "Mechanisms exist to implement and govern processes and documentation to facilitate an organization-wide response capability for cybersecurity \u0026 data privacy-related incidents."
+        "title": "Mechanisms exist to implement and govern processes and documentation to facilitate an organization-wide response capability for cybersecurity \u0026 data privacy-related incidents."
     }
 }

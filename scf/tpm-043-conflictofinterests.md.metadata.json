@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "TPM-04.3 - Conflict of Interests",
-        "title": "TPM-04.3 - Conflict of Interests",
-        "summary": "Mechanisms exist to ensure that the interests of external service providers are consistent with and reflect organizational interests."
+        "title": "Mechanisms exist to ensure that the interests of external service providers are consistent with and reflect organizational interests."
     }
 }

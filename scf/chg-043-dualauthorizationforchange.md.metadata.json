@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CHG-04.3 - Dual Authorization for Change",
-        "title": "CHG-04.3 - Dual Authorization for Change",
-        "summary": "Mechanisms exist to enforce a two-person rule for implementing changes to critical assets."
+        "title": "Mechanisms exist to enforce a two-person rule for implementing changes to critical assets."
     }
 }

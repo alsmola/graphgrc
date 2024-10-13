@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "DCH-01.1 - Data Stewardship",
-        "title": "DCH-01.1 - Data Stewardship",
-        "summary": "Mechanisms exist to ensure data stewardship is assigned, documented and communicated. "
+        "title": "Mechanisms exist to ensure data stewardship is assigned, documented and communicated. "
     }
 }

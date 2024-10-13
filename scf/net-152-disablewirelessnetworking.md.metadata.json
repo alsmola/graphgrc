@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "NET-15.2 - Disable Wireless Networking",
-        "title": "NET-15.2 - Disable Wireless Networking",
-        "summary": "Mechanisms exist to disable unnecessary wireless networking capabilities that are internally embedded within system components prior to issuance to end users. "
+        "title": "Mechanisms exist to disable unnecessary wireless networking capabilities that are internally embedded within system components prior to issuance to end users. "
     }
 }

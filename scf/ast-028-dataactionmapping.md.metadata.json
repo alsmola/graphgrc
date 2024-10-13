@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "AST-02.8 - Data Action Mapping",
-        "title": "AST-02.8 - Data Action Mapping",
-        "summary": "Mechanisms exist to create and maintain a map of technology assets where sensitive/regulated data is stored, transmitted or processed."
+        "title": "Mechanisms exist to create and maintain a map of technology assets where sensitive/regulated data is stored, transmitted or processed."
     }
 }

@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IAC-12 - Cryptographic Module Authentication",
-        "title": "IAC-12 - Cryptographic Module Authentication",
-        "summary": "Mechanisms exist to ensure cryptographic modules adhere to applicable statutory, regulatory and contractual requirements for security strength."
+        "title": "Mechanisms exist to ensure cryptographic modules adhere to applicable statutory, regulatory and contractual requirements for security strength."
     }
 }

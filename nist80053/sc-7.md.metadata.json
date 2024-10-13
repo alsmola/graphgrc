@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "sc-7",
-        "title": "Boundary Protection",
-        "summary": ""
+        "title": "Boundary Protection"
     }
 }

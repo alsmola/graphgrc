@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "PRI-01 - Data Privacy Program",
-        "title": "PRI-01 - Data Privacy Program",
-        "summary": "Mechanisms exist to facilitate the implementation and operation of data privacy controls. "
+        "title": "Mechanisms exist to facilitate the implementation and operation of data privacy controls. "
     }
 }

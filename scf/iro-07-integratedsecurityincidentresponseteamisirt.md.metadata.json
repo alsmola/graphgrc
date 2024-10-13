@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IRO-07 - Integrated Security Incident Response Team (ISIRT)",
-        "title": "IRO-07 - Integrated Security Incident Response Team (ISIRT)",
-        "summary": "Mechanisms exist to establish an integrated team of cybersecurity, IT and business function representatives that are capable of addressing cybersecurity \u0026 data privacy incident response operations."
+        "title": "Mechanisms exist to establish an integrated team of cybersecurity, IT and business function representatives that are capable of addressing cybersecurity \u0026 data privacy incident response operations."
     }
 }

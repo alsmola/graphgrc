@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "HRS-09.2 - High-Risk Terminations",
-        "title": "HRS-09.2 - High-Risk Terminations",
-        "summary": "Mechanisms exist to expedite the process of removing \"high risk\" individual’s access to systems and applications upon termination, as determined by management."
+        "title": "Mechanisms exist to expedite the process of removing \"high risk\" individual’s access to systems and applications upon termination, as determined by management."
     }
 }

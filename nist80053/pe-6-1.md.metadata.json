@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "pe-6.1",
-        "title": "Intrusion Alarms and Surveillance Equipment",
-        "summary": ""
+        "title": "Intrusion Alarms and Surveillance Equipment"
     }
 }

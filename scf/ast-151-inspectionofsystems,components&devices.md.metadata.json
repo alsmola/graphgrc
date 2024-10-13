@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "AST-15.1 - Inspection of Systems, Components \u0026 Devices",
-        "title": "AST-15.1 - Inspection of Systems, Components \u0026 Devices",
-        "summary": "Mechanisms exist to physically and logically inspect critical technology assets to detect evidence of tampering. "
+        "title": "Mechanisms exist to physically and logically inspect critical technology assets to detect evidence of tampering. "
     }
 }

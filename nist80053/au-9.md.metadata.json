@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "NIST 800-53v5",
         "id": "au-9",
-        "title": "Protection of Audit Information",
-        "summary": ""
+        "title": "Protection of Audit Information"
     }
 }

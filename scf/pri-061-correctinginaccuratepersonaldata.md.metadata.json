@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "PRI-06.1 - Correcting Inaccurate Personal Data",
-        "title": "PRI-06.1 - Correcting Inaccurate Personal Data",
-        "summary": "Mechanisms exist to establish and implement a process for:\n - Data subjects to have inaccurate Personal Data (PD) maintained by the organization corrected or amended; and\n - Disseminating corrections or amendments of PD to other authorized users of the PD."
+        "title": "Mechanisms exist to establish and implement a process for:\n - Data subjects to have inaccurate Personal Data (PD) maintained by the organization corrected or amended; and\n - Disseminating corrections or amendments of PD to other authorized users of the PD."
     }
 }

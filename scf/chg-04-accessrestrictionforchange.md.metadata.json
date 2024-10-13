@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "CHG-04 - Access Restriction For Change",
-        "title": "CHG-04 - Access Restriction For Change",
-        "summary": "Mechanisms exist to enforce configuration restrictions in an effort to restrict the ability of users to conduct unauthorized changes."
+        "title": "Mechanisms exist to enforce configuration restrictions in an effort to restrict the ability of users to conduct unauthorized changes."
     }
 }

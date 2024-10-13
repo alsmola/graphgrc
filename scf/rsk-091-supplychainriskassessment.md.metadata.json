@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "RSK-09.1 - Supply Chain Risk Assessment",
-        "title": "RSK-09.1 - Supply Chain Risk Assessment",
-        "summary": "Mechanisms exist to periodically assess supply chain risks associated with systems, system components and services."
+        "title": "Mechanisms exist to periodically assess supply chain risks associated with systems, system components and services."
     }
 }

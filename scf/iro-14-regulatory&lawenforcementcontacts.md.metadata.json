@@ -2,7 +2,6 @@
     "metadataAttributes": {
         "framework": "SCF",
         "id": "IRO-14 - Regulatory \u0026 Law Enforcement Contacts",
-        "title": "IRO-14 - Regulatory \u0026 Law Enforcement Contacts",
-        "summary": "Mechanisms exist to maintain incident response contacts with applicable regulatory and law enforcement agencies. "
+        "title": "Mechanisms exist to maintain incident response contacts with applicable regulatory and law enforcement agencies. "
     }
 }
