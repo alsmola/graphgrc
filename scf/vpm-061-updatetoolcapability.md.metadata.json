@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "VPM-06.1 - Update Tool Capability",
+        "title": "VPM-06.1 - Update Tool Capability",
+        "summary": "Mechanisms exist to update vulnerability scanning tools."
+    }
+}

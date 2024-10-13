@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "IAC-09.1 - User Identity (ID) Management",
+        "title": "IAC-09.1 - User Identity (ID) Management",
+        "summary": "Mechanisms exist to ensure proper user identification management for non-consumer users and administrators. "
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "CRY-09.4 - Control \u0026 Distribution of Cryptographic Keys",
+        "title": "CRY-09.4 - Control \u0026 Distribution of Cryptographic Keys",
+        "summary": "Mechanisms exist to facilitate the secure distribution of symmetric and asymmetric cryptographic keys using industry recognized key management technology and processes. "
+    }
+}

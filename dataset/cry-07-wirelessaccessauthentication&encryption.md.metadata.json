@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "CRY-07 - Wireless Access Authentication \u0026 Encryption",
+        "title": "CRY-07 - Wireless Access Authentication \u0026 Encryption",
+        "summary": "Mechanisms exist to protect wireless access via secure authentication and encryption."
+    }
+}

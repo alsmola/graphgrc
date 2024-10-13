@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "IAC-10.5 - Protection of Authenticators",
+        "title": "IAC-10.5 - Protection of Authenticators",
+        "summary": "Mechanisms exist to protect authenticators commensurate with the sensitivity of the information to which use of the authenticator permits access. "
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "IAC-11 - Authenticator Feedback",
+        "title": "IAC-11 - Authenticator Feedback",
+        "summary": "Mechanisms exist to obscure the feedback of authentication information during the authentication process to protect the information from possible exploitation/use by unauthorized individuals. "
+    }
+}

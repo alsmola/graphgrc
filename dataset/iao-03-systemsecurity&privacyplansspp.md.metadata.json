@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "IAO-03 - System Security \u0026 Privacy Plan (SSPP)",
+        "title": "IAO-03 - System Security \u0026 Privacy Plan (SSPP)",
+        "summary": "Mechanisms exist to generate System Security \u0026 Privacy Plans (SSPPs), or similar document repositories, to identify and maintain key architectural information on each critical system, application or service, as well as influence inputs, entities, systems, applications and processes, providing a historical record of the data and its origins."
+    }
+}

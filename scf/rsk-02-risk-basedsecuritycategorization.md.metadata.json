@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "RSK-02 - Risk-Based Security Categorization",
+        "title": "RSK-02 - Risk-Based Security Categorization",
+        "summary": "Mechanisms exist to categorize systems and data in accordance with applicable local, state and Federal laws that:\n - Document the security categorization results (including supporting rationale) in the security plan for systems; and\n - Ensure the security categorization decision is reviewed and approved by the asset owner."
+    }
+}

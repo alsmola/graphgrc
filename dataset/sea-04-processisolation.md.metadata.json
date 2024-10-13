@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "SEA-04 - Process Isolation",
+        "title": "SEA-04 - Process Isolation",
+        "summary": "Mechanisms exist to implement a separate execution domain for each executing process. "
+    }
+}

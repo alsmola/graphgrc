@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "IAC-06 - Multi-Factor Authentication (MFA)",
+        "title": "IAC-06 - Multi-Factor Authentication (MFA)",
+        "summary": "Automated mechanisms exist to enforce Multi-Factor Authentication (MFA) for:\n - Remote network access; \n - Third-party systems, applications and/or services; and/ or\n - Non-console access to critical systems or systems that store, transmit and/or process sensitive/regulated data."
+    }
+}

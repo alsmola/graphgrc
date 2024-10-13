@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "IAC-10 - Authenticator Management",
+        "title": "IAC-10 - Authenticator Management",
+        "summary": "Mechanisms exist to securely manage authenticators for users and devices."
+    }
+}

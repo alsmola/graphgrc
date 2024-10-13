@@ -159,14 +159,16 @@ func ReturnSCFControls(url string, getFile bool) (SCFControls, error) {
 }
 
 func GenerateSCFMarkdown(scfControl Control, scfControlID SCFControlID, controlMapping ControlMapping) error {
-	f, err := os.Create(fmt.Sprintf("scf/%s.md", safeFileName(string(scfControlID))))
+	filename := fmt.Sprintf("scf/%s.md", safeFileName(string(scfControlID)))
+	f, err := os.Create(filename)
 	if err != nil {
 		return err
 	}
 
+	description := string(scfControl[SCFColumnMapping[Description]])
 	doc := md.NewMarkdown(f).
 		H1(fmt.Sprintf("SCF - %s", string(scfControlID))).
-		PlainText(string(scfControl[SCFColumnMapping[Description]])).
+		PlainText(description).
 		H2("Mapped framework controls")
 
 	orderedFrameworks := []string{}
@@ -239,6 +241,10 @@ func GenerateSCFMarkdown(scfControl Control, scfControlID SCFControlID, controlM
 		// 	},
 		// })
 	doc.Build()
+	err = generateMetadata(filename, "SCF", string(scfControlID), string(scfControlID), description)
+	if err != nil {
+		return err
+	}
 	return nil
 }
 

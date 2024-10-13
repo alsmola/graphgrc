@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "MON-07 - Time Stamps",
+        "title": "MON-07 - Time Stamps",
+        "summary": "Mechanisms exist to configure systems to use an authoritative time source to generate time stamps for event logs. "
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "END-06.2 - Integration of Detection \u0026 Response",
+        "title": "END-06.2 - Integration of Detection \u0026 Response",
+        "summary": "Mechanisms exist to detect and respond to unauthorized configuration changes as cybersecurity incidents."
+    }
+}

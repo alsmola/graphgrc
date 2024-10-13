@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "TDA-09 - Cybersecurity \u0026 Data Privacy Testing Throughout Development",
+        "title": "TDA-09 - Cybersecurity \u0026 Data Privacy Testing Throughout Development",
+        "summary": "Mechanisms exist to require system developers/integrators consult with cybersecurity \u0026 data privacy personnel to: \n - Create and implement a Security Test and Evaluation (ST\u0026E) plan;\n - Implement a verifiable flaw remediation process to correct weaknesses and deficiencies identified during the security testing and evaluation process; and\n - Document the results of the security testing/evaluation and flaw remediation processes."
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "PES-15 - Electromagnetic Pulse (EMP) Protection",
+        "title": "PES-15 - Electromagnetic Pulse (EMP) Protection",
+        "summary": "Physical security mechanisms exist to employ safeguards against Electromagnetic Pulse (EMP) damage for systems and system components."
+    }
+}

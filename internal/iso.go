@@ -63,7 +63,8 @@ func GenerateISOMarkdown(standard Framework, isoDomain ISODomain, scfControlMapp
 	if standard == Framework("ISO 27001") && strings.HasPrefix(isoDomain.Title, "A") {
 		return nil
 	}
-	f, err := os.Create(fmt.Sprintf("%s/%s.md", safeFileName(string(standard)), safeFileName(shortenDomain(standard, isoDomain.Title))))
+	filename := fmt.Sprintf("%s/%s.md", safeFileName(string(standard)), safeFileName(shortenDomain(standard, isoDomain.Title)))
+	f, err := os.Create(filename)
 	if err != nil {
 		return err
 	}
@@ -101,6 +102,10 @@ func GenerateISOMarkdown(standard Framework, isoDomain ISODomain, scfControlMapp
 		}
 	}
 	doc.Build()
+	err = generateMetadata(filename, string(standard), isoDomain.Title, isoDomain.Title, "")
+	if err != nil {
+		return err
+	}
 	return nil
 }
 

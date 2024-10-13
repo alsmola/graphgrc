@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "PES-05.2 - Monitoring Physical Access To Information Systems",
+        "title": "PES-05.2 - Monitoring Physical Access To Information Systems",
+        "summary": "Facility security mechanisms exist to monitor physical access to critical information systems or sensitive/regulated data, in addition to the physical access monitoring of the facility."
+    }
+}

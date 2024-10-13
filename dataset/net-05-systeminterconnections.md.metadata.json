@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "NET-05 - System Interconnections",
+        "title": "NET-05 - System Interconnections",
+        "summary": "Mechanisms exist to authorize connections from systems to other systems using Interconnection Security Agreements (ISAs) that document, for each interconnection, the interface characteristics, cybersecurity \u0026 data privacy requirements and the nature of the information communicated."
+    }
+}

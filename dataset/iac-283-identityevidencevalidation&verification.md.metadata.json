@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "IAC-28.3 - Identity Evidence Validation \u0026 Verification",
+        "title": "IAC-28.3 - Identity Evidence Validation \u0026 Verification",
+        "summary": "Mechanisms exist to require that the presented identity evidence be validated and verified through organizational-defined methods of validation and verification."
+    }
+}

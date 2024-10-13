@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "IAC-15.3 - Disable Inactive Accounts",
+        "title": "IAC-15.3 - Disable Inactive Accounts",
+        "summary": "Automated mechanisms exist to disable inactive accounts after an organization-defined time period. "
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "IAC-26 - Permitted Actions Without Identification or Authorization",
+        "title": "IAC-26 - Permitted Actions Without Identification or Authorization",
+        "summary": "Mechanisms exist to identify and document the supporting rationale for specific user actions that can be performed on a system without identification or authentication."
+    }
+}

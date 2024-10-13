@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "MON-16 - Anomalous Behavior",
+        "title": "MON-16 - Anomalous Behavior",
+        "summary": "Mechanisms exist to detect and respond to anomalous behavior that could indicate account compromise or other malicious activities."
+    }
+}

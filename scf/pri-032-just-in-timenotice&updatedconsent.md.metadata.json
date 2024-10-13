@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "PRI-03.2 - Just-In-Time Notice \u0026 Updated Consent",
+        "title": "PRI-03.2 - Just-In-Time Notice \u0026 Updated Consent",
+        "summary": "Mechanisms exist to present authorizations to process Personal Data (PD) in conjunction with the data action, when:\n- The original circumstances under which an individual gave consent have changed; or\n- A significant amount of time has passed since an individual gave consent."
+    }
+}

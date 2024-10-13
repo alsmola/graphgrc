@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "IAC-10.7 - Hardware Token-Based Authentication",
+        "title": "IAC-10.7 - Hardware Token-Based Authentication",
+        "summary": "Automated mechanisms exist to ensure organization-defined token quality requirements are satisfied for hardware token-based authentication."
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "AST-03.2 - Provenance",
+        "title": "AST-03.2 - Provenance",
+        "summary": "Mechanisms exist to track the origin, development, ownership, location and changes to systems, system components and associated data."
+    }
+}

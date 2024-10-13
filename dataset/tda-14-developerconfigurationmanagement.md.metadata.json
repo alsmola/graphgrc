@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "TDA-14 - Developer Configuration Management",
+        "title": "TDA-14 - Developer Configuration Management",
+        "summary": "Mechanisms exist to require system developers and integrators to perform configuration management during system design, development, implementation and operation."
+    }
+}

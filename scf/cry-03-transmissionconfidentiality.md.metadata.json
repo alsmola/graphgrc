@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "CRY-03 - Transmission Confidentiality",
+        "title": "CRY-03 - Transmission Confidentiality",
+        "summary": "Cryptographic mechanisms exist to protect the confidentiality of data being transmitted. "
+    }
+}

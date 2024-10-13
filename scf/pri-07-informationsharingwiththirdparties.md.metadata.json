@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "PRI-07 - Information Sharing With Third Parties",
+        "title": "PRI-07 - Information Sharing With Third Parties",
+        "summary": "Mechanisms exist to disclose Personal Data (PD) to third-parties only for the purposes identified in the data privacy notice and with the implicit or explicit consent of the data subject. "
+    }
+}

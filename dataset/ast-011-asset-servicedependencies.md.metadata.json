@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "AST-01.1 - Asset-Service Dependencies",
+        "title": "AST-01.1 - Asset-Service Dependencies",
+        "summary": "Mechanisms exist to identify and assess the security of technology assets that support more than one critical business function. "
+    }
+}

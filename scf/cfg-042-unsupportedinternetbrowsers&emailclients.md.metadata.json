@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "CFG-04.2 - Unsupported Internet Browsers \u0026 Email Clients",
+        "title": "CFG-04.2 - Unsupported Internet Browsers \u0026 Email Clients",
+        "summary": "Mechanisms exist to allow only approved Internet browsers and email clients to run on systems."
+    }
+}

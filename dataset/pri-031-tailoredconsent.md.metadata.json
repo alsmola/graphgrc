@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "PRI-03.1 - Tailored Consent",
+        "title": "PRI-03.1 - Tailored Consent",
+        "summary": "Mechanisms exist to allow data subjects to modify the use permissions to selected attributes of their Personal Data (PD)."
+    }
+}

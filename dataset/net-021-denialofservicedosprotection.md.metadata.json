@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "NET-02.1 - Denial of Service (DoS) Protection",
+        "title": "NET-02.1 - Denial of Service (DoS) Protection",
+        "summary": "Automated mechanisms exist to protect against or limit the effects of denial of service attacks. "
+    }
+}

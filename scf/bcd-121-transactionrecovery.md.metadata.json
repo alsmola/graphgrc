@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "BCD-12.1 - Transaction Recovery",
+        "title": "BCD-12.1 - Transaction Recovery",
+        "summary": "Mechanisms exist to utilize specialized backup mechanisms that will allow transaction recovery for transaction-based applications and services in accordance with Recovery Point Objectives (RPOs)."
+    }
+}

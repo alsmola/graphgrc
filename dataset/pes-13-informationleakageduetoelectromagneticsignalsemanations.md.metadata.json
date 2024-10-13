@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "PES-13 - Information Leakage Due To Electromagnetic Signals Emanations",
+        "title": "PES-13 - Information Leakage Due To Electromagnetic Signals Emanations",
+        "summary": "Facility security mechanisms exist to protect the system from information leakage due to electromagnetic signals emanations. "
+    }
+}

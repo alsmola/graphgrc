@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "PRM-05 - Cybersecurity \u0026 Data Privacy Requirements Definition",
+        "title": "PRM-05 - Cybersecurity \u0026 Data Privacy Requirements Definition",
+        "summary": "Mechanisms exist to identify critical system components and functions by performing a criticality analysis for critical systems, system components or services at pre-defined decision points in the Secure Development Life Cycle (SDLC). "
+    }
+}

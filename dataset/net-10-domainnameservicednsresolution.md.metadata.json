@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "NET-10 - Domain Name Service (DNS) Resolution",
+        "title": "NET-10 - Domain Name Service (DNS) Resolution",
+        "summary": "Mechanisms exist to ensure Domain Name Service (DNS) resolution is designed, implemented and managed to protect the security of name / address resolution."
+    }
+}

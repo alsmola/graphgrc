@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "IAC-20 - Access Enforcement",
+        "title": "IAC-20 - Access Enforcement",
+        "summary": "Mechanisms exist to enforce Logical Access Control (LAC) permissions that conform to the principle of \"least privilege.\""
+    }
+}

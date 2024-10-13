@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "SEA-10 - Memory Protection",
+        "title": "SEA-10 - Memory Protection",
+        "summary": "Mechanisms exist to implement security safeguards to protect system memory from unauthorized code execution. "
+    }
+}

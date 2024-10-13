@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "MON-01 - Continuous Monitoring",
+        "title": "MON-01 - Continuous Monitoring",
+        "summary": "Mechanisms exist to facilitate the implementation of enterprise-wide monitoring controls."
+    }
+}

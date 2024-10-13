@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "CAP-02 - Resource Priority",
+        "title": "CAP-02 - Resource Priority",
+        "summary": "Mechanisms exist to control resource utilization of systems that are susceptible to Denial of Service (DoS) attacks to limit and prioritize the use of resources."
+    }
+}

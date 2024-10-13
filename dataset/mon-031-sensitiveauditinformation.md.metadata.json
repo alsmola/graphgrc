@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "MON-03.1 - Sensitive Audit Information",
+        "title": "MON-03.1 - Sensitive Audit Information",
+        "summary": "Mechanisms exist to protect sensitive/regulated data contained in log files. "
+    }
+}

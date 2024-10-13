@@ -122,7 +122,8 @@ func GetGDPRControls(url string, getFile bool) (GDPRFramework, error) {
 
 func GenerateGDPRMarkdown(gdprArticle GDPRArticle, scfControlMapping SCFControlMappings) error {
 	scfArticle := strings.ReplaceAll(gdprArticle.ID, "Article", "Art")
-	f, err := os.Create(fmt.Sprintf("gdpr/%s.md", safeFileName(strings.ReplaceAll(scfArticle, ".", "-"))))
+	filename := fmt.Sprintf("gdpr/%s.md", safeFileName(strings.ReplaceAll(scfArticle, ".", "-")))
+	f, err := os.Create(filename)
 	if err != nil {
 		return err
 	}
@@ -155,6 +156,10 @@ func GenerateGDPRMarkdown(gdprArticle GDPRArticle, scfControlMapping SCFControlM
 
 	}
 	doc.Build()
+	err = generateMetadata(filename, "GDPR", gdprArticle.ID, gdprArticle.Title, gdprArticle.Body)
+	if err != nil {
+		return err
+	}
 	return nil
 }
 

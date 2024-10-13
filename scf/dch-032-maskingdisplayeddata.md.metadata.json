@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "DCH-03.2 - Masking Displayed Data",
+        "title": "DCH-03.2 - Masking Displayed Data",
+        "summary": "Mechanisms exist to apply data masking to sensitive/regulated information that is displayed or printed. "
+    }
+}

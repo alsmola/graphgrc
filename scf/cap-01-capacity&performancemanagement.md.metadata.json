@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "CAP-01 - Capacity \u0026 Performance Management",
+        "title": "CAP-01 - Capacity \u0026 Performance Management",
+        "summary": "Mechanisms exist to facilitate the implementation of capacity management controls to ensure optimal system performance to meet expected and anticipated future capacity requirements."
+    }
+}

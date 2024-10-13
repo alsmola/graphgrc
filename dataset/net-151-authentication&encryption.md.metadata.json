@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "NET-15.1 - Authentication \u0026 Encryption",
+        "title": "NET-15.1 - Authentication \u0026 Encryption",
+        "summary": "Mechanisms exist to protect wireless access through authentication and strong encryption. "
+    }
+}

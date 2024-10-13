@@ -76,7 +76,8 @@ func GenerateSOC2Markdown(requirement Requirement, scfControlMapping SCFControlM
 	socControlID := getFirstWord(requirement.Name)
 	id := strings.ReplaceAll(requirement.ID, "cc_a", "a")
 	id = strings.ReplaceAll(id, "cc_c", "c")
-	f, err := os.Create(fmt.Sprintf("soc2/%s.md", safeFileName(id)))
+	filename := fmt.Sprintf("soc2/%s.md", safeFileName(id))
+	f, err := os.Create(filename)
 	if err != nil {
 		return err
 	}
@@ -108,6 +109,10 @@ func GenerateSOC2Markdown(requirement Requirement, scfControlMapping SCFControlM
 	slices.Sort(fcids)
 	doc.BulletList(fcids...)
 	doc.Build()
+	err = generateMetadata(filename, "SOC 2", id, requirement.Name, requirement.Description)
+	if err != nil {
+		return err
+	}
 	return nil
 }
 

@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "IAC-09 - Identifier Management (User Names)",
+        "title": "IAC-09 - Identifier Management (User Names)",
+        "summary": "Mechanisms exist to govern naming standards for usernames and systems."
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "VPM-06.3 - Privileged Access",
+        "title": "VPM-06.3 - Privileged Access",
+        "summary": "Mechanisms exist to implement privileged access authorization for selected vulnerability scanning activities. "
+    }
+}

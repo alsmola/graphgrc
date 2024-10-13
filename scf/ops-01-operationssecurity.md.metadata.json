@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "OPS-01 - Operations Security",
+        "title": "OPS-01 - Operations Security",
+        "summary": "Mechanisms exist to facilitate the implementation of operational security controls."
+    }
+}

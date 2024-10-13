@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "SEA-01 - Secure Engineering Principles",
+        "title": "SEA-01 - Secure Engineering Principles",
+        "summary": "Mechanisms exist to facilitate the implementation of industry-recognized cybersecurity \u0026 data privacy practices in the specification, design, development, implementation and modification of systems and services."
+    }
+}

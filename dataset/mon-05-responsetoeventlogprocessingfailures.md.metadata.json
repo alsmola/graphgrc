@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "MON-05 - Response To Event Log Processing Failures",
+        "title": "MON-05 - Response To Event Log Processing Failures",
+        "summary": "Mechanisms exist to alert appropriate personnel in the event of a log processing failure and take actions to remedy the disruption."
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "END-13.3 - Collection Minimization",
+        "title": "END-13.3 - Collection Minimization",
+        "summary": "Mechanisms exist to utilize sensors that are configured to minimize the collection of information about individuals."
+    }
+}

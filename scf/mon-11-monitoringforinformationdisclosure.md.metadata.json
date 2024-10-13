@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "MON-11 - Monitoring For Information Disclosure",
+        "title": "MON-11 - Monitoring For Information Disclosure",
+        "summary": "Mechanisms exist to monitor for evidence of unauthorized exfiltration or disclosure of non-public information. "
+    }
+}

@@ -34,7 +34,7 @@ func main() {
 	internal.GenerateSOC2Index(soc2Framework)
 
 	gdprLink := "https://raw.githubusercontent.com/enterpriseready/enterpriseready/master/content/gdpr/gdpr-abridged.md"
-	gdprFramework, err := internal.GetGDPRControls(gdprLink, true)
+	gdprFramework, err := internal.GetGDPRControls(gdprLink, getFile)
 	if err != nil {
 		log.Fatal(err)
 	}

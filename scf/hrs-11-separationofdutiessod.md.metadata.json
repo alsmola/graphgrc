@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "HRS-11 - Separation of Duties (SoD)",
+        "title": "HRS-11 - Separation of Duties (SoD)",
+        "summary": "Mechanisms exist to implement and maintain Separation of Duties (SoD) to prevent potential inappropriate activity without collusion."
+    }
+}

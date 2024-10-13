@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "IRO-10.2 - Cyber Incident Reporting for Sensitive Data",
+        "title": "IRO-10.2 - Cyber Incident Reporting for Sensitive Data",
+        "summary": "Mechanisms exist to report sensitive/regulated data incidents in a timely manner."
+    }
+}

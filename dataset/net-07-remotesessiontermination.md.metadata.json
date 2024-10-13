@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "NET-07 - Remote Session Termination",
+        "title": "NET-07 - Remote Session Termination",
+        "summary": "Mechanisms exist to terminate remote sessions at the end of the session or after an organization-defined time period of inactivity. "
+    }
+}

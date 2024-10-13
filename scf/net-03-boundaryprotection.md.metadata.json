@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "NET-03 - Boundary Protection",
+        "title": "NET-03 - Boundary Protection",
+        "summary": "Mechanisms exist to monitor and control communications at the external network boundary and at key internal boundaries within the network."
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "SEA-05 - Information In Shared Resources",
+        "title": "SEA-05 - Information In Shared Resources",
+        "summary": "Mechanisms exist to prevent unauthorized and unintended information transfer via shared system resources. "
+    }
+}

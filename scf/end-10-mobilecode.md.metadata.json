@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "END-10 - Mobile Code",
+        "title": "END-10 - Mobile Code",
+        "summary": "Mechanisms exist to address mobile code / operating system-independent applications. "
+    }
+}

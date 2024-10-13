@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "END-02 - Endpoint Protection Measures",
+        "title": "END-02 - Endpoint Protection Measures",
+        "summary": "Mechanisms exist to protect the confidentiality, integrity, availability and safety of endpoint devices."
+    }
+}

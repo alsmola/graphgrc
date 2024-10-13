@@ -82,7 +82,8 @@ func GetNIST80053Controls(url string, getFile bool) (NIST80053Framework, error) 
 }
 
 func GenerateNIST80053Markdown(control NIST80053OSCALControl, scfControlMapping SCFControlMappings) error {
-	f, err := os.Create(fmt.Sprintf("nist80053/%s.md", safeFileName(strings.ReplaceAll(control.ID, ".", "-"))))
+	filename := fmt.Sprintf("nist80053/%s.md", safeFileName(strings.ReplaceAll(control.ID, ".", "-")))
+	f, err := os.Create(filename)
 	if err != nil {
 		return err
 	}
@@ -133,6 +134,10 @@ func GenerateNIST80053Markdown(control NIST80053OSCALControl, scfControlMapping 
 	}
 
 	doc.Build()
+	err = generateMetadata(filename, "NIST 800-53v5", control.ID, control.Title)
+	if err != nil {
+		return err
+	}
 	return nil
 }
 

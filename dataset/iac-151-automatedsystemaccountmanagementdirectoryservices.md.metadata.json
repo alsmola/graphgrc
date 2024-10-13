@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "IAC-15.1 - Automated System Account Management (Directory Services)",
+        "title": "IAC-15.1 - Automated System Account Management (Directory Services)",
+        "summary": "Automated mechanisms exist to support the management of system accounts (e.g., directory services). "
+    }
+}

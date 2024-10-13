@@ -1,0 +1,8 @@
+{
+    "metadataAttributes": {
+        "framework": "SCF",
+        "id": "MON-01.1 - Intrusion Detection \u0026 Prevention Systems (IDS \u0026 IPS)",
+        "title": "MON-01.1 - Intrusion Detection \u0026 Prevention Systems (IDS \u0026 IPS)",
+        "summary": "Mechanisms exist to implement Intrusion Detection / Prevention Systems (IDS / IPS) technologies on critical systems, key network segments and network choke points."
+    }
+}
