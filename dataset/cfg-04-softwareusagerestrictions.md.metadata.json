@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "CFG-04 - Software Usage Restrictions",
-        "title": "CFG-04 - Software Usage Restrictions",
-        "summary": "Mechanisms exist to enforce software usage restrictions to comply with applicable contract agreements and copyright laws."
-    }
-}

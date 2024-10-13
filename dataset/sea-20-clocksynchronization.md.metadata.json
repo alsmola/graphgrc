@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "SEA-20 - Clock Synchronization",
-        "title": "SEA-20 - Clock Synchronization",
-        "summary": "Mechanisms exist to utilize time-synchronization technology to synchronize all critical system clocks. "
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "NET-14.4 - Remote Privileged Commands \u0026 Sensitive Data Access",
-        "title": "NET-14.4 - Remote Privileged Commands \u0026 Sensitive Data Access",
-        "summary": "Mechanisms exist to restrict the execution of privileged commands and access to security-relevant information via remote access only for compelling operational needs. "
-    }
-}

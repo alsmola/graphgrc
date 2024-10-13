@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "TDA-17 - Unsupported Systems",
-        "title": "TDA-17 - Unsupported Systems",
-        "summary": "Mechanisms exist to prevent unsupported systems by:\n - Replacing systems when support for the components is no longer available from the developer, vendor or manufacturer; and\n - Requiring justification and documented approval for the continued use of unsupported system components required to satisfy mission/business needs."
-    }
-}

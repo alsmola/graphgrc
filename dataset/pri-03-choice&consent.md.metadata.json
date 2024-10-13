@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "PRI-03 - Choice \u0026 Consent",
-        "title": "PRI-03 - Choice \u0026 Consent",
-        "summary": "Mechanisms exist to authorize the processing of their Personal Data (PD) prior to its collection that:\n- Uses plain language and provide examples to illustrate the potential data privacy risks of the authorization; and\n- Provides a means for users to decline the authorization.\n"
-    }
-}

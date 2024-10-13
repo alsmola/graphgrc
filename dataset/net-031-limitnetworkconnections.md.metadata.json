@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "NET-03.1 - Limit Network Connections",
-        "title": "NET-03.1 - Limit Network Connections",
-        "summary": "Mechanisms exist to limit the number of concurrent external network connections to its systems. "
-    }
-}

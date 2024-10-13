@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "RSK-06.1 - Risk Response",
-        "title": "RSK-06.1 - Risk Response",
-        "summary": "Mechanisms exist to respond to findings from cybersecurity \u0026 data privacy assessments, incidents and audits to ensure proper remediation has been performed."
-    }
-}

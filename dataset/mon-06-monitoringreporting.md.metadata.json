@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "MON-06 - Monitoring Reporting",
-        "title": "MON-06 - Monitoring Reporting",
-        "summary": "Mechanisms exist to provide an event log report generation capability to aid in detecting and assessing anomalous activities. "
-    }
-}

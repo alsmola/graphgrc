@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "IAC-09.3 - Dynamic Management",
-        "title": "IAC-09.3 - Dynamic Management",
-        "summary": "Mechanisms exist to dynamically manage usernames and system identifiers. "
-    }
-}

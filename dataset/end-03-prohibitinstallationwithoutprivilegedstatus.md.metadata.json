@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "END-03 - Prohibit Installation Without Privileged Status",
-        "title": "END-03 - Prohibit Installation Without Privileged Status",
-        "summary": "Automated mechanisms exist to prohibit software installations without explicitly assigned privileged status. "
-    }
-}

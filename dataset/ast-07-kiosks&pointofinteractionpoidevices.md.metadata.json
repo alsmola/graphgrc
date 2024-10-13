@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "AST-07 - Kiosks \u0026 Point of Interaction (PoI) Devices",
-        "title": "AST-07 - Kiosks \u0026 Point of Interaction (PoI) Devices",
-        "summary": "Mechanisms exist to appropriately protect devices that capture sensitive/regulated data via direct physical interaction from tampering and substitution. "
-    }
-}

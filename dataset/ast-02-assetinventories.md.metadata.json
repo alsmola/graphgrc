@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "AST-02 - Asset Inventories",
-        "title": "AST-02 - Asset Inventories",
-        "summary": "Mechanisms exist to perform inventories of technology assets that:\n - Accurately reflects the current systems, applications and services in use; \n - Identifies authorized software products, including business justification details;\n - Is at the level of granularity deemed necessary for tracking and reporting;\n - Includes organization-defined information deemed necessary to achieve effective property accountability; and\n - Is available for review and audit by designated organizational personnel."
-    }
-}

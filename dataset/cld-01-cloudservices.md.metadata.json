@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "CLD-01 - Cloud Services",
-        "title": "CLD-01 - Cloud Services",
-        "summary": "Mechanisms exist to facilitate the implementation of cloud management controls to ensure cloud instances are secure and in-line with industry practices. "
-    }
-}

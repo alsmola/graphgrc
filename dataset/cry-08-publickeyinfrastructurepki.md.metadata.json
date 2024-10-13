@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "CRY-08 - Public Key Infrastructure (PKI)",
-        "title": "CRY-08 - Public Key Infrastructure (PKI)",
-        "summary": "Mechanisms exist to securely implement an internal Public Key Infrastructure (PKI) infrastructure or obtain PKI services from a reputable PKI service provider. "
-    }
-}

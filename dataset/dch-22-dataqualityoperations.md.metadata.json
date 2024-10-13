@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "DCH-22 - Data Quality Operations",
-        "title": "DCH-22 - Data Quality Operations",
-        "summary": "Mechanisms exist to check for the accuracy, relevance, timeliness, impact, completeness and de-identification of information across the information lifecycle."
-    }
-}

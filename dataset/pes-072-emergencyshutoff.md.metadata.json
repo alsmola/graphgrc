@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "PES-07.2 - Emergency Shutoff",
-        "title": "PES-07.2 - Emergency Shutoff",
-        "summary": "Facility security mechanisms exist to shut off power in emergency situations by:\n - Placing emergency shutoff switches or devices in close proximity to systems or system components to facilitate safe and easy access for personnel; and\n - Protecting emergency power shutoff capability from unauthorized activation."
-    }
-}

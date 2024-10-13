@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "NET-05.1 - External System Connections",
-        "title": "NET-05.1 - External System Connections",
-        "summary": "Mechanisms exist to prohibit the direct connection of a sensitive system to an external network without the use of an organization-defined boundary protection device. "
-    }
-}

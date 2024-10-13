@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "NET-13 - Electronic Messaging",
-        "title": "NET-13 - Electronic Messaging",
-        "summary": "Mechanisms exist to protect the confidentiality, integrity and availability of electronic messaging communications."
-    }
-}

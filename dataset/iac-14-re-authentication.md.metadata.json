@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "IAC-14 - Re-Authentication",
-        "title": "IAC-14 - Re-Authentication",
-        "summary": "Mechanisms exist to force users and devices to re-authenticate according to organization-defined circumstances that necessitate re-authentication. "
-    }
-}

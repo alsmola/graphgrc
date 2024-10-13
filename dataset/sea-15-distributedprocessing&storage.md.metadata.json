@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "SEA-15 - Distributed Processing \u0026 Storage",
-        "title": "SEA-15 - Distributed Processing \u0026 Storage",
-        "summary": "Mechanisms exist to distribute processing and storage across multiple physical locations. "
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "IAC-03 - Identification \u0026 Authentication for Non-Organizational Users",
-        "title": "IAC-03 - Identification \u0026 Authentication for Non-Organizational Users",
-        "summary": "Mechanisms exist to uniquely identify and centrally Authenticate, Authorize and Audit (AAA) third-party users and processes that provide services to the organization."
-    }
-}

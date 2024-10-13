@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "BCD-12 - Information System Recovery \u0026 Reconstitution",
-        "title": "BCD-12 - Information System Recovery \u0026 Reconstitution",
-        "summary": "Mechanisms exist to ensure the secure recovery and reconstitution of systems to a known state after a disruption, compromise or failure."
-    }
-}

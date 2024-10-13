@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "PRM-07 - Secure Development Life Cycle (SDLC) Management",
-        "title": "PRM-07 - Secure Development Life Cycle (SDLC) Management",
-        "summary": "Mechanisms exist to ensure changes to systems within the Secure Development Life Cycle (SDLC) are controlled through formal change control procedures. "
-    }
-}

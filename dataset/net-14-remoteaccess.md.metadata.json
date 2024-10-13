@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "NET-14 - Remote Access",
-        "title": "NET-14 - Remote Access",
-        "summary": "Mechanisms exist to define, control and review organization-approved, secure remote access methods."
-    }
-}

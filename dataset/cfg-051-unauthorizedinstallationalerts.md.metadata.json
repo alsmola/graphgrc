@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "CFG-05.1 - Unauthorized Installation Alerts",
-        "title": "CFG-05.1 - Unauthorized Installation Alerts",
-        "summary": "Mechanisms exist to configure systems to generate an alert when the unauthorized installation of software is detected. "
-    }
-}

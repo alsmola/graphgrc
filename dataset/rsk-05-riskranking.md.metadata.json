@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "RSK-05 - Risk Ranking",
-        "title": "RSK-05 - Risk Ranking",
-        "summary": "Mechanisms exist to identify and assign a risk ranking to newly discovered security vulnerabilities that is based on industry-recognized practices. "
-    }
-}

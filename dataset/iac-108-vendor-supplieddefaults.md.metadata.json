@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "IAC-10.8 - Vendor-Supplied Defaults",
-        "title": "IAC-10.8 - Vendor-Supplied Defaults",
-        "summary": "Mechanisms exist to ensure vendor-supplied defaults are changed as part of the installation process."
-    }
-}

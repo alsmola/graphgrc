@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "TPM-04.4 - Third-Party Processing, Storage and Service Locations",
-        "title": "TPM-04.4 - Third-Party Processing, Storage and Service Locations",
-        "summary": "Mechanisms exist to restrict the location of information processing/storage based on business requirements. "
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "IAC-02.2 - Replay-Resistant Authentication",
-        "title": "IAC-02.2 - Replay-Resistant Authentication",
-        "summary": "Automated mechanisms exist to employ replay-resistant authentication."
-    }
-}

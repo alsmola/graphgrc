@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "MON-10 - Event Log Retention",
-        "title": "MON-10 - Event Log Retention",
-        "summary": "Mechanisms exist to retain event logs for a time period consistent with records retention requirements to provide support for after-the-fact investigations of security incidents and to meet statutory, regulatory and contractual retention requirements. "
-    }
-}

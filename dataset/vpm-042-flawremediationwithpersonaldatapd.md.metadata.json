@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "VPM-04.2 - Flaw Remediation with Personal Data (PD)",
-        "title": "VPM-04.2 - Flaw Remediation with Personal Data (PD)",
-        "summary": "Mechanisms exist to identify and correct flaws related to the collection, usage, processing or dissemination of Personal Data (PD)."
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "PRI-05.3 - Data Masking",
-        "title": "PRI-05.3 - Data Masking",
-        "summary": "Mechanisms exist to mask sensitive information through data anonymization, pseudonymization, redaction or de-identification."
-    }
-}

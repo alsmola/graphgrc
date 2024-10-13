@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "IAC-24.1 - Pattern-Hiding Displays",
-        "title": "IAC-24.1 - Pattern-Hiding Displays",
-        "summary": "Mechanisms exist to implement pattern-hiding displays to conceal information previously visible on the display during the session lock. "
-    }
-}

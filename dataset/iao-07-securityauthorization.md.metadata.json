@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "IAO-07 - Security Authorization",
-        "title": "IAO-07 - Security Authorization",
-        "summary": "Mechanisms exist to ensure systems, projects and services are officially authorized prior to \"go live\" in a production environment."
-    }
-}

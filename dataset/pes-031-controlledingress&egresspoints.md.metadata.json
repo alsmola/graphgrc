@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "PES-03.1 - Controlled Ingress \u0026 Egress Points",
-        "title": "PES-03.1 - Controlled Ingress \u0026 Egress Points",
-        "summary": "Physical access control mechanisms exist to limit and monitor physical access through controlled ingress and egress points."
-    }
-}

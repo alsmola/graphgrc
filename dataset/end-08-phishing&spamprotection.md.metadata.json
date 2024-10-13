@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "END-08 - Phishing \u0026 Spam Protection",
-        "title": "END-08 - Phishing \u0026 Spam Protection",
-        "summary": "Mechanisms exist to utilize anti-phishing and spam protection technologies to detect and take action on unsolicited messages transported by electronic mail."
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "IAC-20.2 - Database Access",
-        "title": "IAC-20.2 - Database Access",
-        "summary": "Mechanisms exist to restrict access to databases containing sensitive/regulated data to only necessary services or those individuals whose job requires such access. "
-    }
-}

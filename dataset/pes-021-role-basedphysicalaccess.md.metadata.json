@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "PES-02.1 - Role-Based Physical Access",
-        "title": "PES-02.1 - Role-Based Physical Access",
-        "summary": "Physical access control mechanisms exist to authorize physical access to facilities based on the position or role of the individual."
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "IAC-01 - Identity \u0026 Access Management (IAM)",
-        "title": "IAC-01 - Identity \u0026 Access Management (IAM)",
-        "summary": "Mechanisms exist to facilitate the implementation of identification and access management controls."
-    }
-}

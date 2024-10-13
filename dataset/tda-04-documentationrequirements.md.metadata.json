@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "TDA-04 - Documentation Requirements",
-        "title": "TDA-04 - Documentation Requirements",
-        "summary": "Mechanisms exist to obtain, protect and distribute administrator documentation for systems that describe:\n - Secure configuration, installation and operation of the system;\n - Effective use and maintenance of security features/functions; and\n - Known vulnerabilities regarding configuration and use of administrative (e.g., privileged) functions."
-    }
-}

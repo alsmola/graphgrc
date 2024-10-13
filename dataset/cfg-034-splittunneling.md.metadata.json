@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "CFG-03.4 - Split Tunneling",
-        "title": "CFG-03.4 - Split Tunneling",
-        "summary": "Mechanisms exist to prevent split tunneling for remote devices unless the split tunnel is securely provisioned using organization-defined safeguards."
-    }
-}

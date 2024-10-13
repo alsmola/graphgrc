@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "CRY-01.1 - Alternate Physical Protection",
-        "title": "CRY-01.1 - Alternate Physical Protection",
-        "summary": "Cryptographic mechanisms exist to prevent unauthorized disclosure of information as an alternative to physical safeguards. "
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "IAC-16 - Privileged Account Management (PAM)",
-        "title": "IAC-16 - Privileged Account Management (PAM)",
-        "summary": "Mechanisms exist to restrict and control privileged access rights for users and services."
-    }
-}

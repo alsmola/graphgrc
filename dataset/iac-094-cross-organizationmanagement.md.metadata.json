@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "IAC-09.4 - Cross-Organization Management",
-        "title": "IAC-09.4 - Cross-Organization Management",
-        "summary": "Mechanisms exist to coordinate username identifiers with external organizations for cross-organization management of identifiers. "
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "TPM-03.2 - Limit Potential Harm",
-        "title": "TPM-03.2 - Limit Potential Harm",
-        "summary": "Mechanisms exist to utilize security safeguards to limit harm from potential adversaries who identify and target the organization's supply chain. "
-    }
-}

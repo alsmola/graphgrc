@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "BCD-07 - Alternative Security Measures",
-        "title": "BCD-07 - Alternative Security Measures",
-        "summary": "Mechanisms exist to implement alternative or compensating controls to satisfy security functions when the primary means of implementing the security function is unavailable or compromised. "
-    }
-}

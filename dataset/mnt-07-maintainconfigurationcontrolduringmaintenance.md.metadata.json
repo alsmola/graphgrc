@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "MNT-07 - Maintain Configuration Control During Maintenance",
-        "title": "MNT-07 - Maintain Configuration Control During Maintenance",
-        "summary": "Mechanisms exist to maintain proper physical security and configuration control over technology assets awaiting service or repair."
-    }
-}

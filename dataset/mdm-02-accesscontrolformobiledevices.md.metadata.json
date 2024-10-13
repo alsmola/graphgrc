@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "MDM-02 - Access Control For Mobile Devices",
-        "title": "MDM-02 - Access Control For Mobile Devices",
-        "summary": "Mechanisms exist to enforce access control requirements for the connection of mobile devices to organizational systems. "
-    }
-}

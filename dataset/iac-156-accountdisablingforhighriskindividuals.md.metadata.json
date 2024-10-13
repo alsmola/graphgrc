@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "IAC-15.6 - Account Disabling for High Risk Individuals",
-        "title": "IAC-15.6 - Account Disabling for High Risk Individuals",
-        "summary": "Mechanisms exist to disable accounts immediately upon notification for users posing a significant risk to the organization."
-    }
-}

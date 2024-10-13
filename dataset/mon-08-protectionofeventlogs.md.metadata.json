@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "MON-08 - Protection of Event Logs",
-        "title": "MON-08 - Protection of Event Logs",
-        "summary": "Mechanisms exist to protect event logs and audit tools from unauthorized access, modification and deletion."
-    }
-}

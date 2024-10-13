@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "DCH-23 - De-Identification (Anonymization)",
-        "title": "DCH-23 - De-Identification (Anonymization)",
-        "summary": "Mechanisms exist to anonymize data by removing Personal Data (PD) from datasets."
-    }
-}

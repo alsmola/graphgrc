@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "TDA-18 - Input Data Validation",
-        "title": "TDA-18 - Input Data Validation",
-        "summary": "Mechanisms exist to check the validity of information inputs. "
-    }
-}

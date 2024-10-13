@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "BCD-11.1 - Testing for Reliability \u0026 Integrity",
-        "title": "BCD-11.1 - Testing for Reliability \u0026 Integrity",
-        "summary": "Mechanisms exist to routinely test backups that verify the reliability of the backup process, as well as the integrity and availability of the data. "
-    }
-}

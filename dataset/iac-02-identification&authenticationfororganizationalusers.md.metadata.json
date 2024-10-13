@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "IAC-02 - Identification \u0026 Authentication for Organizational Users",
-        "title": "IAC-02 - Identification \u0026 Authentication for Organizational Users",
-        "summary": "Mechanisms exist to uniquely identify and centrally Authenticate, Authorize and Audit (AAA) organizational users and processes acting on behalf of organizational users. "
-    }
-}

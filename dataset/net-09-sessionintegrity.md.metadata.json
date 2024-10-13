@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "NET-09 - Session Integrity",
-        "title": "NET-09 - Session Integrity",
-        "summary": "Mechanisms exist to protect the authenticity and integrity of communications sessions. "
-    }
-}

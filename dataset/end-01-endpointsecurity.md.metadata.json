@@ -1,8 +1,0 @@
-{
-    "metadataAttributes": {
-        "framework": "SCF",
-        "id": "END-01 - Endpoint Security",
-        "title": "END-01 - Endpoint Security",
-        "summary": "Mechanisms exist to facilitate the implementation of endpoint security controls."
-    }
-}
