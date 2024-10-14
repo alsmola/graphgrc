@@ -1,3 +1,5 @@
 .obsidian
 .terraform
+terraform.tfstate*
 dataset/
+
