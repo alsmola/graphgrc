@@ -5,10 +5,6 @@
 ## Article 40.1
 The Member States, the supervisory authorities, the Board and the Commission shall encourage the drawing up of codes of conduct intended to contribute to the proper application of this Regulation, taking account of the specific features of the various processing sectors and the specific needs of micro, small and medium-sized enterprises.
   
-### Mapped SCF controls
-- [CPL-01 - Statutory, Regulatory & Contractual Compliance](../scf/cpl-01-statutory,regulatory&contractualcompliance.md)
-- [GOV-06 - Contacts With Authorities](../scf/gov-06-contactswithauthorities.md)
-  
 ## Article 40.2
 Associations and other bodies representing categories of controllers or processors may prepare codes of conduct, or amend or extend such codes, for the purpose of specifying the application of this Regulation, such as with regard to:
 (a) fair and transparent processing;
@@ -22,13 +18,6 @@ Associations and other bodies representing categories of controllers or processo
 (i) the notification of personal data breaches to supervisory authorities and the communication of such personal data breaches to data subjects;
 (j) the transfer of personal data to third countries or international organisations; or
 (k) out-of-court proceedings and other dispute resolution procedures for resolving disputes between controllers and data subjects with regard to processing, without prejudice to the rights of data subjects pursuant to Articles 77 and 79.
-  
-### Mapped SCF controls
-- [CPL-01 - Statutory, Regulatory & Contractual Compliance](../scf/cpl-01-statutory,regulatory&contractualcompliance.md)
-- [CPL-03.1 - Independent Assessors](../scf/cpl-031-independentassessors.md)
-- [GOV-07 - Contacts With Groups & Associations](../scf/gov-07-contactswithgroups&associations.md)
-- [SEA-01 - Secure Engineering Principles](../scf/sea-01-secureengineeringprinciples.md)
-- [SEA-01.1 - Centralized Management of Cybersecurity & Data Privacy Controls](../scf/sea-011-centralizedmanagementofcybersecurity&dataprivacycontrols.md)
   
 ## Article 40.3
 In addition to adherence by controllers or processors subject to this Regulation, codes of conduct approved pursuant to paragraph 5 of this Article and having general validity pursuant to paragraph 9 of this Article may also be adhered to by controllers or processors that are not subject to this Regulation pursuant to Article 3 in order to provide appropriate safeguards within the framework of personal data transfers to third countries or international organisations under the terms referred to in point (e)  of Article 46(2). Such controllers or processors shall make binding and enforceable commitments, via contractual or other legally binding instruments, to apply those appropriate safeguards including with regard to the rights of data subjects.

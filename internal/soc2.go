@@ -95,13 +95,29 @@ func GenerateSOC2Markdown(requirement Requirement, scfControlMapping SCFControlM
 
 	}
 
-	doc.H2("Mapped SCF controls")
+	// Determine if we're using SCF or custom controls based on control ID format
+	// SCF IDs contain " - " (e.g., "AST-01 - Asset Governance")
+	// Custom IDs are simple (e.g., "ACC-01")
+	controlType := "scf"
+	for scfID := range scfControlMapping {
+		if !strings.Contains(string(scfID), " - ") {
+			controlType = "custom"
+			break
+		}
+	}
+
+	headerText := "Mapped SCF controls"
+	if controlType == "custom" {
+		headerText = "Mapped custom controls"
+	}
+
+	doc.H2(headerText)
 	fcids := []string{}
 	for scfID, controlMapping := range scfControlMapping {
 		soc2FrameworkControlIDs := controlMapping["SOC 2"]
 		for _, fcid := range soc2FrameworkControlIDs {
 			if string(fcid) == socControlID {
-				fcids = append(fcids, fmt.Sprintf("[%s](../scf/%s.md)", string(scfID), safeFileName(string(scfID))))
+				fcids = append(fcids, fmt.Sprintf("[%s](../%s/%s.md)", string(scfID), controlType, safeFileName(string(scfID))))
 			}
 		}
 	}

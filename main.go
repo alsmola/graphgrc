@@ -1,15 +1,32 @@
 package main
 
 import (
+	"flag"
 	"log"
 
 	"github.com/alsmola/graphgrc/internal"
 )
 
 func main() {
-	// todo initialize flags
+	// CLI flags
+	mode := flag.String("mode", "scf", "Control framework mode: scf or custom")
+	getFile := flag.Bool("fetch", false, "Fetch fresh data from remote sources")
+	flag.Parse()
+
+	// Conditional execution based on mode
+	if *mode == "scf" {
+		runSCFMode(*getFile)
+	} else if *mode == "custom" {
+		runCustomMode(*getFile)
+	} else {
+		log.Fatalf("Invalid mode: %s. Use 'scf' or 'custom'", *mode)
+	}
+}
+
+func runSCFMode(getFile bool) {
+	log.Println("Running in SCF mode...")
+
 	latestScfLink := "https://github.com/securecontrolsframework/securecontrolsframework/raw/main/Secure%20Controls%20Framework%20(SCF)%20-%202023.4.xlsx"
-	getFile := false
 	scfControls, err := internal.ReturnSCFControls(latestScfLink, getFile)
 	if err != nil {
 		log.Fatal(err)
@@ -99,4 +116,69 @@ func main() {
 		}
 	}
 	internal.GenerateNIST80053Index(nist80053Framework)
+
+	log.Println("SCF mode complete!")
+}
+
+func runCustomMode(getFile bool) {
+	log.Println("Running in Custom mode...")
+
+	// 1. Load custom controls (like loading SCF)
+	customControls, err := internal.LoadCustomControls("custom_controls.json")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	// 2. Extract mappings (like GetComplianceControlMappings for SCF)
+	customControlMappings := internal.GetCustomControlMappings(customControls)
+
+	// 3. Generate custom control markdown (like SCF markdown generation)
+	for scfControlID, controlMapping := range customControlMappings {
+		// Convert SCFControlID back to CustomControlID for lookup
+		customControlID := internal.CustomControlID(scfControlID)
+		err := internal.GenerateCustomControlMarkdown(
+			customControls.Controls[customControlID],
+			customControlID,
+			controlMapping,
+		)
+		if err != nil {
+			log.Fatal(err)
+		}
+	}
+	err = internal.GenerateCustomControlIndex(customControlMappings, customControls)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	// 4. SOC 2 with custom control mappings (SAME CODE as SCF mode)
+	soc2Link := "https://raw.githubusercontent.com/prowler-cloud/prowler/main/prowler/compliance/aws/soc2_aws.json"
+	soc2Framework, err := internal.GetSOC2Controls(soc2Link, getFile)
+	if err != nil {
+		log.Fatal(err)
+	}
+	for _, requirement := range soc2Framework.Requirements {
+		err = internal.GenerateSOC2Markdown(requirement, customControlMappings)
+		if err != nil {
+			log.Fatal(err)
+		}
+	}
+	internal.GenerateSOC2Index(soc2Framework)
+
+	// 5. GDPR with custom control mappings (SAME CODE as SCF mode)
+	gdprLink := "https://raw.githubusercontent.com/enterpriseready/enterpriseready/master/content/gdpr/gdpr-abridged.md"
+	gdprFramework, err := internal.GetGDPRControls(gdprLink, getFile)
+	if err != nil {
+		log.Fatal(err)
+	}
+	for _, article := range gdprFramework {
+		if article.Title != "" {
+			err = internal.GenerateGDPRMarkdown(article, customControlMappings)
+			if err != nil {
+				log.Fatal(err)
+			}
+		}
+	}
+	internal.GenerateGDPRIndex(gdprFramework)
+
+	log.Println("Custom mode complete!")
 }

@@ -11,10 +11,6 @@ Where personal data have not been obtained from the data subject, the controller
 (e) the recipients or categories of recipients of the personal data, if any;
 (f) where applicable, that the controller intends to transfer personal data to a recipient in a third country or international organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means to obtain a copy of them or where they have been made available.
   
-### Mapped SCF controls
-- [PRI-02 - Data Privacy Notice](../scf/pri-02-dataprivacynotice.md)
-- [PRI-02.1 - Purpose Specification](../scf/pri-021-purposespecification.md)
-  
 ## Article 14.2
 In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject:
 (a) the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period;
@@ -25,24 +21,11 @@ In addition to the information referred to in paragraph 1, the controller shall 
 (f) from which source the personal data originate, and if applicable, whether it came from publicly accessible sources;
 (g) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.
   
-### Mapped SCF controls
-- [DCH-22.1 - Updating & Correcting Personal Data (PD)](../scf/dch-221-updating&correctingpersonaldatapd.md)
-- [PRI-02 - Data Privacy Notice](../scf/pri-02-dataprivacynotice.md)
-- [PRI-02.1 - Purpose Specification](../scf/pri-021-purposespecification.md)
-- [PRI-02.2 - Automated Data Management Processes](../scf/pri-022-automateddatamanagementprocesses.md)
-- [PRI-06 - Data Subject Access](../scf/pri-06-datasubjectaccess.md)
-- [PRI-06.1 - Correcting Inaccurate Personal Data](../scf/pri-061-correctinginaccuratepersonaldata.md)
-  
 ## Article 14.3
 The controller shall provide the information referred to in paragraphs 1 and 2:
 (a) within a reasonable period after obtaining the personal data, but at the latest within one month, having regard to the specific circumstances in which the personal data are processed;
 (b) if the personal data are to be used for communication with the data subject, at the latest at the time of the first communication to that data subject; or
 (c) if a disclosure to another recipient is envisaged, at the latest when the personal data are first disclosed.
-  
-### Mapped SCF controls
-- [PRI-02 - Data Privacy Notice](../scf/pri-02-dataprivacynotice.md)
-- [PRI-03 - Choice & Consent](../scf/pri-03-choice&consent.md)
-- [PRI-03.2 - Just-In-Time Notice & Updated Consent](../scf/pri-032-just-in-timenotice&updatedconsent.md)
   
 ## Article 14.4
 Where the controller intends to further process the personal data for a purpose other than that for which the personal data were obtained, the controller shall provide the data subject prior to that further processing with information on that other purpose and with any relevant further information as referred to in paragraph 2.
