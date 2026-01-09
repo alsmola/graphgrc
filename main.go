@@ -9,7 +9,7 @@ import (
 
 func main() {
 	// CLI flags
-	mode := flag.String("mode", "scf", "Control framework mode: scf or custom")
+	mode := flag.String("mode", "custom", "Control framework mode: custom or scf")
 	getFile := flag.Bool("fetch", false, "Fetch fresh data from remote sources")
 	flag.Parse()
 
@@ -19,7 +19,7 @@ func main() {
 	} else if *mode == "custom" {
 		runCustomMode(*getFile)
 	} else {
-		log.Fatalf("Invalid mode: %s. Use 'scf' or 'custom'", *mode)
+		log.Fatalf("Invalid mode: %s. Use 'custom' or 'scf'", *mode)
 	}
 }
 
