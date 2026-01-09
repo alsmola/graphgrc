@@ -2,20 +2,25 @@
 
 GraphGRC is data-driven documentation for a GRC program.
 
-See [source code](https://github.com/alsmola/graphgrc/) and a [published documentation example](https://alsmola.github.io/graphgrc/).
+**[View Live Example →](https://alsmola.github.io/graphgrc/custom/)**
 
-- Semantic: GRC program requirements (SOC 2, GDPR, etc.) parsed, structured, and rendered with Markdown
-- Linkable: Map similar controls from different frameworks with a custom control framework
-- Practical: Minimal, risk-focused control framework (24 controls) tailored for modern organizations
+## What is this?
+
+A practical, minimal control framework (24 controls) tailored for modern AWS SaaS organizations. Focuses on risk-reducing behaviors over checkbox compliance, with bidirectional mappings to SOC 2 and GDPR requirements.
+
+**Key features:**
+- **Semantic:** GRC requirements (SOC 2, GDPR) parsed, structured, and rendered as navigable Markdown
+- **Linked:** Bidirectional mappings show how controls satisfy multiple framework requirements
+- **Practical:** Implementation guidance for real-world AWS SaaS environments (~100 people, macOS endpoints, cloud-native)
 
 ## Published Documentation
 
-The published example uses a custom control framework (24 controls) tailored for AWS SaaS organizations with ~100 people and macOS endpoints. Focuses on risk-reducing behaviors over checkbox compliance.
+Browse the live example at **[alsmola.github.io/graphgrc/custom](https://alsmola.github.io/graphgrc/custom/)**
 
-**View the documentation:**
-- [Custom Controls](custom/index.md) - 24 controls with implementation guidance
-- [SOC 2](soc2/index.md) - Mapped to custom controls
-- [GDPR](gdpr/index.md) - Mapped to custom controls
+The published site includes:
+- [**24 Custom Controls**](https://alsmola.github.io/graphgrc/custom/) - Organized by security domain with implementation guidance
+- [**SOC 2 Mappings**](https://alsmola.github.io/graphgrc/soc2/) - Each requirement linked to relevant controls
+- [**GDPR Mappings**](https://alsmola.github.io/graphgrc/gdpr/) - Each article linked to relevant controls
 
 **Organization profile:** AWS SaaS, no physical datacenters, ~100 people, macOS endpoints, modern security practices (WebAuthn, full disk encryption, cloud-native)
 
