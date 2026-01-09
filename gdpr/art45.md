@@ -5,25 +5,11 @@
 ## Article 45.1
 A transfer of personal data to a third country or an international organisation may take place where the Commission has decided that the third country, a territory or one or more specified sectors within that third country, or the international organisation in question ensures an adequate level of protection. Such a transfer shall not require any specific authorisation.
   
-### Mapped SCF controls
-- [DCH-24 - Information Location](../scf/dch-24-informationlocation.md)
-- [DCH-25 - Transfer of Sensitive and/or Regulated Data](../scf/dch-25-transferofsensitiveand/orregulateddata.md)
-- [PRI-07 - Information Sharing With Third Parties](../scf/pri-07-informationsharingwiththirdparties.md)
-- [SEA-15 - Distributed Processing & Storage](../scf/sea-15-distributedprocessing&storage.md)
-- [TPM-04.4 - Third-Party Processing, Storage and Service Locations](../scf/tpm-044-third-partyprocessing,storageandservicelocations.md)
-  
 ## Article 45.2
 When assessing the adequacy of the level of protection, the Commission shall, in particular, take account of the following elements:
 (a) the rule of law, respect for human rights and fundamental freedoms, relevant legislation, both general and sectoral, including concerning public security, defence, national security and criminal law and the access of public authorities to personal data, as well as the implementation of such legislation, data protection rules, professional rules and security measures, including rules for the onward transfer of personal data to another third country or international organisation which are complied with in that country or international organisation, case-law, as well as effective and enforceable data subject rights and effective administrative and judicial redress for the data subjects whose personal data are being transferred;
 (b) the existence and effective functioning of one or more independent supervisory authorities in the third country or to which an international organisation is subject, with responsibility for ensuring and enforcing compliance with the data protection rules, including adequate enforcement powers, for assisting and advising the data subjects in exercising their rights and for cooperation with the supervisory authorities of the Member States; and
 (c) the international commitments the third country or international organisation concerned has entered into, or other obligations arising from legally binding conventions or instruments as well as from its participation in multilateral or regional systems, in particular in relation to the protection of personal data.
-  
-### Mapped SCF controls
-- [DCH-24 - Information Location](../scf/dch-24-informationlocation.md)
-- [DCH-25 - Transfer of Sensitive and/or Regulated Data](../scf/dch-25-transferofsensitiveand/orregulateddata.md)
-- [PRI-07 - Information Sharing With Third Parties](../scf/pri-07-informationsharingwiththirdparties.md)
-- [SEA-15 - Distributed Processing & Storage](../scf/sea-15-distributedprocessing&storage.md)
-- [TPM-04.4 - Third-Party Processing, Storage and Service Locations](../scf/tpm-044-third-partyprocessing,storageandservicelocations.md)
   
 ## Article 45.3
 The Commission, after assessing the adequacy of the level of protection, may decide, by means of implementing act, that a third country, a territory or one or more specified sectors within a third country, or an international organisation ensures an adequate level of protection within the meaning of paragraph 2 of this Article. The implementing act shall provide for a mechanism for a periodic review, at least every four years, which shall take into account all relevant developments in the third country or international organisation. The implementing act shall specify its territorial and sectoral application and, where applicable, identify the supervisory authority or authorities referred to in point (b)  of paragraph 2 of this Article. The implementing act shall be adopted in accordance with the examination procedure referred to in Article 93(2).

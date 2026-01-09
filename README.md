@@ -4,39 +4,96 @@ GraphGRC is data-driven documentation for a GRC program.
 
 See [source code](https://github.com/alsmola/graphgrc/) and a [published documentation example](https://alsmola.github.io/graphgrc/).
 
-- Semantic: GRC program requirements (SOC 2, ISO 27001, GDPR, etc.) parsed, structured, and redered with Markdown
-- Linkable: Map similar controls from different Framework with the [Secure Controls Framework (SCF)](https://securecontrolsframework.com/)
+- Semantic: GRC program requirements (SOC 2, GDPR, etc.) parsed, structured, and rendered with Markdown
+- Linkable: Map similar controls from different frameworks with a custom control framework
+- Practical: Minimal, risk-focused control framework (24 controls) tailored for modern organizations
 
-Use to connect and understand all of the applicable framework controls for your security program.
+## Published Documentation
 
-See the default selected frameworks:
+The published example uses a custom control framework (24 controls) tailored for AWS SaaS organizations with ~100 people and macOS endpoints. Focuses on risk-reducing behaviors over checkbox compliance.
 
-- [GDPR](gdpr/index.md)
-- [SOC 2](soc2/index.md)
-- [ISO 27001](iso27001/index.md)
-- [ISO 27002](iso27002/index.md)
-- [NIST 800-53](nist80053/index.md)
+**View the documentation:**
+- [Custom Controls](custom/index.md) - 24 controls with implementation guidance
+- [SOC 2](soc2/index.md) - Mapped to custom controls
+- [GDPR](gdpr/index.md) - Mapped to custom controls
 
-See the one single SCF control set that maps all frameworks:
+**Organization profile:** AWS SaaS, no physical datacenters, ~100 people, macOS endpoints, modern security practices (WebAuthn, full disk encryption, cloud-native)
 
-- [SCF](scf/index.md)
+## Two Modes Available
 
-# To customize
+### Custom Mode (Default)
 
-In [scf.go](internal/scf.go), specify the applicable frameworks in the `SupportedFrameworks` map, e.g.:
+Uses a minimal, practical control framework (24 controls) tailored for AWS SaaS organizations. This is the mode used for the published documentation.
 
+**Run custom mode:**
+```bash
+go run main.go --mode=custom
+# or just
+go run main.go
 ```
+
+### SCF Mode (Comprehensive)
+
+Uses the [Secure Controls Framework (SCF)](https://securecontrolsframework.com/) with 578 comprehensive controls covering multiple compliance frameworks including SOC 2, GDPR, ISO 27001, ISO 27002, and NIST 800-53.
+
+**Run SCF mode:**
+```bash
+go run main.go --mode=scf
+```
+
+## Usage
+
+### Command-line Flags
+
+- `--mode` - Control framework mode: `custom` or `scf` (default: `custom`)
+- `--fetch` - Fetch fresh data from remote sources instead of using cached files (default: `false`)
+
+### Examples
+
+```bash
+# Generate using custom framework (default)
+go run main.go
+
+# Generate using SCF framework
+go run main.go --mode=scf
+
+# Fetch fresh data and generate with custom controls
+go run main.go --fetch=true
+
+# Fetch fresh data and generate with SCF
+go run main.go --mode=scf --fetch=true
+```
+
+## Customization
+
+### SCF Mode Customization
+
+In [scf.go](internal/scf.go), specify the applicable frameworks in the `SupportedFrameworks` map:
+
+```go
 var SupportedFrameworks = map[Framework]ControlHeader{
-	"SOC 2":     "AICPA TSC 2017 (Controls)",
-	"GDPR":      "EMEA EU GDPR",
-	"ISO 27001": "ISO 27001 v2022",
+	"SOC 2":       "AICPA TSC 2017 (Controls)",
+	"GDPR":        "EMEA EU GDPR",
+	"ISO 27001":   "ISO 27001 v2022",
 	"ISO 27002":   "ISO 27002 v2022",
-	// "ISO 27701":   "ISO 27701 v2019",
 	"NIST 800-53": "NIST 800-53 rev5 (moderate)",
-	// "HIPAA":       "US HIPAA",
+	// "HIPAA":    "US HIPAA",
 }
 ```
 
-Then, run the following command to generate the Markdown and create the internal links:
+### Custom Mode Customization
 
-`go run main.go`
+Edit [custom_controls.json](custom_controls.json) to:
+- Modify control descriptions and implementation guidance
+- Add/remove controls
+- Update mappings to SOC 2 and GDPR requirements
+- Change organization profile metadata
+
+## Architecture
+
+Both modes follow the same pattern:
+
+1. Load control framework (SCF Excel or Custom JSON)
+2. Parse framework-specific data (SOC 2, GDPR, ISO, NIST)
+3. Generate bidirectional markdown links between controls and requirements
+4. Create index pages for easy navigation

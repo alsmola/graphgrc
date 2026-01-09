@@ -132,6 +132,25 @@ func GenerateGDPRMarkdown(gdprArticle GDPRArticle, scfControlMapping SCFControlM
 		PlainText(gdprArticle.Body).
 		LF()
 
+	// Determine if we're using SCF or custom controls based on control ID format
+	// SCF IDs contain " - " (e.g., "AST-01 - Asset Governance")
+	// Custom IDs are simple (e.g., "ACC-01")
+	controlType := "scf"
+	for scfID := range scfControlMapping {
+		if !strings.Contains(string(scfID), " - ") {
+			controlType = "custom"
+			break
+		}
+	}
+
+	headerText := "Mapped SCF controls"
+	if controlType == "custom" {
+		headerText = "Mapped custom controls"
+	}
+
+	// Also get the article-level mapping for controls that map to entire articles
+	articleArt := strings.ReplaceAll(gdprArticle.ID, "Article", "Art")
+
 	for _, gdprSubArticle := range gdprArticle.Subarticles {
 		scfSubArticle := strings.ReplaceAll(string(gdprSubArticle.ID), "Article", "Art")
 		doc.H2(gdprSubArticle.ID).
@@ -139,16 +158,28 @@ func GenerateGDPRMarkdown(gdprArticle GDPRArticle, scfControlMapping SCFControlM
 			LF()
 		fcids := []string{}
 		for scfID, controlMapping := range scfControlMapping {
-			soc2FrameworkControlIDs := controlMapping["GDPR"]
-			for _, fcid := range soc2FrameworkControlIDs {
-				if string(fcid) == scfSubArticle {
-					fcids = append(fcids, fmt.Sprintf("[%s](../scf/%s.md)", string(scfID), safeFileName(string(scfID))))
+			gdprFrameworkControlIDs := controlMapping["GDPR"]
+			for _, fcid := range gdprFrameworkControlIDs {
+				// Match either the specific subarticle (e.g., "Art 32.1") or the whole article (e.g., "Art 32")
+				if string(fcid) == scfSubArticle || string(fcid) == articleArt {
+					link := fmt.Sprintf("[%s](../%s/%s.md)", string(scfID), controlType, safeFileName(string(scfID)))
+					// Avoid duplicates
+					found := false
+					for _, existing := range fcids {
+						if existing == link {
+							found = true
+							break
+						}
+					}
+					if !found {
+						fcids = append(fcids, link)
+					}
 				}
 			}
 		}
 		if len(fcids) > 0 {
 			slices.Sort(fcids)
-			doc.H3("Mapped SCF controls").
+			doc.H3(headerText).
 				BulletList(fcids...).
 				LF()
 		}

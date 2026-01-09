@@ -8,13 +8,6 @@ The competent supervisory authority shall approve binding corporate rules in acc
 (b) expressly confer enforceable rights on data subjects with regard to the processing of their personal data; and
 (c) fulfil the requirements laid down in paragraph 2.
   
-### Mapped SCF controls
-- [DCH-24 - Information Location](../scf/dch-24-informationlocation.md)
-- [DCH-25 - Transfer of Sensitive and/or Regulated Data](../scf/dch-25-transferofsensitiveand/orregulateddata.md)
-- [PRI-07 - Information Sharing With Third Parties](../scf/pri-07-informationsharingwiththirdparties.md)
-- [SEA-15 - Distributed Processing & Storage](../scf/sea-15-distributedprocessing&storage.md)
-- [TPM-04.4 - Third-Party Processing, Storage and Service Locations](../scf/tpm-044-third-partyprocessing,storageandservicelocations.md)
-  
 ## Article 47.2
 The binding corporate rules referred to in paragraph 1 shall specify at least:
 (a) the structure and contact details of the group of undertakings, or group of enterprises engaged in a joint economic activity and of each of its members;
@@ -31,13 +24,6 @@ The binding corporate rules referred to in paragraph 1 shall specify at least:
 (l) the cooperation mechanism with the supervisory authority to ensure compliance by any member of the group of undertakings, or group of enterprises engaged in a joint economic activity, in particular by making available to the supervisory authority the results of verifications of the measures referred to in point (j) ;
 (m) the mechanisms for reporting to the competent supervisory authority any legal requirements to which a member of the group of undertakings, or group of enterprises engaged in a joint economic activity is subject in a third country which are likely to have a substantial adverse effect on the guarantees provided by the binding corporate rules; and
 (n) the appropriate data protection training to personnel having permanent or regular access to personal data.
-  
-### Mapped SCF controls
-- [DCH-24 - Information Location](../scf/dch-24-informationlocation.md)
-- [DCH-25 - Transfer of Sensitive and/or Regulated Data](../scf/dch-25-transferofsensitiveand/orregulateddata.md)
-- [PRI-07 - Information Sharing With Third Parties](../scf/pri-07-informationsharingwiththirdparties.md)
-- [SEA-15 - Distributed Processing & Storage](../scf/sea-15-distributedprocessing&storage.md)
-- [TPM-04.4 - Third-Party Processing, Storage and Service Locations](../scf/tpm-044-third-partyprocessing,storageandservicelocations.md)
   
 ## Article 47.3
 The Commission may specify the format and procedures for the exchange of information between controllers, processors and supervisory authorities for binding corporate rules within the meaning of this Article. Those implementing acts shall be adopted in accordance with the examination procedure set out in Article 93(2).
