@@ -2,8 +2,6 @@
 
 GraphGRC is data-driven documentation for a GRC program.
 
-**[View Live Example →](https://alsmola.github.io/graphgrc/custom/)**
-
 ## What is this?
 
 A practical, minimal control framework (24 controls) tailored for modern AWS SaaS organizations. Focuses on risk-reducing behaviors over checkbox compliance, with bidirectional mappings to SOC 2 and GDPR requirements.
