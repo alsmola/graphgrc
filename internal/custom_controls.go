@@ -94,6 +94,7 @@ func GenerateCustomControlMarkdown(
 
 	doc := md.NewMarkdown(f).
 		H1(fmt.Sprintf("%s: %s", controlID, control.Title)).
+		LF().
 		PlainText(md.Bold("Category: ") + control.Category).
 		LF().
 		H2("Objective").

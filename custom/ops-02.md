@@ -1,4 +1,5 @@
 # OPS-02: Vulnerability Management
+  
 **Category: **Operational Security
   
 ## Objective

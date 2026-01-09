@@ -1,4 +1,5 @@
 # DAT-02: Encryption
+  
 **Category: **Data Protection
   
 ## Objective

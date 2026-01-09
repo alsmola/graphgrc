@@ -1,4 +1,5 @@
 # VEN-02: Vendor Contracts & DPAs
+  
 **Category: **Vendor Management
   
 ## Objective

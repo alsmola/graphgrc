@@ -1,4 +1,5 @@
 # DAT-04: Data Privacy (GDPR Compliance)
+  
 **Category: **Data Protection
   
 ## Objective
