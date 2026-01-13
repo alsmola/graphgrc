@@ -8,9 +8,9 @@ A practical, minimal control framework (24 controls) tailored for modern AWS Saa
 
 ```
 Framework Controls (SOC 2, GDPR, ISO 27001, etc.)
-    ↓ map to
+    ⬆️ map to
 Custom Controls (ACC-01, DAT-01, etc.)
-    ↓ implement via
+    ⬆️ implement 
 Standards, Processes, Policies, Charter
 ```
 
