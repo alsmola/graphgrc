@@ -2,11 +2,11 @@
 Mechanisms exist to limit the number of concurrent external network connections to its systems. 
 ## Mapped framework controls
 ### NIST 800-53
-- [SC-7(3)](sc-7-3.md)
+- [SC-7(3)](../nist80053/sc-7-3.md)
   
 ### SOC 2
-- [CC6.1](cc61.md)
-- [CC6.6](cc66.md)
+- [CC6.1](../soc2/cc61.md)
+- [CC6.6](../soc2/cc66.md)
   
 ## Control questions
 Does the organization limit the number of concurrent external network connections to its systems? 

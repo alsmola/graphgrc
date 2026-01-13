@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/alsmola/graphgrc/internal/generator"
+	"github.com/engseclabs/graphgrc/internal/generator"
 )
 
 func main() {

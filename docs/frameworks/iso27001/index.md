@@ -6,10 +6,10 @@
 - [8 - Operation](8.md)
 - [9 - Performance evaluation](9.md)
 - [10 - Improvement](10.md)
-- [A.5 -  Information security policies](a-5.md)
-- [A.6 - People controls](a-6.md)
-- [A.7 - Physical controls](a-7.md)
-- [A.8 - Technological controls](a-8.md)
+- [A.5 -  Information security policies](../iso27002/a-5.md)
+- [A.6 - People controls](../iso27002/a-6.md)
+- [A.7 - Physical controls](../iso27002/a-7.md)
+- [A.8 - Technological controls](../iso27002/a-8.md)
 
 ---
 

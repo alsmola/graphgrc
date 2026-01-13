@@ -4,7 +4,7 @@
 ## Guidance
 Documentation for specialized training may be maintained by individual supervisors at the discretion of the organization. The National Archives and Records Administration provides guidance on records retention for federal agencies.
 ## Mapped SCF controls
-- [SAT-04 - Cybersecurity & Data Privacy Training Records](sat-04-cybersecurity&dataprivacytrainingrecords.md)
+- [SAT-04 - Cybersecurity & Data Privacy Training Records](../scf/sat-04-cybersecurity&dataprivacytrainingrecords.md)
 
 ---
 

@@ -52,11 +52,11 @@ Network boundaries are protected with firewalls and network segmentation. Remote
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC6.6](cc66.md) - Firewalls and network segmentation restrict access to protected information assets
-- [CC6.7](cc67.md) - Network controls restrict transmission, movement, and removal of information
+- [CC6.6](../frameworks/soc2/cc66.md) - Firewalls and network segmentation restrict access to protected information assets
+- [CC6.7](../frameworks/soc2/cc67.md) - Network controls restrict transmission, movement, and removal of information
 
 ### GDPR
-- [Article 32](art32.md) - Network security controls (firewalls, segmentation, monitoring) ensure security appropriate to risk
+- [Article 32](../frameworks/gdpr/art32.md) - Network security controls (firewalls, segmentation, monitoring) ensure security appropriate to risk
 
 ---
 

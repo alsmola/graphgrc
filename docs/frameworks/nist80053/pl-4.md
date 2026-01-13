@@ -6,9 +6,9 @@
 ## Guidance
 Rules of behavior represent a type of access agreement for organizational users. Other types of access agreements include nondisclosure agreements, conflict-of-interest agreements, and acceptable use agreements (see [PS-6](#ps-6) ). Organizations consider rules of behavior based on individual user roles and responsibilities and differentiate between rules that apply to privileged users and rules that apply to general users. Establishing rules of behavior for some types of non-organizational users, including individuals who receive information from federal systems, is often not feasible given the large number of such users and the limited nature of their interactions with the systems. Rules of behavior for organizational and non-organizational users can also be established in [AC-8](#ac-8) . The related controls section provides a list of controls that are relevant to organizational rules of behavior. [PL-4b](#pl-4_smt.b) , the documented acknowledgment portion of the control, may be satisfied by the literacy training and awareness and role-based training programs conducted by organizations if such training includes rules of behavior. Documented acknowledgements for rules of behavior include electronic or physical signatures and electronic agreement check boxes or radio buttons.
 ## Mapped SCF controls
-- [HRS-05 - Terms of Employment](hrs-05-termsofemployment.md)
-- [HRS-05.1 - Rules of Behavior](hrs-051-rulesofbehavior.md)
-- [HRS-05.3 - Use of Communications Technology](hrs-053-useofcommunicationstechnology.md)
+- [HRS-05 - Terms of Employment](../scf/hrs-05-termsofemployment.md)
+- [HRS-05.1 - Rules of Behavior](../scf/hrs-051-rulesofbehavior.md)
+- [HRS-05.3 - Use of Communications Technology](../scf/hrs-053-useofcommunicationstechnology.md)
 
 ---
 

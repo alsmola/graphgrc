@@ -4,7 +4,7 @@ import (
 	"flag"
 	"log"
 
-	"github.com/alsmola/graphgrc/internal"
+	"github.com/engseclabs/graphgrc/internal"
 )
 
 func main() {

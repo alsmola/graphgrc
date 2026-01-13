@@ -2,13 +2,13 @@
 Mechanisms exist to sanitize system media with the strength and integrity commensurate with the classification or sensitivity of the information prior to disposal, release out of organizational control or release for reuse.
 ## Mapped framework controls
 ### ISO 27002
-- [A.8.10](a-8.md#a810)
+- [A.8.10](../iso27002/a-8.md#a810)
   
 ### NIST 800-53
-- [MP-6](mp-6.md)
+- [MP-6](../nist80053/mp-6.md)
   
 ### SOC 2
-- [CC6.5](cc65.md)
+- [CC6.5](../soc2/cc65.md)
   
 ## Control questions
 Does the organization sanitize system media with the strength and integrity commensurate with the classification or sensitivity of the information prior to disposal, release out of organizational control or release for reuse?

@@ -3,12 +3,12 @@ Mechanisms exist to conduct cybersecurity & data privacy testing, training and m
 
 ## Mapped framework controls
 ### GDPR
-- [Art 32.1](art32.md#Article-321)
-- [Art 32.2](art32.md#Article-322)
+- [Art 32.1](../gdpr/art32.md#Article-321)
+- [Art 32.2](../gdpr/art32.md#Article-322)
   
 ### ISO 27002
-- [A.5.36](a-5.md#a536)
-- [A.8.8](a-8.md#a88)
+- [A.5.36](../iso27002/a-5.md#a536)
+- [A.8.8](../iso27002/a-8.md#a88)
   
 ### SOC 2
 - [P6.5](p65.md)

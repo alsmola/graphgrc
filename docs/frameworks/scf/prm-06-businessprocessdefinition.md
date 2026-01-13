@@ -4,12 +4,12 @@ Mechanisms exist to define business processes with consideration for cybersecuri
  - Information protection needs arising from the defined business processes and revises the processes as necessary, until an achievable set of protection needs is obtained.
 ## Mapped framework controls
 ### SOC 2
-- [CC1.3](cc13.md)
-- [CC3.1](cc31.md)
-- [CC3.4](cc34.md)
-- [CC4.1](cc41.md)
-- [CC5.1](cc51.md)
-- [CC5.2](cc52.md)
+- [CC1.3](../soc2/cc13.md)
+- [CC3.1](../soc2/cc31.md)
+- [CC3.4](../soc2/cc34.md)
+- [CC4.1](../soc2/cc41.md)
+- [CC5.1](../soc2/cc51.md)
+- [CC5.2](../soc2/cc52.md)
 - [PI1.1](../soc2/pi11.md)
   
 ## Control questions

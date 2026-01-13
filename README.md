@@ -21,12 +21,12 @@ Standards, Processes, Policies, Charter
 
 ## Published Documentation
 
-Browse the live example at **[alsmola.github.io/graphgrc/custom](https://alsmola.github.io/graphgrc/custom/)**
+Browse the live example at **[engseclabs.github.io/graphgrc/](https://engseclabs.github.io/graphgrc/)**
 
 The published site includes:
-- [**24 Custom Controls**](https://alsmola.github.io/graphgrc/custom/) - Organized by security domain with implementation guidance
-- [**SOC 2 Mappings**](https://alsmola.github.io/graphgrc/soc2/) - Each requirement linked to relevant controls
-- [**GDPR Mappings**](https://alsmola.github.io/graphgrc/gdpr/) - Each article linked to relevant controls
+- [**24 Custom Controls**](https://engseclabs.github.io/graphgrc/custom/) - Organized by security domain with implementation guidance
+- [**SOC 2 Mappings**](https://engseclabs.github.io/graphgrc/soc2/) - Each requirement linked to relevant controls
+- [**GDPR Mappings**](https://engseclabs.github.io/graphgrc/gdpr/) - Each article linked to relevant controls
 
 **Organization profile:** AWS SaaS, no physical datacenters, ~100 people, macOS endpoints, modern security practices (WebAuthn, full disk encryption, cloud-native)
 
@@ -74,6 +74,23 @@ go run main.go --fetch=true
 # Fetch fresh data and generate with SCF
 go run main.go --mode=scf --fetch=true
 ```
+
+### Link Validation
+
+Validate all markdown links before deployment:
+
+```bash
+# Validate all links in docs/
+make validate-links
+
+# Automatically fix broken links
+make fix-links
+
+# Clean build artifacts
+make clean
+```
+
+See [docs/link-validation.md](docs/link-validation.md) for detailed documentation on link validation tools.
 
 ## Customization
 

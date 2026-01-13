@@ -5,7 +5,7 @@ Mechanisms exist to handle error conditions by:
  - Revealing error messages only to authorized personnel.
 ## Mapped framework controls
 ### NIST 800-53
-- [SI-11](si-11.md)
+- [SI-11](../nist80053/si-11.md)
   
 ## Control questions
 Does the organization handle error conditions by: 

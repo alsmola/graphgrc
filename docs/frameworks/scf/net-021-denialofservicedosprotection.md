@@ -2,7 +2,7 @@
 Automated mechanisms exist to protect against or limit the effects of denial of service attacks. 
 ## Mapped framework controls
 ### NIST 800-53
-- [SC-5](sc-5.md)
+- [SC-5](../nist80053/sc-5.md)
   
 ## Control questions
 Does the organization use automated mechanisms to protect against or limit the effects of denial of service attacks? 

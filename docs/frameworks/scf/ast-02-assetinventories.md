@@ -7,10 +7,10 @@ Mechanisms exist to perform inventories of technology assets that:
  - Is available for review and audit by designated organizational personnel.
 ## Mapped framework controls
 ### ISO 27002
-- [A.5.9](a-5.md#a59)
+- [A.5.9](../iso27002/a-5.md#a59)
   
 ### NIST 800-53
-- [CM-8](cm-8.md)
+- [CM-8](../nist80053/cm-8.md)
   
 ## Control questions
 Does the organization perform inventories of technology assets that:

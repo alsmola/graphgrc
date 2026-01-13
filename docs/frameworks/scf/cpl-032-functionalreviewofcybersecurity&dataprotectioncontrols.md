@@ -2,16 +2,16 @@
 Mechanisms exist to regularly review technology assets for adherence to the organization’s cybersecurity & data protection policies and standards. 
 ## Mapped framework controls
 ### ISO 27002
-- [A.5.35](a-5.md#a535)
-- [A.5.36](a-5.md#a536)
-- [A.8.8](a-8.md#a88)
+- [A.5.35](../iso27002/a-5.md#a535)
+- [A.5.36](../iso27002/a-5.md#a536)
+- [A.8.8](../iso27002/a-8.md#a88)
   
 ### NIST 800-53
-- [CA-2](ca-2.md)
-- [RA-3](ra-3.md)
+- [CA-2](../nist80053/ca-2.md)
+- [RA-3](../nist80053/ra-3.md)
   
 ### SOC 2
-- [CC4.1](cc41.md)
+- [CC4.1](../soc2/cc41.md)
   
 ## Control questions
 Does the organization regularly review technology assets for adherence to the organization’s cybersecurity & data protection policies and standards? 

@@ -2,10 +2,10 @@
 Mechanisms exist to expedite the process of removing "high risk" individual’s access to systems and applications upon termination, as determined by management.
 ## Mapped framework controls
 ### NIST 800-53
-- [AC-2(13)](ac-2-13.md)
+- [AC-2(13)](../nist80053/ac-2-13.md)
   
 ### SOC 2
-- [CC1.5](cc15.md)
+- [CC1.5](../soc2/cc15.md)
   
 ## Control questions
 Does the organization expedite the process of removing "high risk" individual’s access to systems and applications upon termination, as determined by management?

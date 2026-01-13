@@ -2,7 +2,7 @@
 Physical security mechanisms exist to restrict access to printers and other system output devices to prevent unauthorized individuals from obtaining the output. 
 ## Mapped framework controls
 ### NIST 800-53
-- [PE-5](pe-5.md)
+- [PE-5](../nist80053/pe-5.md)
   
 ### SOC 2
 - [PI1.4](../soc2/pi14.md)

@@ -2,7 +2,7 @@
 Mechanisms exist to generate System Security & Privacy Plans (SSPPs), or similar document repositories, to identify and maintain key architectural information on each critical system, application or service, as well as influence inputs, entities, systems, applications and processes, providing a historical record of the data and its origins.
 ## Mapped framework controls
 ### NIST 800-53
-- [PL-2](pl-2.md)
+- [PL-2](../nist80053/pl-2.md)
   
 ## Control questions
 Does the organization generate System Security & Privacy Plans (SSPPs), or similar document repositories, to identify and maintain key architectural information on each critical system, application or service, as well as influence inputs, entities, systems, applications and processes, providing a historical record of the data and its origins?

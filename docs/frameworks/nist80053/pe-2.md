@@ -6,7 +6,7 @@
 ## Guidance
 Physical access authorizations apply to employees and visitors. Individuals with permanent physical access authorization credentials are not considered visitors. Authorization credentials include ID badges, identification cards, and smart cards. Organizations determine the strength of authorization credentials needed consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines. Physical access authorizations may not be necessary to access certain areas within facilities that are designated as publicly accessible.
 ## Mapped SCF controls
-- [PES-02 - Physical Access Authorizations](pes-02-physicalaccessauthorizations.md)
+- [PES-02 - Physical Access Authorizations](../scf/pes-02-physicalaccessauthorizations.md)
 
 ---
 

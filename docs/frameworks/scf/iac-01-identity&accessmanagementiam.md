@@ -2,19 +2,19 @@
 Mechanisms exist to facilitate the implementation of identification and access management controls.
 ## Mapped framework controls
 ### GDPR
-- [Art 32.1](art32.md#Article-321)
-- [Art 32.2](art32.md#Article-322)
+- [Art 32.1](../gdpr/art32.md#Article-321)
+- [Art 32.2](../gdpr/art32.md#Article-322)
   
 ### ISO 27002
-- [A.5.15](a-5.md#a515)
-- [A.5.18](a-5.md#a518)
+- [A.5.15](../iso27002/a-5.md#a515)
+- [A.5.18](../iso27002/a-5.md#a518)
   
 ### NIST 800-53
-- [AC-1](ac-1.md)
-- [IA-1](ia-1.md)
+- [AC-1](../nist80053/ac-1.md)
+- [IA-1](../nist80053/ia-1.md)
   
 ### SOC 2
-- [CC6.1](cc61.md)
+- [CC6.1](../soc2/cc61.md)
   
 ## Control questions
 Does the organization facilitate the implementation of identification and access management controls?

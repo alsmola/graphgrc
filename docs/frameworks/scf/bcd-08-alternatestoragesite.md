@@ -2,13 +2,13 @@
 Mechanisms exist to establish an alternate storage site that includes both the assets and necessary agreements to permit the storage and recovery of system backup information. 
 ## Mapped framework controls
 ### ISO 27002
-- [A.8.14](a-8.md#a814)
+- [A.8.14](../iso27002/a-8.md#a814)
   
 ### NIST 800-53
-- [CP-6](cp-6.md)
+- [CP-6](../nist80053/cp-6.md)
   
 ### SOC 2
-- [A1.2](a12.md)
+- [A1.2](../soc2/a12.md)
   
 ## Control questions
 Does the organization establish an alternate storage site that includes both the assets and necessary agreements to permit the storage and recovery of system backup information? 

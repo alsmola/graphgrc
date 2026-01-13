@@ -52,11 +52,11 @@ All employees complete security awareness training upon hire and annually. Train
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC1.4](cc14.md) - Security training demonstrates commitment to attracting, developing, and retaining competent personnel
-- [CC2.2](cc22.md) - Training communicates security responsibilities and expected behavior to all personnel
+- [CC1.4](../frameworks/soc2/cc14.md) - Security training demonstrates commitment to attracting, developing, and retaining competent personnel
+- [CC2.2](../frameworks/soc2/cc22.md) - Training communicates security responsibilities and expected behavior to all personnel
 
 ### GDPR
-- [Article 32](art32.md) - Security awareness training is an organizational measure ensuring personnel understand data protection obligations
+- [Article 32](../frameworks/gdpr/art32.md) - Security awareness training is an organizational measure ensuring personnel understand data protection obligations
 
 ---
 

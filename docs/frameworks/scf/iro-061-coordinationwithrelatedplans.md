@@ -2,10 +2,10 @@
 Mechanisms exist to coordinate incident response testing with organizational elements responsible for related plans. 
 ## Mapped framework controls
 ### ISO 27002
-- [A.5.29](a-5.md#a529)
+- [A.5.29](../iso27002/a-5.md#a529)
   
 ### NIST 800-53
-- [IR-3(2)](ir-3-2.md)
+- [IR-3(2)](../nist80053/ir-3-2.md)
   
 ## Control questions
 Does the organization coordinate incident response testing with organizational elements responsible for related plans? 

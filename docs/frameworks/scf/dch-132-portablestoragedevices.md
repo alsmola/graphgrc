@@ -2,10 +2,10 @@
 Mechanisms exist to restrict or prohibit the use of portable storage devices by users on external systems. 
 ## Mapped framework controls
 ### NIST 800-53
-- [AC-20(2)](ac-20-2.md)
+- [AC-20(2)](../nist80053/ac-20-2.md)
   
 ### SOC 2
-- [CC6.7](cc67.md)
+- [CC6.7](../soc2/cc67.md)
   
 ## Control questions
 Does the organization restrict or prohibit the use of portable storage devices by users on external systems? 

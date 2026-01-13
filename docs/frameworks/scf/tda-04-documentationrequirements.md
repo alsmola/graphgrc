@@ -5,7 +5,7 @@ Mechanisms exist to obtain, protect and distribute administrator documentation f
  - Known vulnerabilities regarding configuration and use of administrative (e.g., privileged) functions.
 ## Mapped framework controls
 ### NIST 800-53
-- [SA-5](sa-5.md)
+- [SA-5](../nist80053/sa-5.md)
   
 ## Control questions
 Does the organization obtain, protect and distribute administrator documentation for systems that describe:

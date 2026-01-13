@@ -2,15 +2,15 @@
 Mechanisms exist to securely manage authenticators for users and devices.
 ## Mapped framework controls
 ### ISO 27002
-- [A.5.17](a-5.md#a517)
-- [A.5.18](a-5.md#a518)
+- [A.5.17](../iso27002/a-5.md#a517)
+- [A.5.18](../iso27002/a-5.md#a518)
   
 ### NIST 800-53
-- [IA-5(1)](ia-5-1.md)
-- [IA-5](ia-5.md)
+- [IA-5(1)](../nist80053/ia-5-1.md)
+- [IA-5](../nist80053/ia-5.md)
   
 ### SOC 2
-- [CC6.1](cc61.md)
+- [CC6.1](../soc2/cc61.md)
   
 ## Control questions
 Does the organization securely manage authenticators for users and devices?

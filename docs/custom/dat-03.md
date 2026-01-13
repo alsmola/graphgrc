@@ -52,12 +52,12 @@ Data is retained according to policy and legal requirements. Data is securely de
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC6.5](cc65.md) - Data retention policies and automated deletion ensure data is removed when no longer needed, supporting confidentiality
+- [CC6.5](../frameworks/soc2/cc65.md) - Data retention policies and automated deletion ensure data is removed when no longer needed, supporting confidentiality
 
 ### GDPR
-- [Article 17](art17.md) - Right to Erasure (Right to be Forgotten) - customers can request deletion and it's completed within 30 days
-- [Article 5](art5.md) - Storage limitation principle - personal data kept only as long as necessary for processing purposes
-- [Article 30](art30.md) - Data retention periods documented as part of records of processing activities
+- [Article 17](../frameworks/gdpr/art17.md) - Right to Erasure (Right to be Forgotten) - customers can request deletion and it's completed within 30 days
+- [Article 5](../frameworks/gdpr/art5.md) - Storage limitation principle - personal data kept only as long as necessary for processing purposes
+- [Article 30](../frameworks/gdpr/art30.md) - Data retention periods documented as part of records of processing activities
 
 ---
 

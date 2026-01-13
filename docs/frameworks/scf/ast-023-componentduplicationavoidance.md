@@ -2,7 +2,7 @@
 Mechanisms exist to establish and maintain an authoritative source and repository to provide a trusted source and accountability for approved and implemented system components that prevents assets from being duplicated in other asset inventories.
 ## Mapped framework controls
 ### NIST 800-53
-- [CM-8](cm-8.md)
+- [CM-8](../nist80053/cm-8.md)
   
 ## Control questions
 Does the organization establish and maintain an authoritative source and repository to provide a trusted source and accountability for approved and implemented system components that prevents assets from being duplicated in other asset inventories?

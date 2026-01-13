@@ -52,10 +52,10 @@ Systems are regularly scanned for vulnerabilities. Critical vulnerabilities are 
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC7.1](cc71.md) - Vulnerability scanning detects processing errors and security issues enabling timely mitigation
+- [CC7.1](../frameworks/soc2/cc71.md) - Vulnerability scanning detects processing errors and security issues enabling timely mitigation
 
 ### GDPR
-- [Article 32](art32.md) - Regular vulnerability assessment and remediation ensure ongoing security appropriate to risk
+- [Article 32](../frameworks/gdpr/art32.md) - Regular vulnerability assessment and remediation ensure ongoing security appropriate to risk
 
 ---
 

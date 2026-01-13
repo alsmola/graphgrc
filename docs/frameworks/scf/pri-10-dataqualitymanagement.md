@@ -2,7 +2,7 @@
 Mechanisms exist to issue guidelines ensuring and maximizing the quality, utility, objectivity, integrity, impact determination and de-identification of Personal Data (PD) across the information lifecycle.
 ## Mapped framework controls
 ### GDPR
-- [Art 5.1](art5.md#Article-51)
+- [Art 5.1](../gdpr/art5.md#Article-51)
   
 ### SOC 2
 - [P7.0](../soc2/p70.md)

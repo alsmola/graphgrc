@@ -5,7 +5,7 @@
 ## Guidance
 Resource allocation for information security and privacy includes funding for system and services acquisition, sustainment, and supply chain-related risks throughout the system development life cycle.
 ## Mapped SCF controls
-- [PRM-03 - Allocation of Resources](prm-03-allocationofresources.md)
+- [PRM-03 - Allocation of Resources](../scf/prm-03-allocationofresources.md)
 
 ---
 

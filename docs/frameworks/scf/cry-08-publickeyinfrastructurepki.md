@@ -2,11 +2,11 @@
 Mechanisms exist to securely implement an internal Public Key Infrastructure (PKI) infrastructure or obtain PKI services from a reputable PKI service provider. 
 ## Mapped framework controls
 ### NIST 800-53
-- [SC-12](sc-12.md)
-- [SC-17](sc-17.md)
+- [SC-12](../nist80053/sc-12.md)
+- [SC-17](../nist80053/sc-17.md)
   
 ### SOC 2
-- [CC6.1](cc61.md)
+- [CC6.1](../soc2/cc61.md)
   
 ## Control questions
 Does the organization securely implement an internal Public Key Infrastructure (PKI) infrastructure or obtain PKI services from a reputable PKI service provider? 

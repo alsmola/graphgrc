@@ -52,13 +52,13 @@ Security incident response procedures are documented and tested. Incidents are d
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC7.3](cc73.md) - Incident detection and response process evaluates security events and determines appropriate action
-- [CC7.4](cc74.md) - Incident response procedures mitigate ongoing events and prevent future occurrences
-- [CC7.5](cc75.md) - Incident communication procedures keep stakeholders informed of security events and remediation
+- [CC7.3](../frameworks/soc2/cc73.md) - Incident detection and response process evaluates security events and determines appropriate action
+- [CC7.4](../frameworks/soc2/cc74.md) - Incident response procedures mitigate ongoing events and prevent future occurrences
+- [CC7.5](../frameworks/soc2/cc75.md) - Incident communication procedures keep stakeholders informed of security events and remediation
 
 ### GDPR
-- [Article 33](art33.md) - Incident response includes supervisory authority notification within 72 hours for personal data breaches
-- [Article 34](art34.md) - Process for notifying data subjects of breaches when high risk to their rights and freedoms
+- [Article 33](../frameworks/gdpr/art33.md) - Incident response includes supervisory authority notification within 72 hours for personal data breaches
+- [Article 34](../frameworks/gdpr/art34.md) - Process for notifying data subjects of breaches when high risk to their rights and freedoms
 
 ---
 

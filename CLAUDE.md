@@ -7,8 +7,8 @@
 **GraphGRC** is a Go-based documentation generator that creates interconnected Markdown documentation for GRC (Governance, Risk, and Compliance) programs. It maps controls across multiple compliance frameworks using the Secure Controls Framework (SCF) as a unified reference model.
 
 - **Language:** Go 1.21
-- **Repository:** https://github.com/alsmola/graphgrc/
-- **Published Site:** https://alsmola.github.io/graphgrc/
+- **Repository:** https://github.com/engseclabs/graphgrc/
+- **Published Site:** https://engseclabs.github.io/graphgrc/
 - **License:** MIT
 
 ### What Problem Does This Solve?
@@ -693,7 +693,7 @@ After code changes, verify:
 1. Commit generated Markdown files
 2. Push to GitHub
 3. GitHub Actions builds Jekyll site
-4. Site published at https://alsmola.github.io/graphgrc/
+4. Site published at https://engseclabs.github.io/graphgrc/
 
 ### Local Preview
 
@@ -823,8 +823,8 @@ When working on this codebase:
 ## Additional Resources
 
 - **SCF Official Site:** https://securecontrolsframework.com/
-- **Published GraphGRC Site:** https://alsmola.github.io/graphgrc/
-- **Source Repository:** https://github.com/alsmola/graphgrc/
+- **Published GraphGRC Site:** https://engseclabs.github.io/graphgrc/
+- **Source Repository:** https://github.com/engseclabs/graphgrc/
 - **Go Documentation:** https://go.dev/doc/
 
 ---

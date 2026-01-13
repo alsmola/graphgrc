@@ -4,7 +4,7 @@
 ## Guidance
 Organizational sanctions reflect applicable laws, executive orders, directives, regulations, policies, standards, and guidelines. Sanctions processes are described in access agreements and can be included as part of general personnel policies for organizations and/or specified in security and privacy policies. Organizations consult with the Office of the General Counsel regarding matters of employee sanctions.
 ## Mapped SCF controls
-- [HRS-07 - Personnel Sanctions](hrs-07-personnelsanctions.md)
+- [HRS-07 - Personnel Sanctions](../scf/hrs-07-personnelsanctions.md)
 
 ---
 

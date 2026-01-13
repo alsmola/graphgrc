@@ -4,13 +4,13 @@ Facility security mechanisms exist to shut off power in emergency situations by:
  - Protecting emergency power shutoff capability from unauthorized activation.
 ## Mapped framework controls
 ### ISO 27002
-- [A.7.11](a-7.md#a711)
+- [A.7.11](../iso27002/a-7.md#a711)
   
 ### NIST 800-53
-- [PE-10](pe-10.md)
+- [PE-10](../nist80053/pe-10.md)
   
 ### SOC 2
-- [A1.2](a12.md)
+- [A1.2](../soc2/a12.md)
   
 ## Control questions
 Does the organization shut off power in emergency situations by:

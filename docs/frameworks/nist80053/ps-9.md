@@ -2,7 +2,7 @@
 ## Guidance
 Specification of security and privacy roles in individual organizational position descriptions facilitates clarity in understanding the security or privacy responsibilities associated with the roles and the role-based security and privacy training requirements for the roles.
 ## Mapped SCF controls
-- [HRS-03 - Roles & Responsibilities](hrs-03-roles&responsibilities.md)
+- [HRS-03 - Roles & Responsibilities](../scf/hrs-03-roles&responsibilities.md)
 
 ---
 

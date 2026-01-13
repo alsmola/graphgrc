@@ -25,7 +25,7 @@ def clean_file(filepath):
         f.write(content)
 
 def main():
-    for filepath in glob.glob('/Users/alexsmolen/src/github.com/alsmola/graphgrc/custom/*.md'):
+    for filepath in glob.glob('/Users/alexsmolen/src/github.com/engseclabs/graphgrc/custom/*.md'):
         if filepath.endswith('/index.md'):
             continue
 

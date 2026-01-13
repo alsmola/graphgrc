@@ -2,10 +2,10 @@
 Mechanisms exist to define, document, approve and enforce access restrictions associated with changes to systems.
 ## Mapped framework controls
 ### ISO 27002
-- [A.8.19](a-8.md#a819)
+- [A.8.19](../iso27002/a-8.md#a819)
   
 ### NIST 800-53
-- [CM-5](cm-5.md)
+- [CM-5](../nist80053/cm-5.md)
   
 ## Control questions
 Does the organization define, document, approve and enforce access restrictions associated with changes to systems?

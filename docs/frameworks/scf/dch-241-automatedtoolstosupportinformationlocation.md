@@ -2,7 +2,7 @@
 Automated mechanisms exist to identify by data classification type to ensure adequate cybersecurity & data privacy controls are in place to protect organizational information and individual data privacy.
 ## Mapped framework controls
 ### NIST 800-53
-- [CM-12(1)](cm-12-1.md)
+- [CM-12(1)](../nist80053/cm-12-1.md)
   
 ## Control questions
 Does the organization use automated mechanisms to identify by data classification type to ensure adequate cybersecurity & data privacy controls are in place to protect organizational information and individual data privacy?

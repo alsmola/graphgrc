@@ -52,14 +52,14 @@ Access to systems and data is granted based on job function using role-based acc
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC6.1](cc61.md) - RBAC implements logical access controls restricting users to minimum necessary permissions
-- [CC6.2](cc62.md) - Role-based access ensures users are authorized for their specific job function before system access
-- [CC6.3](cc63.md) - Least privilege limits damage from compromised accounts and supports access removal on role change
-- [CC6.6](cc66.md) - RBAC restricts access to information assets based on user's role in the organization
+- [CC6.1](../frameworks/soc2/cc61.md) - RBAC implements logical access controls restricting users to minimum necessary permissions
+- [CC6.2](../frameworks/soc2/cc62.md) - Role-based access ensures users are authorized for their specific job function before system access
+- [CC6.3](../frameworks/soc2/cc63.md) - Least privilege limits damage from compromised accounts and supports access removal on role change
+- [CC6.6](../frameworks/soc2/cc66.md) - RBAC restricts access to information assets based on user's role in the organization
 
 ### GDPR
-- [Article 32](art32.md) - Least privilege and RBAC are technical and organizational measures ensuring security appropriate to risk
-- [Article 5](art5.md) - Limiting access to personal data to only those who need it supports data minimization principle
+- [Article 32](../frameworks/gdpr/art32.md) - Least privilege and RBAC are technical and organizational measures ensuring security appropriate to risk
+- [Article 5](../frameworks/gdpr/art5.md) - Limiting access to personal data to only those who need it supports data minimization principle
 
 ---
 

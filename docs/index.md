@@ -155,33 +155,33 @@ SOC 2 Trust Services Criteria controls with backlinks showing which custom contr
 
 | Control | Title |
 |---------|-------|
-| [CC1.1](cc11.md) | Management and board demonstrate commitment to integrity and ethical values |
-| [CC1.2](cc12.md) | Board demonstrates independence and oversight |
-| [CC1.4](cc14.md) | Management demonstrates commitment to competence |
-| [CC2.1](cc21.md) | Communication of information security responsibilities |
-| [CC2.2](cc22.md) | Internal and external communication of system objectives |
-| [CC3.1](cc31.md) | Risk identification and assessment |
-| [CC3.2](cc32.md) | Assessment of fraud risk |
-| [CC3.4](cc34.md) | Risk response and acceptance |
-| [CC6.1](cc61.md) | Logical access security software |
-| [CC6.2](cc62.md) | User registration and authorization before access |
-| [CC6.3](cc63.md) | Access removal on termination |
-| [CC6.6](cc66.md) | Access restricted to information assets |
-| [CC6.7](cc67.md) | Transmission, movement, and removal protection |
-| [CC6.8](cc68.md) | Encryption in transit and at rest |
-| [CC7.1](cc71.md) | Detection of processing errors and security issues |
-| [CC7.2](cc72.md) | Monitoring of system components |
-| [CC7.3](cc73.md) | System capacity evaluation |
-| [CC7.4](cc74.md) | System availability monitoring and incident response |
-| [CC7.5](cc75.md) | System availability protection |
-| [CC8.1](cc81.md) | Authorization and testing before implementation |
-| [CC9.1](cc91.md) | Identification and mitigation of risks from vendors |
-| [CC9.2](cc92.md) | Assessment of vendor compliance |
-| [A1.1](a11.md) | System availability and commitments |
-| [A1.2](a12.md) | System capacity meets commitments |
-| [A1.3](a13.md) | Environmental safeguards for system availability |
+| [CC1.1](frameworks/soc2/cc11.md) | Management and board demonstrate commitment to integrity and ethical values |
+| [CC1.2](frameworks/soc2/cc12.md) | Board demonstrates independence and oversight |
+| [CC1.4](frameworks/soc2/cc14.md) | Management demonstrates commitment to competence |
+| [CC2.1](frameworks/soc2/cc21.md) | Communication of information security responsibilities |
+| [CC2.2](frameworks/soc2/cc22.md) | Internal and external communication of system objectives |
+| [CC3.1](frameworks/soc2/cc31.md) | Risk identification and assessment |
+| [CC3.2](frameworks/soc2/cc32.md) | Assessment of fraud risk |
+| [CC3.4](frameworks/soc2/cc34.md) | Risk response and acceptance |
+| [CC6.1](frameworks/soc2/cc61.md) | Logical access security software |
+| [CC6.2](frameworks/soc2/cc62.md) | User registration and authorization before access |
+| [CC6.3](frameworks/soc2/cc63.md) | Access removal on termination |
+| [CC6.6](frameworks/soc2/cc66.md) | Access restricted to information assets |
+| [CC6.7](frameworks/soc2/cc67.md) | Transmission, movement, and removal protection |
+| [CC6.8](frameworks/soc2/cc68.md) | Encryption in transit and at rest |
+| [CC7.1](frameworks/soc2/cc71.md) | Detection of processing errors and security issues |
+| [CC7.2](frameworks/soc2/cc72.md) | Monitoring of system components |
+| [CC7.3](frameworks/soc2/cc73.md) | System capacity evaluation |
+| [CC7.4](frameworks/soc2/cc74.md) | System availability monitoring and incident response |
+| [CC7.5](frameworks/soc2/cc75.md) | System availability protection |
+| [CC8.1](frameworks/soc2/cc81.md) | Authorization and testing before implementation |
+| [CC9.1](frameworks/soc2/cc91.md) | Identification and mitigation of risks from vendors |
+| [CC9.2](frameworks/soc2/cc92.md) | Assessment of vendor compliance |
+| [A1.1](frameworks/soc2/a11.md) | System availability and commitments |
+| [A1.2](frameworks/soc2/a12.md) | System capacity meets commitments |
+| [A1.3](frameworks/soc2/a13.md) | Environmental safeguards for system availability |
 
-[View all SOC 2 controls →](soc2/)
+[View all SOC 2 controls →](frameworks/soc2)
 
 ### GDPR
 
@@ -189,19 +189,19 @@ GDPR articles with backlinks showing which custom controls help achieve complian
 
 | Article | Title |
 |---------|-------|
-| [Article 5](art5.md) | Principles relating to processing of personal data |
-| [Article 6](art6.md) | Lawfulness of processing |
-| [Article 15](art15.md) | Right of access by the data subject |
-| [Article 17](art17.md) | Right to erasure (right to be forgotten) |
-| [Article 20](art20.md) | Right to data portability |
-| [Article 24](art24.md) | Responsibility of the controller |
-| [Article 28](art28.md) | Processor obligations and data processing agreements |
-| [Article 30](art30.md) | Records of processing activities |
-| [Article 32](art32.md) | Security of processing |
-| [Article 33](art33.md) | Notification of a personal data breach to the supervisory authority |
-| [Article 34](art34.md) | Communication of a personal data breach to the data subject |
+| [Article 5](frameworks/gdpr/art5.md) | Principles relating to processing of personal data |
+| [Article 6](frameworks/gdpr/art6.md) | Lawfulness of processing |
+| [Article 15](frameworks/gdpr/art15.md) | Right of access by the data subject |
+| [Article 17](frameworks/gdpr/art17.md) | Right to erasure (right to be forgotten) |
+| [Article 20](frameworks/gdpr/art20.md) | Right to data portability |
+| [Article 24](frameworks/gdpr/art24.md) | Responsibility of the controller |
+| [Article 28](frameworks/gdpr/art28.md) | Processor obligations and data processing agreements |
+| [Article 30](frameworks/gdpr/art30.md) | Records of processing activities |
+| [Article 32](frameworks/gdpr/art32.md) | Security of processing |
+| [Article 33](frameworks/gdpr/art33.md) | Notification of a personal data breach to the supervisory authority |
+| [Article 34](frameworks/gdpr/art34.md) | Communication of a personal data breach to the data subject |
 
-[View all GDPR articles →](gdpr/)
+[View all GDPR articles →](frameworks/gdpr)
 
 ---
 
@@ -216,8 +216,8 @@ This documentation system uses:
 For more information:
 - [Documentation Structure Guide](STRUCTURE.md)
 - [Project README](README.md)
-- [GitHub Repository](https://github.com/alsmola/graphgrc/)
+- [GitHub Repository](https://github.com/engseclabs/graphgrc/)
 
 ---
 
-*Documentation generated with [GraphGRC](https://github.com/alsmola/graphgrc/) • Last updated: 2025-01-13*
+*Documentation generated with [GraphGRC](https://github.com/engseclabs/graphgrc/) • Last updated: 2025-01-13*

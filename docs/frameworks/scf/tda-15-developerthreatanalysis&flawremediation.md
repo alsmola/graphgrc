@@ -2,7 +2,7 @@
 Mechanisms exist to require system developers and integrators to create a Security Test and Evaluation (ST&E) plan and implement the plan under the witness of an independent party. 
 ## Mapped framework controls
 ### SOC 2
-- [CC4.2](cc42.md)
+- [CC4.2](../soc2/cc42.md)
   
 ## Control questions
 Does the organization require system developers and integrators to create a Security Test and Evaluation (ST&E) plan and implement the plan under the witness of an independent party? 

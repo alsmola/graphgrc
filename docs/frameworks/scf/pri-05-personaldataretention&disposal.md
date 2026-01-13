@@ -5,23 +5,23 @@ Mechanisms exist to:
  - Use organization-defined techniques or methods to ensure secure deletion or destruction of PD (including originals, copies and archived records).
 ## Mapped framework controls
 ### GDPR
-- [Art 18.1](art18.md#Article-181)
-- [Art 18.2](art18.md#Article-182)
-- [Art 21.1](art21.md#Article-211)
-- [Art 21.2](art21.md#Article-212)
-- [Art 21.3](art21.md#Article-213)
-- [Art 5.1](art5.md#Article-51)
+- [Art 18.1](../gdpr/art18.md#Article-181)
+- [Art 18.2](../gdpr/art18.md#Article-182)
+- [Art 21.1](../gdpr/art21.md#Article-211)
+- [Art 21.2](../gdpr/art21.md#Article-212)
+- [Art 21.3](../gdpr/art21.md#Article-213)
+- [Art 5.1](../gdpr/art5.md#Article-51)
   
 ### ISO 27002
-- [A.5.33](a-5.md#a533)
-- [A.8.10](a-8.md#a810)
+- [A.5.33](../iso27002/a-5.md#a533)
+- [A.8.10](../iso27002/a-8.md#a810)
   
 ### NIST 800-53
-- [SI-12](si-12.md)
+- [SI-12](../nist80053/si-12.md)
   
 ### SOC 2
 - [C1.2](c12.md)
-- [CC6.5](cc65.md)
+- [CC6.5](../soc2/cc65.md)
 - [P4.0](../soc2/p40.md)
 - [P4.2](p42.md)
 - [P4.3](p43.md)

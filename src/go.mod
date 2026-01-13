@@ -1,4 +1,4 @@
-module github.com/alsmola/graphgrc
+module github.com/engseclabs/graphgrc
 
 go 1.24.0
 

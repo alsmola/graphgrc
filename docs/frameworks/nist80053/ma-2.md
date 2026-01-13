@@ -8,7 +8,7 @@
 ## Guidance
 Controlling system maintenance addresses the information security aspects of the system maintenance program and applies to all types of maintenance to system components conducted by local or nonlocal entities. Maintenance includes peripherals such as scanners, copiers, and printers. Information necessary for creating effective maintenance records includes the date and time of maintenance, a description of the maintenance performed, names of the individuals or group performing the maintenance, name of the escort, and system components or equipment that are removed or replaced. Organizations consider supply chain-related risks associated with replacement components for systems.
 ## Mapped SCF controls
-- [MNT-02 - Controlled Maintenance](mnt-02-controlledmaintenance.md)
+- [MNT-02 - Controlled Maintenance](../scf/mnt-02-controlledmaintenance.md)
 
 ---
 

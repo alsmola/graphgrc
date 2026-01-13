@@ -5,7 +5,7 @@ Mechanisms exist to:
  - Utilize publicly facing email addresses and/or phone lines to enable the public to provide feedback and/or direct questions to data privacy office(s) regarding data privacy practices.
 ## Mapped framework controls
 ### ISO 27002
-- [A.5.1](a-5.md#a51)
+- [A.5.1](../iso27002/a-5.md#a51)
   
 ### SOC 2
 - [P1.1](p11.md)

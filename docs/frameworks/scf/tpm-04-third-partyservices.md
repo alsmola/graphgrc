@@ -2,14 +2,14 @@
 Mechanisms exist to mitigate the risks associated with third-party access to the organization’s systems and data.
 ## Mapped framework controls
 ### ISO 27002
-- [A.5.19](a-5.md#a519)
-- [A.8.30](a-8.md#a830)
+- [A.5.19](../iso27002/a-5.md#a519)
+- [A.8.30](../iso27002/a-8.md#a830)
   
 ### NIST 800-53
-- [SA-9](sa-9.md)
+- [SA-9](../nist80053/sa-9.md)
   
 ### SOC 2
-- [CC3.3](cc33.md)
+- [CC3.3](../soc2/cc33.md)
   
 ## Control questions
 Does the organization mitigate the risks associated with third-party access to the organization’s systems and data?

@@ -6,7 +6,7 @@
 ## Guidance
 System use notifications can be implemented using messages or warning banners displayed before individuals log in to systems. System use notifications are used only for access via logon interfaces with human users. Notifications are not required when human interfaces do not exist. Based on an assessment of risk, organizations consider whether or not a secondary system use notification is needed to access applications or other system resources after the initial network logon. Organizations consider system use notification messages or banners displayed in multiple languages based on organizational needs and the demographics of system users. Organizations consult with the privacy office for input regarding privacy messaging and the Office of the General Counsel or organizational equivalent for legal review and approval of warning banner content.
 ## Mapped SCF controls
-- [SEA-18 - System Use Notification (Logon Banner)](sea-18-systemusenotificationlogonbanner.md)
+- [SEA-18 - System Use Notification (Logon Banner)](../scf/sea-18-systemusenotificationlogonbanner.md)
 
 ---
 

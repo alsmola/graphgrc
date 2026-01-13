@@ -41,7 +41,7 @@ def fix_control_file(filepath):
 
 def main():
     count = 0
-    for filepath in glob.glob('/Users/alexsmolen/src/github.com/alsmola/graphgrc/custom/*.md'):
+    for filepath in glob.glob('/Users/alexsmolen/src/github.com/engseclabs/graphgrc/custom/*.md'):
         if filepath.endswith('/index.md'):
             continue
 

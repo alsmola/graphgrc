@@ -52,11 +52,11 @@ Operating systems and applications are kept up to date with security patches. Cr
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC7.1](cc71.md) - Timely patching detects and mitigates processing errors and security vulnerabilities
-- [CC8.1](cc81.md) - Patch management process implements changes to mitigate vulnerabilities within defined SLAs
+- [CC7.1](../frameworks/soc2/cc71.md) - Timely patching detects and mitigates processing errors and security vulnerabilities
+- [CC8.1](../frameworks/soc2/cc81.md) - Patch management process implements changes to mitigate vulnerabilities within defined SLAs
 
 ### GDPR
-- [Article 32](art32.md) - Regular security updates and patch management ensure ongoing security of processing systems
+- [Article 32](../frameworks/gdpr/art32.md) - Regular security updates and patch management ensure ongoing security of processing systems
 
 ---
 

@@ -4,7 +4,7 @@
 ## Guidance
 Personnel screening and rescreening activities reflect applicable laws, executive orders, directives, regulations, policies, standards, guidelines, and specific criteria established for the risk designations of assigned positions. Examples of personnel screening include background investigations and agency checks. Organizations may define different rescreening conditions and frequencies for personnel accessing systems based on types of information processed, stored, or transmitted by the systems.
 ## Mapped SCF controls
-- [HRS-04 - Personnel Screening](hrs-04-personnelscreening.md)
+- [HRS-04 - Personnel Screening](../scf/hrs-04-personnelscreening.md)
 
 ---
 

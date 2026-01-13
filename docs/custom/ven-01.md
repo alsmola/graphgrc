@@ -52,10 +52,10 @@ Vendors with access to systems or data undergo security assessment. High-risk ve
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC9.2](cc92.md) - Vendor risk assessment evaluates subservice organizations' controls relevant to security objectives
+- [CC9.2](../frameworks/soc2/cc92.md) - Vendor risk assessment evaluates subservice organizations' controls relevant to security objectives
 
 ### GDPR
-- [Article 28](art28.md) - Vendor assessment ensures processors provide sufficient guarantees of appropriate technical and organizational measures
+- [Article 28](../frameworks/gdpr/art28.md) - Vendor assessment ensures processors provide sufficient guarantees of appropriate technical and organizational measures
 
 ---
 

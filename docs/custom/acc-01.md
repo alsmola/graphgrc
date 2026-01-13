@@ -49,13 +49,13 @@ All access to systems requires authentication using WebAuthn/passkeys or SSO wit
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC6.1](cc61.md) - Strong authentication (MFA, WebAuthn) implements logical access security software to protect information assets
-- [CC6.2](cc62.md) - SSO with MFA ensures users are registered and authorized before system access is granted
-- [CC6.3](cc63.md) - Access removal on termination enforced through centralized SSO deprovisioning
+- [CC6.1](../frameworks/soc2/cc61.md) - Strong authentication (MFA, WebAuthn) implements logical access security software to protect information assets
+- [CC6.2](../frameworks/soc2/cc62.md) - SSO with MFA ensures users are registered and authorized before system access is granted
+- [CC6.3](../frameworks/soc2/cc63.md) - Access removal on termination enforced through centralized SSO deprovisioning
 
 ### GDPR
-- [Article 32](art32.md) - Multi-factor authentication and phishing-resistant methods are technical measures to ensure security of processing
-- [Article 5](art5.md) - User authentication supports accountability principle by ensuring accurate attribution of data processing actions
+- [Article 32](../frameworks/gdpr/art32.md) - Multi-factor authentication and phishing-resistant methods are technical measures to ensure security of processing
+- [Article 5](../frameworks/gdpr/art5.md) - User authentication supports accountability principle by ensuring accurate attribution of data processing actions
 
 ---
 

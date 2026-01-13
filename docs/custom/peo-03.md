@@ -52,10 +52,10 @@ Access is revoked immediately upon termination. Company property is returned. Ex
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC6.3](cc63.md) - Immediate access revocation upon termination prevents unauthorized access by former employees
+- [CC6.3](../frameworks/soc2/cc63.md) - Immediate access revocation upon termination prevents unauthorized access by former employees
 
 ### GDPR
-- [Article 32](art32.md) - Offboarding procedures ensure terminated employees can no longer access personal data
+- [Article 32](../frameworks/gdpr/art32.md) - Offboarding procedures ensure terminated employees can no longer access personal data
 
 ---
 

@@ -6,14 +6,14 @@ Mechanisms exist to establish contact with selected groups and associations with
 
 ## Mapped framework controls
 ### GDPR
-- [Art 40.2](art40.md#Article-402)
+- [Art 40.2](../gdpr/art40.md#Article-402)
 - [Art 41.1](../gdpr/art41.md#Article-411)
-- [Art 42.2](art42.md#Article-422)
-- [Art 42.3](art42.md#Article-423)
+- [Art 42.2](../gdpr/art42.md#Article-422)
+- [Art 42.3](../gdpr/art42.md#Article-423)
 - [Art 43.2](../gdpr/art43.md#Article-432)
   
 ### ISO 27002
-- [A.5.6](a-5.md#a56)
+- [A.5.6](../iso27002/a-5.md#a56)
   
 ## Control questions
 Does the organization establish contact with selected groups and associations within the cybersecurity & data privacy communities to: 
