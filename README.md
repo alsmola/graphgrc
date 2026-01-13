@@ -21,12 +21,12 @@ Standards, Processes, Policies, Charter
 
 ## Published Documentation
 
-Browse the live example at **[engseclabs.github.io/graphgrc/](https://engseclabs.github.io/graphgrc/)**
+Browse the live documentation at **[engseclabs.com/graphgrc/docs/](https://engseclabs.com/graphgrc/docs/)**
 
 The published site includes:
-- [**24 Custom Controls**](https://engseclabs.github.io/graphgrc/custom/) - Organized by security domain with implementation guidance
-- [**SOC 2 Mappings**](https://engseclabs.github.io/graphgrc/soc2/) - Each requirement linked to relevant controls
-- [**GDPR Mappings**](https://engseclabs.github.io/graphgrc/gdpr/) - Each article linked to relevant controls
+- [**24 Custom Controls**](https://engseclabs.com/graphgrc/custom/) - Organized by security domain with implementation guidance
+- [**SOC 2 Mappings**](https://engseclabs.com/graphgrc/soc2/) - Each requirement linked to relevant controls
+- [**GDPR Mappings**](https://engseclabs.com/graphgrc/gdpr/) - Each article linked to relevant controls
 
 **Organization profile:** AWS SaaS, no physical datacenters, ~100 people, macOS endpoints, modern security practices (WebAuthn, full disk encryption, cloud-native)
 
