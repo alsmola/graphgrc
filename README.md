@@ -6,6 +6,14 @@ GraphGRC is data-driven documentation for a GRC program.
 
 A practical, minimal control framework (24 controls) tailored for modern AWS SaaS organizations. Focuses on risk-reducing behaviors over checkbox compliance, with bidirectional mappings to SOC 2 and GDPR requirements.
 
+```
+Framework Controls (SOC 2, GDPR, ISO 27001, etc.)
+    ↓ map to
+Custom Controls (ACC-01, DAT-01, etc.)
+    ↓ implement via
+Standards, Processes, Policies, Charter
+```
+
 **Key features:**
 - **Semantic:** GRC requirements (SOC 2, GDPR) parsed, structured, and rendered as navigable Markdown
 - **Linked:** Bidirectional mappings show how controls satisfy multiple framework requirements

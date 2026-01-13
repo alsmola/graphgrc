@@ -1,2 +1,6 @@
 .obsidian
 graphgrc
+bin/add-backlink-sections
+bin/generate-backlinks
+data/*.json
+data/scf.xlsx
