@@ -5,3 +5,10 @@ bin/generate-backlinks
 bin/validate-links
 data/*.json
 data/scf.xlsx
+
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.*
+terraform/*.tfvars
