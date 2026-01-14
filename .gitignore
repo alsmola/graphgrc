@@ -2,5 +2,6 @@
 graphgrc
 bin/add-backlink-sections
 bin/generate-backlinks
+bin/validate-links
 data/*.json
 data/scf.xlsx
