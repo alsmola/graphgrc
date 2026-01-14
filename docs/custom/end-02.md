@@ -52,11 +52,11 @@ All endpoints run antivirus/anti-malware software. Full disk encryption is enabl
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC6.8](../frameworks/soc2/cc68.md) - EDR and antivirus protect endpoints from malicious software and unauthorized modifications
-- [CC7.2](../frameworks/soc2/cc72.md) - EDR continuously monitors endpoints for anomalies indicative of malicious acts
+- [CC6.8](../frameworks/soc2/cc68.md) ^[EDR and antivirus protect endpoints from malicious software and unauthorized modifications]
+- [CC7.2](../frameworks/soc2/cc72.md) ^[EDR continuously monitors endpoints for anomalies indicative of malicious acts]
 
 ### GDPR
-- [Article 32](../frameworks/gdpr/art32.md) - Endpoint protection (EDR, antivirus, encryption, USB restrictions) are technical measures ensuring security of processing
+- [Article 32](../frameworks/gdpr/art32.md) ^[Endpoint protection (EDR, antivirus, encryption, USB restrictions) are technical measures ensuring security of processing]
 
 ---
 

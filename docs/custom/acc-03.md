@@ -52,12 +52,12 @@ User access rights are reviewed quarterly. Terminated employees have access revo
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC6.3](../frameworks/soc2/cc63.md) - Reviews ensure terminated employees and contractors no longer have access to systems
-- [CC6.1](../frameworks/soc2/cc61.md) - Access reviews verify that logical access controls are functioning as intended
+- [CC6.3](../frameworks/soc2/cc63.md) ^[Reviews ensure terminated employees and contractors no longer have access to systems]
+- [CC6.1](../frameworks/soc2/cc61.md) ^[Access reviews verify that logical access controls are functioning as intended]
 
 ### GDPR
-- [Article 32](../frameworks/gdpr/art32.md) - Periodic access reviews are an organizational measure to ensure security of processing
-- [Article 5](../frameworks/gdpr/art5.md) - Access reviews support data minimization principle by removing unnecessary access
+- [Article 32](../frameworks/gdpr/art32.md) ^[Periodic access reviews are an organizational measure to ensure security of processing]
+- [Article 5](../frameworks/gdpr/art5.md) ^[Access reviews support data minimization principle by removing unnecessary access]
 
 ---
 

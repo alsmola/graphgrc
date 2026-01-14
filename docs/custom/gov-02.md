@@ -52,12 +52,12 @@ Security risk assessments are conducted annually. Risks are identified, evaluate
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC3.1](../frameworks/soc2/cc31.md) - Risk assessment process identifies risks to achieving security objectives
-- [CC3.2](../frameworks/soc2/cc32.md) - Risk assessment considers internal and external factors and their impact on security
-- [CC3.4](../frameworks/soc2/cc34.md) - Risk assessment considers potential for fraud in evaluating security risks
+- [CC3.1](../frameworks/soc2/cc31.md) ^[Risk assessment process identifies risks to achieving security objectives]
+- [CC3.2](../frameworks/soc2/cc32.md) ^[Risk assessment considers internal and external factors and their impact on security]
+- [CC3.4](../frameworks/soc2/cc34.md) ^[Risk assessment considers potential for fraud in evaluating security risks]
 
 ### GDPR
-- [Article 32](../frameworks/gdpr/art32.md) - Risk assessment determines appropriate technical and organizational measures based on risk level
+- [Article 32](../frameworks/gdpr/art32.md) ^[Risk assessment determines appropriate technical and organizational measures based on risk level]
 
 ---
 

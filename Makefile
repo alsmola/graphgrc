@@ -1,17 +1,18 @@
-.PHONY: help validate-links fix-links build-validator build-fixer clean test
+.PHONY: help validate-links fix-links build-validator build-fixer clean test convert-framework-mappings
 
 # Default target
 help:
 	@echo "GraphGRC Makefile"
 	@echo ""
 	@echo "Available targets:"
-	@echo "  validate-links    - Validate all markdown links in docs/"
-	@echo "  fix-links         - Automatically fix broken markdown links"
-	@echo "  build-validator   - Build the link validator binary"
-	@echo "  build-fixer       - Build the link fixer binary"
-	@echo "  clean            - Remove build artifacts"
-	@echo "  test             - Run all tests"
-	@echo "  generate         - Generate all documentation"
+	@echo "  validate-links              - Validate all markdown links in docs/"
+	@echo "  fix-links                   - Automatically fix broken markdown links"
+	@echo "  build-validator             - Build the link validator binary"
+	@echo "  build-fixer                 - Build the link fixer binary"
+	@echo "  convert-framework-mappings  - Convert framework mappings from bullet to annotation format"
+	@echo "  clean                       - Remove build artifacts"
+	@echo "  test                        - Run all tests"
+	@echo "  generate                    - Generate all documentation"
 
 # Validate all markdown links
 validate-links: build-validator
@@ -49,3 +50,11 @@ test:
 generate:
 	@cd src && go run main.go
 	@echo "✓ Documentation generated"
+
+# Convert framework mappings from bullet to annotation format
+convert-framework-mappings:
+	@mkdir -p bin
+	@cd src/cmd/convert-framework-mappings && go build -o ../../../bin/convert-framework-mappings .
+	@echo "✓ Converter built: bin/convert-framework-mappings"
+	@./bin/convert-framework-mappings
+	@echo "✓ Framework mappings converted"

@@ -52,10 +52,10 @@ Changes to production systems follow a defined process. Changes are reviewed, te
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC8.1](../frameworks/soc2/cc81.md) - Change management process implements changes with review, testing, and approval to mitigate processing integrity risks
+- [CC8.1](../frameworks/soc2/cc81.md) ^[Change management process implements changes with review, testing, and approval to mitigate processing integrity risks]
 
 ### GDPR
-- [Article 32](../frameworks/gdpr/art32.md) - Controlled change management ensures ongoing security and prevents unauthorized changes affecting personal data processing
+- [Article 32](../frameworks/gdpr/art32.md) ^[Controlled change management ensures ongoing security and prevents unauthorized changes affecting personal data processing]
 
 ---
 

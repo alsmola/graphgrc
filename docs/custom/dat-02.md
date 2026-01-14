@@ -52,12 +52,12 @@ All data is encrypted in transit using TLS 1.2+. Sensitive data is encrypted at 
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC6.1](../frameworks/soc2/cc61.md) - Encryption at rest and in transit protects information assets from unauthorized access during storage and transmission
-- [CC6.7](../frameworks/soc2/cc67.md) - TLS encryption restricts and protects transmission, movement, and removal of information
+- [CC6.1](../frameworks/soc2/cc61.md) ^[Encryption at rest and in transit protects information assets from unauthorized access during storage and transmission]
+- [CC6.7](../frameworks/soc2/cc67.md) ^[TLS encryption restricts and protects transmission, movement, and removal of information]
 
 ### GDPR
-- [Article 32](../frameworks/gdpr/art32.md) - Encryption of personal data is explicitly listed as an appropriate technical measure to ensure security of processing
-- [Article 34](../frameworks/gdpr/art34.md) - Encryption can reduce breach notification requirements - encrypted data may not require notification to data subjects
+- [Article 32](../frameworks/gdpr/art32.md) ^[Encryption of personal data is explicitly listed as an appropriate technical measure to ensure security of processing]
+- [Article 34](../frameworks/gdpr/art34.md) ^[Encryption can reduce breach notification requirements - encrypted data may not require notification to data subjects]
 
 ---
 

@@ -52,11 +52,11 @@ Security events and system activities are logged centrally. Logs are monitored f
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC7.2](../frameworks/soc2/cc72.md) - Centralized logging and monitoring detect anomalies indicative of malicious acts, natural disasters, or errors
-- [CC7.3](../frameworks/soc2/cc73.md) - Log analysis and alerting enable evaluation of security events and timely response
+- [CC7.2](../frameworks/soc2/cc72.md) ^[Centralized logging and monitoring detect anomalies indicative of malicious acts, natural disasters, or errors]
+- [CC7.3](../frameworks/soc2/cc73.md) ^[Log analysis and alerting enable evaluation of security events and timely response]
 
 ### GDPR
-- [Article 32](../frameworks/gdpr/art32.md) - Logging and monitoring enable detection of, and ability to respond to, security incidents affecting personal data
+- [Article 32](../frameworks/gdpr/art32.md) ^[Logging and monitoring enable detection of, and ability to respond to, security incidents affecting personal data]
 
 ---
 

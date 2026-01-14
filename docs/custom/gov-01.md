@@ -52,13 +52,13 @@ Security policies are documented, approved by leadership, and communicated to em
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC1.1](../frameworks/soc2/cc11.md) - Security policies demonstrate commitment to integrity and ethical values in governing security practices
-- [CC1.2](../frameworks/soc2/cc12.md) - Board and leadership oversight of policies demonstrates independence and accountability
-- [CC2.1](../frameworks/soc2/cc21.md) - Written policies communicate security responsibilities to personnel and establish accountability
+- [CC1.1](../frameworks/soc2/cc11.md) ^[Security policies demonstrate commitment to integrity and ethical values in governing security practices]
+- [CC1.2](../frameworks/soc2/cc12.md) ^[Board and leadership oversight of policies demonstrates independence and accountability]
+- [CC2.1](../frameworks/soc2/cc21.md) ^[Written policies communicate security responsibilities to personnel and establish accountability]
 
 ### GDPR
-- [Article 24](../frameworks/gdpr/art24.md) - Documented security policies are organizational measures demonstrating accountability for GDPR compliance
-- [Article 32](../frameworks/gdpr/art32.md) - Policy framework ensures implementation and maintenance of appropriate technical and organizational security measures
+- [Article 24](../frameworks/gdpr/art24.md) ^[Documented security policies are organizational measures demonstrating accountability for GDPR compliance]
+- [Article 32](../frameworks/gdpr/art32.md) ^[Policy framework ensures implementation and maintenance of appropriate technical and organizational security measures]
 
 ---
 

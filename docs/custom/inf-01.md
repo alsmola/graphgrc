@@ -52,11 +52,11 @@ AWS infrastructure follows security best practices. Security Groups, NACLs, and 
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC6.6](../frameworks/soc2/cc66.md) - Secure cloud configurations restrict access to infrastructure based on network location and security controls
-- [CC7.2](../frameworks/soc2/cc72.md) - AWS Config monitoring detects misconfigurations that could indicate security issues
+- [CC6.6](../frameworks/soc2/cc66.md) ^[Secure cloud configurations restrict access to infrastructure based on network location and security controls]
+- [CC7.2](../frameworks/soc2/cc72.md) ^[AWS Config monitoring detects misconfigurations that could indicate security issues]
 
 ### GDPR
-- [Article 32](../frameworks/gdpr/art32.md) - Secure cloud infrastructure configuration (VPCs, Security Groups, IAM) are technical measures ensuring security of processing
+- [Article 32](../frameworks/gdpr/art32.md) ^[Secure cloud infrastructure configuration (VPCs, Security Groups, IAM) are technical measures ensuring security of processing]
 
 ---
 

@@ -52,13 +52,13 @@ Administrative and privileged access is tightly controlled, monitored, and audit
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC6.2](../frameworks/soc2/cc62.md) - Tightly controlling privileged access ensures only authorized users can perform administrative functions
-- [CC6.8](../frameworks/soc2/cc68.md) - Restricting privileged access and session recording supports detection and investigation of unauthorized actions
-- [CC7.2](../frameworks/soc2/cc72.md) - Monitoring and alerting on privileged account usage detects anomalies indicative of malicious acts
+- [CC6.2](../frameworks/soc2/cc62.md) ^[Tightly controlling privileged access ensures only authorized users can perform administrative functions]
+- [CC6.8](../frameworks/soc2/cc68.md) ^[Restricting privileged access and session recording supports detection and investigation of unauthorized actions]
+- [CC7.2](../frameworks/soc2/cc72.md) ^[Monitoring and alerting on privileged account usage detects anomalies indicative of malicious acts]
 
 ### GDPR
-- [Article 32](../frameworks/gdpr/art32.md) - Enhanced controls on privileged access (MFA, monitoring, break-glass procedures) ensure security appropriate to high risk
-- [Article 5](../frameworks/gdpr/art5.md) - Limiting and auditing privileged access supports accountability principle for data processing
+- [Article 32](../frameworks/gdpr/art32.md) ^[Enhanced controls on privileged access (MFA, monitoring, break-glass procedures) ensure security appropriate to high risk]
+- [Article 5](../frameworks/gdpr/art5.md) ^[Limiting and auditing privileged access supports accountability principle for data processing]
 
 ---
 

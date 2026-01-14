@@ -52,12 +52,12 @@ All data is classified as Public, Internal, Confidential, or Restricted. Handlin
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC6.6](../frameworks/soc2/cc66.md) - Data classification enables restricting access based on sensitivity (Public, Internal, Confidential, Restricted)
-- [CC6.7](../frameworks/soc2/cc67.md) - Classification drives appropriate controls for transmission, movement, and removal of information
+- [CC6.6](../frameworks/soc2/cc66.md) ^[Data classification enables restricting access based on sensitivity (Public, Internal, Confidential, Restricted)]
+- [CC6.7](../frameworks/soc2/cc67.md) ^[Classification drives appropriate controls for transmission, movement, and removal of information]
 
 ### GDPR
-- [Article 32](../frameworks/gdpr/art32.md) - Data classification is an organizational measure enabling appropriate security based on risk and data sensitivity
-- [Article 5](../frameworks/gdpr/art5.md) - Classification supports data minimization and purpose limitation principles
+- [Article 32](../frameworks/gdpr/art32.md) ^[Data classification is an organizational measure enabling appropriate security based on risk and data sensitivity]
+- [Article 5](../frameworks/gdpr/art5.md) ^[Classification supports data minimization and purpose limitation principles]
 
 ---
 

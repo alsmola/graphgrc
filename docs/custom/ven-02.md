@@ -52,10 +52,10 @@ Vendor contracts include security, privacy, and compliance requirements. Data Pr
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC9.2](../frameworks/soc2/cc92.md) - Vendor contracts establish security and privacy obligations for subservice organizations
+- [CC9.2](../frameworks/soc2/cc92.md) ^[Vendor contracts establish security and privacy obligations for subservice organizations]
 
 ### GDPR
-- [Article 28](../frameworks/gdpr/art28.md) - Data Processing Agreements (DPAs) are required contracts between controller and processor defining data processing obligations
+- [Article 28](../frameworks/gdpr/art28.md) ^[Data Processing Agreements (DPAs) are required contracts between controller and processor defining data processing obligations]
 
 ---
 

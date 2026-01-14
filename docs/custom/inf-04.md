@@ -52,11 +52,11 @@ Critical systems and data are backed up regularly. Backups are encrypted and tes
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [A1.2](../frameworks/soc2/a12.md) - Regular backups and disaster recovery procedures ensure availability commitments are met
-- [CC9.1](../frameworks/soc2/cc91.md) - Business continuity planning includes backup and recovery capabilities for critical systems
+- [A1.2](../frameworks/soc2/a12.md) ^[Regular backups and disaster recovery procedures ensure availability commitments are met]
+- [CC9.1](../frameworks/soc2/cc91.md) ^[Business continuity planning includes backup and recovery capabilities for critical systems]
 
 ### GDPR
-- [Article 32](../frameworks/gdpr/art32.md) - Backup and recovery capabilities ensure resilience and ability to restore availability and access to data after incident
+- [Article 32](../frameworks/gdpr/art32.md) ^[Backup and recovery capabilities ensure resilience and ability to restore availability and access to data after incident]
 
 ---
 

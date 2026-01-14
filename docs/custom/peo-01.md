@@ -52,10 +52,10 @@ Background checks are conducted on all employees before hire. Checks are appropr
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC1.4](../frameworks/soc2/cc14.md) - Pre-employment screening demonstrates commitment to hiring personnel with appropriate competence and integrity
+- [CC1.4](../frameworks/soc2/cc14.md) ^[Pre-employment screening demonstrates commitment to hiring personnel with appropriate competence and integrity]
 
 ### GDPR
-- [Article 32](../frameworks/gdpr/art32.md) - Background checks are organizational measures ensuring trustworthy personnel handle personal data
+- [Article 32](../frameworks/gdpr/art32.md) ^[Background checks are organizational measures ensuring trustworthy personnel handle personal data]
 
 ---
 

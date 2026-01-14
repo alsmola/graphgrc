@@ -52,12 +52,12 @@ Business continuity and disaster recovery plans are documented and tested. Criti
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [A1.1](../frameworks/soc2/a11.md) - Business continuity planning ensures availability commitments can be met during disruptions
-- [A1.2](../frameworks/soc2/a12.md) - Backup and recovery procedures support continuity of operations
-- [A1.3](../frameworks/soc2/a13.md) - BC/DR testing validates that procedures work and availability targets can be achieved
+- [A1.1](../frameworks/soc2/a11.md) ^[Business continuity planning ensures availability commitments can be met during disruptions]
+- [A1.2](../frameworks/soc2/a12.md) ^[Backup and recovery procedures support continuity of operations]
+- [A1.3](../frameworks/soc2/a13.md) ^[BC/DR testing validates that procedures work and availability targets can be achieved]
 
 ### GDPR
-- [Article 32](../frameworks/gdpr/art32.md) - Business continuity and disaster recovery ensure resilience and ability to restore availability of personal data
+- [Article 32](../frameworks/gdpr/art32.md) ^[Business continuity and disaster recovery ensure resilience and ability to restore availability of personal data]
 
 ---
 

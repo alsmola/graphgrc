@@ -52,12 +52,12 @@ All employee devices are managed through MDM. Security policies are enforced inc
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC6.6](../frameworks/soc2/cc66.md) - MDM enforces security policies restricting device configuration and ensuring compliance
-- [CC6.7](../frameworks/soc2/cc67.md) - MDM remote wipe restricts removal of information on lost/stolen devices
-- [CC7.2](../frameworks/soc2/cc72.md) - MDM monitoring detects non-compliant devices that could indicate security issues
+- [CC6.6](../frameworks/soc2/cc66.md) ^[MDM enforces security policies restricting device configuration and ensuring compliance]
+- [CC6.7](../frameworks/soc2/cc67.md) ^[MDM remote wipe restricts removal of information on lost/stolen devices]
+- [CC7.2](../frameworks/soc2/cc72.md) ^[MDM monitoring detects non-compliant devices that could indicate security issues]
 
 ### GDPR
-- [Article 32](../frameworks/gdpr/art32.md) - MDM enforcement of encryption, screen locks, and updates are technical measures ensuring security of processing
+- [Article 32](../frameworks/gdpr/art32.md) ^[MDM enforcement of encryption, screen locks, and updates are technical measures ensuring security of processing]
 
 ---
 

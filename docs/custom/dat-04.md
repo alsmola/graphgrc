@@ -52,17 +52,17 @@ Customer data is processed according to GDPR requirements. Privacy rights are re
 <!-- This section is used to generate backlinks from framework controls to this custom control. Do not remove. -->
 
 ### SOC 2
-- [CC6.6](../frameworks/soc2/cc66.md) - Privacy controls restrict access to personal data based on user role and data sensitivity
-- [CC6.7](../frameworks/soc2/cc67.md) - DPAs and privacy controls restrict transmission and movement of customer information to authorized parties
+- [CC6.6](../frameworks/soc2/cc66.md) ^[Privacy controls restrict access to personal data based on user role and data sensitivity]
+- [CC6.7](../frameworks/soc2/cc67.md) ^[DPAs and privacy controls restrict transmission and movement of customer information to authorized parties]
 
 ### GDPR
-- [Article 5](../frameworks/gdpr/art5.md) - Data processing principles implemented: lawfulness, fairness, transparency, purpose limitation, data minimization
-- [Article 6](../frameworks/gdpr/art6.md) - Legal basis for processing documented (contract, consent, legitimate interest)
-- [Article 15](../frameworks/gdpr/art15.md) - Data subject right of access - customers can access their data via account settings or request
-- [Article 17](../frameworks/gdpr/art17.md) - Right to erasure implemented via customer deletion request process
-- [Article 20](../frameworks/gdpr/art20.md) - Right to data portability - customers can download all their data
-- [Article 28](../frameworks/gdpr/art28.md) - Data Processing Agreements (DPAs) in place with all vendors processing customer data
-- [Article 32](../frameworks/gdpr/art32.md) - Technical and organizational measures ensure security of processing throughout data lifecycle
+- [Article 5](../frameworks/gdpr/art5.md) ^[Data processing principles implemented: lawfulness, fairness, transparency, purpose limitation, data minimization]
+- [Article 6](../frameworks/gdpr/art6.md) ^[Legal basis for processing documented (contract, consent, legitimate interest)]
+- [Article 15](../frameworks/gdpr/art15.md) ^[Data subject right of access - customers can access their data via account settings or request]
+- [Article 17](../frameworks/gdpr/art17.md) ^[Right to erasure implemented via customer deletion request process]
+- [Article 20](../frameworks/gdpr/art20.md) ^[Right to data portability - customers can download all their data]
+- [Article 28](../frameworks/gdpr/art28.md) ^[Data Processing Agreements (DPAs) in place with all vendors processing customer data]
+- [Article 32](../frameworks/gdpr/art32.md) ^[Technical and organizational measures ensure security of processing throughout data lifecycle]
 
 ---
 
