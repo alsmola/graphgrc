@@ -9,89 +9,78 @@ audience: leadership
 
 # Risk Management
 
-Framework for identifying, assessing, and managing information security and privacy risks.
-
-## Purpose
-
-Define risk appetite, assessment methodology, and decision-making processes.
+Framework for identifying, assessing, and managing information security and privacy risks. Enables business objectives through calculated risk-taking with clear ownership, decision authority, and accountability.
 
 ## Philosophy
 
-**Risk-Informed**: Enable business with calculated risks, balance security with usability
+**Risk-Informed**: Balance security with usability. Accept calculated risks to enable business velocity. Document all decisions with clear rationale and ownership.
 
-**Continuous**: Integrated into daily operations, monitor evolving threats, reassess when environment changes
+**Continuous**: Risk management integrated into daily operations. [Organizational risk assessments](../processes/organizational-risk-assessment.md) run annually. Reassess when environment changes (new systems, threats, incidents).
 
-**Shared Responsibility**: Security owns framework, everyone manages risk
+**Shared Responsibility**: [Security Team](../policies/security-team.md) owns framework and methodology. Everyone identifies and manages risks in their domain. Engineering owns technical risks, HR owns people risks, etc.
 
-## Risk Appetite: Moderate
+## Risk Appetite
 
-- **Low tolerance**: Customer data confidentiality, privacy violations
-- **Moderate tolerance**: Availability risks, emerging technology risks
-- **High tolerance**: Internal operational risks
+**Overall**: Moderate risk appetite. Prioritize protecting customer trust while enabling rapid innovation.
 
-## Risk Thresholds
+**Low tolerance**: Customer data confidentiality breaches, privacy violations (GDPR, data subject rights), compliance failures (SOC 2, contractual obligations).
 
-- **Critical**: Unacceptable - remediate immediately or escalate
-- **High**: Executive approval required with compensating controls
-- **Medium**: Acceptable with mitigation plan and timeline
-- **Low**: Acceptable, track and reassess periodically
+**Moderate tolerance**: Availability risks with recovery plans, emerging technology adoption risks, controlled technical debt.
 
-## Risk Scoring
+**High tolerance**: Internal operational inefficiencies, non-customer-facing system downtime, experimental feature risks.
 
-**Likelihood**: Low (1) < 10%, Medium (2) 10-50%, High (3) > 50%
+## Risk Identification
 
-**Impact**: Low (1) < $10k, Medium (2) $10k-$100k, High (3) > $100k
+**Proactive assessments** triggered by:
 
-**Risk Score = Likelihood × Impact**
+- New project/product initiative: [Security design review](../processes/security-design-review.md) before development starts
+- New vendor/third party: [Vendor risk review](../processes/vendor-risk-review.md) before contract signature
+- Annual comprehensive review: [Organizational risk assessment](../processes/organizational-risk-assessment.md)
 
-| Score | Level | Response |
-|-------|-------|----------|
-| 1-2 | Low | Accept or mitigate opportunistically |
-| 3-4 | Medium | Mitigate within 90 days |
-| 6 | High | Mitigate within 30 days |
-| 9 | Critical | Mitigate within 7 days |
+**Reactive assessments** triggered by:
 
-## Assessment Triggers
+- [Security incidents](../processes/security-incident-response.md): Root cause analysis identifies systemic risks
+- [Data breaches](../processes/data-breach-response.md): Assess similar exposure across systems
+- Regulatory changes: Gap analysis against new requirements
+- [Audit findings](../processes/external-audit.md): Escalate control deficiencies to risk register
 
-- New project/initiative
-- New technology/vendor
-- Regulatory changes
-- Security incidents
-- Annual review
-
-## Treatment Options
-
-**Mitigate**: Implement controls to reduce likelihood/impact
-**Accept**: Acknowledge and proceed (document, approve, review)
-**Avoid**: Change approach to eliminate risk
-**Transfer**: Shift to third party (insurance, outsourcing)
-
-## Decision Authority
-
-| Level | Authority | Approval |
-|-------|-----------|----------|
-| Low | Security Team | Document in register |
-| Medium | Security + Engineering Lead | Email approval |
-| High | CTO/Executive | Written approval, quarterly review |
-| Critical | CEO/Board | Formal approval, monthly review |
 
 ## Risk Register
+### Risk Treatment
 
-Track: ID, description, category, likelihood/impact, score, owner, status, treatment plan, dates
+**Mitigate**: Implement controls to reduce likelihood or impact. Most common approach. Track remediation in risk register with owner and deadline.
 
-Review: Monthly (new/updates), Quarterly (all open), Annually (comprehensive)
+**Accept**: Document risk, obtain appropriate approval per decision authority table, set review date. Use when mitigation cost exceeds risk value or timeline constraints exist.
 
-## Integration with Development
+**Avoid**: Change project approach to eliminate risk. Use when risk exceeds appetite and cannot be sufficiently mitigated (e.g., reject vendor, cancel feature).
 
-**Security Design Review**: Assess all new features before development
-**Threat Modeling**: For high-risk systems (STRIDE methodology)
+**Transfer**: Shift risk to third party via insurance, outsourcing, contractual terms. Use for risks outside core competency or requiring specialized expertise.
+### Risk Scoring
 
-## Metrics
+Risks scored using **Risk Score = Likelihood × Impact** with values 1-3 for each dimension producing scores 1-9.
 
-- Open risks by severity
-- Risk aging and remediation velocity
-- Acceptance rate
-- Trend analysis
+See [Organizational Risk Assessment](../processes/organizational-risk-assessment.md#risk-scoring-methodology) for detailed scoring methodology, likelihood/impact definitions, and examples.
+
+**Maintained by**: [Security Team](../policies/security-team.md) in collaboration with risk owners.
+
+###  **Review cadence**
+
+- Monthly: New risks and status updates. Security Team + Engineering Leadership per [Governance Communication](governance.md#communication).
+- Quarterly: All open risks. Security Committee reviews trends, escalates stalled items, reallocates resources.
+- Annually: Comprehensive review. Archive closed risks, reassess accepted risks, validate scoring methodology.
+
+### Decision Authority
+
+Authority to accept or approve treatment plans scales with risk severity. See [Governance Ownership](governance.md#ownership) for role definitions.
+
+| Risk Level | Decision Authority | Documentation Required | Review Frequency |
+| ---------- | ------------------ | ---------------------- | ---------------- |
+| Low | Security Team | Risk register entry | Annual |
+| Medium | Security Team + Engineering Lead | Email approval with mitigation plan | Quarterly |
+| High | CTO/Executive Sponsor | Written approval, compensating controls | Quarterly |
+| Critical | CEO/Board | Formal approval, escalation plan | Monthly |
+
+High and Critical risk acceptances require documented compensating controls and specific timeline for reassessment or mitigation.
 
 ---
 

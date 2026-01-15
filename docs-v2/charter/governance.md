@@ -9,74 +9,87 @@ audience: leadership
 
 # Governance
 
-Strategic framework for the organization's information security program.
+Strategic framework for the organization's information security program. Defines ownership, principles, scope, and metrics for protecting organizational and customer assets.
 
-## Purpose
+## Ownership
 
-Establish mission, scope, authority, and governance structure to protect organizational and customer assets through risk-based security controls.
+**Executive Sponsor** (CTO/CEO): Program approval, resource allocation, risk acceptance authority. Reviews high/critical risks monthly.
 
-## Mission
+**Security Team**: Policy development, [risk assessments](../processes/organizational-risk-assessment.md), control monitoring, [incident response](../processes/security-incident-response.md), [compliance management](../processes/external-audit.md). See [Security Team Policy](../policies/security-team.md).
 
-Protect confidentiality, integrity, and availability of data by implementing risk-based controls, fostering security-aware culture, and continuously improving security posture.
+**Engineering Leadership** (SVP Engineering): Implements security controls, [secure development practices](../processes/security-code-review.md), vulnerability remediation. See [Engineer Policy](../policies/engineer.md).
 
-## Scope
+**IT Operations**: [Endpoint security](../policies/it-administrator.md), [access management](../processes/access-review.md), system hardening.
 
-- All information systems (cloud, applications, endpoints)
-- All data (customer, employee, business)
-- All personnel (employees, contractors, vendors)
-- All locations (offices, remote, data centers)
+**HR**: Personnel security, security training, [data privacy](../processes/personal-data-request.md). See [HR Administrator Policy](../policies/hr-administrator.md).
+
+**All Employees**: Follow [security policies](../policies/employee.md), complete training, report incidents.
+
+## Communication
+
+**Security Committee** (Quarterly): Executive Sponsor, Security Team, Engineering Leadership, IT Ops, HR. Reviews risk posture, metrics, compliance status, major initiatives.
+
+**Incident Response Team** (On-demand): Security Team lead, Engineering on-call, IT Ops, Legal/PR. Activated per [Security Incident Response](../processes/security-incident-response.md).
+
+**Risk Review** (Monthly): Security Team, Engineering Leadership. Discuss open risks, remediation progress, new assessments. Documented in risk register.
+
+**All-Hands Updates** (Quarterly): Security Team presents metrics, major changes, security awareness topics.
 
 ## Security Principles
 
-**Risk-Based**: Focus on highest risks (likelihood × impact), document decisions
+**Risk-Based**: Focus resources on highest risks (likelihood × impact). See [Risk Management Charter](risk-management.md) for methodology.
 
-**Defense in Depth**: Multiple security layers, no single point of failure
+**Defense in Depth**: Multiple overlapping controls, no single point of failure, assume breach mentality.
 
-**Least Privilege**: Minimum access necessary, regular reviews
+**Least Privilege**: Minimum access necessary, regular [access reviews](../processes/access-review.md), time-bound permissions.
 
-**Security by Design**: Consider security from project start, secure defaults
+**Security by Design**: [Security design reviews](../processes/security-design-review.md) before development, secure defaults, [threat modeling](risk-management.md) for high-risk systems.
 
-**Transparency**: Clear ownership, blameless culture, visible posture
+**Transparency**: Clear ownership, blameless incident culture, visible security posture, documented decisions.
 
-## Governance Structure
+## Scope
 
-**Security Team**: Develop policies, conduct assessments, monitor controls, manage incidents
+**Systems**: All cloud infrastructure, SaaS applications, endpoints, networks, development environments.
 
-**Executive Sponsor** (CTO/CEO): Approve program, provide resources, accept high risks
+**Data**: Customer data, employee data, business data, source code. All classifications and locations.
 
-**Engineering Teams**: Implement controls, remediate vulnerabilities, follow secure practices
+**People**: Employees, contractors, vendors, partners. All roles and locations.
 
-**All Employees**: Follow policies, complete training, report incidents
-
-## Program Components
-
-1. Governance (policies, risk management, compliance, training)
-2. Identity & Access Management (SSO, MFA, RBAC, reviews)
-3. Data Protection (classification, encryption, retention, privacy)
-4. Secure Development (secure coding, reviews, scanning, secrets)
-5. Infrastructure Security (cloud baselines, segmentation, logging, patching)
-6. Endpoint Security (MDM, encryption, EDR, updates)
-7. Vendor Risk (assessments, DPAs, monitoring)
-8. Incident Response (detection, procedures, notification, reviews)
-9. Business Continuity (backup, recovery, disaster planning)
+**Processes**: Development, operations, sales, support, HR. Security integrated throughout.
 
 ## Metrics
 
-- MTTR for vulnerabilities by severity
-- Phishing click rate (target <5%)
-- Training completion (target 100%)
-- Access review completion (100% quarterly)
-- Open Critical/High vulnerabilities (0/5)
+**Vulnerability Management**:
 
-## Compliance
+- MTTR by severity: Critical <7d, High <30d, Medium <90d
+- Open Critical/High vulnerabilities: Target 0/5
 
-- SOC 2 Type II (annual audit)
-- GDPR (DPIAs, DPAs, breach notification)
-- Internal audits (quarterly self-assessment)
+**Access & Identity**:
 
-## Review
+- [Access review](../processes/access-review.md) completion: 100% quarterly
+- MFA adoption: 100% for production systems
 
-Annual review by Security Team, approved by executive sponsor.
+**Security Awareness**:
+
+- Training completion: 100% annually
+- Phishing simulation click rate: <5%
+
+**Incident Response**:
+
+- [Incident](../processes/security-incident-response.md) detection time: <1 hour for critical
+- Mean time to containment: <4 hours for critical
+
+**Compliance**:
+
+- [SOC 2](../processes/external-audit.md) audit findings: 0 exceptions
+- [Internal audit](../processes/internal-audit.md) completion: 100% quarterly
+- Control effectiveness: >95%
+
+**Risk Management**:
+
+- Open high/critical risks: Trend down
+- Risk remediation SLA compliance: >90%
+- See [Risk Management Charter](risk-management.md) for scoring methodology
 
 ---
 
