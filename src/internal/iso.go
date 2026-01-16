@@ -70,14 +70,18 @@ func GenerateISOMarkdown(standard Framework, isoDomain ISODomain, scfControlMapp
 	doc := md.NewMarkdown(f).
 		H1(fmt.Sprintf("%s - %s", standard, string(isoDomain.Title)))
 
+	// Process each control in the domain
 	for _, isoControl := range isoDomain.Controls {
 		doc.H2(isoControl.Ref).
 			PlainText(md.Bold(isoControl.Title)).
 			PlainText(isoControl.Summary)
+
+		// Find SCF controls that map to this ISO control
 		fcids := []string{}
 		for scfID, controlMapping := range scfControlMapping {
-			soc2FrameworkControlIDs := controlMapping[standard]
-			for _, fcid := range soc2FrameworkControlIDs {
+			isoFrameworkControlIDs := controlMapping[standard]
+			for _, fcid := range isoFrameworkControlIDs {
+				// Convert framework control ID to annex format and compare
 				if FCIDToAnnex(standard, string(fcid)) == isoControl.Ref {
 					link := fmt.Sprintf("[%s](../scf/%s.md)", string(scfID), safeFileName(string(scfID)))
 					found := false
@@ -94,7 +98,7 @@ func GenerateISOMarkdown(standard Framework, isoDomain ISODomain, scfControlMapp
 		}
 		if len(fcids) > 0 {
 			slices.Sort(fcids)
-			doc.H3("Mapped SCF controls")
+			doc.H3(HeadingFrameworkMappings)
 			for _, fcid := range fcids {
 				doc.PlainText(fmt.Sprintf("- %s", fcid))
 			}

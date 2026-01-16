@@ -89,14 +89,17 @@ func GenerateNIST80053Markdown(control NIST80053OSCALControl, scfControlMapping 
 	doc := md.NewMarkdown(f).
 		H1(fmt.Sprintf("NIST 800-53v5 - %s - %s", strings.ToUpper(control.ID), control.Title))
 
+	// Process control parts (statements and guidance)
 	for _, part := range control.Parts {
 		if part.Name == "statement" {
+			// Process control statement with parameter substitution
 			for _, subPart := range part.Parts {
 				prose := subPart.Prose
 				regexPattern := `\{\{ insert: param, (\S*) \}\}`
 				regex := regexp.MustCompile(regexPattern)
 				matches := regex.FindStringSubmatch(prose)
 				if len(matches) > 0 {
+					// Replace parameter placeholders with actual values
 					for _, match := range matches {
 						paramName := fmt.Sprintf("{{ insert: param, %s }}", match)
 						paramValue := ""
@@ -111,14 +114,16 @@ func GenerateNIST80053Markdown(control NIST80053OSCALControl, scfControlMapping 
 				doc.BulletList(prose)
 			}
 		} else if part.Name == "guidance" {
-			doc.H2("Guidance").PlainText(strings.ReplaceAll(part.Prose, "\n", "\\n"))
+			doc.H2(HeadingGuidance).PlainText(strings.ReplaceAll(part.Prose, "\n", "\\n"))
 		}
 	}
 
+	// Find SCF controls that map to this NIST control
 	fcids := []string{}
 	for scfID, controlMapping := range scfControlMapping {
 		nistFrameworkControlIDs := controlMapping["NIST 800-53"]
 		for _, fcid := range nistFrameworkControlIDs {
+			// Normalize control IDs for comparison (replace dots with dashes)
 			controlIDToCompare := strings.ReplaceAll(strings.ToUpper(control.ID), ".", "-")
 			toLink := strings.ReplaceAll(strings.ReplaceAll(string(fcid), ")", ""), "(", "-")
 			if toLink == controlIDToCompare {
@@ -128,7 +133,7 @@ func GenerateNIST80053Markdown(control NIST80053OSCALControl, scfControlMapping 
 	}
 	slices.Sort(fcids)
 	if len(fcids) > 0 {
-		doc.H2("Mapped SCF controls")
+		doc.H2(HeadingFrameworkMappings)
 		for _, fcid := range fcids {
 			doc.PlainText(fmt.Sprintf("- %s", fcid))
 		}

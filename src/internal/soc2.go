@@ -63,7 +63,7 @@ func GetSOC2Controls(url string, getFile bool) (FrameworkSummary, error) {
 	return frameworkSummary, nil
 }
 
-// Thanks ChatGPT
+// getFirstWord extracts the first word from a string (e.g., "CC6.1" from "CC6.1 Description")
 func getFirstWord(input string) string {
 	words := strings.Fields(input)
 	if len(words) > 0 {
@@ -95,29 +95,15 @@ func GenerateSOC2Markdown(requirement Requirement, scfControlMapping SCFControlM
 
 	}
 
-	// Determine if we're using SCF or custom controls based on control ID format
-	// SCF IDs contain " - " (e.g., "AST-01 - Asset Governance")
-	// Custom IDs are simple (e.g., "ACC-01")
-	controlType := "scf"
-	for scfID := range scfControlMapping {
-		if !strings.Contains(string(scfID), " - ") {
-			controlType = "custom"
-			break
-		}
-	}
-
-	headerText := "Mapped SCF controls"
-	if controlType == "custom" {
-		headerText = "Mapped custom controls"
-	}
-
-	doc.H2(headerText)
+	// Add framework mappings section with reverse lookup from SCF mappings
+	doc.H2(HeadingFrameworkMappings)
 	fcids := []string{}
 	for scfID, controlMapping := range scfControlMapping {
 		soc2FrameworkControlIDs := controlMapping["SOC 2"]
 		for _, fcid := range soc2FrameworkControlIDs {
 			if string(fcid) == socControlID {
-				fcids = append(fcids, fmt.Sprintf("[%s](../%s/%s.md)", string(scfID), controlType, safeFileName(string(scfID))))
+				// Link back to the SCF control that maps to this SOC2 control
+				fcids = append(fcids, fmt.Sprintf("[%s](../scf/%s.md)", string(scfID), safeFileName(string(scfID))))
 			}
 		}
 	}

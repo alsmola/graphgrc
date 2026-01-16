@@ -166,19 +166,25 @@ func GenerateSCFMarkdown(scfControl Control, scfControlID SCFControlID, controlM
 		return err
 	}
 
+	// Generate the control document starting with title and description
 	doc := md.NewMarkdown(f).
 		H1(fmt.Sprintf("SCF - %s", string(scfControlID))).
 		PlainText(string(scfControl[SCFColumnMapping[Description]])).
-		H2("Mapped framework controls")
+		H2(HeadingFrameworkMappings)
 
+	// Sort frameworks alphabetically for consistent output
 	orderedFrameworks := []string{}
 	for framework, _ := range controlMapping {
 		orderedFrameworks = append(orderedFrameworks, string(framework))
 	}
 	slices.Sort(orderedFrameworks)
+
+	// Generate framework-specific mapping sections
 	for _, framework := range orderedFrameworks {
 		frameworkControlIDs := controlMapping[Framework(framework)]
 		fcids := []string{}
+
+		// Build links to framework controls, with special handling for certain frameworks
 		for _, fcid := range frameworkControlIDs {
 			link := fmt.Sprintf("[%s](../%s/%s.md)", string(fcid), safeFileName(string(framework)), safeFileName(string(fcid)))
 			if framework == "GDPR" {
@@ -226,28 +232,16 @@ func GenerateSCFMarkdown(scfControl Control, scfControlID SCFControlID, controlM
 		}
 	}
 
-	doc.H2("Control questions").
+	// Add control questions section
+	doc.H2(HeadingControlQuestions).
 		PlainText(string(scfControl[SCFColumnMapping[ControlQuestions]]))
-		// H2("Control maturity").
-		// Table(md.TableSet{
-		// 	Header: []string{"Maturity level", "Description"},
-		// 	Rows: [][]string{
-		// 		{"Not performed", fixControlQuestions(string(scfControl[SCFColumnMapping[NotPerformed]]))},
-		// 		{"Performed internally", fixControlQuestions(string(scfControl[SCFColumnMapping[PerformedInternally]]))},
-		// 		{"Planned and tracked", fixControlQuestions(string(scfControl[SCFColumnMapping[PlannedAndTracked]]))},
-		// 		{"Well defined", fixControlQuestions(string(scfControl[SCFColumnMapping[WellDefined]]))},
-		// 		{"Quantitatively controllled", fixControlQuestions(string(scfControl[SCFColumnMapping[QuantitativelyControlled]]))},
-		// 		{"Continuously improving", fixControlQuestions(string(scfControl[SCFColumnMapping[ContinuouslyImproving]]))},
-		// 	},
-		// })
+
 	doc.Build()
 	return nil
 }
 
-func fixControlQuestions(input string) string {
-	return strings.ReplaceAll(strings.ReplaceAll(input, "•	", "- "), "\n", "<br>")
-}
-
+// GetComplianceControlMappings creates bidirectional mappings between SCF controls and framework controls
+// Returns a map of SCF Control ID -> Framework -> Framework Control IDs
 func GetComplianceControlMappings(controls SCFControls) SCFControlMappings {
 	controlMappings := map[SCFControlID]ControlMapping{}
 	for controlID, control := range controls {

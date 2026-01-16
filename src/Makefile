@@ -1,4 +1,4 @@
-.PHONY: help download-frameworks generate-frameworks generate-custom generate-backlinks generate clean
+.PHONY: help download-frameworks generate-frameworks generate-custom generate-backlinks generate clean clean-generated regenerate
 
 # Base directories
 DOCS_DIR = ../docs
@@ -53,6 +53,14 @@ clean: ## Remove all generated files
 	@echo "Cleaning generated files..."
 	rm -rf $(DOCS_DIR)/soc2/*.md $(DOCS_DIR)/gdpr/*.md $(DOCS_DIR)/iso27001/*.md $(DOCS_DIR)/iso27002/*.md $(DOCS_DIR)/nist80053/*.md $(DOCS_DIR)/scf/*.md
 	@echo "Clean complete"
+
+clean-generated: ## Remove all generated framework documentation
+	@echo "Cleaning generated framework documentation..."
+	@rm -rf $(DOCS_DIR)/frameworks/scf/*.md $(DOCS_DIR)/frameworks/soc2/*.md $(DOCS_DIR)/frameworks/gdpr/*.md $(DOCS_DIR)/frameworks/iso27001/*.md $(DOCS_DIR)/frameworks/iso27002/*.md $(DOCS_DIR)/frameworks/nist80053/*.md 2>/dev/null || true
+	@echo "✓ Cleaned generated documentation files"
+
+regenerate: clean-generated generate-frameworks ## Clean and regenerate all framework documentation
+	@echo "✓ Framework documentation regenerated successfully"
 
 validate: ## Validate all markdown links and frontmatter
 	@echo "Validating documentation..."
