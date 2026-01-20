@@ -12,3 +12,4 @@ terraform/.terraform.lock.hcl
 terraform/terraform.tfstate
 terraform/terraform.tfstate.*
 terraform/*.tfvars
+src/bin/generate-backlinks
