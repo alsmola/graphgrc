@@ -1,0 +1,801 @@
+{
+  "controls/asset-management/cloud-inventory.md": {
+    "soc2": [
+      {"id": "cc61", "annotation": "Cloud inventory supports identifying and managing information assets as required for logical access security"},
+      {"id": "a11", "annotation": "Asset inventory enables capacity management by tracking system components"}
+    ],
+    "gdpr": [
+      {"id": "art30", "annotation": "Cloud inventory supports maintaining records of processing activities by documenting infrastructure"}
+    ]
+  },
+  "controls/asset-management/endpoint-inventory.md": {
+    "soc2": [
+      {"id": "cc61", "annotation": "Endpoint inventory identifies and manages information assets to protect them from security events"},
+      {"id": "cc68", "annotation": "Device inventory enables control of unauthorized software and malicious software"}
+    ],
+    "gdpr": [
+      {"id": "art30", "annotation": "Endpoint inventory supports records of processing activities by documenting devices processing personal data"},
+      {"id": "art32", "annotation": "Asset inventory is an organizational measure ensuring security of processing"}
+    ]
+  },
+  "controls/asset-management/saas-inventory.md": {
+    "soc2": [
+      {"id": "cc61", "annotation": "SaaS inventory identifies and manages information assets across third-party applications"},
+      {"id": "cc92", "annotation": "SaaS inventory supports vendor risk management by tracking third-party services"}
+    ],
+    "gdpr": [
+      {"id": "art28", "annotation": "SaaS inventory helps identify processors that require data processing agreements"},
+      {"id": "art30", "annotation": "SaaS application inventory supports maintaining records of processing activities"}
+    ]
+  },
+  "controls/availability/availability-monitoring.md": {
+    "soc2": [
+      {"id": "a11", "annotation": "Monitoring system availability ensures capacity management and system performance"},
+      {"id": "cc72", "annotation": "Availability monitoring detects anomalies affecting system operations"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Availability monitoring ensures ongoing availability and resilience of processing systems"}
+    ]
+  },
+  "controls/availability/capacity-planning.md": {
+    "soc2": [
+      {"id": "a11", "annotation": "Capacity planning directly implements requirements to manage capacity demand and enable additional capacity"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Capacity planning ensures ongoing availability and resilience of processing systems"}
+    ]
+  },
+  "controls/availability/disaster-recovery.md": {
+    "soc2": [
+      {"id": "a12", "annotation": "Disaster recovery implements backup processes and recovery infrastructure requirements"},
+      {"id": "a13", "annotation": "Testing recovery plan procedures supports system recovery objectives"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Disaster recovery enables restoring availability and access to personal data in timely manner after incidents"}
+    ]
+  },
+  "controls/change-management/change-management.md": {
+    "soc2": [
+      {"id": "cc81", "annotation": "Change management directly implements requirements for authorizing, testing, and implementing changes to systems"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Change management is an organizational measure ensuring security during system modifications"}
+    ]
+  },
+  "controls/compliance/contract-management.md": {
+    "soc2": [
+      {"id": "cc92", "annotation": "Contract management establishes requirements for vendor engagements including compliance and service levels"},
+      {"id": "p64", "annotation": "Contracts obtain privacy commitments from vendors with access to personal information"}
+    ],
+    "gdpr": [
+      {"id": "art28", "annotation": "Contracts with processors must include required data processing terms and security obligations"}
+    ]
+  },
+  "controls/compliance/documentation-review.md": {
+    "soc2": [
+      {"id": "cc41", "annotation": "Documentation review supports ongoing evaluations of internal control components"},
+      {"id": "cc42", "annotation": "Reviews identify and communicate control deficiencies to management"}
+    ],
+    "gdpr": [
+      {"id": "art24", "annotation": "Documentation review demonstrates implementation of appropriate technical and organizational measures"}
+    ]
+  },
+  "controls/compliance/external-audits.md": {
+    "soc2": [
+      {"id": "cc41", "annotation": "External audits provide independent separate evaluations of internal controls"},
+      {"id": "cc12", "annotation": "Board oversight includes review of external audit findings"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "External audits support evaluating effectiveness of technical and organizational security measures"}
+    ]
+  },
+  "controls/compliance/grc-function.md": {
+    "soc2": [
+      {"id": "cc11", "annotation": "GRC function establishes governance demonstrating commitment to integrity and compliance"},
+      {"id": "cc12", "annotation": "GRC function supports board oversight of compliance and risk management"},
+      {"id": "cc32", "annotation": "GRC function identifies and assesses risks across the entity"}
+    ],
+    "gdpr": [
+      {"id": "art24", "annotation": "GRC function implements appropriate data protection policies and demonstrates compliance"}
+    ]
+  },
+  "controls/compliance/internal-audits.md": {
+    "soc2": [
+      {"id": "cc41", "annotation": "Internal audits perform ongoing and separate evaluations of internal control effectiveness"},
+      {"id": "cc42", "annotation": "Internal audits assess results and communicate deficiencies to management"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Internal audits evaluate effectiveness of technical and organizational security measures"}
+    ]
+  },
+  "controls/configuration-management/cloud-hardening.md": {
+    "soc2": [
+      {"id": "cc71", "annotation": "Cloud hardening implements defined configuration standards to prevent vulnerabilities"},
+      {"id": "cc61", "annotation": "Hardening restricts logical access and protects infrastructure from security events"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Cloud hardening is a technical measure ensuring appropriate security for processing systems"},
+      {"id": "art25", "annotation": "Secure configurations implement data protection by design and default"}
+    ]
+  },
+  "controls/configuration-management/endpoint-hardening.md": {
+    "soc2": [
+      {"id": "cc71", "annotation": "Endpoint hardening establishes configuration standards to prevent vulnerabilities"},
+      {"id": "cc68", "annotation": "Hardening prevents introduction of unauthorized or malicious software"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Endpoint hardening ensures security of devices processing personal data"}
+    ]
+  },
+  "controls/configuration-management/saas-hardening.md": {
+    "soc2": [
+      {"id": "cc71", "annotation": "SaaS hardening implements configuration standards for third-party applications"},
+      {"id": "cc61", "annotation": "SaaS security configurations protect information assets in cloud applications"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "SaaS hardening ensures appropriate security when processors handle personal data"}
+    ]
+  },
+  "controls/cryptography/code-signing.md": {
+    "soc2": [
+      {"id": "cc68", "annotation": "Code signing prevents introduction of unauthorized or malicious software"},
+      {"id": "cc81", "annotation": "Code signing ensures software changes are authorized and authentic"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Code signing is a technical measure ensuring integrity of processing systems"}
+    ]
+  },
+  "controls/cryptography/encryption-at-rest.md": {
+    "soc2": [
+      {"id": "cc61", "annotation": "Encryption at rest protects data from unauthorized access and supplementing other protection measures"},
+      {"id": "c11", "annotation": "Encryption protects confidential information from unauthorized disclosure"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Encryption of personal data is explicitly listed as appropriate technical security measure"}
+    ]
+  },
+  "controls/cryptography/encryption-in-transit.md": {
+    "soc2": [
+      {"id": "cc67", "annotation": "Encryption protects data during transmission to authorized users and processes"},
+      {"id": "cc66", "annotation": "Encryption secures communication channels for external access"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Encryption during transmission protects personal data from unauthorized access"}
+    ]
+  },
+  "controls/cryptography/key-management.md": {
+    "soc2": [
+      {"id": "cc61", "annotation": "Key management protects encryption keys during generation, storage, use, and destruction"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Proper key management ensures effectiveness of encryption as a security measure"}
+    ]
+  },
+  "controls/data-management/cloud-data-inventory.md": {
+    "soc2": [
+      {"id": "cc61", "annotation": "Cloud data inventory identifies and classifies information assets"},
+      {"id": "c11", "annotation": "Data inventory identifies and maintains confidential information"}
+    ],
+    "gdpr": [
+      {"id": "art30", "annotation": "Data inventory supports maintaining records of categories of personal data and data subjects"}
+    ]
+  },
+  "controls/data-management/data-classification.md": {
+    "soc2": [
+      {"id": "cc61", "annotation": "Data classification enables appropriate protection measures based on information sensitivity"},
+      {"id": "c11", "annotation": "Classification identifies and designates confidential information"}
+    ],
+    "gdpr": [
+      {"id": "art25", "annotation": "Data classification supports data minimization by identifying what data requires protection"},
+      {"id": "art32", "annotation": "Classification enables risk-based security measures appropriate to data sensitivity"}
+    ]
+  },
+  "controls/data-management/data-privacy-gdpr-compliance.md": {
+    "soc2": [
+      {"id": "p11", "annotation": "Privacy program provides notice to data subjects about privacy practices"},
+      {"id": "p21", "annotation": "Implements choice and consent mechanisms for personal information collection and use"}
+    ],
+    "gdpr": [
+      {"id": "art5", "annotation": "Implements fundamental principles of lawful, fair, transparent processing"},
+      {"id": "art6", "annotation": "Establishes lawful basis for processing personal data"},
+      {"id": "art13", "annotation": "Provides required information to data subjects when collecting personal data"},
+      {"id": "art24", "annotation": "Demonstrates implementation of appropriate measures to ensure GDPR compliance"}
+    ]
+  },
+  "controls/data-management/data-retention-and-deletion.md": {
+    "soc2": [
+      {"id": "c12", "annotation": "Implements disposal of confidential information when retention period ends"},
+      {"id": "p42", "annotation": "Retains personal information consistent with privacy objectives and stated purposes"}
+    ],
+    "gdpr": [
+      {"id": "art5", "annotation": "Implements storage limitation principle - data retained only as long as necessary"},
+      {"id": "art17", "annotation": "Enables right to erasure by implementing deletion processes"}
+    ]
+  },
+  "controls/data-management/data-retention-deletion.md": {
+    "soc2": [
+      {"id": "c12", "annotation": "Data retention and deletion ensures confidential information is properly disposed"},
+      {"id": "p42", "annotation": "Retention aligns with privacy commitments for personal information"}
+    ],
+    "gdpr": [
+      {"id": "art5", "annotation": "Retention policies implement storage limitation principle"},
+      {"id": "art17", "annotation": "Deletion processes support right to erasure requirements"}
+    ]
+  },
+  "controls/data-management/encryption.md": {
+    "soc2": [
+      {"id": "cc61", "annotation": "Encryption protects information assets from unauthorized access"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Encryption is an appropriate technical measure for security of processing"}
+    ]
+  },
+  "controls/data-management/saas-data-inventory.md": {
+    "soc2": [
+      {"id": "cc61", "annotation": "SaaS data inventory identifies information assets across third-party platforms"},
+      {"id": "c11", "annotation": "Inventory tracks confidential information stored in SaaS applications"}
+    ],
+    "gdpr": [
+      {"id": "art30", "annotation": "Inventory supports records of processing activities including data in third-party systems"}
+    ]
+  },
+  "controls/data-privacy/customer-personal-data.md": {
+    "soc2": [
+      {"id": "p11", "annotation": "Provides notice to customers about privacy practices"},
+      {"id": "p31", "annotation": "Collects personal information consistent with privacy objectives"},
+      {"id": "p51", "annotation": "Grants data subjects access to their stored personal information"},
+      {"id": "p66", "annotation": "Provides breach notification to affected data subjects and regulators"}
+    ],
+    "gdpr": [
+      {"id": "art5", "annotation": "Implements data minimization and purpose limitation principles"},
+      {"id": "art13", "annotation": "Provides required information when collecting personal data from customers"},
+      {"id": "art15", "annotation": "Implements right of access for data subjects"},
+      {"id": "art17", "annotation": "Implements right to erasure for customer data"},
+      {"id": "art33", "annotation": "Notifies supervisory authority of data breaches within 72 hours"},
+      {"id": "art34", "annotation": "Communicates breaches to affected data subjects"}
+    ]
+  },
+  "controls/data-privacy/employee-personal-data.md": {
+    "soc2": [
+      {"id": "p11", "annotation": "Provides privacy notice to employees about data practices"},
+      {"id": "p42", "annotation": "Retains employee personal information according to legal and business requirements"}
+    ],
+    "gdpr": [
+      {"id": "art5", "annotation": "Implements lawful, fair, transparent processing of employee data"},
+      {"id": "art6", "annotation": "Establishes lawful basis for processing employee personal data"},
+      {"id": "art13", "annotation": "Informs employees about processing of their personal data"},
+      {"id": "art88", "annotation": "Ensures processing of employee data complies with employment data protections"}
+    ]
+  },
+  "controls/endpoint-security/device-management-macos-mdm.md": {
+    "soc2": [
+      {"id": "cc61", "annotation": "MDM manages identification and authentication of devices accessing information assets"},
+      {"id": "cc68", "annotation": "MDM prevents unauthorized software installation and malware"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Device management ensures security of endpoints processing personal data"}
+    ]
+  },
+  "controls/endpoint-security/endpoint-protection.md": {
+    "soc2": [
+      {"id": "cc68", "annotation": "Endpoint protection detects and prevents unauthorized or malicious software"},
+      {"id": "cc72", "annotation": "Endpoint protection monitors for anomalies indicative of malicious acts"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Endpoint protection ensures confidentiality, integrity, and availability of processing systems"}
+    ]
+  },
+  "controls/endpoint-security/software-updates.md": {
+    "soc2": [
+      {"id": "cc71", "annotation": "Software updates remediate newly discovered vulnerabilities"},
+      {"id": "cc81", "annotation": "Update management implements controlled changes to software"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Patching is a technical measure maintaining security of processing systems"}
+    ]
+  },
+  "controls/governance/risk-assessment.md": {
+    "soc2": [
+      {"id": "cc31", "annotation": "Risk assessment specifies objectives and identifies risks to those objectives"},
+      {"id": "cc32", "annotation": "Identifies and analyzes risks as basis for risk management"}
+    ],
+    "gdpr": [
+      {"id": "art24", "annotation": "Risk assessment informs appropriate technical and organizational measures"},
+      {"id": "art32", "annotation": "Security measures must be appropriate to the risk assessed"}
+    ]
+  },
+  "controls/governance/security-policies.md": {
+    "soc2": [
+      {"id": "cc11", "annotation": "Security policies establish standards of conduct and demonstrate commitment to integrity"},
+      {"id": "cc53", "annotation": "Policies establish what is expected to support deployment of controls"}
+    ],
+    "gdpr": [
+      {"id": "art24", "annotation": "Data protection policies demonstrate implementation of appropriate measures"}
+    ]
+  },
+  "controls/iam/access-reviews.md": {
+    "soc2": [
+      {"id": "cc62", "annotation": "Access reviews verify appropriateness of access credentials periodically"},
+      {"id": "cc63", "annotation": "Reviews ensure access removal when individuals no longer require access"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Periodic access reviews are organizational measures ensuring security of processing"},
+      {"id": "art5", "annotation": "Access reviews support data minimization by removing unnecessary access to personal data"}
+    ]
+  },
+  "controls/iam/cloud-iam.md": {
+    "soc2": [
+      {"id": "cc61", "annotation": "Cloud IAM restricts logical access to infrastructure and manages authentication"},
+      {"id": "cc63", "annotation": "Cloud IAM implements least privilege and role-based access controls"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Cloud IAM is a technical measure ensuring only authorized access to personal data"}
+    ]
+  },
+  "controls/iam/identity-authentication.md": {
+    "soc2": [
+      {"id": "cc61", "annotation": "Identity and authentication requirements are established and managed for system access"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Authentication ensures only authorized persons access personal data"}
+    ]
+  },
+  "controls/iam/least-privilege-rbac.md": {
+    "soc2": [
+      {"id": "cc63", "annotation": "Least privilege and RBAC directly implement access authorization based on roles and responsibilities"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Least privilege minimizes risk of unauthorized access to personal data"},
+      {"id": "art25", "annotation": "Least privilege implements data protection by design through access minimization"}
+    ]
+  },
+  "controls/iam/multi-factor-authentication.md": {
+    "soc2": [
+      {"id": "cc61", "annotation": "MFA implements logical access security software to protect information assets"},
+      {"id": "cc62", "annotation": "MFA ensures users are authenticated before granting system access"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Multi-factor authentication is a technical security measure protecting personal data"}
+    ]
+  },
+  "controls/iam/password-management.md": {
+    "soc2": [
+      {"id": "cc61", "annotation": "Password management protects identification and authentication credentials"},
+      {"id": "cc66", "annotation": "Password policies protect credentials during transmission and storage"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Password management ensures security of authentication mechanisms"}
+    ]
+  },
+  "controls/iam/privileged-access-management.md": {
+    "soc2": [
+      {"id": "cc61", "annotation": "PAM manages administrative authorities and restricts privileged access"},
+      {"id": "cc63", "annotation": "PAM implements least privilege for elevated permissions"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "PAM is an organizational measure controlling access to sensitive personal data"}
+    ]
+  },
+  "controls/iam/saas-iam.md": {
+    "soc2": [
+      {"id": "cc61", "annotation": "SaaS IAM manages identification and authentication for cloud applications"},
+      {"id": "cc63", "annotation": "SaaS IAM implements role-based access controls for third-party applications"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "SaaS IAM ensures appropriate access controls when processors handle personal data"}
+    ]
+  },
+  "controls/iam/secrets-management.md": {
+    "soc2": [
+      {"id": "cc61", "annotation": "Secrets management protects credentials for infrastructure and software"},
+      {"id": "cc66", "annotation": "Secrets management protects authentication credentials during transmission"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Secrets management protects cryptographic keys and credentials used to secure personal data"}
+    ]
+  },
+  "controls/iam/single-sign-on.md": {
+    "soc2": [
+      {"id": "cc61", "annotation": "SSO centralizes identification and authentication management"},
+      {"id": "cc62", "annotation": "SSO enables consistent credential issuance and removal across systems"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "SSO strengthens authentication and access management for systems processing personal data"}
+    ]
+  },
+  "controls/incident-response/data-breach-response.md": {
+    "soc2": [
+      {"id": "cc73", "annotation": "Data breach response evaluates security events and takes action to prevent failures"},
+      {"id": "cc74", "annotation": "Breach response executes defined incident response program"},
+      {"id": "p66", "annotation": "Provides breach notification to data subjects and regulators"}
+    ],
+    "gdpr": [
+      {"id": "art33", "annotation": "Data breach response implements 72-hour notification to supervisory authorities"},
+      {"id": "art34", "annotation": "Communicates high-risk breaches to affected data subjects"}
+    ]
+  },
+  "controls/incident-response/incident-response-exercises.md": {
+    "soc2": [
+      {"id": "a13", "annotation": "Incident exercises test recovery plan procedures like business continuity testing"},
+      {"id": "cc73", "annotation": "Exercises evaluate effectiveness of incident response procedures"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Testing incident response is required to evaluate effectiveness of security measures"}
+    ]
+  },
+  "controls/incident-response/security-incident-response.md": {
+    "soc2": [
+      {"id": "cc73", "annotation": "Security incident response evaluates events and determines if they represent security incidents"},
+      {"id": "cc74", "annotation": "Incident response executes defined program to understand, contain, and remediate incidents"},
+      {"id": "cc75", "annotation": "Identifies and implements activities to recover from security incidents"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Incident response ensures ability to restore availability after technical incidents"},
+      {"id": "art33", "annotation": "Incident response enables timely breach notification to authorities"}
+    ]
+  },
+  "controls/infrastructure-security/backup-recovery.md": {
+    "soc2": [
+      {"id": "a12", "annotation": "Backup and recovery implements data backup processes and recovery infrastructure"},
+      {"id": "a13", "annotation": "Tests integrity and completeness of backup data"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Backups enable restoring availability and access to personal data after incidents"}
+    ]
+  },
+  "controls/infrastructure-security/cloud-security-configuration-aws.md": {
+    "soc2": [
+      {"id": "cc71", "annotation": "Cloud security configuration implements defined configuration standards"},
+      {"id": "cc61", "annotation": "Cloud configurations restrict logical access and protect infrastructure"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Secure cloud configuration ensures appropriate security for processing systems"},
+      {"id": "art25", "annotation": "Secure defaults implement data protection by design and default"}
+    ]
+  },
+  "controls/infrastructure-security/logging-monitoring.md": {
+    "soc2": [
+      {"id": "cc72", "annotation": "Logging and monitoring detects anomalies indicative of security events"},
+      {"id": "cc71", "annotation": "Monitoring identifies configuration changes that introduce vulnerabilities"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Logging and monitoring enable detection of and response to security incidents"}
+    ]
+  },
+  "controls/infrastructure-security/network-security.md": {
+    "soc2": [
+      {"id": "cc66", "annotation": "Network security implements boundary protection systems and restricts external access"},
+      {"id": "cc61", "annotation": "Network controls restrict logical access and manage points of access"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Network security is a technical measure protecting confidentiality and integrity of personal data"}
+    ]
+  },
+  "controls/monitoring/endpoint-observability.md": {
+    "soc2": [
+      {"id": "cc72", "annotation": "Endpoint monitoring detects anomalies and security events on devices"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Endpoint monitoring ensures ongoing security of devices processing personal data"}
+    ]
+  },
+  "controls/monitoring/infrastructure-observability.md": {
+    "soc2": [
+      {"id": "cc72", "annotation": "Infrastructure monitoring detects operational anomalies and security events"},
+      {"id": "a11", "annotation": "Infrastructure monitoring measures capacity and system component usage"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Infrastructure monitoring ensures ongoing availability and resilience of processing systems"}
+    ]
+  },
+  "controls/monitoring/siem.md": {
+    "soc2": [
+      {"id": "cc72", "annotation": "SIEM correlates logs to detect anomalies and security events across systems"},
+      {"id": "cc73", "annotation": "SIEM enables evaluation of security events to determine incidents"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "SIEM supports regular testing and evaluation of security measure effectiveness"}
+    ]
+  },
+  "controls/network-security/cloud-network-security.md": {
+    "soc2": [
+      {"id": "cc66", "annotation": "Cloud network security restricts external access through firewalls and boundary protection"},
+      {"id": "cc61", "annotation": "Network segmentation isolates unrelated portions of information systems"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Network security controls protect confidentiality and integrity of personal data in transit"}
+    ]
+  },
+  "controls/network-security/endpoint-network-security.md": {
+    "soc2": [
+      {"id": "cc66", "annotation": "Endpoint network security protects devices from external threats"},
+      {"id": "cc68", "annotation": "Network controls prevent malicious software from reaching endpoints"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Endpoint network protection ensures security of devices handling personal data"}
+    ]
+  },
+  "controls/operational-security/business-continuity.md": {
+    "soc2": [
+      {"id": "cc91", "annotation": "Business continuity identifies and develops risk mitigation for business disruptions"},
+      {"id": "a13", "annotation": "Business continuity testing validates recovery plan procedures"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Business continuity ensures ability to restore availability after incidents"}
+    ]
+  },
+  "controls/operational-security/change-management.md": {
+    "soc2": [
+      {"id": "cc81", "annotation": "Change management authorizes, tests, and implements changes throughout system lifecycle"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Change management is an organizational measure maintaining security during modifications"}
+    ]
+  },
+  "controls/operational-security/incident-response.md": {
+    "soc2": [
+      {"id": "cc73", "annotation": "Incident response evaluates security events and determines appropriate actions"},
+      {"id": "cc74", "annotation": "Executes defined incident response program to contain and remediate incidents"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Incident response ensures timely restoration after security incidents"},
+      {"id": "art33", "annotation": "Incident response enables breach notification requirements"}
+    ]
+  },
+  "controls/operational-security/vulnerability-management.md": {
+    "soc2": [
+      {"id": "cc71", "annotation": "Vulnerability management identifies and remediates susceptibilities to vulnerabilities"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Vulnerability management maintains security of processing systems"}
+    ]
+  },
+  "controls/personnel-security/background-checks.md": {
+    "soc2": [
+      {"id": "cc14", "annotation": "Pre-employment screening demonstrates commitment to hiring competent individuals with integrity"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Background checks are organizational measures ensuring trustworthy personnel handle personal data"}
+    ]
+  },
+  "controls/personnel-security/insider-threat-mitigation.md": {
+    "soc2": [
+      {"id": "cc33", "annotation": "Insider threat controls address potential for fraud in risk assessments"},
+      {"id": "cc63", "annotation": "Access controls and segregation of duties mitigate insider threats"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Insider threat mitigation protects against unauthorized actions by authorized personnel"}
+    ]
+  },
+  "controls/personnel-security/offboarding.md": {
+    "soc2": [
+      {"id": "cc62", "annotation": "Offboarding removes user credentials when access is no longer authorized"},
+      {"id": "cc63", "annotation": "Offboarding removes access to protected information assets when employees leave"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Timely offboarding prevents unauthorized access to personal data by former employees"}
+    ]
+  },
+  "controls/personnel-security/personnel-lifecycle-management.md": {
+    "soc2": [
+      {"id": "cc14", "annotation": "Personnel lifecycle management attracts, develops, and retains competent individuals"},
+      {"id": "cc62", "annotation": "Lifecycle management controls credential issuance and removal"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Personnel lifecycle ensures only authorized employees access personal data"}
+    ]
+  },
+  "controls/personnel-security/rules-of-behavior.md": {
+    "soc2": [
+      {"id": "cc11", "annotation": "Rules of behavior establish standards of conduct supporting internal control"},
+      {"id": "cc15", "annotation": "Rules establish accountability for internal control responsibilities"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Rules of behavior ensure personnel process data only on authorized instructions"}
+    ]
+  },
+  "controls/personnel-security/security-training.md": {
+    "soc2": [
+      {"id": "cc14", "annotation": "Security training develops and maintains competence in alignment with security objectives"},
+      {"id": "cc11", "annotation": "Training demonstrates commitment to security and ethical values"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Training ensures personnel understand their obligations when processing personal data"}
+    ]
+  },
+  "controls/physical-protection/office-security.md": {
+    "soc2": [
+      {"id": "cc64", "annotation": "Office security restricts physical access to facilities and protected information assets"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Physical security is an organizational measure protecting against unauthorized physical access to personal data"}
+    ]
+  },
+  "controls/risk-management/organizational-risk-assessment.md": {
+    "soc2": [
+      {"id": "cc31", "annotation": "Risk assessment specifies objectives and identifies risks to achievement"},
+      {"id": "cc32", "annotation": "Risk assessment analyzes risks across the entity as basis for risk management"},
+      {"id": "cc33", "annotation": "Risk assessment considers potential for fraud and misconduct"}
+    ],
+    "gdpr": [
+      {"id": "art24", "annotation": "Risk assessment determines appropriate technical and organizational measures"},
+      {"id": "art32", "annotation": "Security measures must be appropriate to the assessed risk"},
+      {"id": "art35", "annotation": "High-risk processing requires data protection impact assessment"}
+    ]
+  },
+  "controls/risk-management/vendor-risk-management.md": {
+    "soc2": [
+      {"id": "cc92", "annotation": "Vendor risk management assesses and manages risks associated with vendors and business partners"},
+      {"id": "p64", "annotation": "Obtains privacy commitments from vendors with access to personal information"}
+    ],
+    "gdpr": [
+      {"id": "art28", "annotation": "Vendor risk management ensures processors provide sufficient guarantees for data protection"},
+      {"id": "art32", "annotation": "Vendor assessments verify appropriate technical and organizational measures"}
+    ]
+  },
+  "controls/security-assurance/bug-bounty-program.md": {
+    "soc2": [
+      {"id": "cc71", "annotation": "Bug bounty programs identify vulnerabilities through external security testing"},
+      {"id": "cc41", "annotation": "Bug bounty provides ongoing external evaluation of security controls"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Bug bounty testing evaluates effectiveness of security measures"}
+    ]
+  },
+  "controls/security-assurance/customer-security-communications.md": {
+    "soc2": [
+      {"id": "cc23", "annotation": "Security communications provide information to external parties about security matters"},
+      {"id": "p11", "annotation": "Communications provide notice about security and privacy practices"}
+    ],
+    "gdpr": [
+      {"id": "art13", "annotation": "Security communications inform data subjects about data protection measures"}
+    ]
+  },
+  "controls/security-assurance/penetration-tests.md": {
+    "soc2": [
+      {"id": "cc71", "annotation": "Penetration testing identifies vulnerabilities through simulated attacks"},
+      {"id": "cc41", "annotation": "Penetration tests provide separate evaluations of security control effectiveness"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Penetration testing regularly evaluates effectiveness of technical security measures"}
+    ]
+  },
+  "controls/security-assurance/security-reviews.md": {
+    "soc2": [
+      {"id": "cc41", "annotation": "Security reviews perform ongoing evaluations of internal controls"},
+      {"id": "cc42", "annotation": "Reviews identify and communicate security control deficiencies"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Security reviews regularly assess and evaluate security measure effectiveness"}
+    ]
+  },
+  "controls/security-engineering/automated-code-analysis.md": {
+    "soc2": [
+      {"id": "cc71", "annotation": "Automated code analysis detects vulnerabilities in software before deployment"},
+      {"id": "cc81", "annotation": "Code analysis supports secure software development and change management"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Code analysis ensures security of software processing personal data"},
+      {"id": "art25", "annotation": "Secure code analysis implements data protection by design"}
+    ]
+  },
+  "controls/security-engineering/secure-code-review.md": {
+    "soc2": [
+      {"id": "cc71", "annotation": "Code review identifies security vulnerabilities during development"},
+      {"id": "cc81", "annotation": "Code review ensures changes meet security requirements before implementation"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Code review is a technical measure ensuring security of processing systems"},
+      {"id": "art25", "annotation": "Secure code review implements data protection by design"}
+    ]
+  },
+  "controls/security-engineering/secure-coding-standards.md": {
+    "soc2": [
+      {"id": "cc71", "annotation": "Coding standards define security configuration standards for software development"},
+      {"id": "cc53", "annotation": "Standards establish what is expected to support secure development"}
+    ],
+    "gdpr": [
+      {"id": "art25", "annotation": "Secure coding standards implement data protection by design in software"},
+      {"id": "art32", "annotation": "Coding standards ensure security of systems processing personal data"}
+    ]
+  },
+  "controls/security-training/incident-response-training.md": {
+    "soc2": [
+      {"id": "cc14", "annotation": "Incident response training develops competence for handling security incidents"},
+      {"id": "cc74", "annotation": "Training ensures personnel can execute incident response program effectively"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Training ensures personnel can respond appropriately to security incidents"}
+    ]
+  },
+  "controls/security-training/secure-coding-training.md": {
+    "soc2": [
+      {"id": "cc14", "annotation": "Secure coding training develops competence in secure software development"},
+      {"id": "cc71", "annotation": "Training supports implementation of secure configuration standards"}
+    ],
+    "gdpr": [
+      {"id": "art25", "annotation": "Developer training supports data protection by design implementation"},
+      {"id": "art32", "annotation": "Training ensures developers understand security requirements"}
+    ]
+  },
+  "controls/security-training/security-awareness-training.md": {
+    "soc2": [
+      {"id": "cc14", "annotation": "Security awareness training develops competence aligned with security objectives"},
+      {"id": "cc11", "annotation": "Training demonstrates commitment to integrity and security values"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Security training ensures personnel process data only on authorized instructions"}
+    ]
+  },
+  "controls/threat-detection/cloud-threat-detection.md": {
+    "soc2": [
+      {"id": "cc72", "annotation": "Cloud threat detection monitors infrastructure for anomalies indicative of malicious acts"},
+      {"id": "cc73", "annotation": "Threat detection evaluates events to determine security incidents"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Threat detection ensures ongoing security and resilience of cloud processing systems"}
+    ]
+  },
+  "controls/threat-detection/endpoint-threat-detection.md": {
+    "soc2": [
+      {"id": "cc72", "annotation": "Endpoint threat detection monitors devices for malicious activities and anomalies"},
+      {"id": "cc68", "annotation": "Endpoint detection identifies unauthorized or malicious software"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Endpoint threat detection ensures security of devices processing personal data"}
+    ]
+  },
+  "controls/threat-detection/saas-threat-detection.md": {
+    "soc2": [
+      {"id": "cc72", "annotation": "SaaS threat detection monitors cloud applications for security anomalies"},
+      {"id": "cc92", "annotation": "SaaS monitoring supports vendor risk management oversight"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "SaaS threat detection ensures security when processors handle personal data"}
+    ]
+  },
+  "controls/vendor-management/third-party-risk-assessment.md": {
+    "soc2": [
+      {"id": "cc92", "annotation": "Third-party risk assessment evaluates vendor and business partner risks"},
+      {"id": "p64", "annotation": "Assessments verify vendors have effective controls to protect personal information"}
+    ],
+    "gdpr": [
+      {"id": "art28", "annotation": "Vendor assessments ensure processors provide sufficient security guarantees"},
+      {"id": "art32", "annotation": "Third-party assessments verify appropriate technical and organizational measures"}
+    ]
+  },
+  "controls/vendor-management/vendor-contracts-dpas.md": {
+    "soc2": [
+      {"id": "cc92", "annotation": "Vendor contracts establish compliance requirements and service level expectations"},
+      {"id": "p64", "annotation": "Contracts obtain privacy commitments from vendors with access to personal information"}
+    ],
+    "gdpr": [
+      {"id": "art28", "annotation": "Data Processing Agreements are required contracts for processors handling personal data"}
+    ]
+  },
+  "controls/vulnerability-management/cloud-vulnerability-detection.md": {
+    "soc2": [
+      {"id": "cc71", "annotation": "Cloud vulnerability scanning identifies susceptibilities to newly discovered vulnerabilities"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Vulnerability scanning regularly assesses security of cloud infrastructure"}
+    ]
+  },
+  "controls/vulnerability-management/endpoint-vulnerability-detection.md": {
+    "soc2": [
+      {"id": "cc71", "annotation": "Endpoint vulnerability scanning detects misconfigurations and vulnerabilities on devices"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Endpoint vulnerability scanning ensures security of devices processing personal data"}
+    ]
+  },
+  "controls/vulnerability-management/vulnerability-management-process.md": {
+    "soc2": [
+      {"id": "cc71", "annotation": "Vulnerability management process implements detection and remediation of vulnerabilities"},
+      {"id": "cc41", "annotation": "Vulnerability tracking and remediation evaluates control effectiveness"}
+    ],
+    "gdpr": [
+      {"id": "art32", "annotation": "Vulnerability management regularly tests and evaluates security measure effectiveness"}
+    ]
+  }
+}

@@ -3,5 +3,3 @@
 - Retain individual training records for \[ Assignment: time period \].
 ## Guidance
 Documentation for specialized training may be maintained by individual supervisors at the discretion of the organization. The National Archives and Records Administration provides guidance on records retention for federal agencies.
-## Framework Mappings
-- [SAT-04 - Cybersecurity & Data Privacy Training Records](../scf/sat-04-cybersecurity&dataprivacytrainingrecords.md)

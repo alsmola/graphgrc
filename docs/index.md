@@ -98,7 +98,7 @@ Organization-specific security controls organized by family, mapped to SOC 2, GD
 
 | Control | Title |
 |---------|-------|
-| [Change Management](controls/change-management/change-management.md) | Manage changes to production systems |
+| [Change Management](controls/operational-security/change-management.md) | Manage changes to production systems |
 
 ### Compliance
 
@@ -106,7 +106,7 @@ Organization-specific security controls organized by family, mapped to SOC 2, GD
 |---------|-------|
 | [Contract Management](controls/compliance/contract-management.md) | Manage security contracts and obligations |
 | [Internal Audits](controls/compliance/internal-audits.md) | Conduct internal security audits |
-| [GRC Function](controls/compliance/grc-function.md) | Maintain GRC program |
+| [GRC Function](controls/charter/governance.md) | Maintain GRC program |
 | [External Audits](controls/compliance/external-audits.md) | Coordinate external audits |
 | [Documentation Review](controls/compliance/documentation-review.md) | Review and update documentation |
 
@@ -166,7 +166,7 @@ Organization-specific security controls organized by family, mapped to SOC 2, GD
 
 | Control | Title |
 |---------|-------|
-| [Infrastructure Observability](controls/monitoring/infrastructure-observability.md) | Monitor infrastructure |
+| [Infrastructure Observability](controls/infrastructure-security/logging-monitoring.md) | Monitor infrastructure |
 | [Endpoint Observability](controls/monitoring/endpoint-observability.md) | Monitor endpoints |
 | [SIEM](controls/monitoring/siem.md) | Security information and event management |
 

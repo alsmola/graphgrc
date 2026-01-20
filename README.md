@@ -14,7 +14,7 @@ Browse the live documentation at **[engseclabs.github.io/graphgrc/](https://engs
 
 | Category | Count | Description |
 |----------|-------|-------------|
-| **Controls** | 86 | Detailed security controls organized by family (IAM, cryptography, incident response, etc.) |
+| **Controls** | 79 | Detailed security controls organized by 25 families (IAM, cryptography, incident response, etc.) |
 | **Standards** | 10 | Technical security standards (AWS security, cryptography, data classification, etc.) |
 | **Policies** | 9 | Security policies for different roles and functions |
 | **Processes** | 23 | Operational procedures (incident response, audits, access reviews, etc.) |
@@ -23,7 +23,7 @@ Browse the live documentation at **[engseclabs.github.io/graphgrc/](https://engs
 
 ### Control Families
 
-**86 controls** covering comprehensive security domains:
+**79 controls** across 25 families covering comprehensive security domains:
 
 - **Asset Management** - Cloud, endpoint, and SaaS inventory
 - **Availability** - Monitoring, capacity planning, disaster recovery
@@ -82,9 +82,12 @@ GraphGRC uses a **hub-and-spoke** architecture with SCF as the central mapping l
 
 **Key features:**
 - **Semantic:** Framework requirements parsed, structured, and rendered as navigable Markdown
-- **Linked:** Bidirectional mappings show how controls satisfy multiple framework requirements
-- **Comprehensive:** 86 controls with detailed objectives, implementation guidance, and evidence
-- **Automated:** Scripts for link fixing, ID generation, and content standardization
+- **Interlinked:** Comprehensive cross-references between controls, standards, policies, and processes
+- **Bidirectional:** Auto-generated backlinks showing implementation relationships
+  - Controls show "Implemented By" backlinks to standards/policies/processes
+  - Frameworks show "Referenced By" backlinks to controls
+- **Comprehensive:** 79 controls with detailed objectives, implementation guidance, and evidence
+- **Automated:** Scripts for link fixing, ID generation, content standardization, and backlink generation
 
 ## Quick Start
 
@@ -211,16 +214,26 @@ All documentation includes:
 
 - **Frontmatter metadata:** Type, title, owner, review dates, IDs
 - **Consistent structure:** Standardized headings and sections
-- **Cross-references:** 114+ backlinks between related documents
+- **Comprehensive cross-references:** 200+ links between controls, standards, policies, and processes
+- **Auto-generated backlinks:** 114+ "Referenced By" sections showing document relationships
 - **Evidence guidance:** Specific audit evidence examples
 - **Implementation details:** Practical guidance with real tools (AWS KMS, Okta, CrowdStrike, etc.)
 
 **Quality metrics:**
 - ✅ 100% controls filled (0 templates)
+- ✅ 100% controls have framework mappings (79/79)
+- ✅ **100% controls have implementation backlinks (79/79)**
+- ✅ 100% standards have control mappings (10/10)
 - ✅ All standards have unique IDs
 - ✅ All control references point to correct locations
-- ✅ Bidirectional links maintained
+- ✅ Bidirectional links auto-generated and maintained
 - ✅ Consistent frontmatter across all document types
+
+**Interlinking structure:**
+- **Controls → Frameworks:** Each control links to framework requirements it satisfies (SOC 2, GDPR, ISO, NIST)
+- **Frameworks → Controls:** "Referenced By" sections show which controls satisfy each requirement
+- **Standards/Policies/Processes → Controls:** "Control Mapping" sections with annotated links (629 total)
+- **Controls → Implementation Docs:** "Implemented By" sections auto-generated from Control Mappings
 
 ## Data Sources
 
@@ -298,8 +311,7 @@ MIT
 ## Documentation
 
 - **[CLAUDE.md](CLAUDE.md)** - Comprehensive AI assistant guide for working on the codebase
-- **[DOCUMENTATION_AUDIT_RESULTS.md](DOCUMENTATION_AUDIT_RESULTS.md)** - Detailed audit findings and fixes
-- **[DOCUMENTATION_STANDARDIZATION_COMPLETE.md](DOCUMENTATION_STANDARDIZATION_COMPLETE.md)** - Standardization summary
+- Project summaries available in root directory for historical context
 
 ## Links
 

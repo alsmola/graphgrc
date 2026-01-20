@@ -53,8 +53,8 @@ func ParseMarkdownLinks(filePath string, repoRoot string) ([]AnnotatedLink, erro
 		lineNumber++
 		line := scanner.Text()
 
-		// Check if we've entered the Referenced By section
-		if strings.Contains(line, "## Referenced By") {
+		// Check if we've entered the Referenced By or Implemented By section
+		if strings.Contains(line, "## Referenced By") || strings.Contains(line, "## Implemented By") {
 			inReferencedBySection = true
 			continue
 		}

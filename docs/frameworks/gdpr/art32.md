@@ -8,102 +8,86 @@ Taking into account the state of the art, the costs of implementation and the na
 (b) the ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services;
 (c) the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident;
 (d) a process for regularly testing, assessing and evaluating the effectiveness of technical and organisational measures for ensuring the security of the processing.
-### Framework Mappings
-- [AST-01 - Asset Governance](../scf/ast-01-assetgovernance.md)
-- [BCD-01 - Business Continuity Management System (BCMS)](../scf/bcd-01-businesscontinuitymanagementsystembcms.md)
-- [CAP-01 - Capacity & Performance Management](../scf/cap-01-capacity&performancemanagement.md)
-- [CFG-01 - Configuration Management Program](../scf/cfg-01-configurationmanagementprogram.md)
-- [CHG-01 - Change Management Program](../scf/chg-01-changemanagementprogram.md)
-- [CLD-01 - Cloud Services](../scf/cld-01-cloudservices.md)
-- [CPL-01 - Statutory, Regulatory & Contractual Compliance](../scf/cpl-01-statutory,regulatory&contractualcompliance.md)
-- [CRY-01 - Use of Cryptographic Controls](../scf/cry-01-useofcryptographiccontrols.md)
-- [DCH-01 - Data Protection](../scf/dch-01-dataprotection.md)
-- [EMB-01 - Embedded Technology Security Program](../scf/emb-01-embeddedtechnologysecurityprogram.md)
-- [END-01 - Endpoint Security](../scf/end-01-endpointsecurity.md)
-- [GOV-01 - Cybersecurity & Data Protection Governance Program](../scf/gov-01-cybersecurity&dataprotectiongovernanceprogram.md)
-- [GOV-02 - Publishing Cybersecurity & Data Protection Documentation](../scf/gov-02-publishingcybersecurity&dataprotectiondocumentation.md)
-- [GOV-03 - Periodic Review & Update of Cybersecurity & Data Protection Program](../scf/gov-03-periodicreview&updateofcybersecurity&dataprotectionprogram.md)
-- [HRS-01 - Human Resources Security Management](../scf/hrs-01-humanresourcessecuritymanagement.md)
-- [HRS-04 - Personnel Screening](../scf/hrs-04-personnelscreening.md)
-- [IAC-01 - Identity & Access Management (IAM)](../scf/iac-01-identity&accessmanagementiam.md)
-- [IAO-01 - Information Assurance (IA) Operations](../scf/iao-01-informationassuranceiaoperations.md)
-- [IRO-01 - Incident Response Operations](../scf/iro-01-incidentresponseoperations.md)
-- [MNT-01 - Maintenance Operations](../scf/mnt-01-maintenanceoperations.md)
-- [MON-01 - Continuous Monitoring](../scf/mon-01-continuousmonitoring.md)
-- [NET-01 - Network Security Controls (NSC)](../scf/net-01-networksecuritycontrolsnsc.md)
-- [OPS-01 - Operations Security](../scf/ops-01-operationssecurity.md)
-- [PES-01 - Physical & Environmental Protections](../scf/pes-01-physical&environmentalprotections.md)
-- [PRI-01 - Data Privacy Program](../scf/pri-01-dataprivacyprogram.md)
-- [PRI-08 - Testing, Training & Monitoring](../scf/pri-08-testing,training&monitoring.md)
-- [PRM-01 - Cybersecurity & Data Privacy Portfolio Management](../scf/prm-01-cybersecurity&dataprivacyportfoliomanagement.md)
-- [RSK-01 - Risk Management Program](../scf/rsk-01-riskmanagementprogram.md)
-- [SAT-01 - Cybersecurity & Data Privacy-Minded Workforce](../scf/sat-01-cybersecurity&dataprivacy-mindedworkforce.md)
-- [SEA-01 - Secure Engineering Principles](../scf/sea-01-secureengineeringprinciples.md)
-- [SEA-01.1 - Centralized Management of Cybersecurity & Data Privacy Controls](../scf/sea-011-centralizedmanagementofcybersecurity&dataprivacycontrols.md)
-- [TDA-01 - Technology Development & Acquisition](../scf/tda-01-technologydevelopment&acquisition.md)
-- [THR-01 - Threat Intelligence Program](../scf/thr-01-threatintelligenceprogram.md)
-- [TPM-01 - Third-Party Management](../scf/tpm-01-third-partymanagement.md)
-- [VPM-01 - Vulnerability & Patch Management Program (VPMP)](../scf/vpm-01-vulnerability&patchmanagementprogramvpmp.md)
-- [WEB-01 - Web Security](../scf/web-01-websecurity.md)
-- [WEB-02 - Use of Demilitarized Zones (DMZ)](../scf/web-02-useofdemilitarizedzonesdmz.md)
 ## Article 32.2
 In assessing the appropriate level of security account shall be taken in particular of the risks that are presented by processing, in particular from accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to personal data transmitted, stored or otherwise processed.
-### Framework Mappings
-- [AST-01 - Asset Governance](../scf/ast-01-assetgovernance.md)
-- [BCD-01 - Business Continuity Management System (BCMS)](../scf/bcd-01-businesscontinuitymanagementsystembcms.md)
-- [CAP-01 - Capacity & Performance Management](../scf/cap-01-capacity&performancemanagement.md)
-- [CFG-01 - Configuration Management Program](../scf/cfg-01-configurationmanagementprogram.md)
-- [CHG-01 - Change Management Program](../scf/chg-01-changemanagementprogram.md)
-- [CLD-01 - Cloud Services](../scf/cld-01-cloudservices.md)
-- [CPL-01 - Statutory, Regulatory & Contractual Compliance](../scf/cpl-01-statutory,regulatory&contractualcompliance.md)
-- [CRY-01 - Use of Cryptographic Controls](../scf/cry-01-useofcryptographiccontrols.md)
-- [DCH-01 - Data Protection](../scf/dch-01-dataprotection.md)
-- [EMB-01 - Embedded Technology Security Program](../scf/emb-01-embeddedtechnologysecurityprogram.md)
-- [END-01 - Endpoint Security](../scf/end-01-endpointsecurity.md)
-- [GOV-01 - Cybersecurity & Data Protection Governance Program](../scf/gov-01-cybersecurity&dataprotectiongovernanceprogram.md)
-- [GOV-02 - Publishing Cybersecurity & Data Protection Documentation](../scf/gov-02-publishingcybersecurity&dataprotectiondocumentation.md)
-- [GOV-03 - Periodic Review & Update of Cybersecurity & Data Protection Program](../scf/gov-03-periodicreview&updateofcybersecurity&dataprotectionprogram.md)
-- [HRS-01 - Human Resources Security Management](../scf/hrs-01-humanresourcessecuritymanagement.md)
-- [HRS-04 - Personnel Screening](../scf/hrs-04-personnelscreening.md)
-- [IAC-01 - Identity & Access Management (IAM)](../scf/iac-01-identity&accessmanagementiam.md)
-- [IAO-01 - Information Assurance (IA) Operations](../scf/iao-01-informationassuranceiaoperations.md)
-- [IRO-01 - Incident Response Operations](../scf/iro-01-incidentresponseoperations.md)
-- [MNT-01 - Maintenance Operations](../scf/mnt-01-maintenanceoperations.md)
-- [MON-01 - Continuous Monitoring](../scf/mon-01-continuousmonitoring.md)
-- [NET-01 - Network Security Controls (NSC)](../scf/net-01-networksecuritycontrolsnsc.md)
-- [OPS-01 - Operations Security](../scf/ops-01-operationssecurity.md)
-- [PES-01 - Physical & Environmental Protections](../scf/pes-01-physical&environmentalprotections.md)
-- [PRI-01 - Data Privacy Program](../scf/pri-01-dataprivacyprogram.md)
-- [PRI-08 - Testing, Training & Monitoring](../scf/pri-08-testing,training&monitoring.md)
-- [PRM-01 - Cybersecurity & Data Privacy Portfolio Management](../scf/prm-01-cybersecurity&dataprivacyportfoliomanagement.md)
-- [RSK-01 - Risk Management Program](../scf/rsk-01-riskmanagementprogram.md)
-- [SAT-01 - Cybersecurity & Data Privacy-Minded Workforce](../scf/sat-01-cybersecurity&dataprivacy-mindedworkforce.md)
-- [SEA-01 - Secure Engineering Principles](../scf/sea-01-secureengineeringprinciples.md)
-- [SEA-01.1 - Centralized Management of Cybersecurity & Data Privacy Controls](../scf/sea-011-centralizedmanagementofcybersecurity&dataprivacycontrols.md)
-- [TDA-01 - Technology Development & Acquisition](../scf/tda-01-technologydevelopment&acquisition.md)
-- [THR-01 - Threat Intelligence Program](../scf/thr-01-threatintelligenceprogram.md)
-- [TPM-01 - Third-Party Management](../scf/tpm-01-third-partymanagement.md)
-- [VPM-01 - Vulnerability & Patch Management Program (VPMP)](../scf/vpm-01-vulnerability&patchmanagementprogramvpmp.md)
-- [WEB-01 - Web Security](../scf/web-01-websecurity.md)
-- [WEB-02 - Use of Demilitarized Zones (DMZ)](../scf/web-02-useofdemilitarizedzonesdmz.md)
 ## Article 32.3
 Adherence to an approved code of conduct as referred to in Article 40 or an approved certification mechanism as referred to in Article 42 may be used as an element by which to demonstrate compliance with the requirements set out in paragraph 1 of this Article.
-### Framework Mappings
-- [CPL-01 - Statutory, Regulatory & Contractual Compliance](../scf/cpl-01-statutory,regulatory&contractualcompliance.md)
-- [CPL-03 - Cybersecurity & Data Protection Assessments](../scf/cpl-03-cybersecurity&dataprotectionassessments.md)
-- [GOV-01 - Cybersecurity & Data Protection Governance Program](../scf/gov-01-cybersecurity&dataprotectiongovernanceprogram.md)
-- [GOV-02 - Publishing Cybersecurity & Data Protection Documentation](../scf/gov-02-publishingcybersecurity&dataprotectiondocumentation.md)
-- [GOV-03 - Periodic Review & Update of Cybersecurity & Data Protection Program](../scf/gov-03-periodicreview&updateofcybersecurity&dataprotectionprogram.md)
-- [IAO-01 - Information Assurance (IA) Operations](../scf/iao-01-informationassuranceiaoperations.md)
-- [PRI-01 - Data Privacy Program](../scf/pri-01-dataprivacyprogram.md)
 ## Article 32.4
 The controller and processor shall take steps to ensure that any natural person acting under the authority of the controller or the processor who has access to personal data does not process them except on instructions from the controller, unless he or she is required to do so by Union or Member State law.
-### Framework Mappings
-- [CPL-01 - Statutory, Regulatory & Contractual Compliance](../scf/cpl-01-statutory,regulatory&contractualcompliance.md)
-- [GOV-01 - Cybersecurity & Data Protection Governance Program](../scf/gov-01-cybersecurity&dataprotectiongovernanceprogram.md)
-- [GOV-02 - Publishing Cybersecurity & Data Protection Documentation](../scf/gov-02-publishingcybersecurity&dataprotectiondocumentation.md)
-- [GOV-03 - Periodic Review & Update of Cybersecurity & Data Protection Program](../scf/gov-03-periodicreview&updateofcybersecurity&dataprotectionprogram.md)
-- [HRS-01 - Human Resources Security Management](../scf/hrs-01-humanresourcessecuritymanagement.md)
-- [HRS-04 - Personnel Screening](../scf/hrs-04-personnelscreening.md)
-- [PRI-01 - Data Privacy Program](../scf/pri-01-dataprivacyprogram.md)
 - [SAT-01 - Cybersecurity & Data Privacy-Minded Workforce](../scf/sat-01-cybersecurity&dataprivacy-mindedworkforce.md)
+
+---
+
+---
+
+## Referenced By
+
+*This section is automatically generated by `make generate-backlinks`. Do not edit manually.*
+
+**Controls:**
+- [Endpoint Inventory](../../controls/asset-management/endpoint-inventory.md) ^[Asset inventory is an organizational measure ensuring security of processing]
+- [Availability Monitoring](../../controls/availability/availability-monitoring.md) ^[Availability monitoring ensures ongoing availability and resilience of processing systems]
+- [Capacity Planning](../../controls/availability/capacity-planning.md) ^[Capacity planning ensures ongoing availability and resilience of processing systems]
+- [Disaster Recovery](../../controls/availability/disaster-recovery.md) ^[Disaster recovery enables restoring availability and access to personal data in timely manner after incidents]
+- [External Audits](../../controls/compliance/external-audits.md) ^[External audits support evaluating effectiveness of technical and organizational security measures]
+- [Internal Audits](../../controls/compliance/internal-audits.md) ^[Internal audits evaluate effectiveness of technical and organizational security measures]
+- [Cloud Hardening](../../controls/configuration-management/cloud-hardening.md) ^[Cloud hardening is a technical measure ensuring appropriate security for processing systems]
+- [Endpoint Hardening](../../controls/configuration-management/endpoint-hardening.md) ^[Endpoint hardening ensures security of devices processing personal data]
+- [SaaS Hardening](../../controls/configuration-management/saas-hardening.md) ^[SaaS hardening ensures appropriate security when processors handle personal data]
+- [Code Signing](../../controls/cryptography/code-signing.md) ^[Code signing is a technical measure ensuring integrity of processing systems]
+- [Encryption at Rest](../../controls/cryptography/encryption-at-rest.md) ^[Encryption of personal data is explicitly listed as appropriate technical security measure]
+- [Encryption in Transit](../../controls/cryptography/encryption-in-transit.md) ^[Encryption during transmission protects personal data from unauthorized access]
+- [Key Management](../../controls/cryptography/key-management.md) ^[Proper key management ensures effectiveness of encryption as a security measure]
+- [data-management-data-classification: Data Classification](../../controls/data-management/data-classification.md) ^[Classification enables risk-based security measures appropriate to data sensitivity]
+- [endpoint-security-device-management-macos-mdm: Device Management (macOS MDM)](../../controls/endpoint-security/device-management-macos-mdm.md) ^[Device management ensures security of endpoints processing personal data]
+- [endpoint-security-endpoint-protection: Endpoint Protection](../../controls/endpoint-security/endpoint-protection.md) ^[Endpoint protection ensures confidentiality, integrity, and availability of processing systems]
+- [endpoint-security-software-updates: Software Updates](../../controls/endpoint-security/software-updates.md) ^[Patching is a technical measure maintaining security of processing systems]
+- [governance-risk-assessment: Risk Assessment](../../controls/governance/risk-assessment.md) ^[Security measures must be appropriate to the risk assessed]
+- [Cloud IAM](../../controls/iam/cloud-iam.md) ^[Cloud IAM is a technical measure ensuring only authorized access to personal data]
+- [iam-identity-authentication: Identity & Authentication](../../controls/iam/identity-authentication.md) ^[Authentication ensures only authorized persons access personal data]
+- [iam-least-privilege-rbac: Least Privilege & RBAC](../../controls/iam/least-privilege-rbac.md) ^[Least privilege minimizes risk of unauthorized access to personal data]
+- [Multi-Factor Authentication](../../controls/iam/multi-factor-authentication.md) ^[Multi-factor authentication is a technical security measure protecting personal data]
+- [Password Management](../../controls/iam/password-management.md) ^[Password management ensures security of authentication mechanisms]
+- [iam-privileged-access-management: Privileged Access Management](../../controls/iam/privileged-access-management.md) ^[PAM is an organizational measure controlling access to sensitive personal data]
+- [SaaS IAM](../../controls/iam/saas-iam.md) ^[SaaS IAM ensures appropriate access controls when processors handle personal data]
+- [Secrets Management](../../controls/iam/secrets-management.md) ^[Secrets management protects cryptographic keys and credentials used to secure personal data]
+- [Single Sign-On](../../controls/iam/single-sign-on.md) ^[SSO strengthens authentication and access management for systems processing personal data]
+- [Incident Response Exercises](../../controls/incident-response/incident-response-exercises.md) ^[Testing incident response is required to evaluate effectiveness of security measures]
+- [Security Incident Response](../../controls/incident-response/security-incident-response.md) ^[Incident response ensures ability to restore availability after technical incidents]
+- [infrastructure-security-backup-recovery: Backup & Recovery](../../controls/infrastructure-security/backup-recovery.md) ^[Backups enable restoring availability and access to personal data after incidents]
+- [infrastructure-security-cloud-security-configuration-aws: Cloud Security Configuration (AWS)](../../controls/infrastructure-security/cloud-security-configuration-aws.md) ^[Secure cloud configuration ensures appropriate security for processing systems]
+- [infrastructure-security-logging-monitoring: Logging & Monitoring](../../controls/infrastructure-security/logging-monitoring.md) ^[Logging and monitoring enable detection of and response to security incidents]
+- [infrastructure-security-network-security: Network Security](../../controls/infrastructure-security/network-security.md) ^[Network security is a technical measure protecting confidentiality and integrity of personal data]
+- [Endpoint Observability](../../controls/monitoring/endpoint-observability.md) ^[Endpoint monitoring ensures ongoing security of devices processing personal data]
+- [Security Information and Events Management](../../controls/monitoring/siem.md) ^[SIEM supports regular testing and evaluation of security measure effectiveness]
+- [Cloud Network Security](../../controls/network-security/cloud-network-security.md) ^[Network security controls protect confidentiality and integrity of personal data in transit]
+- [Endpoint Network Security](../../controls/network-security/endpoint-network-security.md) ^[Endpoint network protection ensures security of devices handling personal data]
+- [operational-security-business-continuity: Business Continuity](../../controls/operational-security/business-continuity.md) ^[Business continuity ensures ability to restore availability after incidents]
+- [operational-security-change-management: Change Management](../../controls/operational-security/change-management.md) ^[Change management is an organizational measure maintaining security during modifications]
+- [operational-security-vulnerability-management: Vulnerability Management](../../controls/operational-security/vulnerability-management.md) ^[Vulnerability management maintains security of processing systems]
+- [personnel-security-background-checks: Background Checks](../../controls/personnel-security/background-checks.md) ^[Background checks are organizational measures ensuring trustworthy personnel handle personal data]
+- [Insider Threat Mitigation](../../controls/personnel-security/insider-threat-mitigation.md) ^[Insider threat mitigation protects against unauthorized actions by authorized personnel]
+- [personnel-security-offboarding: Offboarding](../../controls/personnel-security/offboarding.md) ^[Timely offboarding prevents unauthorized access to personal data by former employees]
+- [Personnel Lifecycle Management](../../controls/personnel-security/personnel-lifecycle-management.md) ^[Personnel lifecycle ensures only authorized employees access personal data]
+- [Rules of Behavior](../../controls/personnel-security/rules-of-behavior.md) ^[Rules of behavior ensure personnel process data only on authorized instructions]
+- [personnel-security-security-training: Security Training](../../controls/personnel-security/security-training.md) ^[Training ensures personnel understand their obligations when processing personal data]
+- [Office Security](../../controls/physical-protection/office-security.md) ^[Physical security is an organizational measure protecting against unauthorized physical access to personal data]
+- [Organizational Risk Assessment](../../controls/risk-management/organizational-risk-assessment.md) ^[Security measures must be appropriate to the assessed risk]
+- [Vendor Risk Management](../../controls/risk-management/vendor-risk-management.md) ^[Vendor assessments verify appropriate technical and organizational measures]
+- [Bug Bounty Program](../../controls/security-assurance/bug-bounty-program.md) ^[Bug bounty testing evaluates effectiveness of security measures]
+- [Penetration Tests](../../controls/security-assurance/penetration-tests.md) ^[Penetration testing regularly evaluates effectiveness of technical security measures]
+- [Security Reviews](../../controls/security-assurance/security-reviews.md) ^[Security reviews regularly assess and evaluate security measure effectiveness]
+- [Automated Code Analysis](../../controls/security-engineering/automated-code-analysis.md) ^[Code analysis ensures security of software processing personal data]
+- [Secure Code Review](../../controls/security-engineering/secure-code-review.md) ^[Code review is a technical measure ensuring security of processing systems]
+- [Secure Coding Standards](../../controls/security-engineering/secure-coding-standards.md) ^[Coding standards ensure security of systems processing personal data]
+- [Incident Response Training](../../controls/security-training/incident-response-training.md) ^[Training ensures personnel can respond appropriately to security incidents]
+- [Secure Coding Training](../../controls/security-training/secure-coding-training.md) ^[Training ensures developers understand security requirements]
+- [Security Awareness Training](../../controls/security-training/security-awareness-training.md) ^[Security training ensures personnel process data only on authorized instructions]
+- [Cloud Threat Detection](../../controls/threat-detection/cloud-threat-detection.md) ^[Threat detection ensures ongoing security and resilience of cloud processing systems]
+- [Endpoint Threat Detection](../../controls/threat-detection/endpoint-threat-detection.md) ^[Endpoint threat detection ensures security of devices processing personal data]
+- [SaaS Threat Detection](../../controls/threat-detection/saas-threat-detection.md) ^[SaaS threat detection ensures security when processors handle personal data]
+- [vendor-management-third-party-risk-assessment: Third-Party Risk Assessment](../../controls/vendor-management/third-party-risk-assessment.md) ^[Third-party assessments verify appropriate technical and organizational measures]
+- [Cloud Vulnerability Detection](../../controls/vulnerability-management/cloud-vulnerability-detection.md) ^[Vulnerability scanning regularly assesses security of cloud infrastructure]
+- [Endpoint Vulnerability Detection](../../controls/vulnerability-management/endpoint-vulnerability-detection.md) ^[Endpoint vulnerability scanning ensures security of devices processing personal data]
+- [Vulnerability Management Process](../../controls/vulnerability-management/vulnerability-management-process.md) ^[Vulnerability management regularly tests and evaluates security measure effectiveness]
+
