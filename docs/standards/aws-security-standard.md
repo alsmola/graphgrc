@@ -1,5 +1,6 @@
 ---
 type: standard
+id: standard-aws-security
 title: AWS Security Standard
 owner: infrastructure-team
 last_reviewed: 2025-01-09
@@ -65,13 +66,13 @@ Applies to all AWS accounts in the organization, including production, staging, 
 ## Control Mapping
 
 <!-- This section is used to generate backlinks from custom controls to this standard/process/policy. -->
-<!-- Add links to custom controls using the format: [Control Name](../custom/control-id.md) ^[annotation] -->
+<!-- Add links to controls using the format: [Control Name](../controls/{family}/{control}.md) ^[annotation] -->
 
-- [ACC-01: Identity & Authentication](../custom/acc-01.md) ^[IAM Identity Center for cloud access with MFA and SSO]
-- [ACC-02: Least Privilege & RBAC](../custom/acc-02.md) ^[IAM policies with least privilege, no wildcard permissions in production]
-- [ACC-03: Access Reviews](../custom/acc-03.md) ^[Quarterly IAM role and policy access reviews]
-- [ACC-04: Privileged Access Management](../custom/acc-04.md) ^[Root account MFA with hardware token stored in vault, CloudTrail logging]
-- [DAT-02: Encryption](../custom/dat-02.md) ^[S3 encryption at rest (SSE-S3/SSE-KMS), RDS encryption with KMS, TLS 1.2+ in transit]
-- [INF-01: Cloud Security Configuration (AWS)](../custom/inf-01.md) ^[VPC configuration, security groups default deny, VPC Flow Logs enabled]
-- [INF-02: Network Security](../custom/inf-02.md) ^[No publicly accessible RDS, VPC endpoints for AWS services]
-- [INF-03: Logging & Monitoring](../custom/inf-03.md) ^[CloudTrail in all regions, GuardDuty enabled, centralized logging to S3]
+- [ACC-01: Identity & Authentication](../controls/iam/identity-authentication.md) ^[IAM Identity Center for cloud access with MFA and SSO]
+- [ACC-02: Least Privilege & RBAC](../controls/iam/least-privilege-rbac.md) ^[IAM policies with least privilege, no wildcard permissions in production]
+- [ACC-03: Access Reviews](../controls/iam/access-reviews.md) ^[Quarterly IAM role and policy access reviews]
+- [ACC-04: Privileged Access Management](../controls/iam/privileged-access-management.md) ^[Root account MFA with hardware token stored in vault, CloudTrail logging]
+- [DAT-02: Encryption](../controls/data-management/encryption.md) ^[S3 encryption at rest (SSE-S3/SSE-KMS), RDS encryption with KMS, TLS 1.2+ in transit]
+- [INF-01: Cloud Security Configuration (AWS)](../controls/infrastructure-security/cloud-security-configuration-aws.md) ^[VPC configuration, security groups default deny, VPC Flow Logs enabled]
+- [INF-02: Network Security](../controls/infrastructure-security/network-security.md) ^[No publicly accessible RDS, VPC endpoints for AWS services]
+- [INF-03: Logging & Monitoring](../controls/infrastructure-security/logging-monitoring.md) ^[CloudTrail in all regions, GuardDuty enabled, centralized logging to S3]

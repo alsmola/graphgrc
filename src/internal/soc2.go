@@ -76,7 +76,7 @@ func GenerateSOC2Markdown(requirement Requirement, scfControlMapping SCFControlM
 	socControlID := getFirstWord(requirement.Name)
 	id := strings.ReplaceAll(requirement.ID, "cc_a", "a")
 	id = strings.ReplaceAll(id, "cc_c", "c")
-	f, err := os.Create(fmt.Sprintf("soc2/%s.md", safeFileName(id)))
+	f, err := os.Create(fmt.Sprintf("../docs/frameworks/soc2/%s.md", safeFileName(id)))
 	if err != nil {
 		return err
 	}
@@ -144,7 +144,7 @@ func parseSOC2Description(description string) []ParsedDescription {
 }
 
 func GenerateSOC2Index(soc2Framework FrameworkSummary) error {
-	f, err := os.Create("soc2/index.md")
+	f, err := os.Create("../docs/frameworks/soc2/index.md")
 	if err != nil {
 		return err
 	}

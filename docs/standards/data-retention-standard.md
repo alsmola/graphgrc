@@ -1,5 +1,6 @@
 ---
 type: standard
+id: standard-data-retention
 title: Data Retention Standard
 owner: security-team
 last_reviewed: 2025-01-09
@@ -96,11 +97,11 @@ All data collected, processed, or stored by the organization, including customer
 ## Control Mapping
 
 <!-- This section is used to generate backlinks from custom controls to this standard/process/policy. -->
-<!-- Add links to custom controls using the format: [Control Name](../custom/control-id.md) ^[annotation] -->
+<!-- Add links to controls using the format: [Control Name](../controls/{family}/{control}.md) ^[annotation] -->
 
-- [DAT-03: Data Retention & Deletion](../custom/dat-03.md) ^[Retention periods for customer data, employee data, logs, and business records]
-- [DAT-04: Data Privacy (GDPR Compliance)](../custom/dat-04.md) ^[Customer data deletion within 30 days, Right to Erasure implementation, data minimization]
-- [INF-03: Logging & Monitoring](../custom/inf-03.md) ^[Audit log retention for 2 years per SOC 2, security logs for 1 year minimum]
+- [DAT-03: Data Retention & Deletion](../controls/data-management/data-retention-deletion.md) ^[Retention periods for customer data, employee data, logs, and business records]
+- [DAT-04: Data Privacy (GDPR Compliance)](../controls/data-management/data-privacy-gdpr-compliance.md) ^[Customer data deletion within 30 days, Right to Erasure implementation, data minimization]
+- [INF-03: Logging & Monitoring](../controls/infrastructure-security/logging-monitoring.md) ^[Audit log retention for 2 years per SOC 2, security logs for 1 year minimum]
 
 ---
 

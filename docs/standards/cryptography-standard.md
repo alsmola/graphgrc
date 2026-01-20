@@ -1,5 +1,6 @@
 ---
 type: standard
+id: standard-cryptography
 title: Cryptography Standard
 owner: security-team
 last_reviewed: 2025-01-09
@@ -79,9 +80,9 @@ All systems that store, process, or transmit Confidential or Restricted data.
 ## Control Mapping
 
 <!-- This section is used to generate backlinks from custom controls to this standard/process/policy. -->
-<!-- Add links to custom controls using the format: [Control Name](../custom/control-id.md) ^[annotation] -->
+<!-- Add links to controls using the format: [Control Name](../controls/{family}/{control}.md) ^[annotation] -->
 
-- [DAT-02: Encryption](../custom/dat-02.md) ^[AES-256-GCM encryption at rest, TLS 1.2+ in transit, AWS KMS for key management]
+- [DAT-02: Encryption](../controls/data-management/encryption.md) ^[AES-256-GCM encryption at rest, TLS 1.2+ in transit, AWS KMS for key management]
 
 ---
 

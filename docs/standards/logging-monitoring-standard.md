@@ -1,5 +1,6 @@
 ---
 type: standard
+id: standard-logging-monitoring
 title: Logging and Monitoring Standard
 owner: infrastructure-team
 last_reviewed: 2025-01-09
@@ -114,12 +115,12 @@ All production systems, applications, infrastructure, and SaaS applications.
 ## Control Mapping
 
 <!-- This section is used to generate backlinks from custom controls to this standard/process/policy. -->
-<!-- Add links to custom controls using the format: [Control Name](../custom/control-id.md) ^[annotation] -->
+<!-- Add links to controls using the format: [Control Name](../controls/{family}/{control}.md) ^[annotation] -->
 
-- [INF-03: Logging & Monitoring](../custom/inf-03.md) ^[CloudWatch centralized logging, 2-year audit log retention, GuardDuty alerts for critical events]
-- [OPS-03: Incident Response](../custom/ops-03.md) ^[Security event monitoring for detection, log collection for investigation]
-- [ACC-03: Access Reviews](../custom/acc-03.md) ^[Audit logs track authentication and authorization events for quarterly reviews]
-- [ACC-04: Privileged Access Management](../custom/acc-04.md) ^[CloudTrail logs all admin API calls, alerts on root account login and IAM policy changes]
+- [INF-03: Logging & Monitoring](../controls/infrastructure-security/logging-monitoring.md) ^[CloudWatch centralized logging, 2-year audit log retention, GuardDuty alerts for critical events]
+- [OPS-03: Incident Response](../controls/operational-security/incident-response.md) ^[Security event monitoring for detection, log collection for investigation]
+- [ACC-03: Access Reviews](../controls/iam/access-reviews.md) ^[Audit logs track authentication and authorization events for quarterly reviews]
+- [ACC-04: Privileged Access Management](../controls/iam/privileged-access-management.md) ^[CloudTrail logs all admin API calls, alerts on root account login and IAM policy changes]
 
 ---
 

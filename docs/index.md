@@ -1,19 +1,16 @@
 # GraphGRC Documentation
 
-A comprehensive, interconnected GRC (Governance, Risk, and Compliance) documentation system with bidirectional linking between controls, standards, processes, policies, and framework requirements.
+Comprehensive GRC (Governance, Risk, and Compliance) documentation system with bidirectional linking between controls, standards, processes, policies, and framework requirements.
 
-## Table of Contents
+## Structure
 
-- [Charter](#charter)
-- [Policies](#policies)
-- [Standards](#standards)
-- [Processes](#processes)
-- [Custom Controls](#custom-controls)
-- [Frameworks](#frameworks)
-  - [SOC 2](#soc-2)
-  - [GDPR](#gdpr)
-
----
+This documentation follows a hierarchical model:
+- **Charter** → Defines mission, principles, and governance
+- **Policies** → Role-based security requirements
+- **Standards** → Technical security baselines
+- **Processes** → Step-by-step operational procedures
+- **Controls** → Specific security controls organized by family
+- **Frameworks** → External compliance frameworks (SOC 2, GDPR, ISO 27001, etc.)
 
 ## Charter
 
@@ -21,41 +18,40 @@ Strategic governance documents defining the information security program.
 
 | Document | Description |
 |----------|-------------|
-| [Information Security Program Charter](charter/information-security-program-charter.md) | Mission, scope, governance structure, and program components |
-| [Risk Management Strategy](charter/risk-management-strategy.md) | Risk appetite, assessment methodology, and treatment framework |
-
----
+| [Governance](charter/governance.md) | Mission, scope, governance structure, and program components |
+| [Risk Management](charter/risk-management.md) | Risk appetite, assessment methodology, and treatment framework |
 
 ## Policies
 
-Security policies defining requirements for all personnel.
+Role-based security policies defining requirements for personnel.
 
 | Policy | Applies To | Description |
 |--------|-----------|-------------|
-| [Baseline Security Policy](policies/baseline-security-policy.md) | All Employees | Minimum security practices for account security, data handling, devices, and incident reporting |
-| [Engineering Security Policy](policies/engineering-security-policy.md) | Engineers | Secure coding, secrets management, code review, and deployment security |
-| [Data Access Policy](policies/data-access-policy.md) | Engineers, Data Team, Support | Requirements for accessing, handling, and protecting customer and employee data |
-
----
+| [Employee](policies/employee.md) | All Employees | Baseline security practices for all personnel |
+| [Engineer](policies/engineer.md) | Engineers | Secure coding, code review, production access |
+| [IT Administrator](policies/it-administrator.md) | IT Team | Privileged access, account management, SaaS administration |
+| [HR Administrator](policies/hr-administrator.md) | HR Team | Employee data protection, HRIS administration |
+| [Product Administrator](policies/product-administrator.md) | Product/Support | Customer data access, support operations |
+| [Security Team](policies/security-team.md) | Security Team | Security operations, risk management, compliance |
 
 ## Standards
 
 Technical security standards and baseline configurations.
 
-| Standard | Owner | Description |
-|----------|-------|-------------|
-| [AWS Security Standard](standards/aws-security-standard.md) | Infrastructure Team | Baseline security configurations for all AWS resources |
-| [Cryptography Standard](standards/cryptography-standard.md) | Security Team | Requirements for encryption at rest, in transit, and key management |
-| [Data Classification Standard](standards/data-classification-standard.md) | Security Team | Four-tier data classification system (Public, Internal, Confidential, Restricted) |
-| [Data Retention Standard](standards/data-retention-standard.md) | Security Team | Retention periods and secure deletion requirements |
-| [Endpoint Security Standard](standards/endpoint-security-standard.md) | IT Team | Baseline security for employee endpoints (macOS laptops) |
-| [GitHub Security Standard](standards/github-security-standard.md) | Engineering Team | Security requirements for GitHub organizations and repositories |
-| [Incident Response Standard](standards/incident-response-standard.md) | Security Team | Requirements for detecting, responding to, and recovering from incidents |
-| [Logging and Monitoring Standard](standards/logging-monitoring-standard.md) | Infrastructure Team | Requirements for security logging, monitoring, and alerting |
-| [SaaS IAM Standard](standards/saas-iam-standard.md) | IT Team | Identity and access management requirements for SaaS applications |
-| [Vulnerability Management Standard](standards/vulnerability-management-standard.md) | Security Team | Requirements for identifying, assessing, and remediating vulnerabilities |
-
----
+| Standard                                                                  | Owner               | Description                                 |
+| ------------------------------------------------------------------------- | ------------------- | ------------------------------------------- |
+| [Cloud Security](standards/cloud-security.md)                             | Infrastructure Team | Baseline configurations for cloud resources |
+| [Cryptography](standards/cryptography.md)                                 | Security Team       | Encryption requirements and key management  |
+| [Customer Support Data Access](standards/customer-support-data-access.md) | Support Team        | Requirements for accessing customer data    |
+| [Data Classification](standards/data-classification.md)                   | Security Team       | Four-tier data classification system        |
+| [Data Isolation](standards/data-isolation.md)                             | Engineering Team    | Multi-tenancy and data separation           |
+| [Data Retention](standards/data-retention.md)                             | Security Team       | Retention periods and deletion requirements |
+| [Infrastructure Hardening](standards/infrastructure-hardening.md)         | Infrastructure Team | Baseline hardening for infrastructure       |
+| [SaaS IAM](standards/saas-iam.md)                                         | IT Team             | Identity and access management for SaaS     |
+| [Security Change Management](standards/security-change-management.md)     | Engineering Team    | Security review for changes                 |
+| [Security Communications](standards/security-communications.md)           | Security Team       | Customer security communications            |
+| [Version Control Security](standards/version-control-security.md)         | Engineering Team    | Git/GitHub security requirements            |
+| [Vulnerability Management](standards/vulnerability-management.md)         | Security Team       | Vulnerability scanning and remediation      |
 
 ## Processes
 
@@ -63,161 +59,203 @@ Step-by-step operational procedures.
 
 | Process | Owner | Description |
 |---------|-------|-------------|
-| [Access Provisioning Process](processes/access-provisioning-process.md) | IT Team | Steps for granting new user access with MFA enrollment and role-based permissions |
-| [Access Review Process](processes/access-review-process.md) | Security Team | Quarterly access reviews by managers with documentation and certification |
-| [Backup and Recovery Process](processes/backup-recovery-process.md) | Infrastructure Team | Automated backups, monitoring, quarterly recovery testing, and annual DR drills |
-| [Change Management Process](processes/change-management-process.md) | Engineering Team | Managing changes to production systems with testing, review, and rollback procedures |
-| [Data Breach Response Process](processes/data-breach-response-process.md) | Security Team | 10-step response for unauthorized data access with GDPR notification requirements |
-| [Incident Response Process](processes/incident-response-process.md) | Security Team | 9-step process for detecting, investigating, and responding to security incidents |
-| [Security Training Process](processes/security-training-process.md) | Security Team | Training program with new hire, annual refresher, role-specific, and phishing simulations |
-| [Vendor Risk Assessment Process](processes/vendor-risk-assessment-process.md) | Security Team | 8-step vendor assessment with questionnaires, SOC 2 review, and DPA negotiation |
-| [Vulnerability Management Process](processes/vulnerability-management-process.md) | Security Team | Automated scanning, triage, risk assessment, remediation, and verification |
+| [Access Review](processes/access-review.md) | Security Team | Quarterly access reviews |
+| [Data Breach Response](processes/data-breach-response.md) | Security Team | Response to unauthorized data access |
+| [External Audit](processes/external-audit.md) | Security Team | SOC 2 and other external audits |
+| [GRC Change](processes/grc-change.md) | Security Team | Process for updating GRC docs |
+| [Internal Audit](processes/internal-audit.md) | Security Team | Self-assessment of controls |
+| [Organizational Risk Assessment](processes/organizational-risk-assessment.md) | Security Team | Annual comprehensive risk review |
+| [Penetration Testing](processes/penetration-testing.md) | Security Team | Third-party penetration testing |
+| [Personal Data Request](processes/personal-data-request.md) | Security Team | GDPR/CCPA data subject requests |
+| [Security Alert Triage](processes/security-alert-triage.md) | Security Team | Triage and respond to security alerts |
+| [Security Code Review](processes/security-code-review.md) | Security Team | Review code for security issues |
+| [Security Design Review](processes/security-design-review.md) | Security Team | Review designs for security risks |
+| [Security Incident Response](processes/security-incident-response.md) | Security Team | Detect, investigate, and respond to incidents |
+| [Security Tabletop Exercises](processes/security-tabletop-exercises.md) | Security Team | Practice incident response |
+| [Vendor Risk Review](processes/vendor-risk-review.md) | Security Team | Assess security of third-party vendors |
 
----
+## Controls
 
-## Custom Controls
+Organization-specific security controls organized by family, mapped to SOC 2, GDPR, and other frameworks.
 
-Organization-specific security controls mapped to SOC 2 and GDPR.
-
-### Access Control (ACC)
-
-| Control | Title | Objective |
-|---------|-------|-----------|
-| [ACC-01](custom/acc-01.md) | Identity & Authentication | Ensure all users are uniquely identified and authenticated using strong, phishing-resistant methods |
-| [ACC-02](custom/acc-02.md) | Least Privilege & RBAC | Ensure users have only the minimum access necessary for their job function |
-| [ACC-03](custom/acc-03.md) | Access Reviews | Periodically review and certify that user access remains appropriate |
-| [ACC-04](custom/acc-04.md) | Privileged Access Management | Secure, monitor, and audit all privileged (admin) access |
-
-### Data Protection (DAT)
-
-| Control | Title | Objective |
-|---------|-------|-----------|
-| [DAT-01](custom/dat-01.md) | Data Classification | Classify data based on sensitivity to enable appropriate protection controls |
-| [DAT-02](custom/dat-02.md) | Encryption | Protect data confidentiality through encryption at rest and in transit |
-| [DAT-03](custom/dat-03.md) | Data Retention & Deletion | Retain data only as long as necessary and securely delete when no longer needed |
-| [DAT-04](custom/dat-04.md) | Data Privacy (GDPR Compliance) | Comply with GDPR and CCPA privacy requirements |
-
-### Endpoint Security (END)
-
-| Control | Title | Objective |
-|---------|-------|-----------|
-| [END-01](custom/end-01.md) | Device Management (macOS MDM) | Ensure all endpoints are enrolled in MDM with security configurations enforced |
-| [END-02](custom/end-02.md) | Endpoint Protection | Detect and prevent malware and unauthorized software on endpoints |
-| [END-03](custom/end-03.md) | Software Updates | Ensure endpoints have latest security patches to prevent exploitation |
-
-### Governance (GOV)
-
-| Control | Title | Objective |
-|---------|-------|-----------|
-| [GOV-01](custom/gov-01.md) | Security Policies | Establish and maintain security policies that define organizational security requirements |
-| [GOV-02](custom/gov-02.md) | Risk Assessment | Identify, assess, and manage information security risks |
-
-### Infrastructure (INF)
-
-| Control | Title | Objective |
-|---------|-------|-----------|
-| [INF-01](custom/inf-01.md) | Cloud Security Configuration (AWS) | Ensure cloud infrastructure is securely configured according to best practices |
-| [INF-02](custom/inf-02.md) | Network Security | Protect network perimeter and segment internal networks |
-| [INF-03](custom/inf-03.md) | Logging & Monitoring | Detect and respond to security events through comprehensive logging |
-| [INF-04](custom/inf-04.md) | Backup & Recovery | Ensure business continuity through regular backups and tested recovery procedures |
-
-### Operations (OPS)
-
-| Control | Title | Objective |
-|---------|-------|-----------|
-| [OPS-01](custom/ops-01.md) | Change Management | Manage changes to production systems to maintain security and stability |
-| [OPS-02](custom/ops-02.md) | Vulnerability Management | Identify and remediate security vulnerabilities in a timely manner |
-| [OPS-03](custom/ops-03.md) | Incident Response | Detect, respond to, and recover from security incidents |
-| [OPS-04](custom/ops-04.md) | Business Continuity | Ensure critical operations can continue during disruptions |
-
-### People (PEO)
-
-| Control | Title | Objective |
-|---------|-------|-----------|
-| [PEO-01](custom/peo-01.md) | Background Checks | Verify trustworthiness of employees before granting access |
-| [PEO-02](custom/peo-02.md) | Security Training | Ensure all personnel are aware of security policies and threats |
-| [PEO-03](custom/peo-03.md) | Offboarding | Ensure access is promptly removed when employment ends |
-
-### Vendor (VEN)
-
-| Control | Title | Objective |
-|---------|-------|-----------|
-| [VEN-01](custom/ven-01.md) | Third-Party Risk Assessment | Assess security and privacy risks of third-party vendors before onboarding |
-| [VEN-02](custom/ven-02.md) | Vendor Contracts & DPAs | Ensure vendors are contractually obligated to protect data |
-
----
-
-## Frameworks
-
-### SOC 2
-
-SOC 2 Trust Services Criteria controls with backlinks showing which custom controls satisfy them.
+### Asset Management
 
 | Control | Title |
 |---------|-------|
-| [CC1.1](frameworks/soc2/cc11.md) | Management and board demonstrate commitment to integrity and ethical values |
-| [CC1.2](frameworks/soc2/cc12.md) | Board demonstrates independence and oversight |
-| [CC1.4](frameworks/soc2/cc14.md) | Management demonstrates commitment to competence |
-| [CC2.1](frameworks/soc2/cc21.md) | Communication of information security responsibilities |
-| [CC2.2](frameworks/soc2/cc22.md) | Internal and external communication of system objectives |
-| [CC3.1](frameworks/soc2/cc31.md) | Risk identification and assessment |
-| [CC3.2](frameworks/soc2/cc32.md) | Assessment of fraud risk |
-| [CC3.4](frameworks/soc2/cc34.md) | Risk response and acceptance |
-| [CC6.1](frameworks/soc2/cc61.md) | Logical access security software |
-| [CC6.2](frameworks/soc2/cc62.md) | User registration and authorization before access |
-| [CC6.3](frameworks/soc2/cc63.md) | Access removal on termination |
-| [CC6.6](frameworks/soc2/cc66.md) | Access restricted to information assets |
-| [CC6.7](frameworks/soc2/cc67.md) | Transmission, movement, and removal protection |
-| [CC6.8](frameworks/soc2/cc68.md) | Encryption in transit and at rest |
-| [CC7.1](frameworks/soc2/cc71.md) | Detection of processing errors and security issues |
-| [CC7.2](frameworks/soc2/cc72.md) | Monitoring of system components |
-| [CC7.3](frameworks/soc2/cc73.md) | System capacity evaluation |
-| [CC7.4](frameworks/soc2/cc74.md) | System availability monitoring and incident response |
-| [CC7.5](frameworks/soc2/cc75.md) | System availability protection |
-| [CC8.1](frameworks/soc2/cc81.md) | Authorization and testing before implementation |
-| [CC9.1](frameworks/soc2/cc91.md) | Identification and mitigation of risks from vendors |
-| [CC9.2](frameworks/soc2/cc92.md) | Assessment of vendor compliance |
-| [A1.1](frameworks/soc2/a11.md) | System availability and commitments |
-| [A1.2](frameworks/soc2/a12.md) | System capacity meets commitments |
-| [A1.3](frameworks/soc2/a13.md) | Environmental safeguards for system availability |
+| [SaaS Inventory](controls/asset-management/saas-inventory.md) | Inventory of SaaS applications |
+| [Cloud Inventory](controls/asset-management/cloud-inventory.md) | Inventory of cloud resources |
+| [Endpoint Inventory](controls/asset-management/endpoint-inventory.md) | Inventory of employee devices |
 
-[View all SOC 2 controls →](frameworks/soc2)
+### Availability
 
-### GDPR
-
-GDPR articles with backlinks showing which custom controls help achieve compliance.
-
-| Article | Title |
+| Control | Title |
 |---------|-------|
-| [Article 5](frameworks/gdpr/art5.md) | Principles relating to processing of personal data |
-| [Article 6](frameworks/gdpr/art6.md) | Lawfulness of processing |
-| [Article 15](frameworks/gdpr/art15.md) | Right of access by the data subject |
-| [Article 17](frameworks/gdpr/art17.md) | Right to erasure (right to be forgotten) |
-| [Article 20](frameworks/gdpr/art20.md) | Right to data portability |
-| [Article 24](frameworks/gdpr/art24.md) | Responsibility of the controller |
-| [Article 28](frameworks/gdpr/art28.md) | Processor obligations and data processing agreements |
-| [Article 30](frameworks/gdpr/art30.md) | Records of processing activities |
-| [Article 32](frameworks/gdpr/art32.md) | Security of processing |
-| [Article 33](frameworks/gdpr/art33.md) | Notification of a personal data breach to the supervisory authority |
-| [Article 34](frameworks/gdpr/art34.md) | Communication of a personal data breach to the data subject |
+| [Disaster Recovery](controls/availability/disaster-recovery.md) | Disaster recovery planning and testing |
+| [Availability Monitoring](controls/availability/availability-monitoring.md) | Monitor service availability |
+| [Capacity Planning](controls/availability/capacity-planning.md) | Plan for capacity needs |
 
-[View all GDPR articles →](frameworks/gdpr)
+### Change Management
 
----
+| Control | Title |
+|---------|-------|
+| [Change Management](controls/change-management/change-management.md) | Manage changes to production systems |
+
+### Compliance
+
+| Control | Title |
+|---------|-------|
+| [Contract Management](controls/compliance/contract-management.md) | Manage security contracts and obligations |
+| [Internal Audits](controls/compliance/internal-audits.md) | Conduct internal security audits |
+| [GRC Function](controls/compliance/grc-function.md) | Maintain GRC program |
+| [External Audits](controls/compliance/external-audits.md) | Coordinate external audits |
+| [Documentation Review](controls/compliance/documentation-review.md) | Review and update documentation |
+
+### Configuration Management
+
+| Control | Title |
+|---------|-------|
+| [SaaS Hardening](controls/configuration-management/saas-hardening.md) | Harden SaaS applications |
+| [Endpoint Hardening](controls/configuration-management/endpoint-hardening.md) | Harden employee endpoints |
+| [Cloud Hardening](controls/configuration-management/cloud-hardening.md) | Harden cloud infrastructure |
+
+### Cryptography
+
+| Control | Title |
+|---------|-------|
+| [Code Signing](controls/cryptography/code-signing.md) | Sign code and releases |
+| [Encryption at Rest](controls/cryptography/encryption-at-rest.md) | Encrypt data at rest |
+| [Encryption in Transit](controls/cryptography/encryption-in-transit.md) | Encrypt data in transit |
+| [Key Management](controls/cryptography/key-management.md) | Manage cryptographic keys |
+
+### Data Management
+
+| Control | Title |
+|---------|-------|
+| [Cloud Data Inventory](controls/data-management/cloud-data-inventory.md) | Inventory data in cloud |
+| [SaaS Data Inventory](controls/data-management/saas-data-inventory.md) | Inventory data in SaaS apps |
+| [Data Classification](controls/data-management/data-classification.md) | Classify data by sensitivity |
+| [Data Retention and Deletion](controls/data-management/data-retention-and-deletion.md) | Retain and delete data appropriately |
+
+### Data Privacy
+
+| Control | Title |
+|---------|-------|
+| [Customer Personal Data](controls/data-privacy/customer-personal-data.md) | Protect customer personal data |
+| [Employee Personal Data](controls/data-privacy/employee-personal-data.md) | Protect employee personal data |
+
+### IAM
+
+| Control | Title |
+|---------|-------|
+| [SaaS IAM](controls/iam/saas-iam.md) | Identity and access management for SaaS |
+| [Password Management](controls/iam/password-management.md) | Password policies and management |
+| [Secrets Management](controls/iam/secrets-management.md) | Manage application secrets |
+| [Single Sign-On](controls/iam/single-sign-on.md) | SSO for applications |
+| [Cloud IAM](controls/iam/cloud-iam.md) | IAM for cloud infrastructure |
+| [Multi-Factor Authentication](controls/iam/multi-factor-authentication.md) | MFA for authentication |
+
+### Incident Response
+
+| Control | Title |
+|---------|-------|
+| [Security Incident Response](controls/incident-response/security-incident-response.md) | Respond to security incidents |
+| [Data Breach Response](controls/incident-response/data-breach-response.md) | Respond to data breaches |
+| [Incident Response Exercises](controls/incident-response/incident-response-exercises.md) | Practice incident response |
+
+### Monitoring
+
+| Control | Title |
+|---------|-------|
+| [Infrastructure Observability](controls/monitoring/infrastructure-observability.md) | Monitor infrastructure |
+| [Endpoint Observability](controls/monitoring/endpoint-observability.md) | Monitor endpoints |
+| [SIEM](controls/monitoring/siem.md) | Security information and event management |
+
+### Network Security
+
+| Control | Title |
+|---------|-------|
+| [Endpoint Network Security](controls/network-security/endpoint-network-security.md) | Network security for endpoints |
+| [Cloud Network Security](controls/network-security/cloud-network-security.md) | Network security for cloud |
+
+### Personnel Security
+
+| Control | Title |
+|---------|-------|
+| [Insider Threat Mitigation](controls/personnel-security/insider-threat-mitigation.md) | Mitigate insider threats |
+| [Personnel Lifecycle Management](controls/personnel-security/personnel-lifecycle-management.md) | Onboard and offboard personnel |
+| [Rules of Behavior](controls/personnel-security/rules-of-behavior.md) | Define expected behavior |
+
+### Physical Protection
+
+| Control | Title |
+|---------|-------|
+| [Office Security](controls/physical-protection/office-security.md) | Physical security for offices |
+
+### Risk Management
+
+| Control | Title |
+|---------|-------|
+| [Vendor Risk Management](controls/risk-management/vendor-risk-management.md) | Assess and manage vendor risks |
+| [Organizational Risk Assessment](controls/risk-management/organizational-risk-assessment.md) | Assess organizational risks |
+
+### Security Assurance
+
+| Control | Title |
+|---------|-------|
+| [Security Reviews](controls/security-assurance/security-reviews.md) | Review security of systems |
+| [Penetration Tests](controls/security-assurance/penetration-tests.md) | Third-party penetration testing |
+| [Bug Bounty Program](controls/security-assurance/bug-bounty-program.md) | Crowdsourced vulnerability discovery |
+| [Customer Security Communications](controls/security-assurance/customer-security-communications.md) | Communicate security posture |
+
+### Security Engineering
+
+| Control | Title |
+|---------|-------|
+| [Automated Code Analysis](controls/security-engineering/automated-code-analysis.md) | SAST/DAST scanning |
+| [Secure Code Review](controls/security-engineering/secure-code-review.md) | Manual code security reviews |
+| [Secure Coding Standards](controls/security-engineering/secure-coding-standards.md) | Standards for secure coding |
+
+### Security Training
+
+| Control | Title |
+|---------|-------|
+| [Secure Coding Training](controls/security-training/secure-coding-training.md) | Train engineers on secure coding |
+| [Security Awareness Training](controls/security-training/security-awareness-training.md) | Train all employees on security |
+| [Incident Response Training](controls/security-training/incident-response-training.md) | Train on incident response |
+
+### Threat Detection
+
+| Control | Title |
+|---------|-------|
+| [Endpoint Threat Detection](controls/threat-detection/endpoint-threat-detection.md) | Detect threats on endpoints |
+| [SaaS Threat Detection](controls/threat-detection/saas-threat-detection.md) | Detect threats in SaaS apps |
+| [Cloud Threat Detection](controls/threat-detection/cloud-threat-detection.md) | Detect threats in cloud |
+
+### Vulnerability Management
+
+| Control | Title |
+|---------|-------|
+| [Cloud Vulnerability Detection](controls/vulnerability-management/cloud-vulnerability-detection.md) | Scan cloud for vulnerabilities |
+| [Endpoint Vulnerability Detection](controls/vulnerability-management/endpoint-vulnerability-detection.md) | Scan endpoints for vulnerabilities |
+| [Vulnerability Management Process](controls/vulnerability-management/vulnerability-management-process.md) | Process for managing vulnerabilities |
+
+## Frameworks
+
+External compliance frameworks with mappings to controls.
+
+- **[SOC 2](frameworks/soc2/)** - Trust Services Criteria
+- **[GDPR](frameworks/gdpr/)** - EU General Data Protection Regulation
+- **[ISO 27001](frameworks/iso27001/)** - Information security management
+- **[ISO 27002](frameworks/iso27002/)** - Security controls
+- **[NIST 800-53](frameworks/nist80053/)** - Security and privacy controls
 
 ## About This Documentation
 
-This documentation system uses:
 - **Bidirectional linking**: Navigate from controls to frameworks and back
-- **Semantic markdown**: Pure markdown with YAML frontmatter (Obsidian and GitHub Pages compatible)
-- **Automated backlinks**: `make generate-backlinks` creates Referenced By sections automatically
-- **Four-tier architecture**: Charter → Policies → Standards/Processes → Custom Controls → Frameworks
-
-For more information:
-- [Documentation Structure Guide](STRUCTURE.md)
-- [Project README](README.md)
-- [GitHub Repository](https://github.com/engseclabs/graphgrc/)
+- **Semantic markdown**: Pure markdown with YAML frontmatter
+- **Automated backlinks**: `make generate-backlinks` creates Referenced By sections
+- **Hierarchical architecture**: Charter → Policies → Standards/Processes → Controls → Frameworks
 
 ---
 
-*Documentation generated with [GraphGRC](https://github.com/engseclabs/graphgrc/) • Last updated: 2025-01-13*
+*Documentation generated with [GraphGRC](https://github.com/engseclabs/graphgrc/) • Last updated: 2025-01-14*

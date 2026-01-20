@@ -1,5 +1,6 @@
 ---
 type: standard
+id: standard-incident-response
 title: Incident Response Standard
 owner: security-team
 last_reviewed: 2025-01-09
@@ -108,11 +109,11 @@ All security incidents affecting confidentiality, integrity, or availability of 
 ## Control Mapping
 
 <!-- This section is used to generate backlinks from custom controls to this standard/process/policy. -->
-<!-- Add links to custom controls using the format: [Control Name](../custom/control-id.md) ^[annotation] -->
+<!-- Add links to controls using the format: [Control Name](../controls/{family}/{control}.md) ^[annotation] -->
 
-- [OPS-03: Incident Response](../custom/ops-03.md) ^[Severity levels, response times (immediate for Sev 1, 1hr for Sev 2), containment procedures]
-- [INF-03: Logging & Monitoring](../custom/inf-03.md) ^[Automated alerts from GuardDuty/SIEM for detection, log collection for investigation]
-- [DAT-04: Data Privacy (GDPR Compliance)](../custom/dat-04.md) ^[GDPR breach notification within 72 hours, customer notification requirements]
+- [OPS-03: Incident Response](../controls/operational-security/incident-response.md) ^[Severity levels, response times (immediate for Sev 1, 1hr for Sev 2), containment procedures]
+- [INF-03: Logging & Monitoring](../controls/infrastructure-security/logging-monitoring.md) ^[Automated alerts from GuardDuty/SIEM for detection, log collection for investigation]
+- [DAT-04: Data Privacy (GDPR Compliance)](../controls/data-management/data-privacy-gdpr-compliance.md) ^[GDPR breach notification within 72 hours, customer notification requirements]
 
 ---
 

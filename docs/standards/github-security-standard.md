@@ -1,5 +1,6 @@
 ---
 type: standard
+id: standard-github-security
 title: GitHub Security Standard
 owner: engineering-team
 last_reviewed: 2025-01-09
@@ -72,13 +73,13 @@ All repositories in the organization's GitHub organization(s).
 ## Control Mapping
 
 <!-- This section is used to generate backlinks from custom controls to this standard/process/policy. -->
-<!-- Add links to custom controls using the format: [Control Name](../custom/control-id.md) ^[annotation] -->
+<!-- Add links to controls using the format: [Control Name](../controls/{family}/{control}.md) ^[annotation] -->
 
-- [ACC-01: Identity & Authentication](../custom/acc-01.md) ^[Require 2FA for all GitHub organization members, SSO integration]
-- [ACC-02: Least Privilege & RBAC](../custom/acc-02.md) ^[GitHub Teams for access management, least privilege (Read by default), quarterly reviews]
-- [ACC-03: Access Reviews](../custom/acc-03.md) ^[Quarterly access reviews of organization members and external collaborators]
-- [OPS-01: Change Management](../custom/ops-01.md) ^[Branch protection on main, require PR reviews, no force pushes, status checks required]
-- [OPS-02: Vulnerability Management](../custom/ops-02.md) ^[Dependabot alerts, secret scanning, security advisories reviewed weekly]
+- [ACC-01: Identity & Authentication](../controls/iam/identity-authentication.md) ^[Require 2FA for all GitHub organization members, SSO integration]
+- [ACC-02: Least Privilege & RBAC](../controls/iam/least-privilege-rbac.md) ^[GitHub Teams for access management, least privilege (Read by default), quarterly reviews]
+- [ACC-03: Access Reviews](../controls/iam/access-reviews.md) ^[Quarterly access reviews of organization members and external collaborators]
+- [OPS-01: Change Management](../controls/operational-security/change-management.md) ^[Branch protection on main, require PR reviews, no force pushes, status checks required]
+- [OPS-02: Vulnerability Management](../controls/operational-security/vulnerability-management.md) ^[Dependabot alerts, secret scanning, security advisories reviewed weekly]
 
 ---
 

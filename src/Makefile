@@ -1,4 +1,4 @@
-.PHONY: help download-frameworks generate-frameworks generate-custom generate-backlinks generate clean clean-generated regenerate
+.PHONY: help download-frameworks generate-frameworks generate-backlinks generate clean clean-generated regenerate
 
 # Base directories
 DOCS_DIR = ../docs
@@ -16,11 +16,7 @@ download-frameworks: ## Download framework data from external sources (SCF, Prow
 
 generate-frameworks: ## Generate framework control pages (SCF, SOC2, GDPR, ISO, NIST)
 	@echo "Generating framework control pages..."
-	go run main.go generate-frameworks
-
-generate-custom: ## Generate custom control pages with semantic markdown
-	@echo "Generating custom control pages..."
-	go run main.go generate-custom
+	go run main.go
 
 cleanup-framework-controls: ## Remove old main.go generated sections from framework controls
 	@echo "Cleaning up framework control pages..."
@@ -47,7 +43,7 @@ generate-backlinks: ## Generate backlinks in standards/processes/policies/framew
 
 regenerate-backlinks: clean-backlinks generate-backlinks ## Clean and regenerate all backlinks
 
-generate: generate-frameworks generate-custom cleanup-framework-controls generate-backlinks ## Generate all documentation
+generate: generate-frameworks cleanup-framework-controls generate-backlinks ## Generate all documentation
 
 clean: ## Remove all generated files
 	@echo "Cleaning generated files..."
@@ -69,6 +65,6 @@ validate: ## Validate all markdown links and frontmatter
 watch: ## Watch for changes and regenerate
 	@echo "Watching for changes..."
 	@while true; do \
-		inotifywait -q -r -e modify $(DOCS_DIR)/custom/ $(DOCS_DIR)/standards/ $(DOCS_DIR)/processes/ $(DOCS_DIR)/policies/ $(DOCS_DIR)/charter/; \
+		inotifywait -q -r -e modify $(DOCS_DIR)/controls/ $(DOCS_DIR)/standards/ $(DOCS_DIR)/processes/ $(DOCS_DIR)/policies/ $(DOCS_DIR)/charter/; \
 		make generate-backlinks; \
 	done

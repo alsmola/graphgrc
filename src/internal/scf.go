@@ -161,7 +161,7 @@ func ReturnSCFControls(url string, getFile bool) (SCFControls, error) {
 }
 
 func GenerateSCFMarkdown(scfControl Control, scfControlID SCFControlID, controlMapping ControlMapping) error {
-	f, err := os.Create(fmt.Sprintf("scf/%s.md", safeFileName(string(scfControlID))))
+	f, err := os.Create(fmt.Sprintf("../docs/frameworks/scf/%s.md", safeFileName(string(scfControlID))))
 	if err != nil {
 		return err
 	}
@@ -265,7 +265,7 @@ func GetComplianceControlMappings(controls SCFControls) SCFControlMappings {
 }
 
 func GenerateSCFIndex(scfControlMappings SCFControlMappings, scfControls SCFControls) error {
-	f, err := os.Create("scf/index.md")
+	f, err := os.Create("../docs/frameworks/scf/index.md")
 	if err != nil {
 		return err
 	}

@@ -1,5 +1,6 @@
 ---
 type: standard
+id: standard-endpoint-security
 title: Endpoint Security Standard
 owner: it-team
 last_reviewed: 2025-01-09
@@ -92,12 +93,12 @@ If allowing BYOD (approved by security team):
 ## Control Mapping
 
 <!-- This section is used to generate backlinks from custom controls to this standard/process/policy. -->
-<!-- Add links to custom controls using the format: [Control Name](../custom/control-id.md) ^[annotation] -->
+<!-- Add links to controls using the format: [Control Name](../controls/{family}/{control}.md) ^[annotation] -->
 
-- [END-01: Device Management (macOS MDM)](../custom/end-01.md) ^[All endpoints enrolled in MDM (Jamf, Kandji, Fleet) with FileVault and configuration management]
-- [END-02: Endpoint Protection](../custom/end-02.md) ^[EDR agent installed (CrowdStrike, SentinelOne) with real-time malware scanning]
-- [END-03: Software Updates](../custom/end-03.md) ^[Automatic macOS security updates, critical patches within 7 days]
-- [DAT-02: Encryption](../custom/dat-02.md) ^[FileVault full-disk encryption with recovery key escrowed in MDM]
+- [END-01: Device Management (macOS MDM)](../controls/endpoint-security/device-management-macos-mdm.md) ^[All endpoints enrolled in MDM (Jamf, Kandji, Fleet) with FileVault and configuration management]
+- [END-02: Endpoint Protection](../controls/endpoint-security/endpoint-protection.md) ^[EDR agent installed (CrowdStrike, SentinelOne) with real-time malware scanning]
+- [END-03: Software Updates](../controls/endpoint-security/software-updates.md) ^[Automatic macOS security updates, critical patches within 7 days]
+- [DAT-02: Encryption](../controls/data-management/encryption.md) ^[FileVault full-disk encryption with recovery key escrowed in MDM]
 
 ---
 

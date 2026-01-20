@@ -1,5 +1,6 @@
 ---
 type: standard
+id: standard-data-classification
 title: Data Classification Standard
 owner: security-team
 last_reviewed: 2025-01-09
@@ -81,11 +82,11 @@ All data created, processed, stored, or transmitted by the organization.
 ## Control Mapping
 
 <!-- This section is used to generate backlinks from custom controls to this standard/process/policy. -->
-<!-- Add links to custom controls using the format: [Control Name](../custom/control-id.md) ^[annotation] -->
+<!-- Add links to controls using the format: [Control Name](../controls/{family}/{control}.md) ^[annotation] -->
 
-- [DAT-01: Data Classification](../custom/dat-01.md) ^[Four-tier classification: Public, Internal, Confidential, Restricted with specific protection requirements]
-- [DAT-02: Encryption](../custom/dat-02.md) ^[Confidential and Restricted data must be encrypted at rest and in transit]
-- [ACC-02: Least Privilege & RBAC](../custom/acc-02.md) ^[Access to Confidential and Restricted data based on role and need-to-know]
+- [DAT-01: Data Classification](../controls/data-management/data-classification.md) ^[Four-tier classification: Public, Internal, Confidential, Restricted with specific protection requirements]
+- [DAT-02: Encryption](../controls/data-management/encryption.md) ^[Confidential and Restricted data must be encrypted at rest and in transit]
+- [ACC-02: Least Privilege & RBAC](../controls/iam/least-privilege-rbac.md) ^[Access to Confidential and Restricted data based on role and need-to-know]
 
 ---
 

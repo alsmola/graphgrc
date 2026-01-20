@@ -63,7 +63,7 @@ func GenerateISOMarkdown(standard Framework, isoDomain ISODomain, scfControlMapp
 	if standard == Framework("ISO 27001") && strings.HasPrefix(isoDomain.Title, "A") {
 		return nil
 	}
-	f, err := os.Create(fmt.Sprintf("%s/%s.md", safeFileName(string(standard)), safeFileName(shortenDomain(standard, isoDomain.Title))))
+	f, err := os.Create(fmt.Sprintf("../docs/frameworks/%s/%s.md", safeFileName(string(standard)), safeFileName(shortenDomain(standard, isoDomain.Title))))
 	if err != nil {
 		return err
 	}
@@ -135,7 +135,7 @@ func FCIDToRequirement(fcid string) string {
 }
 
 func GenerateISOIndex(standard Framework, isoFramework ISOFramework) error {
-	f, err := os.Create(fmt.Sprintf("%s/index.md", safeFileName(string(standard))))
+	f, err := os.Create(fmt.Sprintf("../docs/frameworks/%s/index.md", safeFileName(string(standard))))
 	if err != nil {
 		return err
 	}

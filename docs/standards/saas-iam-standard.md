@@ -1,5 +1,6 @@
 ---
 type: standard
+id: standard-saas-iam
 title: SaaS IAM Standard
 owner: it-team
 last_reviewed: 2025-01-09
@@ -72,12 +73,12 @@ All third-party SaaS applications used by employees (Slack, GitHub, AWS, Google 
 ## Control Mapping
 
 <!-- This section is used to generate backlinks from custom controls to this standard/process/policy. -->
-<!-- Add links to custom controls using the format: [Control Name](../custom/control-id.md) ^[annotation] -->
+<!-- Add links to controls using the format: [Control Name](../controls/{family}/{control}.md) ^[annotation] -->
 
-- [ACC-01: Identity & Authentication](../custom/acc-01.md) ^[SSO integration (SAML/OIDC) with centralized IdP, MFA enforced at IdP level]
-- [ACC-02: Least Privilege & RBAC](../custom/acc-02.md) ^[RBAC configured in each SaaS app, default least privilege, elevated permissions require approval]
-- [ACC-03: Access Reviews](../custom/acc-03.md) ^[Quarterly access reviews to identify orphaned accounts, audit logs for access monitoring]
-- [PEO-03: Offboarding](../custom/peo-03.md) ^[Automated deprovisioning via SCIM completed within 1 hour of termination]
+- [ACC-01: Identity & Authentication](../controls/iam/identity-authentication.md) ^[SSO integration (SAML/OIDC) with centralized IdP, MFA enforced at IdP level]
+- [ACC-02: Least Privilege & RBAC](../controls/iam/least-privilege-rbac.md) ^[RBAC configured in each SaaS app, default least privilege, elevated permissions require approval]
+- [ACC-03: Access Reviews](../controls/iam/access-reviews.md) ^[Quarterly access reviews to identify orphaned accounts, audit logs for access monitoring]
+- [PEO-03: Offboarding](../controls/personnel-security/offboarding.md) ^[Automated deprovisioning via SCIM completed within 1 hour of termination]
 
 ---
 
