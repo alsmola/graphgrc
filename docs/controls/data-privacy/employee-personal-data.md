@@ -55,6 +55,5 @@ Protect employee personal data in compliance with privacy laws and maintain empl
 - [personal data request](../../processes/personal-data-request.md) ^[Employee personal data request handling with privacy and HR coordination]
 
 **Policies:**
-- [Data Access Policy](../../policies/data-access-policy.md) ^[Employee data restricted to HR team, managers access direct reports only, do not access own HR data through backend]
 - [HR Administrator Security Policy](../../policies/hr-administrator.md) ^[Access employee PII only when required, never share externally without authorization, use encrypted channels]
 

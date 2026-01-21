@@ -62,6 +62,5 @@ Protect customer personal data in compliance with privacy regulations (GDPR, CCP
 - [Vendor Risk Review](../../processes/vendor-risk-review.md) ^[Data Processing Agreements (DPAs) required for vendors processing customer PII per GDPR]
 
 **Policies:**
-- [Data Access Policy](../../policies/data-access-policy.md) ^[GDPR data subject requests (access, rectify, erase, port), respond within 30 days, support access tied to tickets]
 - [Product Administrator Security Policy](../../policies/product-administrator.md) ^[Access customer data only when necessary, verify identity before access, obtain consent when required, process data subject requests within timelines]
 

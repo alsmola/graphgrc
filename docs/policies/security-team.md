@@ -76,7 +76,6 @@ All requirements from Employee Security Policy plus Engineer Security Policy plu
 <!-- Add links to controls using the format: [Control Name](../controls/{family}/{control}.md) ^[annotation] -->
 
 - [Security Incident Response](../controls/incident-response/security-incident-response.md) ^[Monitor security alerts and respond within SLA, perform incident response and root cause analysis]
-- [Vulnerability Management Process](../controls/vulnerability-management/vulnerability-management-process.md) ^[Triage vulnerabilities and assign remediation owners, track remediation progress]
 - [Security Reviews](../controls/security-assurance/security-reviews.md) ^[Conduct security reviews for high-risk changes, assess risks for new projects and vendors]
 - [Organizational Risk Assessment](../controls/risk-management/organizational-risk-assessment.md) ^[Maintain risk register, escalate high/critical risks to leadership, track remediation progress, report on security metrics]
 - [Vendor Risk Management](../controls/risk-management/vendor-risk-management.md) ^[Assess risks for new vendors, respond to customer security questionnaires]

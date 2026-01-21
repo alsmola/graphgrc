@@ -62,6 +62,3 @@ All access to systems requires authentication using WebAuthn/passkeys or SSO wit
 - [standard-github-security: GitHub Security Standard](../../standards/github-security-standard.md) ^[Require 2FA for all GitHub organization members, SSO integration for authentication]
 - [standard-saas-iam: SaaS IAM Standard](../../standards/saas-iam-standard.md) ^[SSO integration (SAML/OIDC) mandatory, MFA enforced centrally, session management (12hr standard, 1hr admin)]
 
-**Policies:**
-- [Baseline Security Policy](../../policies/baseline-security-policy.md) ^[Requires MFA on all company accounts, strong passwords (12+ characters), password manager usage]
-

@@ -61,7 +61,6 @@ All requirements from Employee Security Policy plus:
 
 - [Customer Personal Data](../controls/data-privacy/customer-personal-data.md) ^[Access customer data only when necessary, verify identity before access, obtain consent when required, process data subject requests within timelines]
 - [Data Classification](../controls/data-management/data-classification.md) ^[Never copy customer data to local machine, redact PII in bug reports and documentation]
-- [Least Privilege & RBAC](../controls/iam/least-privilege-rbac.md) ^[Use read-only access unless write required, time-box support sessions]
 - [Logging & Monitoring](../controls/infrastructure-security/logging-monitoring.md) ^[Log all customer data access (who, what, when, why), document actions in customer account]
 - [Data Breach Response](../controls/incident-response/data-breach-response.md) ^[Report suspected data breaches immediately, do not disclose publicly without authorization, follow breach notification process]
 - [SaaS Hardening](../controls/configuration-management/saas-hardening.md) ^[Only use approved tools for customer interaction, ensure third-party tools have appropriate security controls]

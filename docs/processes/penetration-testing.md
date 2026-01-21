@@ -44,7 +44,6 @@ Define steps and responsibilities for penetration testing.
 <!-- Add links to controls using the format: [Control Name](../controls/{family}/{control}.md) ^[annotation] -->
 
 - [Penetration Tests](../controls/security-assurance/penetration-tests.md) ^[Annual penetration testing process: scoping, vendor selection, pre-test prep, testing execution (2-4 weeks), remediation, retest]
-- [Vulnerability Management Process](../controls/vulnerability-management/vulnerability-management-process.md) ^[Pentest findings triaged by CVSS severity, remediation within standard SLAs (Critical: 7d, High: 30d)]
 - [Cloud Vulnerability Detection](../controls/vulnerability-management/cloud-vulnerability-detection.md) ^[Pentest validates effectiveness of vulnerability scanning controls]
 - [Security Reviews](../controls/security-assurance/security-reviews.md) ^[Pentest focuses on high-risk attack surfaces identified in security design reviews]
 - [Documentation Review](../controls/compliance/documentation-review.md) ^[Pentest reports archived for audit evidence, demonstrate security assessment program]

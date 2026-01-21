@@ -253,6 +253,4 @@ Quarterly self-assessment of security control effectiveness. Validates controls 
 - [Internal Audits](../controls/compliance/internal-audits.md) ^[Quarterly internal control testing with sampling, evidence collection, deficiency identification, and tracking]
 - [External Audits](../controls/compliance/external-audits.md) ^[Internal audits support external audit preparation by identifying and remediating gaps]
 - [Documentation Review](../controls/compliance/documentation-review.md) ^[Internal audit workpapers archived for compliance evidence and trend analysis]
-- [Least Privilege & RBAC](../controls/iam/least-privilege-rbac.md) ^[Internal audit validates quarterly access review completion and least privilege enforcement]
-- [Vulnerability Management Process](../controls/vulnerability-management/vulnerability-management-process.md) ^[Internal audit tests vulnerability remediation within SLA]
 - [Change Management](../controls/operational-security/change-management.md) ^[Internal audit reviews change approval and testing evidence]

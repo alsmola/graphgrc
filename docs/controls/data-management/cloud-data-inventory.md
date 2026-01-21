@@ -50,6 +50,3 @@ Maintain comprehensive inventory of data stored in cloud services, classified by
 **Processes:**
 - [personal data request](../../processes/personal-data-request.md) ^[Data inventory enables identification of data locations for access requests]
 
-**Policies:**
-- [Data Access Policy](../../policies/data-access-policy.md) ^[All database queries logged with user ID and timestamp for audit trails]
-

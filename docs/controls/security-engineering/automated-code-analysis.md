@@ -54,5 +54,4 @@ Identify security vulnerabilities in code automatically during development throu
 
 **Policies:**
 - [Engineer Security Policy](../../policies/engineer.md) ^[SAST/DAST scans must pass before merge]
-- [Engineering Security Policy](../../policies/engineering-security-policy.md) ^[SAST, secret scanning, dependency checks must pass before merge, use linting tools and security scanners in IDE]
 

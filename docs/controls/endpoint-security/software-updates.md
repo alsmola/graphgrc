@@ -67,6 +67,5 @@ Operating systems and applications are kept up to date with security patches. Cr
 - [standard-vulnerability-management: Vulnerability Management Standard](../../standards/vulnerability-management-standard.md) ^[macOS auto-updates enforced by MDM, AWS Linux patching with SSM Patch Manager, critical patches within 7 days]
 
 **Policies:**
-- [Baseline Security Policy](../../policies/baseline-security-policy.md) ^[Keep OS and software up to date, install security patches within 7 days]
 - [Employee Security Policy](../../policies/employee.md) ^[Install security updates within 7 days]
 

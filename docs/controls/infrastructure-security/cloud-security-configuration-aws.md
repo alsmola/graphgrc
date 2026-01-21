@@ -67,6 +67,3 @@ AWS infrastructure follows security best practices. Security Groups, NACLs, and 
 - [standard-aws-security: AWS Security Standard](../../standards/aws-security-standard.md) ^[AWS Organizations with SCPs, AWS Config for compliance monitoring, resource tagging requirements]
 - [standard-logging-monitoring: Logging and Monitoring Standard](../../standards/logging-monitoring-standard.md) ^[CloudTrail enabled in all regions, VPC Flow Logs for network monitoring]
 
-**Policies:**
-- [Engineering Security Policy](../../policies/engineering-security-policy.md) ^[All infrastructure as code (Terraform/CloudFormation), no manual production changes, use CI/CD for deployments]
-

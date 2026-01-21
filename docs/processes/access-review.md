@@ -166,7 +166,6 @@ Quarterly review of user access across all systems to validate least privilege p
 - [Cloud IAM](../controls/iam/cloud-iam.md) ^[Quarterly review of AWS IAM roles and policies, validation of cloud infrastructure access, removal of over-provisioned permissions]
 - [SaaS IAM](../controls/iam/saas-iam.md) ^[Quarterly reviews of SaaS application access across Google Workspace, GitHub, Jira, Slack, identification and removal of orphaned accounts]
 - [Privileged Access Management](../controls/iam/privileged-access-management.md) ^[Review of admin/privileged roles, service accounts, validation of business justification for elevated access]
-- [Least Privilege & RBAC](../controls/iam/least-privilege-rbac.md) ^[Enforce least privilege by revoking over-provisioned access, downgrading unnecessary admin privileges to standard user roles]
 - [Single Sign-On](../controls/iam/single-sign-on.md) ^[SSO integration centralizes access management and simplifies quarterly reviews across all connected applications]
 - [Offboarding](../controls/personnel-security/offboarding.md) ^[Cross-reference quarterly access reports with HR system to identify and remove access for terminated employees]
 - [Documentation Review](../controls/compliance/documentation-review.md) ^[Access review workbooks archived as audit evidence, access baselines documented and updated quarterly]

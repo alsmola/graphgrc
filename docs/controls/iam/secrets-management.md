@@ -52,6 +52,5 @@ Securely store and manage application secrets (API keys, database passwords) to 
 
 **Policies:**
 - [Engineer Security Policy](../../policies/engineer.md) ^[No secrets in code repositories, use Secrets Manager for credentials]
-- [Engineering Security Policy](../../policies/engineering-security-policy.md) ^[Never commit secrets to Git, use AWS Secrets Manager, rotate secrets on team member departure, use pre-commit hooks]
 - [IT Administrator Security Policy](../../policies/it-administrator.md) ^[Rotate service account passwords quarterly]
 

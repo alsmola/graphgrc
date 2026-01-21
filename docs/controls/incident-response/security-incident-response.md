@@ -59,8 +59,6 @@ Detect, contain, investigate, and recover from security incidents to minimize im
 - [security tauletop exercises](../../processes/security-tabletop-exercises.md) ^[Tabletop exercises validate incident response procedures and identify gaps]
 
 **Policies:**
-- [Baseline Security Policy](../../policies/baseline-security-policy.md) ^[Report security incidents immediately, preserve evidence, follow IR team instructions]
-- [Engineering Security Policy](../../policies/engineering-security-policy.md) ^[Engineers on-call familiar with IR process, preserve evidence during incidents, participate in post-incident reviews]
 - [Security Team Policy](../../policies/security-team.md) ^[Monitor security alerts and respond within SLA, perform incident response and root cause analysis]
 
 **Charter:**

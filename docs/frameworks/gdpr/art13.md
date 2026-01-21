@@ -33,7 +33,6 @@ Paragraphs 1, 2 and 3 shall not apply where and insofar as the data subject alre
 
 **Controls:**
 - [Customer Personal Data](../../controls/data-privacy/customer-personal-data.md) ^[Provides required information when collecting personal data from customers]
-- [data-privacy-data-privacy-gdpr-compliance: Data Privacy (GDPR Compliance)](../../controls/data-privacy/data-privacy-gdpr-compliance.md) ^[Provides required information to data subjects when collecting personal data]
 - [Employee Personal Data](../../controls/data-privacy/employee-personal-data.md) ^[Informs employees about processing of their personal data]
 - [Customer Security Communications](../../controls/security-assurance/customer-security-communications.md) ^[Security communications inform data subjects about data protection measures]
 

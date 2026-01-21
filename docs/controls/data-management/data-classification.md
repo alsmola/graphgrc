@@ -70,8 +70,6 @@ All data is classified as Public, Internal, Confidential, or Restricted. Handlin
 - [Security Design Review](../../processes/security-design-review.md) ^[Design review identifies data types and required classification levels]
 
 **Policies:**
-- [Baseline Security Policy](../../policies/baseline-security-policy.md) ^[Understand and follow data classification: Public, Internal, Confidential, Restricted with appropriate handling]
-- [Data Access Policy](../../policies/data-access-policy.md) ^[Four-tier classification with access principles: least privilege, need-to-know, purpose limitation]
 - [Employee Security Policy](../../policies/employee.md) ^[Classify and handle data appropriately, no Confidential data on local devices]
 - [Product Administrator Security Policy](../../policies/product-administrator.md) ^[Never copy customer data to local machine, redact PII in bug reports and documentation]
 

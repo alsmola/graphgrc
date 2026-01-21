@@ -49,6 +49,3 @@ Apply security hardening standards to all cloud infrastructure to reduce attack 
 - [standard-aws-security: AWS Security Standard](../../standards/aws-security-standard.md) ^[S3 Block Public Access at account level, no publicly accessible RDS instances]
 - [standard-cryptography: Cryptography Standard](../../standards/cryptography-standard.md) ^[AWS S3 encryption requirements, RDS and EBS encryption standards]
 
-**Policies:**
-- [Engineering Security Policy](../../policies/engineering-security-policy.md) ^[Security best practices in IaC, review Terraform plans before applying, use modules for consistency]
-

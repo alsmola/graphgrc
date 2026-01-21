@@ -65,9 +65,6 @@ Security policies are documented, approved by leadership, and communicated to em
 **Processes:**
 - [grc change](../../processes/grc-change.md) ^[Policy updates follow GRC change management with annual review cadence]
 
-**Policies:**
-- [Baseline Security Policy](../../policies/baseline-security-policy.md) ^[Establishes baseline security practices for all personnel, annual acknowledgment required]
-
 **Charter:**
 - [Governance](../../charter/governance.md) ^[Establishes governance framework with clear ownership, principles (risk-based, defense in depth, least privilege), and scope]
 - [Risk Management](../../charter/risk-management.md) ^[Decision authority table for risk acceptance scaled by severity (Low: Security Team, Medium: +Engineering Lead, High: CTO, Critical: CEO/Board)]

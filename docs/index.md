@@ -237,7 +237,7 @@ Organization-specific security controls organized by family, mapped to SOC 2, GD
 |---------|-------|
 | [Cloud Vulnerability Detection](controls/vulnerability-management/cloud-vulnerability-detection.md) | Scan cloud for vulnerabilities |
 | [Endpoint Vulnerability Detection](controls/vulnerability-management/endpoint-vulnerability-detection.md) | Scan endpoints for vulnerabilities |
-| [Vulnerability Management Process](controls/vulnerability-management/vulnerability-management-process.md) | Process for managing vulnerabilities |
+| [Vulnerability Management Process](controls/) | Process for managing vulnerabilities |
 
 ## Frameworks
 

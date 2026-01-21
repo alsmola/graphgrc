@@ -48,6 +48,5 @@ Protect endpoints from network-based attacks through firewall, VPN, and secure n
 - [standard-endpoint-security: Endpoint Security Standard](../../standards/endpoint-security-standard.md) ^[Firewall enabled, VPN required for internal resource access from untrusted networks]
 
 **Policies:**
-- [Baseline Security Policy](../../policies/baseline-security-policy.md) ^[Use VPN for internal resources on untrusted networks, no production access from public WiFi without VPN]
 - [Employee Security Policy](../../policies/employee.md) ^[Use VPN for internal resources on untrusted networks, secure WiFi only (WPA2/WPA3)]
 

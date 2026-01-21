@@ -71,7 +71,6 @@ Applies to all AWS accounts in the organization, including production, staging, 
 - [Cloud IAM](../controls/iam/cloud-iam.md) ^[IAM Identity Center (AWS SSO) for human access, no long-lived IAM credentials, role-based access]
 - [Multi-Factor Authentication](../controls/iam/multi-factor-authentication.md) ^[MFA required on root account and for privileged actions, stored in vault]
 - [Single Sign-On](../controls/iam/single-sign-on.md) ^[IAM Identity Center provides SSO for AWS account access]
-- [Least Privilege & RBAC](../controls/iam/least-privilege-rbac.md) ^[IAM policies with least privilege, no wildcard permissions in production, 12-hour max session duration]
 - [Cloud IAM](../controls/iam/cloud-iam.md) ^[Quarterly access reviews of IAM roles and policies validate least privilege]
 - [Privileged Access Management](../controls/iam/privileged-access-management.md) ^[Root account MFA with hardware token stored in vault, CloudTrail logging of admin actions]
 - [Encryption at Rest](../controls/cryptography/encryption-at-rest.md) ^[S3 buckets encrypted (SSE-S3/SSE-KMS), EBS volumes encrypted, RDS encryption with KMS]

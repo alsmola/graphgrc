@@ -53,7 +53,5 @@ Encrypt all data in transit using TLS to prevent interception, eavesdropping, an
 - [Security Design Review](../../processes/security-design-review.md) ^[Design review specifies TLS requirements for data transmission]
 
 **Policies:**
-- [Baseline Security Policy](../../policies/baseline-security-policy.md) ^[Do not send Confidential/Restricted data via email or Slack without encryption]
-- [Data Access Policy](../../policies/data-access-policy.md) ^[Encryption required for data in transit (TLS, VPN), do not email or Slack Confidential/Restricted data]
 - [HR Administrator Security Policy](../../policies/hr-administrator.md) ^[Use encrypted channels for transmitting employee documents]
 

@@ -66,7 +66,6 @@ All employee devices are managed through MDM. Security policies are enforced inc
 - [standard-endpoint-security: Endpoint Security Standard](../../standards/endpoint-security-standard.md) ^[All endpoints enrolled in MDM (Jamf, Kandji, Fleet) with standard image provisioning and configuration management]
 
 **Policies:**
-- [Baseline Security Policy](../../policies/baseline-security-policy.md) ^[Use company-issued device or approved BYOD enrolled in MDM, report lost/stolen devices immediately]
 - [Employee Security Policy](../../policies/employee.md) ^[Use company-issued or MDM-enrolled devices, report lost/stolen immediately]
 - [IT Administrator Security Policy](../../policies/it-administrator.md) ^[Enroll all devices in MDM, enforce disk encryption, deploy EDR agents, enforce patch management, remote wipe capability]
 

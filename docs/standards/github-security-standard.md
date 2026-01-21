@@ -78,7 +78,6 @@ All repositories in the organization's GitHub organization(s).
 - [Identity & Authentication](../controls/iam/identity-authentication.md) ^[Require 2FA for all GitHub organization members, SSO integration for authentication]
 - [Multi-Factor Authentication](../controls/iam/multi-factor-authentication.md) ^[2FA mandatory for all organization members, no exceptions]
 - [Single Sign-On](../controls/iam/single-sign-on.md) ^[SSO integration with organizational identity provider]
-- [Least Privilege & RBAC](../controls/iam/least-privilege-rbac.md) ^[GitHub Teams for access management, Read by default, Write when needed, Admin sparingly]
 - [Access Reviews](../controls/iam/access-reviews.md) ^[Quarterly access reviews of organization members and external collaborators]
 - [Secrets Management](../controls/iam/secrets-management.md) ^[No secrets in code enforced by pre-commit hooks and secret scanning, GitHub Actions secrets for CI/CD]
 - [Change Management](../controls/operational-security/change-management.md) ^[Branch protection on main/master, require PR reviews (min 1 approval), require status checks, no force pushes]

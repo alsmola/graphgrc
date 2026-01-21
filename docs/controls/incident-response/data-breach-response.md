@@ -55,7 +55,6 @@ Respond to data breaches affecting personal data in compliance with breach notif
 - [security tauletop exercises](../../processes/security-tabletop-exercises.md) ^[Breach scenarios included in tabletop exercises to test notification procedures]
 
 **Policies:**
-- [Data Access Policy](../../policies/data-access-policy.md) ^[Report suspected unauthorized data access immediately, preserve evidence, follow breach response process]
 - [Product Administrator Security Policy](../../policies/product-administrator.md) ^[Report suspected data breaches immediately, do not disclose publicly without authorization, follow breach notification process]
 
 **Charter:**

@@ -51,7 +51,6 @@ Require multiple authentication factors to protect against credential theft and 
 - [standard-saas-iam: SaaS IAM Standard](../../standards/saas-iam-standard.md) ^[MFA required for all SaaS apps enforced at IdP level, authenticator app or hardware keys, no SMS]
 
 **Policies:**
-- [Baseline Security Policy](../../policies/baseline-security-policy.md) ^[MFA enabled on all company accounts, protect MFA devices, never share]
 - [Employee Security Policy](../../policies/employee.md) ^[MFA enabled on all company accounts]
 - [Engineer Security Policy](../../policies/engineer.md) ^[MFA required for cloud console and production access]
 - [HR Administrator Security Policy](../../policies/hr-administrator.md) ^[MFA required for HRIS access]

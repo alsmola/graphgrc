@@ -53,6 +53,5 @@ Retain data only as long as needed for business and legal requirements, then sec
 - [personal data request](../../processes/personal-data-request.md) ^[Data deletion procedures for erasure requests with exceptions for legal holds]
 
 **Policies:**
-- [Data Access Policy](../../policies/data-access-policy.md) ^[Delete data when project complete, follow retention policies, data minimization required]
 - [HR Administrator Security Policy](../../policies/hr-administrator.md) ^[Store employee documents in approved HR system only, follow retention regulations]
 

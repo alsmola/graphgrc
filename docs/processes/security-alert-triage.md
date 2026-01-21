@@ -48,4 +48,3 @@ Define steps and responsibilities for security alert triage.
 - [Endpoint Threat Detection](../controls/threat-detection/endpoint-threat-detection.md) ^[EDR alerts (CrowdStrike, SentinelOne) triaged for endpoint threats]
 - [SaaS Threat Detection](../controls/threat-detection/saas-threat-detection.md) ^[SaaS security alerts (suspicious logins, anomalous access) triaged]
 - [SIEM](../controls/monitoring/siem.md) ^[SIEM alerts analyzed for patterns, correlated events, threat indicators]
-- [Vulnerability Management Process](../controls/vulnerability-management/vulnerability-management-process.md) ^[Vulnerability scanner findings triaged separately from security alerts]

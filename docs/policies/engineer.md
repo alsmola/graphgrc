@@ -68,8 +68,6 @@ All requirements from Employee Security Policy plus:
 - [Secure Code Review](../controls/security-engineering/secure-code-review.md) ^[All code reviewed by peer before merge, security review for high-risk changes]
 - [Automated Code Analysis](../controls/security-engineering/automated-code-analysis.md) ^[SAST/DAST scans must pass before merge]
 - [Secrets Management](../controls/iam/secrets-management.md) ^[No secrets in code repositories, use Secrets Manager for credentials]
-- [Least Privilege & RBAC](../controls/iam/least-privilege-rbac.md) ^[Least privilege access to production, no shared accounts]
 - [Privileged Access Management](../controls/iam/privileged-access-management.md) ^[MFA required for cloud console access, just-in-time access where possible, log all production data access]
 - [Multi-Factor Authentication](../controls/iam/multi-factor-authentication.md) ^[MFA required for cloud console and production access]
-- [Vulnerability Management Process](../controls/vulnerability-management/vulnerability-management-process.md) ^[Review dependencies before adding, keep up to date, scan for vulnerabilities, document license compatibility]
 - [Change Management](../controls/operational-security/change-management.md) ^[Use Infrastructure as Code, peer review for infrastructure changes, test in non-production first]

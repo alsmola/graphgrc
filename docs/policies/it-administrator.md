@@ -68,7 +68,6 @@ All requirements from Employee Security Policy plus:
 
 - [Privileged Access Management](../controls/iam/privileged-access-management.md) ^[Separate admin account for privileged operations, just-in-time access, all admin sessions monitored and logged]
 - [Multi-Factor Authentication](../controls/iam/multi-factor-authentication.md) ^[MFA required for all admin access]
-- [Least Privilege & RBAC](../controls/iam/least-privilege-rbac.md) ^[Provision access based on role and approval, follow least privilege principle]
 - [Privileged Access Management](../controls/iam/privileged-access-management.md) ^[IT administrators review privileged access quarterly, deprovision immediately upon termination]
 - [SaaS IAM](../controls/iam/saas-iam.md) ^[Configure MFA enforcement, enable SSO, configure security logging, monitor for unauthorized config changes]
 - [SaaS Hardening](../controls/configuration-management/saas-hardening.md) ^[Review and harden application settings, enable security logging]

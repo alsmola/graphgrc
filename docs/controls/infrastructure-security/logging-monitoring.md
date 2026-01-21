@@ -74,6 +74,5 @@ Security events and system activities are logged centrally. Logs are monitored f
 - [Security Incident Response](../../processes/security-incident-response.md) ^[Centralized logs support incident investigation and forensic analysis]
 
 **Policies:**
-- [Data Access Policy](../../policies/data-access-policy.md) ^[Automated alerts for large data exports, access to sensitive tables, unusual access patterns]
 - [Product Administrator Security Policy](../../policies/product-administrator.md) ^[Log all customer data access (who, what, when, why), document actions in customer account]
 

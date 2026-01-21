@@ -71,9 +71,7 @@ Administrative and privileged access is tightly controlled, monitored, and audit
 - [Access Review](../../processes/access-review.md) ^[Review of admin/privileged roles, service accounts, validation of business justification for elevated access]
 
 **Policies:**
-- [Data Access Policy](../../policies/data-access-policy.md) ^[Production database access restricted to on-call engineers, Security Team approval for Restricted data access]
 - [Engineer Security Policy](../../policies/engineer.md) ^[MFA required for cloud console access, just-in-time access where possible, log all production data access]
-- [Engineering Security Policy](../../policies/engineering-security-policy.md) ^[Production access restricted, read-only for most engineers, write access for on-call/SRE only, no direct DB queries from laptop]
 - [IT Administrator Security Policy](../../policies/it-administrator.md) ^[Separate admin account for privileged operations, just-in-time access, all admin sessions monitored and logged]
 - [IT Administrator Security Policy](../../policies/it-administrator.md) ^[IT administrators review privileged access quarterly, deprovision immediately upon termination]
 - [Security Team Policy](../../policies/security-team.md) ^[Access production for security investigations only, document reason, use separate admin accounts, no standing production access (JIT only)]

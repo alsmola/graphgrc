@@ -66,7 +66,6 @@ All requirements from Employee Security Policy plus:
 
 - [Employee Personal Data](../controls/data-privacy/employee-personal-data.md) ^[Access employee PII only when required, never share externally without authorization, use encrypted channels]
 - [Multi-Factor Authentication](../controls/iam/multi-factor-authentication.md) ^[MFA required for HRIS access]
-- [Least Privilege & RBAC](../controls/iam/least-privilege-rbac.md) ^[Least privilege HRIS access with role-based permissions]
 - [SaaS IAM](../controls/iam/saas-iam.md) ^[HR administrators review HRIS access permissions quarterly, all access to employee records is logged]
 - [Personnel Lifecycle Management](../controls/personnel-security/personnel-lifecycle-management.md) ^[Coordinate with IT for account provisioning/deprovisioning, verify identity before provisioning, same-day offboarding initiation]
 - [Offboarding](../controls/personnel-security/offboarding.md) ^[Initiate offboarding same day as termination, ensure company property returned, conduct exit interviews]

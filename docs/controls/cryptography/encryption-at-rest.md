@@ -55,7 +55,5 @@ Encrypt all Confidential and Restricted data at rest to protect against unauthor
 - [Security Design Review](../../processes/security-design-review.md) ^[Design review determines encryption requirements based on data classification]
 
 **Policies:**
-- [Baseline Security Policy](../../policies/baseline-security-policy.md) ^[Confidential data not on local laptop, use encrypted cloud storage only]
-- [Data Access Policy](../../policies/data-access-policy.md) ^[Downloaded data stored in approved cloud storage only, no local laptop hard drives]
 - [Employee Security Policy](../../policies/employee.md) ^[Enable FileVault disk encryption on macOS devices]
 

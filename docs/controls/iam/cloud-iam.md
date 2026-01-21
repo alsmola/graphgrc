@@ -52,6 +52,5 @@ Manage cloud infrastructure access using identity-based policies, roles, and lea
 - [Access Review](../../processes/access-review.md) ^[Quarterly review of AWS IAM roles and policies, validation of cloud infrastructure access, removal of over-provisioned permissions]
 
 **Policies:**
-- [Engineering Security Policy](../../policies/engineering-security-policy.md) ^[Use IAM roles not IAM users, separate accounts for dev/staging/production, review policies before creating]
 - [Security Team Policy](../../policies/security-team.md) ^[Cloud security admin access for investigations and security configuration]
 

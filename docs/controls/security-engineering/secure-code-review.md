@@ -53,5 +53,4 @@ Review code changes for security vulnerabilities through peer review and securit
 
 **Policies:**
 - [Engineer Security Policy](../../policies/engineer.md) ^[All code reviewed by peer before merge, security review for high-risk changes]
-- [Engineering Security Policy](../../policies/engineering-security-policy.md) ^[All code requires peer review (min 1 approval), security review for sensitive changes, review for injection/XSS/auth bypass]
 

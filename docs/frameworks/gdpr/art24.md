@@ -20,7 +20,6 @@ Adherence to approved codes of conduct as referred to in Article 40 or approved
 
 **Controls:**
 - [Documentation Review](../../controls/compliance/documentation-review.md) ^[Documentation review demonstrates implementation of appropriate technical and organizational measures]
-- [data-privacy-data-privacy-gdpr-compliance: Data Privacy (GDPR Compliance)](../../controls/data-privacy/data-privacy-gdpr-compliance.md) ^[Demonstrates implementation of appropriate measures to ensure GDPR compliance]
 - [governance-risk-assessment: Risk Assessment](../../controls/governance/risk-assessment.md) ^[Risk assessment informs appropriate technical and organizational measures]
 - [governance-security-policies: Security Policies](../../controls/governance/security-policies.md) ^[Data protection policies demonstrate implementation of appropriate measures]
 - [Organizational Risk Assessment](../../controls/risk-management/organizational-risk-assessment.md) ^[Risk assessment determines appropriate technical and organizational measures]

@@ -70,6 +70,5 @@ Changes to production systems follow a defined process. Changes are reviewed, te
 
 **Policies:**
 - [Engineer Security Policy](../../policies/engineer.md) ^[Use Infrastructure as Code, peer review for infrastructure changes, test in non-production first]
-- [Engineering Security Policy](../../policies/engineering-security-policy.md) ^[All code changes require peer review, automated tests in CI/CD, infrastructure changes reviewed before deployment]
 - [IT Administrator Security Policy](../../policies/it-administrator.md) ^[Test changes in non-production, document in ticketing system, follow approval process, have rollback plan]
 

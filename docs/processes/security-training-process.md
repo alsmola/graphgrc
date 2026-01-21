@@ -181,7 +181,7 @@ Security team updates training content annually or as needed.
 ## References
 
 - Related controls: PEO-02, GOV-01
-- Related policies: baseline-security-policy.md
+- Related policies: 
 - SANS Security Awareness Training: https://www.sans.org/security-awareness-training/
 
 ## Control Mapping

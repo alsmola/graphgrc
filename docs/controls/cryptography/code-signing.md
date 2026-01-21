@@ -47,6 +47,3 @@ Sign all software releases to ensure integrity and authenticity, preventing tamp
 **Standards:**
 - [standard-cryptography: Cryptography Standard](../../standards/cryptography-standard.md) ^[RSA 2048+ bits for code signing certificates]
 
-**Policies:**
-- [Engineering Security Policy](../../policies/engineering-security-policy.md) ^[Use signed container images (Docker Content Trust), verify checksums/signatures for downloaded binaries]
-

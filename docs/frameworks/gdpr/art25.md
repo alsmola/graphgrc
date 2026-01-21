@@ -21,7 +21,6 @@ An approved certification mechanism pursuant to Article 42 may be used as an el
 **Controls:**
 - [Cloud Hardening](../../controls/configuration-management/cloud-hardening.md) ^[Secure configurations implement data protection by design and default]
 - [data-management-data-classification: Data Classification](../../controls/data-management/data-classification.md) ^[Data classification supports data minimization by identifying what data requires protection]
-- [iam-least-privilege-rbac: Least Privilege & RBAC](../../controls/iam/least-privilege-rbac.md) ^[Least privilege implements data protection by design through access minimization]
 - [infrastructure-security-cloud-security-configuration-aws: Cloud Security Configuration (AWS)](../../controls/infrastructure-security/cloud-security-configuration-aws.md) ^[Secure defaults implement data protection by design and default]
 - [Automated Code Analysis](../../controls/security-engineering/automated-code-analysis.md) ^[Secure code analysis implements data protection by design]
 - [Secure Code Review](../../controls/security-engineering/secure-code-review.md) ^[Secure code review implements data protection by design]

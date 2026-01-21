@@ -51,5 +51,4 @@ Define and enforce secure coding practices to prevent common vulnerabilities dur
 
 **Policies:**
 - [Engineer Security Policy](../../policies/engineer.md) ^[Follow secure coding standards, input validation, parameterized queries]
-- [Engineering Security Policy](../../policies/engineering-security-policy.md) ^[Follow OWASP guidelines, validate inputs, parameterized queries, secure defaults, handle errors securely]
 

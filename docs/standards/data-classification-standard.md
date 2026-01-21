@@ -77,7 +77,7 @@ All data created, processed, stored, or transmitted by the organization.
 ## References
 
 - Related controls: DAT-01, DAT-02, DAT-03
-- Related policies: baseline-security-policy.md
+- Related policies: 
 
 ## Control Mapping
 
@@ -88,8 +88,6 @@ All data created, processed, stored, or transmitted by the organization.
 - [Encryption at Rest](../controls/cryptography/encryption-at-rest.md) ^[Confidential and Restricted data must be encrypted at rest with KMS customer-managed keys for Restricted]
 - [Encryption in Transit](../controls/cryptography/encryption-in-transit.md) ^[Confidential and Restricted data must be encrypted in transit]
 - [Key Management](../controls/cryptography/key-management.md) ^[Restricted data requires customer-managed KMS keys with separate keys per environment]
-- [Least Privilege & RBAC](../controls/iam/least-privilege-rbac.md) ^[Access to Confidential and Restricted data based on role and need-to-know]
-- [Least Privilege & RBAC](../controls/iam/least-privilege-rbac.md) ^[Access to Confidential data reviewed annually, Restricted data quarterly to enforce least privilege]
 - [Cloud Data Inventory](../controls/data-management/cloud-data-inventory.md) ^[AWS resources tagged with DataClassification for inventory tracking]
 - [SaaS Data Inventory](../controls/data-management/saas-data-inventory.md) ^[Data classification applied to SaaS tool data storage]
 

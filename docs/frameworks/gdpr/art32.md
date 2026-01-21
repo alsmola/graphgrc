@@ -45,7 +45,6 @@ The controller and processor shall take steps to ensure that any natural person 
 - [governance-risk-assessment: Risk Assessment](../../controls/governance/risk-assessment.md) ^[Security measures must be appropriate to the risk assessed]
 - [Cloud IAM](../../controls/iam/cloud-iam.md) ^[Cloud IAM is a technical measure ensuring only authorized access to personal data]
 - [iam-identity-authentication: Identity & Authentication](../../controls/iam/identity-authentication.md) ^[Authentication ensures only authorized persons access personal data]
-- [iam-least-privilege-rbac: Least Privilege & RBAC](../../controls/iam/least-privilege-rbac.md) ^[Least privilege minimizes risk of unauthorized access to personal data]
 - [Multi-Factor Authentication](../../controls/iam/multi-factor-authentication.md) ^[Multi-factor authentication is a technical security measure protecting personal data]
 - [Password Management](../../controls/iam/password-management.md) ^[Password management ensures security of authentication mechanisms]
 - [iam-privileged-access-management: Privileged Access Management](../../controls/iam/privileged-access-management.md) ^[PAM is an organizational measure controlling access to sensitive personal data]
@@ -89,5 +88,4 @@ The controller and processor shall take steps to ensure that any natural person 
 - [vendor-management-third-party-risk-assessment: Third-Party Risk Assessment](../../controls/vendor-management/third-party-risk-assessment.md) ^[Third-party assessments verify appropriate technical and organizational measures]
 - [Cloud Vulnerability Detection](../../controls/vulnerability-management/cloud-vulnerability-detection.md) ^[Vulnerability scanning regularly assesses security of cloud infrastructure]
 - [Endpoint Vulnerability Detection](../../controls/vulnerability-management/endpoint-vulnerability-detection.md) ^[Endpoint vulnerability scanning ensures security of devices processing personal data]
-- [Vulnerability Management Process](../../controls/vulnerability-management/vulnerability-management-process.md) ^[Vulnerability management regularly tests and evaluates security measure effectiveness]
 

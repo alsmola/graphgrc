@@ -48,7 +48,6 @@ Ensure strong, unique passwords for all accounts through password manager adopti
 - [standard-endpoint-security: Endpoint Security Standard](../../standards/endpoint-security-standard.md) ^[Strong password required (12+ characters), screen lock after 5 minutes, biometric unlock permitted]
 
 **Policies:**
-- [Baseline Security Policy](../../policies/baseline-security-policy.md) ^[Unique strong passwords, never share credentials, company-provided password manager required]
 - [Employee Security Policy](../../policies/employee.md) ^[Strong passwords (12+ characters), approved password manager only, never share credentials]
 - [IT Administrator Security Policy](../../policies/it-administrator.md) ^[Do not reuse admin passwords, store admin credentials in approved vault, never share]
 

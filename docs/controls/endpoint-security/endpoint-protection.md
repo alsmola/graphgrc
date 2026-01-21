@@ -65,6 +65,3 @@ All endpoints run antivirus/anti-malware software. Full disk encryption is enabl
 **Standards:**
 - [standard-endpoint-security: Endpoint Security Standard](../../standards/endpoint-security-standard.md) ^[EDR agent installed (CrowdStrike, SentinelOne) with real-time malware scanning and firewall enabled]
 
-**Policies:**
-- [Baseline Security Policy](../../policies/baseline-security-policy.md) ^[Install company-required EDR agent, do not jailbreak devices, firewall enabled]
-

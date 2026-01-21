@@ -25,6 +25,5 @@ The controller shall be responsible for, and be able to demonstrate compliance w
 **Controls:**
 - [Data Retention and Deletion](../../controls/data-management/data-retention-and-deletion.md) ^[Implements storage limitation principle - data retained only as long as necessary]
 - [Customer Personal Data](../../controls/data-privacy/customer-personal-data.md) ^[Implements data minimization and purpose limitation principles]
-- [data-privacy-data-privacy-gdpr-compliance: Data Privacy (GDPR Compliance)](../../controls/data-privacy/data-privacy-gdpr-compliance.md) ^[Implements fundamental principles of lawful, fair, transparent processing]
 - [Employee Personal Data](../../controls/data-privacy/employee-personal-data.md) ^[Implements lawful, fair, transparent processing of employee data]
 

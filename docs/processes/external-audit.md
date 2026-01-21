@@ -239,6 +239,4 @@ This process focuses on SOC 2 as most common. Adapt for other audit types with s
 - [External Audits](../controls/compliance/external-audits.md) ^[Annual SOC 2 Type II audit process: planning, pre-audit readiness, fieldwork, report review, remediation, continuous monitoring]
 - [Internal Audits](../controls/compliance/internal-audits.md) ^[Internal audits conducted before external audit to validate control effectiveness and identify gaps]
 - [Documentation Review](../controls/compliance/documentation-review.md) ^[Evidence repository preparation with 12 months of control evidence organized by domain]
-- [Least Privilege & RBAC](../controls/iam/least-privilege-rbac.md) ^[Quarterly access review documentation demonstrates least privilege enforcement for audit evidence]
-- [Vulnerability Management Process](../controls/vulnerability-management/vulnerability-management-process.md) ^[Monthly vulnerability scans provided as audit evidence]
 - [Security Incident Response](../controls/incident-response/security-incident-response.md) ^[Incident response procedures and records reviewed during audit]
