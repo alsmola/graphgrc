@@ -14,16 +14,16 @@ Browse the live documentation at **[engseclabs.github.io/graphgrc/](https://engs
 
 | Category | Count | Description |
 |----------|-------|-------------|
-| **Controls** | 79 | Detailed security controls organized by 25 families (IAM, cryptography, incident response, etc.) |
+| **Controls** | 76 | Detailed security controls organized by 25 families (IAM, cryptography, incident response, etc.) |
 | **Standards** | 10 | Technical security standards (AWS security, cryptography, data classification, etc.) |
-| **Policies** | 9 | Security policies for different roles and functions |
+| **Policies** | 6 | Role-specific security policies (employee, engineer, HR, IT, product, security team) |
 | **Processes** | 23 | Operational procedures (incident response, audits, access reviews, etc.) |
 | **Charter** | 4 | Governance and risk management foundation |
 | **Frameworks** | 1,004 | Generated framework mappings (SCF, SOC 2, GDPR, ISO 27001/27002, NIST 800-53) |
 
 ### Control Families
 
-**79 controls** across 25 families covering comprehensive security domains:
+**76 controls** across 25 families covering comprehensive security domains:
 
 - **Asset Management** - Cloud, endpoint, and SaaS inventory
 - **Availability** - Monitoring, capacity planning, disaster recovery
@@ -86,7 +86,7 @@ GraphGRC uses a **hub-and-spoke** architecture with SCF as the central mapping l
 - **Bidirectional:** Auto-generated backlinks showing implementation relationships
   - Controls show "Implemented By" backlinks to standards/policies/processes
   - Frameworks show "Referenced By" backlinks to controls
-- **Comprehensive:** 79 controls with detailed objectives, implementation guidance, and evidence
+- **Comprehensive:** 76 controls with detailed objectives, implementation guidance, and evidence
 - **Automated:** Scripts for link fixing, ID generation, content standardization, and backlink generation
 
 ## Quick Start
@@ -221,8 +221,8 @@ All documentation includes:
 
 **Quality metrics:**
 - ✅ 100% controls filled (0 templates)
-- ✅ 100% controls have framework mappings (79/79)
-- ✅ **100% controls have implementation backlinks (79/79)**
+- ✅ 100% controls have framework mappings (76/76)
+- ✅ **100% controls have implementation backlinks (76/76)**
 - ✅ 100% standards have control mappings (10/10)
 - ✅ All standards have unique IDs
 - ✅ All control references point to correct locations
@@ -232,7 +232,7 @@ All documentation includes:
 **Interlinking structure:**
 - **Controls → Frameworks:** Each control links to framework requirements it satisfies (SOC 2, GDPR, ISO, NIST)
 - **Frameworks → Controls:** "Referenced By" sections show which controls satisfy each requirement
-- **Standards/Policies/Processes → Controls:** "Control Mapping" sections with annotated links (629 total)
+- **Standards/Policies/Processes → Controls:** "Control Mapping" sections with annotated links (551 total)
 - **Controls → Implementation Docs:** "Implemented By" sections auto-generated from Control Mappings
 
 ## Data Sources
