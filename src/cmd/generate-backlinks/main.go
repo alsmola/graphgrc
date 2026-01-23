@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/engseclabs/graphgrc/internal/generator"
-	"github.com/engseclabs/graphgrc/internal/parser"
+	"github.com/engseclabs/graphgrc/src/internal/generator"
+	"github.com/engseclabs/graphgrc/src/internal/parser"
 )
 
 func main() {

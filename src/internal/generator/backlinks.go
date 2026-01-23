@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/engseclabs/graphgrc/internal/parser"
+	"github.com/engseclabs/graphgrc/src/internal/parser"
 )
 
 const (
