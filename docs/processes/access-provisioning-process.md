@@ -123,15 +123,6 @@ New employee completes account setup on first day.
 - Related standards: saas-iam-standard.md
 - Related process: access-deprovisioning-process.md (offboarding)
 
-## Control Mapping
-
-<!-- This section is used to generate backlinks from custom controls to this standard/process/policy. -->
-<!-- Add links to custom controls using the format: [Control Name](../custom/control-id.md) ^[annotation] -->
-
-- [ACC-01: Identity & Authentication](../custom/acc-01.md) ^[MFA enrollment completed during account setup, SSO account creation in IdP]
-- [ACC-02: Least Privilege & RBAC](../custom/acc-02.md) ^[Role-based access templates, manager approval for elevated permissions]
-- [PEO-01: Background Checks](../custom/peo-01.md) ^[Verification that background check completed before provisioning access]
-
 ---
 
 <!-- Backlinks auto-generated below -->

@@ -190,13 +190,6 @@ For critical security patches or production outages, expedited process allowed:
 - Related controls: OPS-01
 - Related standards: github-security-standard.md, aws-security-standard.md
 
-## Control Mapping
-
-<!-- This section is used to generate backlinks from custom controls to this standard/process/policy. -->
-<!-- Add links to custom controls using the format: [Control Name](../custom/control-id.md) ^[annotation] -->
-
-- [OPS-01: Change Management](../custom/ops-01.md) ^[8-step process: proposal, automated testing, peer review, security review, staging deployment, production deployment, verification, rollback]
-
 ---
 
 <!-- Backlinks auto-generated below -->

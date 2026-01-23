@@ -178,11 +178,5 @@ Approved by security team lead without full questionnaire.
 
 ## Control Mapping
 
-<!-- This section is used to generate backlinks from custom controls to this standard/process/policy. -->
-<!-- Add links to custom controls using the format: [Control Name](../custom/control-id.md) ^[annotation] -->
-
-- [VEN-01: Third-Party Risk Assessment](../custom/ven-01.md) ^[8-step vendor assessment: request, screening, questionnaire, risk analysis, legal review, technical review, approval, ongoing monitoring]
-- [VEN-02: Vendor Contracts & DPAs](../custom/ven-02.md) ^[Legal review negotiates DPA, security terms, breach notification, data deletion, and audit rights]
-- [DAT-04: Data Privacy (GDPR Compliance)](../custom/dat-04.md) ^[Vendor DPAs for GDPR compliance, subprocessor disclosure, data residency requirements]
 - [Third-Party Risk Assessment](../controls/vendor-management/third-party-risk-assessment.md) ^[8-step vendor assessment process: request initiation, risk screening, security questionnaire with SOC 2/ISO review, risk analysis, legal review with DPA negotiation, technical integration review, approval and onboarding, annual ongoing monitoring]
 - [Vendor Contracts & DPAs](../controls/vendor-management/vendor-contracts-dpas.md) ^[Legal review in Step 5 negotiates DPAs, security terms, breach notification SLAs, data deletion clauses, audit rights; contract repository tracks all executed agreements with renewal dates]

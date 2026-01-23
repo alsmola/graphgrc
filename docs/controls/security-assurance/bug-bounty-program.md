@@ -46,5 +46,4 @@ Crowdsource vulnerability discovery through a bug bounty program, enabling indep
 
 **Processes:**
 - [penetration testing](../../processes/penetration-testing.md) ^[Bug bounty complements annual pentests with continuous crowdsourced vulnerability discovery, findings triaged using same severity/remediation process]
-- [Vulnerability Management Process](../../processes/vulnerability-management-process.md) ^[Bug bounty submissions triaged using same CVSS severity framework, remediation tracked with same SLA requirements, verification process ensures fixes are complete]
 

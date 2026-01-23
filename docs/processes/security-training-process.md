@@ -184,15 +184,6 @@ Security team updates training content annually or as needed.
 - Related policies: 
 - SANS Security Awareness Training: https://www.sans.org/security-awareness-training/
 
-## Control Mapping
-
-<!-- This section is used to generate backlinks from custom controls to this standard/process/policy. -->
-<!-- Add links to custom controls using the format: [Control Name](../custom/control-id.md) ^[annotation] -->
-
-- [PEO-02: Security Training](../custom/peo-02.md) ^[7-step training program: new hire, annual refresher, role-specific, phishing simulations, tracking, remedial, content updates]
-- [GOV-01: Security Policies](../custom/gov-01.md) ^[Training includes security policies overview, acceptable use, data classification, incident reporting]
-- [Security Training](../controls/personnel-security/security-training.md) ^[7-step training program: new hire (within 7 days), annual refresher (Q1), role-specific (engineers, infrastructure, managers), quarterly phishing simulations, completion tracking, remedial training for failures, annual content updates]
-
 ---
 
 <!-- Backlinks auto-generated below -->

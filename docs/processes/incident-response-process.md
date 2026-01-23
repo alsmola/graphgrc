@@ -197,15 +197,6 @@ Implement improvements identified in post-incident review.
 - Related process: data-breach-response-process.md
 - NIST SP 800-61r2: Computer Security Incident Handling Guide
 
-## Control Mapping
-
-<!-- This section is used to generate backlinks from custom controls to this standard/process/policy. -->
-<!-- Add links to custom controls using the format: [Control Name](../custom/control-id.md) ^[annotation] -->
-
-- [OPS-03: Incident Response](../custom/ops-03.md) ^[9-step incident response: detection, assessment, containment, investigation, eradication, recovery, communication, PIR, follow-up]
-- [INF-03: Logging & Monitoring](../custom/inf-03.md) ^[CloudTrail, CloudWatch, and GuardDuty used for detection and investigation]
-- [DAT-04: Data Privacy (GDPR Compliance)](../custom/dat-04.md) ^[GDPR breach notification within 72 hours, legal team involvement for external communication]
-
 ---
 
 <!-- Backlinks auto-generated below -->
