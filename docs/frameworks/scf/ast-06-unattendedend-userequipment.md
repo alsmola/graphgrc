@@ -1,2 +1,0 @@
-# SCF - AST-06 - Unattended End-User Equipment
-Mechanisms exist to implement enhanced protection measures for unattended systems to protect against tampering and unauthorized access.

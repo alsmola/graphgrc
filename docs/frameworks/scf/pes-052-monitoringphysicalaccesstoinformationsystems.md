@@ -1,2 +1,0 @@
-# SCF - PES-05.2 - Monitoring Physical Access To Information Systems
-Facility security mechanisms exist to monitor physical access to critical information systems or sensitive/regulated data, in addition to the physical access monitoring of the facility.

@@ -1,2 +1,0 @@
-# SCF - IAC-06.1 - Network Access to Privileged Accounts
-Mechanisms exist to utilize Multi-Factor Authentication (MFA) to authenticate network access for privileged accounts. 

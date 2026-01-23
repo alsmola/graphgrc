@@ -1,2 +1,0 @@
-# SCF - MON-01.6 - Host-Based Devices
-Mechanisms exist to utilize Host-based Intrusion Detection / Prevention Systems (HIDS / HIPS) to actively alert on or block unwanted activities and send logs to a Security Incident Event Manager (SIEM), or similar automated tool, to maintain situational awareness.

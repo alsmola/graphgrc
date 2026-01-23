@@ -1,2 +1,0 @@
-# SCF - NET-02.1 - Denial of Service (DoS) Protection
-Automated mechanisms exist to protect against or limit the effects of denial of service attacks. 

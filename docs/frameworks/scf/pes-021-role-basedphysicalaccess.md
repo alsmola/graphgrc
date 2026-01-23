@@ -1,2 +1,0 @@
-# SCF - PES-02.1 - Role-Based Physical Access
-Physical access control mechanisms exist to authorize physical access to facilities based on the position or role of the individual.

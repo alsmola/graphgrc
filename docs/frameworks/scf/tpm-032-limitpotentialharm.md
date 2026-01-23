@@ -1,2 +1,0 @@
-# SCF - TPM-03.2 - Limit Potential Harm
-Mechanisms exist to utilize security safeguards to limit harm from potential adversaries who identify and target the organization's supply chain. 

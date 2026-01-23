@@ -1,2 +1,0 @@
-# SCF - GOV-15 - Operationalizing Cybersecurity & Data Protection Practices
-Mechanisms exist to compel data and/or process owners to operationalize cybersecurity & data privacy practices for each system, application and/or service under their control.

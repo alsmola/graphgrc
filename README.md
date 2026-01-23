@@ -1,8 +1,8 @@
 # GraphGRC
 
-**Data-driven GRC documentation with automated framework mappings**
+**AI-generated security controls with automated compliance traceability**
 
-GraphGRC generates comprehensive, interconnected security and compliance documentation by mapping controls across multiple frameworks (SOC 2, GDPR, ISO 27001, NIST 800-53) using the Secure Controls Framework (SCF) as a unified reference model.
+GraphGRC provides 76 custom security controls with direct mappings to compliance frameworks (SOC 2, GDPR, ISO 27001, NIST 800-53). Each control includes detailed implementation guidance, evidence requirements, and bidirectional links showing which standards/policies/processes implement it.
 
 ## Published Documentation
 
@@ -47,166 +47,130 @@ Browse the live documentation at **[engseclabs.github.io/graphgrc/](https://engs
 
 ## Architecture
 
-GraphGRC uses a **hub-and-spoke** architecture with SCF as the central mapping layer:
+GraphGRC provides a **custom control framework** with direct mappings to compliance frameworks:
 
 ```
-┌─────────────────────────────────────────┐
-│          External Data Sources          │
-│  (SCF Excel, Framework JSON/Markdown)   │
-└────────────────┬────────────────────────┘
-                 │ EXTRACT
-                 ▼
-┌─────────────────────────────────────────┐
-│         Transform & Normalize           │
-│    (Parse Excel/JSON/MD → Go structs)   │
-└────────────────┬────────────────────────┘
-                 │ TRANSFORM
-                 ▼
-┌─────────────────────────────────────────┐
-│          SCF Mapping Engine             │
-│    (Create bidirectional mappings)      │
-└────────────────┬────────────────────────┘
-                 │ MAP
-                 ▼
-┌─────────────────────────────────────────┐
-│       Markdown Generation               │
-│  (1000+ interconnected .md files)       │
-└────────────────┬────────────────────────┘
-                 │ GENERATE
-                 ▼
-┌─────────────────────────────────────────┐
-│         GitHub Pages Deploy             │
-│      (Static site hosting)              │
-└─────────────────────────────────────────┘
+┌──────────────────────────────────────────────┐
+│         Custom Security Controls (76)        │
+│   IAM, Cryptography, Data Privacy, etc.      │
+│                                              │
+│  Each control defines:                       │
+│  - Objective & Implementation                │
+│  - Framework Mappings (SOC 2, GDPR, etc.)   │
+│  - Evidence requirements                     │
+└──────────────┬────────────┬──────────────────┘
+               │            │
+       ┌───────┘            └────────┐
+       ▼                              ▼
+┌─────────────────┐          ┌──────────────────┐
+│   Frameworks    │          │  Implementation  │
+│  SOC 2, GDPR,   │◄────────►│   Documents      │
+│  ISO, NIST      │          │                  │
+│                 │          │ - Standards (10) │
+│ "Referenced By" │          │ - Policies (6)   │
+│   backlinks     │          │ - Processes (23) │
+└─────────────────┘          │ - Charter (4)    │
+                             │                  │
+                             │ "Implemented By" │
+                             │    backlinks     │
+                             └──────────────────┘
 ```
 
 **Key features:**
-- **Semantic:** Framework requirements parsed, structured, and rendered as navigable Markdown
-- **Interlinked:** Comprehensive cross-references between controls, standards, policies, and processes
-- **Bidirectional:** Auto-generated backlinks showing implementation relationships
-  - Controls show "Implemented By" backlinks to standards/policies/processes
-  - Frameworks show "Referenced By" backlinks to controls
-- **Comprehensive:** 76 controls with detailed objectives, implementation guidance, and evidence
-- **Automated:** Scripts for link fixing, ID generation, content standardization, and backlink generation
+- **AI-Generated Controls:** 76 custom security controls with detailed implementation guidance
+- **Direct Framework Mapping:** Each control explicitly maps to SOC 2, GDPR, ISO 27001, NIST 800-53 requirements
+- **Bidirectional Traceability:** Auto-generated backlinks showing:
+  - **Controls → Frameworks:** Which compliance requirements each control satisfies
+  - **Controls → Implementation:** Which standards/policies/processes implement each control
+  - **Frameworks → Controls:** Which controls satisfy each framework requirement
+- **Information Dense:** Specific, concrete controls (e.g., "Cloud IAM", "MFA") instead of vague umbrella terms
+- **Automated Maintenance:** Scripts automatically regenerate backlinks and validate documentation structure
 
 ## Quick Start
 
-### Generate Documentation
+### Regenerate Backlinks
+
+After modifying control mappings in standards, policies, or processes:
 
 ```bash
-# Generate all framework documentation
-cd src && make generate
+# Rebuild the backlink generator
+cd src/cmd/generate-backlinks && go build -o ../../../bin/generate-backlinks .
 
-# Or run directly with Go
-go run main.go
-
-# Fetch fresh framework data (default uses cached data)
-go run main.go -fetch
+# Generate backlinks
+cd ../../..
+./bin/generate-backlinks -root=docs -verbose
 ```
 
-### Makefile Targets
+### Validate Links
+
+Check for broken links in documentation:
 
 ```bash
-# Generate framework documentation from cached data
-make generate-frameworks
+# Build validator
+cd src/cmd/validate-links && go build -o ../../../bin/validate-links .
 
-# Download fresh framework data
-make download-frameworks
-
-# Regenerate backlinks between documents
-make generate-backlinks
-
-# Clean and regenerate everything
-make regenerate
-
-# Validate all markdown links
-make validate-links
-
-# Watch for changes and auto-regenerate
-make watch
+# Run validation
+cd ../../..
+./bin/validate-links docs/
 ```
 
 ## Project Structure
 
 ```
 graphgrc/
+├── bin/                           # Compiled binaries
+│   ├── generate-backlinks        # Backlink generator
+│   ├── validate-links            # Link validator
+│   └── fix-links                 # Link fixer
+│
 ├── src/
-│   ├── main.go                    # Entry point - orchestrates pipeline
-│   ├── internal/                  # Core processing logic
-│   │   ├── scf.go                # SCF Excel parsing & mapping engine
-│   │   ├── soc2.go               # SOC 2 JSON processing
-│   │   ├── gdpr.go               # GDPR Markdown parsing
-│   │   ├── iso.go                # ISO 27001/27002 JSON processing
-│   │   ├── nist80053.go          # NIST 800-53 OSCAL JSON processing
-│   │   └── constants.go          # Standardized heading constants
-│   ├── scripts/                   # Automation scripts
-│   │   ├── fix-standard-links.py # Fix control reference links
-│   │   ├── add-standard-ids.py   # Add IDs to frontmatter
-│   │   └── fill-template-controls.py # Generate control content
-│   └── Makefile                   # Build automation
+│   ├── cmd/                      # Go tools
+│   │   ├── generate-backlinks/  # Backlink generation tool
+│   │   ├── validate-links/      # Link validation tool
+│   │   └── fix-links/           # Link fixing tool
+│   └── scripts/                  # Python automation scripts
+│       ├── consolidate-*.py     # Control consolidation scripts
+│       ├── remove-*.py          # Control removal scripts
+│       └── move-*.py            # Control reorganization scripts
 │
-├── data/                          # Cached framework data
-│   ├── scf.xlsx                  # SCF 2023.4 controls (4.6MB)
-│   └── *.json                    # Cached framework data (6 files)
+├── docs/                         # Documentation (hand-crafted + auto-generated backlinks)
+│   ├── charter/                 # Governance & risk management (4 docs)
+│   ├── controls/                # Security controls (76 custom controls)
+│   ├── frameworks/              # Framework requirement pages (SOC 2, GDPR, ISO, NIST)
+│   ├── policies/                # Role-specific policies (6 policies)
+│   ├── processes/               # Operational processes (23 processes)
+│   ├── standards/               # Technical standards (10 standards)
+│   └── index.md                 # Documentation home
 │
-├── docs/                          # Generated documentation
-│   ├── charter/                  # Governance documents (4)
-│   ├── controls/                 # Security controls (86)
-│   ├── frameworks/               # Framework mappings (1,004)
-│   ├── policies/                 # Security policies (9)
-│   ├── processes/                # Operational processes (23)
-│   └── standards/                # Technical standards (10)
-│
-└── README.md                      # This file
+└── README.md                     # This file
 ```
 
 ## Customization
 
-### Enabling/Disabling Frameworks
+### Adding New Controls
 
-Edit `src/internal/scf.go` and modify the `SupportedFrameworks` map:
+1. Create new markdown file in appropriate `docs/controls/{family}/` directory
+2. Use existing controls as templates (include frontmatter, Framework Mapping, Implemented By sections)
+3. Add framework mappings in the "Framework Mapping" section
+4. Reference the control from relevant standards/policies/processes via "Control Mapping" sections
+5. Regenerate backlinks: `./bin/generate-backlinks -root=docs -verbose`
 
-```go
-var SupportedFrameworks = map[Framework]ControlHeader{
-    "SOC 2":       "AICPA TSC 2017 (Controls)",
-    "GDPR":        "EMEA EU GDPR",
-    "ISO 27001":   "ISO 27001 v2022",
-    "ISO 27002":   "ISO 27002 v2022",
-    "NIST 800-53": "NIST 800-53 rev5 (moderate)",
-    // "ISO 27701":   "ISO 27701 v2019",  // Available but disabled
-    // "HIPAA":       "US HIPAA",          // Available but disabled
-}
+### Modifying Framework Mappings
+
+Framework mappings are defined in each control's "Framework Mapping" section:
+
+```markdown
+## Framework Mapping
+
+### SOC 2
+- [CC6.1](../../frameworks/soc2/cc61.md) ^[How this control satisfies CC6.1]
+- [CC6.2](../../frameworks/soc2/cc62.md) ^[How this control satisfies CC6.2]
+
+### GDPR
+- [Article 32](../../frameworks/gdpr/art32.md) ^[How this control satisfies Article 32]
 ```
 
-### Adding New Frameworks
-
-1. Add framework to `SupportedFrameworks` map in `src/internal/scf.go`
-2. Create new processor file `src/internal/newframework.go`
-3. Implement parsing, markdown generation, and index creation
-4. Add to pipeline in `src/main.go`
-
-See [CLAUDE.md](CLAUDE.md) for detailed development guide.
-
-### Updating SCF Version
-
-1. Download new SCF Excel file from [securecontrolsframework.com](https://securecontrolsframework.com/)
-2. Replace `data/scf.xlsx`
-3. Run `make regenerate`
-
-## Link Validation
-
-Validate and fix broken links:
-
-```bash
-# Validate all markdown links
-make validate-links
-
-# Build link validator
-make build-validator
-
-# Run validator directly
-./bin/validate-links docs/
-```
+After modifying, regenerate backlinks to update framework "Referenced By" sections.
 
 ## Documentation Quality
 
@@ -235,55 +199,40 @@ All documentation includes:
 - **Standards/Policies/Processes → Controls:** "Control Mapping" sections with annotated links (551 total)
 - **Controls → Implementation Docs:** "Implemented By" sections auto-generated from Control Mappings
 
-## Data Sources
-
-| Framework | Format | Source |
-|-----------|--------|--------|
-| SCF | Excel (XLSX) | https://securecontrolsframework.com/ |
-| SOC 2 | JSON | Prowler cloud (prowler-cloud/prowler) |
-| GDPR | Markdown | EnterpriseReady |
-| ISO 27001/27002 | JSON | JupiterOne security-policy-templates |
-| NIST 800-53 | JSON (OSCAL) | GSA FedRAMP automation |
-
 ## Development
 
 ### Prerequisites
 
-- Go 1.21+
+- Go 1.21+ (for backlink generator and link validation tools)
 - Python 3.x (for automation scripts)
-- Make
 
-### Key Dependencies
-
-```go
-require (
-    github.com/xuri/excelize/v2  // Excel file parsing for SCF
-    github.com/go-spectest/markdown  // Markdown generation
-)
-```
-
-### Running Tests
+### Workflow
 
 ```bash
-# Validate generated documentation
-make validate-links
+# 1. Modify controls, standards, policies, or processes
+vim docs/controls/iam/cloud-iam.md
 
-# Regenerate all documentation
-make regenerate
+# 2. Rebuild backlink generator (if code changed)
+cd src/cmd/generate-backlinks && go build -o ../../../bin/generate-backlinks .
 
-# Check for broken links
-make validate-links | grep "broken"
+# 3. Regenerate backlinks
+cd ../../..
+./bin/generate-backlinks -root=docs -verbose
+
+# 4. Validate links
+./bin/validate-links docs/
 ```
 
-## Contributing
+## Customizing for Your Organization
 
-This project provides a reference implementation for GRC documentation. To adapt for your organization:
+This provides a **reference implementation** with 76 AI-generated controls. To adapt:
 
-1. **Review AI-generated content** - Validate control implementations match your practices
-2. **Customize tools** - Update tool references (AWS, Okta, etc.) to match your stack
-3. **Adjust SLAs** - Update remediation timeframes to match your standards
-4. **Add framework mappings** - Link controls to specific compliance requirements
-5. **Update evidence** - Tailor evidence examples to your audit processes
+1. **Review Control Content** - Validate implementations match your actual practices
+2. **Update Tool References** - Change AWS/Okta/etc. to your specific tools
+3. **Adjust SLAs** - Update remediation timeframes (e.g., Critical: 7 days → your SLA)
+4. **Modify Framework Mappings** - Add/remove framework links based on your compliance needs
+5. **Customize Evidence** - Tailor evidence examples to your audit processes
+6. **Add/Remove Controls** - Create new controls or remove ones you don't need
 
 ## Use Cases
 

@@ -1,2 +1,0 @@
-# SCF - AST-03 - Asset Ownership Assignment
-Mechanisms exist to ensure asset ownership responsibilities are assigned, tracked and managed at a team, individual, or responsible organization level to establish a common understanding of requirements for asset protection.

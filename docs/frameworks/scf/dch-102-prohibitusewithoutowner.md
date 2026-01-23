@@ -1,2 +1,0 @@
-# SCF - DCH-10.2 - Prohibit Use Without Owner
-Mechanisms exist to prohibit the use of portable storage devices in organizational information systems when such devices have no identifiable owner.

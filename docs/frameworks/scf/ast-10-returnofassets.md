@@ -1,2 +1,0 @@
-# SCF - AST-10 - Return of Assets
-Mechanisms exist to ensure that employees and third-party users return all organizational assets in their possession upon termination of employment, contract or agreement.

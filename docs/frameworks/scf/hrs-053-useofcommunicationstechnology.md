@@ -1,2 +1,0 @@
-# SCF - HRS-05.3 - Use of Communications Technology
-Mechanisms exist to establish usage restrictions and implementation guidance for communications technologies based on the potential to cause damage to systems, if used maliciously. 

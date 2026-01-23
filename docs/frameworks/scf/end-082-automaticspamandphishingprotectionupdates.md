@@ -1,2 +1,0 @@
-# SCF - END-08.2 - Automatic Spam and Phishing Protection Updates
-Mechanisms exist to automatically update anti-phishing and spam protection technologies when new releases are available in accordance with configuration and change management practices.

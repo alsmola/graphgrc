@@ -1,2 +1,0 @@
-# SCF - IAC-06.2 - Network Access to Non-Privileged Accounts
-Mechanisms exist to utilize Multi-Factor Authentication (MFA) to authenticate network access for non-privileged accounts. 

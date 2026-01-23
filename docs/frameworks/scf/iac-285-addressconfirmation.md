@@ -1,2 +1,0 @@
-# SCF - IAC-28.5 - Address Confirmation
-Mechanisms exist to require that a notice of proofing be delivered through an out-of-band channel to verify the user's address (physical or digital).

@@ -1,2 +1,0 @@
-# SCF - MON-02.2 - Central Review & Analysis
-Automated mechanisms exist to centrally collect, review and analyze audit records from multiple sources.

@@ -1,2 +1,0 @@
-# SCF - MON-04 - Event Log Storage Capacity
-Mechanisms exist to allocate and proactively manage sufficient event log storage capacity to reduce the likelihood of such capacity being exceeded. 
