@@ -24,12 +24,21 @@
 ### Simple Direct Mapping
 
 ```
-Controls (76) → Framework Requirements (SOC 2, GDPR, ISO, NIST)
-     ↕
-Implementation Docs (Standards, Policies, Processes, Charter)
+Implementation Docs ──→ Controls ──→ Frameworks
+(Standards/Policies)       (76)     (SOC 2/GDPR/ISO/NIST)
 ```
 
-**No intermediate mapping layer.** Each control directly states which framework requirements it satisfies.
+**Key Principle:** Frameworks and implementation docs **never link directly to each other**. Controls are the only connection point.
+
+**Link Structure:**
+- Standards/Policies/Processes → Controls (via "Control Mapping")
+- Controls → Frameworks (via "Framework Mapping")
+- Controls ← Implementation Docs (auto-generated "Implemented By")
+- Frameworks ← Controls (auto-generated "Referenced By")
+
+**NOT:**
+- ❌ Standards/Policies → Frameworks (wrong!)
+- ❌ Frameworks → Standards/Policies (wrong!)
 
 ## Key Design Decisions
 

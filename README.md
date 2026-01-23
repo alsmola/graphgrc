@@ -19,7 +19,7 @@ Browse the live documentation at **[engseclabs.github.io/graphgrc/](https://engs
 | **Policies** | 6 | Role-specific security policies (employee, engineer, HR, IT, product, security team) |
 | **Processes** | 23 | Operational procedures (incident response, audits, access reviews, etc.) |
 | **Charter** | 4 | Governance and risk management foundation |
-| **Frameworks** | 1,004 | Generated framework mappings (SCF, SOC 2, GDPR, ISO 27001/27002, NIST 800-53) |
+| **Frameworks** | ~1,000 | Framework requirement pages (SOC 2, GDPR, ISO 27001/27002, NIST 800-53) |
 
 ### Control Families
 
@@ -50,30 +50,14 @@ Browse the live documentation at **[engseclabs.github.io/graphgrc/](https://engs
 GraphGRC provides a **custom control framework** with direct mappings to compliance frameworks:
 
 ```
-┌──────────────────────────────────────────────┐
-│         Custom Security Controls (76)        │
-│   IAM, Cryptography, Data Privacy, etc.      │
-│                                              │
-│  Each control defines:                       │
-│  - Objective & Implementation                │
-│  - Framework Mappings (SOC 2, GDPR, etc.)   │
-│  - Evidence requirements                     │
-└──────────────┬────────────┬──────────────────┘
-               │            │
-       ┌───────┘            └────────┐
-       ▼                              ▼
-┌─────────────────┐          ┌──────────────────┐
-│   Frameworks    │          │  Implementation  │
-│  SOC 2, GDPR,   │◄────────►│   Documents      │
-│  ISO, NIST      │          │                  │
-│                 │          │ - Standards (10) │
-│ "Referenced By" │          │ - Policies (6)   │
-│   backlinks     │          │ - Processes (23) │
-└─────────────────┘          │ - Charter (4)    │
-                             │                  │
-                             │ "Implemented By" │
-                             │    backlinks     │
-                             └──────────────────┘
+Implementation Docs ────→ Controls (76) ────→ Frameworks
+(Standards/Policies)                       (SOC 2/GDPR/ISO/NIST)
+        ↑                                           │
+        │                                           │
+        └───────── (auto-generated backlinks) ─────┘
+
+Key Principle: Frameworks and Implementation Docs NEVER link directly.
+              Controls are the only connection point.
 ```
 
 **Key features:**
@@ -266,7 +250,6 @@ MIT
 
 - **Published Site:** https://engseclabs.github.io/graphgrc/
 - **Repository:** https://github.com/engseclabs/graphgrc/
-- **SCF Official:** https://securecontrolsframework.com/
 
 ---
 
