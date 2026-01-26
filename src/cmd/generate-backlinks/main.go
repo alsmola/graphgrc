@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/engseclabs/graphgrc/internal/generator"
-	"github.com/engseclabs/graphgrc/internal/parser"
+	"github.com/engseclabs/graphgrc/src/internal/generator"
+	"github.com/engseclabs/graphgrc/src/internal/parser"
 )
 
 func main() {
@@ -41,20 +41,21 @@ func main() {
 	}
 
 	// Define directories to scan for links
-	// Note: Scan custom controls and GRC documents for links (they link upward to framework controls)
+	// Note: Scan controls and GRC documents for links (they link to frameworks, standards, etc.)
 	// Also scan framework controls for any cross-framework links
+	// Note: These paths are relative to repoRoot (which may be set to docs/ directory)
 	directories := []string{
-		"custom",
+		"controls",
 		"standards",
 		"processes",
 		"policies",
 		"charter",
-		"soc2",
-		"gdpr",
-		"iso27001",
-		"iso27002",
-		"nist80053",
-		"scf",
+		"frameworks/soc2",
+		"frameworks/gdpr",
+		"frameworks/iso27001",
+		"frameworks/iso27002",
+		"frameworks/nist80053",
+		"frameworks/scf",
 	}
 
 	// If validate mode, just check for missing sections

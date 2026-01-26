@@ -13,7 +13,6 @@ The GraphGRC documentation contains thousands of interconnected markdown files w
 - **Broken links:** 171 (3.5%)
 
 The remaining broken links fall into these categories:
-1. **Template placeholders** (24) - `../custom/control-id.md` - intentional placeholders in templates
 2. **Missing framework controls** (147) - references to controls not yet generated (ISO 27701, some GDPR articles, SOC 2 PI controls)
 
 ## Available Make Targets
@@ -109,8 +108,6 @@ Removes:
 | `a-*.md` | ISO 27002 | `a-5.md` | `frameworks/iso27002/a-5.md` |
 | `\d+.md` | ISO 27001 | `7.md` | `frameworks/iso27001/7.md` |
 | `[a-z]{2}-\d+.md` | NIST | `ac-2.md` | `frameworks/nist80053/ac-2.md` |
-| `[a-z]{3}-\d{2}.md` | Custom | `acc-01.md` | `custom/acc-01.md` |
-| `[a-z]{3}-\d+*.md` | SCF | `gov-01.md` | `frameworks/scf/gov-01-*.md` |
 
 **Algorithm:**
 1. Read file content
@@ -208,7 +205,6 @@ jobs:
 
 The following link types cannot be automatically fixed:
 
-1. **Template placeholders:** `../custom/control-id.md` - intentional placeholders
 2. **Missing controls:** References to controls not yet generated
 3. **Typos in link text:** Validator can't detect semantic errors
 

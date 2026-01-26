@@ -68,11 +68,12 @@ func getDocumentType(filePath string) DocumentType {
 	// Normalize path to use forward slashes
 	filePath = filepath.ToSlash(filePath)
 
-	// Remove leading slash for easier matching
+	// Remove leading slash and docs/ prefix for easier matching
 	filePath = strings.TrimPrefix(filePath, "/")
+	filePath = strings.TrimPrefix(filePath, "docs/")
 
 	switch {
-	case strings.HasPrefix(filePath, "custom/"):
+	case strings.HasPrefix(filePath, "controls/"), strings.HasPrefix(filePath, "custom/"):
 		return TypeControls
 	case strings.HasPrefix(filePath, "standards/"):
 		return TypeStandards
@@ -82,7 +83,13 @@ func getDocumentType(filePath string) DocumentType {
 		return TypePolicies
 	case strings.HasPrefix(filePath, "charter/"):
 		return TypeCharter
-	case strings.HasPrefix(filePath, "soc2/"),
+	case strings.HasPrefix(filePath, "frameworks/soc2/"),
+		strings.HasPrefix(filePath, "frameworks/gdpr/"),
+		strings.HasPrefix(filePath, "frameworks/iso27001/"),
+		strings.HasPrefix(filePath, "frameworks/iso27002/"),
+		strings.HasPrefix(filePath, "frameworks/nist80053/"),
+		strings.HasPrefix(filePath, "frameworks/scf/"),
+		strings.HasPrefix(filePath, "soc2/"),
 		strings.HasPrefix(filePath, "gdpr/"),
 		strings.HasPrefix(filePath, "iso27001/"),
 		strings.HasPrefix(filePath, "iso27002/"),
